@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'workstation'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  ThinkCentre M93p
+bios: |
+  FBKT75AUS
+cpu: |
+  
+cpu-short: |
+  i7-4770
+chipset: |
+  
+chipset-short: |
+  Haswell
+gpu: |
+  
+gpu-short: |
+  GeForce GT 720
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    
+  credit: |
+    dispose256
+  link: |
+    https://groups.google.com/d/msg/qubes-users/MaJ9s7USf2s/2zgVX5SJTUkJ
+
+---
+

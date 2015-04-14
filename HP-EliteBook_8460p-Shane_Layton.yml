@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  HP
+model: |
+  EliteBook 8460p
+bios: |
+  68SCF Ver. F.08
+cpu: |
+  
+cpu-short: |
+  i5-2520M
+chipset: |
+  
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    
+  credit: |
+    Shane Layton
+  link: |
+    https://groups.google.com/d/msg/qubes-users/Fs6wwffU8oI/S5id3KxxUpwJ
+
+---
+

@@ -1,0 +1,85 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Thinkpad X220 (4290-W3W)
+bios: |
+  1.39
+cpu: |
+  
+cpu-short: |
+  i5-2520M
+chipset: |
+  
+chipset-short: |
+  QM67
+gpu: |
+  
+gpu-short: |
+  HD3000
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Stefan Boresch
+  link: |
+    https://groups.google.com/group/qubes-devel/msg/f41578eef913446a
+
+- works:
+    'yes'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/-b8b9fpo0UU/discussion'><span class='icon'></span>read more</a></td> <!-- Remarks -->
+  credit: |
+    Matt Tracy
+  link: |
+    https://groups.google.com/d/msg/qubes-users/-b8b9fpo0UU/RFh6HiWqt5oJ
+
+- works:
+    'yes'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11.1-2
+  remark: |
+    
+  credit: |
+    Matt Tracy
+  link: |
+    https://groups.google.com/d/msg/qubes-users/5tNavg4MhT4/dFXsYHXOgu4J
+
+---
+

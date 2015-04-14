@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'partial'
+brand: |
+  GIGABYTE
+model: |
+  GA-6PXSV4
+bios: |
+  R17
+cpu: |
+  
+cpu-short: |
+  Xeon E5
+chipset: |
+  
+chipset-short: |
+  C604
+gpu: |
+  
+gpu-short: |
+  Aspeed AST2300
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    TPM header available
+  credit: |
+    Nukama
+  link: |
+    https://groups.google.com/d/msg/qubes-users/yveUu94j26U/40sJaykesaEJ
+
+---
+

@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Zareason
+model: |
+  Ultra Lap 420
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  i5-3317U
+chipset: |
+  
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Ant
+  link: |
+    https://groups.google.com/d/msg/qubes-users/uKI-VBtKWxg/uKjsdGNSpSQJ
+
+---
+

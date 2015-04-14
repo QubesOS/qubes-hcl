@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'workstation'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Inspiron 660
+bios: |
+  A09
+cpu: |
+  
+cpu-short: |
+  i5-3330
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  Xeon E3-1200 Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/Nq7T0l4A2b0/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    KR
+  link: |
+    https://groups.google.com/d/msg/qubes-users/Nq7T0l4A2b0/IP_pwZMn9LYJ
+
+---
+

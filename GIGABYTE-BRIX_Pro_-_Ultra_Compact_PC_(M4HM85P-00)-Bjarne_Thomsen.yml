@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  GIGABYTE
+model: |
+  BRIX Pro / Ultra Compact PC (M4HM85P-00)
+bios: |
+  F2
+cpu: |
+  
+cpu-short: |
+  i5-4570R
+chipset: |
+  
+chipset-short: |
+  HM87
+gpu: |
+  
+gpu-short: |
+  Iris Pro 5200
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    
+  credit: |
+    Bjarne Thomsen
+  link: |
+    https://groups.google.com/d/msg/qubes-users/uvBcfCB8dxk/ZX-tV3y2tXEJ
+
+---
+

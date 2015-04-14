@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'workstation'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'partial'
+brand: |
+  Lenovo
+model: |
+  ThinkStation S30 4352G1G
+bios: |
+  A2KT44AUS
+cpu: |
+  
+cpu-short: |
+  E5-1620 v2
+chipset: |
+  
+chipset-short: |
+  Ivytown
+gpu: |
+  
+gpu-short: |
+  Radeon HD 6950
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    3.12.14-4
+  remark: |
+    Issue with sound, network and marvel raid. AEM untested.
+  credit: |
+    Hans Walter
+  link: |
+    https://groups.google.com/d/msg/qubes-users/EDxALP9GNFo/gAH7nZXd0CkJ
+
+---
+

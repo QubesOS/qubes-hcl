@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  ''
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  IdeaPad Y580
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  
+chipset: |
+  
+chipset-short: |
+  HM76 Express
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'no'
+  qubes: |
+    R2rc2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    Not able to install, HM76 Express Chipset does *not* support VT-d
+  credit: |
+    johny jj2
+  link: |
+    https://groups.google.com/d/msg/qubes-users/l542hyu8gqk/IjTjjcfGvKsJ
+
+---
+

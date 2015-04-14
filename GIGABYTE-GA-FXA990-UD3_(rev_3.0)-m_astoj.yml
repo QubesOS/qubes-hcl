@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'partial'
+tpm:
+  'partial'
+brand: |
+  Gigabyte
+model: |
+  GA-FXA990-UD3 (rev 3.0)
+bios: |
+  FB
+cpu: |
+  
+cpu-short: |
+  AMD FX-8350
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  GTX 470
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    IOMMU not tested with Qubes, working on other platforms <a class='ext-link' href=https://groups.google.com/d/msg/qubes-devel/qXct-TU4tKs/_JEtbQCyHl8J><span class='icon'></span>read more</a>, TPM header
+  credit: |
+    m astroj
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/oox94EsIduQ/7w4xUoK5pxwJ
+
+---
+

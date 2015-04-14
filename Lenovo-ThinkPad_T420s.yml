@@ -1,0 +1,100 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Thinkpad T420s
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  i5-2520M
+chipset: |
+  
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  
+gpu-short: |
+  HD graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+- works:
+    'yes'
+  qubes: |
+    R2B1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    AEM works
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+- works:
+    'yes'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    Requires kernel 3.2.30 to support S3 sleep (the default kernel S3 sleep causes system reboot)
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+- works:
+    'yes'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11
+  remark: |
+    
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+---
+

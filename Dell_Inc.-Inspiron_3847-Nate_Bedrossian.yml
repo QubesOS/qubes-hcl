@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'workstation'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Inspiron 3847
+bios: |
+  A05
+cpu: |
+  
+cpu-short: |
+  i7-4790
+chipset: |
+  
+chipset-short: |
+  Haswell
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    
+  credit: |
+    Nate Bedrossian
+  link: |
+    https://groups.google.com/d/msg/qubes-users/JQ-EQfuQIXA/Xg1uEMJyplcJ
+
+---
+

@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  ''
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Precision M4600
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  i7-2860QM
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  NVIDIA Quadro 1000M
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    nqe
+  link: |
+    https://groups.google.com/group/qubes-devel/browse_thread/thread/ddf35d12a35f96a3
+
+---
+

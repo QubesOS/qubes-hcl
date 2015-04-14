@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Thinkpad T440p
+bios: |
+  2.21
+cpu: |
+  
+cpu-short: |
+  i7-4800MQ
+chipset: |
+  
+chipset-short: |
+  Haswell
+gpu: |
+  
+gpu-short: |
+  HD graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11
+  remark: |
+    802.11 ac doesn't work with Fedora 18, but with Fedora 20
+  credit: |
+    7v5w7go9ub0o
+  link: |
+    https://groups.google.com/d/msg/qubes-users/r6kC4YHgDjM/yJXpvIdoWkUJ
+
+---
+

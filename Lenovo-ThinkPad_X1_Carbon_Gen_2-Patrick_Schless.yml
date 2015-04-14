@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'no'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Thinkpad X1 Carbon Gen 2
+bios: |
+  1.07
+cpu: |
+  
+cpu-short: |
+  i5-4300U
+chipset: |
+  
+chipset-short: |
+  Haswell-ULT
+gpu: |
+  
+gpu-short: |
+  HD4000
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11.1-2
+  remark: |
+    needs iwl7260-firmware in netvm
+  credit: |
+    Patrick Schless
+  link: |
+    https://groups.google.com/d/msg/qubes-users/cu_mJa4iDHk/v1FdT3ZGofEJ
+
+---
+

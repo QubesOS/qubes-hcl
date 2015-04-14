@@ -1,0 +1,57 @@
+Template for reports:
+
+---
+layout:
+  'hcl'
+type:
+  'laptop|desktop|workstation|server|motherboard'
+hvm:
+  'yes|no|partial'
+iommu:
+  'yes|no|partial'
+tpm:
+  'yes|no|partial'
+brand: |
+  
+model: |
+  
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes|no|partial'
+  qubes: |
+    
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    FIXAUTHOR
+  link: |
+    FIXLINK
+
+---
+

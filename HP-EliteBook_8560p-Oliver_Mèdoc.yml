@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  HP
+model: |
+  EliteBook 8560p
+bios: |
+  F.08
+cpu: |
+  
+cpu-short: |
+  i5-2540M
+chipset: |
+  
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  
+gpu-short: |
+  ATI Caicos
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/o_FTsPW6GD8/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Olivier Médoc
+  link: |
+    https://groups.google.com/d/msg/qubes-users/o_FTsPW6GD8/bjAD-CSpRKsJ
+
+---
+

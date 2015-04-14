@@ -1,0 +1,100 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Fujitsu
+model: |
+  S751
+bios: |
+  1.18
+cpu: |
+  
+cpu-short: |
+  i5-2520M
+chipset: |
+  
+chipset-short: |
+  QM67
+gpu: |
+  
+gpu-short: |
+  HD3000
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Zrubi
+  link: |
+    https://groups.google.com/forum/#!msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
+
+- works:
+    'yes'
+  qubes: |
+    R2B1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Zrubi
+  link: |
+    https://groups.google.com/forum/#!msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
+
+- works:
+    'partial'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    3.7.4
+  remark: |
+    needs kernel downgrade to 3.7.4
+  credit: |
+    Zrubi
+  link: |
+    https://groups.google.com/forum/#!msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
+
+- works:
+    'partial'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.7.4
+  remark: |
+    
+  credit: |
+    Zrubi
+  link: |
+    https://groups.google.com/forum/#!msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
+
+---
+

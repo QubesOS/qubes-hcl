@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'partial'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Thinkpad T500
+bios: |
+  3.22
+cpu: |
+  
+cpu-short: |
+  P8400
+chipset: |
+  
+chipset-short: |
+  GM45
+gpu: |
+  
+gpu-short: |
+  GMA 4500MHD
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11.1-2
+  remark: |
+    activated VT-d BIOS option not recognized in Qubes
+  credit: |
+    Jens Porup
+  link: |
+    https://groups.google.com/d/msg/qubes-users/EoG4VffajRw/-oeSfNCA-KIJ
+
+---
+

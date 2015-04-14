@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Latitude E6320
+bios: |
+  A06
+cpu: |
+  
+cpu-short: |
+  i5-2540M
+chipset: |
+  
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  
+gpu-short: |
+  HD graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/FyA7_Kzw1WA/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Alex
+  link: |
+    https://groups.google.com/d/msg/qubes-users/F-jVh62ANak/s57rqUWTY7kJ
+
+---
+

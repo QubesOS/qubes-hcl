@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Thinkpad X230 (2306CTO)
+bios: |
+  2.54
+cpu: |
+  
+cpu-short: |
+  i7-3520M
+chipset: |
+  
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    3.12.14-4
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/NXIL5rEh65o/rCBf1PYr2jsJ'><span class='icon'></span>read more</a>
+  credit: |
+    Franz Felix
+  link: |
+    https://groups.google.com/d/msg/qubes-users/NXIL5rEh65o/rCBf1PYr2jsJ
+
+---
+

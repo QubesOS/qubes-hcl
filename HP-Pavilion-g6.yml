@@ -1,0 +1,56 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Hewlett-Packard
+model: |
+  HP_Pavilion_g6_Notebook_PC
+bios: |
+  F.29
+cpu: |
+  AMD A10-4600M APU with Radeon(tm) HD Graphics
+cpu-short: |
+  A10-4600M
+chipset: |
+  00:00.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Root Complex [1022:1410]
+chipset-short: |
+  
+gpu: |
+  00:01.0 VGA compatible controller [0300]: Advanced Micro Devices, Inc. [AMD/ATI] Trinity [Radeon HD 7660G] [1002:9900] (prog-if 00 [VGA controller])
+gpu-short: |
+  
+network: |
+  02:00.0 Network controller: Ralink corp. RT3290 Wireless 802.11n 1T/1R PCIe
+  05:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8101E/RTL8102E PCI Express Fast Ethernet controller (rev 05)
+memory: |
+  7656 Mb
+scsi: |
+  TOSHIBA MQ01ABD0 Rev: AX00
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    4.1.6.1
+  kernel: |
+    3.12.23-1
+  remark: |
+    wifi, bluetooth, webcam not working
+  credit: |
+    JoseJ
+  link: |
+    https://groups.google.com/d/msg/qubes-users/hACWQwJf9ek/qvi0YzUFrT4J
+
+---
+

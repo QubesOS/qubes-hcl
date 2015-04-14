@@ -1,0 +1,70 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Thinkpad T420
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+- works:
+    'yes'
+  qubes: |
+    R2B1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    AEM works
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+---
+

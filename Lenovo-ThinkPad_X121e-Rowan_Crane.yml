@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  'partial'
+brand: |
+  Lenovo
+model: |
+  Thinkpad X121e
+bios: |
+  8QET56WW (1.17 )
+cpu: |
+  
+cpu-short: |
+  i3-2367M
+chipset: |
+  
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  
+gpu-short: |
+  HD3000
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    TPM present, AEM untested
+  credit: |
+    Rowan Crane
+  link: |
+    https://groups.google.com/d/msg/qubes-users/NnUzPPY8yTo/Swe2IvsjLi4J
+
+---
+

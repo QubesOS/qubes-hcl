@@ -1,0 +1,85 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Thinkpad T61
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  Nvidia Quadro NVS 140M
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+- works:
+    'yes'
+  qubes: |
+    R2B1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+- works:
+    'yes'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11.1-2
+  remark: |
+    
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+---
+

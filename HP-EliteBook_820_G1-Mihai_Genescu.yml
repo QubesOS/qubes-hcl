@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  HP
+model: |
+  EliteBook 820 G1
+bios: |
+  L71 Ver. 01.11
+cpu: |
+  
+cpu-short: |
+  i5-4300U
+chipset: |
+  
+chipset-short: |
+  Haswell
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2rc2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/8s98SegfdbI/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Mihai Genescu
+  link: |
+    https://groups.google.com/d/msg/qubes-users/8s98SegfdbI/pIOWgeJSuSAJ
+
+---
+

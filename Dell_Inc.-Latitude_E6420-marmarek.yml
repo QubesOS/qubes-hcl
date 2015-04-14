@@ -1,0 +1,100 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Latitude E6420
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  i5-2520M
+chipset: |
+  
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  
+gpu-short: |
+  HD graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    3.4.17
+  remark: |
+    needs kernel 3.4.17+
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+- works:
+    'partial'
+  qubes: |
+    R2B1
+  xen: |
+    
+  kernel: |
+    3.4.17
+  remark: |
+    needs kernel 3.4.17+
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+- works:
+    'partial'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    3.7.4
+  remark: |
+    Suspend doesn't work on 3.7.6 kernel, but work on 3.7.4
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+- works:
+    'partial'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11.1-2
+  remark: |
+    
+  credit: |
+    marmarek (Qubes core developer)
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
+
+---
+

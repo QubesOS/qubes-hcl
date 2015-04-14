@@ -1,0 +1,72 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'partial'
+tpm:
+  ''
+brand: |
+  Sony
+model: |
+  VAIO series Z2 2011 edition (VPCZ2190S)
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  i5-2540M
+chipset: |
+  
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  
+gpu-short: |
+  HD3000
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/fkC6em-Wqd0J'><span class='icon'></span>read more</a>
+  credit: |
+    Danny Fullerton
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/fkC6em-Wqd0J
+
+- works:
+    'yes'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11
+  bios: |
+    R0170H5
+  remark: |
+    BIOS has to be patched to activate VT-d, external Radeon HD 6700M
+  credit: |
+    Danny Fullerton
+  link: |
+    https://groups.google.com/d/msg/qubes-users/8urk8ZNeblg/jCD2iQyQQZwJ
+
+---
+

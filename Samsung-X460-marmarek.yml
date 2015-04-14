@@ -1,0 +1,85 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Samsung
+model: |
+  X460
+bios: |
+  06LY.M038. 20091110.JIP
+cpu: |
+  
+cpu-short: |
+  P8600
+chipset: |
+  
+chipset-short: |
+  PM45
+gpu: |
+  
+gpu-short: |
+  GeForce 9200M GS
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Qubes core developers
+  link: |
+    FIXLINK
+
+- works:
+    'partial'
+  qubes: |
+    R2B1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Qubes core developers
+  link: |
+    FIXLINK
+
+- works:
+    'yes'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11.1-2
+  remark: |
+    
+  credit: |
+    marmarek (Qubes core developer)
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
+
+---
+

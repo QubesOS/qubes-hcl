@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Thinkpad W530 (24385JU)
+bios: |
+  2.53
+cpu: |
+  
+cpu-short: |
+  i7-3740QM
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  nVidia Optimus
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    3.12.18-1
+  remark: |
+    display issues<a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/ReLqPcsvDwk/WbJdDUBqgTsJ'><span class='icon'></span>read more</a>
+  credit: |
+    Lab Man
+  link: |
+    https://groups.google.com/d/msg/qubes-users/ReLqPcsvDwk/WbJdDUBqgTsJ
+
+---
+

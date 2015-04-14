@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'workstation'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Precision T3400 Workstation
+bios: |
+  A09
+cpu: |
+  
+cpu-short: |
+  Q6600
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  Quadro NVS 290
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Andrew Sorensen
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/D16dM3rg8Iw/zOEZmjTJkRIJ
+
+---
+

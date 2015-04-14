@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Inspiron 3521
+bios: |
+  A12
+cpu: |
+  
+cpu-short: |
+  i3-3217U
+chipset: |
+  
+chipset-short: |
+  HM76
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'no'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    3.12.14-4
+  remark: |
+    NetVM hangs computer
+  credit: |
+    Nikita Mikhailov
+  link: |
+    https://groups.google.com/d/msg/qubes-users/SgUAMvUizp0/WND6yZtYP5cJ
+
+---
+

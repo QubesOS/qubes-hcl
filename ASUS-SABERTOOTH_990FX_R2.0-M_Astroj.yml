@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'partial'
+brand: |
+  ASUS
+model: |
+  SABERTOOTH 990FX R2.0
+bios: |
+  2301
+cpu: |
+  
+cpu-short: |
+  FX-8350
+chipset: |
+  
+chipset-short: |
+  990FX
+gpu: |
+  
+gpu-short: |
+  GeForce GTX 470
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    TPM header available
+  credit: |
+    M Astroj
+  link: |
+    https://groups.google.com/d/msg/qubes-users/DYDXbVI_x80/CGoHOQobdWwJ
+
+---
+

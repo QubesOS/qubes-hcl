@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  XPS 15 (9530)
+bios: |
+  A04
+cpu: |
+  
+cpu-short: |
+  i7-4702HQ
+chipset: |
+  
+chipset-short: |
+  Haswell
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    problem booting from external drive
+  credit: |
+    Subjunctive Post
+  link: |
+    https://groups.google.com/d/msg/qubes-users/__kXMAH00cQ/LyU0xL4GQbQJ
+
+---
+

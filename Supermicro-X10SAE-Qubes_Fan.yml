@@ -1,0 +1,70 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'partial'
+brand: |
+  Supermicro
+model: |
+  X10SAE
+bios: |
+  1.0
+cpu: |
+  
+cpu-short: |
+  Xeon E3-1245
+chipset: |
+  
+chipset-short: |
+  Haswell
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'bad'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    TPM header
+  credit: |
+    Qubes Fan
+  link: |
+    https://groups.google.com/d/msg/qubes-users/V9BLpdf4xCs/v4XcOjLT6uUJ
+
+- works:
+    'yes'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    TPM header
+  credit: |
+    Qubes Fan
+  link: |
+    https://groups.google.com/d/msg/qubes-users/V9BLpdf4xCs/v4XcOjLT6uUJ
+
+---
+

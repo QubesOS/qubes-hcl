@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  HP
+model: |
+  EliteBook 850 G1
+bios: |
+  L71 Ver. 01.20
+cpu: |
+  
+cpu-short: |
+  i7-4600U
+chipset: |
+  
+chipset-short: |
+  Haswell
+gpu: |
+  
+gpu-short: |
+  HD Graphics + Radeon HD 8730M
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.17.1-1
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/Bfikyrwhoc8/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Olivier Médoc
+  link: |
+    https://groups.google.com/d/msg/qubes-users/Bfikyrwhoc8/q-zhFrA0SK4J
+
+---
+

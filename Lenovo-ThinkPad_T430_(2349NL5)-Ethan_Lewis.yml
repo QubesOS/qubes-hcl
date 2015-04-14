@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Thinkpad T430 (2349NL5)
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  i5-3320M
+chipset: |
+  
+chipset-short: |
+  QM77
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    If VT-d is not working, disable it, save, reboot, shutdown, enable it, save, reboot
+  credit: |
+    Ethan Lewis
+  link: |
+    https://groups.google.com/d/msg/qubes-users/suzkdQ0pnX0/qYtGzY6KHvEJ
+
+---
+

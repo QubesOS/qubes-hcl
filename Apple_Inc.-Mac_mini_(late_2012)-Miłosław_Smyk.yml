@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Apple
+model: |
+  Mac mini (late 2012)
+bios: |
+  MM61.88Z.0106. B03.1211161202
+cpu: |
+  
+cpu-short: |
+  i7-3615QM
+chipset: |
+  
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    Qubes installation does not work, but running an installed system with some tweaks does.
+  credit: |
+    Miłosław Smyk
+  link: |
+    https://groups.google.com/d/msg/qubes-users/sA2JuEEQbdg/kpvaVuMCiFQJ
+
+---
+

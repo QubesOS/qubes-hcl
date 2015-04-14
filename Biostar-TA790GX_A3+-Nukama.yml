@@ -1,0 +1,70 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  'no'
+brand: |
+  Biostar
+model: |
+  TA790GX A3+
+bios: |
+  78DAA420
+cpu: |
+  
+cpu-short: |
+  AM3
+chipset: |
+  
+chipset-short: |
+  790GX/SB750
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.9.2-2
+  remark: |
+    #762
+  credit: |
+    Nukama
+  link: |
+    https://groups.google.com/d/msg/qubes-users/DTot3wX1-nQ/229c20xWrdQJ
+
+- works:
+    'yes'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    3.12.14-4
+  remark: |
+    USB-Devices are working in 3.12 installer and luks prompt again.
+  credit: |
+    Nukama
+  link: |
+    https://groups.google.com/d/msg/qubes-users/DTot3wX1-nQ/229c20xWrdQJ
+
+---
+

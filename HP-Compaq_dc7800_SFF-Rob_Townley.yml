@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'partial'
+tpm:
+  'partial'
+brand: |
+  HP
+model: |
+  Compaq dc7800 SFF
+bios: |
+  1.32
+cpu: |
+  
+cpu-short: |
+  E8400
+chipset: |
+  
+chipset-short: |
+  Q35
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.9.2-2
+  remark: |
+    IGP won't work with activated VT-d (3.12,3.11,3.7), <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/QmshQ6aHsCM/LTyn6mL0kFkJ'><span class='icon'></span>3,9 works</a>, TPM not tested.
+  credit: |
+    Rob Townley
+  link: |
+    https://groups.google.com/d/msg/qubes-users/QmshQ6aHsCM/nJv69i3jbWYJ
+
+---
+

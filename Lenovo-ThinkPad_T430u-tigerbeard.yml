@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Thinkpad T430u
+bios: |
+  2.08
+cpu: |
+  
+cpu-short: |
+  i7-3517M
+chipset: |
+  
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  
+gpu-short: |
+  HD Graphics + GT 620M
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2B1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-devel/Z9M_k3i6dxU/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    tigerbeard
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/Z9M_k3i6dxU/09CqBppyMnsJ
+
+---
+

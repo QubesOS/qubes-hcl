@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  ASUS
+model: |
+  N56VZ
+bios: |
+  N56VZ.216
+cpu: |
+  
+cpu-short: |
+  
+chipset: |
+  
+chipset-short: |
+  HM67 Express
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2rc2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    Chipset does not support VT-d
+  credit: |
+    Oleg Artemiev
+  link: 
+    https://groups.google.com/d/msg/qubes-users/KOBFFMJrvRw/JUB-TAoGwr8J
+
+---
+

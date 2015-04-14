@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'partial'
+iommu:
+  'partial'
+tpm:
+  'partial'
+brand: |
+  Dell
+model: |
+  Optiplex 780
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  Q6600
+chipset: |
+  
+chipset-short: |
+  Q45
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'no'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    Qubes installation does not work. VT-x/VT-d/TPM present-untested
+  credit: |
+    hsgqq7h02
+  link: |
+    https://groups.google.com/d/msg/qubes-users/xjwpuPKcxIE/aprxY8YLQSIJ
+
+---
+

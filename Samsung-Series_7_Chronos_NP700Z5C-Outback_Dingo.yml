@@ -1,0 +1,85 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Samsung
+model: |
+  Series 7 Chronos NP700Z5C
+bios: |
+  P04ABJ
+cpu: |
+  
+cpu-short: |
+  i7-3635QM
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  nVidia Optimus
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ'><span class='icon'></span>read more</a>
+  credit: |
+    Outback Dingo
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ
+
+- works:
+    'yes'
+  qubes: |
+    R2B1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ'><span class="icon"></span>read more</a>
+  credit: |
+    Outback Dingo
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ
+
+- works:
+    'yes'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-devel/Wu1mn9f1qgM/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Outback Dingo
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ
+
+---
+

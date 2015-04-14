@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'partial'
+brand: |
+  Dell
+model: |
+  Latitude E7440
+bios: |
+  A09
+cpu: |
+  
+cpu-short: |
+  i7-4600U
+chipset: |
+  
+chipset-short: |
+  Haswell
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    TPM present, AEM untested
+  credit: |
+    Bjarne Thomsen
+  link: |
+    https://groups.google.com/d/msg/qubes-users/IwQuI3J1HAY/1HDs-IzRIlsJ
+
+---
+

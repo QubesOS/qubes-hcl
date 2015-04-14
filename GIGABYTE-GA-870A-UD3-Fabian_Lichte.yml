@@ -1,0 +1,70 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  'no'
+brand: |
+  GIGABYTE
+model: |
+  GA-870A-UD3
+bios: |
+  F5a
+cpu: |
+  
+cpu-short: |
+  Phenom II X4 955
+chipset: |
+  
+chipset-short: |
+  870-SB850
+gpu: |
+  
+gpu-short: |
+  GTX 460
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'no'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    3.11.1-2
+  remark: |
+    
+  credit: |
+    Fabian Lichte
+  link: |
+    https://groups.google.com/d/msg/qubes-users/S4Ju0zDM2mI/Q4GZ4S2txdMJ
+
+- works:
+    'yes'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    3.12.14-4
+  remark: |
+    
+  credit: |
+    Fabian Lichte
+  link: |
+    https://groups.google.com/d/msg/qubes-users/S4Ju0zDM2mI/Q4GZ4S2txdMJ
+
+---
+

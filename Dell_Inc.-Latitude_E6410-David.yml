@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'partial'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Latitude E6410
+bios: |
+  A16
+cpu: |
+  
+cpu-short: |
+  i5-M560
+chipset: |
+  
+chipset-short: |
+  Arrandale
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    Intel graphics unusable with enabled VT-d
+  credit: |
+    David
+  link: |
+    https://groups.google.com/d/msg/qubes-users/lgudSW8yQu8/9kc1cD_aungJ
+
+---
+

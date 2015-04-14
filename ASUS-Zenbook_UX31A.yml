@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  ASUS
+model: |
+  Zenbook UX31A
+bios: |
+  UX31A.212
+cpu: |
+  
+cpu-short: |
+  i5-3317U
+chipset: |
+  
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  
+gpu-short: |
+  HD4000
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    3.12.14-4
+  remark: |
+    USB Ethernet dongle not working.
+  credit: |
+    Darren Thurston
+  link: |
+    https://groups.google.com/d/msg/qubes-users/WFukA9TlQog/fua6-o89AEoJ
+
+---
+

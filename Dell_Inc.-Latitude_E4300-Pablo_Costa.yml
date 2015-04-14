@@ -1,0 +1,69 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Latitude E4300
+bios: |
+  A24
+cpu: |
+  
+cpu-short: |
+  P9600
+chipset: |
+  
+chipset-short: |
+  Mobile 4 Series Chipset
+gpu: |
+  
+gpu-short: |
+  GMA 4500MHD
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'no'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-devel/LNJqSbH0cOQ/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Pablo Costa
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/LNJqSbH0cOQ/VC9EwEDrXMQJ
+
+- works:
+    'partial'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.9
+  remark: |
+    Runs only with kernel 3.9 <a class='ext-link' href='https://groups.google.com/d/topic/qubes-devel/LNJqSbH0cOQ/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Pablo Costa
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/LNJqSbH0cOQ/VC9EwEDrXMQJ
+---
+

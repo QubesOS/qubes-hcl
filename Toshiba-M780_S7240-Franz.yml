@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  ''
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Toshiba
+model: |
+  M780 S7240
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Franz
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/Zul8mQoI2OI/-jzfJL2fV84J
+
+---
+

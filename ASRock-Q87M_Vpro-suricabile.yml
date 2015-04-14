@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  ASRock
+model: |
+  Q87M Vpro
+bios: |
+  P1.50
+cpu: |
+  
+cpu-short: |
+  LGA1150
+chipset: |
+  
+chipset-short: |
+  Q87
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11.1-2
+  remark: |
+    Problems with Power Saving, Audio and USB3, TPM not tested
+  credit: |
+    suricabile
+  link: |
+    https://groups.google.com/d/msg/qubes-users/oExJBIDsAwQ/lwAzNNe7OcYJ
+
+---
+

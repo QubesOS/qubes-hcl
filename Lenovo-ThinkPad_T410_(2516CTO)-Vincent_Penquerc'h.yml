@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Thinkpad T410 (2516CTO)
+bios: |
+  1.34
+cpu: |
+  
+cpu-short: |
+  i7-620M
+chipset: |
+  
+chipset-short: |
+  Arrandale
+gpu: |
+  
+gpu-short: |
+  HD graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.9
+  remark: |
+    
+  credit: |
+    Vincent Penquerc'h
+  link: |
+    https://groups.google.com/d/msg/qubes-users/WsHQ_GqXdT4/63xtC0iqXXEJ
+
+---
+

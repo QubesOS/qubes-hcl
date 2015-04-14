@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  ASUS
+model: |
+  P5GC-MX/1333
+bios: |
+  0413
+cpu: |
+  
+cpu-short: |
+  E8400
+chipset: |
+  
+chipset-short: |
+  945GC
+gpu: |
+  
+gpu-short: |
+  embedded VGA
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    does boot and generates hcl-report
+  credit: |
+    Motiv8
+  link: |
+    https://groups.google.com/d/msg/qubes-users/dRyb4FQJ_Go/EM-NVcVGI9EJ
+
+---
+

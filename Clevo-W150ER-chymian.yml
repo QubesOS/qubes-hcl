@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Clevo
+model: |
+  W150ER
+bios: |
+  4.6.5
+cpu: |
+  
+cpu-short: |
+  i7-3612QM
+chipset: |
+  
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  
+gpu-short: |
+  Geforce GT 650M
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    3.12.14-4
+  remark: |
+    
+  credit: |
+    chymian
+  link: |
+    https://groups.google.com/d/msg/qubes-users/YOE2ds6RVWc/n24INxfu11gJ
+
+---
+

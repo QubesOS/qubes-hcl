@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  HP
+model: |
+  EliteBook 8540p
+bios: |
+  F.0C
+cpu: |
+  
+cpu-short: |
+  i5-2540M
+chipset: |
+  
+chipset-short: |
+  Arrandale
+gpu: |
+  
+gpu-short: |
+  NVIDIA GT216
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/o_FTsPW6GD8/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Olivier Médoc
+  link: |
+    https://groups.google.com/d/msg/qubes-users/o_FTsPW6GD8/bjAD-CSpRKsJ
+
+---
+

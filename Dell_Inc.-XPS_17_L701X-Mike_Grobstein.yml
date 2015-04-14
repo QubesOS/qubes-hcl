@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  XPS 17 L701X
+bios: |
+  A10
+cpu: |
+  
+cpu-short: |
+  i5-480M
+chipset: |
+  
+chipset-short: |
+  Arrandale
+gpu: |
+  
+gpu-short: |
+  NVIDIA GT 435M
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    wired network adapter not assigned to netvm by default?
+  credit: |
+    Mike Grobstein
+  link: |
+    https://groups.google.com/d/msg/qubes-users/o5rew2izuQc/b9nHv-8cNXQJ
+
+---
+

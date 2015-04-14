@@ -1,0 +1,70 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Thinkpad T440p (20AN00C1MD)
+bios: |
+  GLET70WW (2.24 )
+cpu: |
+  
+cpu-short: |
+  i7-4900MQ
+chipset: |
+  
+chipset-short: |
+  QM87
+gpu: |
+  
+gpu-short: |
+  GeForce GT 730M
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    no VT-d with i7-4710MQ; a i5-4300M, i5-4330M, i7-4600M, i7-4800MQ or i7-4900MQ CPU could support VT-d
+  credit: |
+    Bjarne Thomsen
+  link: |
+    https://groups.google.com/d/msg/qubes-users/izj-g0HNA_4/HCrOjLk9Pm4J
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    TPM working, updated to i7-4900MQ with Vt-d working
+  credit: |
+    Bjarne Thomsen
+  link: |
+    https://groups.google.com/d/msg/qubes-users/LYQwA7-9wYA/RX1eXauxtXIJ
+
+---
+

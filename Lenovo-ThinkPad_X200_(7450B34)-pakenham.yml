@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  'partial'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X200 (7450B34)
+bios: |
+  7WET71WW (3.21 )
+cpu: |
+  Intel(R) Core(TM)2 Duo CPU     L9400  @ 1.86GHz
+cpu-short: |
+   L9400
+chipset: |
+  00:00.0 Host bridge [0600]: Intel Corporation Mobile 4 Series Chipset Memory Controller Hub [8086:2a40] (rev 07)
+chipset-short: |
+  Cantiga GS45
+gpu: |
+  00:02.0 VGA compatible controller [0300]: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a42] (rev 07)
+  00:02.1 Display controller [0380]: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a43] (rev 07)
+gpu-short: |
+  HD graphics
+network: |
+  
+memory: |
+  3987 Mb
+scsi: |
+  KINGSTON SV300S3 Rev: 527A
+  File-CD Gadget   Rev: 0000
+  File-CD Gadget   Rev: 0000
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    4.1.6.1
+  kernel: |
+    3.9.2-3
+  remark: |
+    disable AMT in BIOS, AEM not tested, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/L-wTSdQ_luA/cHjuhjkY8tMJ'><span class='icon'></span>read more</a>
+  credit: |
+    pakenham
+  link: |
+    https://groups.google.com/d/msg/qubes-users/h1rcG9QDf_c/_m0NV9xgbtMJ
+
+---
+

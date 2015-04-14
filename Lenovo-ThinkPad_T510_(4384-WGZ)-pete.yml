@@ -1,0 +1,70 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Thinkpad T510 (4384-WGZ)
+bios: |
+  1.52
+cpu: |
+  
+cpu-short: |
+  i5-520M
+chipset: |
+  
+chipset-short: |
+  Arrandale
+gpu: |
+  
+gpu-short: |
+  HD graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.9.2
+  remark: |
+    
+  credit: |
+    pete
+  link: |
+    https://groups.google.com/d/msg/qubes-users/UP9BK_yn-Pk/DR6PBVF4GlgJ
+
+- works:
+    'yes'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    3.9.2
+  remark: |
+    Audio is always muted after reboot
+  credit: |
+    pete
+  link: |
+    https://groups.google.com/d/msg/qubes-users/4ASK0cBfMM0/11U7Zx-f7HwJ
+
+---
+

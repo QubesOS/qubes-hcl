@@ -1,0 +1,70 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  HP
+model: |
+  Pavilion Sleekbook 14-B030TU
+bios: |
+  F.06
+cpu: |
+  
+cpu-short: |
+  i5-3317U
+chipset: |
+  
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2B1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class="ext-link" href="https://groups.google.com/d/topic/qubes-devel/ZC_SQJhXVOM/discussion"><span class="icon"></span>read more</a>
+  credit: |
+    Stephen Boyd
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/ZC_SQJhXVOM/4aLjEc7GIsUJ
+
+- works:
+    'yes'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Stephen Boyd
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/ZC_SQJhXVOM/4aLjEc7GIsUJ
+
+---
+

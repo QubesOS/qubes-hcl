@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Thinkpad X1 Carbon (3444CTO)
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  i5-3427U
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Ulrich Pfeifer
+  link: |
+    https://groups.google.com/d/msg/qubes-users/UCuF41rq758/BRhc7lTecsMJ
+
+---
+

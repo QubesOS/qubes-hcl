@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  ''
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  IdeaPad Y500
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  i5-3230M
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  GT650M-SLI
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'no'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    Not able to install
+  credit: |
+    Christoph Wendler
+  link: |
+    https://groups.google.com/d/msg/qubes-users/k9hX_QIut2s/DMkWQp7b1_AJ
+
+---
+

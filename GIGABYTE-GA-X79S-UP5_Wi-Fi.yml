@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'partial'
+tpm:
+  'partial'
+brand: |
+  Gigabyte
+model: |
+  GA-X79S-UP5 Wi-Fi
+bios: |
+  1.0
+cpu: |
+  
+cpu-short: |
+  LGA2011
+chipset: |
+  
+chipset-short: |
+  C606
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    ''
+  qubes: |
+    
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    IOMMU not tested with Qubes, VT-d option in BIOS according to <a class='ext-link' href=http://download.gigabyte.eu/FileList/Manual/mb-manual_ga-x79s-up5_e.pdf><span class='icon'></span>manual</a>, TPM header
+  credit: |
+    none
+  link: |
+    
+
+---
+

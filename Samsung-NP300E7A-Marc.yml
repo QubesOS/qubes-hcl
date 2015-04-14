@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Samsung
+model: |
+  NP300E7A
+bios: |
+  P04ABJ
+cpu: |
+  
+cpu-short: |
+  i3-2330M
+chipset: |
+  
+chipset-short: |
+  HM65
+gpu: |
+  
+gpu-short: |
+  HD3000
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11.1-2
+  remark: |
+    
+  credit: |
+    Marc
+  link: |
+    https://groups.google.com/d/msg/qubes-users/dzYwiYzvWYM/iOyq3V2y5L4J
+
+---
+

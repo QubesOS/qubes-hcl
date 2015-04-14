@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  ''
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  ASUS
+model: |
+  ROG CG8565
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  
+chipset: |
+  
+chipset-short: |
+  Z68
+gpu: |
+  
+gpu-short: |
+  HD Graphics + GTX590/GTX560Ti
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'no'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    Qubes installation does not work.
+  credit: |
+    c.hellbom
+  link: |
+    https://groups.google.com/d/msg/qubes-users/sNdZLeeRei4/OFFNTCQ8gz8J
+
+---
+

@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'workstation'
+hvm:
+  ''
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  PowerEdge T110 II
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  Xeon E3-1230
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  onboard Matrox
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Geoff
+  link: |
+    https://groups.google.com/group/qubes-devel/msg/8a894915909eeaee
+
+---
+

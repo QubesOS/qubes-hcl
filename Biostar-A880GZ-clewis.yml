@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  ''
+iommu:
+  ''
+tpm:
+  'no'
+brand: |
+  Biostar
+model: |
+  A880GZ
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  AM3+
+chipset: |
+  
+chipset-short: |
+  880G/SB850
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.9.2-2
+  remark: |
+    #762
+  credit: |
+    clewis
+  link: |
+    https://groups.google.com/d/msg/qubes-users/DTot3wX1-nQ/cpCsRfs5PfgJ
+
+---
+

@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  ASUS
+model: |
+  X750JA
+bios: |
+  X750JB.208
+cpu: |
+  
+cpu-short: |
+  i7-4700HQ
+chipset: |
+  
+chipset-short: |
+  HM86
+gpu: |
+  
+gpu-short: |
+  HD Graphics 4600
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    Enable legacy CSM and disable secure boot in BIOS
+  credit: |
+    HawKing
+  link: |
+    https://groups.google.com/d/msg/qubes-users/SPpxgzFoAdI/Hg2ui1WYhFMJ
+
+---
+

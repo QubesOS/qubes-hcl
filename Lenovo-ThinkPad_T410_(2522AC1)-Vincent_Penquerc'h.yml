@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Thinkpad T410 (2522AC1)
+bios: |
+  1.32
+cpu: |
+  
+cpu-short: |
+  i5-520M
+chipset: |
+  
+chipset-short: |
+  Arrandale
+gpu: |
+  
+gpu-short: |
+  HD graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    3.12.14-4
+  remark: |
+    AEM works
+  credit: |
+    Vincent Penquerc'h
+  link: |
+    https://groups.google.com/d/msg/qubes-users/68PRfx5FteY/H6rvQ6ojEysJ
+
+---
+

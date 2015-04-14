@@ -1,0 +1,108 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Thinkpad T430s
+bios: |
+  2.05
+cpu: |
+  
+cpu-short: |
+  i5-3320M
+chipset: |
+  
+chipset-short: |
+  QM77
+gpu: |
+  
+gpu-short: |
+  HD4000
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2B1
+  xen: |
+    
+  kernel: |
+    
+  bios: |
+    2.05
+  remark: |
+    <a class="ext-link" href="https://groups.google.com/d/topic/qubes-devel/Z9seyOT46Ro/discussion"><span class="icon"></span>read more</a>
+  credit: |
+    cprise
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/Z9seyOT46Ro/wX6tsrxE84sJ
+
+- works:
+    'yes'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  bios: |
+    2.05
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/V4PQYEBuoSg/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    cprise
+  link: |
+    https://groups.google.com/d/msg/qubes-users/V4PQYEBuoSg/udLCHyR6RUUJ
+
+- works:
+    'yes'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11
+  bios: |
+    2.05
+  remark: |
+    
+  credit: |
+    cprise
+  link: |
+    https://groups.google.com/d/msg/qubes-users/Ll_pPP7glwI/jtRbKtQO_rMJ
+
+- works:
+    'yes'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    3.12.14-4
+  bios: |
+    2.58
+  remark: |
+    AEM works
+  credit: |
+    cprise
+  link: |
+    https://groups.google.com/d/msg/qubes-users/452tkVCzvOw/_dQ8DXaDzp0J
+
+---
+

@@ -1,0 +1,100 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Sony
+model: |
+  VAIO Z 12 (2010 edition)
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='wiki' href='/wiki/SonyVaioTinkering'>read more</a>
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+- works:
+    'partial'
+  qubes: |
+    R2B1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+- works:
+    'partial'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+- works:
+    'yes'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11
+  remark: |
+    
+  credit: |
+    Qubes core developers
+  link: |
+    
+
+---
+

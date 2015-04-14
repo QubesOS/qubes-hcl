@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Latitude E6410
+bios: |
+  A16
+cpu: |
+  
+cpu-short: |
+  i7-M640
+chipset: |
+  
+chipset-short: |
+  Arrandale
+gpu: |
+  
+gpu-short: |
+  NVS 3100M
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    3.12.23-1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    Pablo Costa
+  link: |
+    https://groups.google.com/d/msg/qubes-users/lgudSW8yQu8/pj66q_Z8zTIJ
+
+---
+

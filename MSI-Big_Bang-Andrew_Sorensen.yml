@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  ''
+iommu:
+  ''
+tpm:
+  ''
+brand: |
+  MSI
+model: |
+  Big Bang
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  i7-950
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  Radeon HD 6770
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-devel/TxzaoodB02o/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Andrew Sorensen
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/TxzaoodB02o/NxVHjaPoRYoJ
+
+---
+

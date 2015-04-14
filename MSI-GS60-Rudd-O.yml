@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  MSI
+model: |
+  GS60
+bios: |
+  E16H2IMS.103
+cpu: |
+  
+cpu-short: |
+  i7-4700HQ
+chipset: |
+  
+chipset-short: |
+  Haswell
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    3.12.18-1
+  remark: |
+    
+  credit: |
+    Rudd-O
+  link: |
+    https://groups.google.com/d/msg/qubes-users/Sz0Nuhi4N0o/jIjFnf2XCKUJ
+
+---
+

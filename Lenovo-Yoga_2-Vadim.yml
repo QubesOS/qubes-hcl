@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Yoga 2
+bios: |
+  96CN23WW(V1.09)
+cpu: |
+  
+cpu-short: |
+  i3-4010U
+chipset: |
+  
+chipset-short: |
+  Haswell
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    required patching for working wifi
+  credit: |
+    Vadim
+  link: |
+    https://groups.google.com/d/msg/qubes-users/3WdYjv4QHIc/YIWiyoWDFBkJ
+
+---
+

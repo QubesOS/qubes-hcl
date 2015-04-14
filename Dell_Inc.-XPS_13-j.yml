@@ -1,0 +1,85 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  ''
+iommu:
+  ''
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  XPS 13
+bios: |
+  A03
+cpu: |
+  
+cpu-short: |
+  i5
+chipset: |
+  
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    j
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/7JumqdldVJM/n9TiDVxc2jkJ
+
+- works:
+    'yes'
+  qubes: |
+    R2B1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class="ext-link" href="https://groups.google.com/d/msg/qubes-devel/7JumqdldVJM/n9TiDVxc2jkJ"><span class="icon">read more</span></a>
+  credit: |
+    j
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/7JumqdldVJM/n9TiDVxc2jkJ
+
+- works:
+    'yes'
+  qubes: |
+    R2B2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/jamRkZJDC0g/KTniY0Y3dioJ'><span class='icon'></span>read more</a>
+  credit: |
+    j
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/7JumqdldVJM/n9TiDVxc2jkJ
+
+---
+

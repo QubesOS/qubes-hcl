@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  ''
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Toshiba
+model: |
+  Tecra A11-15X
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  i7-M620
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    
+  credit: |
+    PirBoazo
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/wNX2oz1nK2I/YI5ro4NMppgJ
+
+---
+

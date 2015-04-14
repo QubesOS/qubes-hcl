@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Thinkpad T60
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  T7600
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  GMA 950
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'no'
+  qubes: |
+    R2rc2
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    Does not install
+  credit: |
+    saltykremlin
+  link: |
+    https://groups.google.com/d/msg/qubes-users/cpIE1ybuwoA/HDriMPH0vGcJ
+
+---
+

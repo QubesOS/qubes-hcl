@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  'no'
+brand: |
+  ASUS
+model: |
+  M4A89GTD USB3/PRO
+bios: |
+  3029
+cpu: |
+  
+cpu-short: |
+  
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    
+  remark: |
+    with Phenom II X4 965 and Radeon HD 5750
+  credit: |
+    David Kennedy
+  link: |
+    https://groups.google.com/d/msg/qubes-users/6UPz3B0hg_U/bNcRAMiYJekJ
+
+---
+

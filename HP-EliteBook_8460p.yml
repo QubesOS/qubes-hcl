@@ -1,0 +1,56 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Hewlett-Packard
+model: |
+  HP_EliteBook_8460p
+bios: |
+  68SCF Ver. F.50
+cpu: |
+  Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+cpu-short: |
+  i5-2520M
+chipset: |
+  00:00.0 Host bridge [0600]: Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  00:02.0 VGA compatible controller [0300]: Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0126] (rev 09)
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory:  |
+  8098 Mb
+scsi: |
+  INTEL SSDSA2BW16 Rev: 4PC1
+  DVD A  DS8A8SH   Rev: KH61
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    4.1.6.1
+  kernel: |
+    3.12.23-1
+  remark: |
+    
+  credit: |
+    Ray Rizzuto Jr
+  link: |
+    https://groups.google.com/d/msg/qubes-users/xVMe56e4BXQ/lJVUTqC1a2oJ
+
+---
+

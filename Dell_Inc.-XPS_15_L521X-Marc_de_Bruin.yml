@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  
+model: |
+  XPS 15 L521X
+bios: |
+  A16
+cpu: |
+  
+cpu-short: |
+  i7-3632QM
+chipset: |
+  
+chipset-short: |
+  HM77
+gpu: |
+  
+gpu-short: |
+  HD Graphics + GeForce GT 640M
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    Does not visually ask for the password when opted to encrypt the target disk for installation.
+  credit: |
+    Marc de Bruin
+  link: |
+    https://groups.google.com/d/msg/qubes-users/yDSROimihuY/lsnCcK07huEJ
+
+---
+

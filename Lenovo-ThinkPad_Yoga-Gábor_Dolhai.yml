@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Thinkpad Yoga
+bios: |
+  GQET35WW (1.15 )
+cpu: |
+  
+cpu-short: |
+  i5-4200U
+chipset: |
+  
+chipset-short: |
+  Haswell
+gpu: |
+  
+gpu-short: |
+  HD Graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.12.23-1
+  remark: |
+    touchscreen not working
+  credit: |
+    Gábor Dolhai
+  link: |
+    https://groups.google.com/d/msg/qubes-devel/kTRBgRc7jyY/aBp61c6iYL4J
+
+---
+

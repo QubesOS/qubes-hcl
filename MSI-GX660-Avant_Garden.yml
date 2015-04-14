@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  MSI
+model: |
+  GX660
+bios: |
+  1.0L
+cpu: |
+  
+cpu-short: |
+  i5-460M
+chipset: |
+  
+chipset-short: |
+  PM55
+gpu: |
+  
+gpu-short: |
+  Radeon HD5870
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2B3
+  xen: |
+    
+  kernel: |
+    3.11.1-2
+  remark: |
+    
+  credit: |
+    Avant Garden
+  link: |
+    https://groups.google.com/d/msg/qubes-users/UrWYjkHwon8/TPE0XSBiPDQJ
+
+---
+

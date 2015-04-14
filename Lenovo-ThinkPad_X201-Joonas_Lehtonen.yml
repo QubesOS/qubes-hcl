@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  Thinkpad X201
+bios: |
+  
+cpu: |
+  
+cpu-short: |
+  i5-520M
+chipset: |
+  
+chipset-short: |
+  
+gpu: |
+  
+gpu-short: |
+  HD3000
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2rc1
+  xen: |
+    
+  kernel: |
+    3.9.2-2
+  remark: |
+    X problem with activated VT-d on all other kernel versions
+  credit: |
+    Joonas Lehtonen
+  link: |
+    https://groups.google.com/d/msg/qubes-users/z5BEjSuR7VE/CD2JMeAhDaoJ
+
+---
+

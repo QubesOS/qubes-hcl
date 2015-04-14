@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'partial'
+brand: |
+  Lenovo
+model: |
+  Thinkpad X1 Carbon (20BSCTO1WW)
+bios: |
+  N14ET25W (1.03 )
+cpu: |
+  
+cpu-short: |
+  i5-5200U
+chipset: |
+  
+chipset-short: |
+  Broadwell-U
+gpu: |
+  
+gpu-short: |
+  HD5500
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2
+  xen: |
+    
+  kernel: |
+    3.18.5-101
+  remark: |
+    graphics not supported with R2 kernel, install with kickstart file and use 3.18 kernel, TPM present-untested
+  credit: |
+    george
+  link: |
+    https://groups.google.com/d/msg/qubes-users/-9qRHSkwfy8/CCx08nnTVEAJ
+
+---
+
