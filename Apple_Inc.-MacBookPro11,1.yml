@@ -1,0 +1,59 @@
+---
+layout: 
+  'hcl'
+type:   
+  'laptop'
+hvm: 
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Apple_Inc.
+model: |
+  MacBookPro11,1
+bios: |
+  MBP111.88Z.0138. B14.1501071216
+cpu: |
+  Intel(R) Core(TM) i7-4558U CPU @ 2.80GHz
+cpu-short: |
+  i7-4558U
+chipset: |
+  00:00.0 Host bridge [0600]: Intel Corporation Haswell-ULT DRAM Controller [8086:0a04] (rev 09)
+chipset-short: |
+  Haswell-ULT
+gpu: |
+  00:02.0 VGA compatible controller [0300]: Intel Corporation Haswell-ULT Integrated Graphics Controller [8086:0a2e] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  HD Graphics
+network: |
+  03:00.0 Network controller: Broadcom Corporation BCM4360 802.11ac Wireless Network Adapter (rev 03)
+  0a:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM57762 Gigabit Ethernet PCIe
+memory: |
+  16292 Mb
+scsi: |
+  APPLE SSD SM0512 Rev: UXM2
+  Extreme          Rev: 0001
+  SD Card Reader   Rev: 3.00
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R2
+  xen: |
+    4.1.6.1
+  kernel: |
+    3.12.23-1
+  remark: |
+    wifi does not work
+  credit: |
+    William Welton
+  link: |
+    https://groups.google.com/d/msg/qubes-users/YlCNr2KnttQ/HAZUU_DzGTMJ
+
+---
+
+
