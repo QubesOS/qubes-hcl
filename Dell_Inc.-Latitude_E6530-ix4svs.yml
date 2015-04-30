@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Latitude E6530
+bios: |
+  A15
+cpu: |
+  Intel(R) Core(TM) i7-3540M CPU @ 3.00GHz
+cpu-short: |
+  i7-3540M
+chipset: |
+  00:00.0 Host bridge [0600]: Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  
+gpu: |
+  00:02.0 VGA compatible controller [0300]: Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+  01:00.0 VGA compatible controller [0300]: NVIDIA Corporation GF108GLM [NVS 5200M] [10de:0dfc] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  
+network: |
+  00:19.0 Ethernet controller: Intel Corporation 82579LM Gigabit Network Connection (rev 04)
+  03:00.0 Network controller: Intel Corporation Centrino Ultimate-N 6300 (rev 35)
+memory: |
+  16286
+scsi: |
+  LITEONIT LCS-256 Rev: DC81
+  DVD+-RW DU-8A5HH Rev: SD11
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    4.1.6.1
+  kernel: |
+    3.12.23-1
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/forum/#!topic/qubes-users/e96S3KazSGA'><span class='icon'></span>read more</a>
+  credit: |
+    IX4 SVS
+  link: |
+    https://groups.google.com/d/msg/qubes-users/e96S3KazSGA/HZMjM0-AnQ4J
+
+---
+
