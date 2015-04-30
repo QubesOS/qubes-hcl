@@ -1,0 +1,57 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Hewlett-Packard
+model: |
+  HP_EliteBook_8440p
+bios: |
+  68CCU Ver. F.11
+cpu: |
+  Intel(R) Core(TM) i5 CPU M 540 @ 2.53GHz
+cpu-short: |
+  i5-540M
+chipset: |
+  00:00.0 Host bridge [0600]: Intel Corporation Core Processor DRAM Controller [8086:0044] (rev 02)
+chipset-short: |
+  
+gpu: |
+  00:02.0 VGA compatible controller [0300]: Intel Corporation Core Processor Integrated Graphics Controller [8086:0046] (rev 02) (prog-if 00 [VGA controller])
+gpu-short: |
+  HD Graphics
+network: |
+  00:19.0 Ethernet controller: Intel Corporation 82577LM Gigabit Network Connection (rev 05)
+  43:00.0 Network controller: Intel Corporation Centrino Advanced-N 6200 (rev 35)
+memory:  |
+  7983 Mb
+scsi: |
+  OCZ-VERTEX2      Rev: 1.35
+  DVD RW AD-7711H  Rev: 1.81
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    4.1.6.1
+  kernel: |
+    3.9.2-3
+  remark: |
+    works only with 3.9 kernel
+  credit: |
+    jeff
+  link: |
+    https://groups.google.com/d/msg/qubes-users/tE23F8Ut6LQ/lOEQQ2X6XrIJ
+
+---
+
