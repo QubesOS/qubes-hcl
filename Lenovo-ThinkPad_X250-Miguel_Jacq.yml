@@ -1,0 +1,56 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'no'
+iommu:
+  'no'
+tpm:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Thinkpad X250
+bios: |
+  N10ET28W (1.05 )
+cpu: |
+  Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+cpu-short: |
+  i5-5200U
+chipset: |
+  00:00.0 Host bridge [0600]: Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
+chipset-short: |
+  Broadwell-U
+gpu: |
+  00:02.0 VGA compatible controller [0300]: Intel Corporation Broadwell-U Integrated Graphics [8086:1616] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  HD Graphics
+network: |
+  00:02.0 VGA compatible controller [0300]: Intel Corporation Broadwell-U Integrated Graphics [8086:1616] (rev 09) (prog-if 00 [VGA controller])
+  03:00.0 Network controller: Intel Corporation Wireless 7265 (rev 59)
+memory: |
+  7888
+scsi: |
+  03:00.0 Network controller: Intel Corporation Wireless 7265 (rev 59)
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3rc1
+  xen: |
+    4.4.2
+  kernel: |
+    3.18.10-2
+  remark: |
+    some issues
+  credit: |
+    Miguel Jacq
+  link: |
+    https://groups.google.com/d/msg/qubes-users/fRxncIsQrGc/J8_truiDD1QJ
+
+---
+
