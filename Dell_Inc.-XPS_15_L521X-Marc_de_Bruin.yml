@@ -12,7 +12,7 @@ tpm:
 brand: |
   
 model: |
-  XPS 15 L521X
+  Dell XPS 15 L521X
 bios: |
   A16
 cpu: |
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2
   xen: |
-    
+    4.1.6.1
   kernel: |
     3.12.23-1
   remark: |

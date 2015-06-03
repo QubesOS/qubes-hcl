@@ -71,9 +71,9 @@ versions:
   qubes: |
     R2B2
   xen: |
-    
+    4.1.2
   kernel: |
-    
+    3.7.6-2
   remark: |
     <a class='ext-link' href='https://groups.google.com/d/topic/qubes-devel/Wu1mn9f1qgM/discussion'><span class='icon'></span>read more</a>
   credit: |

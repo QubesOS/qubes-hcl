@@ -10,9 +10,9 @@ iommu:
 tpm:
   ''
 brand: |
-  Hewlett-Packard
+  HP
 model: |
-  HP_EliteBook_8440p
+  EliteBook 8440p
 bios: |
   68CCU Ver. F.11
 cpu: |
