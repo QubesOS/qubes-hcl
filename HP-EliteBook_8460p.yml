@@ -10,9 +10,9 @@ iommu:
 tpm:
   ''
 brand: |
-  Hewlett-Packard
+  HP
 model: |
-  HP_EliteBook_8460p
+  EliteBook 8460p
 bios: |
   68SCF Ver. F.50
 cpu: |

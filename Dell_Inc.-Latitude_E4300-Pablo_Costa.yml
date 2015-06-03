@@ -56,7 +56,7 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+    4.1.6.1
   kernel: |
     3.9
   remark: |

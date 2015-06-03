@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+    4.1.6.1
   kernel: |
     3.9.2-2
   remark: |
@@ -56,9 +56,9 @@ versions:
   qubes: |
     R2rc1
   xen: |
-    
+    4.1.6.1
   kernel: |
-    3.9
+    3.9.2-2
   remark: |
     Problem with graphics on 3,12,3.11,3.7, only 2GB RAM stock, TPM not tested
   credit: |

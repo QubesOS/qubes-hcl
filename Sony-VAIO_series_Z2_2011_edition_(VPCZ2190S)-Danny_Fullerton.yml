@@ -14,7 +14,7 @@ brand: |
 model: |
   VAIO series Z2 2011 edition (VPCZ2190S)
 bios: |
-  
+  R0170H5
 cpu: |
   
 cpu-short: |
@@ -58,7 +58,7 @@ versions:
   xen: |
     
   kernel: |
-    3.11
+    3.11.1-2
   bios: |
     R0170H5
   remark: |

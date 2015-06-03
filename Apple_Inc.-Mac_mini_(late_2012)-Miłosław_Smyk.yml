@@ -10,9 +10,9 @@ iommu:
 tpm:
   ''
 brand: |
-  Apple
+  Apple_Inc.
 model: |
-  Mac mini (late 2012)
+  MacMini6,2
 bios: |
   MM61.88Z.0106. B03.1211161202
 cpu: |
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2
   xen: |
-    
+    4.1.6.1
   kernel: |
     3.12.23-1
   remark: |
