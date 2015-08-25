@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  Alienware
+model: |
+  M17xR3
+bios: |
+  A08
+cpu: |
+  Intel(R) Core(TM) i7-2820QM CPU @ 2.30GHz
+cpu-short: |
+  i7-2820QM
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  Sandy
+gpu: |
+  NVIDIA Corporation GF106M [GeForce GTX 460M] [10de:0dd1] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GTX 460M
+network: |
+  Qualcomm Atheros AR8151 v2.0 Gigabit Ethernet (rev c0)
+  Intel Corporation Centrino Advanced-N + WiMAX 6250 [Kilmer Peak] (rev 5e)
+memory: |
+  16365
+scsi: |
+  ST9750420AS      Rev: DEM1
+  M4-CT256M4SSD2   Rev: 040H
+  DVDRWBD CA30N    Rev: A102
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.0
+  xen: |
+    4.4.2
+  kernel: |
+    3.19.8-100
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/ogKupxioIAQ/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Fabrizio
+  link: |
+    https://groups.google.com/d/msg/qubes-users/ogKupxioIAQ/If5BNk9xDwAJ
+
+---
+
