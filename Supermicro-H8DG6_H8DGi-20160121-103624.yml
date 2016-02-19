@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'yes'
+brand: |
+  Supermicro
+model: |
+  H8DG6/H8DGi
+bios: |
+  3.5b
+cpu: |
+  AMD Opteron(tm) Processor 6128
+cpu-short: |
+  Opteron 6128
+chipset: |
+  Advanced Micro Devices, Inc. [AMD/ATI] RD890 Northbridge only dual slot (2x16) PCI-e GFX Hydra part [1002:5a10] (rev 02)
+chipset-short: |
+  RD890
+gpu: |
+  Matrox Electronics Systems Ltd. MGA G200eW WPCM450 [102b:0532] (rev 0a) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] RV620 PRO [Radeon HD 3470] [1002:95c0] (prog-if 00 [VGA controller])
+gpu-short: |
+  MGA G200eW + RV620
+network: |
+  Intel Corporation 82576 Gigabit Network Connection (rev 01)
+  Intel Corporation 82576 Gigabit Network Connection (rev 01)
+  Intel Corporation 82571EB Gigabit Ethernet Controller (Copper) (rev 06)
+  Intel Corporation 82571EB Gigabit Ethernet Controller (Copper) (rev 06)
+  Intel Corporation 82571EB Gigabit Ethernet Controller (Copper) (rev 06)
+  Intel Corporation 82571EB Gigabit Ethernet Controller (Copper) (rev 06)
+memory: |
+  28670
+scsi: |
+  Samsung SSD 850  Rev: 1B6Q
+  Generic          Rev: 0223
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.1
+  xen: |
+    4.6.0
+  kernel: |
+    4.1.13-8
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/BnQy67kxdrY/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Bill Wether
+  link: |
+    https://groups.google.com/d/msg/qubes-users/BnQy67kxdrY/MbED_yJlAwAJ
+
+---
+
