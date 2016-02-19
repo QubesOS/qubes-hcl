@@ -6,19 +6,19 @@ type:
 hvm:
   'yes'
 iommu:
-  'yes'
+  'no'
 tpm:
   ''
 brand: |
   LENOVO
 model: |
-  745434U
+  Thinkpad X200 (2024B53)
 bios: |
-  7XET72WW (3.22 )
+  6DET71WW (3.21 )
 cpu: |
-  Intel(R) Core(TM)2 Duo CPU     P8700  @ 2.53GHz
+  Intel(R) Core(TM)2 Duo CPU     P8600  @ 2.40GHz
 cpu-short: |
-  P8700
+  P8600
 chipset: |
   Intel Corporation Mobile 4 Series Chipset Memory Controller Hub [8086:2a40] (rev 07)
 chipset-short: |
@@ -29,30 +29,29 @@ gpu: |
 gpu-short: |
   Intel HD
 network: |
-  Intel Corporation 82567LF Gigabit Network Connection (rev 03)
+  Intel Corporation 82567LM Gigabit Network Connection (rev 03)
   Intel Corporation PRO/Wireless 5100 AGN [Shiloh] Network Connection
 memory: |
-  3987
+  3992
 scsi: |
-  HITACHI HTS72321 Rev: C50B
-  R5U880FlashMedia Rev: 0000
+  Samsung SSD 840  Rev: BB6Q
 
 versions:
 
 - works:
     'partial'
   qubes: |
-    R3.1
+    R3.0
   xen: |
-    4.6.0
+    4.4.2
   kernel: |
-    4.1.13-6
+    3.19.8-100
   remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/xGmIVFYYwKM/discussion'><span class='icon'></span>read more</a>
+    <a class='ext-link' href=''><span class='icon'></span>read more</a>
   credit: |
-    Thierry Laurion
+    Kevin Lipe
   link: |
-    https://groups.google.com/d/msg/qubes-users/xGmIVFYYwKM/r_pMqD_rBQAJ
+    https://groups.google.com/d/msg/qubes-users/xGmIVFYYwKM/15qhqZt9DAAJ
 
 ---
 

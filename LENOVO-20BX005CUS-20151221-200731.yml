@@ -1,0 +1,57 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'yes'
+brand: |
+  LENOVO
+model: |
+  T450s (20BX005CUS)
+bios: |
+  JBET54WW (1.19 )
+cpu: |
+  Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz
+cpu-short: |
+  i5-5300U
+chipset: |
+  Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
+chipset-short: |
+  Broadwell-U
+gpu: |
+  Intel Corporation Broadwell-U Integrated Graphics [8086:1616] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Intel HD
+network: |
+  Intel Corporation Ethernet Connection (3) I218-LM (rev 03)
+  Intel Corporation Wireless 7265 (rev 59)
+memory: |
+  7884
+scsi: |
+  SAMSUNG SSD 830  Rev: 3B1Q
+  SanDisk SSD U110 Rev: 001 
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.1
+  xen: |
+    4.6.0
+  kernel: |
+    4.1.13-6
+  remark: |
+    UEFI boot fails, stuck after booting kernel (blank screen with 4 penguins). Legacy boot works fine.
+  credit: |
+    Alex Guzman
+  link: |
+    https://groups.google.com/d/msg/qubes-users/jelz1pA8Ilk/6zkGJkm5CAAJ
+
+---
+
