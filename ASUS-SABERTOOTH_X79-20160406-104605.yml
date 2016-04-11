@@ -1,0 +1,57 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'no'
+brand: |
+  ASUS
+model: |
+  SABERTOOTH_X79
+bios: |
+  4801
+cpu: |
+  Intel(R) Core(TM) i7-4930K CPU @ 3.40GHz
+cpu-short: |
+  i7-4930K
+chipset: |
+  Intel Corporation Xeon E7 v2/Xeon E5 v2/Core i7 DMI2 [8086:0e00] (rev 04)
+chipset-short: |
+  Xeon E7
+gpu: |
+  NVIDIA Corporation GK104 [GeForce GTX 770] [10de:1184] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GTX 770
+network: |
+  Intel Corporation 82579V Gigabit Network Connection (rev 06)
+memory: |
+  16317
+scsi: |
+  SanDisk SDSSDXP4 Rev: 1   
+  OCZ-VECTOR180    Rev: 1.01
+  DVDRAM GH24NSB0  Rev: LN01
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.1
+  xen: |
+    4.6.0
+  kernel: |
+    4.1.13-9
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/jximO5CasCY/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    anonymous
+  link: |
+    https://groups.google.com/d/msg/qubes-users/jximO5CasCY/XJfPgdi9BQAJ
+
+---
+

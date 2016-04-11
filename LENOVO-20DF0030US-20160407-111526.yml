@@ -1,0 +1,57 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  LENOVO
+model: |
+  Thinkpad E550 (20DF0030US)
+bios: |
+  J5ET50WW (1.21 )
+cpu: |
+  Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+cpu-short: |
+  i5-5200U
+chipset: |
+  Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
+chipset-short: |
+  Broadwell
+gpu: |
+  Intel Corporation Broadwell-U Integrated Graphics [8086:1616] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Intel HD
+network: |
+  Intel Corporation Ethernet Connection (3) I218-V (rev 03)
+  Intel Corporation Wireless 3160 (rev 93)
+memory: |
+  16118
+scsi: |
+  ST500LM021-1KJ15 Rev: LIM1
+  DVDRAM GUA0N     Rev: LZ20
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.1
+  xen: |
+    4.6.0
+  kernel: |
+    4.1.13-9
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/OUZQohaIlnY/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Qubes User
+  link: |
+    https://groups.google.com/d/msg/qubes-users/OUZQohaIlnY/AU4sQyEDBgAJ
+
+---
+
