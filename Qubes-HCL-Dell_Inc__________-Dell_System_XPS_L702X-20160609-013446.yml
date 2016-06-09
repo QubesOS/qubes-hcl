@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'portable'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'no'
+brand: |
+  Dell Inc.
+model: |
+  Dell System XPS L702X
+bios: |
+  A19
+cpu: |
+  Intel(R) Core(TM) i7-2820QM CPU @ 2.30GHz
+cpu-short: |
+  FIXME
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  FIXME
+gpu: |
+  Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0126] (rev 09) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GF106M [GeForce GT 550M] [10de:0dd6] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  FIXME
+network: |
+  Intel Corporation Centrino Wireless-N 1000 [Condor Peak]
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
+memory: |
+  8086
+scsi: |
+  ST1000LM024 HN-M Rev: 0001
+  DVD+-RW AD-7747H Rev: 100A
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.1
+  xen: |
+    4.6.0
+  kernel: |
+    4.1.13-9
+  remark: |
+    'had sound problems, resolved by running in dom0 terminal sudo alsactl init'
+  credit: |
+    Tom
+  link: |
+    https://github.com/tomck
+
+---
+
