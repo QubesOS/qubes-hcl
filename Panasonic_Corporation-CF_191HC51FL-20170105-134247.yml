@@ -10,7 +10,7 @@ iommu:
 slat:
   'yes'
 tpm:
-  ''
+  'yes'
 brand: |
   Panasonic Corporation
 model: |
