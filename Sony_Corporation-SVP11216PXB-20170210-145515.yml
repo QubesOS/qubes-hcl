@@ -48,7 +48,7 @@ versions:
   kernel: |
     4.4.14-11
   remark: |
-    'Fix for "Boot device not recognized after installing". Card not recognized if plugged into USB HUB https://www.qubes-os.org/doc/uefi-troubleshooting'
+    Fix for "Boot device not recognized after installing" if plugged into USB HUB <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting'><span class='icon'></span>read more</a>
   credit: |
     Robert Horvath
   link: |
