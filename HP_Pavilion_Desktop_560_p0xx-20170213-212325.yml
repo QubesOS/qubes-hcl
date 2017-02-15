@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  HP
+model: |
+  Pavilion Desktop 560-p0xx
+bios: |
+  F.04
+cpu: |
+  Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+cpu-short: |
+  i7-6700
+chipset: |
+  Intel Corporation Skylake Host Bridge/DRAM Registers [8086:191f] (rev 07)
+chipset-short: |
+
+gpu: |
+  NVIDIA Corporation GM206 [GeForce GTX 950] [10de:1402] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  NVIDIA GM206
+network: |
+  Intel Corporation Device 24fb (rev 10)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 10)
+memory: |
+  16206
+scsi: |
+  SanDisk SD7SB6S- Rev: 1006
+  TOSHIBA DT01ACA1 Rev: A800
+  DVDRW  DU8AESH   Rev: 6HS3
+  Samsung SSD 850  Rev: 2B6Q
+  LOOP             Rev: 2.00
+  SD/MMC/MS PRO    Rev: 1.00
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.3
+  kernel: |
+    4.4.38-11
+  remark: |
+
+  credit: |
+    Andre
+  link: |
+    https://groups.google.com/forum/#!msg/qubes-users/mmn1QqWrvMk/EpUxCpU_AAAJ
+
+---
+

@@ -10,7 +10,7 @@ iommu:
 slat:
   'yes'
 tpm:
-  'Asus TPM'
+  ''
 brand: |
   ASUS
 model: |
