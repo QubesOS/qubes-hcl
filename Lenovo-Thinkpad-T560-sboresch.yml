@@ -24,7 +24,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Skylake Host Bridge/DRAM Registers [8086:1904] (rev 08)
 chipset-short: |
-  
+  Skylake
 gpu: |
   Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
 gpu-short: |

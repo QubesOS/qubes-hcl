@@ -24,7 +24,7 @@ cpu-short: |
 chipset: |
   Intel Corporation 4th Gen Core Processor DRAM Controller [8086:0c00] (rev 06)
 chipset-short: |
-  
+  Haswell
 gpu: |
   NVIDIA Corporation GM204 [GeForce GTX 970] [10de:13c2] (rev a1) (prog-if 00 [VGA controller])
   NVIDIA Corporation GM204 [GeForce GTX 970] [10de:13c2] (rev a1) (prog-if 00 [VGA controller])

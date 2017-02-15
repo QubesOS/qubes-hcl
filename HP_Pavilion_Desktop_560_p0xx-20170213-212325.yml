@@ -24,7 +24,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Skylake Host Bridge/DRAM Registers [8086:191f] (rev 07)
 chipset-short: |
-
+  Skylake
 gpu: |
   NVIDIA Corporation GM206 [GeForce GTX 950] [10de:1402] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
