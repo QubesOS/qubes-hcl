@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+brand: |
+  ASUS
+model: |
+  Z97-PRO Gamer G10265
+bios: |
+  2203
+cpu: |
+  Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz
+cpu-short: |
+  i5-4460
+chipset: |
+  Intel Corporation 4th Gen Core Processor DRAM Controller [8086:0c00] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  NVIDIA Corporation GM204 [GeForce GTX 970] [10de:13c2] (rev a1) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GM204 [GeForce GTX 970] [10de:13c2] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  NVIDIA GM204
+network: |
+  Intel Corporation Ethernet Connection (2) I218-V
+memory: |
+  32710
+scsi: |
+  SanDisk SDSSDA24 Rev: 10RL
+  Hitachi HDT72101 Rev: A31B
+  ST2000DM001-1ER1 Rev: HP51
+  CDDVDW SH-216FB  Rev: HP00
+
+versions:
+
+- works:
+    yes
+  qubes: |
+    R3.2
+  xen: |
+    4.6.3
+  kernel: |
+    4.4.38-11
+  remark: |
+    
+  credit: |
+    Ruth Shell
+  link: |
+    https://groups.google.com/d/msg/qubes-users/Xo1oCdJQ5zk/sHVCM1DKDwAJ
+
+---
+
