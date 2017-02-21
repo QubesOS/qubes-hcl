@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'portable'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  Dell Inc.
+model: |
+  Inspiron 17 7000 Series 7746
+bios: |
+  A03
+cpu: |
+  Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+cpu-short: |
+  i7-5500U
+chipset: |
+  Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
+chipset-short: |
+  Broadwell-U
+gpu: |
+  Intel Corporation HD Graphics 5500 [8086:1616] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  HD Graphics 5500
+network: |
+  Intel Corporation Wireless 7265 (rev 3b)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 12)
+memory: |
+  16295
+scsi: |
+  Samsung SSD 840  Rev: 5B0Q
+  INTEL SSDSC2KW48 Rev: 031C
+
+versions:
+
+- works:
+    'FIXME:yes|no|partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.3
+  kernel: |
+    4.4.31-11
+  remark: |
+    Network VM workaround, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/mfeIZCINJuA/aB8RVVdVBQAJ'><span class='icon'></span>read more</a>
+  credit: |
+    LXK
+  link: |
+    https://groups.google.com/d/msg/qubes-users/mfeIZCINJuA/aB8RVVdVBQAJ
+
+---
+

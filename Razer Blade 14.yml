@@ -1,0 +1,59 @@
+
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'Unknown'
+brand: |
+  Razer
+model: |
+  Blade
+bios: |
+  E1.00
+cpu: |
+  Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+cpu-short: |
+  i7-6700HQ
+chipset: |
+  Intel Corporation Skylake Host Bridge/DRAM Registers [8086:1910] (rev 07)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 530 [8086:191b] (rev 06)
+  NVIDIA Corporation GP106M [GeForce GTX 1060] [10de:1c20] (rev a1)
+gpu-short: |
+  NVIDIA GP106M
+network: |
+  Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
+memory: |
+  16272
+scsi: |
+
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.31-11
+  remark: |
+    UEFI boot workaround. Update kernel to fix intel graphics flicker, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/IQ5jWwklAbM/QGoBoyJDBQAJ'><span class='icon'></span>read more</a>
+  credit: |
+    Michael Liesenfelt
+  link: |
+    https://groups.google.com/d/msg/qubes-users/IQ5jWwklAbM/QGoBoyJDBQAJ
+
+---
+
