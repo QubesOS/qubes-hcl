@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  ASRock
+model: |
+  X99 WS
+bios: |
+  P3.10
+cpu: |
+  Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz
+cpu-short: |
+  i7-5820K
+chipset: |
+  Intel Corporation Xeon E5 v3/Core i7 DMI2 [8086:2f00] (rev 02)
+chipset-short: |
+  Xeon E5
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Cayman XT [Radeon HD 6970] [1002:6718] (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Caicos PRO [Radeon HD 7450] [1002:677b] (prog-if 00 [VGA controller])
+gpu-short: |
+  Dual AMD Radeon
+network: |
+  Intel Corporation Ethernet Connection I217-LM (rev 05)
+  Intel Corporation I210 Gigabit Network Connection (rev 03)
+memory: |
+  32690
+scsi: |
+  DVDRAM GH10N     Rev: EV03
+  Samsung SSD 850  Rev: 2B6Q
+  Samsung SSD 850  Rev: 2B6Q
+  SAMSUNG SSD 830  Rev: 3B1Q
+  DataTraveler 3.0 Rev: PMAP
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.1
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.10-9
+  remark: |
+    Extensive GPU passthrough notes, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/zHmaZ3dbus8/rWll-ywQCAAJ'><span class='icon'></span>read more</a>
+  credit: |
+    Marcus at WetwareLabs
+  link: |
+    https://groups.google.com/d/msg/qubes-users/zHmaZ3dbus8/rWll-ywQCAAJ
+
+---
+

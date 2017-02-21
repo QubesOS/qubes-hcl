@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+brand: |
+  Dell Inc.
+model: |
+  Latitude E7270
+bios: |
+  01.07.03
+cpu: |
+  Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+cpu-short: |
+  i5-6300U
+chipset: |
+  Intel Corporation Skylake Host Bridge/DRAM Registers [8086:1904] (rev 08)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  HD Graphics 520
+network: |
+  Intel Corporation Ethernet Connection I219-LM (rev 21)
+  Intel Corporation Wireless 8260 (rev 3a)
+memory: |
+  8076
+scsi: |
+  SK hynix SC308 S Rev: 0P10
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.14-11
+  remark: |
+    
+  credit: |
+    Kyaphas Hill
+  link: |
+    https://groups.google.com/d/msg/qubes-users/m9SDfrBXF2I/m8y167taEwAJ
+
+---
+

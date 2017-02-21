@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  ASRock
+model: |
+  A75M-ITX
+bios: |
+  P1.60
+cpu: |
+  AMD A6-3650 APU with Radeon(tm) HD Graphics
+cpu-short: |
+  AMD A6-3650
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 12h Processor Root Complex [1022:1705]
+chipset-short: |
+  Family 12h
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] BeaverCreek [Radeon HD 6530D] [1002:964a] (prog-if 00 [VGA controller])
+  
+gpu-short: |
+  Radeon HD 6530D
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
+memory: |
+  7913
+scsi: |
+  OCZ-VERTEX4      Rev: 1.5 
+  DVD-ROM TS-H353B Rev: D700
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.3
+  kernel: |
+    4.4.31-11
+  remark: |
+    
+  credit: |
+    superlative
+  link: |
+    https://groups.google.com/d/msg/qubes-users/gl8FCTO1z9A/wQwgrXT8DgAJ
+
+---
+
