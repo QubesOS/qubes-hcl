@@ -41,7 +41,7 @@ scsi: |
 versions:
 
 - works:
-    'FIXME:yes|no|partial'
+    'partial'
   qubes: |
     R3.2
   xen: |

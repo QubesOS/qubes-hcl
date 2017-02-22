@@ -40,7 +40,7 @@ scsi: |
 versions:
 
 - works:
-    'FIXME:yes|no|partial'
+    'yes'
   qubes: |
     R3.2
   xen: |

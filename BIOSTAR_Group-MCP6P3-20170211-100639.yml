@@ -10,7 +10,7 @@ iommu:
 slat:
   'yes'
 tpm:
-  ''
+  'unknown'
 brand: |
   BIOSTAR Group
 model: |
