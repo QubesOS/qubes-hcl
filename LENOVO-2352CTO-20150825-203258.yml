@@ -7,6 +7,8 @@ hvm:
   'yes'
 iommu:
   'yes'
+slat:
+  'yes'
 tpm:
   'yes'
 brand: |
@@ -14,11 +16,11 @@ brand: |
 model: |
   Thinkpad T430s (2352CTO)
 bios: |
-  G7ETA1WW (2.61 )
+  G7ETA6WW (2.66 )
 cpu: |
   Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz
 cpu-short: |
-    i5-3320M
+  i5-3320M
 chipset: |
   Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
 chipset-short: |
@@ -26,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Intel Graphics
+  HD Graphics
 network: |
   Intel Corporation 82579LM Gigabit Network Connection (rev 04)
   Intel Corporation Centrino Ultimate-N 6300 (rev 3e)
@@ -39,7 +41,7 @@ scsi: |
 versions:
 
 - works:
-    yes
+    'yes'
   qubes: |
     R3.0
   xen: |
@@ -47,11 +49,26 @@ versions:
   kernel: |
     3.19.8-100
   remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/ThZUaE8TeoQ/discussion'><span class='icon'></span>read more</a>
+    NVIDIA disabled in BIOS. <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/ThZUaE8TeoQ/discussion'><span class='icon'></span>read more</a>
   credit: |
     cprise
   link: |
     https://groups.google.com/d/msg/qubes-users/ThZUaE8TeoQ/RjkkzuKGJgAJ
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.3
+  kernel: |
+    4.8.9-12
+  remark: |
+    AEM needs tboot 1.9.4 or later to boot properly, <a class='ext-link' href='https://github.com/QubesOS/qubes-issues/issues/2155'><span class='icon'></span>read more</a>
+  credit: |
+    cprise
+  link: |
+    https://github.com/QubesOS/qubes-issues/issues/2155
 
 ---
 

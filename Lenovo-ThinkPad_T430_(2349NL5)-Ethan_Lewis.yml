@@ -12,7 +12,7 @@ tpm:
 brand: |
   Lenovo
 model: |
-  Thinkpad T430s (2349NL5)
+  Thinkpad T430 (2349NL5)
 bios: |
   G1ET92WW (2.52 )
 cpu: |
@@ -30,7 +30,7 @@ gpu-short: |
 network: |
   
 memory: |
-  
+  7854
 scsi: |
   
 

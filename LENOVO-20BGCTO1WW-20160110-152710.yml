@@ -12,7 +12,7 @@ tpm:
 brand: |
   Lenovo
 model: |
-  W540 (20BGCTO1WW)
+  Thinkpad W540 (20BGCTO1WW)
 bios: |
   GNET73WW (2.21 )
 cpu: |
@@ -40,7 +40,7 @@ scsi: |
 versions:
 
 - works:
-    yes
+    'yes'
   qubes: |
     R3.1
   xen: |
