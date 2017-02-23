@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'desktop'
+  'motherboard'
 hvm:
   'yes'
 iommu:
@@ -10,7 +10,7 @@ iommu:
 slat:
   'yes'
 tpm:
-  ''
+  'unknown'
 brand: |
   BIOSTAR Group
 model: |
