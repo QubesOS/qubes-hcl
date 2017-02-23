@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
 gpu-short: |
-  FIXME
+  HD Graphics
 network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)
 memory: |
@@ -48,7 +48,7 @@ versions:
   kernel: |
     4.4.31-11
   remark: |
-    Skip installed compatibility check. Audio sync issue, <a class='ext-link' href='https://github.com/QubesOS/qubes-issues/issues/1698'><span class='icon'></span>read more</a>
+    Skip installer compatibility check. Audio sync issue, <a class='ext-link' href='https://github.com/QubesOS/qubes-issues/issues/1698'><span class='icon'></span>read more</a>
   credit: |
     TNT BOM BOM
   link: |

@@ -18,16 +18,16 @@ bios: |
 cpu: |
   Intel(R) Core(TM)2 Duo CPU     E6550  @ 2.33GHz
 cpu-short: |
-  FIXME
+  Core2 Duo
 chipset: |
   Intel Corporation 82Q35 Express DRAM Controller [8086:29b0] (rev 02)
 chipset-short: |
-  FIXME
+  82Q35
 gpu: |
   Intel Corporation 82Q35 Express Integrated Graphics Controller [8086:29b2] (rev 02) (prog-if 00 [VGA controller])
   Intel Corporation 82Q35 Express Integrated Graphics Controller [8086:29b3] (rev 02)
 gpu-short: |
-  FIXME
+  Integrated graphics
 network: |
   Intel Corporation 82566DM-2 Gigabit Network Connection (rev 02)
 memory: |

@@ -40,7 +40,7 @@ scsi: |
 versions:
 
 - works:
-    'partial'
+    'yes'
   qubes: |
     R3.0
   xen: |
@@ -48,7 +48,7 @@ versions:
   kernel: |
     3.18.17-5
   remark: |
-    FIXME
+    Suspend not tested.
   credit: |
     Tom Chiverton
   link: |

@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'desktop'
+  'motherboard'
 hvm:
   'yes'
 iommu:
@@ -43,7 +43,7 @@ scsi: |
 versions:
 
 - works:
-    yes
+    'yes'
   qubes: |
     R3.2
   xen: |
