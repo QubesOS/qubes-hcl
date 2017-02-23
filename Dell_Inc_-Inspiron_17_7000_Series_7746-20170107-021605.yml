@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'portable'
+  'laptop'
 hvm:
   'yes'
 iommu:
