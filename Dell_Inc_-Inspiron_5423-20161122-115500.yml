@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  Dell Inc.
+model: |
+  Inspiron 5423
+bios: |
+  A08
+cpu: |
+  Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz
+cpu-short: |
+  i5-3317U
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Thames [Radeon HD 7550M/7570M/7650M] [1002:6841] (rev ff) (prog-if ff)
+gpu-short: |
+  AMD Radeon
+  HD Graphics
+network: |
+  Qualcomm Atheros AR9485 Wireless Network Adapter (rev 01)
+  Qualcomm Atheros AR8162 Fast Ethernet (rev 10)
+memory: |
+  8058
+scsi: |
+  SanDisk SDSSDA24 Rev: 70RL
+  SAMSUNG SSD PM83 Rev: 2D1Q
+  DVD+-RW GU70N    Rev: A102
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.3
+  kernel: |
+    4.4.14-11
+  remark: |
+    Not working: bluetooth, mic, webcam
+  credit: |
+    Amilton Justino
+  link: |
+    https://groups.google.com/d/msg/qubes-users/KXGNNdffEdg/Ckdi8LuSCQAJ
+
+---
+
