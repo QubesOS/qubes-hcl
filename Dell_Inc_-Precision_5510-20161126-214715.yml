@@ -1,0 +1,57 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  Dell Inc.
+model: |
+  Precision 5510
+bios: |
+  1.2.13
+cpu: |
+  Intel(R) Core(TM) i5-6440HQ CPU @ 2.60GHz
+cpu-short: |
+  i5-6440HQ
+chipset: |
+  Intel Corporation Skylake Host Bridge/DRAM Registers [8086:1910] (rev 07)
+chipset-short: |
+  Sunrise Point-H
+gpu: |
+  Intel Corporation HD Graphics 530 [8086:191b] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Intel HD 530
+network: |
+  Intel Corporation Wireless 8260 (rev 3a)
+memory: |
+  32382
+scsi: |
+
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.3
+  kernel: |
+    4.4.14-11
+  remark: |
+    Had to disable UEFI and use Legacy mode. Also disable wake-on-USB in BIOS, otherwise suspend does not work.
+  credit: |
+    Tomas Vondra
+  link: |
+    https://groups.google.com/d/msg/qubes-users/FwfGJMauNdc/lBpWMvvZCgAJ
+
+---
+
