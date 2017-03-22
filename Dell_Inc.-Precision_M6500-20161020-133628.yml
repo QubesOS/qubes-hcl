@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  Dell Inc.
+model: |
+  Precision M6500                 
+bios: |
+  A02
+cpu: |
+  Intel(R) Core(TM) i7 CPU       Q 820  @ 1.73GHz
+cpu-short: |
+  i7-Q 820
+chipset: |
+  Intel Corporation Core Processor DMI [8086:d132] (rev 11)
+chipset-short: |
+  
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] RV740/M97 GL [FirePro M7740] [1002:94a3] (prog-if 00 [VGA controller])
+gpu-short: |
+  AMD FirePro M7740
+network: |
+  Broadcom Corporation NetXtreme BCM5761e Gigabit Ethernet PCIe (rev 10)
+  Intel Corporation Ultimate N WiFi Link 5300
+memory: |
+  16308
+scsi: |
+  SAMSUNG SSD PM80 Rev: 4D1Q
+  DVD+-RW GS20N    Rev: A110
+  Crucial_CT512MX1 Rev: MU01
+  USB Flash Disk   Rev: 0.00
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.0
+  xen: |
+    4.4.2
+  kernel: |
+    3.18.17-5
+  remark: |
+    Live USB did not auto-attach Wifi to netVM
+  credit: |
+    Ian Calderbank
+  link: |
+    https://groups.google.com/d/msg/qubes-users/4V_63wwuJ2Q/ckZAgtFFAAAJ
+
+---
+
