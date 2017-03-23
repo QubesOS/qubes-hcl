@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  ASUSTeK COMPUTER INC.
+model: |
+  B53A
+bios: |
+  B53A.210
+cpu: |
+  Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz
+cpu-short: |
+  i5-3230M
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated graphics
+network: |
+  Intel Corporation Centrino Advanced-N 6235 (rev 24)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
+memory: |
+  8061
+scsi: |
+  ST750LX003-1AC15 Rev: SM12
+  DVD-RAM UJ8E1    Rev: 1.00
+  Ultra Fit        Rev: 1.00
+  Card  Reader     Rev: 1.00
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.14-11
+  remark: |
+    
+  credit: |
+    chris swart
+  link: |
+    https://groups.google.com/d/msg/qubes-users/IWawt-nD1m4/scZR3JBVAQAJ
+
+---
+
