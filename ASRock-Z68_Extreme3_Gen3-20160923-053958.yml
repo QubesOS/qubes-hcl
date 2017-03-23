@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  'unknown'
+brand: |
+  ASRock
+model: |
+  Z68 Extreme3 Gen3
+bios: |
+  P1.20
+cpu: |
+  Intel(R) Core(TM) i5-2500K CPU @ 3.30GHz
+cpu-short: |
+  i5-2500K
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0100] (rev 09)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0112] (rev 09)
+  NVIDIA Corporation GF114 [GeForce GTX 560 Ti] [10de:1200] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics
+  NVIDIA GF114
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
+memory: |
+  8103
+scsi: |
+  Crucial_CT256MX1 Rev: MU01
+  WDC WD20EARX-008 Rev: AB51
+  WDC WD5000AAKX-0 Rev: 1H19
+  DVD-RW  DVR-219L Rev: 1.02
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.1
+  xen: |
+    4.6.0
+  kernel: |
+    4.1.13-9
+  remark: |
+    
+  credit: |
+    K.Hutten
+  link: |
+    https://groups.google.com/d/msg/qubes-users/IcJ-suhHzQo/bFTjwc1ZBQAJ
+
+---
+

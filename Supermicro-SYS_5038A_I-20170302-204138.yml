@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'workstation'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  Supermicro
+model: |
+  SYS-5038A-I
+bios: |
+  2.0a
+cpu: |
+  Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+cpu-short: |
+  Xeon E5-2620
+chipset: |
+  Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2 [8086:6f00] (rev 01)
+chipset-short: |
+  Xeon E7
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Oland GL [FirePro W2100] [1002:6608] (prog-if 00 [VGA controller])
+gpu-short: |
+  AMD FirePro W2100
+network: |
+  Intel Corporation I210 Gigabit Network Connection (rev 03)
+  Intel Corporation I210 Gigabit Network Connection (rev 03)
+memory: |
+  130949
+scsi: |
+  SAMSUNG MZ7LM240 Rev: 104Q
+  WDC WD1002FAEX-0 Rev: 1D05
+  WDC WD1002FBYS-0 Rev: 0C06
+  WDC WD10EARS-00M Rev: AB51
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.4
+  kernel: |
+    4.4.38-11
+  remark: |
+    Sporadic video and audio issues
+  credit: |
+    Ir Jean-Charles de Longueville
+  link: |
+    https://groups.google.com/d/msg/qubes-users/y8VD9Lb_cNY/B986dIBcAgAJ
+
+---
+
