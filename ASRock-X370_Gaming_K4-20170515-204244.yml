@@ -1,0 +1,64 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'no'
+brand: |
+  ASRock
+model: |
+  X370 Gaming K4
+bios: |
+  P2.20
+cpu: |
+  AMD Ryzen 7 1700X Eight-Core Processor
+cpu-short: |
+  Ryzen 7 1700X
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:1450]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] RV630 XT [Radeon HD 2600 XT] [1002:9588] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon HD 2600 XT
+network: |
+  Intel Corporation I211 Gigabit Network Connection (rev 03)
+memory: |
+  16336
+scsi: |
+  iHBS112   2      Rev: PL06
+  SanDisk SDSSDA24 Rev: 80RL
+  KINGSTON SH103S3 Rev: BBF0
+  SAMSUNG HD204UI  Rev: 0001
+  Samsung SSD 850  Rev: 2B6Q
+usb: |
+  2
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.5
+  kernel: |
+    4.4.62-12
+  remark: |
+    IOMMU present but not working
+  credit: |
+    Bjoern Christoph
+  link: |
+    https://groups.google.com/d/msg/qubes-users/SokPW30SDR8/ozR0ADP0AwAJ
+
+---
+

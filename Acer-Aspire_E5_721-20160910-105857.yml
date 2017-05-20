@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  'unknown'
+brand: |
+  Acer
+model: |
+  Aspire E5-721
+bios: |
+  V1.07
+cpu: |
+  AMD E2-6110 APU with AMD Radeon R2 Graphics
+cpu-short: |
+  AMD E2-6110
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:1566]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Mullins [Radeon R2 Graphics] [1002:9852] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon R2
+network: |
+  Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter (rev 01)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)
+memory: |
+  15323
+scsi: |
+  Crucial_CT500MX2 Rev: MU02
+  DVD-RAM UJ8E2Q   Rev: 1.00
+  SSD 850 EVO 500G Rev: B   
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.14-11
+  remark: |
+    
+  credit: |
+    whodatjohngalt
+  link: |
+    https://groups.google.com/d/msg/qubes-users/ZJWxG0Uzjkg/oid5oTP_BAAJ
+
+---
+
