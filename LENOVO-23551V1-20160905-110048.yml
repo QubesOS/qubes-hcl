@@ -1,0 +1,57 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  LENOVO
+model: |
+  Thinkpad T430s (23551V1)
+bios: |
+  G7ETA4WW (2.64 )
+cpu: |
+  Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz
+cpu-short: |
+  i5-3230M
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (rev 04)
+  Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 34)
+memory: |
+  16080
+scsi: |
+  Crucial_CT500MX2 Rev: MU03
+  HGST HTS725050A7 Rev: B550
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.1
+  xen: |
+    4.6.1
+  kernel: |
+    4.1.24-10
+  remark: |
+    Everything works
+  credit: |
+    bob2361
+  link: |
+    https://groups.google.com/d/msg/qubes-users/r4cg-ow4PNo/QPrEmuxOAwAJ
+
+---
+
