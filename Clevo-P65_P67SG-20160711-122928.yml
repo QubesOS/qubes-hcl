@@ -38,7 +38,7 @@ scsi: |
   PLEXTOR PX-G512M Rev: 1.04
 
 versions:
-	
+
 - works:
     'yes'
   qubes: |
