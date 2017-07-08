@@ -52,9 +52,7 @@ versions:
   kernel: |
     4.4.67-12
   remark: |
-    Followed the specific installation instructions, everything worked right out of the box including Wi-Fi and touchscreen.  Battery life is also excellent.  I do receive two error messages when logging in after a fresh reboot: 
-1.) Unknown controller version (3).  
-2.) nouveau unknown chiptset.
+    Followed the specific installation instructions, everything worked right out of the box including Wi-Fi and touchscreen.  Battery life is also excellent.  I do receive two error messages when logging in after a fresh reboot: 1.) Unknown controller version (3). 2.) nouveau unknown chiptset.
   credit: |
     wearethealiens
   link: |
