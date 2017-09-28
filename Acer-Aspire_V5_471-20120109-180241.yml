@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Acer
+model: |
+  Aspire V5-471
+bios: |
+  V2.15
+cpu: |
+  Intel(R) Core(TM) i5-3337U CPU @ 1.80GHz
+cpu-short: |
+  i5-3337U
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0a)
+  Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
+memory: |
+  7923
+scsi: |
+  MTFDDAK128MAM-1J Rev: 070H
+  DVDRAM GU71N     Rev: 1.00
+usb: |
+  3
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.6
+  kernel: |
+    4.9.35-20
+  remark: |
+    Required workaround for sys-net, <a class='ext-link' href='http://github.com/QubesOS/qubes-issues/issues/1393'><span class='icon'></span>read more</a>
+  credit: |
+    Pedro Rodríguez de Oliveira
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/CAD6w55bfF4KkzQXqzf_UwDRZo81AHBVOU3XN5rzCE73OXO%2B1_w%40mail.gmail.com?utm_medium=email&utm_source=footer
+
+---
+
