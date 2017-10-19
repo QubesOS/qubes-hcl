@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'no'
+remap:
+  'no'
+brand: |
+  Dell Inc.
+model: |
+  Studio XPS 435MT
+bios: |
+  1.1.4
+cpu: |
+  Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz
+cpu-short: |
+  i7-920
+chipset: |
+  Intel Corporation 5520/5500/X58 I/O Hub to ESI Port [8086:3400] (rev 12)
+chipset-short: |
+  X58
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Pitcairn XT [Radeon HD 7870 GHz Edition] [1002:6818] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon HD 7870
+network: |
+  Intel Corporation 82567LF-2 Gigabit Network Connection
+memory: |
+  8183
+scsi: |
+  WDC WD10EZEX-22B Rev: 1A01
+  Hitachi HUA72303 Rev: A580
+usb: |
+  8
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.5
+  kernel: |
+    4.4.67-13
+  remark: |
+    Needed PulseAudio update
+  credit: |
+    agentorange
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/05f4ba459afa70f20ce661fe0e0a438c%408chan.co
+
+---
+
