@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  LENOVO
+model: |
+  Miix 700 80QL
+bios: |
+  DFCN29WW
+cpu: |
+  Intel(R) Core(TM) m5-6Y54 CPU @ 1.10GHz
+cpu-short: |
+  Core m5-6Y54
+chipset: |
+  Intel Corporation Skylake Host Bridge/DRAM Registers [8086:190c] (rev 08)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 515 [8086:191e] (rev 07) (prog-if 00 [VGA controller])
+  Intel Corporation Device [8086:9d35] (rev 21)
+gpu-short: |
+  HD Graphics
+network: |
+  Intel Corporation Wireless 8260 (rev 3a)
+memory: |
+  8100
+scsi: |
+  WDC WDS100T1B0B- Rev: 00WD
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.5
+  kernel: |
+    4.4.67-13
+  remark: |
+    Disabled secure boot. Wifi needs newer template.
+  credit: |
+    Timon Orawski
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/CACMYrpHBN1TH%2B9zYyi-Kds%3DDmfTUsDB2ZXUMQ3aZE2-YYMa12A%40mail.gmail.com
+
+---
+
