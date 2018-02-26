@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'no'
+brand: |
+  LENOVO
+model: |
+  G580 (20150)
+bios: |
+  5ECN96WW(V9.01)
+cpu: |
+  Intel(R) Core(TM) i7-3612QM CPU @ 2.10GHz
+cpu-short: |
+  i7-3612QM
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics
+network: |
+  Qualcomm Atheros AR8162 Fast Ethernet (rev 10)
+  Qualcomm Atheros AR9285 Wireless Network Adapter (PCI-Express) (rev 01)
+memory: |
+  16252
+scsi: |
+  WDC WD10JPVX-16J Rev: 1A02
+  SanDisk SD8SB8U5 Rev: 0000
+usb: |
+  3
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.6
+  kernel: |
+    4.9.45-21
+  remark: |
+    SD slot and hotkeys not working
+  credit: |
+    PG
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/bded6e4197f7f2b5ff199487392dc68c%40riseup.net
+
+---
+
