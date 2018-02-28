@@ -1,0 +1,69 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Gigabyte Technology Co., Ltd.
+model: |
+  Z170X-UD3
+bios: |
+  F6
+cpu: |
+  Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz
+cpu-short: |
+  i5-6600K
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:191f] (rev 07)
+chipset-short: |
+  Skylake
+gpu: |
+  NVIDIA Corporation GP104 [GeForce GTX 1070] [10de:1b81] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Geforce 1070
+network: |
+  Intel Corporation Ethernet Connection (2) I219-V (rev 31)
+memory: |
+  32715
+scsi: |
+  ST4000LM024-2AN1 Rev: 0001
+  ST4000DM000-2AE1 Rev: 0001
+  DRW-24B1ST   j   Rev: 1.01
+  Crucial_CT525MX3 Rev: R031
+  ST4000DM000-2AE1 Rev: 0001
+  SanDisk SDSSDA24 Rev: 80RL
+  Expansion Desk   Rev: 9401
+  USB 3.0 FD       Rev: PMAP
+  USB 3.0 FD       Rev: 1100
+  Storage          Rev: 1.00
+usb: |
+  2
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.13-3
+  remark: |
+    4k display. No issues.
+  credit: |
+    Christopher Ludwin
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/2a46d47a-10a3-85db-bef8-aeaba5f23a23%40posteo.net
+
+---
+

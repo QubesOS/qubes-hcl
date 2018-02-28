@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  LENOVO
+model: |
+  Thinkpad T520 (42404HG)
+bios: |
+  8AET51WW (1.31 )
+cpu: |
+  Intel(R) Core(TM) i7-2620M CPU @ 2.70GHz
+cpu-short: |
+  i7-2620M
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0126] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
+  Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 34)
+memory: |
+  12171
+scsi: |
+  ST9500420AS      Rev: LVM1
+  DVD RW AD-7710H  Rev: 1.S0
+usb: |
+  2
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.13-2
+  remark: |
+    BIOS settings VT-d ON, Discrete Graphics OFF.
+  credit: |
+    Jan Hustak
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/abca4a31-59a1-65e2-f37c-a75fd9107923%40journey.sk
+
+---
+

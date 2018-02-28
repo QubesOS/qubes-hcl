@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  ASRock
+model: |
+  H61M-VS4
+bios: |
+  P1.40
+cpu: |
+  Intel(R) Core(TM) i3-3220 CPU @ 3.30GHz
+cpu-short: |
+  i3-3220
+chipset: |
+  Intel Corporation Xeon E3-1200 v2/3rd Gen Core processor DRAM Controller [8086:0150] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Park [Mobility Radeon HD 5430] [1002:68e1] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon HD
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8101/2/6E PCI Express Fast/Gigabit Ethernet controller (rev 05)
+memory: |
+  4054
+scsi: |
+  DVDRAM GH24NSB0  Rev: LM01
+  My Passport 0810 Rev: 1049
+  SES Device       Rev: 1049
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.14-11
+  remark: |
+    
+  credit: |
+    Jack Callahan
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/CALRJVEDEhpWW1CdPrhv_OwqKK92g3E%3DVv4YHUsBYrUbpGpsGbw%40mail.gmail.com
+
+---
+

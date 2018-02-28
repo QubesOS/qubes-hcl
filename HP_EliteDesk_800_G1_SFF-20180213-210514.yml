@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  HP EliteDesk 800 G1 SFF
+bios: |
+  L01 v02.68
+cpu: |
+  Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+cpu-short: |
+  i7-4770
+chipset: |
+  Intel Corporation 4th Gen Core Processor DRAM Controller [8086:0c00] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller [8086:0412] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics
+network: |
+  Intel Corporation Ethernet Connection I217-LM (rev 04)
+  Qualcomm Atheros AR9287 Wireless Network Adapter (PCI-Express) (rev 01)
+memory: |
+  16272
+scsi: |
+  ST500DM002-1BD14 Rev: HP74
+  DVD A  DS8ABSH   Rev: AHS6
+  Ultra USB 3.0    Rev: 1.00
+usb: |
+  3
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.13-2
+  remark: |
+    
+  credit: |
+    atepo4754
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/9fa56d71-5cb6-442a-8b71-eb7901609dc8%40googlegroups.com
+
+---
+
