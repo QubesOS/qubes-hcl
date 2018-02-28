@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'no'
+brand: |
+  LENOVO
+model: |
+  G505s
+bios: |
+  CBET4000 2f5a0203-dirty
+cpu: |
+  AMD A10-5750M APU with Radeon(tm) HD Graphics
+cpu-short: |
+  A10-5750M
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Root Complex [1022:1410]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Richland [Radeon HD 8650G] [1002:990b] (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Jet PRO [Radeon R5 M230] [1002:6665]
+gpu-short: |
+  Dual Radeon
+network: |
+  Qualcomm Atheros QCA8172 Fast Ethernet (rev 10)
+  Qualcomm Atheros AR9287 Wireless Network Adapter (PCI-Express) (rev 01)
+memory: |
+  15852
+scsi: |
+  SanDisk SDSSDA24 Rev: 30RL
+  ST1000LM024 HN-M Rev: 0002
+usb: |
+  6
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.6
+  kernel: |
+    4.9.56-21
+  remark: |
+    Corebook 4.6 with various issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/56wLBz2l-Vy1IUEhQOcgjshspUHrOAp1_WHSZcfxQQaacNg6dl-TKD-iOwhcKbcI22liKgemdBcDZMAAq0cDwy4ks1kczz7l2z37S3Pa2tM%3D%40protonmail.com'><span class='icon'></span>read more</a>
+  credit: |
+    Emil Novik
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/56wLBz2l-Vy1IUEhQOcgjshspUHrOAp1_WHSZcfxQQaacNg6dl-TKD-iOwhcKbcI22liKgemdBcDZMAAq0cDwy4ks1kczz7l2z37S3Pa2tM%3D%40protonmail.com
+
+---
+

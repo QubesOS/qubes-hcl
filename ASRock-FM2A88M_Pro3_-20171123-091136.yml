@@ -1,0 +1,67 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'no'
+brand: |
+  ASRock
+model: |
+  FM2A88M Pro3+
+bios: |
+  P2.60
+cpu: |
+  AMD A10-7890K Radeon R7, 12 Compute Cores 4C+8G
+cpu-short: |
+  A10-7890K
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 15h (Models 30h-3fh) Processor Root Complex [1022:1422]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Kaveri [Radeon R7 Graphics] [1002:130f] (rev d4) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Oland PRO [Radeon R7 240/340] [1002:6613] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon R7
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 11)
+memory: |
+  31681
+scsi: |
+  TOSHIBA THNSNJ12 Rev: 0101
+  ST3500630AS      Rev: E   
+  ST500DM002-1BD14 Rev: KC45
+  WD My Book       Rev: 1A01
+  Ultra            Rev: 1.00
+  WDC WD5000AAKS-0 Rev: 1D05
+  DRW-24B1ST   a   Rev: 1.04
+usb: |
+  7
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.2
+  kernel: |
+    4.9.56-21
+  remark: |
+    Good stability
+  credit: |
+    William Bormann
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/bba2f7f6-3e6c-456a-b19b-b86c6d507762%40googlegroups.com
+
+---
+

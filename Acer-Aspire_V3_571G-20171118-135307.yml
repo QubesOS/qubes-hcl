@@ -1,0 +1,65 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'no'
+brand: |
+  Acer
+model: |
+  Aspire V3-571G
+bios: |
+  V2.11
+cpu: |
+  Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz
+cpu-short: |
+  i5-3230M
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GF117M [GeForce 610M/710M/810M/820M / GT 620M/625M/630M/720M] [10de:1140] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce 610M
+network: |
+  Broadcom Limited NetLink BCM57785 Gigabit Ethernet PCIe (rev 10)
+  Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
+memory: |
+  5962
+scsi: |
+  ST500LT012-9WS14 Rev: SDM1
+  DVDRAM GT70N     Rev: YP10
+  My Passport 0837 Rev: 1072
+  SES Device       Rev: 1072
+usb: |
+  3
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.6
+  kernel: |
+    4.9.56-21
+  remark: |
+    Networking issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/5ec2d6ba-4745-4cd0-2786-1b8d1d2fc420%40posteo.net'><span class='icon'></span>read more</a>
+  credit: |
+    Matteo
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/5ec2d6ba-4745-4cd0-2786-1b8d1d2fc420%40posteo.net
+
+---
+

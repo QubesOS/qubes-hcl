@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  HP ProBook 6565b
+bios: |
+  68LTU Ver F.22
+cpu: |
+  AMD A4-3310MX APU with Radeon(tm) HD Graphics
+cpu-short: |
+  A4-3310MX
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 12h Processor Root Complex [1022:1705]
+chipset-short: |
+  AMD
+gpu: |
+  AMD Radeon HD 6480G
+gpu-short: |
+  Radeon HD
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
+  Broadcom Limited BCM43224 802.11a/b/g/n (rev 01)
+memory: |
+  7648
+scsi: |
+  WDC WD2500BEKT-6 Rev: 1A01
+
+versions:
+
+- works:
+    'no'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.13-2
+  remark: |
+    Also does not work with R3.2, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/fe10333f-c3a1-4a90-90e8-ae3b769dda92%40googlegroups.com'><span class='icon'></span>read more</a>
+  credit: |
+    Thaddeus Delude
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/fe10333f-c3a1-4a90-90e8-ae3b769dda92%40googlegroups.com
+
+---
+
