@@ -1,0 +1,64 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell Inc.
+model: |
+  XPS 8920
+bios: |
+  1.0.10
+cpu: |
+  Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+cpu-short: |
+  i7-7700
+chipset: |
+  Intel Corporation Device [8086:591f] (rev 05)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Intel Corporation Device [8086:5912] (rev 04)
+  Advanced Micro Devices, Inc. [AMD/ATI] Ellesmere [Radeon RX 470/480] [1002:67df] (rev c7) (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon RX
+network: |
+  Intel Corporation Wireless 3165 (rev 79)
+  Qualcomm Atheros QCA8171 Gigabit Ethernet (rev 10)
+memory: |
+  24479
+scsi: |
+  WDC WD10EZEX-75W Rev: 1A01
+  DVD+-RW GU90N    Rev: A1C1
+  Card  Reader     Rev: 1.00
+usb: |
+  2
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.6
+  kernel: |
+    4.9.56-21
+  remark: |
+    No display power save. Needed HDD for install; failed with SSD target.
+  credit: |
+    Jascha
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/6f5459a6-87b5-14c9-dafd-f53173f0d538%40cryptocartel.com
+
+---
+
