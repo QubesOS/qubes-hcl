@@ -8,7 +8,7 @@ hvm:
 iommu:
   'yes'
 slat:
-  ''
+  'yes'
 tpm:
   'yes'
 remap:
@@ -18,7 +18,7 @@ brand: |
 model: |
   Precision 5520
 bios: |
-  1.6.2
+  1.9.4
 cpu: |
   Intel(R) Core(TM) i7-7820HQ CPU @ 2.90GHz
 cpu-short: |
@@ -49,14 +49,14 @@ versions:
   xen: |
     4.8.3
   kernel: |
-    4.14.13-3
+    4.14.35-1
   remark: |
     Needed graphics, UEFI workarounds, <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting/'><span class='icon'></span>read more</a>, <a class='ext-link' href='https://github.com/QubesOS/qubes-issues/issues/3198'><span class='icon'></span>read more</a>
-    For thunderbolt dock, add TB served devices to sys-net.
+    Added TB served devices to sys-net.
   credit: |
     Yassine Ilmi
   link: |
-     https://groups.google.com/d/msgid/qubes-users/4d452c25-598c-4130-84e0-edece6028077%40googlegroups.com 
+     https://groups.google.com/d/msgid/qubes-users/e6166477-b811-4de0-aecc-91e935ee429c%40googlegroups.com
 
 ---
 

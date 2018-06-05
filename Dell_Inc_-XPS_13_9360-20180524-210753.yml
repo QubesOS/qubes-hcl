@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell Inc.
+model: |
+  XPS 13 9360
+bios: |
+  2.6.2
+cpu: |
+  Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+cpu-short: |
+  i7-8550U
+chipset: |
+  Intel Corporation Device [8086:5914] (rev 08)
+chipset-short: |
+  Kaby Lake R
+gpu: |
+  Intel Corporation Device [8086:5917] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics
+network: |
+  Intel Corporation Wireless 8265 / 8275 (rev 78)
+memory: |
+  15835
+scsi: |
+
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.35-1
+  remark: |
+    Required minor tweaking, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAB_Y6Tyfsy4KXeNE6i6CsGUSLJ27D1sPaUDnPgAszQHtwskiqQ%40mail.gmail.com'><span class='icon'></span>read more</a>
+  credit: |
+    morlan.austin
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/CAB_Y6Tyfsy4KXeNE6i6CsGUSLJ27D1sPaUDnPgAszQHtwskiqQ%40mail.gmail.com
+
+---
+
