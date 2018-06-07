@@ -1,0 +1,69 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  ''
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  HP
+model: |
+  HP Z8 G4 Workstation
+bios: |
+  P60 v01.42
+cpu: |
+  Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+cpu-short: |
+  Xeon 4114
+chipset: |
+  Intel Corporation Sky Lake-E DMI3 Registers [8086:2020] (rev 04)
+chipset-short: |
+  Sky Lake-E
+gpu: |
+  NVIDIA Corporation GP107GL [Quadro P1000] [10de:1cb1] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro P1000
+network: |
+  Intel Corporation Ethernet Connection (3) I219-LM (rev 09)
+  Intel Corporation Device 37cc (rev 09)
+  Intel Corporation Ethernet Connection X722 for 1GbE (rev 09)
+  Intel Corporation I210 Gigabit Network Connection (rev 03)
+  Mellanox Technologies MT27500 Family [ConnectX-3]
+memory: |
+  65235
+scsi: |
+  DVDRW  GUD1N     Rev: LD04
+  Smart Adapter    Rev: 1.04
+  LOGICAL VOLUME   Rev: 1.04
+  LOGICAL VOLUME   Rev: 1.04
+  2100-4i4e        Rev: 1.04
+  STORAGE DEVICE   Rev: HP01
+usb: |
+  1
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.18-1
+  remark: |
+    Used sys-net kernelopts "pci=nomsi"
+  credit: |
+    Damon Permezel
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/D1AB0E07-3E4F-4BA3-9A66-BD1E39609B69%40me.com
+
+---
+
