@@ -11,6 +11,8 @@ slat:
   'yes'
 tpm:
   'unknown'
+remap:
+  'yes'
 brand: |
   Dell Inc.
 model: |
@@ -58,5 +60,19 @@ versions:
   link: |
     https://groups.google.com/d/msg/qubes-users/KXGNNdffEdg/Ckdi8LuSCQAJ
 
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.18-1
+  remark: |
+    Fully functional.
+  credit: |
+    Amilton Justino
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/CAH_11fDN%3DnODJwic9-jWj5wvKYrLD0grOOG3H1bLC_BaO0Kvug%40mail.gmail.com
 ---
 

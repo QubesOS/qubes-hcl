@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  LENOVO
+model: |
+  Thinkpad X220 (4291Q50)
+bios: |
+  CBET4000 heads
+cpu: |
+  Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+cpu-short: |
+  i5-2520M
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0126] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (rev 05)
+  Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 34)
+memory: |
+  8112
+scsi: |
+  PLEXTOR PX-128S3 Rev: 1.02
+usb: |
+  2
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.6
+  kernel: |
+    4.9.56-21
+  remark: |
+    Coreboot firmware with HEADS
+  credit: |
+    ninetynine487
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/6e5d9cc2-68ce-41a1-9d19-83f2cd38be76%40googlegroups.com
+
+---
+

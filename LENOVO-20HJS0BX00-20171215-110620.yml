@@ -24,22 +24,24 @@ cpu: |
 cpu-short: |
   i7-7820HQ
 chipset: |
-  Intel Corporation Device [8086:5910] (rev 05)
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5910] (rev 05)
 chipset-short: |
   Kaby Lake
 gpu: |
   NVIDIA Corporation Device [10de:13b6] (rev a2) (prog-if 00 [VGA controller])
+  Intel Corporation Device [8086:591b] (rev 04) (prog-if 00 [VGA controller])
 gpu-short: |
   NVIDIA
+  Integrated Graphics
 network: |
   Intel Corporation Ethernet Connection (5) I219-LM (rev 31)
-  Intel Corporation Device 24fd (rev 78)
+  Intel Corporation Wireless 8265 / 8275 (rev 78)
 memory: |
   32552
 scsi: |
 
 usb: |
-  1
+  2
 versions:
 
 - works:
@@ -56,6 +58,21 @@ versions:
     Sven Semmler
   link: |
     https://groups.google.com/d/msgid/qubes-users/639b0d8b-a7b1-52be-10e8-5692a58c0018%40SvenSemmler.org
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.4
+  kernel: |
+    4.14.67-1
+  remark: |
+    still needs EFI boot fix, but networking detected out of the box
+  credit: |
+    Sven Semmler
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/bd2a1487-2b77-f22b-2794-959d702f90d3%40SvenSemmler.org
 
 ---
 
