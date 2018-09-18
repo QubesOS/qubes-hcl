@@ -1,62 +1,62 @@
 ---
 layout:
-    'hcl'
+  'hcl'
 type:
-    'notebook'
+  'notebook'
 hvm:
-    'yes'
+  'yes'
 iommu:
-    'yes'
+  'yes'
 slat:
-    'yes'
+  'yes'
 tpm:
-    'unknown'
+  'unknown'
 remap:
-    'yes'
+  'yes'
 brand: |
-    Dell Inc.
+  Dell Inc.
 model: |
-    Inspiron 7577
+  Inspiron 7577
 bios: |
-    1.4.2
+  1.4.2
 cpu: |
-    Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
 cpu-short: |
-    i7-7700HQ
+  i7-7700HQ
 chipset: |
-    Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5910] (rev 05)
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5910] (rev 05)
 chipset-short: |
-    Kaby Lake
+  Kaby Lake
 gpu: |
-    Intel Corporation Device [8086:591b] (rev 04) (prog-if 00 [VGA controller])
-    NVidia GTX 1050 Ti
+  Intel Corporation Device [8086:591b] (rev 04) (prog-if 00 [VGA controller])
+  NVidia GTX 1050 Ti
 gpu-short: |
-    HD Graphics
-    NVidia
+  HD Graphics
+  NVidia
 network: |
-    Intel Corporation Wireless 8265 / 8275 (rev 78)
+  Intel Corporation Wireless 8265 / 8275 (rev 78)
 memory: |
-    12153
+  12153
 scsi: |
-    SK hynix SC311 S Rev: 0P10
-    ST1000LM035-1RK1 Rev: SDM2
+  SK hynix SC311 S Rev: 0P10
+  ST1000LM035-1RK1 Rev: SDM2
 usb: |
-    1
+  1
 versions:
 
 - works:
-      'yes'
+    'yes'
   qubes: |
-      R4.0
+    R4.0
   xen: |
-      4.8.3
+    4.8.3
   kernel: |
-      4.14.18-1
+    4.14.18-1
   remark: |
-      Workarounds for NVIDIA and EFI boot, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/8541de1d-6c08-475e-b8ec-7ce7b715c32a%40googlegroups.com'><span class='icon'></span>read more</a> 
+    Workarounds for NVIDIA and EFI boot, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/8541de1d-6c08-475e-b8ec-7ce7b715c32a%40googlegroups.com'><span class='icon'></span>read more</a> 
   credit: |
-      Sphere
+    Sphere
   link: |
-      https://groups.google.com/d/msgid/qubes-users/8541de1d-6c08-475e-b8ec-7ce7b715c32a%40googlegroups.com
-        
+    https://groups.google.com/d/msgid/qubes-users/8541de1d-6c08-475e-b8ec-7ce7b715c32a%40googlegroups.com
+    
 ---
