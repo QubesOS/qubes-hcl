@@ -1,0 +1,64 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  System manufacturer
+model: |
+  System Product Name
+bios: |
+  4024
+cpu: |
+  AMD Ryzen 5 1600 Six-Core Processor
+cpu-short: |
+  Ryzen 5 1600
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 17h (Models 00h-0fh) Root Complex [1022:1450]
+chipset-short: |
+  X370
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Vega 10 XT [Radeon RX Vega 64] [1002:687f] (rev c3) (prog-if 00 [VGA controller])
+gpu-short: |
+  RX Vega 56
+network: |
+  Intel Corporation I211 Gigabit Network Connection (rev 03)
+  Qualcomm Atheros AR93xx Wireless Network Adapter (rev 01)
+memory: |
+  32699
+scsi: |
+  Samsung SSD 850  Rev: 2B6Q
+  Samsung SSD 850  Rev: 2B6Q
+  WDC WD20EARS-00M Rev: AB51
+  HITACHI HUA72303 Rev: NS01
+usb: |
+  3
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.4
+  kernel: |
+    4.18.13-3
+  remark: |
+    GPU needs kernel 4.18 so different GPU was used during install.
+  credit: |
+    Foppe
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/69099676-e1b3-4e7c-a94f-d465b7eacf9c%40googlegroups.com
+
+---
+
