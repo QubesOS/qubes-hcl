@@ -2,27 +2,27 @@
 layout:
   'hcl'
 type:
-  'notebook'
+  'laptop'
 hvm:
   'yes'
 iommu:
   'yes'
 slat:
-  'yes'
+  ''
 tpm:
   'unknown'
 remap:
   'yes'
 brand: |
-  HP
+  Microsoft Corporation
 model: |
-  HP EliteBook x360 1030 G2
+  Surface Pro
 bios: |
-  P80 Ver. 01.23
+  234.2291.769
 cpu: |
-  Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
+  Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz
 cpu-short: |
-  i7-7600U
+  i5-7300U
 chipset: |
   Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5904] (rev 02)
 chipset-short: |
@@ -33,18 +33,17 @@ gpu: |
 gpu-short: |
   HD Graphics
 network: |
-  Broadcom Limited NetXtreme BCM57762 Gigabit Ethernet PCIe (rev 01)
-  Intel Corporation Wireless 8265 / 8275 (rev 78)
+  Marvell Technology Group Ltd. 88W8897 [AVASTAR] 802.11ac Wireless
 memory: |
-  15783
+  8117
 scsi: |
-  SanDisk SD8SN8U- Rev: 0006
+  SD/MMC           Rev: 1.00
 usb: |
-  2
+  1
 versions:
 
 - works:
-    'yes'
+    'partial'
   qubes: |
     R4.0
   xen: |
@@ -52,10 +51,11 @@ versions:
   kernel: |
     4.14.74-1
   remark: |
-    Docking station via LAN doesn't work yet.
+    No SLAT and various issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAA%3DeDfx3oRCvhWA6dhMMwYfvNozn_Eg5OXXxVrcrTOB3oc%2B8-g%40mail.gmail.com'><span class='icon'></span>read more</a>
   credit: |
-    Sebastian Schatter
+    William Carter
   link: |
-    https://groups.google.com/d/msgid/qubes-users/3b338d5c-28c2-439d-81db-2bf906abc069%40googlegroups.com
+    https://groups.google.com/d/msgid/qubes-users/CAA%3DeDfx3oRCvhWA6dhMMwYfvNozn_Eg5OXXxVrcrTOB3oc%2B8-g%40mail.gmail.com
 
 ---
+
