@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  ASRock
+model: |
+  B450 Pro4
+bios: |
+  P1.40
+cpu: |
+  AMD Ryzen 5 2400G with Radeon Vega Graphics
+cpu-short: |
+  Ryzen 5 2400G
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices Radeon R7 370
+gpu-short: |
+  Radeon R7 370
+network: |
+  Realtek Semiconductor Co., Ltd.  PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  32697
+scsi: |
+  Samsung SSD 860
+usb: |
+  3
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.4
+  kernel: |
+    4.14.74-1
+  remark: |
+    Didn't work with iGPU, added R7 GPU. Enabled all virt options and ftpm.
+  credit: |
+    stefan neuhaus
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/CA%2B3ek4ZDsbtMpWTC2j4m1f7agKS-Pts8RgoVY95sFxhJVyQPqg%40mail.gmail.com
+
+---
