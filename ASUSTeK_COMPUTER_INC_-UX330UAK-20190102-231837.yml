@@ -14,33 +14,31 @@ tpm:
 remap:
   'yes'
 brand: |
-  HP
+  ASUSTeK COMPUTER INC.
 model: |
-  HP EliteBook x360 1030 G2
+  UX330UAK
 bios: |
-  P80 Ver. 01.23
+  UX330UAK.303
 cpu: |
-  Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
+  Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
 cpu-short: |
-  i7-7600U
+  i5-7200U
 chipset: |
   Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5904] (rev 02)
 chipset-short: |
   Kaby Lake
 gpu: |
   Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00 [VGA controller])
-  Intel Corporation Sunrise Point-LP Integrated Sensor Hub [8086:9d35] (rev 21)
 gpu-short: |
   HD Graphics
 network: |
-  Broadcom Limited NetXtreme BCM57762 Gigabit Ethernet PCIe (rev 01)
-  Intel Corporation Wireless 8265 / 8275 (rev 78)
+  Intel Corporation Wireless 8260 (rev 3a)
 memory: |
-  15783
+  8072
 scsi: |
-  SanDisk SD8SN8U- Rev: 0006
+  INTEL SSDSCKKW25 Rev: 010C
 usb: |
-  2
+  1
 versions:
 
 - works:
@@ -52,10 +50,11 @@ versions:
   kernel: |
     4.14.74-1
   remark: |
-    Docking station via LAN doesn't work yet.
+    
   credit: |
-    Sebastian Schatter
+    Ed Thompson
   link: |
-    https://groups.google.com/d/msgid/qubes-users/3b338d5c-28c2-439d-81db-2bf906abc069%40googlegroups.com
+    https://groups.google.com/d/msgid/qubes-users/CACmnumrLJ_pRvzSJ%2Bt3QJ09cHcz8F1UGG_4BPTJrttXWaGUqbQ%40mail.gmail.com
 
 ---
+

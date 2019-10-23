@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  ASRock
+model: |
+  Z370 Extreme4
+bios: |
+  P3.10
+cpu: |
+  Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+cpu-short: |
+  i7-8700K
+chipset: |
+  Intel Corporation Device [8086:3ec2] (rev 07)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Malta [Radeon HD 7990/8990 OEM] [1002:679b] (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Malta [Radeon HD 7990/8990 OEM] [1002:679b]
+gpu-short: |
+  Radeon HD 7990/8990
+network: |
+  Intel Corporation Ethernet Connection (2) I219-V
+memory: |
+  32701
+scsi: |
+  TOSHIBA DT01ACA2 Rev: ABB0
+  CDDVDW SH-224DB  Rev: SB01
+  Samsung SSD 840  Rev: BB6Q
+usb: |
+  2
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.18-1
+  remark: |
+    
+  credit: |
+    Tristão Burkhart
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/02d1737a8e6952f24e7d6fee3474d021%40cock.li
+
+---
+
