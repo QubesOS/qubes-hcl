@@ -14,11 +14,11 @@ tpm:
 remap:
   'yes'
 brand: |
-  System76
+  Dell Inc.
 model: |
-  Oryx Pro
+  G7 7588
 bios: |
-  7.006S76
+  1.3.0
 cpu: |
   Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
 cpu-short: |
@@ -26,7 +26,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Device [8086:3ec4] (rev 07)
 chipset-short: |
-  Kaby Lake
+  Skylake
 gpu: |
   Intel Corporation Device [8086:3e9b] (prog-if 00 [VGA controller])
   NVIDIA Corporation GP106M [GeForce GTX 1060 Mobile 3GB] [10de:1c20] (rev a1) (prog-if 00 [VGA controller])
@@ -34,30 +34,30 @@ gpu-short: |
   Integrated Graphics
   GeForce GTX 1060
 network: |
-  Intel Corporation Wireless 8265 / 8275 (rev 78)
-  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)
+  Intel Corporation Device a370 (rev 10)
+  Qualcomm Atheros Killer E2400 Gigabit Ethernet Controller (rev 10)
 memory: |
-  16214
+  16084
 scsi: |
-  ST1000LM048-2E71 Rev: SDM1
+  ST1000LM035-1RK1 Rev: SDM2
 usb: |
   1
 versions:
 
 - works:
-    'partial'
+    'yes'
   qubes: |
     R4.0
   xen: |
     4.8.4
   kernel: |
-    4.14.74-1
+    4.19.43-1
   remark: |
-    Audio not working
+    
   credit: |
-    Shahin Azad
+    vjudge one
   link: |
-    https://groups.google.com/d/msgid/qubes-users/b4f46aba-6ce5-44a7-9233-9b7ff7f92cfb%40googlegroups.com
+    https://groups.google.com/d/msgid/qubes-users/821033233.42841.1562034377885%40ichabod.co-bxl
 
 ---
 
