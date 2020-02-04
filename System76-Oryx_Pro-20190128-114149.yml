@@ -10,7 +10,8 @@ iommu:
 slat:
   'yes'
 tpm:
-  'unknown'
+  status: 'no'
+  message: 'TPM 2.0 only'
 remap:
   'yes'
 brand: |
