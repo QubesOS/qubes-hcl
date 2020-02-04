@@ -53,7 +53,7 @@ versions:
   kernel: |
     4.14.74-1
   remark: |
-    Audio not working
+    Audio may require installing <code>kernel-next</code>, keyboard LED control doesn't work
   credit: |
     Shahin Azad
   link: |
