@@ -14,9 +14,9 @@ tpm:
 remap:
   'no'
 brand: |
-  System manufacturer
+  N/A
 model: |
-  System Product Name
+  Custom built machine
 bios: |
   1001
 cpu: |
