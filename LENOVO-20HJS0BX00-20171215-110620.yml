@@ -64,11 +64,11 @@ versions:
   qubes: |
     R4.0
   xen: |
-    4.8.4
+    4.8.5-7.fc25
   kernel: |
-    4.14.67-1
+    4.19.71-1
   remark: |
-    still needs EFI boot fix, but networking detected out of the box
+    No workarounds needed with R4.0.1 install.
   credit: |
     Sven Semmler
   link: |
