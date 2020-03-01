@@ -51,7 +51,7 @@ versions:
   kernel: |
     4.19.86-1
   remark: |
-	Working - UEFI, WiFi, dom0 USB but not sys-usb. Suspend requires Xen <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/87602866f77e6fa8866448a22b48b4a1%40disroot.org'><span class='icon'></span>command line</a> workaround.
+    Working - UEFI, WiFi, dom0 USB but not sys-usb. Suspend requires Xen <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/87602866f77e6fa8866448a22b48b4a1%40disroot.org'><span class='icon'></span>command line</a> workaround.
   credit: |
     Claudia
   link: |
