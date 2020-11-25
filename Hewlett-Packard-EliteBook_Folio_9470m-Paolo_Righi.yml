@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  ''
+iommu:
+  ''
+tpm:
+  ''
+brand: |
+  Hewlett-Packard
+model: |
+  EliteBook Folio 9470m
+bios: |
+  68IBD Ver. F.47
+cpu: |
+  
+cpu-short: |
+  i5-3437U
+chipset: |
+  
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  
+gpu-short: |
+  HD graphics
+network: |
+  
+memory: |
+  
+scsi: |
+  
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2
+  xen: |
+    4.1.6.1
+  kernel: |
+    3.12.23-1
+  remark: |
+    no access to BIOS on this machine
+  credit: |
+    Paolo Righi
+  link: |
+    https://groups.google.com/d/msg/qubes-users/iup1MmBFx8Q/hCCAOVwrB2kJ
+
+---
+

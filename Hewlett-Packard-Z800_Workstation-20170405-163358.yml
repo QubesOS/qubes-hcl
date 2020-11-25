@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  ''
+brand: |
+  Hewlett-Packard
+model: |
+  Z800
+bios: |
+  786G5 v03.60
+cpu: |
+  Intel(R) Xeon(R) CPU           E5540  @ 2.53GHz
+cpu-short: |
+  Xeon E5540
+chipset: |
+  Intel Corporation 5520 I/O Hub to ESI Port [8086:3406] (rev 13)
+chipset-short: |
+  
+gpu: |
+  NVIDIA Corporation GF108GL [Quadro 600] [10de:0df8] (rev a1) (prog-if 00 [VGA controller])
+  NVIDIA Corporation G96GL [Quadro FX 580] [10de:0659] (rev a1) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GF104 [GeForce GTX 460] [10de:0e22] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro Graphics
+network: |
+  Broadcom Limited NetXtreme BCM5764M Gigabit Ethernet PCIe (rev 10)
+  Broadcom Limited NetXtreme BCM5764M Gigabit Ethernet PCIe (rev 10)
+  Intel Corporation 82576 Gigabit Network Connection (rev 01)
+  Intel Corporation 82576 Gigabit Network Connection (rev 01)
+memory: |
+  12271
+scsi: |
+  WDC WD3200KS-00P Rev: 0M21
+  DVD-RAM GH40L    Rev: RB12
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.4
+  kernel: |
+    4.4.38-11
+  remark: |
+    Intel IOMMU errata
+  credit: |
+    Emer GencyMexican
+  link: |
+    https://groups.google.com/d/msg/qubes-users/SD8flq59vjU/teioAr7dAQAJ
+
+---
+
