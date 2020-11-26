@@ -24,11 +24,11 @@ cpu-short: |
 chipset: |
   Intel Corporation Device [8086:5904] (rev 02)
 chipset-short: |
-  
+  Kaby Lake
 gpu: |
   Intel Corporation Device [8086:5916] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
-  
+  Integrated Graphics (620)
 network: |
   Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
 memory: |

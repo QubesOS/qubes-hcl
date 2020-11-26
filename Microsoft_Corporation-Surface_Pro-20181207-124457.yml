@@ -31,7 +31,7 @@ gpu: |
   Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00 [VGA controller])
   Intel Corporation Sunrise Point-LP Integrated Sensor Hub [8086:9d35] (rev 21)
 gpu-short: |
-  HD Graphics
+  Integrated Graphics (620)
 network: |
   Marvell Technology Group Ltd. 88W8897 [AVASTAR] 802.11ac Wireless
 memory: |

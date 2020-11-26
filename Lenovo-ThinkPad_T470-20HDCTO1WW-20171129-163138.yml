@@ -26,11 +26,11 @@ cpu-short: |
 chipset: |
   Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5904] (rev 02)
 chipset-short: |
-  Xeon E3-1200
+  Kaby Lake
 gpu: |
   Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
-  HD Graphics 620
+  Integrated Graphics (620)
 network: |
   Intel Corporation Ethernet Connection (4) I219-LM (rev 21)
   Intel Corporation Wireless 8265 / 8275 (rev 78)
