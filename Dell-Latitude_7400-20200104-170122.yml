@@ -26,7 +26,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Device [8086:3e34] (rev 0c)
 chipset-short: |
-  Coffee Lake
+  Whiskey Lake
 gpu: |
   Intel Corporation Device [8086:3ea0] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
