@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
 gpu-short: |
-  HD Graphics 520
+  Integrated Graphics (520)
 network: |
   Intel Corporation Ethernet Connection I219-V (rev 21)
   Intel Corporation Wireless 8260 (rev 3a)

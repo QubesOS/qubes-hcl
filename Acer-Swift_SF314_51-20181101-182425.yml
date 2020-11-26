@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
 gpu-short: |
-  HD Graphics
+  Integrated Graphics (520)
 network: |
   Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
 memory: |
