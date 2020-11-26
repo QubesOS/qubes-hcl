@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  TUXEDO
+  Tuxedo
 model: |
   N24_25BU
 bios: |
