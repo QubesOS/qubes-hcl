@@ -44,7 +44,7 @@ usb: |
 versions:
 
 - works:
-    'FIXME:yes|no|partial'
+    'yes'
   qubes: |
     R4.0
   xen: |
@@ -52,11 +52,11 @@ versions:
   kernel: |
     4.19.100-1
   remark: |
-    FIXME
+    
   credit: |
-    FIXAUTHOR
+    Jack Jannack
   link: |
-    FIXLINK
+    https://groups.google.com/d/msgid/qubes-users/1031897729.240841.1583473511260%40ichabod.co-bxl
 
 ---
 
