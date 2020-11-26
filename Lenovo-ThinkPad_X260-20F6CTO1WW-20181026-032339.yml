@@ -1,0 +1,64 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X260 (20F6CTO1WW)
+bios: |
+  R02ET48W (1.21 )
+cpu: |
+  Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+cpu-short: |
+  i7-6500U
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1904] (rev 08)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  HD Graphics
+network: |
+  Intel Corporation Ethernet Connection I219-V (rev 21)
+  Intel Corporation Wireless 8260 (rev 3a)
+memory: |
+  16267
+scsi: |
+  Samsung SSD 860  Rev: 1B6Q
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.4
+  kernel: |
+    4.14.74-1
+  remark: |
+    Need <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting/'><span class='icon'></span>uefi tricks</a>
+    - Install freezes: disable EFI runtime services
+    Need to disable TPM
+
+  credit: |
+    birdynam
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/41a0c404-2a95-3dc0-5bd5-9b5904612155%40gmail.com
+
+---
+

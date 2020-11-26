@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad P51 (20HH001SMZ)
+bios: |
+  N1UET70W (1.44 )
+cpu: |
+  Intel(R) Xeon(R) CPU E3-1535M v6 @ 3.10GHz
+cpu-short: |
+  Xeon E3-1535M
+chipset: |
+  Intel Corporation Device [8086:5918] (rev 05)
+chipset-short: |
+  Skylake
+gpu: |
+  NVIDIA Corporation GM206GLM [Quadro M2200 Mobile] [10de:1436] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro M2200
+network: |
+  Intel Corporation Ethernet Connection (5) I219-LM (rev 31)
+  Intel Corporation Wireless 8265 / 8275 (rev 78)
+memory: |
+  32682
+scsi: |
+  Samsung SSD 750 Rev: 1B6Q
+usb: |
+  1
+versions:
+
+- works:
+    yes
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.18-1
+  remark: |
+    Installed on NVMe SSD disc (Samsung SSD 960 EVO 1TB)
+  credit: |
+    Yannic Schneider
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/DB6P190MB047173962FB095472A0DD700B4590%40DB6P190MB0471.EURP190.PROD.OUTLOOK.COM
+    
+---

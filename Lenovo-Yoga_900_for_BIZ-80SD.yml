@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  LENOVO
+  Lenovo
 model: |
-  Yoga 900 80SD
+  Yoga 900 (80SD)
 bios: |
   0TCN14T
 cpu: |

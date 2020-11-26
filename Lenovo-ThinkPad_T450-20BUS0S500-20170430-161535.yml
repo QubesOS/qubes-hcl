@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  ThinkPad T450 (20BUS0S500)
+bios: |
+  JBET49WW (1.14 )
+cpu: |
+  Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz
+cpu-short: |
+  i5-5300U
+chipset: |
+  Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
+chipset-short: |
+  Broadwell-U
+gpu: |
+  Intel Corporation HD Graphics 5500 [8086:1616] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  HD Graphics 5500
+network: |
+  Intel Corporation Ethernet Connection (3) I218-LM (rev 03)
+  Intel Corporation Wireless 7265 (rev 59)
+memory: |
+  16197
+scsi: |
+  PNY CS1311 120GB Rev: 1122
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.4
+  kernel: |
+    4.4.55-11
+  remark: |
+    
+  credit: |
+    Steven Sheffey
+  link: |
+    https://groups.google.com/d/msg/qubes-users/-RS36hqyllU/6c466WLIBQAJ
+
+---
+
