@@ -10,7 +10,7 @@ iommu:
 tpm:
   ''
 brand: |
-  Dell Inc.
+  Dell
 model: |
   Precision M4700
 bios: |

@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Inspiron 7472
+bios: |
+  1.1.3
+cpu: |
+  Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+cpu-short: |
+  i7-8550U
+chipset: |
+  Intel Corporation Device [8086:5914] (rev 08)
+chipset-short: |
+  Kaby Lake R
+gpu: |
+  Intel Corporation Device [8086:5917] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+  Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
+memory: |
+  16002
+scsi: |
+  WDC WD10SPZX-75Z Rev: 1A02
+  LITEON CV3-8D128 Rev: 10D 
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.18-1
+  remark: |
+    Works "flawless" after BIOS tweaks, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/a0381df0-af8b-5d4e-5ff0-8aba9cdd3f1f%406x79.org'><span class='icon'></span>read more</a>
+  credit: |
+    Denis Zanin
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/a0381df0-af8b-5d4e-5ff0-8aba9cdd3f1f%406x79.org
+
+---
+

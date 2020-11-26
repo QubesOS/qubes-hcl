@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision 7520
+bios: |
+  1.14.1
+cpu: |
+  Intel(R) Xeon(R) CPU E3-1535M v6 @ 3.10GHz
+cpu-short: |
+  Xeon E3-1535M
+chipset: |
+  Intel Corporation Device [8086:5918] (rev 05)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics P630 [8086:591d] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  HD Graphics P630
+network: |
+  Intel Corporation Ethernet Connection (5) I219-LM (rev 31)
+  Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
+memory: |
+  32617
+scsi: |
+  Samsung SSD 860  Rev: 2B6Q
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-6.fc25
+  kernel: |
+    5.1.2-1
+  remark: |
+    Disabled secure boot. System hangs on reboot.
+  credit: |
+    Sepimus Argus
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/CAEdSov7JHsU1wD0Q7kc7hGLzQ306fxJcK5v9ZkkatwfUd49gVQ%40mail.gmail.com
+
+---
+
