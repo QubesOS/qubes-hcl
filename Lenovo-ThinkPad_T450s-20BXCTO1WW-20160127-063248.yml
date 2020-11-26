@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Broadwell-U Integrated Graphics [8086:1616] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Intel HD
+  Integrated (Intel 5500)
 network: |
   Intel Corporation Ethernet Connection (3) I218-LM (rev 03)
   Intel Corporation Wireless 7265 (rev 99)

@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
 chipset-short: |
-  Broadwell
+  Broadwell-U
 gpu: |
   Intel Corporation Broadwell-U Integrated Graphics [8086:161e] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
