@@ -26,11 +26,11 @@ cpu-short: |
 chipset: |
   Intel Corporation Device [8086:3ec4] (rev 07)
 chipset-short: |
-  CM246
+  Cannon Lake
 gpu: |
   NVIDIA Corporation Device [10de:1cba] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Intel UHD 630
+  Integrated Graphics (630)
   Quadro P2000
 network: |
   Intel Corporation Device a370 (rev 10)

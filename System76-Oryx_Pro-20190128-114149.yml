@@ -26,7 +26,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Device [8086:3ec4] (rev 07)
 chipset-short: |
-  Kaby Lake
+  Cannon Lake
 gpu: |
   Intel Corporation Device [8086:3e9b] (prog-if 00 [VGA controller])
   NVIDIA Corporation GP106M [GeForce GTX 1060 Mobile 3GB] [10de:1c20] (rev a1) (prog-if 00 [VGA controller])

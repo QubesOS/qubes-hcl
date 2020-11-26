@@ -26,7 +26,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Device [8086:3ec4] (rev 07)
 chipset-short: |
-  Kaby Lake
+  Cannon Lake
 gpu: |
   NVIDIA Corporation Device [10de:1bbb] (rev a1) (prog-if 00 [VGA controller])
   Intel 630 mobile [8086:3e9b]
