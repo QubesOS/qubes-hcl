@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
 chipset-short: |
-  Ivy
+  Ivy Bridge
 gpu: |
   NVIDIA Corporation GK107M [GeForce GT 650M Mac Edition] [10de:0fd5] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |

@@ -22,11 +22,11 @@ cpu-short: |
 chipset: |
   Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
 chipset-short: |
-  Ivy
+  Ivy Bridge
 gpu: |
   Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Intel HD
+  Integrated Graphics (4000)
 network: |
   Intel Corporation Centrino Advanced-N 6235 (rev 24)
 memory: |

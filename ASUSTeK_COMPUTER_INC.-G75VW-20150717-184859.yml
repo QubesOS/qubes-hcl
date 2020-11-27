@@ -21,8 +21,8 @@ cpu-short:
   'i7-3840QM'
 cpu:  |
   Intel(R) Core(TM) i7-3840QM CPU @ 2.80GHz
-chipset-sort:
-  'Ivy'
+chipset-short:
+  'Ivy Bridge'
 chipset:  |
   Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
 gpu-short:

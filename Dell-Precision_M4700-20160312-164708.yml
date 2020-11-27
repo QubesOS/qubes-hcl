@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
 chipset-short: |
-  Ivy
+  Ivy Bridge
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Chelsea XT GL [FirePro M4000] [1002:682d] (prog-if 00 [VGA controller])
 gpu-short: |

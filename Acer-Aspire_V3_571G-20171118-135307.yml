@@ -31,6 +31,7 @@ gpu: |
   Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
   NVIDIA Corporation GF117M [GeForce 610M/710M/810M/820M / GT 620M/625M/630M/720M] [10de:1140] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
+  Integrated Graphics (4000)
   GeForce 610M
 network: |
   Broadcom Limited NetLink BCM57785 Gigabit Ethernet PCIe (rev 10)
