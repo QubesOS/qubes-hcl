@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Device [8086:5917] (rev 07) (prog-if 00 [VGA controller])
 gpu-short: |
-  Intergrated Graphics
+  Integrated Graphics (620)
 network: |
   Intel Corporation Ethernet Connection (4) I219-LM (rev 21)
   Intel Corporation Wireless 8265 / 8275 (rev 78)
