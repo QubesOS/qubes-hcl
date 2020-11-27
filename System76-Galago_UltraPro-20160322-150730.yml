@@ -10,7 +10,7 @@ iommu:
 tpm:
   'unknown'
 brand: |
-  System76, Inc.
+  System76
 model: |
   Galago UltraPro
 bios: |
