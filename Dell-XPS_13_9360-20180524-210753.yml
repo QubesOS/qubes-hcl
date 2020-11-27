@@ -26,11 +26,11 @@ cpu-short: |
 chipset: |
   Intel Corporation Device [8086:5914] (rev 08)
 chipset-short: |
-  Kaby Lake R
+  Kaby Lake
 gpu: |
   Intel Corporation Device [8086:5917] (rev 07) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics
+  Integrated Graphics (620)
 network: |
   Intel Corporation Wireless 8265 / 8275 (rev 78)
 memory: |
@@ -52,7 +52,7 @@ versions:
   remark: |
     Required minor tweaking, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAB_Y6Tyfsy4KXeNE6i6CsGUSLJ27D1sPaUDnPgAszQHtwskiqQ%40mail.gmail.com'><span class='icon'></span>read more</a>
   credit: |
-    morlan.austin
+    Satnam Ram
   link: |
     https://groups.google.com/d/msgid/qubes-users/CAB_Y6Tyfsy4KXeNE6i6CsGUSLJ27D1sPaUDnPgAszQHtwskiqQ%40mail.gmail.com
 
