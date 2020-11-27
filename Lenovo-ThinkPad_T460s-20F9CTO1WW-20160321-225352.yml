@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Sky Lake Host Bridge/DRAM Registers [8086:1904] (rev 08)
 chipset-short: |
-  Sky Lake
+  Skylake
 gpu: |
   Intel Corporation Sky Lake Integrated Graphics [8086:1916] (rev 07) (prog-if 00 [VGA controller])
 gpu-short: |

@@ -26,7 +26,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1904] (rev 08)
 chipset-short: |
-  Xeon E3-1200
+  Skylake
 gpu: |
   Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
 gpu-short: |
