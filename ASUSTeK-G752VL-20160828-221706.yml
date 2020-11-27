@@ -12,9 +12,9 @@ tpm:
 brand: |
   ASUSTek
 model: |
-  N501VW
+  G752VL
 bios: |
-  N501VW.300
+  G752VL.219
 cpu: |
   Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
 cpu-short: |
@@ -24,15 +24,17 @@ chipset: |
 chipset-short: |
   Skylake
 gpu: |
-  Intel Corporation Device [8086:191b] (rev 06) (prog-if 00 [VGA controller])
+  NVIDIA Corporation Device [10de:1619] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics
+  GeForce GTX 965M
 network: |
   Intel Corporation Wireless 7265 (rev 59)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 10)
 memory: |
-  16247
+  16319
 scsi: |
-  DataTraveler 3.0 Rev: PMAP
+  HGST HTS721010A9 Rev: A3J0
+  CDDVDW SU-228GB  Rev: AS00
 
 versions:
 
@@ -43,13 +45,13 @@ versions:
   xen: |
     4.6.0
   kernel: |
-    4.1.13-9
+    4.1.24-10
   remark: |
-    NMI lockup messages, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/GfBiqxDXk6E/Yt4pijpNBgAJ'><span class='icon'></span>read more</a>
+    Occasional wake/resume problem, touchpad not recognized
   credit: |
-    afry
+    anon
   link: |
-    https://groups.google.com/d/msg/qubes-users/GfBiqxDXk6E/Yt4pijpNBgAJ
+    https://groups.google.com/d/msg/qubes-users/RkbUz4nBpqk/9-z1QgPPAQAJ
 
 ---
 

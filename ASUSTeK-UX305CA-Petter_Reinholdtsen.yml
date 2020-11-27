@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  ASUSTeK COMPUTER INC.
+  ASUSTek
 model: |
   UX305CA
 bios: |

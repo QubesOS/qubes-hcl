@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  ASUSTek
+model: |
+  UX360CA
+bios: |
+  UX360CA.202
+cpu: |
+  Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
+cpu-short: |
+  m3-6Y30
+chipset: |
+  Intel Corporation Skylake Host Bridge/DRAM Registers [8086:190c] (rev 08)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 515 [8086:191e] (rev 07) (prog-if 00 [VGA controller])
+  Intel Corporation Device [8086:9d35] (rev 21)
+gpu-short: |
+  HD Graphics 515
+network: |
+  Intel Corporation Wireless 8260 (rev 3a)
+memory: |
+  8085
+scsi: |
+  MTFDDAV256TBN    Rev: A003
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.14-11
+  remark: |
+    Occasional momentary performance / freezing / connectivity issues, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/qsbgh0Z3yHU/IdqAbLu3BAAJ'><span class='icon'></span>read more</a>
+  credit: |
+    Jordan Foote
+  link: |
+    https://groups.google.com/d/msg/qubes-users/qsbgh0Z3yHU/IdqAbLu3BAAJ
+
+---
+
