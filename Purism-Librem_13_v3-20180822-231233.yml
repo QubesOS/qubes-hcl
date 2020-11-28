@@ -31,7 +31,7 @@ gpu: |
   Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
   Intel Corporation Device [8086:9d24] (rev 21)
 gpu-short: |
-  Integrated Graphics (520)
+  Integrated (HD Graphics 520)
 network: |
   Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
 memory: |

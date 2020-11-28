@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (620)
+  Integrated (HD Graphics 620)
 network: |
   Intel Corporation Wireless 8265 / 8275 (rev 78)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 12)

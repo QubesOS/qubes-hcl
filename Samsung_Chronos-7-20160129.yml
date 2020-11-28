@@ -27,7 +27,8 @@ gpu: |
   Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0116] (rev 09) (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] Whistler [Radeon HD 6630M/6650M/6750M/7670M/7690M] [1002:6741] (rev ff) (prog-if ff)
 gpu-short: |
-  Intel HD + Radeon HD
+  Integrated (HD Graphics 3000)
+  Radeon HD
 network: |
   Broadcom Corporation BCM43225 802.11b/g/n (rev 01)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)

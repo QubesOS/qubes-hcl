@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Device [8086:3e9b] (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (630)
+  Integrated (HD Graphics 630)
 network: |
   Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
 memory: |

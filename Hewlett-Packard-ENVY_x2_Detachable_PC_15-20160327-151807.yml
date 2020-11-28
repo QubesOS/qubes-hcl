@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Broadwell-U Integrated Graphics [8086:161e] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Intel HD
+  Integrated (HD Graphics)
 network: |
   Intel Corporation Wireless 7265 (rev 50)
 memory: |

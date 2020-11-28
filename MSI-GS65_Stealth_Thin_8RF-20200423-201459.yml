@@ -31,7 +31,7 @@ gpu: |
   Intel Corporation Device [8086:3e9b] (prog-if 00 [VGA controller])
   NVIDIA Corporation GP104M [GeForce GTX 1070 Mobile] [10de:1ba1] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (630)
+  Integrated (HD Graphics 630)
 network: |
   Intel Corporation Device a370 (rev 10)
   Qualcomm Atheros Killer E2500 Gigabit Ethernet Controller (rev 10)

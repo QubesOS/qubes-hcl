@@ -27,7 +27,8 @@ gpu: |
   Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
   NVIDIA Corporation GK208M [GeForce GT 730M] [10de:1290] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Intel HD + GK208M
+  Integrated (HD Graphics 4600)
+  GK208M
 network: |
   Intel Corporation Ethernet Connection I217-LM (rev 04)
   Intel Corporation Wireless 7260 (rev bb)

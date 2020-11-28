@@ -53,7 +53,7 @@ versions:
   kernel: |
     4.14.116-1
   remark: |
-    Also worked with the onboard Intel HD Graphics 530.
+    Also worked with the onboard Integrated (HD Graphics 530).
   credit: |
     eye0ai2phi
   link: |

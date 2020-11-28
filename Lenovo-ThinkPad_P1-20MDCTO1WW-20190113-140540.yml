@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation Device [10de:1cba] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (630)
+  Integrated (HD Graphics 630)
   Quadro P2000
 network: |
   Intel Corporation Device a370 (rev 10)

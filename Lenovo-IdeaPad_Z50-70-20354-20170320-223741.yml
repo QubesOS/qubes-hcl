@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Haswell-ULT Integrated Graphics Controller [8086:0a16] (rev 0b) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated graphics
+  Integrated (HD Graphics)
 network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 10)
 memory: |

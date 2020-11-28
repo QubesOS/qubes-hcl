@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Haswell-ULT Integrated Graphics Controller [8086:0a16] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics
+  Integrated (HD Graphics)
 network: |
   Intel Corporation Wireless 7260 (rev 6b)
 memory: |

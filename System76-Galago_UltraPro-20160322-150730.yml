@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Crystal Well Integrated Graphics Controller [8086:0d26] (rev 08) (prog-if 00 [VGA controller])
 gpu-short: |
-  Intel HD
+  Integrated (HD Graphics 520)
 network: |
   Intel Corporation Ethernet Connection I217-V (rev 05)
   Intel Corporation Wireless 7260 (rev 73)

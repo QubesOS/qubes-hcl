@@ -29,7 +29,7 @@ gpu: |
   Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a42] (rev 09) (prog-if 00 [VGA controller])
   Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a43] (rev 09)
 gpu-short: |
-  Mobile 4 integrated graphics
+  Integrated (GMA 4500MHD)
 network: |
   Marvell Technology Group Ltd. 88E8040 PCI-E Fast Ethernet Controller
   Qualcomm Atheros AR9285 Wireless Network Adapter (PCI-Express) (rev 01)

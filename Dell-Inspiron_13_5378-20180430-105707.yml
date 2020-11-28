@@ -31,7 +31,7 @@ gpu: |
   Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00 [VGA controller])
   Intel Corporation Sunrise Point-LP Integrated Sensor Hub [8086:9d35] (rev 21)
 gpu-short: |
-  Integrated Graphics (620)
+  Integrated (HD Graphics 620)
 network: |
   Intel Corporation Wireless 3165 (rev 79)
 memory: |

@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics 530 [8086:191b] (rev 06) (prog-if 00 [VGA controller])
 gpu-short: |
-  HD Graphics
+  Integrated (HD Graphics 530)
 network: |
   Intel Corporation Wireless 3165 (rev 81)
   Qualcomm Atheros Killer E2400 Gigabit Ethernet Controller (rev 10)

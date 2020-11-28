@@ -27,7 +27,7 @@ gpu: |
   Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a42] (rev 07) (prog-if 00 [VGA controller])
   Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a43] (rev 07)
 gpu-short: |
-  Intel HD
+  Integrated (GMA 4500MHD)
 network: |
   Intel Corporation 82567LM Gigabit Network Connection (rev 03)
   Intel Corporation Ultimate N WiFi Link 5300

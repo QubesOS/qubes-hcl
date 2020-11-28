@@ -27,7 +27,7 @@ gpu: |
   Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0126] (rev 09) (prog-if 00 [VGA controller])
   NVIDIA Corporation GF106M [GeForce GT 550M] [10de:0dd6] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Intel HD
+  Integrated (HD Graphics 3000)
   GeForce GT 550M
 network: |
   Intel Corporation Centrino Wireless-N 1000 [Condor Peak]

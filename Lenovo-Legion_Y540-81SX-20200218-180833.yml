@@ -31,7 +31,7 @@ gpu: |
   Intel Corporation Device [8086:3e9b] (prog-if 00 [VGA controller])
   NVIDIA Corporation Device [10de:1f11] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (630)
+  Integrated (HD Graphics 630)
 network: |
   Intel Corporation Device a370 (rev 10)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
