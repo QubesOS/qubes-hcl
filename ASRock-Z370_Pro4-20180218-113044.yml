@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Device [8086:3e92] (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (UHD Graphics 630)
+  Integrated (Intel UHD 630)
 network: |
   Intel Corporation Ethernet Connection (2) I219-V
 memory: |

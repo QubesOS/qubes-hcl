@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (HD Graphics 4000)
+  Integrated (Intel HD 4000)
 network: |
   Qualcomm Atheros AR8162 Fast Ethernet (rev 10)
   Qualcomm Atheros AR9285 Wireless Network Adapter (PCI-Express) (rev 01)

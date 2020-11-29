@@ -27,7 +27,7 @@ gpu: |
   Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0116] (rev 09) (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] Whistler [Radeon HD 6630M/6650M/6750M/7670M/7690M] [1002:6741] (rev ff) (prog-if ff)
 gpu-short: |
-  Integrated (HD Graphics 3000)
+  Integrated (Intel HD 3000)
   Radeon HD
 network: |
   Intel Corporation Centrino Ultimate-N 6300 (rev 35)

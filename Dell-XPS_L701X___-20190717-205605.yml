@@ -31,7 +31,7 @@ gpu: |
   Intel Corporation Core Processor Integrated Graphics Controller [8086:0046] (rev 18) (prog-if 00 [VGA controller])
   NVIDIA Corporation GF106M [GeForce GT 435M] [10de:0dd3] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (HD Graphics)
+  Integrated (Intel HD)
   GeForce GT 435M
 network: |
   Intel Corporation Centrino Wireless-N 1000 [Condor Peak]

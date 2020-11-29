@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   00:02.0 VGA compatible controller [0300]: Intel Corporation Core Processor Integrated Graphics Controller [8086:0046] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (HD Graphics)
+  Integrated (Intel HD)
 network: |
   00:19.0 Ethernet controller: Intel Corporation 82577LM Gigabit Network Connection (rev 05)
   43:00.0 Network controller: Intel Corporation Centrino Advanced-N 6200 (rev 35)

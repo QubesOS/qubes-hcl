@@ -29,7 +29,7 @@ gpu: |
   Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
   Intel Corporation Device [8086:9d35] (rev 21)
 gpu-short: |
-  Integrated (HD Graphics 520)
+  Integrated (Intel HD 520)
 network: |
   Intel Corporation Ethernet Connection I219-LM (rev 21)
   Intel Corporation Wireless 8260 (rev 3a)

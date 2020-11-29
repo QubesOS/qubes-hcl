@@ -31,7 +31,7 @@ gpu: |
   Intel Corporation Device [8086:a2a4]
   NVIDIA Corporation GP104GL [Quadro P5000] [10de:1bb0] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (HD Graphics 4400)
+  Integrated (Intel HD 4400)
   Quadro P5000
 network: |
   Intel Corporation Ethernet Connection (2) I219-LM

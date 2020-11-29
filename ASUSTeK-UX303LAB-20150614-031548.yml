@@ -14,7 +14,7 @@ cpu:  |
 chipset-sort:  'Broadwell-U'
 chipset:  |
   Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
-gpu-short:  'Integrated (HD Graphics 5500)'
+gpu-short:  'Integrated (Intel HD 5500)'
 gpu:  |
   Intel Corporation Broadwell-U Integrated Graphics [8086:1616] (rev 09) (prog-if 00 [VGA controller])
 network:  |

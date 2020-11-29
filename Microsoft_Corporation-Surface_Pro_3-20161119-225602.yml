@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Haswell-ULT Integrated Graphics Controller [8086:0a16] (rev 0b) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (HD Graphics)
+  Integrated (Intel HD)
 network: |
   Marvell Technology Group Ltd. 88W8897 [AVASTAR] 802.11ac Wireless
 memory: |

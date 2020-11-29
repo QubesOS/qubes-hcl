@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Device [8086:3ea0] (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (UHD Graphics 620)
+  Integrated (Intel UHD 620)
 network: |
   Intel Corporation Device 2526 (rev 29)
 memory: |

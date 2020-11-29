@@ -31,7 +31,7 @@ gpu: |
   NVIDIA Corporation Device [10de:1bbb] (rev a1) (prog-if 00 [VGA controller])
   Intel 630 mobile [8086:3e9b]
 gpu-short: |
- Integrated (HD Graphics 630)
+ Integrated (Intel HD 630)
  NVIDIA 
 network: |
   Intel Corporation Device a370 (rev 10)

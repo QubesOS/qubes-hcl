@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (HD Graphics 620)
+  Integrated (Intel HD 620)
 network: |
   Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
 memory: |

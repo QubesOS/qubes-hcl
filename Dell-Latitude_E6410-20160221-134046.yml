@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GT218M [NVS 3100M] [10de:0a6c] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (HD Graphics) + GT218M
+  Integrated (Intel HD) + GT218M
 network: |
   Intel Corporation 82577LM Gigabit Network Connection (rev 05)
 memory: |

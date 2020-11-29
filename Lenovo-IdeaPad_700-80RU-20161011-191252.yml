@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics 530 [8086:191b] (rev 06) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (HD Graphics 530)
+  Integrated (Intel HD 530)
 network: |
   Intel Corporation Intel Dual Band Wireless-AC 3165 Plus Bluetooth (rev 99)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
