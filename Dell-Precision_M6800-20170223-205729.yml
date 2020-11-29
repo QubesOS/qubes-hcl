@@ -24,7 +24,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller [8086:0c04] (rev 06)
 chipset-short: |
-  Xeon
+  Haswell
 gpu: |
   NVIDIA Corporation GM107GLM [Quadro K2200M] [10de:13b3] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
