@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Intel(R) Client Systems
+  Intel
 model: |
   NUC10i7FNK
 bios: |
@@ -26,11 +26,11 @@ cpu-short: |
 chipset: |
   Intel Corporation Device [8086:9b51]
 chipset-short: |
-  NUC10i7FNB
+  Comet Lake
 gpu: |
   Intel Corporation Device [8086:9bca] (rev 04) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (UHD Graphics)
+  Integrated (UHD Graphics 620)
 network: |
   Intel Corporation Device 02f0 Wireless-AC 9462
   Intel Corporation Device 0d4f I219-V

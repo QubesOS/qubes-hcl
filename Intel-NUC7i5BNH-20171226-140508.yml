@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Intel Corporation
+  Intel
 model: |
   NUC7i5BNH
 bios: |
