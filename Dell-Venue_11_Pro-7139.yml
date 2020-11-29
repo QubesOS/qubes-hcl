@@ -24,7 +24,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Haswell-ULT DRAM Controller [8086:0a04] (rev 0b)
 chipset-short: |
-  Haswell
+  Haswell-ULT
 gpu: |
   Intel Corporation Device [8086:0a1e] (rev 0b) (prog-if 00 [VGA controller])
 gpu-short: |

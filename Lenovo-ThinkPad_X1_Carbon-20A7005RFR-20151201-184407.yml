@@ -22,11 +22,11 @@ cpu-short: |
 chipset: |
   Intel Corporation Haswell-ULT DRAM Controller [8086:0a04] (rev 0b)
 chipset-short: |
-  Haswell
+  Haswell-ULT
 gpu: |
   Intel Corporation Haswell-ULT Integrated Graphics Controller [8086:0a16] (rev 0b) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (Intel HD)
+  Integrated (Intel HD 4400)
 network: |
   Intel Corporation Ethernet Connection I218-LM (rev 04)
   Intel Corporation Wireless 7260 (rev 83)

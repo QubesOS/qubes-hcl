@@ -7,18 +7,22 @@ hvm:
   'yes'
 iommu:
   'yes'
+slat:
+  'yes'
 tpm:
   ''
+remap:
+  'yes'
 brand: |
   Lenovo
 model: |
-  ThinkPad L450 (20DT001DUS)
+  ThinkPad T440s (20AQ006HUS)
 bios: |
-  JDET49WW (1.11 )
+  GJETA4WW (2.54 )
 cpu: |
-  Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz
+  Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
 cpu-short: |
-  i5-4300U
+  i7-4600U
 chipset: |
   Intel Corporation Haswell-ULT DRAM Controller [8086:0a04] (rev 0b)
 chipset-short: |
@@ -29,28 +33,29 @@ gpu-short: |
   Integrated (Intel HD 4400)
 network: |
   Intel Corporation Ethernet Connection I218-LM (rev 04)
-  Intel Corporation Wireless 7265 (rev 59)
+  Intel Corporation Wireless 7260 (rev 83)
 memory: |
-  7886
+  12091
 scsi: |
-  TOSHIBA THNSFJ25 Rev: 1102
-
+  WDC  WDS500G2B0A Rev: 20WD
+usb: |
+  1
 versions:
 
 - works:
     'yes'
   qubes: |
-    R3.1
+    R4.0
   xen: |
-    4.6.0
+    4.8.5-14.fc25
   kernel: |
-    4.1.13-9
+    4.19.94-1
   remark: |
-    No issues
+    requires the black screen workaround
   credit: |
-    Łukasz Milewski
+    Miguel Paolino
   link: |
-    https://groups.google.com/d/msg/qubes-users/03wHcnrHf4s/kgvCAWYyCAAJ
+    https://groups.google.com/d/msgid/qubes-users/CAL9C7rHBq%2Boa_epWRUvZ9GnfNEmJs9wqyTtvynLKZgWXgH%2BP4Q%40mail.gmail.com
 
 ---
 
