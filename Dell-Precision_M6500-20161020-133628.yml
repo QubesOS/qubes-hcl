@@ -33,7 +33,7 @@ network: |
 memory: |
   16308
 scsi: |
-  SAMSUNG SSD PM80 Rev: 4D1Q
+  Samsung SSD PM80 Rev: 4D1Q
   DVD+-RW GS20N    Rev: A110
   Crucial_CT512MX1 Rev: MU01
   USB Flash Disk   Rev: 0.00

@@ -1,0 +1,56 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  'unknown'
+brand: |
+  Acer
+model: |
+  Parrot Chromebook
+bios: |
+  4.0-6588-g4acd8ea-dirty
+cpu: |
+  Intel(R) Celeron(R) CPU 847 @ 1.10GHz
+cpu-short: |
+  Celeron 847
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0106] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated (Intel HD)
+network: |
+  Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
+  Broadcom Corporation NetLink BCM57785 Gigabit Ethernet PCIe (rev 10)
+memory: |
+  16320
+scsi: |
+  ADATA SP550      Rev: 3B5a
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.1
+  xen: |
+    4.6.0
+  kernel: |
+    4.1.13-9
+  remark: |
+    Works well after Chromebook modification, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/tH25Nf9TJuU/L1Sgkdh8CwAJ'><span class='icon'></span>read more</a>
+  credit: |
+    Paul Harper
+  link: |
+    https://groups.google.com/d/msg/qubes-users/tH25Nf9TJuU/L1Sgkdh8CwAJ
+
+---
+

@@ -34,7 +34,7 @@ network: |
 memory: |
   8096
 scsi: |
-  SAMSUNG SSD CM87 Rev: 1D1Q
+  Samsung SSD CM87 Rev: 1D1Q
 
 versions:
 

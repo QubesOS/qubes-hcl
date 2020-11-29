@@ -36,7 +36,7 @@ memory: |
 scsi: |
   ADATA SP900      Rev: 2   
   DVD+-RW DH-16ACS Rev: JD11
-  SAMSUNG HD154UI  Rev: 1118
+  Samsung HD154UI  Rev: 1118
   Ultra HS-SD/MMC  Rev: 1.82
 
 versions:

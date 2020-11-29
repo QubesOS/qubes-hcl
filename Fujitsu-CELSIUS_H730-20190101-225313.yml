@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Fujitsu
+model: |
+  CELSIUS H730
+bios: |
+  Version 1.19
+cpu: |
+  Intel(R) Core(TM) i7-4910MQ CPU @ 2.90GHz
+cpu-short: |
+  i7-4910MQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller [8086:0c04] (rev 06)
+chipset-short: |
+  QM87
+gpu: |
+  Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated (Intel HD 4600)
+network: |
+  Intel Corporation Ethernet Connection I217-LM (rev 04)
+  Intel Corporation Wireless 7260 (rev 73)
+memory: |
+  32649
+scsi: |
+  CT2000MX500SSD1  Rev: 022 
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.4
+  kernel: |
+    4.14.74-1
+  remark: |
+    Works. Windows OEM HVM notes, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/AM0PR04MB590621E2E36C66F18DBBB4B8D2B30%40AM0PR04MB5906.eurprd04.prod.outlook.com'><span class='icon'></span>read more</a>
+  credit: |
+    Robert Rettig
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/AM0PR04MB590621E2E36C66F18DBBB4B8D2B30%40AM0PR04MB5906.eurprd04.prod.outlook.com
+
+---
+

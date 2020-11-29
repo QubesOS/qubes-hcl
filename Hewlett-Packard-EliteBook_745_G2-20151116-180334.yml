@@ -33,7 +33,7 @@ network: |
 memory: |
   3529
 scsi: |
-  SAMSUNG SSD 830  Rev: 3B1Q
+  Samsung SSD 830  Rev: 3B1Q
   Silicon-Power4G  Rev: PMAP
   DataTraveler 3.0 Rev: PMAP
 

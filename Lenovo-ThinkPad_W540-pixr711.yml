@@ -37,7 +37,7 @@ network: |
 memory: |
   32392
 scsi: |
-  SAMSUNG SSD
+  Samsung SSD
   SanDisk SSD
 
 versions:

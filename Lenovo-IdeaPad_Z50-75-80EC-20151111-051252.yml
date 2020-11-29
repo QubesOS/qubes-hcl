@@ -33,7 +33,7 @@ network: |
 memory: |
   7098
 scsi: |
-  TOSHIBA MQ01ABD1 Rev: 5E  
+  Toshiba MQ01ABD1 Rev: 5E  
   DVDRAM GUA0N     Rev: AL00
   Silicon-Power4G  Rev: PMAP
 

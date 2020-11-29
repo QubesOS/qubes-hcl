@@ -35,7 +35,7 @@ network: |
 memory: |
   8072
 scsi: |
-  SAMSUNG MZ7PC128 Rev: 5H1Q
+  Samsung MZ7PC128 Rev: 5H1Q
   DVD A  DA8AESH   Rev: XAA1
 
 versions:

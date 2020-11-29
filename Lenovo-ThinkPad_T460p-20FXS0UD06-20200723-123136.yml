@@ -37,7 +37,7 @@ network: |
 memory: |
   15803
 scsi: |
-  SAMSUNG MZ7TY256 Rev: 3L6Q
+  Samsung MZ7TY256 Rev: 3L6Q
 usb: |
   1
 versions:

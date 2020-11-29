@@ -37,7 +37,7 @@ network: |
 memory: |
   16287
 scsi: |
-  SAMSUNG SSD PM83 Rev: 2D1Q
+  Samsung SSD PM83 Rev: 2D1Q
 usb: |
   3
 versions:

@@ -36,7 +36,7 @@ network: |
 memory: |
   16084
 scsi: |
-  SAMSUNG MZNLN256 Rev: 300Q
+  Samsung MZNLN256 Rev: 300Q
 usb: |
   2
 versions:

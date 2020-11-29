@@ -35,7 +35,7 @@ network: |
 memory: |
   32356
 scsi: |
-  SAMSUNG MZ7TD512 Rev: 5L0Q
+  Samsung MZ7TD512 Rev: 5L0Q
   SanDisk SDSSDXPS Rev: 00RL
 
 versions:

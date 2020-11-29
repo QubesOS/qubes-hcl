@@ -37,7 +37,7 @@ network: |
 memory: |
   7888
 scsi: |
-  SAMSUNG SSD SM84 Rev: 1D0Q
+  Samsung SSD SM84 Rev: 1D0Q
   DVD-RAM UJ892    Rev: SB01
 usb: |
   3

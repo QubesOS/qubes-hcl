@@ -39,8 +39,8 @@ network: |
 memory: |
   16250
 scsi: |
-  TOSHIBA THNSNK12 Rev: 4101
-  TOSHIBA MQ01ABD1 Rev: 3D  
+  Toshiba THNSNK12 Rev: 4101
+  Toshiba MQ01ABD1 Rev: 3D  
 usb: |
   1
 versions:

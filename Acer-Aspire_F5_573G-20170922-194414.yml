@@ -39,7 +39,7 @@ memory: |
 scsi: |
   ST1000LM024 HN-M Rev: 0001
   DVD A  DA8A6SH   Rev: GA11
-  SAMSUNG MZNLF128 Rev: 101Q
+  Samsung MZNLF128 Rev: 101Q
 usb: |
   1
 versions:

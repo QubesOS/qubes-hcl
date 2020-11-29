@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  Micro-Star
+model: |
+  GT72 2QD
+bios: |
+  E1781IMS.310
+cpu: |
+  Intel(R) Core(TM) i7-5700HQ CPU @ 2.70GHz
+cpu-short: |
+  i7-5700HQ
+chipset: |
+  Intel Corporation Broadwell-U Host Bridge - DMI [8086:1614] (rev 0a)
+chipset-short: |
+  Broadwell
+gpu: |
+  Intel Corporation Broadwell-U Integrated Graphics [8086:1612] (rev 0a) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated (Intel HD 5600)
+network: |
+  Qualcomm Atheros Killer E220x Gigabit Ethernet Controller (rev 13)
+  Intel Corporation Wireless 7260 (rev c3)
+memory: |
+  16292
+scsi: |
+  HFS128G39MNC-331 Rev: 1P00
+  DVDRAM GUB0N     Rev: 1.00
+  HGST HTS721010A9 Rev: A3J0
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.0
+  xen: |
+    4.4.3
+  kernel: |
+    3.19.8-100
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/eRUre1JzErg/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Roman Shchedrin
+  link: |
+    https://groups.google.com/d/msg/qubes-users/eRUre1JzErg/Uc0xQer-EAAJ
+
+---
+

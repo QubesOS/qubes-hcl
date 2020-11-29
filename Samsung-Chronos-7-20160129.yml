@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  'unknown'
+brand: |
+  Samsung
+model: |
+  Chronos 7 (700Z3A/700Z4A/700Z5A/700Z5B)
+bios: |
+  09FD
+cpu: |
+  Intel(R) Core(TM) i7-2675QM CPU @ 2.20GHz
+cpu-short: |
+  i7-2675QM
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0116] (rev 09) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Whistler [Radeon HD 6630M/6650M/6750M/7670M/7690M] [1002:6741] (rev ff) (prog-if ff)
+gpu-short: |
+  Integrated (Intel HD 3000)
+  Radeon HD
+network: |
+  Broadcom Corporation BCM43225 802.11b/g/n (rev 01)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
+memory: |
+  8105
+scsi: |
+  Hitachi HTS72757 Rev: A0D0
+  SanDisk iSSD P4  Rev: 9.14
+  DVD-RAM UJ8A7AS  Rev: 1.00
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.1
+  xen: |
+    4.6.0
+  kernel: |
+    4.1.13-8
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/P_DeAEel83c/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    jerome
+  link: |
+    https://groups.google.com/d/msg/qubes-users/P_DeAEel83c/hme17FS9BQAJ
+
+---
+

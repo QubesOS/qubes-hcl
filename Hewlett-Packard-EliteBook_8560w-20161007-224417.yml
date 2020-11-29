@@ -35,7 +35,7 @@ network: |
 memory: |
   16334
 scsi: |
-  SAMSUNG MZ7PC256 Rev: 5H1Q
+  Samsung MZ7PC256 Rev: 5H1Q
   DVDRAM GT50N     Rev: MP00
 
 versions:

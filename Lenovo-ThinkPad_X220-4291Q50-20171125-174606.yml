@@ -37,7 +37,7 @@ network: |
 memory: |
   8112
 scsi: |
-  SAMSUNG MZ7TD256 Rev: 6L6Q
+  Samsung MZ7TD256 Rev: 6L6Q
 usb: |
   2
 versions:

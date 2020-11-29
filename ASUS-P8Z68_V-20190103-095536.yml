@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'no'
+remap:
+  'no'
+brand: |
+  ASUS
+model: |
+  P8Z68-V LX
+bios: |
+  4105
+cpu: |
+  Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz
+cpu-short: |
+  i3-2120
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0100] (rev 09)
+chipset-short: |
+  Sandy Bridge Z68
+gpu: |
+  Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0102] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated (Intel HD)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8169 PCI Gigabit Ethernet Controller (rev 10)
+memory: |
+  3798
+scsi: |
+  Hitachi HDS72101 Rev: A3MA
+  DVD+-RW AD-7200S Rev: 102A
+  Ultra            Rev: 1.00
+usb: |
+  3
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.6
+  kernel: |
+    4.14.74-1
+  remark: |
+    Old but stable HW config. No IOMMU, remap or TPM.
+  credit: |
+    onebinaryK
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/EkHbNZ8jTxosYqCwjX7xPVDUa_Z3lp9oSqpxL206v9m_TtQZKY_ckqDggWTp8gxoPlTZpBGcDUImdxrR5nvdWK1D6BVYWR-UVWguA316nmQ%3D%40protonmail.com
+
+---
+

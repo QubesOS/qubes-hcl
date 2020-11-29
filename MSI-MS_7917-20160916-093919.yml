@@ -32,7 +32,7 @@ network: |
 memory: |
   16332
 scsi: |
-  TOSHIBA THNSNJ25 Rev: 0101
+  Toshiba THNSNJ25 Rev: 0101
   WDC WD10EZEX-00K Rev: 1H15
 
 versions:

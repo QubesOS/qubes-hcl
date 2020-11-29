@@ -37,7 +37,7 @@ network: |
 memory: |
   8063
 scsi: |
-  TOSHIBA Q300.    Rev: 12.3
+  Toshiba Q300.    Rev: 12.3
   DVD+-RW UJ8E2    Rev: 1.01
 usb: |
   3

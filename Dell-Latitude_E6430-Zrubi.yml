@@ -34,8 +34,8 @@ network: |
 memory: |
   8065
 scsi: |
-  SAMSUNG SSD PM83 Rev: CXM0
-  TOSHIBA MK5061GS Rev: MH00
+  Samsung SSD PM83 Rev: CXM0
+  Toshiba MK5061GS Rev: MH00
 
 versions:
 

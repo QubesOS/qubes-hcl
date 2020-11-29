@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  Sony
+model: |
+  VAIO VPCEH2M0E
+bios: |
+  R0200Z9
+cpu: |
+  Intel(R) Core(TM) i5-2430M CPU @ 2.40GHz
+cpu-short: |
+  i5-2430M
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  NVIDIA Corporation GF119M [GeForce 410M] [10de:1055] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  NVIDIA GF119M
+network: |
+  Qualcomm Atheros AR9285 Wireless Network Adapter (PCI-Express) (rev 01)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
+memory: |
+  8173
+scsi: |
+  Toshiba MQ01ABD0 Rev: 1A  
+  DVD RW AD-7740H  Rev: 1.V0
+  USB Flash Disk   Rev: 1.00
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.3
+  kernel: |
+    4.4.31-11
+  remark: |
+    
+  credit: |
+    carlos gonzalez
+  link: |
+    https://groups.google.com/d/msg/qubes-users/DyRQKqlR6KY/5L31HotdDwAJ
+
+---
+

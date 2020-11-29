@@ -1,0 +1,56 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Toshiba
+model: |
+  Swanky Chromebook
+bios: |
+  
+cpu: |
+  Intel(R) Celeron(R) CPU  N2840  @ 2.16GHz
+cpu-short: |
+  Celeron N2840
+chipset: |
+  Intel Corporation Atom Processor Z36xxx/Z37xxx Series SoC Transaction Register [8086:0f00] (rev 0e)
+chipset-short: |
+  Atom Z36xxx/Z37xxx
+gpu: |
+  Intel Corporation Atom Processor Z36xxx/Z37xxx Series Graphics & Display [8086:0f31] (rev 0e) (prog-if 00 [VGA controller])
+  0f31]
+gpu-short: |
+  Integrated (Intel HD)
+network: |
+  Intel Corporation Wireless 7260 (rev bb)
+memory: |
+  4012
+scsi: |
+
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.14-11
+  remark: |
+    
+  credit: |
+    James
+  link: |
+    https://groups.google.com/d/msg/qubes-users/G2Smrh4OocY/78cHHrD8AAAJ
+
+---
+

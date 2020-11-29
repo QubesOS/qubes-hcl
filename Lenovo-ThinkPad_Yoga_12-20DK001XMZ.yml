@@ -36,7 +36,7 @@ network: |
 memory: |
   7855
 scsi: |
-  SAMSUNG MZ7TE256 Rev: 9L6Q
+  Samsung MZ7TE256 Rev: 9L6Q
   ADATA SP600NS34  Rev: 5.8f
 usb: |
   1

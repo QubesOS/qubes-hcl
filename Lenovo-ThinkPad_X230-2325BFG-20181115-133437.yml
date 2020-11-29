@@ -37,7 +37,7 @@ network: |
 memory: |
   16308
 scsi: |
-  SAMSUNG MZ7TD256 Rev: 4L6Q
+  Samsung MZ7TD256 Rev: 4L6Q
 usb: |
   3
 versions:

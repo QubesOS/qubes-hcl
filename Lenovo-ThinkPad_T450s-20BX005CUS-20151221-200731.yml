@@ -33,7 +33,7 @@ network: |
 memory: |
   7884
 scsi: |
-  SAMSUNG SSD 830  Rev: 3B1Q
+  Samsung SSD 830  Rev: 3B1Q
   SanDisk SSD U110 Rev: 001 
 
 versions:

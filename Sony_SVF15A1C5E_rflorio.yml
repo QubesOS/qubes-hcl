@@ -12,7 +12,7 @@ slat:
 tpm:
   'unknown'
 brand: |
-  Sony Corporation
+  Sony
 model: |
   SVF15A1C5E
 bios: |
@@ -35,7 +35,7 @@ network: |
 memory: |
   8073
 scsi: |
-  TOSHIBA MQ01ABD1 Rev: 2H  
+  Toshiba MQ01ABD1 Rev: 2H  
   DVD-RAM UJ8D3    Rev: 1.00
 
 versions:

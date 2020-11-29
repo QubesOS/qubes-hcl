@@ -33,7 +33,7 @@ network: |
 memory: |
   7656 Mb
 scsi: |
-  TOSHIBA MQ01ABD0 Rev: AX00
+  Toshiba MQ01ABD0 Rev: AX00
 
 versions:
 

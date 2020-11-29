@@ -34,7 +34,7 @@ memory: |
   7893
 scsi: |
   ST9500325AS      Rev: BSM1
-  SAMSUNG HD103UJ  Rev: 1113
+  Samsung HD103UJ  Rev: 1113
   DVDRAM GE20NU10  Rev: EE06
 
 versions:

@@ -36,7 +36,7 @@ network: |
 memory: |
   8108
 scsi: |
-  SAMSUNG MZMTD512 Rev: 3L0Q
+  Samsung MZMTD512 Rev: 3L0Q
 usb: |
   2
 versions:

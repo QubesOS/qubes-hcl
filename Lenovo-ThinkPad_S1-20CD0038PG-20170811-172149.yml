@@ -36,7 +36,7 @@ network: |
 memory: |
   8102
 scsi: |
-  SAMSUNG MZ7TD256 Rev: 2L5Q
+  Samsung MZ7TD256 Rev: 2L5Q
 usb: |
   2
 versions:

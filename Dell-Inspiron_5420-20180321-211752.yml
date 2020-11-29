@@ -39,7 +39,7 @@ network: |
 memory: |
   8052
 scsi: |
-  TOSHIBA THNSNJ12 Rev: 0101
+  Toshiba THNSNJ12 Rev: 0101
   DVD+-RW GT50N    Rev: A101
 usb: |
   3

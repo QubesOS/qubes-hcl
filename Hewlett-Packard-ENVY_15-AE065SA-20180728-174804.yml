@@ -37,7 +37,7 @@ network: |
 memory: |
   16304
 scsi: |
-  FUJITSU MHZ2320B Rev: 0009
+  Fujitsu MHZ2320B Rev: 0009
   DVDRW  DA8A6SH   Rev: GH61
   Transcend 4GB    Rev: 8.07
 usb: |

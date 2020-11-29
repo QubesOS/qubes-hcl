@@ -33,7 +33,7 @@ network: |
 memory: |
   8053
 scsi: |
-  SAMSUNG SSD PB22 Rev: VBM9
+  Samsung SSD PB22 Rev: VBM9
 
 versions:
 

@@ -37,7 +37,7 @@ network: |
 memory: |
   16095
 scsi: |
-  TOSHIBA MQ04ABF1 Rev: 4C  
+  Toshiba MQ04ABF1 Rev: 4C  
 usb: |
   1
 versions:

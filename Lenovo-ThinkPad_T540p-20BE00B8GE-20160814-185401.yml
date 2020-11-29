@@ -35,7 +35,7 @@ network: |
 memory: |
   7876
 scsi: |
-  SAMSUNG MZ7LN256 Rev: 3L6Q
+  Samsung MZ7LN256 Rev: 3L6Q
   INTEL SSDSA2M160 Rev: 02M3
 
 versions:

@@ -37,7 +37,7 @@ network: |
 memory: |
   3990
 scsi: |
-  TOSHIBA MK3261GS Rev: 1D  
+  Toshiba MK3261GS Rev: 1D  
   DVD+-RW GT32N    Rev: A203
 
 versions:

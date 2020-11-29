@@ -35,7 +35,7 @@ network: |
 memory: |
   16070
 scsi: |
-  SAMSUNG MZ7LN256 Rev: 3L6Q
+  Samsung MZ7LN256 Rev: 3L6Q
   DVDRAM GUB0N     Rev: LV20
   USB Flash Drive  Rev: 1100
 

@@ -33,7 +33,7 @@ network: |
 memory: |
   8120
 scsi: |
-  TOSHIBA MQ01ABD1 Rev: 2C  
+  Toshiba MQ01ABD1 Rev: 2C  
   DVDRW GUD1N      Rev: MD00
 
 versions:

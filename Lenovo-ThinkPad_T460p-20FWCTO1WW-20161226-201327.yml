@@ -35,7 +35,7 @@ network: |
 memory: |
   8057
 scsi: |
-  SAMSUNG MZ7LF192 Rev: 3L1Q
+  Samsung MZ7LF192 Rev: 3L1Q
 
 versions:
 

@@ -37,7 +37,7 @@ memory: |
   8191
 scsi: |
   INTEL SSDSC2CT18 Rev: 300i
-  SAMSUNG SSD 830  Rev: 3B1Q
+  Samsung SSD 830  Rev: 3B1Q
 usb: |
   0
 versions:

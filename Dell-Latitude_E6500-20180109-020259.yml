@@ -37,7 +37,7 @@ network: |
 memory: |
   4083
 scsi: |
-  SAMSUNG SSD CM87 Rev: 2D1Q
+  Samsung SSD CM87 Rev: 2D1Q
   DVD+-RW TS-U633A Rev: DW10
   USB Flash Drive  Rev: 1100
 usb: |

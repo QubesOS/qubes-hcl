@@ -12,9 +12,9 @@ slat:
 tpm:
   'unknown'
 brand: |
-  Intel Corporation
+  Librem
 model: |
-  SharkBay Platform
+  15 v2
 bios: |
   5.6.5
 cpu: |
@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Iris Graphics 6100 [8086:162b] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Iris Graphics
+  Intel Iris 6100
 network: |
   Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
 memory: |
