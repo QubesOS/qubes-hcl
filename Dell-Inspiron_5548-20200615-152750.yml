@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Inspiron 5548
+bios: |
+  A10
+cpu: |
+  Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+cpu-short: |
+  i7-5500U
+chipset: |
+  Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
+chipset-short: |
+  Broadwell-U
+gpu: |
+  Intel Corporation HD Graphics 5500 [8086:1616] (rev 09) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Opal XT [Radeon R7 M265] [1002:6604]
+gpu-short: |
+  Integrated (HD Graphics 5500)
+  Radeon R7 M265
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8101/2/6E PCI Express Fast/Gigabit Ethernet controller (rev 07)
+  Intel Corporation Wireless 3160 (rev 83)
+memory: |
+  8106
+scsi: |
+  ST1000LM014-1EJ1 Rev: DEMB
+usb: |
+  2
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-18.fc25
+  kernel: |
+    4.19.125-1
+  remark: |
+    
+  credit: |
+    ONYONYMOUS ONYON
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/CAJxyJRqbJFha7hdfxMxvbYhw3n%2B22MRozGq8Pr_v5UVAej88Cg%40mail.gmail.com
+
+---
+
