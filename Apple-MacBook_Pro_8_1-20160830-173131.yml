@@ -10,9 +10,9 @@ iommu:
 tpm:
   'unknown'
 brand: |
-  Apple Inc.
+  Apple
 model: |
-  MacBookPro8,1
+  MacBook Pro (8,1)
 bios: |
      MBP81.88Z.0047.B2A.1506082203
 cpu: |

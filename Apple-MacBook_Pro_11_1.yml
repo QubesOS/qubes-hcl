@@ -10,9 +10,9 @@ iommu:
 tpm:
   ''
 brand: |
-  Apple_Inc.
+  Apple
 model: |
-  MacBookPro11,1
+  MacBook Pro (11,1)
 bios: |
   MBP111.88Z.0138. B14.1501071216
 cpu: |

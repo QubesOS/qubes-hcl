@@ -10,9 +10,9 @@ iommu:
 tpm:
   'unknown'
 brand: |
-  Apple Inc.
+  Apple
 model: |
-  MacBookPro10,1
+  MacBook Pro (10,1)
 bios: |
   MBP101.88Z.00EE.B07.1501071031
 cpu: |

@@ -10,9 +10,9 @@ iommu:
 tpm:
   ''
 brand: |
-  Apple_Inc.
+  Apple
 model: |
-  MacBookPro6,2
+  MacBook Pro (6,2)
 bios: |
   
 cpu: |

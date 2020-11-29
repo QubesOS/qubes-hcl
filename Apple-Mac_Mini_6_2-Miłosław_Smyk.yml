@@ -10,9 +10,9 @@ iommu:
 tpm:
   ''
 brand: |
-  Apple_Inc.
+  Apple
 model: |
-  MacMini6,2
+  Mac Mini (6,2)
 bios: |
   MM61.88Z.0106. B03.1211161202
 cpu: |
