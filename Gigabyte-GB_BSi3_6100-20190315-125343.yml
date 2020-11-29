@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  GIGABYTE
+  Gigabyte
 model: |
   GB-BSi3-6100
 bios: |

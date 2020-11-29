@@ -10,7 +10,7 @@ iommu:
 tpm:
   'unknown'
 brand: |
-  Gigabyte Technology Co., Ltd.
+  Gigabyte
 model: |
   Z77-DS3H
 bios: |

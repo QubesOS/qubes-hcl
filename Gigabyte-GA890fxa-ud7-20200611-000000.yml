@@ -12,7 +12,7 @@ tpm:
   status: 'no'
   message: 'Lpc header there, prolly not populated.'
 brand: |
-  GIGABYTE
+  Gigabyte
 model: |
   GA-890fxa-ud7
 bios: |

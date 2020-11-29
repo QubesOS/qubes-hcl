@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Gigabyte Technology Co., Ltd.
+  Gigabyte
 model: |
   Z270N-WIFI
 bios: |

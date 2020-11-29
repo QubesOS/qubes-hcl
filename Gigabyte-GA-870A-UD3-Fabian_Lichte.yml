@@ -10,7 +10,7 @@ iommu:
 tpm:
   'no'
 brand: |
-  GIGABYTE
+  Gigabyte
 model: |
   GA-870A-UD3
 bios: |

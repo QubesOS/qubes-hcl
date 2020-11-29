@@ -2,31 +2,31 @@
 layout:
   'hcl'
 type:
-  'desktop'
+  'motherboard'
 hvm:
   'yes'
 iommu:
   'yes'
 tpm:
-  ''
+  'partial'
 brand: |
-  GIGABYTE
+  Gigabyte
 model: |
-  BRIX Pro / Ultra Compact PC (M4HM85P-00)
+  GA-6PXSV4
 bios: |
-  F2
+  R17
 cpu: |
   
 cpu-short: |
-  i5-4570R
+  Xeon E5
 chipset: |
   
 chipset-short: |
-  HM87
+  C604
 gpu: |
   
 gpu-short: |
-  Iris Pro 5200
+  Aspeed AST2300
 network: |
   
 memory: |
@@ -41,15 +41,15 @@ versions:
   qubes: |
     R2
   xen: |
-    4.1.6.1
+    
   kernel: |
     3.12.23-1
   remark: |
-    
+    TPM header available
   credit: |
-    Bjarne Thomsen
+    Nukama
   link: |
-    https://groups.google.com/d/msg/qubes-users/uvBcfCB8dxk/ZX-tV3y2tXEJ
+    https://groups.google.com/d/msg/qubes-users/yveUu94j26U/40sJaykesaEJ
 
 ---
 
