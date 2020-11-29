@@ -24,7 +24,7 @@ cpu-short: |
 chipset: |
   Intel Corporation 5520 I/O Hub to ESI Port [8086:3406] (rev 13)
 chipset-short: |
-  
+  Tylersburg
 gpu: |
   NVIDIA Corporation GF108GL [Quadro 600] [10de:0df8] (rev a1) (prog-if 00 [VGA controller])
   NVIDIA Corporation G96GL [Quadro FX 580] [10de:0659] (rev a1) (prog-if 00 [VGA controller])
