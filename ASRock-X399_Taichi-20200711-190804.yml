@@ -1,0 +1,64 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  ASRock
+model: |
+  X399 Taichi
+bios: |
+  P3.60
+cpu: |
+  AMD Ryzen Threadripper 2990WX 32-Core Processor
+cpu-short: |
+  Threadripper 2990WX
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 17h (Models 00h-0fh) Root Complex [1022:1450]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Ellesmere [Radeon Pro WX 7100] [1002:67c4] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon Pro WX 7100
+network: |
+  Intel Corporation I211 Gigabit Network Connection (rev 03)
+  Intel Corporation Device 24fb (rev 10)
+  Intel Corporation I211 Gigabit Network Connection (rev 03)
+  Intel Corporation Device 093c (rev 3a)
+memory: |
+  130951
+scsi: |
+  Samsung SSD 860  Rev: 3B6Q
+  Samsung SSD 860  Rev: 3B6Q
+usb: |
+  3
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-18.fc25
+  kernel: |
+    4.19.125-1
+  remark: |
+    Legacy boot only (no UEFI)
+  credit: |
+    jacobeus
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/kUFN-qvFEHHBRs1iU-b0d6A6f1n0rcL7mTf73epfxDsnZ4iC6nmPMFq3_6WusrmybFsNrHLe2oPWzWflWs2xVaBzduQGZvNSxJdjPHYTuWQ%3D%40protonmail.com
+
+---
+
