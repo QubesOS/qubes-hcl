@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'laptop'
+  'notebook'
 hvm:
   'yes'
 iommu:
@@ -16,7 +16,7 @@ remap:
 brand: |
   Hewlett-Packard
 model: |
-  ENVY
+  ENVY 15-AE065SA
 bios: |
   F.49
 cpu: |
@@ -53,7 +53,7 @@ versions:
   kernel: |
     4.14.18-1
   remark: |
-    UEFI and minor issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/Q8O1RUDCNFgs6EjVGtjXV4zY8FODz5PJNOvbOXlHz6LO975HCa_VSY0fbM8tTXcLPgQ96h8ll9JQt5c4LyFv3XvezvGch8l2pz3mLlYOjro%3D%40pm.me'><span class='icon'></span>read more</a>
+    
   credit: |
     ozuhouz
   link: |
