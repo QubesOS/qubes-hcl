@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'workstation'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'yes'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  HP Z420
+bios: |
+  J61 v03.94
+cpu: |
+  Intel(R) Xeon(R) CPU E5-2680 0 @ 2.70GHz
+cpu-short: |
+  Xeon E5-2680
+chipset: |
+  Intel Corporation Xeon E5/Core i7 DMI2 [8086:3c00] (rev 07)
+chipset-short: |
+  Patsburg
+gpu: |
+  NVIDIA Corporation GK106GL [Quadro K4000] [10de:11fa] (rev a1) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GF106GL [Quadro 2000] [10de:0dd8] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro 2000
+  Quadro 4000
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 05)
+memory: |
+  65459
+scsi: |
+  ST1000DM003-1SB1 Rev: HPH3
+  DVD A  DH16AESH  Rev: 3HH6
+usb: |
+  3
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-16.fc25
+  kernel: |
+    5.5.7-1
+  remark: |
+    
+  credit: |
+    Emlay
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/1d1b8a6cceb378a911ef108f7049f405e69d1783.camel%40gmail.com
+
+---
+
