@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
 chipset-short: |
-  Sandy
+  Sandy Bridge
 gpu: |
   Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0116] (rev 09) (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] Seymour [Radeon HD 6400M/7400M Series] [1002:6760] (rev ff) (prog-if ff)
