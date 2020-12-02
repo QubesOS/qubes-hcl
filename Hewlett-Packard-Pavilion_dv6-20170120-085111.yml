@@ -24,7 +24,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Core Processor DMI [8086:d132] (rev 11)
 chipset-short: |
-
+  Clarksfield
 gpu: |
   NVIDIA Corporation GT216M [GeForce GT 230M] [10de:0a28] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |

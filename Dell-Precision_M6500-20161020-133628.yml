@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Core Processor DMI [8086:d132] (rev 11)
 chipset-short: |
-  
+  Clarksfield
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] RV740/M97 GL [FirePro M7740] [1002:94a3] (prog-if 00 [VGA controller])
 gpu-short: |

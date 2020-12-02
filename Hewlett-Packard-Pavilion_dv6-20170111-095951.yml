@@ -20,7 +20,7 @@ bios: |
 cpu: |
   Intel(R) Core(TM) i7 CPU       Q 720  @ 1.60GHz
 cpu-short: |
-  i7 Q 720
+  i7 Q720
 chipset: |
   Intel Corporation Core Processor DMI [8086:d132] (rev 11)
 chipset-short: |
