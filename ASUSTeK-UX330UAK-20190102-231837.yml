@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 620)
+  Integrated Graphics (HD 620)
 network: |
   Intel Corporation Wireless 8260 (rev 3a)
 memory: |

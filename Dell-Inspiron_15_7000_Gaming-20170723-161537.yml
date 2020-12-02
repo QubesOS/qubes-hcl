@@ -31,8 +31,7 @@ gpu: |
   Intel Corporation Device [8086:591b] (rev 04) (prog-if 00 [VGA controller])
   NVIDIA Corporation Device [10de:1c8c] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 630)
-  GeForce GTX 1050 Ti
+  Integrated Graphics (HD 630) & GeForce GTX 1050 Ti
 network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
   Intel Corporation Device 24fd (rev 78)

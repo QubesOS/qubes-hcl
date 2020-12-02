@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   01:00.0 VGA compatible controller [0300]: NVIDIA Corporation GT218M [NVS 3100M] [10de:0a6c] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVS 3100M
+  GT218M
 network: |
   00:19.0 Ethernet controller: Intel Corporation 82577LM Gigabit Network Connection (rev 05)
   03:00.0 Network controller: Intel Corporation Centrino Advanced-N 6200 (rev 35)

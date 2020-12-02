@@ -31,8 +31,7 @@ gpu: |
   Intel Corporation Device [8086:9bc4] (rev 05) (prog-if 00 [VGA controller])
   NVIDIA Corporation Device [10de:1f15] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel UHD 630)
-  GeForce RTX 2060
+  Integrated Graphics (UHD 630) & GeForce RTX 2060
 network: |
   Intel Corporation Device 06f0
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)

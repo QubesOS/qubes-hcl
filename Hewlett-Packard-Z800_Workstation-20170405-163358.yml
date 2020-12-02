@@ -30,7 +30,7 @@ gpu: |
   NVIDIA Corporation G96GL [Quadro FX 580] [10de:0659] (rev a1) (prog-if 00 [VGA controller])
   NVIDIA Corporation GF104 [GeForce GTX 460] [10de:0e22] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Quadro Graphics
+  Quadro 600 & FX 580 & GeForce GTX 460
 network: |
   Broadcom Limited NetXtreme BCM5764M Gigabit Ethernet PCIe (rev 10)
   Broadcom Limited NetXtreme BCM5764M Gigabit Ethernet PCIe (rev 10)

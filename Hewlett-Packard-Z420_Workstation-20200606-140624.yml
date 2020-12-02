@@ -31,8 +31,7 @@ gpu: |
   NVIDIA Corporation GK106GL [Quadro K4000] [10de:11fa] (rev a1) (prog-if 00 [VGA controller])
   NVIDIA Corporation GF106GL [Quadro 2000] [10de:0dd8] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Quadro 2000
-  Quadro 4000
+  Quadro 2000 & K4000
 network: |
   Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 05)
 memory: |

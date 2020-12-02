@@ -29,7 +29,7 @@ gpu: |
   Intel Corporation HD Graphics 530 [8086:191b] (rev 06) (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] Mars [Radeon HD 8670A/8670M/8750M] [1002:6600] (rev ff) (prog-if ff)
 gpu-short: |
-  Integrated Graphics (Intel HD 530)
+  Integrated Graphics (HD 530)
   AMD Radeon
 network: |
   Intel Corporation Ethernet Connection (2) I219-LM (rev 31)

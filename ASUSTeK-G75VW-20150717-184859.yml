@@ -26,7 +26,7 @@ chipset-short:
 chipset:  |
   Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
 gpu-short:
-  'GTX 670M'
+  'GeForce GTX 670M'
 gpu:  |
   NVIDIA Corporation GF114M [GeForce GTX 670M] [10de:1213] (rev a1) (prog-if 00 [VGA controller])
 network:  |

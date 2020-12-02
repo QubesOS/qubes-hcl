@@ -31,8 +31,7 @@ gpu: |
   Intel Corporation Device [8086:591b] (rev 04) (prog-if 00 [VGA controller])
   NVIDIA Corporation GM206GLM [Quadro M2200 Mobile] [10de:1436] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 630)
-  NVIDIA GM206GLM
+  Integrated Graphics (HD 630) & Quadro M2200 Mobile
 network: |
   Intel Corporation Ethernet Connection (5) I219-LM (rev 31)
   Intel Corporation Wireless 8265 / 8275 (rev 78)

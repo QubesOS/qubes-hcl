@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GM107GLM [Quadro M1000M] [10de:13b1] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA Quadro M1000M
+  Quadro M1000M
 network: |
   Intel Corporation Ethernet Connection (2) I219-LM (rev 31)
   Intel Corporation Wireless 8260 (rev 3a)

@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GM107GLM [Quadro K2200M] [10de:13b3] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA GM107GLM
+  Quadro K2200M
 network: |
   Intel Corporation Ethernet Connection I217-LM (rev 04)
   Broadcom Limited BCM4352 802.11ac Wireless Network Adapter (rev 03)

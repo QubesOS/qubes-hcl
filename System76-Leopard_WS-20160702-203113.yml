@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GM206 [GeForce GTX 960] [10de:1401] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA GeForce GTX 960
+  GeForce GTX 960
 network: |
   Intel Corporation Ethernet Connection (2) I218-V (rev 05)
   Intel Corporation Wireless 7260 (rev 73)

@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 4000)
+  Integrated Graphics (HD 4000)
 network: |
   Broadcom Limited BCM43142 802.11b/g/n (rev 01)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)

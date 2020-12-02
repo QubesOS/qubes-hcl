@@ -31,8 +31,7 @@ gpu: |
   Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0102] (rev 09)
   NVIDIA Corporation GF114 [GeForce GTX 560 Ti] [10de:1200] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD)
-  GeForce GTX 560 Ti
+  Integrated Graphics (HD) & GeForce GTX 560 Ti
 network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
 memory: |

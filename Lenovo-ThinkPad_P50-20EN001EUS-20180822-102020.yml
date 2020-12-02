@@ -31,8 +31,7 @@ gpu: |
   Intel Corporation HD Graphics 530 [8086:191b] (rev 06) (prog-if 00 [VGA controller])
   NVIDIA Corporation GM107GLM [Quadro M2000M] [10de:13b0] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 530)
-  NVIDIA Quadro
+  Integrated Graphics (HD 530) & Quadro M2000M
 network: |
   Intel Corporation Ethernet Connection (2) I219-LM (rev 31)
   Intel Corporation Wireless 8260 (rev 3a)

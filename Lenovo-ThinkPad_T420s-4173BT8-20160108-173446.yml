@@ -27,8 +27,7 @@ gpu: |
   Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0126] (rev 09) (prog-if 00 [VGA controller])
   NVIDIA Corporation GF119M [NVS 4200M] [10de:1056] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 3000)
-  GF119M
+  Integrated Graphics (HD 3000) & Quadro NVS 4200M
 network: |
   Intel Corporation 82579LM Gigabit Network Connection (rev 04)
   Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 34)

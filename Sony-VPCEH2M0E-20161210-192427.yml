@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GF119M [GeForce 410M] [10de:1055] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA GF119M
+  GeForce 410M
 network: |
   Qualcomm Atheros AR9285 Wireless Network Adapter (PCI-Express) (rev 01)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)

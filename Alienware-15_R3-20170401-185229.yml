@@ -29,7 +29,7 @@ gpu: |
   Intel Corporation HD Graphics 530 [8086:191b] (rev 06) (prog-if 00 [VGA controller])
   NVIDIA Corporation Device [10de:1c20] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 530)
+  Integrated Graphics (HD 530) & GeForce GTX 1060 Mobile
 network: |
   Qualcomm Atheros Killer E2400 Gigabit Ethernet Controller (rev 10)
   Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)

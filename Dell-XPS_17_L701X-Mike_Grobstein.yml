@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   
 gpu-short: |
-  NVIDIA GT 435M
+  GT 435M
 network: |
   
 memory: |

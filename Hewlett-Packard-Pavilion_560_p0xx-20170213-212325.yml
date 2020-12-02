@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GM206 [GeForce GTX 950] [10de:1402] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA GM206
+  GeForce GTX 950
 network: |
   Intel Corporation Device 24fb (rev 10)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 10)

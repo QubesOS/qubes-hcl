@@ -24,12 +24,12 @@ cpu-short: |
 chipset: |
   Intel Corporation 3rd Gen Core processor DRAM Controller [XXXX:XXXX] (rev XX)
 chipset-short: |
-  Ivy Bridge HM67 Express
+  Ivy Bridge
 gpu: |
   Intel Corporation 3rd Gen Core processor Graphics Controller [XXXX:XXXX] (rev XX) (prog-if XX [VGA controller])
   NVIDIA Corporation XXXXXX [GeForce GT 650M] [XXXX:XXXX] (rev XX) (prog-if XX [VGA controller])
 gpu-short: |
-  NVIDIA GT 650M
+  Integrated Graphics (HD 4000) & GeForce GT 650M
 network: |
   Intel Corporation Centrino Wireless-N XXXX (rev XX)
   Qualcomm Atheros XXXXXX Gigabit Ethernet (rev XX)

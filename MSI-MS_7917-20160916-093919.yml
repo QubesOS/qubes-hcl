@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GM204 [GeForce GTX 980] [10de:13c0] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA GM204
+  GeForce GTX 980
 network: |
   Qualcomm Atheros Killer E220x Gigabit Ethernet Controller (rev 13)
 memory: |

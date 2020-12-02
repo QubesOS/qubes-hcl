@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Device [8086:9bca] (rev 04) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel UHD 620)
+  Integrated Graphics (UHD 620)
 network: |
   Intel Corporation Device 02f0 Wireless-AC 9462
   Intel Corporation Device 0d4f I219-V

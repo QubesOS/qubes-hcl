@@ -27,9 +27,8 @@ chipset-short: |
   Haswell
 gpu: |
   NVIDIA Corporation GM204 [GeForce GTX 970] [10de:13c2] (rev a1) (prog-if 00 [VGA controller])
-  NVIDIA Corporation GM204 [GeForce GTX 970] [10de:13c2] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA GM204
+  GeForce GTX 970
 network: |
   Intel Corporation Ethernet Connection (2) I218-V
 memory: |

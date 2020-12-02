@@ -25,7 +25,6 @@ chipset-short: |
   Tylersburg
 gpu: |
   NVIDIA Corporation GF108GL [Quadro 600] [10de:0df8] (rev a1) (prog-if 00 [VGA controller])
-  NVIDIA Corporation GF108GL [Quadro 600] [10de:0df8] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
   Quadro 600
 network: |

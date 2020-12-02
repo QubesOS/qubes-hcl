@@ -27,7 +27,7 @@ gpu: |
   Intel Corporation Atom Processor Z36xxx/Z37xxx Series Graphics & Display [8086:0f31] (rev 0e) (prog-if 00 [VGA controller])
   0f31]
 gpu-short: |
-  Integrated Graphics (Intel HD)
+  Integrated Graphics (HD)
 network: |
   Intel Corporation Wireless 7260 (rev bb)
 memory: |

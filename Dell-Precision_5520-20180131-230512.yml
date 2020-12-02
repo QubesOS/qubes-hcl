@@ -31,8 +31,7 @@ gpu: |
   Intel Corporation Device [8086:591b] (rev 04) (prog-if 00 [VGA controller])
   NVIDIA Corporation GM107GLM [10de:13b6] [Quadro M1200 Mobile]  ([3D controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 630)
-  Quadro M1200
+  Integrated Graphics (HD 630) & Quadro M1200
 network: |
   Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
 memory: |

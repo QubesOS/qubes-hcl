@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0116] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 3000)
+  Integrated Graphics (HD 3000)
 network: |
   Ralink corp. RT3290 Wireless 802.11n 1T/1R PCIe
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 07)

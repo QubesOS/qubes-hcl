@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GM107GLM [Quadro M1200 Mobile] [10de:13b6] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
-  Quadro M1200
+  Quadro M1200 Mobile
 network: |
   Intel Corporation Ethernet Connection (5) I219-LM (rev 31)
   Intel Corporation Wireless 8265 / 8275 (rev 78)

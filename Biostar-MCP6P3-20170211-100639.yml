@@ -24,11 +24,11 @@ cpu-short: |
 chipset: |
 
 chipset-short: |
-
+  AMD
 gpu: |
   NVIDIA Corporation GT218 [GeForce 8400 GS Rev. 3] [10de:10c3] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA GT218
+  GeForce 8400 GS
 network: |
   NVIDIA Corporation MCP61 Ethernet (rev a2)
   Realtek Semiconductor Co., Ltd. RTL8169 PCI Gigabit Ethernet Controller (rev 10)

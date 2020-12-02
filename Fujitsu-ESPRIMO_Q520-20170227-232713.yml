@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller [8086:0412] (rev 06) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 4600)
+  Integrated Graphics (HD 4600)
 network: |
   Intel Corporation Ethernet Connection I217-V (rev 04)
   Intel Corporation Centrino Wireless-N 2230 (rev c4)

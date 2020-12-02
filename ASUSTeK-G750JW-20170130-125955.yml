@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GK106M [GeForce GTX 765M] [10de:11e2] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA GK106M
+  GeForce GTX 765M
 network: |
   Broadcom Limited BCM4352 802.11ac Wireless Network Adapter (rev 03)
   Qualcomm Atheros QCA8171 Gigabit Ethernet (rev 10)

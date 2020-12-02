@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 4600)
+  Integrated Graphics (HD 4600)
 network: |
   Broadcom Limited BCM4352 802.11ac Wireless Network Adapter (rev 03)
   Qualcomm Atheros QCA8171 Gigabit Ethernet (rev 10)

@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation Device [10de:1fb9] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA Quadro T1000
+  Quadro T1000
 network: |
   Intel Corporation Device 06f0
   Intel Corporation Device 0d4c

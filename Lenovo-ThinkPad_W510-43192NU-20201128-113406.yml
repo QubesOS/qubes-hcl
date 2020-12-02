@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GT216GLM [Quadro FX 880M] [10de:0a3c] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA GT216GLM
+  Quadro FX 880M
 network: |
   Intel Corporation 82577LM Gigabit Network Connection (rev 06)
   Intel Corporation Centrino Ultimate-N 6300 (rev 35)

@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GK104 [GeForce GTX 770] [10de:1184] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  GTX 770
+  GeForce GTX 770
 network: |
   Intel Corporation 82579V Gigabit Network Connection (rev 06)
 memory: |

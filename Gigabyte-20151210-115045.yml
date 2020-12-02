@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GK104 [GeForce GTX 770] [10de:1184] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD) + GTX 770
+  Integrated Graphics (HD) & GeForce GTX 770
 network: |
   Qualcomm Atheros AR8161 Gigabit Ethernet (rev 10)
   Realtek Semiconductor Co., Ltd. RTL8169 PCI Gigabit Ethernet Controller (rev 10)

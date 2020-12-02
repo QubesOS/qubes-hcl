@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GK107M [GeForce GT 650M Mac Edition] [10de:0fd5] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA GK107M
+  GeForce GT 650M
 network: |
   Broadcom Corporation NetXtreme BCM57786 Gigabit Ethernet PCIe (rev 10)
   Broadcom Corporation BCM4331 802.11a/b/g/n (rev 02)

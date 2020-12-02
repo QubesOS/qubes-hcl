@@ -31,8 +31,7 @@ gpu: |
   Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
   NVIDIA Corporation GK104GLM [Quadro K4100M] [10de:11b7] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 4600)
-  NVIDIA GK104GLM
+  Integrated Graphics (HD 4600) & Quadro K4100M
 network: |
   Intel Corporation Ethernet Connection I217-LM (rev 04)
   Intel Corporation Wireless 7260 (rev bb)

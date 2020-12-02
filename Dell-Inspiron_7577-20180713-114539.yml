@@ -31,8 +31,7 @@ gpu: |
   Intel Corporation Device [8086:591b] (rev 04) (prog-if 00 [VGA controller])
   NVidia GTX 1050 Ti
 gpu-short: |
-  Integrated Graphics (Intel HD 630)
-  NVIDIA GTX
+  Integrated Graphics (HD 630) & GeForce GTX 1050 Ti
 network: |
   Intel Corporation Wireless 8265 / 8275 (rev 78)
 memory: |

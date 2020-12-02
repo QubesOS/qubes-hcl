@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GT216M [GeForce GT 230M] [10de:0a28] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA GT216M
+  GeForce GT 230M
 network: |
   Broadcom Limited BCM43225 802.11b/g/n (rev 01)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 03)

@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0126] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 3000)
+  Integrated Graphics (HD 3000)
 network: |
   Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
   Broadcom Limited BCM43228 802.11a/b/g/n

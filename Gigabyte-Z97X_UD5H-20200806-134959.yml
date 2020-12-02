@@ -31,7 +31,7 @@ gpu: |
   Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller [8086:0412] (rev 06) (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] Ellesmere [Radeon RX 470/480/570/580] [1002:67df] (rev c7) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 4600)
+  Integrated Graphics (HD 4600)
 network: |
   Intel Corporation Ethernet Connection I217-V
   Qualcomm Atheros Killer E220x Gigabit Ethernet Controller (rev 10)

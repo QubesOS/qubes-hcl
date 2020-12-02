@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0102] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD)
+  Integrated Graphics (HD)
 network: |
   Realtek Semiconductor Co., Ltd. RTL8169 PCI Gigabit Ethernet Controller (rev 10)
 memory: |

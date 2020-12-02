@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Intel Corporation 4th Generation Core Processor Family Integrated Graphics Controller [8086:041e] (rev 06) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Intel HD 4400)
+  Integrated Graphics (HD 4400)
 network: |
   Qualcomm Atheros AR9485 Wireless Network Adapter (rev 01)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)
