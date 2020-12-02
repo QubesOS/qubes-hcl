@@ -16,7 +16,7 @@ brand: |
 model: |
   GA-890fxa-ud7
 bios: |
-  F5j My own custom mod with fixed iommu tables. F5F beta bios from support. Latest from page broken. Ping me on Github for files.
+  F5j (custom mod)
 cpu: |
   Any AM3(+) that supports virtualization.     
 cpu-short: |
