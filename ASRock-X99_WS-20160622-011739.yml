@@ -27,7 +27,7 @@ gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Cayman XT [Radeon HD 6970] [1002:6718] (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] Caicos PRO [Radeon HD 7450] [1002:677b] (prog-if 00 [VGA controller])
 gpu-short: |
-  Dual AMD Radeon
+  Radeon HD 6970 & 7450
 network: |
   Intel Corporation Ethernet Connection I217-LM (rev 05)
   Intel Corporation I210 Gigabit Network Connection (rev 03)

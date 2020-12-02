@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Mullins [Radeon R3 Graphics] [1002:9850] (rev 40) (prog-if 00 [VGA controller])
 gpu-short: |
-  Radeon R3 Graphics
+  Radeon R3
 network: |
   Intel Corporation Wireless 3165 (rev 81)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)

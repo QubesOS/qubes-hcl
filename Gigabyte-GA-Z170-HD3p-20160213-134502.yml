@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Amethyst XT [Radeon R9 M295X Mac Edition] [1002:6938] (rev f1) (prog-if 00 [VGA controller])
 gpu-short: |
-  R9 M295X
+  Radeon R9 M295X
 network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
 memory: |

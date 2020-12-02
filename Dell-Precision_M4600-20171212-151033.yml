@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Whistler [Radeon HD 6730M/6770M/7690M XT] [1002:6740] (prog-if 00 [VGA controller])
 gpu-short: |
-  AMD Radeon HD
+  Radeon HD
 network: |
   Intel Corporation 82579LM Gigabit Network Connection (rev 04)
   Intel Corporation Centrino Ultimate-N 6300 (rev 35)

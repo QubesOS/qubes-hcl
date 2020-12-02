@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] RV710/M92 [Mobility Radeon HD 4350/4550] [1002:9555] (prog-if 00 [VGA controller])
 gpu-short: |
-  Radeon HD 4350/4550
+  Radeon HD
 network: |
   Intel Corporation 82577LC Gigabit Network Connection (rev 05)
   Intel Corporation Centrino Advanced-N 6200 (rev 35)

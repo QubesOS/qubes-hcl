@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Cedar [Radeon HD 5000/6000/7350/8350 Series] [1002:68f9] (prog-if 00 [VGA controller])
 gpu-short: |
-  Asus EAH5450 SILENT/DI/512MD2/LP
+  Radeon HD
 network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 16)
 memory: |

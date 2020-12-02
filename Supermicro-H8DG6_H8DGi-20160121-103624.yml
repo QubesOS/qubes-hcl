@@ -27,7 +27,7 @@ gpu: |
   Matrox Electronics Systems Ltd. MGA G200eW WPCM450 [102b:0532] (rev 0a) (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] RV620 PRO [Radeon HD 3470] [1002:95c0] (prog-if 00 [VGA controller])
 gpu-short: |
-  MGA G200eW + RV620
+  Radeon HD 3470
 network: |
   Intel Corporation 82576 Gigabit Network Connection (rev 01)
   Intel Corporation 82576 Gigabit Network Connection (rev 01)

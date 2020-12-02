@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   00:01.0 VGA compatible controller [0300]: Advanced Micro Devices, Inc. [AMD/ATI] Trinity [Radeon HD 7660G] [1002:9900] (prog-if 00 [VGA controller])
 gpu-short: |
-  
+  Radeon HD 7660G
 network: |
   02:00.0 Network controller: Ralink corp. RT3290 Wireless 802.11n 1T/1R PCIe
   05:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8101E/RTL8102E PCI Express Fast Ethernet controller (rev 05)

@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] RV635/M86 [Mobility Radeon HD 3670] [1002:9593] (prog-if 00 [VGA controller])
 gpu-short: |
-  Mobility Radeon HD
+  Mobility Radeon HD 3670
 network: |
   Intel Corporation Centrino Advanced-N 6235 (rev 24)
   Broadcom Limited NetLink BCM5784M Gigabit Ethernet PCIe (rev 10)

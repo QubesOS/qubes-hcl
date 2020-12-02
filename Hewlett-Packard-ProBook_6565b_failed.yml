@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   AMD Radeon HD 6480G
 gpu-short: |
-  Radeon HD
+  Radeon HD 6480G
 network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
   Broadcom Limited BCM43224 802.11a/b/g/n (rev 01)

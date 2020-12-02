@@ -27,7 +27,7 @@ gpu: |
   00:01.0 VGA compatible controller [0300]: Advanced Micro Devices, Inc. [AMD/ATI] Richland [Radeon HD 8650G] [1002:990b] (prog-if 00 [VGA controller])
   04:00.0 Display controller [0380]: Advanced Micro Devices, Inc. [AMD/ATI] Jet PRO [Radeon R5 M230] [1002:6665]
 gpu-short: |
-  
+  Integrated Graphics (Radeon HD 8650G) & Radeon R5 M230
 network: |
   01:00.0 Ethernet controller: Qualcomm Atheros QCA8172 Fast Ethernet (rev 10)
   02:00.0 Network controller: Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)

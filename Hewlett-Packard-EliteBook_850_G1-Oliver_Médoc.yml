@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   
 gpu-short: |
-  HD Graphics + Radeon HD 8730M
+  Integrated Graphics (HD) & Radeon HD 8730M
 network: |
   
 memory: |

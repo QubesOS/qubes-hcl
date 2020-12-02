@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:15dd] (rev c4) (prog-if 00 [VGA controller])
 gpu-short: |
-  Vega
+  Integrated Graphics (Radeon Vega 8 Mobile)
 network: |
   Realtek Semiconductor Co., Ltd. RTL8101/2/6E PCI Express Fast/Gigabit Ethernet controller (rev 07)
   Qualcomm Atheros QCA9377 802.11ac Wireless Network Adapter (rev 31)

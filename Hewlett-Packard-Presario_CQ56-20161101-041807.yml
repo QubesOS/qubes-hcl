@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] RS880M [Mobility Radeon HD 4225/4250] [1002:9712] (prog-if 00 [VGA controller])
 gpu-short: |
-  AMD Radeon
+  Radeon HD
 network: |
   Qualcomm Atheros AR9285 Wireless Network Adapter (PCI-Express) (rev 01)
   Realtek Semiconductor Co., Ltd. RTL8101/2/6E PCI Express Fast/Gigabit Ethernet controller (rev 02)

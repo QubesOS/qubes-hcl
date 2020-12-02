@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Cedar [Radeon HD 5000/6000/7350/8350 Series] [1002:68f9] (prog-if 00 [VGA controller])
 gpu-short: |
-  AMD Radeon HD
+  Radeon HD
 network: |
   Intel Corporation 82579LM Gigabit Network Connection (rev 04)
 memory: |

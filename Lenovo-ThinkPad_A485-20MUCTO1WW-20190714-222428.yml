@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:15dd] (rev d1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Radeon Vega 8
+  Integrated Graphics (Radeon Vega 8 Mobile)
 network: |
   Realtek Semiconductor Co., Ltd. Device b822
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0e)
