@@ -51,7 +51,7 @@ versions:
   kernel: |
     4.19.132-1
   remark: |
-    see linked forum thread
+    <a class='ext-link' href='https://qubes-os.discourse.group/t/hcl-asus-transformer-book-tp500lab/527'><span class='icon'></span>read more</a>  
   credit: |
     BBro
   link: |
