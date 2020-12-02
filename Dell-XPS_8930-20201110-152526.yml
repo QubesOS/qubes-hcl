@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Device [8086:3e98] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (Intel UHD 630)
+  Integrated Graphics (Intel UHD 630)
 network: |
   Qualcomm Atheros QCA9377 802.11ac Wireless Network Adapter (rev 31)
   Qualcomm Atheros Killer E2400 Gigabit Ethernet Controller (rev 10)

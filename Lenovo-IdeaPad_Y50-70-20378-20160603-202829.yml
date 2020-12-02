@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (Intel HD 4600)
+  Integrated Graphics (Intel HD 4600)
 network: |
   Intel Corporation Wireless 7260 (rev 83)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 10)

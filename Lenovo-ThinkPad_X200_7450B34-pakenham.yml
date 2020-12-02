@@ -27,7 +27,7 @@ gpu: |
   00:02.0 VGA compatible controller [0300]: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a42] (rev 07)
   00:02.1 Display controller [0380]: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a43] (rev 07)
 gpu-short: |
-  Integrated (GMA 4500MHD)
+  Integrated Graphics (GMA 4500MHD)
 network: |
   
 memory: |

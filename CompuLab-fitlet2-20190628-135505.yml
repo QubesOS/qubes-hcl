@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Device [8086:5a85] (rev 0b) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (Intel HD 500)
+  Integrated Graphics (Intel HD 500)
 network: |
   Intel Corporation I211 Gigabit Network Connection (rev 03)
   Intel Corporation I211 Gigabit Network Connection (rev 03)

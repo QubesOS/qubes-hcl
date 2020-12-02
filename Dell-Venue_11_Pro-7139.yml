@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Device [8086:0a1e] (rev 0b) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (Intel HD 4200)
+  Integrated Graphics (Intel HD 4200)
 network: |
   Intel Corporation Wireless 7260 (rev bb)
 memory: |

@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Core Processor Integrated Graphics Controller [8086:0046] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (Intel HD)
+  Integrated Graphics (Intel HD)
 network: |
   Broadcom Corporation NetLink BCM57780 Gigabit Ethernet PCIe (rev 01)
   Qualcomm Atheros AR9287 Wireless Network Adapter (PCI-Express) (rev 01)

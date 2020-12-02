@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics 5300 [8086:161e] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (Intel HD)
+  Integrated Graphics (Intel HD)
 network: |
   Intel Corporation Wireless 7265 (rev 59)
 memory: |

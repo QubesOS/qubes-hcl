@@ -29,7 +29,7 @@ gpu: |
   Intel Corporation HD Graphics 530 [8086:191b] (rev 06)
   NVIDIA Corporation GP106M [GeForce GTX 1060] [10de:1c20] (rev a1)
 gpu-short: |
-  Integrated (Intel HD 530)
+  Integrated Graphics (Intel HD 530)
   NVIDIA GP106M
 network: |
   Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)

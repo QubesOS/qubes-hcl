@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0156] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (Intel HD)
+  Integrated Graphics (Intel HD)
 network: |
   Qualcomm Atheros AR8162 Fast Ethernet (rev 10)
   Realtek Semiconductor Co., Ltd. RTL8188EE Wireless Network Adapter (rev 01)

@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (Intel HD 4000)
+  Integrated Graphics (Intel HD 4000)
 network: |
   Intel Corporation Centrino Advanced-N 6235 (rev 24)
 memory: |

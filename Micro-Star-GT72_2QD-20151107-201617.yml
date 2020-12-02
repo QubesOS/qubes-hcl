@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Broadwell-U Integrated Graphics [8086:1612] (rev 0a) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (Intel HD 5600)
+  Integrated Graphics (Intel HD 5600)
 network: |
   Qualcomm Atheros Killer E220x Gigabit Ethernet Controller (rev 13)
   Intel Corporation Wireless 7260 (rev c3)

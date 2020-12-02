@@ -31,7 +31,7 @@ gpu: |
   Intel Corporation Device [8086:3e94] (prog-if 00 [VGA controller])
   NVIDIA Corporation Device [10de:1cba] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (Intel HD 630)
+  Integrated Graphics (Intel HD 630)
 network: |
   Intel Corporation Device a370 (rev 10)
   Intel Corporation Ethernet Connection (7) I219-LM (rev 10)

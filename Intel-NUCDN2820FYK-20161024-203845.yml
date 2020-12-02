@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Atom Processor Z36xxx/Z37xxx Series Graphics & Display [8086:0f31] (rev 0e) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (Intel HD)
+  Integrated Graphics (Intel HD)
 network: |
   Intel Corporation Wireless 7260 (rev 73)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)

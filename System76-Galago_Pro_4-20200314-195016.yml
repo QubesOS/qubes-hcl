@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation UHD Graphics [8086:9b41] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated (Intel UHD 620)
+  Integrated Graphics (Intel UHD 620)
 network: |
   Intel Corporation Wireless-AC 9462
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 12)
