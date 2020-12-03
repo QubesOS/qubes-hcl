@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics 630 [8086:5912] (rev 04) (prog-if 00 [VGA controller])
 gpu-short: |
-  HD Graphics
+  Integrated Graphics (HD)
 network: |
   Intel Corporation Ethernet Connection (5) I219-LM
   Intel Corporation I210 Gigabit Network Connection (rev 03)

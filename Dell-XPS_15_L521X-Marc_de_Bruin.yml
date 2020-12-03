@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   
 gpu-short: |
-  HD Graphics + GeForce GT 640M
+  Integrated Graphics (HD) + GeForce GT 640M
 network: |
   
 memory: |

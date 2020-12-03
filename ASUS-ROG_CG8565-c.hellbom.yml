@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   
 gpu-short: |
-  HD Graphics + GTX590/GTX560Ti
+  Integrated Graphics (HD) + GTX590/GTX560Ti
 network: |
   
 memory: |

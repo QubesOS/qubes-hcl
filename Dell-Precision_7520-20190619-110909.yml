@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics P630 [8086:591d] (rev 04) (prog-if 00 [VGA controller])
 gpu-short: |
-  HD Graphics P630
+  Integrated Graphics (HD P630)
 network: |
   Intel Corporation Ethernet Connection (5) I219-LM (rev 31)
   Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)

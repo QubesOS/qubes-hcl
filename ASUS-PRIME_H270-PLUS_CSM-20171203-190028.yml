@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics 630 [8086:5912] (rev 04) (prog-if 00 [VGA controller])
 gpu-short: |
-  HD Graphics
+  Integrated Graphics (HD)
 network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
 memory: |

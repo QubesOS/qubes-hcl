@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   00:02.0 VGA compatible controller [0300]: Intel Corporation Haswell-ULT Integrated Graphics Controller [8086:0a2e] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  HD Graphics
+  Integrated Graphics (HD)
 network: |
   03:00.0 Network controller: Broadcom Corporation BCM4360 802.11ac Wireless Network Adapter (rev 03)
   0a:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM57762 Gigabit Ethernet PCIe

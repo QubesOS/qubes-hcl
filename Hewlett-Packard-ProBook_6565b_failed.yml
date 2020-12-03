@@ -28,7 +28,7 @@ chipset: |
 chipset-short: |
   AMD
 gpu: |
-  AMD Radeon HD 6480G
+  Integrated Graphics (Radeon HD 6480G)
 gpu-short: |
   Radeon HD 6480G
 network: |

@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   
 gpu-short: |
-  HD Graphics + GT 330M
+  Integrated Graphics (HD) + GT 330M
 network: |
   
 memory: |
