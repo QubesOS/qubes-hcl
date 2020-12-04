@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'yes'
+remap:
+  'yes'
+brand: |
+  Gigabyte
+model: |
+  X570 GAMING X
+bios: |
+  F30
+cpu: |
+  AMD Ryzen 7 3800X 8-Core Processor
+cpu-short: |
+  Ryzen 7 3800X
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:1480]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Cedar [Radeon HD 5000/6000/7350/8350 Series] [1002:68f9] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon HD
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 16)
+memory: |
+  16327
+scsi: |
+  ADATA SU900      Rev: 5A  
+usb: |
+  3
+versions:
+
+- works:
+    yes
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-25.fc25
+  kernel: |
+    4.19.152-1
+  remark: |
+    <a class='ext-link' href='https://qubes-os.discourse.group/t/hcl-gigabyte-x570-gaming-x-motherboard/1479'><span class='icon'></span>read more</a>
+  credit: |
+    BBro
+  link: |
+    https://qubes-os.discourse.group/t/hcl-gigabyte-x570-gaming-x-motherboard/1479
+    
+---
+

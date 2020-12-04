@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Inspiron 5468
+bios: |
+  1.0.7
+cpu: |
+  Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+cpu-short: |
+  i5-7200U
+chipset: |
+  Intel Corporation Device [8086:5904] (rev 02)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Intel Corporation Device [8086:5916] (rev 02) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 620)
+network: |
+  Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter (rev 01)
+  Realtek Semiconductor Co., Ltd. RTL8101/2/6E PCI Express Fast/Gigabit Ethernet controller (rev 07)
+memory: |
+  12186
+scsi: |
+  SanDisk SDSSDA24 Rev: 80RL
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.5
+  kernel: |
+    4.8.12-12
+  remark: |
+    Had to do the 'boot device not recognized' procedures to get it to boot, had to update to kernel 4.8 to make backlight and suspend to work, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/VeGsBobbw3Q/QXl7GJgGAwAJ'><span class='icon'></span>read more</a>
+  credit: |
+    Guilherme Lima
+  link: |
+    https://groups.google.com/d/msg/qubes-users/VeGsBobbw3Q/QXl7GJgGAwAJ
+---
+

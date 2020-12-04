@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'no'
+tpm:
+  ''
+remap:
+  'no'
+brand: |
+  Hewlett-Packard
+model: |
+  xw6600
+bios: |
+  786F4 v01.46
+cpu: |
+  Intel(R) Xeon(R) CPU           E5420  @ 2.50GHz
+cpu-short: |
+  Xeon E5420
+chipset: |
+  Intel Corporation 5400 Chipset Memory Controller Hub [8086:4003] (rev 20)
+chipset-short: |
+  5400 Series
+gpu: |
+  NVIDIA Corporation G86 [Quadro NVS 290] [10de:042f] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro NVS 290
+network: |
+  Broadcom Limited NetXtreme BCM5755 Gigabit Ethernet PCI Express (rev 02)
+memory: |
+  8191
+scsi: |
+  INTEL SSDSC2CT18 Rev: 300i
+  Samsung SSD 830  Rev: 3B1Q
+usb: |
+  0
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.5
+  kernel: |
+    4.4.67-13
+  remark: |
+    
+  credit: |
+    Kay Olms
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/CAAb6Rj6uu%3DcFMJ%2BGmJCd7%2BFrnTd1Htnr3KE1RereA%2BPFzWG4LA%40mail.gmail.com
+
+---
+

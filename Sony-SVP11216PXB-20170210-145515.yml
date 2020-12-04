@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  ''
+brand: |
+  Sony
+model: |
+  SVP11216PXB
+bios: |
+  R1044V7
+cpu: |
+  Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz
+cpu-short: |
+  i7-4500U
+chipset: |
+  Intel Corporation Haswell-ULT DRAM Controller [8086:0a04] (rev 09)
+chipset-short: |
+  Haswell-ULT
+gpu: |
+  Intel Corporation Haswell-ULT Integrated Graphics Controller [8086:0a16] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4400)
+network: |
+  Intel Corporation Wireless 7260 (rev 6b)
+memory: |
+  8098
+scsi: |
+  Samsung MZNTD256 Rev: 300Q
+  Ultra Fit        Rev: 1.00
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.14-11
+  remark: |
+    Fix for "Boot device not recognized after installing" if plugged into USB HUB <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting'><span class='icon'></span>read more</a>
+  credit: |
+    Robert Horvath
+  link: |
+    https://groups.google.com/d/msg/qubes-users/2hVjoVHnVa4/mmvoZ-anEAAJ
+
+---
+

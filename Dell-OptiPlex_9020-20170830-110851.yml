@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  OptiPlex 9020
+bios: |
+  A08
+cpu: |
+  Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz
+cpu-short: |
+  i5-4590
+chipset: |
+  Intel Corporation 4th Gen Core Processor DRAM Controller [8086:0c00] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller [8086:0412] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4600)
+network: |
+  Intel Corporation Ethernet Connection I217-LM (rev 04)
+memory: |
+  16292
+scsi: |
+  WDC WD5000AAKX-7 Rev: 1H20
+  DVD+-RW DH-16AES Rev: 3D11
+  
+usb: |
+  3
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.6
+  kernel: |
+    4.9.35-20
+  remark: |
+    
+  credit: |
+    Largentula
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/fa9c26c33ff9e72b46d2da4a32b86c88%40turlan.org
+
+---
+

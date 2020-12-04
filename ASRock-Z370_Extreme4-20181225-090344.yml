@@ -37,7 +37,7 @@ network: |
 memory: |
   32701
 scsi: |
-  TOSHIBA DT01ACA2 Rev: ABB0
+  Toshiba DT01ACA2 Rev: ABB0
   CDDVDW SH-224DB  Rev: SB01
   Samsung SSD 840  Rev: BB6Q
 usb: |

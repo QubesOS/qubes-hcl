@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 15 7590
+bios: |
+  1.6.0
+cpu: |
+  Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+cpu-short: |
+  i7-9750H
+chipset: |
+  Intel Corporation Device [8086:3ec4] (rev 07)
+chipset-short: |
+  Cannon Lake
+gpu: |
+  Intel Corporation Device [8086:3e9b] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 630)
+network: |
+  Intel Corporation Device 2723 (rev 1a)
+memory: |
+  32401
+scsi: |
+
+usb: |
+  2
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-14.fc25
+  kernel: |
+    4.19.94-1
+  remark: |
+    Disable EFI runtime services
+  credit: |
+    Adam Grodowski
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/CAM%3DdSs-uiF_Qdwq7%3DpaVjYM%3Dp-dvYarBBGSYnM_nKCgDhCuaSQ%40mail.gmail.com
+
+---
+

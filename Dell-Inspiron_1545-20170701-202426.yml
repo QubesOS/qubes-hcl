@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'no'
+iommu:
+  'no'
+slat:
+  'no'
+tpm:
+  'unknown'
+remap:
+  'no'
+brand: |
+  Dell
+model: |
+  Inspiron 1545                   
+bios: |
+  A10
+cpu: |
+  Pentium(R) Dual-Core CPU       T4200  @ 2.00GHz
+cpu-short: |
+  Pentium T4200
+chipset: |
+  Intel Corporation Mobile 4 Series Chipset Memory Controller Hub [8086:2a40] (rev 07)
+chipset-short: |
+  Mobile 4 Series
+gpu: |
+  Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a42] (rev 07) (prog-if 00 [VGA controller])
+  Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a43] (rev 07)
+gpu-short: |
+  Integrated Graphics (GMA 4500MHD)
+network: |
+  Marvell Technology Group Ltd. 88E8040 PCI-E Fast Ethernet Controller (rev 13)
+  Intel Corporation Wireless 7260 (rev bb)
+memory: |
+  4056
+scsi: |
+  HTE721010G9SA00  Rev: C10V
+  DVD+-RW AD-7700H Rev: 100A
+usb: |
+  8
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.5
+  kernel: |
+    4.4.67-13
+  remark: |
+    Limited by the lack of virtualization tech.
+  credit: |
+    Boris Yost
+  link: |
+    https://groups.google.com/d/msg/qubes-users/XXvORjAIS9g/wzvIdQogBAAJ
+
+---
+

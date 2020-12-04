@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  System76
+model: |
+  Oryx Pro
+bios: |
+  2020-10-19_d5deed5
+cpu: |
+  Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz
+cpu-short: |
+  i7-10875H
+chipset: |
+  Intel Corporation Device [8086:9b44] (rev 02)
+chipset-short: |
+  Comet Lake
+gpu: |
+  Intel Corporation Device [8086:9bc4] (rev 05) (prog-if 00 [VGA controller])
+  NVIDIA Corporation Device [10de:1f15] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 630) & GeForce RTX 2060
+network: |
+  Intel Corporation Device 06f0
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  65408
+scsi: |
+
+usb: |
+  3
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-25.fc25
+  kernel: |
+    5.8.16-1
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAEP56NAxMqGuP50%2BpQy8-g5Rai%3DM%2BST7GZQf4KhA5mSs9sr%3DXw%40mail.gmail.com'><span class='icon'></span>read more</a>
+  credit: |
+    Krunal Soni
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/CAEP56NAxMqGuP50%2BpQy8-g5Rai%3DM%2BST7GZQf4KhA5mSs9sr%3DXw%40mail.gmail.com
+
+---
+

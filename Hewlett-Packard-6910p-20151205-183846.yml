@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'notebook'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -27,14 +27,14 @@ gpu: |
   Intel Corporation Mobile GM965/GL960 Integrated Graphics Controller (primary) [8086:2a02] (rev 0c) (prog-if 00 [VGA controller])
   Intel Corporation Mobile GM965/GL960 Integrated Graphics Controller (secondary) [8086:2a03] (rev 0c)
 gpu-short: |
-  Intel HD
+  Integrated Graphics (HD)
 network: |
   Intel Corporation 82566MM Gigabit Network Connection (rev 03)
   Intel Corporation PRO/Wireless 4965 AG or AGN [Kedron] Network Connection (rev 61)
 memory: |
   6135
 scsi: |
-  TOSHIBA MK3276GS Rev: 1X  
+  Toshiba MK3276GS Rev: 1X  
 
 versions:
 

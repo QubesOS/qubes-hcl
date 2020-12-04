@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  LG
+model: |
+  LG Gram 2018 (13Z990-R.AAS7U1)
+bios: |
+  W1ZD1230 X64
+cpu: |
+  Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+cpu-short: |
+  i7-8565U
+chipset: |
+  Intel Corporation Device [8086:3e34] (rev 0b)
+chipset-short: |
+  Whiskey Lake
+gpu: |
+  Intel Corporation Device [8086:3ea0] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 620)
+network: |
+  Intel Corporation Device 9df0 (rev 30)
+memory: |
+  16084
+scsi: |
+  Samsung MZNLN256 Rev: 300Q
+usb: |
+  2
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-14.fc25
+  kernel: |
+    4.19.94-1
+  remark: |
+    Boot image will not present a menu and just launches with default options, complains of XSA-297 and reboots. Follow "Change installer kernel parameters in UEFI" to set "smt=on" and update your CPU's microcode post-install.
+  credit: |
+    Chris Allegretta
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/MN2PR13MB2863BF0FDFEBEF4878E46198846E0%40MN2PR13MB2863.namprd13.prod.outlook.com
+
+---
+

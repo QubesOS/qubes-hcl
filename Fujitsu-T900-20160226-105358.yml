@@ -1,0 +1,57 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Fujitsu
+model: |
+  T900
+bios: |
+  Version 1.19 
+cpu: |
+  Intel(R) Core(TM) i5 CPU       M 520  @ 2.40GHz
+cpu-short: |
+  i5-M520
+chipset: |
+  Intel Corporation Core Processor DRAM Controller [8086:0044] (rev 12)
+chipset-short: |
+  Arrandale
+gpu: |
+  Intel Corporation Core Processor Integrated Graphics Controller [8086:0046] (rev 12) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD)
+network: |
+  Intel Corporation 82577LM Gigabit Network Connection (rev 06)
+  Intel Corporation Centrino Advanced-N 6200 (rev 35)
+memory: |
+  7987
+scsi: |
+  CT240BX200SSD1   Rev: .6  
+  Rev: PMAP
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.0
+  xen: |
+    4.4.2
+  kernel: |
+    3.18.17-5
+  remark: |
+    
+  credit: |
+    Xerxes Hack
+  link: |
+    https://groups.google.com/d/msg/qubes-users/5qRt-eLH_AM/HhiBYvKeBQAJ
+
+---
+

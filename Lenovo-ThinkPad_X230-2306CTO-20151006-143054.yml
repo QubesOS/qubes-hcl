@@ -1,0 +1,56 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  ThinkPad X230 (2306CTO)
+bios: |
+  G2ET91WW (2.51 )
+cpu: |
+  Intel(R) Core(TM) i5-3360M CPU @ 2.80GHz
+cpu-short: |
+  i5-3360M
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4000)
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (rev 04)
+  Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 34)
+memory: |
+  16051
+scsi: |
+  Samsung SSD 840  Rev: 4B0Q
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.0
+  xen: |
+    4.4.2
+  kernel: |
+    3.19.8-100
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/-FSS3xJXTkk/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Paul Harvey
+  link: |
+    https://groups.google.com/d/msg/qubes-users/-FSS3xJXTkk/qtq9lkX9BgAJ
+
+---
+

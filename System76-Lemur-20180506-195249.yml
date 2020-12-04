@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'notebook'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -26,11 +26,11 @@ cpu-short: |
 chipset: |
   Intel Corporation Device [8086:5914] (rev 08)
 chipset-short: |
-  Kaby Lake R
+  Kaby Lake
 gpu: |
   Intel Corporation Device [8086:5917] (rev 07) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics
+  Integrated Graphics (HD 620)
 network: |
   Intel Corporation Device 24fb (rev 10)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 12)

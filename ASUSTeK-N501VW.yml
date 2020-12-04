@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  ASUSTeK
+model: |
+  N501VW
+bios: |
+  N501VW.307
+cpu: |
+  Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+cpu-short: |
+  i7-6700HQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1910] (rev 07)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 530 [8086:191b] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 530)
+network: |
+  Intel Corporation Wireless 7265 (rev 59)
+memory: |
+  16183
+scsi: |
+
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-18.fc25
+  kernel: |
+    5.6.16-1
+  remark: |
+    Needs published EFI workaround to boot, Nvidia workaround not to OOPSing during install.
+  credit: |
+    Nathan Myers <ncm@cantrip.org>
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/cbd7b1b7-7bf6-87a2-fb12-cc45748dfae1%40cantrip.org
+
+--- 

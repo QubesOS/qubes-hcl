@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  GPD
+model: |
+  Win Max (G1619-01)
+bios: |
+  1.11
+cpu: |
+  Intel(R) Core(TM) i5-1035G7 CPU @ 1.20GHz
+cpu-short: |
+  i5-1035G7
+chipset: |
+  Intel Corporation Device [8086:8a12] (rev 03)
+chipset-short: |
+  Ice Lake U
+gpu: |
+  Intel Corporation Iris Plus Graphics G7 [8086:8a52] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Intel Iris Plus G7
+network: |
+  Intel Corporation Wi-Fi 6 AX200 (rev 1a)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  16199
+scsi: |
+  USB3.0           Rev: 0209
+usb: |
+  2
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.1
+  xen: |
+    4.14.0
+  kernel: |
+    5.8.5-1
+  remark: |
+    
+  credit: |
+    Alex Long
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/de6a362e-2f5b-564c-a551-da90766ba9a9%40igniterefereeing.com.au
+
+---
+

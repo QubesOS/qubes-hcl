@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'notebook'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics
+  Integrated Graphics (HD 4600)
 network: |
   Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
   Broadcom Limited NetLink BCM57780 Gigabit Ethernet PCIe (rev 01)
@@ -38,7 +38,7 @@ memory: |
   16311
 scsi: |
   BD-MLT UJ272Q    Rev: 1.00
-  TOSHIBA THNSNJ12 Rev: 0101
+  Toshiba THNSNJ12 Rev: 0101
   WDC WD10JPVX-22J Rev: 1A01
 usb: |
   3

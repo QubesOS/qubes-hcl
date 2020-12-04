@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'notebook'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -16,7 +16,7 @@ remap:
 brand: |
   System76                       
 model: |
-  Lemur7
+  Lemur 7
 bios: |
   5.12
 cpu: |
@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Device [8086:5916] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics
+  Integrated Graphics (HD 620)
 network: |
   Intel Corporation Wireless 8260 (rev 3a)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 12)

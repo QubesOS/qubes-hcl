@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'no'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  OptiPlex 780                 
+bios: |
+  A15
+cpu: |
+  Intel(R) Core(TM)2 Quad CPU    Q6600  @ 2.40GHz
+cpu-short: |
+  Core2 Q6600
+chipset: |
+  Intel Corporation 4 Series Chipset DRAM Controller [8086:2e10] (rev 03)
+chipset-short: |
+  Eaglelake
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] RV620 LE [Radeon HD 3450] [1002:95c5] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon HD 3450
+network: |
+  Intel Corporation 82567LM-3 Gigabit Network Connection (rev 02)
+memory: |
+  6013
+scsi: |
+  GB1000EAFJL      Rev: HPGB
+  DVD-ROM TS-L333A Rev: D300
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.3
+  kernel: |
+    4.4.14-11
+  remark: |
+    Updated BIOS
+  credit: |
+    mojosam
+  link: |
+    https://groups.google.com/d/msg/qubes-users/WfKylBYf1kE/KUBCN2TaCAAJ
+
+---
+

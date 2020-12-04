@@ -1,0 +1,66 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'no'
+brand: |
+  ASUSTek
+model: |
+  SABERTOOTH 990FX R2.0
+bios: |
+  2901
+cpu: |
+  AMD Phenom(tm) II X6 1100T Processor
+cpu-short: |
+  Phenom II X6 1100T
+chipset: |
+  Advanced Micro Devices, Inc. [AMD/ATI] RD9x0/RX980 Host Bridge [1002:5a14] (rev 02)
+chipset-short: |
+  RD9x0
+gpu: |
+  NVIDIA Corporation GM107 [GeForce GTX 750 Ti] [10de:1380] (rev a2) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce GTX 750 Ti
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 09)
+memory: |
+  32680
+scsi: |
+  ST2000DM001-1ER1 Rev: CC26
+  WDC WD10EADS-00P Rev: 0A01
+  WDC WD5000AAKS-0 Rev: 3B01
+  SD/MMC           Rev: 1.00
+  Compact Flash    Rev: 1.01
+  SM/xD-Picture    Rev: 1.02
+  MS/MS-Pro        Rev: 1.03
+usb: |
+  10
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.2
+  kernel: |
+    4.9.56-21
+  remark: |
+    Everything works
+  credit: |
+    Sergio Matta
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/2a850752-fe00-4887-8632-59d5f774e119%40googlegroups.com
+
+---
+

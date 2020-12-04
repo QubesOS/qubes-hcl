@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 15 9570
+bios: |
+  1.5.0
+cpu: |
+  Intel(R) Core(TM) i9-8950HK CPU @ 2.90GHz
+cpu-short: |
+  i9-8950HK
+chipset: |
+  Intel Corporation Device [8086:3ec4] (rev 07)
+chipset-short: |
+  Cannon Lake
+gpu: |
+  Intel Corporation Device [8086:3e9b] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 630)
+network: |
+  Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
+memory: |
+  32407
+scsi: |
+
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-13.fc25
+  kernel: |
+    4.19.84-1
+  remark: |
+    must be installed in UEFI
+  credit: |
+    Jan Fabo
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/LT7oL1e4R7kVveIqcnijy_lSO321DttTvXWD7o5RMRgJTr6QjPRLH9WWy6qa8Mr5cPWoTwn5yd0DajXiqGMGt3mAy6zQ0eIvElNIF8gXPyY%3D%40protonmail.com
+
+---
+

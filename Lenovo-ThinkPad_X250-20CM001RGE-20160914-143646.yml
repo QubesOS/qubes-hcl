@@ -1,0 +1,56 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  ThinkPad X250 (20CM001RGE)
+bios: |
+  N10ET38W (1.17 )
+cpu: |
+  Intel(R) Core(TM) i7-5600U CPU @ 2.60GHz
+cpu-short: |
+  i7-5600U
+chipset: |
+  Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
+chipset-short: |
+  Broadwell-U
+gpu: |
+  Intel Corporation HD Graphics 5500 [8086:1616] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 5500)
+network: |
+  Intel Corporation Ethernet Connection (3) I218-LM (rev 03)
+  Intel Corporation Wireless 7265 (rev 59)
+memory: |
+  16182
+scsi: |
+  Toshiba THNSNJ51 Rev: 0101
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.14-11
+  remark: |
+    Used uefi troubleshooting doc, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/H7ugkTm-WDs/bEdmfOYxBgAJ'><span class='icon'></span>read more</a>
+  credit: |
+    Peter Völkl
+  link: |
+    https://groups.google.com/d/msg/qubes-users/H7ugkTm-WDs/bEdmfOYxBgAJ
+
+---
+

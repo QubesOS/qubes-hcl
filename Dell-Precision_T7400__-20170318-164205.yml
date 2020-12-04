@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'workstation'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'no'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Precision T7400  
+bios: |
+  A11
+cpu: |
+  Intel(R) Xeon(R) CPU           E5440  @ 2.83GHz
+cpu-short: |
+  Xeon E5440
+chipset: |
+  Intel Corporation 5400 Chipset Memory Controller Hub [8086:4003] (rev 20)
+chipset-short: |
+  Intel 5400
+gpu: |
+  NVIDIA Corporation G84GL [Quadro FX 1700] [10de:040f] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro FX 1700
+network: |
+  Broadcom Limited NetXtreme BCM5754 Gigabit Ethernet PCI Express (rev 02)
+memory: |
+  40957
+scsi: |
+  DVD+-RW TS-H653B Rev: D300
+  WDC WD3000FYYZ-0 Rev: 1K01
+  WDC WD3000FYYZ-0 Rev: 1K01
+  ST3750640NS      Rev: 3BKS
+  ST3750640NS      Rev: 3BKS
+  VIRTUAL DISK     Rev: 1028
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.4
+  kernel: |
+    4.4.38-11
+  remark: |
+    Updated to newest A11 bios, no problems with IOMMU anymore (was A02)
+  credit: |
+    Ludwig Jaffe
+  link: |
+    https://groups.google.com/d/msg/qubes-users/tTsL9fwocDY/H1bpGFvdBgAJ
+
+---
+

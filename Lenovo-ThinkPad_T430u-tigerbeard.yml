@@ -12,7 +12,7 @@ tpm:
 brand: |
   Lenovo
 model: |
-  Thinkpad T430u
+  ThinkPad T430u
 bios: |
   2.08
 cpu: |
@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   
 gpu-short: |
-  HD Graphics + GT 620M
+  Integrated Graphics (HD) + GT 620M
 network: |
   
 memory: |

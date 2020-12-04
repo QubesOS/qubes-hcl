@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'no'
+brand: |
+  Dell
+model: |
+  XPS L701X
+bios: |
+  A10
+cpu: |
+  Intel(R) Core(TM) i5 CPU       M 480  @ 2.67GHz
+cpu-short: |
+  i5-480M
+chipset: |
+  Intel Corporation Core Processor DRAM Controller [8086:0044] (rev 18)
+chipset-short: |
+  Nehalem
+gpu: |
+  Intel Corporation Core Processor Integrated Graphics Controller [8086:0046] (rev 18) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GF106M [GeForce GT 435M] [10de:0dd3] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD) & GeForce GT 435M
+network: |
+  Intel Corporation Centrino Wireless-N 1000 [Condor Peak]
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
+memory: |
+  3828
+scsi: |
+  WDC WD5000BPKX-0 Rev: 1A01
+  DVD+-RW DS-8A5SH Rev: XD12
+usb: |
+  3
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-7.fc25
+  kernel: |
+    4.14.119-2
+  remark: |
+    No IOMMU or remap support
+  credit: |
+    skylord
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/656296140.270534252.1563399091761.JavaMail.zimbra%40telenet.be
+
+---
+

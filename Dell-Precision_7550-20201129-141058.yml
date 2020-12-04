@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision 7550
+bios: |
+  1.3.2
+cpu: |
+  Intel(R) Xeon(R) W-10855M CPU @ 2.80GHz
+cpu-short: |
+  W-10855M
+chipset: |
+  Intel Corporation Device [8086:9b54] (rev 02)
+chipset-short: |
+  Comet Lake
+gpu: |
+  NVIDIA Corporation Device [10de:1fb9] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro T1000
+network: |
+  Intel Corporation Device 06f0
+  Intel Corporation Device 0d4c
+memory: |
+  65237
+scsi: |
+
+usb: |
+  2
+versions:
+
+- works:
+    'no'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-14.fc25
+  kernel: |
+    4.19.94-1
+  remark: |
+    Had to <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting/#removing-noexitboot-and-mapbs'><span class='icon'></span>remove noexitboot and mapbs</a> and turn off "Enable switchable graphics" in BIOS setup; no network; display problems
+  credit: |
+    Matt McCutchen
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/d8b1283f5cbac044c63a8213a5dc11ac9ac794d0.camel%40mattmccutchen.net
+
+---
+

@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GM107 [GeForce GTX 750 Ti] [10de:1380] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA GM107
+  GeForce GTX 750 Ti
 network: |
   Intel Corporation Ethernet Connection (2) I218-V (rev 05)
   Intel Corporation I211 Gigabit Network Connection (rev 03)

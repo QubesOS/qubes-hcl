@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision M4600
+bios: |
+  A02
+cpu: |
+  Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz
+cpu-short: |
+  i5-2540M
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Whistler [Radeon HD 6730M/6770M/7690M XT] [1002:6740] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon HD
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (rev 04)
+  Intel Corporation Centrino Ultimate-N 6300 (rev 35)
+memory: |
+  8149
+scsi: |
+  TEAM L3 EVO SSD  Rev: 00.3
+  DVD+-RW GS30N    Rev: A101
+usb: |
+  3
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.6
+  kernel: |
+    4.9.56-21
+  remark: |
+    Camera does not work.
+  credit: |
+    readjust
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/cd959dd7-aada-bc48-c3d4-30cb70146c2b%40riseup.net
+
+---
+

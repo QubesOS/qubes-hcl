@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  ZBook 15 G3
+bios: |
+  N81 Ver. 01.49
+cpu: |
+  Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+cpu-short: |
+  i7-6700HQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1910] (rev 07)
+chipset-short: |
+  Skylake
+gpu: |
+  NVIDIA Corporation GM107GLM [Quadro M1000M] [10de:13b1] (rev a2) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro M1000M
+network: |
+  Intel Corporation Ethernet Connection (2) I219-LM (rev 31)
+  Intel Corporation Wireless 8260 (rev 3a)
+memory: |
+  65455
+scsi: |
+  CT1000MX500SSD4  Rev: 023 
+usb: |
+  2
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-23.fc25
+  kernel: |
+    4.19.147-1
+  remark: |
+    Install iwl7260-firmware in templateVM used by sys-net. Since Kernel 4.19.147-1 suspend works fine. Nouveau driver in use.
+  credit: |
+    Paul
+  link: |
+    https://qubes-os.discourse.group/t/hcl-hp-zbook-15-g3/1039
+
+---
+

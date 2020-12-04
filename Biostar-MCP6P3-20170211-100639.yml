@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  Biostar
+model: |
+  MCP6P3
+bios: |
+  080015 
+cpu: |
+  AMD Athlon(tm) II X4 635 Processor
+cpu-short: |
+  Athlon II X4 635
+chipset: |
+
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation GT218 [GeForce 8400 GS Rev. 3] [10de:10c3] (rev a2) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce 8400 GS
+network: |
+  NVIDIA Corporation MCP61 Ethernet (rev a2)
+  Realtek Semiconductor Co., Ltd. RTL8169 PCI Gigabit Ethernet Controller (rev 10)
+memory: |
+  4095
+scsi: |
+  DVD-ROM SR-8587  Rev: 5B36
+  Hitachi HDS72105 Rev: A3EA
+  HITACHI HUA72107 Rev: A90A
+  iHAS224   A      Rev: ZL0P
+  USB3.0 CRW   -SD Rev: 1.00
+  USB3.0 CRW   -SD Rev: 1.00
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.3
+  kernel: |
+    4.4.38-11
+  remark: |
+    
+  credit: |
+    Robert Williams
+  link: |
+    https://groups.google.com/d/msg/qubes-users/QahtA8UPr34/P96mBgjsEAAJ
+
+---
+

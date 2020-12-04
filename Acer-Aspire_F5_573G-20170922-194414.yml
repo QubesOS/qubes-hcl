@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'notebook'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
 gpu-short: |
-  HD Graphics 520
+  Integrated Graphics (HD 520)
 network: |
   Qualcomm Atheros QCA9377 802.11ac Wireless Network Adapter (rev 30)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 12)
@@ -39,7 +39,7 @@ memory: |
 scsi: |
   ST1000LM024 HN-M Rev: 0001
   DVD A  DA8A6SH   Rev: GA11
-  SAMSUNG MZNLF128 Rev: 101Q
+  Samsung MZNLF128 Rev: 101Q
 usb: |
   1
 versions:

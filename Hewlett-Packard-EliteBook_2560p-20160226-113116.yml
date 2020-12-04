@@ -1,0 +1,57 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Hewlett-Packard
+model: |
+  EliteBook 2560p
+bios: |
+  68SSU Ver. F.02
+cpu: |
+  Intel(R) Core(TM) i7-2620M CPU @ 2.70GHz
+cpu-short: |
+  i7-2620M
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0126] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 3000)
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (rev 04)
+  Intel Corporation Centrino Ultimate-N 6300 (rev 3e)
+memory: |
+  16294
+scsi: |
+  CT240BX200SSD1   Rev: .6  
+  KINGSTON SHFS37A Rev: BBF0
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.1
+  xen: |
+    4.6.0
+  kernel: |
+    4.1.13-9
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/5Nh0A8rwc_A/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    'infodox'
+  link: |
+    https://groups.google.com/d/msg/qubes-users/5Nh0A8rwc_A/vv7xsiCRBQAJ
+
+---
+

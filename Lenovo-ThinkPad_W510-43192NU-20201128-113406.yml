@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'no'
+brand: |
+  Lenovo
+model: |
+  ThinkPad W510 (43192NU)
+bios: |
+  6NET84WW (1.45 )
+cpu: |
+  Intel(R) Core(TM) i7 CPU       Q 720  @ 1.60GHz
+cpu-short: |
+  i7 Q720
+chipset: |
+  Intel Corporation Core Processor DMI [8086:d132] (rev 11)
+chipset-short: |
+  Clarksfield
+gpu: |
+  NVIDIA Corporation GT216GLM [Quadro FX 880M] [10de:0a3c] (rev a2) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro FX 880M
+network: |
+  Intel Corporation 82577LM Gigabit Network Connection (rev 06)
+  Intel Corporation Centrino Ultimate-N 6300 (rev 35)
+memory: |
+  16315
+scsi: |
+  KINGSTON SA400S3 Rev: J4.3
+  DVD+-RW DS-8A8SH Rev: KD11
+usb: |
+  3
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-25.fc25
+  kernel: |
+    4.19.155-1
+  remark: |
+    
+  credit: |
+    Thinkpad
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/6a10b1df-5637-1fd7-5fee-98e4e04be465%40thinkpad.net
+
+---
+

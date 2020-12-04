@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  ThinkPad W520 (4270CTO)
+bios: |
+  8BET62WW (1.42 )
+cpu: |
+  Intel(R) Core(TM) i7-2760QM CPU @ 2.40GHz
+cpu-short: |
+  i7-2760QM
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0126] (rev 09) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GF108GLM [Quadro 1000M] [10de:0dfa] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 3000) & Quadro 1000M
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (rev 04)
+  Realtek Semiconductor Co., Ltd. RTL8188CE 802.11b/g/n WiFi Adapter (rev 01)
+memory: |
+  8075
+scsi: |
+  INTEL SSDSA2BW16 Rev: LE05
+  DVDRAM GT50N     Rev: LT20
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.14-11
+  remark: |
+    
+  credit: |
+    Andreas
+  link: |
+    https://groups.google.com/d/msg/qubes-users/vpbecgTwFBs/sYCsSYxMBQAJ
+
+---
+

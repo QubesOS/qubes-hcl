@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'no'
+brand: |
+  Dell         
+model: |
+  Inspiron 5420
+bios: |
+  A19
+cpu: |
+  Intel(R) Core(TM) i7-3612QM CPU @ 2.10GHz
+cpu-short: |
+  i7-3612QM
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GF108M [GeForce GT 630M] [10de:0de9] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4000) & GeForce GT 630M
+network: |
+  Intel Corporation Centrino Wireless-N 2230 (rev c4)
+  Qualcomm Atheros AR8162 Fast Ethernet (rev 10)
+memory: |
+  8052
+scsi: |
+  Toshiba THNSNJ12 Rev: 0101
+  DVD+-RW GT50N    Rev: A101
+usb: |
+  3
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.6
+  kernel: |
+    4.14.18-1
+  remark: |
+    USB 3.0 not working via sys-usb
+  credit: |
+    Manuel Nuñez
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/1521678342.1344.0%40smtp.gmail.com
+
+---
+

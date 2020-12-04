@@ -1,0 +1,65 @@
+---
+layout:
+  'hcl'
+type:
+  'workstation'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision T7500  
+bios: |
+  A17
+cpu: |
+  Intel(R) Xeon(R) CPU           L5638  @ 2.00GHz
+cpu-short: |
+  Xeon L5638
+chipset: |
+  Intel Corporation 5520 I/O Hub to ESI Port [8086:3406] (rev 22)
+chipset-short: |
+  Tylersburg
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] RV610 [Radeon HD 2400 PRO] [1002:94c3] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon HD 2400 PRO
+network: |
+  Intel Corporation 82546EB Gigabit Ethernet Controller (rev 01)
+  Intel Corporation 82546EB Gigabit Ethernet Controller (rev 01)
+  Intel Corporation 82546EB Gigabit Ethernet Controller (rev 01)
+  Intel Corporation 82546EB Gigabit Ethernet Controller (rev 01)
+  Broadcom Limited NetXtreme BCM5761 Gigabit Ethernet PCIe (rev 10)
+memory: |
+  98301
+scsi: |
+  Samsung SSD 860  Rev: 1B6Q
+  DVD+-RW DH-16ABS Rev: PD11
+usb: |
+  8
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-16.fc25
+  kernel: |
+    4.19.107-1
+  remark: |
+    
+  credit: |
+    12345
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/41-5edc3580-35-6e433c00%40233197339
+
+---
+

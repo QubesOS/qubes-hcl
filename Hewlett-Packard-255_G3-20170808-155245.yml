@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  Hewlett-Packard
+model: |
+  255 G3
+bios: |
+  F.44
+cpu: |
+  AMD E1-2100 APU with Radeon(TM) HD Graphics
+cpu-short: |
+  AMD E1-2100
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 16h Processor Root Complex [1022:1536]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Kabini [Radeon HD 8210] [1002:9834] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon HD 8210)
+network: |
+  Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter (rev 01)
+  Realtek Semiconductor Co., Ltd. RTL8101/2/6E PCI Express Fast/Gigabit Ethernet controller (rev 07)
+memory: |
+  3537
+scsi: |
+  KINGSTON SA400S3 Rev: 71E0
+  DVDRW  GUB0N     Rev: UB00
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.14-11
+  remark: |
+    Boot workaround, sleep and other issues; <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/76d224aa-8aa0-4462-9862-4b596e8f400a%40googlegroups.com'><span class='icon'></span>read more</a>
+  credit: |
+    Erik Nylund
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/76d224aa-8aa0-4462-9862-4b596e8f400a%40googlegroups.com
+
+---
+

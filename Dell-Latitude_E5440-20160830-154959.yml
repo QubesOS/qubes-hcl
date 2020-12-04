@@ -1,0 +1,56 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Latitude E5440
+bios: |
+  A04
+cpu: |
+  Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz
+cpu-short: |
+  i5-4200U
+chipset: |
+  Intel Corporation Haswell-ULT DRAM Controller [8086:0a04] (rev 09)
+chipset-short: |
+  Haswell-ULT
+gpu: |
+  Intel Corporation Haswell-ULT Integrated Graphics Controller [8086:0a16] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4400)
+network: |
+  Intel Corporation Wireless 7260 (rev 73)
+memory: |
+  16289
+scsi: |
+  INTEL SSDSA1NW16 Rev: 0362
+  ST500LM000-1EJ16 Rev: DEM6
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.1
+  xen: |
+    4.6.1
+  kernel: |
+    4.1.24-10
+  remark: |
+    Suspend does not work
+  credit: |
+    Codie Rae
+  link: |
+    https://groups.google.com/d/msg/qubes-users/VPczQH7DQAw/5iFvq39MAgAJ
+
+---
+

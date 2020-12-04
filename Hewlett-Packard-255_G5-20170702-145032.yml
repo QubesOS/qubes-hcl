@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'no'
+brand: |
+  Hewlett-Packard
+model: |
+  255 G5
+bios: |
+  F.21
+cpu: |
+  AMD E2-7110 APU with AMD Radeon R2 Graphics
+cpu-short: |
+  AMD E2-7110
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:1566]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Mullins [Radeon R3 Graphics] [1002:9850] (rev 40) (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon R3
+network: |
+  Intel Corporation Wireless 3165 (rev 81)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  3551
+scsi: |
+  Samsung SSD 840  Rev: BB0Q
+  DVDRW  DU8AESH   Rev: 6H61
+  STORE N GO       Rev: PMAP
+usb: |
+  3
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.5
+  kernel: |
+    4.4.67-13
+  remark: |
+    Suspend to RAM and DispVM not working, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/EsDkh2m48Tg/o0wqn1VJBAAJ'><span class='icon'></span>read more</a>
+  credit: |
+    Dennis Olivetti
+  link: |
+    https://groups.google.com/d/msg/qubes-users/EsDkh2m48Tg/o0wqn1VJBAAJ
+
+---
+

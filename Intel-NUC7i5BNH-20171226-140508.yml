@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Intel
+model: |
+  NUC7i5BNH
+bios: |
+  BNKBL357.86A.0047.2017.0518.1824
+cpu: |
+  Intel(R) Core(TM) i5-7260U CPU @ 2.20GHz
+cpu-short: |
+  i5-7260U
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5904] (rev 03)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Intel Corporation Device [8086:5926] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Iris graphics
+network: |
+  Intel Corporation Ethernet Connection (4) I219-V (rev 21)
+  Intel Corporation Wireless 8265 / 8275 (rev 78)
+memory: |
+  32660
+scsi: |
+  Micron_1100_MTFD Rev: U031
+usb: |
+  1
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.2
+  kernel: |
+    4.9.56-21
+  remark: |
+    Wifi fails after sleep
+  credit: |
+    Eric Scoles
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/CAE7XU-biEhONt0Nzat%3DOCRzL5eq%3DB0pavDnYr1e2Jd9RkuUQFQ%40mail.gmail.com
+
+---
+

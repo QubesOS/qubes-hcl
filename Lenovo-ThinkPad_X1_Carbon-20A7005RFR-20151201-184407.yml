@@ -1,0 +1,56 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+tpm:
+  ''
+brand: |
+  Lenovo
+model: |
+  ThinkPad X1 Carbon (20A7005RFR)
+bios: |
+  GRET46WW (1.23 )
+cpu: |
+  Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+cpu-short: |
+  i7-4600U
+chipset: |
+  Intel Corporation Haswell-ULT DRAM Controller [8086:0a04] (rev 0b)
+chipset-short: |
+  Haswell-ULT
+gpu: |
+  Intel Corporation Haswell-ULT Integrated Graphics Controller [8086:0a16] (rev 0b) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4400)
+network: |
+  Intel Corporation Ethernet Connection I218-LM (rev 04)
+  Intel Corporation Wireless 7260 (rev 83)
+memory: |
+  7867
+scsi: |
+  Samsung MZNTE256 Rev: 8L6Q
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.0
+  xen: |
+    4.4.3
+  kernel: |
+    3.19.8-100
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/oKzln8n50Ro/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Thomas Fleming
+  link: |
+    https://groups.google.com/d/msg/qubes-users/oKzln8n50Ro/nwYeCHZVBAAJ
+
+---
+

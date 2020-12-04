@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Gigabyte Technology Co., Ltd.
+  Gigabyte
 model: |
   Z170X-UD3
 bios: |

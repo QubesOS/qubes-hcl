@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  'unknown'
+brand: |
+  Lenovo
+model: |
+  IdeaPad Z50-75 (80EC)
+bios: |
+  A4CN40WW (V 2.09)
+cpu: |
+  AMD A10-7300 Radeon R6, 10 Compute Cores 4C+6G 
+cpu-short: |
+  A10-7300
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 15h (Models 30h-3fh) Processor Root Complex [1022:1422]
+chipset-short: |
+  
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Kaveri [Radeon R6 Graphics] [1002:130a] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon R6
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 10)
+  Qualcomm Atheros Device 0041 (rev 20)
+memory: |
+  7098
+scsi: |
+  Toshiba MQ01ABD1 Rev: 5E  
+  DVDRAM GUA0N     Rev: AL00
+  Silicon-Power4G  Rev: PMAP
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.0
+  xen: |
+    4.4.2
+  kernel: |
+    3.18.17-5
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/tv5lHPd7vaE/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    GD
+  link: |
+    https://groups.google.com/d/msg/qubes-users/tv5lHPd7vaE/l4nPkbUgEgAJ
+
+---
+

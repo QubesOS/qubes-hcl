@@ -1,0 +1,57 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  ProBook 6470b
+bios: |
+  68ICE Ver. F.66
+cpu: |
+  Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz
+cpu-short: |
+  i5-3320M
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4000)
+network: |
+  Intel Corporation 82579V Gigabit Network Connection (rev 04)
+  Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 34)
+memory: |
+  8071
+scsi: |
+  Hitachi HTS72505 Rev: A820
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.3
+  kernel: |
+    4.4.14-11
+  remark: |
+    Anti Evil Maid works
+  credit: |
+    Swâmi Petaramesh
+  link: |
+    https://groups.google.com/d/msg/qubes-users/IsScby54a3g/w0Viaz9dCwAJ
+
+---

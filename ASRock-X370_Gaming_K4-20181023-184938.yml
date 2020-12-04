@@ -41,7 +41,7 @@ scsi: |
   iHBS112   2      Rev: PL06
   KINGSTON SH103S3 Rev: BBF0
   WDC WDS500G1B0A- Rev: 00WD
-  SAMSUNG HD204UI  Rev: 0001
+  Samsung HD204UI  Rev: 0001
 usb: |
   3
 versions:

@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  'unknown'
+brand: |
+  Hewlett-Packard
+model: |
+  Pavilion dv7
+bios: |
+  F.1C
+cpu: |
+  Intel(R) Core(TM) i7-2670QM CPU @ 2.20GHz
+cpu-short: |
+  Intel Core I7
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0116] (rev 09) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Seymour [Radeon HD 6400M/7400M Series] [1002:6760] (rev ff) (prog-if ff)
+gpu-short: |
+  Integrated Graphics (HD 3000) & Radeon HD
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
+  Intel Corporation Centrino Wireless-N 1030 [Rainbow Peak] (rev 34)
+memory: |
+  8139
+scsi: |
+  ST9750420AS      Rev: HPM1
+  BD E  DS6E2LH    Rev: FH62
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.0
+  xen: |
+    4.4.2
+  kernel: |
+    3.19.8-100
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/TRfxFkCl5pg/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    JWH
+  link: |
+    https://groups.google.com/d/msg/qubes-users/TRfxFkCl5pg/4P7Q_KQ0CgAJ
+
+---
+

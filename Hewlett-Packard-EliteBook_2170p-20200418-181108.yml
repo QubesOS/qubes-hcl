@@ -1,0 +1,76 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  HP EliteBook 2170p
+bios: |
+  68IMT Ver. F.42
+cpu: |
+  Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz
+cpu-short: |
+  i5-3317U
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4000)
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
+  Intel Corporation Centrino Advanced-N 6235 (rev 24)
+memory: |
+  16247
+scsi: |
+  Teclast 960GB A8 Rev: 6A0 
+usb: |
+  3
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R2rc2
+  xen: |
+    4.1.6.1
+  kernel: |
+    3.12.23-1
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/q5M9KbPatEA/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    Dimiter Georgiev
+  link: |
+    https://groups.google.com/d/msg/qubes-users/q5M9KbPatEA/fXIZ-yvJVA8J
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-7.fc25
+  kernel: |
+    4.14.119-2
+  remark: |
+    
+  credit: |
+    Dimiter Georgiev
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/617800411.1937762.1587259472779%40mail.yahoo.com
+
+---
+

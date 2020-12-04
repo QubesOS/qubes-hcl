@@ -12,7 +12,7 @@ tpm:
 brand: |
   Lenovo
 model: |
-  Thinkpad X250
+  ThinkPad X250
 bios: |
   N10ET28W (1.05 )
 cpu: |
@@ -26,9 +26,8 @@ chipset-short: |
 gpu: |
   00:02.0 VGA compatible controller [0300]: Intel Corporation Broadwell-U Integrated Graphics [8086:1616] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  HD Graphics
+  Integrated Graphics (HD 5500)
 network: |
-  00:02.0 VGA compatible controller [0300]: Intel Corporation Broadwell-U Integrated Graphics [8086:1616] (rev 09) (prog-if 00 [VGA controller])
   03:00.0 Network controller: Intel Corporation Wireless 7265 (rev 59)
 memory: |
   7888

@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   
 gpu-short: |
-  NVIDIA GT840M
+  GeForce 840M
 network: |
   
 memory: |

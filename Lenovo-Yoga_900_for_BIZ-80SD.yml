@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'notebook'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  LENOVO
+  Lenovo
 model: |
-  Yoga 900 80SD
+  Yoga 900 (80SD)
 bios: |
   0TCN14T
 cpu: |
@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
 gpu-short: |
-  HD Graphics 520
+  Integrated Graphics (HD 520)
 network: |
   Intel Corporation Wireless 8260 (rev 3a)
 memory: |
