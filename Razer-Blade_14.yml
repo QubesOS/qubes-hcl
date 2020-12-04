@@ -14,7 +14,7 @@ tpm:
 brand: |
   Razer
 model: |
-  Blade
+  Blade 14
 bios: |
   E1.00
 cpu: |
@@ -29,7 +29,7 @@ gpu: |
   Intel Corporation HD Graphics 530 [8086:191b] (rev 06)
   NVIDIA Corporation GP106M [GeForce GTX 1060] [10de:1c20] (rev a1)
 gpu-short: |
-  NVIDIA GP106M
+  Integrated Graphics (HD 530) & GeForce GTX 1060 Mobile
 network: |
   Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
 memory: |

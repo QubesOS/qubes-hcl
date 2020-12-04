@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics P530 [8086:191d] (rev 06) (prog-if 00 [VGA controller])
 gpu-short: |
-  HD Graphics
+  Integrated Graphics (HD)
 network: |
   Intel Corporation Ethernet Connection (2) I219-V (rev 31)
 memory: |

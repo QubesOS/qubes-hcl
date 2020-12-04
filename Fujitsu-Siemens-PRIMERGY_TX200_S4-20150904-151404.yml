@@ -1,0 +1,55 @@
+---
+layout:
+  'hcl'
+type:
+  'server'
+hvm:
+  'yes'
+iommu:
+  'no'
+tpm:
+  'unknown'
+brand: |
+  Fujitsu Siemens
+model: |
+  PRIMERGY TX200 S4
+bios: |
+  4.06  Rev. 1.07.2509
+cpu: |
+  Intel(R) Xeon(R) CPU           E5420  @ 2.50GHz
+cpu-short: |
+  E5420
+chipset: |
+  Intel Corporation 5000Z Chipset Memory Controller Hub [8086:25d0] (rev 92)
+chipset-short: |
+  
+gpu: |
+  Matrox Electronics Systems Ltd. MGA G200e [Pilot] ServerEngines (SEP1) [102b:0522] (rev 02) (prog-if 00 [VGA controller])
+gpu-short: |
+  MGA G200e
+network: |
+  Broadcom Corporation NetXtreme II BCM5708 Gigabit Ethernet (rev 12)
+memory: |
+  12286
+scsi: |
+  DVDRAM GH40N     Rev: NV01
+  MegaRAID SAS RMB Rev: 1.40
+  USB DISK 2.0     Rev: PMAP
+
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.0
+  xen: |
+    4.4.2
+  kernel: |
+    3.18.10-2
+  remark: |
+    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/2s6VG9WoGqs/discussion'><span class='icon'></span>read more</a>
+  credit: |
+    ypid
+  link: |
+    https://groups.google.com/d/msg/qubes-users/2s6VG9WoGqs/sHxWFfVgKgAJ
+---

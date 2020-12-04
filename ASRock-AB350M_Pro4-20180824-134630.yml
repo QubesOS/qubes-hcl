@@ -31,8 +31,7 @@ gpu: |
   NVIDIA Corporation GK208 [GeForce GT 710B] [10de:128b] (rev a1) (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] Vega 10 XT [Radeon RX Vega 64] [1002:687f] (rev c3) (prog-if 00 [VGA controller])
 gpu-short: |
-  GeForce GT
-  Radeon RX Vega
+  Integrated Graphics (Radeon RX Vega 64) & GeForce GT 710B
 network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 11)
 memory: |

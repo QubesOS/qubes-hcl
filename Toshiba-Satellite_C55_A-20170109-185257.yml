@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  Toshiba
+model: |
+  Satellite C55-A
+bios: |
+  1.30
+cpu: |
+  Intel(R) Pentium(R) CPU 2020M @ 2.40GHz
+cpu-short: |
+  Pentium 2020M
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0156] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD)
+network: |
+  Qualcomm Atheros AR8162 Fast Ethernet (rev 10)
+  Realtek Semiconductor Co., Ltd. RTL8188EE Wireless Network Adapter (rev 01)
+memory: |
+  6026
+scsi: |
+  Toshiba MQ01ABD0 Rev: 4M  
+  CDDVDW SU-208DB  Rev: TF01
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.3
+  kernel: |
+    4.4.38-11
+  remark: |
+    
+  credit: |
+    Caleb Thompson
+  link: |
+    https://groups.google.com/d/msg/qubes-users/qsLAG2cBoy4/L0grQlTgBgAJ
+
+---
+

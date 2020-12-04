@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Inspiron 7577
+bios: |
+  1.2.0
+cpu: |
+  Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+cpu-short: |
+  i7-7700HQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5910] (rev 05)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Intel Corporation Device [8086:591b] (rev 04) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GP106M [GeForce GTX 1060 Mobile 3GB] [10de:1c20] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 630) & GeForce GTX 1060 Mobile
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+  Intel Corporation Wireless 8265 / 8275 (rev 78)
+memory: |
+  15868
+scsi: |
+  ST1000LM035-1RK1 Rev: SDM2
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.13-2
+  remark: |
+    No dual screen, minor issues
+  credit: |
+    Joe Thielen
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/CAM9FSFyDPx-qAY0LaJoz8-ofd_caES_C8kkk2Q6eKt6TRw8a3Q%40mail.gmail.com
+
+---
+

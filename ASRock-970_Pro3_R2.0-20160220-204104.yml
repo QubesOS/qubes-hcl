@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GT218 [GeForce 210] [10de:0a65] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
-  GT218
+  GeForce 210
 network: |
   Realtek Semiconductor Co., Ltd. RTL8169 PCI Gigabit Ethernet Controller (rev 10)
 memory: |

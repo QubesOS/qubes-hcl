@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'notebook'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -10,7 +10,7 @@ iommu:
 tpm:
   'unknown'
 brand: |
-  ASUSTeK COMPUTER INC.
+  ASUSTek
 model: |
   N501VW
 bios: |
@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Device [8086:191b] (rev 06) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics
+  Integrated Graphics (HD 530)
 network: |
   Intel Corporation Wireless 7265 (rev 59)
 memory: |

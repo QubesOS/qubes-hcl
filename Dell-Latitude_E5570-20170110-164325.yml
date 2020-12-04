@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  Dell
+model: |
+  Latitude E5570
+bios: |
+  1.7.3
+cpu: |
+  Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+cpu-short: |
+  i5-6300U
+chipset: |
+  Intel Corporation Skylake Host Bridge/DRAM Registers [8086:1904] (rev 08)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 520)
+network: |
+  Intel Corporation Ethernet Connection I219-LM (rev 21)
+  Intel Corporation Wireless 8260 (rev 3a)
+memory: |
+  16266
+scsi: |
+  INTEL SSDSCKKF25 Rev: D07N
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.14-11
+  remark: |
+    Display quirks. Setup needs UEFI workaround, <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting/'><span class='icon'></span>read more</a>
+  credit: |
+    Michael Krzyzanski
+  link: |
+    https://groups.google.com/d/msg/qubes-users/Kvt_g9-B7xg/YucsSUQUBwAJ
+
+---
+

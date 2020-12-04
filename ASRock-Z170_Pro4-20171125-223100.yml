@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation HD Graphics 530 [8086:1912] (rev 06) (prog-if 00 [VGA controller])
 gpu-short: |
-  HD Graphics
+  Integrated Graphics (HD 530)
 network: |
   Intel Corporation Ethernet Connection (2) I219-V (rev 31)
   Intel Corporation 82571EB Gigabit Ethernet Controller (rev 06)

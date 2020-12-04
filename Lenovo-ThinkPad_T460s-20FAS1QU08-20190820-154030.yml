@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'yes'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad T460s (20FAS1QU08)
+bios: |
+  N1CET76W (1.44 )
+cpu: |
+  Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+cpu-short: |
+  i5-6300U
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1904] (rev 08)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 520)
+network: |
+  Intel Corporation Ethernet Connection I219-LM (rev 21)
+  Intel Corporation Wireless 8260 (rev 3a)
+memory: |
+  20335
+scsi: |
+  Samsung MZNLN256 Rev: 2L6Q
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-7.fc25
+  kernel: |
+    4.14.119-2
+  remark: |
+    Enable TPM 1.2 in Bios to fix suspend issue
+  credit: |
+    Maximilian Ehlers
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/262ffd6260a0ed015daad449eccd396231e6e675.camel%40ehlers.berlin
+
+---
+

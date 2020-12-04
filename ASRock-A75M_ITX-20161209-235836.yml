@@ -27,9 +27,8 @@ chipset-short: |
   Family 12h
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] BeaverCreek [Radeon HD 6530D] [1002:964a] (prog-if 00 [VGA controller])
-  
 gpu-short: |
-  Radeon HD 6530D
+  Integrated Graphics (Radeon HD 6530D)
 network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
 memory: |

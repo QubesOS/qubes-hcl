@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'notebook'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Mullins [Radeon R2 Graphics] [1002:9852] (prog-if 00 [VGA controller])
 gpu-short: |
-  Radeon R2
+  Integrated Graphics (Radeon R2)
 network: |
   Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter (rev 01)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)

@@ -22,11 +22,11 @@ cpu-short: |
 chipset: |
   Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
 chipset-short: |
-  Sandy
+  Sandy Bridge
 gpu: |
   NVIDIA Corporation GF106M [GeForce GTX 460M] [10de:0dd1] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  GTX 460M
+  GeForce GTX 460M
 network: |
   Qualcomm Atheros AR8151 v2.0 Gigabit Ethernet (rev c0)
   Intel Corporation Centrino Advanced-N + WiMAX 6250 [Kilmer Peak] (rev 5e)

@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   
 gpu-short: |
-  HD Graphics
+  Integrated Graphics (HD)
 network: |
   
 memory: |

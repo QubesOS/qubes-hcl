@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'no'
+brand: |
+  Lenovo
+model: |
+  IdeaPad Y510p (20217)
+bios: |
+  74CN35WW(V1.10)
+cpu: |
+  Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz
+cpu-short: |
+  i7-4700MQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller [8086:0c04] (rev 06)
+chipset-short: |
+  Intel E3-1200
+gpu: |
+  NVIDIA Corporation GK107M [GeForce GT 750M] [10de:0fe4] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce GT 750M
+network: |
+  Qualcomm Atheros QCA8171 Gigabit Ethernet (rev 10)
+  Intel Corporation Centrino Wireless-N 2230 (rev c4)
+memory: |
+  7990
+scsi: |
+  ST1000LM014-1EJ1 Rev: LVD1
+usb: |
+  3
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.5
+  kernel: |
+    4.4.62-12
+  remark: |
+    Works, but no VT-d support
+  credit: |
+    Vercas
+  link: |
+    https://groups.google.com/d/msg/qubes-users/Rwud5JKGeCU/GGHrc07TBwAJ
+
+---
+

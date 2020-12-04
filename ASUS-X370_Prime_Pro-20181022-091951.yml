@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Vega 10 XT [Radeon RX Vega 64] [1002:687f] (rev c3) (prog-if 00 [VGA controller])
 gpu-short: |
-  RX Vega 56
+  Integrated Graphics (Radeon RX Vega 64)
 network: |
   Intel Corporation I211 Gigabit Network Connection (rev 03)
   Qualcomm Atheros AR93xx Wireless Network Adapter (rev 01)

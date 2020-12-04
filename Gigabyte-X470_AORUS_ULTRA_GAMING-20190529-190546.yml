@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Gigabyte
+model: |
+  X470 AORUS ULTRA GAMING
+bios: |
+  F2
+cpu: |
+  AMD Ryzen 3 1300X Quad-Core Processor
+cpu-short: |
+  Ryzen 3 1300X
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 17h (Models 00h-0fh) Root Complex [1022:1450]
+chipset-short: |
+  AMD 17h
+gpu: |
+  NVIDIA Corporation GP107 [GeForce GTX 1050] [10de:1c81] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce GTX 1050
+network: |
+  Intel Corporation I211 Gigabit Network Connection (rev 03)
+memory: |
+  8139
+scsi: |
+  KINGSTON SHSS37A Rev: 00.Y
+  ST500DM002-1BD14 Rev: KC65
+usb: |
+  3
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.4
+  kernel: |
+    4.14.74-1
+  remark: |
+    
+  credit: |
+    Grexo
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/0dzaFGKi4Yrq0e7kYpT6Q5sq327xIX7mGlT6aTHxa9ZklVvpQ3OhR574HoKWizzyaQTXTlnDoSFDMHeT6VBaAm5iwtSrSG-rpuddoZmRq6A%3D%40protonmail.com
+
+---
+

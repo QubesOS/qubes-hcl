@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Latitude E7440
+bios: |
+  A22
+cpu: |
+  Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz
+cpu-short: |
+  i5-4300U
+chipset: |
+  Intel Corporation Haswell-ULT DRAM Controller [8086:0a04] (rev 0b)
+chipset-short: |
+  Haswell-ULT
+gpu: |
+  Intel Corporation Haswell-ULT Integrated Graphics Controller [8086:0a16] (rev 0b) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4400)
+network: |
+  Intel Corporation Ethernet Connection I218-LM (rev 04)
+  Intel Corporation Wireless 7260 (rev 73)
+memory: |
+  16285
+scsi: |
+  LITEONIT LMT-128 Rev: 10F 
+usb: |
+  2
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.13-2
+  remark: |
+    Upgrade to rc4 broke networking
+  credit: |
+    glen.hertz
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/0c0899b9-79fc-4e94-b18d-c5322c577a65%40googlegroups.com
+
+---
+

@@ -1,0 +1,66 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Micro-Star
+model: |
+  WT70 2OK
+bios: |
+  E1763IMS.41A
+cpu: |
+  Intel(R) Core(TM) i7-4810MQ CPU @ 2.80GHz
+cpu-short: |
+  i7-4810MQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller [8086:0c04] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GK104GLM [Quadro K3100M] [10de:11b6] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4600) & Quadro K3100M
+network: |
+  Qualcomm Atheros Killer E220x Gigabit Ethernet Controller (rev 13)
+  Intel Corporation Wireless 7260 (rev bb)
+memory: |
+  16303
+scsi: |
+  KINGSTON RBU-SMS Rev: 06.9
+  KINGSTON RBU-SMS Rev: 06.9
+  BDDVDW SN-506BB  Rev: TM01
+  HGST HTS721010A9 Rev: A3J0
+  Portable SSD T5  Rev: 0   
+usb: |
+  3
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.35-1
+  remark: |
+    Everything works
+  credit: |
+    AlexW
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/hchD_UUP1XDr7yswbbeipebHopcWJrsg4G5Q-X7Akxv1z5TXWTCCwdlrICsPO7PtGSDrvz1h8MafZ3uM8PwyE_z83GBoqbgwhrsyuYBXDEs%3D%40protonmail.com
+
+---
+

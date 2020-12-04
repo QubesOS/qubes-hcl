@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  ASUSTek
+model: |
+  UX305UA
+bios: |
+  UX305UA.201
+cpu: |
+  Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+cpu-short: |
+  i5-6200U
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1904] (rev 08)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 520)
+network: |
+  Intel Corporation Wireless 7265 (rev 59)
+memory: |
+  8088
+scsi: |
+  Micron_M600_MTFD Rev: MA01
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.2
+  kernel: |
+    4.9.56-21
+  remark: |
+    Enable legacy CSM and disable secure boot
+  credit: |
+    Jason Dreyzehner
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/b5e7712c-a650-1fd2-d239-801735e929ec%40dreyzehner.com
+
+---
+

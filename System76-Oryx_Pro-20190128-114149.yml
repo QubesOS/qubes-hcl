@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'notebook'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -26,13 +26,12 @@ cpu-short: |
 chipset: |
   Intel Corporation Device [8086:3ec4] (rev 07)
 chipset-short: |
-  Kaby Lake
+  Cannon Lake
 gpu: |
   Intel Corporation Device [8086:3e9b] (prog-if 00 [VGA controller])
   NVIDIA Corporation GP106M [GeForce GTX 1060 Mobile 3GB] [10de:1c20] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics
-  GeForce GTX 1060
+  Integrated Graphics (HD 630) & GeForce GTX 1060 Mobile
 network: |
   Intel Corporation Wireless 8265 / 8275 (rev 78)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)

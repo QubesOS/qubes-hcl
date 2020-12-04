@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices Radeon R7 370
 gpu-short: |
-  Radeon R7 370
+  Integrated Graphics (Radeon R7 370)
 network: |
   Realtek Semiconductor Co., Ltd.  PCI Express Gigabit Ethernet Controller (rev 15)
 memory: |

@@ -1,0 +1,64 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision M4700
+bios: |
+  A19
+cpu: |
+  Intel(R) Core(TM) i7-3740QM CPU @ 2.70GHz
+cpu-short: |
+  i7-3740QM
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GK107GLM [Quadro K2000M] [10de:0ffb] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4000) & Quadro K2000M
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
+  Intel Corporation Centrino Advanced-N + WiMAX 6250 [Kilmer Peak] (rev 5f)
+  Realtek Semiconductor Co., Ltd. RTL8187SE Wireless LAN Controller (rev 22)
+memory: |
+  16286
+scsi: |
+  KINGSTON SKC400S Rev: 001B
+  WDC WD10SPZX-00Z Rev: 1A01
+usb: |
+  3
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-7.fc25
+  kernel: |
+    4.19.43-1
+  remark: |
+    Works but replaced Broadcom wifi card to get install to finish.
+  credit: |
+    sourcexorapprentice
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/2ef0c478-eee2-423e-b53f-8c3caedf7351%40googlegroups.com
+
+---
+

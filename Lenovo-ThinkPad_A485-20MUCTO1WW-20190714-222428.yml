@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'partial'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad A485 (20MUCTO1WW)
+bios: |
+  R0WET48W (1.16 )
+cpu: |
+  AMD Ryzen 5 PRO 2500U w/ Radeon Vega Mobile Gfx
+cpu-short: |
+  Ryzen PRO 2500U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:15d0]
+chipset-short: |
+  AMD Raven
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:15dd] (rev d1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon Vega 8 Mobile)
+network: |
+  Realtek Semiconductor Co., Ltd. Device b822
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0e)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 10)
+memory: |
+  15235
+scsi: |
+
+usb: |
+  3
+versions:
+
+- works:
+    'partial'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-7.fc25
+  kernel: |
+    5.1.15-1
+  remark: |
+    Upgraded to 4.17 kernel. Sys-usb not working yet, iommu issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/a309c458-2724-338f-9074-f3f499f22518%40nonbinary.me'><span class='icon'></span>read more</a>
+  credit: |
+    panina
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/a309c458-2724-338f-9074-f3f499f22518%40nonbinary.me
+

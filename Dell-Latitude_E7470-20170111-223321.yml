@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+brand: |
+  Dell
+model: |
+  Latitude E7470
+bios: |
+  1.3.0
+cpu: |
+  Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+cpu-short: |
+  i5-6300U
+chipset: |
+  Intel Corporation Skylake Host Bridge/DRAM Registers [8086:1904] (rev 08)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 520)
+network: |
+  Intel Corporation Ethernet Connection I219-LM (rev 21)
+  Intel Corporation Wireless 8260 (rev 3a)
+memory: |
+  16048
+scsi: |
+  SK hynix SC300 M Rev: 0P00
+  DataTraveler 2.0 Rev: PMAP
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.14-11
+  remark: |
+
+  credit: |
+    Andrew Chin
+  link: |
+    https://groups.google.com/forum/#!msg/qubes-users/GdetVYHjOUQ/EFoKK9fDCAAJ
+
+---
+

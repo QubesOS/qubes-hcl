@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller [8086:0412] (rev 06) (prog-if 00 [VGA controller])
 gpu-short: |
-  Intel HD
+  Integrated Graphics (HD 4600)
 network: |
   Intel Corporation Ethernet Connection (2) I218-V
   Broadcom Corporation BCM4352 802.11ac Wireless Network Adapter (rev 03)
@@ -34,9 +34,9 @@ memory: |
   16261
 scsi: |
   Samsung SSD 850  Rev: 1B6Q
-  SAMSUNG SSD 830  Rev: 3B1Q
+  Samsung SSD 830  Rev: 3B1Q
   WDC WD10EZRX-00D Rev: 0A80
-  SAMSUNG MZHPU256 Rev: 501Q
+  Samsung MZHPU256 Rev: 501Q
 
 versions:
 

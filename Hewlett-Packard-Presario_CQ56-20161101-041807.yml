@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+brand: |
+  Hewlett-Packard
+model: |
+  Presario CQ56
+bios: |
+  F.05
+cpu: |
+  AMD V140 Processor
+cpu-short: |
+  AMD V140
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] RS880 Host Bridge [1022:9601]
+chipset-short: |
+  RS880
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] RS880M [Mobility Radeon HD 4225/4250] [1002:9712] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon HD
+network: |
+  Qualcomm Atheros AR9285 Wireless Network Adapter (PCI-Express) (rev 01)
+  Realtek Semiconductor Co., Ltd. RTL8101/2/6E PCI Express Fast/Gigabit Ethernet controller (rev 02)
+memory: |
+  7930
+scsi: |
+  Crucial_CT275MX3 Rev: R021
+  CDDVDW TS-L633N  Rev: 0300
+
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R3.2
+  xen: |
+    4.6.1
+  kernel: |
+    4.4.14-11
+  remark: |
+    
+  credit: |
+    Michael Fillippini
+  link: |
+    https://groups.google.com/d/msg/qubes-users/9-i6IDRgA-M/LHXIchwGAwAJ
+
+---
+

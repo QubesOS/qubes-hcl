@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'yes'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Inspiron 13 5378
+bios: |
+  1.23.3
+cpu: |
+  Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+cpu-short: |
+  i5-7200U
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5904] (rev 02)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00 [VGA controller])
+  Intel Corporation Sunrise Point-LP Integrated Sensor Hub [8086:9d35] (rev 21)
+gpu-short: |
+  Integrated Graphics (HD 620)
+network: |
+  Intel Corporation Wireless 3165 (rev 79)
+memory: |
+  8058
+scsi: |
+  Micron 1100 SATA Rev: L002
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.3
+  kernel: |
+    4.14.18-1
+  remark: |
+    Problems with suspend locking, HVMs crashing. Applied EFI fix, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/pc71hg%24unf%241%40blaine.gmane.org'><span class='icon'></span>read more</a>
+  credit: |
+    NaBaCo
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/pc71hg%24unf%241%40blaine.gmane.org
+
+---
+

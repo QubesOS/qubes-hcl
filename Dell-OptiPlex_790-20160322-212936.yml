@@ -10,7 +10,7 @@ iommu:
 tpm:
   ''
 brand: |
-  Dell Inc.
+  Dell
 model: |
   OptiPlex 790
 bios: |

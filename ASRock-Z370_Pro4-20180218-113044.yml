@@ -30,14 +30,14 @@ chipset-short: |
 gpu: |
   Intel Corporation Device [8086:3e92] (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics
+  Integrated Graphics (UHD 630)
 network: |
   Intel Corporation Ethernet Connection (2) I219-V
 memory: |
   16055
 scsi: |
   Samsung SSD 850  Rev: 2B6Q
-  SAMSUNG HD642JJ  Rev: 1110
+  Samsung HD642JJ  Rev: 1110
 usb: |
   1
 versions:
