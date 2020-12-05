@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  IdeaPad Y700 (80NW)
+bios: |
+  CDCN37WW
+cpu: |
+  Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+cpu-short: |
+  i7-6700HQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1910] (rev 07)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 530 [8086:191b] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 530)
+network: |
+  Intel Corporation Dual Band Wireless-AC 3165 Plus Bluetooth (rev 99)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  16211
+scsi: |
+  WDC WD10SPCX-24H Rev: 1A02
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.0
+  xen: |
+    4.8.5-25.fc25
+  kernel: |
+    4.19.155-1
+  remark: |
+    
+  credit: |
+    AzureNotes
+  link: |
+    https://groups.google.com/d/msgid/qubes-users/BpMVeO3yAqkEHA2Nlr2CeVsOk_XYAZOCN02Onp4QePLOSu-sWKZAmCqZsG9W-FyJKDdT0VkaIdqBdZ7opXJjc_ES8yXDm0nQgIjqqQ1un9k%3D%40protonmail.com
+
+---
+
