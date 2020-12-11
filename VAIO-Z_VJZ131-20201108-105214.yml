@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Iris Graphics 550 [8086:1927] (rev 0a) (prog-if 00 [VGA controller])
 gpu-short: |
-  Intel Iris 550XME
+  Integrated Graphics (Iris 550XME)
 network: |
   Intel Corporation Wireless 8260 (rev 3a)
 memory: |
