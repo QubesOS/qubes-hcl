@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0100] (rev 09)
 chipset-short: |
-  Sandy
+  Sandy Bridge
 gpu: |
   NVIDIA Corporation G98 [GeForce 9300 GE] [10de:06e0] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |

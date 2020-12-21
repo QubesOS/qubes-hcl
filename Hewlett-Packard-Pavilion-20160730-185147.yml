@@ -26,7 +26,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Iris Graphics 6100 [8086:162b] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Iris Graphics 6100
+  Integrated Graphics (Iris 6100)
 network: |
   Intel Corporation Wireless 3165 (rev 81)
   Realtek Semiconductor Co., Ltd. RTL8101/2/6E PCI Express Fast/Gigabit Ethernet controller (rev 0a)
