@@ -6,23 +6,23 @@ type:
 hvm:
   'yes'
 iommu:
-  'no'
+  'yes'
 slat:
   'yes'
 tpm:
-  'no'
+  'unknown'
 remap:
-  'no'
+  'yes'
 brand: |
-  ASUS
+  Dell
 model: |
-  P8Z68-V LX
+  OptiPlex 790
 bios: |
-  4105
+  A22
 cpu: |
-  Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz
+  Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz
 cpu-short: |
-  i3-2120
+  i5-2400
 chipset: |
   Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0100] (rev 09)
 chipset-short: |
@@ -32,31 +32,30 @@ gpu: |
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  Realtek Semiconductor Co., Ltd. RTL8169 PCI Gigabit Ethernet Controller (rev 10)
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
 memory: |
-  3798
+  16261
 scsi: |
-  Hitachi HDS72101 Rev: A3MA
-  DVD+-RW AD-7200S Rev: 102A
-  Ultra            Rev: 1.00
+  PLEXTOR PX-512M8 Rev: 1.01
+  DVD+-RW SH-216BB Rev: D100
 usb: |
-  3
+  2
 versions:
 
 - works:
-    'partial'
+    'yes'
   qubes: |
-    R3.2
+    R4.0
   xen: |
-    4.6.6
+    4.8.5-14.fc25
   kernel: |
-    4.14.74-1
+    4.19.94-1
   remark: |
-    Old but stable HW config. No IOMMU, remap or TPM.
+    
   credit: |
-    onebinaryK
+    Ryan T Glascock
   link: |
-    https://groups.google.com/d/msgid/qubes-users/EkHbNZ8jTxosYqCwjX7xPVDUa_Z3lp9oSqpxL206v9m_TtQZKY_ckqDggWTp8gxoPlTZpBGcDUImdxrR5nvdWK1D6BVYWR-UVWguA316nmQ%3D%40protonmail.com
+    https://groups.google.com/d/msgid/qubes-users/DM6PR10MB3836B8966E0BD1898EC013929CC10%40DM6PR10MB3836.namprd10.prod.outlook.com
 
 ---
 

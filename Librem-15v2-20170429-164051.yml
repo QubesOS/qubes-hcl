@@ -28,7 +28,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Iris Graphics 6100 [8086:162b] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
-  Intel Iris 6100
+  Integrated Graphics (Iris 6100)
 network: |
   Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
 memory: |
