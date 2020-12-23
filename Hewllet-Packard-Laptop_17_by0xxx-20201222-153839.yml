@@ -39,24 +39,24 @@ memory: |
 scsi: |
   SAMSUNG SSD PM81 Rev: 6D1Q
   DVDRW GUE1N      Rev: UE00
+
 usb: |
   1
 versions:
-  n/a
+
 - works: 
   'yes'
   qubes: |
-  R4.0
+    R4.0
   xen: |
-  4.8.5-28.fc25
+    4.8.5-28.fc25
   kernel: |
-  5.4.83-1
+    5.4.83-1
   remark: |
-  
+    
   credit: |
-  Time-Warp
+    Time-Warp
   link: |
-  https://groups.google.com/d/msgid/qubes-users/CAEN%2BWK6a96wq6umonSruoS%3DnQ3kUjKZtCxMmpAGyF1Dxzk3zOg%40mail.gmail.com
+    https://groups.google.com/d/msgid/qubes-users/CAEN%2BWK6a96wq6umonSruoS%3DnQ3kUjKZtCxMmpAGyF1Dxzk3zOg%40mail.gmail.com
 
 ---
-
