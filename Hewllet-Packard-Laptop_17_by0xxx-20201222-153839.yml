@@ -13,48 +13,49 @@ tpm:
   'unknown'
 remap:
   'yes'
-brand: 
-  HP
-model: 
+brand: |
+  Hewlett-Packard
+model: |
   HP Laptop 17-by0xxx
-bios: 
+bios: |
   F.58
-cpu: 
+cpu: |
   Intel(R) Pentium(R) CPU 4417U @ 2.30GHz
-cpu-short: Pentium 4417U
-chipset: 
+cpu-short: |
+  Pentium 4417U
+chipset: |
   Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5904] (rev 08)
-chipset-short: 
+chipset-short: |
   Kaby Lake
-gpu: 
+gpu: |
   Intel Corporation Device [8086:5906] (rev 07) (prog-if 00 [VGA controller])
-gpu-short: 
+gpu-short: |
   Integrated Graphics (HD 610)
-network: 
+network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
   Realtek Semiconductor Co., Ltd. Device c821
-memory: 
+memory: |
   16254
-scsi: 
+scsi: |
   SAMSUNG SSD PM81 Rev: 6D1Q
   DVDRW GUE1N      Rev: UE00
-usb: 
+usb: |
   1
 versions:
   n/a
 - works: 
-  yes
-  qubes: 
+  'yes'
+  qubes: |
   R4.0
-  xen: 
+  xen: |
   4.8.5-28.fc25
-  kernel: 
+  kernel: |
   5.4.83-1
-  remark: 
+  remark: |
   
-  credit: 
+  credit: |
   Time-Warp
-  link: 
+  link: |
   https://groups.google.com/d/msgid/qubes-users/CAEN%2BWK6a96wq6umonSruoS%3DnQ3kUjKZtCxMmpAGyF1Dxzk3zOg%40mail.gmail.com
 
 ---
