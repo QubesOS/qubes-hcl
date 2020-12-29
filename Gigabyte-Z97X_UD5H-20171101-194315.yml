@@ -41,20 +41,20 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Graphics glitches
-  credit: |
-    Marek Jenkins
-  link: |
-    https://groups.google.com/d/msgid/qubes-devel/faab5b11-c386-4f39-a308-87da3e8b9a7d%40googlegroups.com
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Graphics glitches
+    credit: |
+      Marek Jenkins
+    link: |
+      https://groups.google.com/d/msgid/qubes-devel/faab5b11-c386-4f39-a308-87da3e8b9a7d%40googlegroups.com
 
 ---
 

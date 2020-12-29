@@ -42,20 +42,20 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.35-1
-  remark: |
-    AEM tested. Everything works.
-  credit: |
-    Michael McShane
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CY4PR1801MB2039E6F90BF0358FCB9E4C2CCE610%40CY4PR1801MB2039.namprd18.prod.outlook.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.35-1
+    remark: |
+      AEM tested. Everything works.
+    credit: |
+      Michael McShane
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CY4PR1801MB2039E6F90BF0358FCB9E4C2CCE610%40CY4PR1801MB2039.namprd18.prod.outlook.com
 
 ---
 

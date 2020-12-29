@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
 
-  credit: |
-    Khang Truong
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/0a38a2d8-4bf5-1d04-e360-1f6589fd6b03%40mail.wlu.edu
+    credit: |
+      Khang Truong
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/0a38a2d8-4bf5-1d04-e360-1f6589fd6b03%40mail.wlu.edu
 
 ---
 

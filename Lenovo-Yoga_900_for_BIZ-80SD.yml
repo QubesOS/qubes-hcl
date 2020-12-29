@@ -41,19 +41,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.4.14-11
-  remark: |
-    TPM seems unsupported (AEM). Various issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/fadda9eb-f1b1-437e-8de9-6324c25d1fc9%40googlegroups.com'><span class='icon'></span>read more</a>
-  credit: |
-    tsadowski
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/fadda9eb-f1b1-437e-8de9-6324c25d1fc9%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.4.14-11
+    remark: |
+      TPM seems unsupported (AEM). Various issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/fadda9eb-f1b1-437e-8de9-6324c25d1fc9%40googlegroups.com'><span class='icon'></span>read more</a>
+    credit: |
+      tsadowski
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/fadda9eb-f1b1-437e-8de9-6324c25d1fc9%40googlegroups.com
 
 ---

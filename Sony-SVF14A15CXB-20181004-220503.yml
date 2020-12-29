@@ -43,20 +43,20 @@ usb: |
   3
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.67-1
-  remark: |
-    Suspend, Wifi and other hw issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/gJ2nK556DRGpJLxYJLmP9bkFsR564qPZxswSgcld9McsOmejvWAuriEU0lBTods2ugFJIVShj8oncZ66klkTJS-ZAvKZm-oaMEVmBGwBfWc%3D%40protonmail.com'><span class='icon'></span>read more</a>
-  credit: |
-    ericgonzalez
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/gJ2nK556DRGpJLxYJLmP9bkFsR564qPZxswSgcld9McsOmejvWAuriEU0lBTods2ugFJIVShj8oncZ66klkTJS-ZAvKZm-oaMEVmBGwBfWc%3D%40protonmail.com
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.67-1
+    remark: |
+      Suspend, Wifi and other hw issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/gJ2nK556DRGpJLxYJLmP9bkFsR564qPZxswSgcld9McsOmejvWAuriEU0lBTods2ugFJIVShj8oncZ66klkTJS-ZAvKZm-oaMEVmBGwBfWc%3D%40protonmail.com'><span class='icon'></span>read more</a>
+    credit: |
+      ericgonzalez
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/gJ2nK556DRGpJLxYJLmP9bkFsR564qPZxswSgcld9McsOmejvWAuriEU0lBTods2ugFJIVShj8oncZ66klkTJS-ZAvKZm-oaMEVmBGwBfWc%3D%40protonmail.com
 
 ---
 

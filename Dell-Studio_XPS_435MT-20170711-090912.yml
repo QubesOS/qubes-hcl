@@ -42,20 +42,20 @@ usb: |
   8
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.4.67-13
-  remark: |
-    Needed PulseAudio update
-  credit: |
-    agentorange
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/05f4ba459afa70f20ce661fe0e0a438c%408chan.co
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.4.67-13
+    remark: |
+      Needed PulseAudio update
+    credit: |
+      agentorange
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/05f4ba459afa70f20ce661fe0e0a438c%408chan.co
 
 ---
 

@@ -39,20 +39,20 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/J7GBuG8U7mA/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    Mirosław Wojciechowski
-  link: |
-    https://groups.google.com/d/msg/qubes-users/J7GBuG8U7mA/YQst5YgJCAAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/J7GBuG8U7mA/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      Mirosław Wojciechowski
+    link: |
+      https://groups.google.com/d/msg/qubes-users/J7GBuG8U7mA/YQst5YgJCAAJ
 
 ---
 

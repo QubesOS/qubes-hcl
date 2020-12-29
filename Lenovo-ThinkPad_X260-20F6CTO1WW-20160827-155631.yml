@@ -37,20 +37,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-   Needed to follow uefi-troubleshooting link
-  credit: |
-    B Pat
-  link: |
-    https://groups.google.com/d/msg/qubes-users/FbLWKeD7ddc/Adi3j7xcAQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+    Needed to follow uefi-troubleshooting link
+    credit: |
+      B Pat
+    link: |
+      https://groups.google.com/d/msg/qubes-users/FbLWKeD7ddc/Adi3j7xcAQAJ
 
 ---
 

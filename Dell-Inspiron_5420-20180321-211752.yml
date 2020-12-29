@@ -44,20 +44,20 @@ usb: |
   3
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.14.18-1
-  remark: |
-    USB 3.0 not working via sys-usb
-  credit: |
-    Manuel Nuñez
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/1521678342.1344.0%40smtp.gmail.com
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.14.18-1
+    remark: |
+      USB 3.0 not working via sys-usb
+    credit: |
+      Manuel Nuñez
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/1521678342.1344.0%40smtp.gmail.com
 
 ---
 

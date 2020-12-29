@@ -42,19 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.8.12-12
-  remark: |
-    Had to do the 'boot device not recognized' procedures to get it to boot, had to update to kernel 4.8 to make backlight and suspend to work, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/VeGsBobbw3Q/QXl7GJgGAwAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Guilherme Lima
-  link: |
-    https://groups.google.com/d/msg/qubes-users/VeGsBobbw3Q/QXl7GJgGAwAJ
----
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.8.12-12
+    remark: |
+      Had to do the 'boot device not recognized' procedures to get it to boot, had to update to kernel 4.8 to make backlight and suspend to work, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/VeGsBobbw3Q/QXl7GJgGAwAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Guilherme Lima
+    link: |
+      https://groups.google.com/d/msg/qubes-users/VeGsBobbw3Q/QXl7GJgGAwAJ
 
+---

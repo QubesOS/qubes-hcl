@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    Disabled TPM to get UEFI working
-  credit: |
-    haaber
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/9edbfce5-d053-5807-126a-58f92ede485e%40web.de
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      Disabled TPM to get UEFI working
+    credit: |
+      haaber
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/9edbfce5-d053-5807-126a-58f92ede485e%40web.de
 
 ---
 

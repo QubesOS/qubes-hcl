@@ -41,20 +41,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.45-21
-  remark: |
-    No TPM. Installation notes, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAEagDEUF%3DcKw0qhwnPg4QLpYpm6HcR%2BLqM8LmWX8u0rmhVa%3D%2BA%40mail.gmail.com'><span class='icon'></span>read more</a>
-  credit: |
-    Paul Mosier
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAEagDEUF%3DcKw0qhwnPg4QLpYpm6HcR%2BLqM8LmWX8u0rmhVa%3D%2BA%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.45-21
+    remark: |
+      No TPM. Installation notes, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAEagDEUF%3DcKw0qhwnPg4QLpYpm6HcR%2BLqM8LmWX8u0rmhVa%3D%2BA%40mail.gmail.com'><span class='icon'></span>read more</a>
+    credit: |
+      Paul Mosier
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAEagDEUF%3DcKw0qhwnPg4QLpYpm6HcR%2BLqM8LmWX8u0rmhVa%3D%2BA%40mail.gmail.com
 
 ---
 

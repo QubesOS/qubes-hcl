@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R2B3
-  xen: |
+  - works:
+      'partial'
+    qubes: |
+      R2B3
+    xen: |
 
-  kernel: |
-    3.9.2-2
-  remark: |
-    IGP won't work with activated VT-d (3.12,3.11,3.7), <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/QmshQ6aHsCM/LTyn6mL0kFkJ'><span class='icon'></span>3,9 works</a>, TPM not tested.
-  credit: |
-    Rob Townley
-  link: |
-    https://groups.google.com/d/msg/qubes-users/QmshQ6aHsCM/nJv69i3jbWYJ
+    kernel: |
+      3.9.2-2
+    remark: |
+      IGP won't work with activated VT-d (3.12,3.11,3.7), <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/QmshQ6aHsCM/LTyn6mL0kFkJ'><span class='icon'></span>3,9 works</a>, TPM not tested.
+    credit: |
+      Rob Townley
+    link: |
+      https://groups.google.com/d/msg/qubes-users/QmshQ6aHsCM/nJv69i3jbWYJ
 
 ---
 

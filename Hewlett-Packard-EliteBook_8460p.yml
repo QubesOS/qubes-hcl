@@ -37,20 +37,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.23-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R2
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.23-1
+    remark: |
 
-  credit: |
-    Ray Rizzuto Jr
-  link: |
-    https://groups.google.com/d/msg/qubes-users/xVMe56e4BXQ/lJVUTqC1a2oJ
+    credit: |
+      Ray Rizzuto Jr
+    link: |
+      https://groups.google.com/d/msg/qubes-users/xVMe56e4BXQ/lJVUTqC1a2oJ
 
 ---
 

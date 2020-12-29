@@ -46,20 +46,20 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-27.fc25
-  kernel: |
-    4.19.155-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-27.fc25
+    kernel: |
+      4.19.155-1
+    remark: |
 
-  credit: |
-    Sergey Bezugliy
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/c8994821-23c3-c3e6-124b-0e8b6e5746af%40codenv.top
+    credit: |
+      Sergey Bezugliy
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/c8994821-23c3-c3e6-124b-0e8b6e5746af%40codenv.top
 
 ---
 

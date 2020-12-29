@@ -40,20 +40,20 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.31-11
-  remark: |
-    Audio, bluetooth, HDMI not working. Display needs thunderbolt (displayport?).
-  credit: |
-    Prashant Wahi
-  link: |
-    https://groups.google.com/d/msg/qubes-users/msPve7OmCiU/cKVNBMo-FgAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.31-11
+    remark: |
+      Audio, bluetooth, HDMI not working. Display needs thunderbolt (displayport?).
+    credit: |
+      Prashant Wahi
+    link: |
+      https://groups.google.com/d/msg/qubes-users/msPve7OmCiU/cKVNBMo-FgAJ
 
 ---
 

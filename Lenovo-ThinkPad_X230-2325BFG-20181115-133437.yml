@@ -42,19 +42,19 @@ usb: |
   3
 versions:
 
-- works:
-    yes
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    Qubes pre-installed CGS X230 Version 2.1. Works nicely.
-  credit: |
-    Jakob Traxler
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/4bthNUzCdoAb0Q8vptJ3OSRqudHyeeGLKVWeASst248Q3LNskwNon09sEtqUIMtO3ddUbpnR3mu3QFwUxWJ0CdTWl1IC1a98LMQqODq1wD8%3D%40protonmail.com
+  - works:
+      yes
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      Qubes pre-installed CGS X230 Version 2.1. Works nicely.
+    credit: |
+      Jakob Traxler
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/4bthNUzCdoAb0Q8vptJ3OSRqudHyeeGLKVWeASst248Q3LNskwNon09sEtqUIMtO3ddUbpnR3mu3QFwUxWJ0CdTWl1IC1a98LMQqODq1wD8%3D%40protonmail.com
 
 ---

@@ -37,20 +37,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Used uefi troubleshooting doc, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/H7ugkTm-WDs/bEdmfOYxBgAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Peter Völkl
-  link: |
-    https://groups.google.com/d/msg/qubes-users/H7ugkTm-WDs/bEdmfOYxBgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Used uefi troubleshooting doc, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/H7ugkTm-WDs/bEdmfOYxBgAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Peter Völkl
+    link: |
+      https://groups.google.com/d/msg/qubes-users/H7ugkTm-WDs/bEdmfOYxBgAJ
 
 ---
 

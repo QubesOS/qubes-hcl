@@ -39,20 +39,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.8.12-12
-  remark: |
-    Requires installation on different computer
-  credit: |
-    Stefan Boresch
-  link: |
-    https://groups.google.com/forum/#!msg/qubes-users/PXEeUl15fDM/SG4Ke8d_CQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.8.12-12
+    remark: |
+      Requires installation on different computer
+    credit: |
+      Stefan Boresch
+    link: |
+      https://groups.google.com/forum/#!msg/qubes-users/PXEeUl15fDM/SG4Ke8d_CQAJ
 
 ---
 

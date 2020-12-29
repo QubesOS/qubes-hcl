@@ -43,20 +43,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.19.43-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.19.43-1
+    remark: |
 
-  credit: |
-    vjudge one
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/821033233.42841.1562034377885%40ichabod.co-bxl
+    credit: |
+      vjudge one
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/821033233.42841.1562034377885%40ichabod.co-bxl
 
 ---
 

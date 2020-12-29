@@ -38,20 +38,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-8
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/Z82g5jrJ35M/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    donoban
-  link: |
-    https://groups.google.com/d/msg/qubes-users/Z82g5jrJ35M/MF9rIcvRBgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-8
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/Z82g5jrJ35M/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      donoban
+    link: |
+      https://groups.google.com/d/msg/qubes-users/Z82g5jrJ35M/MF9rIcvRBgAJ
 
 ---
 

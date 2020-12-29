@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    Workaround required for networking, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/20180517144913.1b5dd4e5%40skuld.tenchiki.net'><span class='icon'></span>read more</a>
-  credit: |
-    Scott Henry
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/20180517144913.1b5dd4e5%40skuld.tenchiki.net
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+      Workaround required for networking, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/20180517144913.1b5dd4e5%40skuld.tenchiki.net'><span class='icon'></span>read more</a>
+    credit: |
+      Scott Henry
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/20180517144913.1b5dd4e5%40skuld.tenchiki.net
 
 ---
 

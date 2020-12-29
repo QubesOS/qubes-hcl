@@ -45,20 +45,20 @@ usb: |
   3
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.13-2
-  remark: |
-    Only 6GB RAM out of 8GB detected.
-  credit: |
-    Christopher Morrow
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAOdSCsJukBQMrV%2BioCDXzvMmFLJw2WBtCv1wEZjpPEXWOBGixQ%40mail.gmail.com
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.13-2
+    remark: |
+      Only 6GB RAM out of 8GB detected.
+    credit: |
+      Christopher Morrow
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAOdSCsJukBQMrV%2BioCDXzvMmFLJw2WBtCv1wEZjpPEXWOBGixQ%40mail.gmail.com
 
 ---
 

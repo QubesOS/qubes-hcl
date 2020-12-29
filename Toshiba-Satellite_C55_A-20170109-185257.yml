@@ -40,20 +40,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.38-11
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.38-11
+    remark: |
 
-  credit: |
-    Caleb Thompson
-  link: |
-    https://groups.google.com/d/msg/qubes-users/qsLAG2cBoy4/L0grQlTgBgAJ
+    credit: |
+      Caleb Thompson
+    link: |
+      https://groups.google.com/d/msg/qubes-users/qsLAG2cBoy4/L0grQlTgBgAJ
 
 ---
 

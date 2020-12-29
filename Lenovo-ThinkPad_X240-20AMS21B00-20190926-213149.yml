@@ -43,20 +43,20 @@ usb: |
   2
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    AEM works with minor changes, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/4C0EA730-83A3-4740-A8B2-8E7F2E3255F1%40gmail.com'><span class='icon'></span>read more</a>.
-  credit: |
-    zint.julius
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/4C0EA730-83A3-4740-A8B2-8E7F2E3255F1%40gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      AEM works with minor changes, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/4C0EA730-83A3-4740-A8B2-8E7F2E3255F1%40gmail.com'><span class='icon'></span>read more</a>.
+    credit: |
+      zint.julius
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/4C0EA730-83A3-4740-A8B2-8E7F2E3255F1%40gmail.com
 
 ---
 

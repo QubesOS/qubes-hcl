@@ -42,20 +42,20 @@ usb: |
   3
 versions:
 
-- works:
-    'no'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-19.fc25
-  kernel: |
-    4.19.132-1
-  remark: |
-    Major issues with 7020. Initializing App VMs result in error messages. Ethernet does not work.
-  credit: |
-    solutionsforprivacy.com
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/445797376.138633.1601599514142%40privateemail.com
+  - works:
+      'no'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-19.fc25
+    kernel: |
+      4.19.132-1
+    remark: |
+      Major issues with 7020. Initializing App VMs result in error messages. Ethernet does not work.
+    credit: |
+      solutionsforprivacy.com
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/445797376.138633.1601599514142%40privateemail.com
 
 ---
 

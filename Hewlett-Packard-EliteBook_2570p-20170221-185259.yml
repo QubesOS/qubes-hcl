@@ -40,20 +40,20 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.4
-  kernel: |
-    4.4.38-11
-  remark: |
-    Issues with suspend and smartcard reader, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/lVorOJX0Xwg/q3r6H7aUAgAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Stephan Marwedel
-  link: |
-    https://groups.google.com/d/msg/qubes-users/lVorOJX0Xwg/q3r6H7aUAgAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.4
+    kernel: |
+      4.4.38-11
+    remark: |
+      Issues with suspend and smartcard reader, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/lVorOJX0Xwg/q3r6H7aUAgAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Stephan Marwedel
+    link: |
+      https://groups.google.com/d/msg/qubes-users/lVorOJX0Xwg/q3r6H7aUAgAJ
 
 ---
 

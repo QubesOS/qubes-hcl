@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3rc1
-  xen: |
-    4.4.2
-  kernel: |
-    3.18.10-2
-  remark: |
-    some issues
-  credit: |
-    Miguel Jacq
-  link: |
-    https://groups.google.com/d/msg/qubes-users/fRxncIsQrGc/J8_truiDD1QJ
+  - works:
+      'yes'
+    qubes: |
+      R3rc1
+    xen: |
+      4.4.2
+    kernel: |
+      3.18.10-2
+    remark: |
+      some issues
+    credit: |
+      Miguel Jacq
+    link: |
+      https://groups.google.com/d/msg/qubes-users/fRxncIsQrGc/J8_truiDD1QJ
 
 ---
 

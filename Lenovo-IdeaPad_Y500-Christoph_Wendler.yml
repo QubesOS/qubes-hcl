@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'no'
-  qubes: |
-    R2
-  xen: |
+  - works:
+      'no'
+    qubes: |
+      R2
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
-    Not able to install
-  credit: |
-    Christoph Wendler
-  link: |
-    https://groups.google.com/d/msg/qubes-users/k9hX_QIut2s/DMkWQp7b1_AJ
+    remark: |
+      Not able to install
+    credit: |
+      Christoph Wendler
+    link: |
+      https://groups.google.com/d/msg/qubes-users/k9hX_QIut2s/DMkWQp7b1_AJ
 
 ---
 

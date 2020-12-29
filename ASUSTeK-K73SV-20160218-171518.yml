@@ -41,20 +41,20 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.18.17-5
-  remark: |
+  - works:
+      'partial'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.18.17-5
+    remark: |
 
-  credit: |
-    Merrx
-  link: |
-    https://groups.google.com/d/msg/qubes-users/IazSHJCTWOk/0xSvGSY9AwAJ
+    credit: |
+      Merrx
+    link: |
+      https://groups.google.com/d/msg/qubes-users/IazSHJCTWOk/0xSvGSY9AwAJ
 
 ---
 

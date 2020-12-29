@@ -38,20 +38,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Issues with USB3, HDMI and pen; <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/d133d72a-625b-8c5d-3e72-992567b4e46a%40gmail.com'><span class='icon'></span>read more</a>
-  credit: |
-    Jonny Dennis
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/d133d72a-625b-8c5d-3e72-992567b4e46a%40gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Issues with USB3, HDMI and pen; <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/d133d72a-625b-8c5d-3e72-992567b4e46a%40gmail.com'><span class='icon'></span>read more</a>
+    credit: |
+      Jonny Dennis
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/d133d72a-625b-8c5d-3e72-992567b4e46a%40gmail.com
 
 ---
 

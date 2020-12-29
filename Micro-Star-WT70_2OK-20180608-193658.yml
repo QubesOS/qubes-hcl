@@ -47,20 +47,20 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.35-1
-  remark: |
-    Everything works
-  credit: |
-    AlexW
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/hchD_UUP1XDr7yswbbeipebHopcWJrsg4G5Q-X7Akxv1z5TXWTCCwdlrICsPO7PtGSDrvz1h8MafZ3uM8PwyE_z83GBoqbgwhrsyuYBXDEs%3D%40protonmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.35-1
+    remark: |
+      Everything works
+    credit: |
+      AlexW
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/hchD_UUP1XDr7yswbbeipebHopcWJrsg4G5Q-X7Akxv1z5TXWTCCwdlrICsPO7PtGSDrvz1h8MafZ3uM8PwyE_z83GBoqbgwhrsyuYBXDEs%3D%40protonmail.com
 
 ---
 

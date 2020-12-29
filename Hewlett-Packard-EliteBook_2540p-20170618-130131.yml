@@ -42,20 +42,20 @@ usb: |
   2
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    3.18.17-8
-  remark: |
-    Cannot use 4.x kernels, graphics issues, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/g989Zj1GkkQ/bL7bcYASAwAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Vincent Adultman
-  link: |
-    https://groups.google.com/d/msg/qubes-users/g989Zj1GkkQ/bL7bcYASAwAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      3.18.17-8
+    remark: |
+      Cannot use 4.x kernels, graphics issues, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/g989Zj1GkkQ/bL7bcYASAwAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Vincent Adultman
+    link: |
+      https://groups.google.com/d/msg/qubes-users/g989Zj1GkkQ/bL7bcYASAwAJ
 
 ---
 

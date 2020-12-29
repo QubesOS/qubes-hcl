@@ -37,20 +37,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.23-1
-  remark: |
-    wifi, bluetooth, webcam not working
-  credit: |
-    JoseJ
-  link: |
-    https://groups.google.com/d/msg/qubes-users/hACWQwJf9ek/qvi0YzUFrT4J
+  - works:
+      'yes'
+    qubes: |
+      R2
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.23-1
+    remark: |
+      wifi, bluetooth, webcam not working
+    credit: |
+      JoseJ
+    link: |
+      https://groups.google.com/d/msg/qubes-users/hACWQwJf9ek/qvi0YzUFrT4J
 
 ---
 

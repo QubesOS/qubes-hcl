@@ -41,20 +41,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    In BIOS switch to legacy and set touchpad to basic. You have to follow 'Installation freezes before getting to Anaconda (Qubes 4.0)' from uefi-troubleshooting' for fixing usb-stick and later 'Boot device not recognized after installing'.
-  credit: |
-    peli
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/tA_uOHVFq9jU92J8j4aCdyd7_T76i1fO-fBwUMvFBm_UMQbM6nGFopd4mGHGMle8qcTrc1ZV0n2F0Lxu3zDN2Su0fj8NvHIk7cygzOlizJM%3D%40protonmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+      In BIOS switch to legacy and set touchpad to basic. You have to follow 'Installation freezes before getting to Anaconda (Qubes 4.0)' from uefi-troubleshooting' for fixing usb-stick and later 'Boot device not recognized after installing'.
+    credit: |
+      peli
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/tA_uOHVFq9jU92J8j4aCdyd7_T76i1fO-fBwUMvFBm_UMQbM6nGFopd4mGHGMle8qcTrc1ZV0n2F0Lxu3zDN2Su0fj8NvHIk7cygzOlizJM%3D%40protonmail.com
 
 ---
 

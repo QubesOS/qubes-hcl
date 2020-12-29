@@ -43,20 +43,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.57-2
-  remark: |
-    Everything works, including Heads+TPM
-  credit: |
-    Kyle Rankin
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/20180914181059.fkt3blxd3heez54s%40work
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.57-2
+    remark: |
+      Everything works, including Heads+TPM
+    credit: |
+      Kyle Rankin
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/20180914181059.fkt3blxd3heez54s%40work
 
 ---
 

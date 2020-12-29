@@ -37,20 +37,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.3
-  kernel: |
-    3.19.8-100
-  remark: |
-    Hyperthreading must be disabled (only on i5), actvated TPM slows down the system
-  credit: |
-    Peter Margetin
-  link: |
-   https://groups.google.com/d/msg/qubes-users/iGlPqntSlQ8/3n-4c9khBAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.3
+    kernel: |
+      3.19.8-100
+    remark: |
+      Hyperthreading must be disabled (only on i5), actvated TPM slows down the system
+    credit: |
+      Peter Margetin
+    link: |
+    https://groups.google.com/d/msg/qubes-users/iGlPqntSlQ8/3n-4c9khBAAJ
 
 ---
 

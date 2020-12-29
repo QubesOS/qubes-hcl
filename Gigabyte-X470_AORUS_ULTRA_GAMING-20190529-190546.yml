@@ -42,20 +42,20 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
 
-  credit: |
-    Grexo
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/0dzaFGKi4Yrq0e7kYpT6Q5sq327xIX7mGlT6aTHxa9ZklVvpQ3OhR574HoKWizzyaQTXTlnDoSFDMHeT6VBaAm5iwtSrSG-rpuddoZmRq6A%3D%40protonmail.com
+    credit: |
+      Grexo
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/0dzaFGKi4Yrq0e7kYpT6Q5sq327xIX7mGlT6aTHxa9ZklVvpQ3OhR574HoKWizzyaQTXTlnDoSFDMHeT6VBaAm5iwtSrSG-rpuddoZmRq6A%3D%40protonmail.com
 
 ---
 

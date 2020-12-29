@@ -40,20 +40,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.4
-  kernel: |
-    4.4.38-11
-  remark: |
-    AEM works. For sys-usb set pci_strictreset to false, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/8owRcWYvIds/X6UWGoJnBQAJ'><span class='icon'></span>read more</a>
-  credit: |
-    crat0z
-  link: |
-    https://groups.google.com/d/msg/qubes-users/8owRcWYvIds/X6UWGoJnBQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.4
+    kernel: |
+      4.4.38-11
+    remark: |
+      AEM works. For sys-usb set pci_strictreset to false, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/8owRcWYvIds/X6UWGoJnBQAJ'><span class='icon'></span>read more</a>
+    credit: |
+      crat0z
+    link: |
+      https://groups.google.com/d/msg/qubes-users/8owRcWYvIds/X6UWGoJnBQAJ
 
 ---
 

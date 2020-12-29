@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'no'
-  qubes: |
-    R2
-  xen: |
+  - works:
+      'no'
+    qubes: |
+      R2
+    xen: |
 
-  kernel: |
-    3.12.23-1
-  remark: |
-    Qubes installation does not work. VT-x/VT-d/TPM present-untested
-  credit: |
-    hsgqq7h02
-  link: |
-    https://groups.google.com/d/msg/qubes-users/xjwpuPKcxIE/aprxY8YLQSIJ
+    kernel: |
+      3.12.23-1
+    remark: |
+      Qubes installation does not work. VT-x/VT-d/TPM present-untested
+    credit: |
+      hsgqq7h02
+    link: |
+      https://groups.google.com/d/msg/qubes-users/xjwpuPKcxIE/aprxY8YLQSIJ
 
 ---
 

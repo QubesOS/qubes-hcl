@@ -41,20 +41,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    TPM and UEFI conflict with installer, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAB%3DLajsv4V0%2B_xhwT5ZKKcAyYR3K-0BTdUFs74o-EMN1K0Q66A%40mail.gmail.com'><span class='icon'></span>read more</a>
-  credit: |
-    Jascha Dub
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAB%3DLajsv4V0%2B_xhwT5ZKKcAyYR3K-0BTdUFs74o-EMN1K0Q66A%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+      TPM and UEFI conflict with installer, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAB%3DLajsv4V0%2B_xhwT5ZKKcAyYR3K-0BTdUFs74o-EMN1K0Q66A%40mail.gmail.com'><span class='icon'></span>read more</a>
+    credit: |
+      Jascha Dub
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAB%3DLajsv4V0%2B_xhwT5ZKKcAyYR3K-0BTdUFs74o-EMN1K0Q66A%40mail.gmail.com
 
 ---
 

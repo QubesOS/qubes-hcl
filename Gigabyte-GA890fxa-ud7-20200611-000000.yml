@@ -38,18 +38,18 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0.1
-  xen: |
-    4.8.5
-  kernel: |
-    4.19-5.x
-  remark: |
-    ivrs_ioapic[0]=00:00.2 ivrs_ioapic[8]=00:14.0
-  credit: |
-    AngryLasagna
+  - works:
+      'yes'
+    qubes: |
+      R4.0.1
+    xen: |
+      4.8.5
+    kernel: |
+      4.19-5.x
+    remark: |
+      ivrs_ioapic[0]=00:00.2 ivrs_ioapic[8]=00:14.0
+    credit: |
+      AngryLasagna
 
 ---
 

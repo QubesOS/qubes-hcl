@@ -37,18 +37,18 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.2.8-8
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.2.8-8
+    remark: |
 
-  credit: |
-    Zrubi
-  link: |
+    credit: |
+      Zrubi
+    link: |
 
 ---

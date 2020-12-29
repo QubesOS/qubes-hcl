@@ -39,20 +39,20 @@ scsi: |
   1 terabyte hdd used for this install
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    works - yes, but no VT-d. Atheros NIC driver problems.
-  credit: |
-    Oleg Artemiev
-  link: |
-    https://groups.google.com/forum/#!msg/qubes-users/4SXPlQNLK58/7lFILM5VAgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      works - yes, but no VT-d. Atheros NIC driver problems.
+    credit: |
+      Oleg Artemiev
+    link: |
+      https://groups.google.com/forum/#!msg/qubes-users/4SXPlQNLK58/7lFILM5VAgAJ
 
 ---
 

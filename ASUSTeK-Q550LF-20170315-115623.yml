@@ -41,20 +41,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.4
-  kernel: |
-    4.4.38-11
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.4
+    kernel: |
+      4.4.38-11
+    remark: |
 
-  credit: |
-    david_everett
-  link: |
-    https://groups.google.com/d/msg/qubes-users/_dz2UHvYkrI/WhdJwTriBQAJ
+    credit: |
+      david_everett
+    link: |
+      https://groups.google.com/d/msg/qubes-users/_dz2UHvYkrI/WhdJwTriBQAJ
 
 ---
 

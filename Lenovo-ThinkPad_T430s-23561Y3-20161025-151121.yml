@@ -37,20 +37,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.1
-  kernel: |
-    4.1.24-10
-  remark: |
-    Webcam and mic need USB passthrough
-  credit: |
-    4r1eyh+30fj0sg5cb6l8
-  link: |
-    https://groups.google.com/d/msg/qubes-users/D7dLbJ3nC9Y/LeRX4DHkAAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.1
+    kernel: |
+      4.1.24-10
+    remark: |
+      Webcam and mic need USB passthrough
+    credit: |
+      4r1eyh+30fj0sg5cb6l8
+    link: |
+      https://groups.google.com/d/msg/qubes-users/D7dLbJ3nC9Y/LeRX4DHkAAAJ
 
 ---
 

@@ -43,18 +43,18 @@ usb: |
   3
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-7.fc25
-  kernel: |
-    5.1.15-1
-  remark: |
-    Upgraded to 4.17 kernel. Sys-usb not working yet, iommu issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/a309c458-2724-338f-9074-f3f499f22518%40nonbinary.me'><span class='icon'></span>read more</a>
-  credit: |
-    panina
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/a309c458-2724-338f-9074-f3f499f22518%40nonbinary.me
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-7.fc25
+    kernel: |
+      5.1.15-1
+    remark: |
+      Upgraded to 4.17 kernel. Sys-usb not working yet, iommu issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/a309c458-2724-338f-9074-f3f499f22518%40nonbinary.me'><span class='icon'></span>read more</a>
+    credit: |
+      panina
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/a309c458-2724-338f-9074-f3f499f22518%40nonbinary.me
 

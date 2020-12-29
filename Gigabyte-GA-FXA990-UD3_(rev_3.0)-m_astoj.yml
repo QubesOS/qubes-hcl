@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2B2
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B2
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
-    IOMMU not tested with Qubes, working on other platforms <a class='ext-link' href=https://groups.google.com/d/msg/qubes-devel/qXct-TU4tKs/_JEtbQCyHl8J><span class='icon'></span>read more</a>, TPM header
-  credit: |
-    m astroj
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/oox94EsIduQ/7w4xUoK5pxwJ
+    remark: |
+      IOMMU not tested with Qubes, working on other platforms <a class='ext-link' href=https://groups.google.com/d/msg/qubes-devel/qXct-TU4tKs/_JEtbQCyHl8J><span class='icon'></span>read more</a>, TPM header
+    credit: |
+      m astroj
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/oox94EsIduQ/7w4xUoK5pxwJ
 
 ---
 

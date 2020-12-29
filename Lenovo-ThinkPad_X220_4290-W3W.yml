@@ -36,50 +36,50 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R1
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
+    remark: |
 
-  credit: |
-    Stefan Boresch
-  link: |
-    https://groups.google.com/group/qubes-devel/msg/f41578eef913446a
+    credit: |
+      Stefan Boresch
+    link: |
+      https://groups.google.com/group/qubes-devel/msg/f41578eef913446a
 
-- works:
-    'yes'
-  qubes: |
-    R2B2
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B2
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/-b8b9fpo0UU/discussion'><span class='icon'></span>read more</a></td> <!-- Remarks -->
-  credit: |
-    Matt Tracy
-  link: |
-    https://groups.google.com/d/msg/qubes-users/-b8b9fpo0UU/RFh6HiWqt5oJ
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/-b8b9fpo0UU/discussion'><span class='icon'></span>read more</a></td> <!-- Remarks -->
+    credit: |
+      Matt Tracy
+    link: |
+      https://groups.google.com/d/msg/qubes-users/-b8b9fpo0UU/RFh6HiWqt5oJ
 
-- works:
-    'yes'
-  qubes: |
-    R2B3
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B3
+    xen: |
 
-  kernel: |
-    3.11.1-2
-  remark: |
+    kernel: |
+      3.11.1-2
+    remark: |
 
-  credit: |
-    Matt Tracy
-  link: |
-    https://groups.google.com/d/msg/qubes-users/5tNavg4MhT4/dFXsYHXOgu4J
+    credit: |
+      Matt Tracy
+    link: |
+      https://groups.google.com/d/msg/qubes-users/5tNavg4MhT4/dFXsYHXOgu4J
 
 ---
 

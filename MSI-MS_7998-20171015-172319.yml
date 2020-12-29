@@ -41,20 +41,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
 
-  credit: |
-    kaken moms
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/DB5PR07MB1080A3F7A3F949DC043D5999EE4E0%40DB5PR07MB1080.eurprd07.prod.outlook.com
+    credit: |
+      kaken moms
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/DB5PR07MB1080A3F7A3F949DC043D5999EE4E0%40DB5PR07MB1080.eurprd07.prod.outlook.com
 
 ---
 

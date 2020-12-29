@@ -43,19 +43,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    Workarounds for NVIDIA and EFI boot, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/8541de1d-6c08-475e-b8ec-7ce7b715c32a%40googlegroups.com'><span class='icon'></span>read more</a>
-  credit: |
-    Sphere
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/8541de1d-6c08-475e-b8ec-7ce7b715c32a%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+      Workarounds for NVIDIA and EFI boot, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/8541de1d-6c08-475e-b8ec-7ce7b715c32a%40googlegroups.com'><span class='icon'></span>read more</a>
+    credit: |
+      Sphere
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/8541de1d-6c08-475e-b8ec-7ce7b715c32a%40googlegroups.com
 
 ---

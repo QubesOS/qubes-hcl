@@ -44,20 +44,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
 
-  credit: |
-    Oleg Artemiev
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CABunX6MfunMa_mxwfv_R1Qxu%3DTfEZfFm_X%2BDFRDsiG-UNz1O3g%40mail.gmail.com
+    credit: |
+      Oleg Artemiev
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CABunX6MfunMa_mxwfv_R1Qxu%3DTfEZfFm_X%2BDFRDsiG-UNz1O3g%40mail.gmail.com
 
 ---
 

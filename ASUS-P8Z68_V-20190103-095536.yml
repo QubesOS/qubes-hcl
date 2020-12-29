@@ -43,20 +43,20 @@ usb: |
   3
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.14.74-1
-  remark: |
-    Old but stable HW config. No IOMMU, remap or TPM.
-  credit: |
-    onebinaryK
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/EkHbNZ8jTxosYqCwjX7xPVDUa_Z3lp9oSqpxL206v9m_TtQZKY_ckqDggWTp8gxoPlTZpBGcDUImdxrR5nvdWK1D6BVYWR-UVWguA316nmQ%3D%40protonmail.com
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.14.74-1
+    remark: |
+      Old but stable HW config. No IOMMU, remap or TPM.
+    credit: |
+      onebinaryK
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/EkHbNZ8jTxosYqCwjX7xPVDUa_Z3lp9oSqpxL206v9m_TtQZKY_ckqDggWTp8gxoPlTZpBGcDUImdxrR5nvdWK1D6BVYWR-UVWguA316nmQ%3D%40protonmail.com
 
 ---
 

@@ -39,20 +39,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.18.17-5
-  remark: |
-    Suspend not tested.
-  credit: |
-    Tom Chiverton
-  link: |
-    https://groups.google.com/d/msg/qubes-users/b1FCMt9ju7s/8zD4RsuqCAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.18.17-5
+    remark: |
+      Suspend not tested.
+    credit: |
+      Tom Chiverton
+    link: |
+      https://groups.google.com/d/msg/qubes-users/b1FCMt9ju7s/8zD4RsuqCAAJ
 
 ---
 

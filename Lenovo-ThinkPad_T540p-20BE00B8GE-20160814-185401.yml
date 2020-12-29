@@ -39,20 +39,20 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Everything works, CPU lacks IOMMU
-  credit: |
-    York Keyser
-  link: |
-    https://groups.google.com/d/msg/qubes-users/ijZCFKw2DIM/2PI6m3mpBAAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Everything works, CPU lacks IOMMU
+    credit: |
+      York Keyser
+    link: |
+      https://groups.google.com/d/msg/qubes-users/ijZCFKw2DIM/2PI6m3mpBAAJ
 
 ---
 

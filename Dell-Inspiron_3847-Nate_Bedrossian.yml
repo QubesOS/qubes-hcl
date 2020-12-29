@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.23-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R2
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.23-1
+    remark: |
 
-  credit: |
-    Nate Bedrossian
-  link: |
-    https://groups.google.com/d/msg/qubes-users/JQ-EQfuQIXA/Xg1uEMJyplcJ
+    credit: |
+      Nate Bedrossian
+    link: |
+      https://groups.google.com/d/msg/qubes-users/JQ-EQfuQIXA/Xg1uEMJyplcJ
 
 ---
 

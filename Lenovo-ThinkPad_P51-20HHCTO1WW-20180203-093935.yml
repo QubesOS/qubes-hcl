@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.13-2
-  remark: |
-    TPM not found.
-  credit: |
-    Dave C
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/afc13b69-4650-4084-99da-92514ba440d6%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.13-2
+    remark: |
+      TPM not found.
+    credit: |
+      Dave C
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/afc13b69-4650-4084-99da-92514ba440d6%40googlegroups.com
 
 ---
 

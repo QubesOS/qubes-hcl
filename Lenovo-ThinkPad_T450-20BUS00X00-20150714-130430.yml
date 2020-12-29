@@ -25,17 +25,19 @@ scsi:  |
 
 versions:
 
-- qubes:  'R3.0'
-  xen:  '4.4.2'
-  kernel:  '3.18.10-2'
-  works:  'yes'
+  - works:
+      'yes'
+    qubes: |
+      'R3.0'
+    xen: |
+      '4.4.2'
+    kernel: |
+      '3.18.10-2'
+    remark: |
 
-  remark:  |
+    credit: |
+      David
+    link: |
+      https://groups.google.com/d/msg/qubes-users/vYvNIHx4pWQ/D6WxypOvmP4J
 
-  credit:  |
-    David
-  link: |
-    https://groups.google.com/d/msg/qubes-users/vYvNIHx4pWQ/D6WxypOvmP4J
 ---
-# vim: ts=2 sw=2 et nowrap
-

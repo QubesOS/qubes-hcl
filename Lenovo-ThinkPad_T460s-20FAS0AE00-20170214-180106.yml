@@ -39,20 +39,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.4
-  kernel: |
-    4.8.12-12
-  remark: |
-    Needed NVMe workaround <a class='ext-link' href='https://github.com/QubesOS/qubes-issues/issues/2381'><span class='icon'></span>read more</a>. DisplayPort may cause crash; HDMI works. More stable with 4.8.12 kernel.
-  credit: |
-    Others call me jean
-  link: |
-    https://groups.google.com/d/msg/qubes-users/4ojY4TCUywY/Wqhf5aVhAAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.4
+    kernel: |
+      4.8.12-12
+    remark: |
+      Needed NVMe workaround <a class='ext-link' href='https://github.com/QubesOS/qubes-issues/issues/2381'><span class='icon'></span>read more</a>. DisplayPort may cause crash; HDMI works. More stable with 4.8.12 kernel.
+    credit: |
+      Others call me jean
+    link: |
+      https://groups.google.com/d/msg/qubes-users/4ojY4TCUywY/Wqhf5aVhAAAJ
 
 ---
 

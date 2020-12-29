@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2B2
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B2
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
+    remark: |
 
-  credit: |
-    Ulrich Pfeifer
-  link: |
-    https://groups.google.com/d/msg/qubes-users/UCuF41rq758/BRhc7lTecsMJ
+    credit: |
+      Ulrich Pfeifer
+    link: |
+      https://groups.google.com/d/msg/qubes-users/UCuF41rq758/BRhc7lTecsMJ
 
 ---
 

@@ -42,20 +42,20 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-14.fc25
-  kernel: |
-    4.19.94-1
-  remark: |
-    follow UEFI troubleshooting guide
-  credit: |
-    Cody Gardner
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/mHJQspJHIM_DWO47XmRAgwvOqCgdNjxG78_vQXIRIiMZ4j-NNKesR0MTR4I29dUakKAkpxnknVE9OfSzcTTmqJe61rwOOWeWAFGWs_8Ss-U%3D%40protonmail.comXLINK
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.94-1
+    remark: |
+      follow UEFI troubleshooting guide
+    credit: |
+      Cody Gardner
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/mHJQspJHIM_DWO47XmRAgwvOqCgdNjxG78_vQXIRIiMZ4j-NNKesR0MTR4I29dUakKAkpxnknVE9OfSzcTTmqJe61rwOOWeWAFGWs_8Ss-U%3D%40protonmail.comXLINK
 
 ---
 

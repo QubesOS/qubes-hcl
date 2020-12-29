@@ -39,20 +39,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Fix for "Boot device not recognized after installing" if plugged into USB HUB <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting'><span class='icon'></span>read more</a>
-  credit: |
-    Robert Horvath
-  link: |
-    https://groups.google.com/d/msg/qubes-users/2hVjoVHnVa4/mmvoZ-anEAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Fix for "Boot device not recognized after installing" if plugged into USB HUB <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting'><span class='icon'></span>read more</a>
+    credit: |
+      Robert Horvath
+    link: |
+      https://groups.google.com/d/msg/qubes-users/2hVjoVHnVa4/mmvoZ-anEAAJ
 
 ---
 

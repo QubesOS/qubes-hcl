@@ -37,20 +37,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    Used xrandr to scale, HiDPI support is poor
-  credit: |
-    Thia Tosini
-  link: |
-    https://groups.google.com/d/msg/qubes-users/ChsIJN2etkk/A0yL-sPMPwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      Used xrandr to scale, HiDPI support is poor
+    credit: |
+      Thia Tosini
+    link: |
+      https://groups.google.com/d/msg/qubes-users/ChsIJN2etkk/A0yL-sPMPwAJ
 
 ---
 

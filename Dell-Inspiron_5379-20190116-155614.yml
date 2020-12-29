@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
 
-  credit: |
-    Dave Albiston
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/85e.5c3f59e3%40qubes-os.info
+    credit: |
+      Dave Albiston
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/85e.5c3f59e3%40qubes-os.info
 
 ---
 

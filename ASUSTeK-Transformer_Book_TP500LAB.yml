@@ -42,19 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    yes
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-19.fc25
-  kernel: |
-    4.19.132-1
-  remark: |
-    <a class='ext-link' href='https://qubes-os.discourse.group/t/hcl-asus-transformer-book-tp500lab/527'><span class='icon'></span>read more</a>
-  credit: |
-    BBro
-  link: |
-    https://qubes-os.discourse.group/t/hcl-asus-transformer-book-tp500lab/527
+  - works:
+      yes
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-19.fc25
+    kernel: |
+      4.19.132-1
+    remark: |
+      <a class='ext-link' href='https://qubes-os.discourse.group/t/hcl-asus-transformer-book-tp500lab/527'><span class='icon'></span>read more</a>
+    credit: |
+      BBro
+    link: |
+      https://qubes-os.discourse.group/t/hcl-asus-transformer-book-tp500lab/527
 
 ---

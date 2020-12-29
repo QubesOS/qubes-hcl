@@ -39,20 +39,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-8
-  remark: |
-    Installer didn't work until I turned off UEFI in the boot order section of the BIOS.
-  credit: |
-    JPL
-  link: |
-    https://groups.google.com/d/msg/qubes-users/QuWyEXtusK4/4btYFwlwBwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-8
+    remark: |
+      Installer didn't work until I turned off UEFI in the boot order section of the BIOS.
+    credit: |
+      JPL
+    link: |
+      https://groups.google.com/d/msg/qubes-users/QuWyEXtusK4/4btYFwlwBwAJ
 
 ---
 

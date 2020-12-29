@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
 
-  credit: |
-    Valko
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAKpdXJHJkBB5hcAtPg45yn0fO3pFS1WQ_HsPPDGHRpXrCVHdhg%40mail.gmail.com
+    credit: |
+      Valko
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAKpdXJHJkBB5hcAtPg45yn0fO3pFS1WQ_HsPPDGHRpXrCVHdhg%40mail.gmail.com
 
 ---
 

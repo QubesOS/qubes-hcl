@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2B3
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B3
+    xen: |
 
-  kernel: |
-    3.9.2-2
-  remark: |
-    Most features work on 3.7 and 3.11, but for best results use 3.9.
-  credit: |
-    AndrewX192
-  link: |
-    https://groups.google.com/d/msg/qubes-users/Ol6v6xSla4Y/vFgIHeObF-8J
+    kernel: |
+      3.9.2-2
+    remark: |
+      Most features work on 3.7 and 3.11, but for best results use 3.9.
+    credit: |
+      AndrewX192
+    link: |
+      https://groups.google.com/d/msg/qubes-users/Ol6v6xSla4Y/vFgIHeObF-8J
 
 ---
 

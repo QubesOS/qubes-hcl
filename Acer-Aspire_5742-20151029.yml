@@ -38,19 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.18.17-5
-  remark: |
+  - works:
+      'partial'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.18.17-5
+    remark: |
 
-  credit: |
-    Wladimir van der Laan
-  link: |
-    https://groups.google.com/d/msg/qubes-users/PQS80xHaNfE/Rz9tzqpBDgAJ
+    credit: |
+      Wladimir van der Laan
+    link: |
+      https://groups.google.com/d/msg/qubes-users/PQS80xHaNfE/Rz9tzqpBDgAJ
 
 ---

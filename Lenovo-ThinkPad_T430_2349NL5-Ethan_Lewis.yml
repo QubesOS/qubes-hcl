@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.23-1
-  remark: |
-    If VT-d is not working, disable it, save, reboot, shutdown, enable it, save, reboot
-  credit: |
-    Ethan Lewis
-  link: |
-    https://groups.google.com/d/msg/qubes-users/suzkdQ0pnX0/qYtGzY6KHvEJ
+  - works:
+      'yes'
+    qubes: |
+      R2
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.23-1
+    remark: |
+      If VT-d is not working, disable it, save, reboot, shutdown, enable it, save, reboot
+    credit: |
+      Ethan Lewis
+    link: |
+      https://groups.google.com/d/msg/qubes-users/suzkdQ0pnX0/qYtGzY6KHvEJ
 
 ---
 

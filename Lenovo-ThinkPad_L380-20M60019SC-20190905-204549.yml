@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-7.fc25
-  kernel: |
-    4.14.119-2
-  remark: |
-    Video, network, sleep, sound, bluetooth working.
-  credit: |
-    gluonium
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/Lo2-PWM--B-1%40tutanota.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-7.fc25
+    kernel: |
+      4.14.119-2
+    remark: |
+      Video, network, sleep, sound, bluetooth working.
+    credit: |
+      gluonium
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/Lo2-PWM--B-1%40tutanota.com
 
 ---
 

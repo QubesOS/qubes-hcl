@@ -39,20 +39,20 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    Works, but no IOMMU or TPM
-  credit: |
-    Joe Thielen
-  link: |
-    https://groups.google.com/d/msg/qubes-users/8a2SCwRXcbk/hqGuwwukCwAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      Works, but no IOMMU or TPM
+    credit: |
+      Joe Thielen
+    link: |
+      https://groups.google.com/d/msg/qubes-users/8a2SCwRXcbk/hqGuwwukCwAJ
 
 ---
 

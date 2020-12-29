@@ -42,20 +42,20 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.45-21
-  remark: |
-    Touchscreen not working.
-  credit: |
-    caio.volpato
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/dc9d2631-9127-c5b8-2d29-64064b029718%40riseup.net
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.45-21
+    remark: |
+      Touchscreen not working.
+    credit: |
+      caio.volpato
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/dc9d2631-9127-c5b8-2d29-64064b029718%40riseup.net
 
 ---
 

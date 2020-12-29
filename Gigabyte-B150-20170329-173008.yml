@@ -38,20 +38,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.4
-  kernel: |
-    4.4.38-11
-  remark: |
-    Installer workarounds, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/QeLnxUojDmA/9GEuWtAcAgAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Joe Thielen
-  link: |
-    https://groups.google.com/d/msg/qubes-users/QeLnxUojDmA/9GEuWtAcAgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.4
+    kernel: |
+      4.4.38-11
+    remark: |
+      Installer workarounds, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/QeLnxUojDmA/9GEuWtAcAgAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Joe Thielen
+    link: |
+      https://groups.google.com/d/msg/qubes-users/QeLnxUojDmA/9GEuWtAcAgAJ
 
 ---
 

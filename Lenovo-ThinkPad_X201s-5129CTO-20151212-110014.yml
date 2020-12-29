@@ -37,20 +37,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.19.8-100
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.19.8-100
+    remark: |
 
-  credit: |
-    James Hanson
-  link: |
-    https://groups.google.com/d/msg/qubes-users/UOtFo2hVSf8/dp6A5nPYBQAJ
+    credit: |
+      James Hanson
+    link: |
+      https://groups.google.com/d/msg/qubes-users/UOtFo2hVSf8/dp6A5nPYBQAJ
 
 ---
 

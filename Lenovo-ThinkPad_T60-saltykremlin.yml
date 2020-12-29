@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'no'
-  qubes: |
-    R2rc2
-  xen: |
+  - works:
+      'no'
+    qubes: |
+      R2rc2
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
-    Does not install
-  credit: |
-    saltykremlin
-  link: |
-    https://groups.google.com/d/msg/qubes-users/cpIE1ybuwoA/HDriMPH0vGcJ
+    remark: |
+      Does not install
+    credit: |
+      saltykremlin
+    link: |
+      https://groups.google.com/d/msg/qubes-users/cpIE1ybuwoA/HDriMPH0vGcJ
 
 ---
 

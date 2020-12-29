@@ -37,20 +37,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Booting from USB flash drive requires workarounds, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/6sk9gXAiMM4/rB_pdhOjBQAJ'><span class='icon'></span>read more</a>
-  credit: |
-    David Hobach
-  link: |
-    https://groups.google.com/d/msg/qubes-users/6sk9gXAiMM4/rB_pdhOjBQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Booting from USB flash drive requires workarounds, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/6sk9gXAiMM4/rB_pdhOjBQAJ'><span class='icon'></span>read more</a>
+    credit: |
+      David Hobach
+    link: |
+      https://groups.google.com/d/msg/qubes-users/6sk9gXAiMM4/rB_pdhOjBQAJ
 
 ---
 

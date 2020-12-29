@@ -43,20 +43,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.103-1
-  remark: |
-    No issues.
-  credit: |
-    wintermute
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/MdaS6kd96c000nTDIKnCHV2pTv4E_BlKF4G_10fIDt7I61BRZUmrFQ6DaPJXJElj_EK-HTUoBS-ipEzK7JjSY-c0I5iQxkNdpYuNg88ckbo%3D%40protonmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.103-1
+    remark: |
+      No issues.
+    credit: |
+      wintermute
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/MdaS6kd96c000nTDIKnCHV2pTv4E_BlKF4G_10fIDt7I61BRZUmrFQ6DaPJXJElj_EK-HTUoBS-ipEzK7JjSY-c0I5iQxkNdpYuNg88ckbo%3D%40protonmail.com
 
 ---
 

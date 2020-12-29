@@ -42,19 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    yes
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    Installed on NVMe SSD disc (Samsung SSD 960 EVO 1TB)
-  credit: |
-    Yannic Schneider
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/DB6P190MB047173962FB095472A0DD700B4590%40DB6P190MB0471.EURP190.PROD.OUTLOOK.COM
+  - works:
+      yes
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+      Installed on NVMe SSD disc (Samsung SSD 960 EVO 1TB)
+    credit: |
+      Yannic Schneider
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/DB6P190MB047173962FB095472A0DD700B4590%40DB6P190MB0471.EURP190.PROD.OUTLOOK.COM
 
 ---

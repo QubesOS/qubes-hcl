@@ -41,20 +41,20 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-14.fc25
-  kernel: |
-    4.19.94-1
-  remark: |
-    works good; Legacy mode installation; only suspend is not working; USB Qube not tested
-  credit: |
-    Stefan Taubert
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/caa18235-cecd-64c7-f989-5bf4661f59c8%40posteo.de
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.94-1
+    remark: |
+      works good; Legacy mode installation; only suspend is not working; USB Qube not tested
+    credit: |
+      Stefan Taubert
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/caa18235-cecd-64c7-f989-5bf4661f59c8%40posteo.de
 
 ---
 

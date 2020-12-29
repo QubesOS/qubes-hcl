@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2B1
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
+    remark: |
 
-  credit: |
-    George Walker
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/4IrF1A6sa3U/QIQe-dNc4tEJ
+    credit: |
+      George Walker
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/4IrF1A6sa3U/QIQe-dNc4tEJ
 
 ---
 

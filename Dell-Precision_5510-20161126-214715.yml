@@ -38,20 +38,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.14-11
-  remark: |
-    Had to disable UEFI and use Legacy mode. Also disable wake-on-USB in BIOS, otherwise suspend does not work.
-  credit: |
-    Tomas Vondra
-  link: |
-    https://groups.google.com/d/msg/qubes-users/FwfGJMauNdc/lBpWMvvZCgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.14-11
+    remark: |
+      Had to disable UEFI and use Legacy mode. Also disable wake-on-USB in BIOS, otherwise suspend does not work.
+    credit: |
+      Tomas Vondra
+    link: |
+      https://groups.google.com/d/msg/qubes-users/FwfGJMauNdc/lBpWMvvZCgAJ
 
 ---
 

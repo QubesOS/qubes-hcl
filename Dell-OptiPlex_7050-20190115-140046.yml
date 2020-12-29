@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
 
-  credit: |
-    Arthur Roland
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/287642781.5771394.1547557530692.JavaMail.zimbra%40univ-lille.fr
+    credit: |
+      Arthur Roland
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/287642781.5771394.1547557530692.JavaMail.zimbra%40univ-lille.fr
 
 ---
 

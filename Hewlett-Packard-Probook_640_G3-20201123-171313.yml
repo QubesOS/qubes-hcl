@@ -43,20 +43,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-25.fc25
-  kernel: |
-    4.19.155-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-25.fc25
+    kernel: |
+      4.19.155-1
+    remark: |
 
-  credit: |
-    Effie ML
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/4115888f-1917-b57c-1bf2-85b2373ace84%40encryptionin.space
+    credit: |
+      Effie ML
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/4115888f-1917-b57c-1bf2-85b2373ace84%40encryptionin.space
 
 ---
 

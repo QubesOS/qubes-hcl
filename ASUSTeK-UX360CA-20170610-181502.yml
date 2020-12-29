@@ -39,20 +39,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Occasional momentary performance / freezing / connectivity issues, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/qsbgh0Z3yHU/IdqAbLu3BAAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Jordan Foote
-  link: |
-    https://groups.google.com/d/msg/qubes-users/qsbgh0Z3yHU/IdqAbLu3BAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Occasional momentary performance / freezing / connectivity issues, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/qsbgh0Z3yHU/IdqAbLu3BAAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Jordan Foote
+    link: |
+      https://groups.google.com/d/msg/qubes-users/qsbgh0Z3yHU/IdqAbLu3BAAJ
 
 ---
 

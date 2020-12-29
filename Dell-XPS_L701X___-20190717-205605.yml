@@ -44,20 +44,20 @@ usb: |
   3
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-7.fc25
-  kernel: |
-    4.14.119-2
-  remark: |
-    No IOMMU or remap support
-  credit: |
-    skylord
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/656296140.270534252.1563399091761.JavaMail.zimbra%40telenet.be
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-7.fc25
+    kernel: |
+      4.14.119-2
+    remark: |
+      No IOMMU or remap support
+    credit: |
+      skylord
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/656296140.270534252.1563399091761.JavaMail.zimbra%40telenet.be
 
 ---
 

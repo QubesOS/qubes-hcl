@@ -41,20 +41,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.4.62-12
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.4.62-12
+    remark: |
 
-  credit: |
-    Dominique St-Pierre Boucher
-  link: |
-    https://groups.google.com/d/msg/qubes-users/vZQawMlQ46k/7OGF50VVBgAJ
+    credit: |
+      Dominique St-Pierre Boucher
+    link: |
+      https://groups.google.com/d/msg/qubes-users/vZQawMlQ46k/7OGF50VVBgAJ
 
 ---
 

@@ -36,65 +36,64 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R1
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
+    remark: |
 
-  credit: |
-    Qubes core developers
-  link: |
-
-
-- works:
-    'yes'
-  qubes: |
-    R2B1
-  xen: |
-
-  kernel: |
-
-  remark: |
-    AEM works
-  credit: |
-    Qubes core developers
-  link: |
+    credit: |
+      Qubes core developers
+    link: |
 
 
-- works:
-    'yes'
-  qubes: |
-    R2B2
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
-    Requires kernel 3.2.30 to support S3 sleep (the default kernel S3 sleep causes system reboot)
-  credit: |
-    Qubes core developers
-  link: |
+    remark: |
+      AEM works
+    credit: |
+      Qubes core developers
+    link: |
 
 
-- works:
-    'yes'
-  qubes: |
-    R2B3
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B2
+    xen: |
 
-  kernel: |
-    3.11
-  remark: |
+    kernel: |
 
-  credit: |
-    Qubes core developers
-  link: |
+    remark: |
+      Requires kernel 3.2.30 to support S3 sleep (the default kernel S3 sleep causes system reboot)
+    credit: |
+      Qubes core developers
+    link: |
 
+
+  - works:
+      'yes'
+    qubes: |
+      R2B3
+    xen: |
+
+    kernel: |
+      3.11
+    remark: |
+
+    credit: |
+      Qubes core developers
+    link: |
 
 ---
 

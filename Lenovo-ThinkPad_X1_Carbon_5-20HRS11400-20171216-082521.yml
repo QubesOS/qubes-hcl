@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.2
-  kernel: |
-    4.14.6-1
-  remark: |
-    Legacy mode for install, upgraded kernel, sleep and touchpad need config, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/20171216005409.GH1935%40mail-itl'><span class='icon'></span>read more</a>
-  credit: |
-    marmarek (Qubes core developer)
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/20171216005409.GH1935%40mail-itl
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.2
+    kernel: |
+      4.14.6-1
+    remark: |
+      Legacy mode for install, upgraded kernel, sleep and touchpad need config, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/20171216005409.GH1935%40mail-itl'><span class='icon'></span>read more</a>
+    credit: |
+      marmarek (Qubes core developer)
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/20171216005409.GH1935%40mail-itl
 
 ---
 

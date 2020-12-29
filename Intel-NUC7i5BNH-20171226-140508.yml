@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.2
-  kernel: |
-    4.9.56-21
-  remark: |
-    Wifi fails after sleep
-  credit: |
-    Eric Scoles
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAE7XU-biEhONt0Nzat%3DOCRzL5eq%3DB0pavDnYr1e2Jd9RkuUQFQ%40mail.gmail.com
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.2
+    kernel: |
+      4.9.56-21
+    remark: |
+      Wifi fails after sleep
+    credit: |
+      Eric Scoles
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAE7XU-biEhONt0Nzat%3DOCRzL5eq%3DB0pavDnYr1e2Jd9RkuUQFQ%40mail.gmail.com
 
 ---
 

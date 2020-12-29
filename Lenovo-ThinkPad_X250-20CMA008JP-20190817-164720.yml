@@ -42,20 +42,20 @@ usb: |
   2
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    Had to tweak xen.cfg, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/0cca9584-c9b5-8cf8-86a1-0303a233bbf1%40gmail.com'><span class='icon'></span>read more</a>.
-  credit: |
-    YamagataHiroo
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/0cca9584-c9b5-8cf8-86a1-0303a233bbf1%40gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      Had to tweak xen.cfg, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/0cca9584-c9b5-8cf8-86a1-0303a233bbf1%40gmail.com'><span class='icon'></span>read more</a>.
+    credit: |
+      YamagataHiroo
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/0cca9584-c9b5-8cf8-86a1-0303a233bbf1%40gmail.com
 
 ---
 

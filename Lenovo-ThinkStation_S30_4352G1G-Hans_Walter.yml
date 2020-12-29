@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R2rc1
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.14-4
-  remark: |
-    Issue with sound, network and marvel raid. AEM untested.
-  credit: |
-    Hans Walter
-  link: |
-    https://groups.google.com/d/msg/qubes-users/EDxALP9GNFo/gAH7nZXd0CkJ
+  - works:
+      'partial'
+    qubes: |
+      R2rc1
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.14-4
+    remark: |
+      Issue with sound, network and marvel raid. AEM untested.
+    credit: |
+      Hans Walter
+    link: |
+      https://groups.google.com/d/msg/qubes-users/EDxALP9GNFo/gAH7nZXd0CkJ
 
 ---
 

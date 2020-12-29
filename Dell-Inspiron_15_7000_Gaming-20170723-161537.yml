@@ -44,20 +44,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.8.12-12
-  remark: |
-    Upgraded Wifi needs reset after wake from sleep.
-  credit: |
-    Christopher Cameron
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/cc9684bb-f934-4ca3-82b2-fc70b24b965b%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.8.12-12
+    remark: |
+      Upgraded Wifi needs reset after wake from sleep.
+    credit: |
+      Christopher Cameron
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/cc9684bb-f934-4ca3-82b2-fc70b24b965b%40googlegroups.com
 
 ---
 

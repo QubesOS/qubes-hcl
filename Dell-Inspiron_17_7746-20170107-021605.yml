@@ -40,20 +40,20 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.31-11
-  remark: |
-    Network VM workaround, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/mfeIZCINJuA/aB8RVVdVBQAJ'><span class='icon'></span>read more</a>
-  credit: |
-    LXK
-  link: |
-    https://groups.google.com/d/msg/qubes-users/mfeIZCINJuA/aB8RVVdVBQAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.31-11
+    remark: |
+      Network VM workaround, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/mfeIZCINJuA/aB8RVVdVBQAJ'><span class='icon'></span>read more</a>
+    credit: |
+      LXK
+    link: |
+      https://groups.google.com/d/msg/qubes-users/mfeIZCINJuA/aB8RVVdVBQAJ
 
 ---
 

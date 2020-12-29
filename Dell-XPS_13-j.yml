@@ -36,50 +36,50 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R1
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
+    remark: |
 
-  credit: |
-    j
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/7JumqdldVJM/n9TiDVxc2jkJ
+    credit: |
+      j
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/7JumqdldVJM/n9TiDVxc2jkJ
 
-- works:
-    'yes'
-  qubes: |
-    R2B1
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
-    <a class="ext-link" href="https://groups.google.com/d/msg/qubes-devel/7JumqdldVJM/n9TiDVxc2jkJ"><span class="icon">read more</span></a>
-  credit: |
-    j
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/7JumqdldVJM/n9TiDVxc2jkJ
+    remark: |
+      <a class="ext-link" href="https://groups.google.com/d/msg/qubes-devel/7JumqdldVJM/n9TiDVxc2jkJ"><span class="icon">read more</span></a>
+    credit: |
+      j
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/7JumqdldVJM/n9TiDVxc2jkJ
 
-- works:
-    'yes'
-  qubes: |
-    R2B2
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B2
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/jamRkZJDC0g/KTniY0Y3dioJ'><span class='icon'></span>read more</a>
-  credit: |
-    j
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/7JumqdldVJM/n9TiDVxc2jkJ
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/jamRkZJDC0g/KTniY0Y3dioJ'><span class='icon'></span>read more</a>
+    credit: |
+      j
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/7JumqdldVJM/n9TiDVxc2jkJ
 
 ---
 

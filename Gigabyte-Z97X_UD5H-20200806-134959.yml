@@ -48,20 +48,20 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-19.fc25
-  kernel: |
-    4.19.132-1
-  remark: |
-    TPM module will need to be installed before TPM function can be enabled
-  credit: |
-    William Distelhorst
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CA%2BeZGO0druUFgTHaCyPB2n9tHVM8Uh8-4fVUy0nm7CL9gFTq6A%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-19.fc25
+    kernel: |
+      4.19.132-1
+    remark: |
+      TPM module will need to be installed before TPM function can be enabled
+    credit: |
+      William Distelhorst
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CA%2BeZGO0druUFgTHaCyPB2n9tHVM8Uh8-4fVUy0nm7CL9gFTq6A%40mail.gmail.com
 
 ---
 

@@ -38,20 +38,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-7
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-7
+    remark: |
 
-  credit: |
-    Mike Hendon
-  link: |
-    https://groups.google.com/d/msg/qubes-users/EDCOwqcHQs8/jqLUihttDQAJ
+    credit: |
+      Mike Hendon
+    link: |
+      https://groups.google.com/d/msg/qubes-users/EDCOwqcHQs8/jqLUihttDQAJ
 
 ---
 

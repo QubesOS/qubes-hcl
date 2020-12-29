@@ -46,20 +46,20 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.4.62-12
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.4.62-12
+    remark: |
 
-  credit: |
-    Gaiko Kyofusho
-  link: |
-    https://groups.google.com/d/msg/qubes-users/HNcc079X0oM/zrbdJWZ0CgAJ
+    credit: |
+      Gaiko Kyofusho
+    link: |
+      https://groups.google.com/d/msg/qubes-users/HNcc079X0oM/zrbdJWZ0CgAJ
 
 ---
 

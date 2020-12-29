@@ -36,19 +36,19 @@ scsi: |
 
 versions:
 
-- works:
-    ''
-  qubes: |
+  - works:
+      ''
+    qubes: |
 
-  xen: |
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
-    IOMMU not tested with Qubes, VT-d option in BIOS according to <a class='ext-link' href=http://download.gigabyte.eu/FileList/Manual/mb-manual_ga-x79s-up5_e.pdf><span class='icon'></span>manual</a>, TPM header
-  credit: |
-    none
-  link: |
+    remark: |
+      IOMMU not tested with Qubes, VT-d option in BIOS according to <a class='ext-link' href=http://download.gigabyte.eu/FileList/Manual/mb-manual_ga-x79s-up5_e.pdf><span class='icon'></span>manual</a>, TPM header
+    credit: |
+      none
+    link: |
 
 
 ---

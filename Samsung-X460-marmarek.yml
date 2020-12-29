@@ -36,50 +36,50 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R1
-  xen: |
+  - works:
+      'partial'
+    qubes: |
+      R1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
+    remark: |
 
-  credit: |
-    Qubes core developers
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
+    credit: |
+      Qubes core developers
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
 
-- works:
-    'partial'
-  qubes: |
-    R2B1
-  xen: |
+  - works:
+      'partial'
+    qubes: |
+      R2B1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
+    remark: |
 
-  credit: |
-    Qubes core developers
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
+    credit: |
+      Qubes core developers
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
 
-- works:
-    'yes'
-  qubes: |
-    R2B3
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B3
+    xen: |
 
-  kernel: |
-    3.11.1-2
-  remark: |
+    kernel: |
+      3.11.1-2
+    remark: |
 
-  credit: |
-    marmarek (Qubes core developer)
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
+    credit: |
+      marmarek (Qubes core developer)
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
 
 ---
 

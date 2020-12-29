@@ -36,65 +36,65 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R1
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
+    remark: |
 
-  credit: |
-    Zrubi
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
+    credit: |
+      Zrubi
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
 
-- works:
-    'yes'
-  qubes: |
-    R2B1
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
+    remark: |
 
-  credit: |
-    Zrubi
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
+    credit: |
+      Zrubi
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
 
-- works:
-    'partial'
-  qubes: |
-    R2B2
-  xen: |
+  - works:
+      'partial'
+    qubes: |
+      R2B2
+    xen: |
 
-  kernel: |
-    3.7.4
-  remark: |
-    needs kernel downgrade to 3.7.4
-  credit: |
-    Zrubi
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
+    kernel: |
+      3.7.4
+    remark: |
+      needs kernel downgrade to 3.7.4
+    credit: |
+      Zrubi
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
 
-- works:
-    'partial'
-  qubes: |
-    R2B3
-  xen: |
+  - works:
+      'partial'
+    qubes: |
+      R2B3
+    xen: |
 
-  kernel: |
-    3.7.4
-  remark: |
+    kernel: |
+      3.7.4
+    remark: |
 
-  credit: |
-    Zrubi
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
+    credit: |
+      Zrubi
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
 
 ---
 

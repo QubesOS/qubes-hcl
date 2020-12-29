@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.45-21
-  remark: |
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.45-21
+    remark: |
 
-  credit: |
-    Hammerhead8599
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/9s6nPMNIsuEYIa9iXRxRAmCWfvltXApvfJoCVDnn9HDoMqSuzXQ0SKSAKydlqs5WFIYF9WkFKrngWbSyTLOXJzpkySxed07EnvU7Y3otZcs%3D%40protonmail.com
+    credit: |
+      Hammerhead8599
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/9s6nPMNIsuEYIa9iXRxRAmCWfvltXApvfJoCVDnn9HDoMqSuzXQ0SKSAKydlqs5WFIYF9WkFKrngWbSyTLOXJzpkySxed07EnvU7Y3otZcs%3D%40protonmail.com
 
 ---
 

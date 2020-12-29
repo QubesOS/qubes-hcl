@@ -42,20 +42,20 @@ usb: |
   2
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/6afa0362-5d12-79e0-3f61-57162ea14a59%40zrubi.hu'><span class='icon'></span>Used workarounds</a> for various issues.
-  credit: |
-    Zrubi
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/6afa0362-5d12-79e0-3f61-57162ea14a59%40zrubi.hu
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/6afa0362-5d12-79e0-3f61-57162ea14a59%40zrubi.hu'><span class='icon'></span>Used workarounds</a> for various issues.
+    credit: |
+      Zrubi
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/6afa0362-5d12-79e0-3f61-57162ea14a59%40zrubi.hu
 
 ---
 

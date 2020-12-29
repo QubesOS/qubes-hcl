@@ -42,20 +42,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.10-9
-  remark: |
-    Extensive GPU passthrough notes, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/zHmaZ3dbus8/rWll-ywQCAAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Marcus at WetwareLabs
-  link: |
-    https://groups.google.com/d/msg/qubes-users/zHmaZ3dbus8/rWll-ywQCAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.10-9
+    remark: |
+      Extensive GPU passthrough notes, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/zHmaZ3dbus8/rWll-ywQCAAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Marcus at WetwareLabs
+    link: |
+      https://groups.google.com/d/msg/qubes-users/zHmaZ3dbus8/rWll-ywQCAAJ
 
 ---
 

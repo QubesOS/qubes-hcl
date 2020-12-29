@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0.1
-  xen: |
-    4.8.4
-  kernel: |
-    4.19.12-3
-  remark: |
-    Suspend not working; <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/z51dkaEOiqc/wNhQ_86NGQAJ'><span class='icon'></span>See notes</a> for how to install.
-  credit: |
-    eduncan911
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/019643de-e1f5-4c22-9eeb-de505c3ac15f%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0.1
+    xen: |
+      4.8.4
+    kernel: |
+      4.19.12-3
+    remark: |
+      Suspend not working; <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/z51dkaEOiqc/wNhQ_86NGQAJ'><span class='icon'></span>See notes</a> for how to install.
+    credit: |
+      eduncan911
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/019643de-e1f5-4c22-9eeb-de505c3ac15f%40googlegroups.com
 
 ---
 

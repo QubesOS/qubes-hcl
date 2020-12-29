@@ -39,20 +39,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.4
-  kernel: |
-    4.4.38-11
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.4
+    kernel: |
+      4.4.38-11
+    remark: |
 
-  credit: |
-    Sam Hentschel
-  link: |
-    https://groups.google.com/d/msg/qubes-users/j3_69IOgNr0/fEUnq-YOAgAJ
+    credit: |
+      Sam Hentschel
+    link: |
+      https://groups.google.com/d/msg/qubes-users/j3_69IOgNr0/fEUnq-YOAgAJ
 
 ---
 

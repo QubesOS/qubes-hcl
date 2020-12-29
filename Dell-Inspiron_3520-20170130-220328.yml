@@ -40,20 +40,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.38-11
-  remark: |
-    Wifi works after replacing with Intel 2230 card
-  credit: |
-    Christopher Miller
-  link: |
-    https://groups.google.com/d/msg/qubes-users/488siyPpDgs/v34EecFcDQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.38-11
+    remark: |
+      Wifi works after replacing with Intel 2230 card
+    credit: |
+      Christopher Miller
+    link: |
+      https://groups.google.com/d/msg/qubes-users/488siyPpDgs/v34EecFcDQAJ
 
 ---
 

@@ -41,20 +41,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-25.fc25
-  kernel: |
-    4.19.152-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-25.fc25
+    kernel: |
+      4.19.152-1
+    remark: |
 
-  credit: |
-    Masanori Ogino
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAA-4%2BjeJue%3DEru3DX1VcbAAxV%2BJTzEAzb-05mSVqxKgUtYEAog%40mail.gmail.com
+    credit: |
+      Masanori Ogino
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAA-4%2BjeJue%3DEru3DX1VcbAAxV%2BJTzEAzb-05mSVqxKgUtYEAog%40mail.gmail.com
 
 ---
 

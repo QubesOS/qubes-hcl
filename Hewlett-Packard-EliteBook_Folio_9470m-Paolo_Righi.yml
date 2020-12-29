@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.23-1
-  remark: |
-    no access to BIOS on this machine
-  credit: |
-    Paolo Righi
-  link: |
-    https://groups.google.com/d/msg/qubes-users/iup1MmBFx8Q/hCCAOVwrB2kJ
+  - works:
+      'yes'
+    qubes: |
+      R2
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.23-1
+    remark: |
+      no access to BIOS on this machine
+    credit: |
+      Paolo Righi
+    link: |
+      https://groups.google.com/d/msg/qubes-users/iup1MmBFx8Q/hCCAOVwrB2kJ
 
 ---
 

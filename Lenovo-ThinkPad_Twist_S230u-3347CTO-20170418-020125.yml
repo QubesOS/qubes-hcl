@@ -39,21 +39,21 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-    4.9.29-17
-  remark: |
-    Remove Broadcom chip for install. Keyboard and touchpad issues with kernel 4.4, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/EmVzuqlcndU/xm9xzGKfBQAJ'><span class='icon'></span>read more</a>
-  credit: |
-    wordswithnemo
-  link: |
-    https://groups.google.com/d/msg/qubes-users/EmVzuqlcndU/xm9xzGKfBQAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+      4.9.29-17
+    remark: |
+      Remove Broadcom chip for install. Keyboard and touchpad issues with kernel 4.4, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/EmVzuqlcndU/xm9xzGKfBQAJ'><span class='icon'></span>read more</a>
+    credit: |
+      wordswithnemo
+    link: |
+      https://groups.google.com/d/msg/qubes-users/EmVzuqlcndU/xm9xzGKfBQAJ
 
 ---
 

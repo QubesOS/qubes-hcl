@@ -43,20 +43,20 @@ usb: |
   3
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.56-21
-  remark: |
-    Camera does not work.
-  credit: |
-    readjust
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/cd959dd7-aada-bc48-c3d4-30cb70146c2b%40riseup.net
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.56-21
+    remark: |
+      Camera does not work.
+    credit: |
+      readjust
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/cd959dd7-aada-bc48-c3d4-30cb70146c2b%40riseup.net
 
 ---
 

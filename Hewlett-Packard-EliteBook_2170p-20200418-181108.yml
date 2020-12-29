@@ -42,35 +42,35 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2rc2
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.23-1
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/q5M9KbPatEA/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    Dimiter Georgiev
-  link: |
-    https://groups.google.com/d/msg/qubes-users/q5M9KbPatEA/fXIZ-yvJVA8J
+  - works:
+      'yes'
+    qubes: |
+      R2rc2
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.23-1
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/q5M9KbPatEA/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      Dimiter Georgiev
+    link: |
+      https://groups.google.com/d/msg/qubes-users/q5M9KbPatEA/fXIZ-yvJVA8J
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-7.fc25
-  kernel: |
-    4.14.119-2
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-7.fc25
+    kernel: |
+      4.14.119-2
+    remark: |
 
-  credit: |
-    Dimiter Georgiev
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/617800411.1937762.1587259472779%40mail.yahoo.com
+    credit: |
+      Dimiter Georgiev
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/617800411.1937762.1587259472779%40mail.yahoo.com
 
 ---
 

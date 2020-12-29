@@ -44,20 +44,20 @@ usb: |
   4
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-6.fc25
-  kernel: |
-    4.14.119-2
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-6.fc25
+    kernel: |
+      4.14.119-2
+    remark: |
 
-  credit: |
-    Josh McNattin
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/821033233.42841.1562034377885%40ichabod.co-bxl
+    credit: |
+      Josh McNattin
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/821033233.42841.1562034377885%40ichabod.co-bxl
 
 ---
 

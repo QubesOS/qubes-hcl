@@ -43,20 +43,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.1
-  kernel: |
-    4.9.35-19
-  remark: |
-    Needed boot workaround "iommu=no-igfx", <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/15e362d8583.ed83fbbc109675.7793274384461679328%40dansage.co'><span class='icon'></span>read more</a>
-  credit: |
-    Daniel Sage
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/15e362d8583.ed83fbbc109675.7793274384461679328%40dansage.co
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.1
+    kernel: |
+      4.9.35-19
+    remark: |
+      Needed boot workaround "iommu=no-igfx", <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/15e362d8583.ed83fbbc109675.7793274384461679328%40dansage.co'><span class='icon'></span>read more</a>
+    credit: |
+      Daniel Sage
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/15e362d8583.ed83fbbc109675.7793274384461679328%40dansage.co
 
 ---
 

@@ -43,20 +43,20 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.35-20
-  remark: |
-    Required workaround for sys-net, <a class='ext-link' href='http://github.com/QubesOS/qubes-issues/issues/1393'><span class='icon'></span>read more</a>
-  credit: |
-    Pedro Rodríguez de Oliveira
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAD6w55bfF4KkzQXqzf_UwDRZo81AHBVOU3XN5rzCE73OXO%2B1_w%40mail.gmail.com?utm_medium=email&utm_source=footer
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.35-20
+    remark: |
+      Required workaround for sys-net, <a class='ext-link' href='http://github.com/QubesOS/qubes-issues/issues/1393'><span class='icon'></span>read more</a>
+    credit: |
+      Pedro Rodríguez de Oliveira
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAD6w55bfF4KkzQXqzf_UwDRZo81AHBVOU3XN5rzCE73OXO%2B1_w%40mail.gmail.com?utm_medium=email&utm_source=footer
 
 ---
 

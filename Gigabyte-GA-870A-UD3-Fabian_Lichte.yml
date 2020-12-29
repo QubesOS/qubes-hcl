@@ -36,35 +36,35 @@ scsi: |
 
 versions:
 
-- works:
-    'no'
-  qubes: |
-    R2B2
-  xen: |
+  - works:
+      'no'
+    qubes: |
+      R2B2
+    xen: |
 
-  kernel: |
-    3.11.1-2
-  remark: |
+    kernel: |
+      3.11.1-2
+    remark: |
 
-  credit: |
-    Fabian Lichte
-  link: |
-    https://groups.google.com/d/msg/qubes-users/S4Ju0zDM2mI/Q4GZ4S2txdMJ
+    credit: |
+      Fabian Lichte
+    link: |
+      https://groups.google.com/d/msg/qubes-users/S4Ju0zDM2mI/Q4GZ4S2txdMJ
 
-- works:
-    'yes'
-  qubes: |
-    R2rc1
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.14-4
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R2rc1
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.14-4
+    remark: |
 
-  credit: |
-    Fabian Lichte
-  link: |
-    https://groups.google.com/d/msg/qubes-users/S4Ju0zDM2mI/Q4GZ4S2txdMJ
+    credit: |
+      Fabian Lichte
+    link: |
+      https://groups.google.com/d/msg/qubes-users/S4Ju0zDM2mI/Q4GZ4S2txdMJ
 
 ---
 

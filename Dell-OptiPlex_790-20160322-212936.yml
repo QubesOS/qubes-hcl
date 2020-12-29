@@ -37,20 +37,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/QJezEaWdJ0U/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    anonydude
-  link: |
-    https://groups.google.com/d/msg/qubes-users/QJezEaWdJ0U/zlmRL-k0BwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/QJezEaWdJ0U/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      anonydude
+    link: |
+      https://groups.google.com/d/msg/qubes-users/QJezEaWdJ0U/zlmRL-k0BwAJ
 
 ---
 

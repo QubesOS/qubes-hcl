@@ -43,20 +43,20 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    Audio not working
-  credit: |
-    Shahin Azad
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/b4f46aba-6ce5-44a7-9233-9b7ff7f92cfb%40googlegroups.com
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      Audio not working
+    credit: |
+      Shahin Azad
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/b4f46aba-6ce5-44a7-9233-9b7ff7f92cfb%40googlegroups.com
 
 ---
 

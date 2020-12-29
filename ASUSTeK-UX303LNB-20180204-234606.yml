@@ -41,20 +41,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.13-2
-  remark: |
-    no major problems
-  credit: |
-    rob_66
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/p583tu%24ng6%241%40blaine.gmane.org
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.13-2
+    remark: |
+      no major problems
+    credit: |
+      rob_66
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/p583tu%24ng6%241%40blaine.gmane.org
 
 ---
 

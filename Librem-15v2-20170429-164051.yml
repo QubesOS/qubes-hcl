@@ -38,20 +38,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.4
-  kernel: |
-    4.4.55-11
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.4
+    kernel: |
+      4.4.55-11
+    remark: |
 
-  credit: |
-    Henrik Lund Kramshøj
-  link: |
-    https://groups.google.com/d/msg/qubes-users/Ba2w8k4zzoA/T8igOLgZCQAJ
+    credit: |
+      Henrik Lund Kramshøj
+    link: |
+      https://groups.google.com/d/msg/qubes-users/Ba2w8k4zzoA/T8igOLgZCQAJ
 
 ---
 

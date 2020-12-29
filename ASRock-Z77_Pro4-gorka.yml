@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2B2
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B2
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/lycnE-LcJBo/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    gorka
-  link: |
-    https://groups.google.com/d/msg/qubes-users/lycnE-LcJBo/0u10xl7AMrIJ
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/lycnE-LcJBo/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      gorka
+    link: |
+      https://groups.google.com/d/msg/qubes-users/lycnE-LcJBo/0u10xl7AMrIJ
 
 ---
 

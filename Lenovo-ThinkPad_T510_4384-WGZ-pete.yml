@@ -36,35 +36,35 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2B3
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B3
+    xen: |
 
-  kernel: |
-    3.9.2-2
-  remark: |
+    kernel: |
+      3.9.2-2
+    remark: |
 
-  credit: |
-    pete
-  link: |
-    https://groups.google.com/d/msg/qubes-users/UP9BK_yn-Pk/DR6PBVF4GlgJ
+    credit: |
+      pete
+    link: |
+      https://groups.google.com/d/msg/qubes-users/UP9BK_yn-Pk/DR6PBVF4GlgJ
 
-- works:
-    'yes'
-  qubes: |
-    R2rc1
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.9.2-2
-  remark: |
-    Audio is always muted after reboot
-  credit: |
-    pete
-  link: |
-    https://groups.google.com/d/msg/qubes-users/4ASK0cBfMM0/11U7Zx-f7HwJ
+  - works:
+      'yes'
+    qubes: |
+      R2rc1
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.9.2-2
+    remark: |
+      Audio is always muted after reboot
+    credit: |
+      pete
+    link: |
+      https://groups.google.com/d/msg/qubes-users/4ASK0cBfMM0/11U7Zx-f7HwJ
 
 ---
 

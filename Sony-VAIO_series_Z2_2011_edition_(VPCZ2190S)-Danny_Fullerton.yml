@@ -36,37 +36,37 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R1
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/fkC6em-Wqd0J'><span class='icon'></span>read more</a>
-  credit: |
-    Danny Fullerton
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/fkC6em-Wqd0J
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/fkC6em-Wqd0J'><span class='icon'></span>read more</a>
+    credit: |
+      Danny Fullerton
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/fkC6em-Wqd0J
 
-- works:
-    'yes'
-  qubes: |
-    R2B3
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B3
+    xen: |
 
-  kernel: |
-    3.11.1-2
-  bios: |
-    R0170H5
-  remark: |
-    BIOS has to be patched to activate VT-d, external Radeon HD 6700M
-  credit: |
-    Danny Fullerton
-  link: |
-    https://groups.google.com/d/msg/qubes-users/8urk8ZNeblg/jCD2iQyQQZwJ
+    kernel: |
+      3.11.1-2
+    bios: |
+      R0170H5
+    remark: |
+      BIOS has to be patched to activate VT-d, external Radeon HD 6700M
+    credit: |
+      Danny Fullerton
+    link: |
+      https://groups.google.com/d/msg/qubes-users/8urk8ZNeblg/jCD2iQyQQZwJ
 
 ---
 

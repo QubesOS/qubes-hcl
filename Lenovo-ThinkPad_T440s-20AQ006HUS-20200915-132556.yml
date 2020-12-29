@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-14.fc25
-  kernel: |
-    4.19.94-1
-  remark: |
-    requires the black screen workaround
-  credit: |
-    Miguel Paolino
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAL9C7rHBq%2Boa_epWRUvZ9GnfNEmJs9wqyTtvynLKZgWXgH%2BP4Q%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.94-1
+    remark: |
+      requires the black screen workaround
+    credit: |
+      Miguel Paolino
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAL9C7rHBq%2Boa_epWRUvZ9GnfNEmJs9wqyTtvynLKZgWXgH%2BP4Q%40mail.gmail.com
 
 ---
 

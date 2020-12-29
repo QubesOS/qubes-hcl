@@ -36,35 +36,34 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R1
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
+    remark: |
 
-  credit: |
-    Qubes core developers
-  link: |
+    credit: |
+      Qubes core developers
+    link: |
 
 
-- works:
-    'yes'
-  qubes: |
-    R2B1
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
-    AEM works
-  credit: |
-    Qubes core developers
-  link: |
-
+    remark: |
+      AEM works
+    credit: |
+      Qubes core developers
+    link: |
 
 ---
 

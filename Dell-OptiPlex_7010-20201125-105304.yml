@@ -42,20 +42,20 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-25.fc25
-  kernel: |
-    4.19.155-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-25.fc25
+    kernel: |
+      4.19.155-1
+    remark: |
 
-  credit: |
-    Rainer Neumann
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/cb908814-9ccd-a29c-77f4-0a77f1a4fca7%40posteo.de
+    credit: |
+      Rainer Neumann
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/cb908814-9ccd-a29c-77f4-0a77f1a4fca7%40posteo.de
 
 ---
 

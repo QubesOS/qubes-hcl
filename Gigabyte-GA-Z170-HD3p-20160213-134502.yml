@@ -37,20 +37,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    3.19.8-100
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/nsycIBfUj-c/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    James Pinger
-  link: |
-    https://groups.google.com/d/msg/qubes-users/nsycIBfUj-c/39xQ9rqqAQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      3.19.8-100
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/nsycIBfUj-c/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      James Pinger
+    link: |
+      https://groups.google.com/d/msg/qubes-users/nsycIBfUj-c/39xQ9rqqAQAJ
 
 ---
 

@@ -41,20 +41,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.1
-  kernel: |
-    4.9.35-19
-  remark: |
-    The efibootmgr seems to be broken on the R4.0 RC1 ISO. I used the R3.2 version to get it up and running. The Nvidia 965m dGPU is not detected.
-  credit: |
-    Alex Floyd
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/or60db%24740%241%40blaine.gmane.org
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.1
+    kernel: |
+      4.9.35-19
+    remark: |
+      The efibootmgr seems to be broken on the R4.0 RC1 ISO. I used the R3.2 version to get it up and running. The Nvidia 965m dGPU is not detected.
+    credit: |
+      Alex Floyd
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/or60db%24740%241%40blaine.gmane.org
 
 ---
 

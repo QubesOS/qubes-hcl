@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2B1
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R2B1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
+    remark: |
 
-  credit: |
-    Tunguuz
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/S_VG_jgtpBo/VngCPK2W5FcJ
+    credit: |
+      Tunguuz
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/S_VG_jgtpBo/VngCPK2W5FcJ
 
 ---
 

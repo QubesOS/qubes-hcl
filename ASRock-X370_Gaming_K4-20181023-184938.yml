@@ -46,20 +46,20 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.67-1
-  remark: |
-    TPM not working. GPU passthrough notes, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/fb377b96-edd2-0280-aa1d-7644da8483fd%40call-home.ch'><span class='icon'></span>read more</a>
-  credit: |
-    Bjoern Christoph
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/fb377b96-edd2-0280-aa1d-7644da8483fd%40call-home.ch
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.67-1
+    remark: |
+      TPM not working. GPU passthrough notes, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/fb377b96-edd2-0280-aa1d-7644da8483fd%40call-home.ch'><span class='icon'></span>read more</a>
+    credit: |
+      Bjoern Christoph
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/fb377b96-edd2-0280-aa1d-7644da8483fd%40call-home.ch
 
 ---
 

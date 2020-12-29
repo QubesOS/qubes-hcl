@@ -41,19 +41,19 @@ usb: |
   4
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-25.fc25
-  kernel: |
-    5.8.16-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-25.fc25
+    kernel: |
+      5.8.16-1
+    remark: |
 
-  credit: |
-    sagar
-  link: |
-    https://qubes-os.discourse.group/t/gigabyte-ga-ax370-gaming-rev1-0-ryzen3-2200g/1767/1
+    credit: |
+      sagar
+    link: |
+      https://qubes-os.discourse.group/t/gigabyte-ga-ax370-gaming-rev1-0-ryzen3-2200g/1767/1
 
 ---

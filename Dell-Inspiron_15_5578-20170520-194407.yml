@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.8.14-12
-  remark: |
-    Some audio, suspend issues. Improvement with 4.9 kernel, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/sQxBRhxTx3s/PeofC2z6BAAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Vít Šesták
-  link: |
-    https://groups.google.com/d/msg/qubes-users/sQxBRhxTx3s/PeofC2z6BAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.8.14-12
+    remark: |
+      Some audio, suspend issues. Improvement with 4.9 kernel, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/sQxBRhxTx3s/PeofC2z6BAAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Vít Šesták
+    link: |
+      https://groups.google.com/d/msg/qubes-users/sQxBRhxTx3s/PeofC2z6BAAJ
 
 ---
 

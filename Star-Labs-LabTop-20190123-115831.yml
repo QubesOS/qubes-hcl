@@ -41,20 +41,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
 
-  credit: |
-    Stephen Edworthy
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAEsBh4fty1uSybV3U4BcS2jzDZgJ-mrwZLeY5jO%3DAu2AvVhJuQ%40mail.gmail.com
+    credit: |
+      Stephen Edworthy
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAEsBh4fty1uSybV3U4BcS2jzDZgJ-mrwZLeY5jO%3DAu2AvVhJuQ%40mail.gmail.com
 
 ---
 

@@ -39,20 +39,20 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
 
-  credit: |
-    whodatjohngalt
-  link: |
-    https://groups.google.com/d/msg/qubes-users/ZJWxG0Uzjkg/oid5oTP_BAAJ
+    credit: |
+      whodatjohngalt
+    link: |
+      https://groups.google.com/d/msg/qubes-users/ZJWxG0Uzjkg/oid5oTP_BAAJ
 
 ---
 

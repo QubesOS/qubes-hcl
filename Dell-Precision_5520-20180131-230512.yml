@@ -42,21 +42,21 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.35-1
-  remark: |
-    Needed graphics, UEFI workarounds, <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting/'><span class='icon'></span>read more</a>, <a class='ext-link' href='https://github.com/QubesOS/qubes-issues/issues/3198'><span class='icon'></span>read more</a>
-    Added TB served devices to sys-net.
-  credit: |
-    Yassine Ilmi
-  link: |
-     https://groups.google.com/d/msgid/qubes-users/e6166477-b811-4de0-aecc-91e935ee429c%40googlegroups.com
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.35-1
+    remark: |
+      Needed graphics, UEFI workarounds, <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting/'><span class='icon'></span>read more</a>, <a class='ext-link' href='https://github.com/QubesOS/qubes-issues/issues/3198'><span class='icon'></span>read more</a>
+      Added TB served devices to sys-net.
+    credit: |
+      Yassine Ilmi
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/e6166477-b811-4de0-aecc-91e935ee429c%40googlegroups.com
 
 ---
 

@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    NMI lockup messages, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/GfBiqxDXk6E/Yt4pijpNBgAJ'><span class='icon'></span>read more</a>
-  credit: |
-    afry
-  link: |
-    https://groups.google.com/d/msg/qubes-users/GfBiqxDXk6E/Yt4pijpNBgAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      NMI lockup messages, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/GfBiqxDXk6E/Yt4pijpNBgAJ'><span class='icon'></span>read more</a>
+    credit: |
+      afry
+    link: |
+      https://groups.google.com/d/msg/qubes-users/GfBiqxDXk6E/Yt4pijpNBgAJ
 
 ---
 

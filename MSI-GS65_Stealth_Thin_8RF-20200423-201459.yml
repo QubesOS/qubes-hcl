@@ -43,21 +43,21 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-14.fc25
-  kernel: |
-    4.19.107-1
-  remark: |
-    Requires LEGACY mode, disable nvidia during installation.
-    WiFi sleep mode required some minor fix in GRUB
-  credit: |
-    Stanisław Kozicki
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CABZ%3DSx8zOkMcHhO9efM-n9YcavnDyinGk_Cb9qhEJW2VVFK7iw%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.107-1
+    remark: |
+      Requires LEGACY mode, disable nvidia during installation.
+      WiFi sleep mode required some minor fix in GRUB
+    credit: |
+      Stanisław Kozicki
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CABZ%3DSx8zOkMcHhO9efM-n9YcavnDyinGk_Cb9qhEJW2VVFK7iw%40mail.gmail.com
 
 ---
 

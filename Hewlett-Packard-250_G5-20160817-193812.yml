@@ -38,20 +38,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
 
-  credit: |
-    Bruce Horrocks
-  link: |
-    https://groups.google.com/d/msg/qubes-users/e9KLajudJRw/1sUZwoebBQAJ
+    credit: |
+      Bruce Horrocks
+    link: |
+      https://groups.google.com/d/msg/qubes-users/e9KLajudJRw/1sUZwoebBQAJ
 
 ---
 

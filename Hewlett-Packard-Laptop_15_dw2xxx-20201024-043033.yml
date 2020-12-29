@@ -42,34 +42,34 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-23.fc25
-  kernel: |
-    4.19.147-1
-  remark: |
-    No legacy boot, UEFI only. Laptop display doesn't work with this kernel version, only HDMI. Manual installation of the RTL8821CE wifi driver.
-  credit: |
-    Robin Christopher Ladiges
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/2cdd9cf0-e2ef-70af-3460-78f77c01bc6c%40blackpinguin.de
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-23.fc25
+    kernel: |
+      4.19.147-1
+    remark: |
+      No legacy boot, UEFI only. Laptop display doesn't work with this kernel version, only HDMI. Manual installation of the RTL8821CE wifi driver.
+    credit: |
+      Robin Christopher Ladiges
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/2cdd9cf0-e2ef-70af-3460-78f77c01bc6c%40blackpinguin.de
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-23.fc25
-  kernel: |
-    5.6.16-1
-  remark: |
-    No legacy boot, UEFI only. Manual installation of the RTL8821CE wifi driver. Laptop display works with kernel-latest (though i915 instead of iris). Plymouth shows some graphical artifacts.
-  credit: |
-    Robin Christopher Ladiges
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/2cdd9cf0-e2ef-70af-3460-78f77c01bc6c%40blackpinguin.de
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-23.fc25
+    kernel: |
+      5.6.16-1
+    remark: |
+      No legacy boot, UEFI only. Manual installation of the RTL8821CE wifi driver. Laptop display works with kernel-latest (though i915 instead of iris). Plymouth shows some graphical artifacts.
+    credit: |
+      Robin Christopher Ladiges
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/2cdd9cf0-e2ef-70af-3460-78f77c01bc6c%40blackpinguin.de
 
 ---

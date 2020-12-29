@@ -41,20 +41,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.2
-  kernel: |
-    4.9.56-21
-  remark: |
-    set BIOS to Legacy OPROM only
-  credit: |
-    grosse@gmail.com
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAHfGVNc0JvM1ZLiMRQphvR0Tb_oF7vNed2Ldc4dhrStR_J05WQ%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.2
+    kernel: |
+      4.9.56-21
+    remark: |
+      set BIOS to Legacy OPROM only
+    credit: |
+      grosse@gmail.com
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAHfGVNc0JvM1ZLiMRQphvR0Tb_oF7vNed2Ldc4dhrStR_J05WQ%40mail.gmail.com
 
 ---
 

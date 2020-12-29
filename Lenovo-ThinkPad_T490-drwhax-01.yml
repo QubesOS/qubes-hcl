@@ -42,19 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-7.fc25
-  kernel: |
-    5.1.15-1
-  remark: |
-    dTPM 2.0 doesn't work.
-  credit: |
-    DrWhax
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/2a74b705-cbf4-4b12-b0df-b485b07b22d6%40googlegroups.com
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-7.fc25
+    kernel: |
+      5.1.15-1
+    remark: |
+      dTPM 2.0 doesn't work.
+    credit: |
+      DrWhax
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/2a74b705-cbf4-4b12-b0df-b485b07b22d6%40googlegroups.com
 
 ---

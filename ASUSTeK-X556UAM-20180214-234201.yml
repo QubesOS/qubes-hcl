@@ -43,20 +43,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.13-2
-  remark: |
-    fully functional
-  credit: |
-    Christopher Ludwin
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/35ca52b5-8c81-542c-19ae-2b7067b7c95b%40posteo.net
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.13-2
+    remark: |
+      fully functional
+    credit: |
+      Christopher Ludwin
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/35ca52b5-8c81-542c-19ae-2b7067b7c95b%40posteo.net
 
 ---
 

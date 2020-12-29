@@ -42,20 +42,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-27.fc25
-  kernel: |
-    4.19.155-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-27.fc25
+    kernel: |
+      4.19.155-1
+    remark: |
 
-  credit: |
-    Rooftop
-  link: |
-    https://qubes-os.discourse.group/t/hcl-lenovo-thinkpad-x1-carbon/1844/1
+    credit: |
+      Rooftop
+    link: |
+      https://qubes-os.discourse.group/t/hcl-lenovo-thinkpad-x1-carbon/1844/1
 
 ---
 

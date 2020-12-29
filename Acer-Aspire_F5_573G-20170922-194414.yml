@@ -44,20 +44,20 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.4.14-11
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.4.14-11
+    remark: |
 
-  credit: |
-    dhfgebenskzkwkwndhhd
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/0cdb6308-2e5b-48c9-a41f-b103ac578fa5%40googlegroups.com
+    credit: |
+      dhfgebenskzkwkwndhhd
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/0cdb6308-2e5b-48c9-a41f-b103ac578fa5%40googlegroups.com
 
 ---
 

@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    ''
-  qubes: |
+  - works:
+      ''
+    qubes: |
 
-  xen: |
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/WX1IXBFkUwk/M-Xg1e3kieMJ'><span class='icon'></span>read more</a>
-  credit: |
-    Todd Weaver
-  link: |
-    https://www.crowdsupply.com/purism/librem-laptop
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/WX1IXBFkUwk/M-Xg1e3kieMJ'><span class='icon'></span>read more</a>
+    credit: |
+      Todd Weaver
+    link: |
+      https://www.crowdsupply.com/purism/librem-laptop
 
 ---
 

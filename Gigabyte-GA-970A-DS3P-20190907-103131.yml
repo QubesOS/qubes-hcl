@@ -42,20 +42,20 @@ usb: |
   8
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-7.fc25
-  kernel: |
-    4.19.56-1
-  remark: |
-    Suspend not working and sys-usb is unreliable.
-  credit: |
-    anirbankar84
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/a0d258b3-54a1-4513-9be9-bb9afcc8a41e%40googlegroups.com
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-7.fc25
+    kernel: |
+      4.19.56-1
+    remark: |
+      Suspend not working and sys-usb is unreliable.
+    credit: |
+      anirbankar84
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/a0d258b3-54a1-4513-9be9-bb9afcc8a41e%40googlegroups.com
 
 ---
 

@@ -36,20 +36,20 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R1
-  xen: |
+  - works:
+      'yes'
+    qubes: |
+      R1
+    xen: |
 
-  kernel: |
+    kernel: |
 
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/group/qubes-devel/browse_thread/thread/fdec0ec165a87726'><span class='icon'></span>read more</a>
-  credit: |
-    Jan Beerden
-  link: |
-    https://groups.google.com/group/qubes-devel/browse_thread/thread/fdec0ec165a87726
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/group/qubes-devel/browse_thread/thread/fdec0ec165a87726'><span class='icon'></span>read more</a>
+    credit: |
+      Jan Beerden
+    link: |
+      https://groups.google.com/group/qubes-devel/browse_thread/thread/fdec0ec165a87726
 
 ---
 

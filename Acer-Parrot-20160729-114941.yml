@@ -37,20 +37,20 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    Works well after Chromebook modification, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/tH25Nf9TJuU/L1Sgkdh8CwAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Paul Harper
-  link: |
-    https://groups.google.com/d/msg/qubes-users/tH25Nf9TJuU/L1Sgkdh8CwAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      Works well after Chromebook modification, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/tH25Nf9TJuU/L1Sgkdh8CwAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Paul Harper
+    link: |
+      https://groups.google.com/d/msg/qubes-users/tH25Nf9TJuU/L1Sgkdh8CwAJ
 
 ---
 
