@@ -34,7 +34,7 @@ network: |
 memory: |
   7913
 scsi: |
-  OCZ-VERTEX4      Rev: 1.5 
+  OCZ-VERTEX4      Rev: 1.5
   DVD-ROM TS-H353B Rev: D700
 
 versions:
@@ -48,7 +48,7 @@ versions:
   kernel: |
     4.4.31-11
   remark: |
-    
+
   credit: |
     superlative
   link: |

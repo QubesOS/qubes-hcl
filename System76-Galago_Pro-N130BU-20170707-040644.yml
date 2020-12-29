@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  System76                        
+  System76
 model: |
   Galago Pro (N130BU)
 bios: |

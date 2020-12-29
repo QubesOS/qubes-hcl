@@ -14,25 +14,25 @@ brand: |
 model: |
   ThinkPad T60
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
   T7600
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
   GMA 950
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,9 +41,9 @@ versions:
   qubes: |
     R2rc2
   xen: |
-    
+
   kernel: |
-    
+
   remark: |
     Does not install
   credit: |

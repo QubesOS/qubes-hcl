@@ -41,7 +41,7 @@ scsi: |
   Toshiba DT01ACA3 Rev: ABB0
   DVDRAM GH24NS70  Rev: GN03
   ST8000DM004-2CX1 Rev: 0001
-  HDCR-U           Rev:     
+  HDCR-U           Rev:
   USB Flash Disk   Rev: 1.00
 usb: |
   4

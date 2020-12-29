@@ -16,23 +16,23 @@ model: |
 bios: |
   4.6.5
 cpu: |
-  
+
 cpu-short: |
   i7-3720QM
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD 4000)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+
   kernel: |
     3.9.2-2
   remark: |

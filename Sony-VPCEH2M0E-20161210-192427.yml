@@ -35,7 +35,7 @@ network: |
 memory: |
   8173
 scsi: |
-  Toshiba MQ01ABD0 Rev: 1A  
+  Toshiba MQ01ABD0 Rev: 1A
   DVD RW AD-7740H  Rev: 1.V0
   USB Flash Disk   Rev: 1.00
 
@@ -50,7 +50,7 @@ versions:
   kernel: |
     4.4.31-11
   remark: |
-    
+
   credit: |
     carlos gonzalez
   link: |

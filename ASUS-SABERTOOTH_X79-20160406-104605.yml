@@ -32,7 +32,7 @@ network: |
 memory: |
   16317
 scsi: |
-  SanDisk SDSSDXP4 Rev: 1   
+  SanDisk SDSSDXP4 Rev: 1
   OCZ-VECTOR180    Rev: 1.01
   DVDRAM GH24NSB0  Rev: LN01
 

@@ -16,23 +16,23 @@ model: |
 bios: |
   P1.90
 cpu: |
-  
+
 cpu-short: |
   LGA775
 chipset: |
-  
+
 chipset-short: |
   G31
 gpu: |
-  
+
 gpu-short: |
   GMA3100
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

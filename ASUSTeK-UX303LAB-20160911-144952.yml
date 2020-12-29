@@ -32,7 +32,7 @@ network: |
 memory: |
   7995
 scsi: |
-  Toshiba MQ01ABF0 Rev: 1J  
+  Toshiba MQ01ABF0 Rev: 1J
 
 versions:
 
@@ -45,7 +45,7 @@ versions:
   kernel: |
     4.1.24-10
   remark: |
-    
+
   credit: |
     Fanilo
   link: |

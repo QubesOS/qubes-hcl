@@ -12,7 +12,7 @@ tpm:
 brand: |
   Hewlett-Packard
 model: |
-  6910p                                
+  6910p
 bios: |
   68MCU Ver. F.16
 cpu: |
@@ -34,7 +34,7 @@ network: |
 memory: |
   6135
 scsi: |
-  Toshiba MK3276GS Rev: 1X  
+  Toshiba MK3276GS Rev: 1X
 
 versions:
 
@@ -49,7 +49,7 @@ versions:
   remark: |
     <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/DeFQBPNE_G0/discussion'><span class='icon'></span>read more</a>
   credit: |
-    Rudy 
+    Rudy
   link: |
     https://groups.google.com/d/msg/qubes-users/DeFQBPNE_G0/94PoHHK0AwAJ
 

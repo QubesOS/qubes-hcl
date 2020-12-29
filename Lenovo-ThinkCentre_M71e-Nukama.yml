@@ -16,23 +16,23 @@ model: |
 bios: |
   9QKT29AUS
 cpu: |
-  
+
 cpu-short: |
   G620
 chipset: |
-  
+
 chipset-short: |
   H61
 gpu: |
-  
+
 gpu-short: |
   HD2000
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -45,7 +45,7 @@ versions:
   kernel: |
     3.11.1-2
   remark: |
-    
+
   credit: |
     Nukama
   link: |

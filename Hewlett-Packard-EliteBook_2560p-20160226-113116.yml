@@ -33,7 +33,7 @@ network: |
 memory: |
   16294
 scsi: |
-  CT240BX200SSD1   Rev: .6  
+  CT240BX200SSD1   Rev: .6
   KINGSTON SHFS37A Rev: BBF0
 
 versions:

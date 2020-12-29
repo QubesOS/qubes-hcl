@@ -37,7 +37,7 @@ network: |
 memory: |
   20261
 scsi: |
-  KingDian S280 48 Rev: 6A  
+  KingDian S280 48 Rev: 6A
   ST2000LM015-2E81 Rev: SDM1
 usb: |
   1
@@ -52,7 +52,7 @@ versions:
   kernel: |
     4.19.94-1
   remark: |
-    
+
   credit: |
     ase11
   link: |

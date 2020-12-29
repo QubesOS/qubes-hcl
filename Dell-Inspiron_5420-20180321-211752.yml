@@ -14,7 +14,7 @@ tpm:
 remap:
   'no'
 brand: |
-  Dell         
+  Dell
 model: |
   Inspiron 5420
 bios: |

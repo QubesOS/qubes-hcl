@@ -16,23 +16,23 @@ model: |
 bios: |
   FB
 cpu: |
-  
+
 cpu-short: |
   AMD FX-8350
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
   GTX 470
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,9 +41,9 @@ versions:
   qubes: |
     R2B2
   xen: |
-    
+
   kernel: |
-    
+
   remark: |
     IOMMU not tested with Qubes, working on other platforms <a class='ext-link' href=https://groups.google.com/d/msg/qubes-devel/qXct-TU4tKs/_JEtbQCyHl8J><span class='icon'></span>read more</a>, TPM header
   credit: |

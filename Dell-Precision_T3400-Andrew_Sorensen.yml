@@ -16,23 +16,23 @@ model: |
 bios: |
   A09
 cpu: |
-  
+
 cpu-short: |
   Q6600
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
   Quadro NVS 290
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -45,7 +45,7 @@ versions:
   kernel: |
     3.7.6-2
   remark: |
-    
+
   credit: |
     Andrew Sorensen
   link: |

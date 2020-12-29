@@ -14,25 +14,25 @@ brand: |
 model: |
   A880GZ
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
   AM3+
 chipset: |
-  
+
 chipset-short: |
   880G/SB850
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+
   kernel: |
     3.9.2-2
   remark: |

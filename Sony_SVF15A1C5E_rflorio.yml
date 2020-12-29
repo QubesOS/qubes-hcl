@@ -35,7 +35,7 @@ network: |
 memory: |
   8073
 scsi: |
-  Toshiba MQ01ABD1 Rev: 2H  
+  Toshiba MQ01ABD1 Rev: 2H
   DVD-RAM UJ8D3    Rev: 1.00
 
 versions:

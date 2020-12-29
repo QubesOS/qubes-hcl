@@ -37,7 +37,7 @@ network: |
 memory: |
   16031
 scsi: |
-  LITEON CV3-8D256 Rev: 10D 
+  LITEON CV3-8D256 Rev: 10D
 usb: |
   1
 versions:
@@ -51,7 +51,7 @@ versions:
   kernel: |
     4.19.94-1
   remark: |
-    
+
   credit: |
     Eduardo Barbosa
   link: |

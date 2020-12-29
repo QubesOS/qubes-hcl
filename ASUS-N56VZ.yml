@@ -16,23 +16,23 @@ model: |
 bios: |
   N56VZ.216
 cpu: |
-  
+
 cpu-short: |
-  
+
 chipset: |
-  
+
 chipset-short: |
   HM67 Express
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -48,7 +48,7 @@ versions:
     Chipset does not support VT-d
   credit: |
     Oleg Artemiev
-  link: 
+  link:
     https://groups.google.com/d/msg/qubes-users/KOBFFMJrvRw/JUB-TAoGwr8J
 
 ---

@@ -38,7 +38,7 @@ memory: |
   6025
 scsi: |
   ST320LT020-9YG14 Rev: SDM1
-  SanDisk SD6SF1M1 Rev: 200 
+  SanDisk SD6SF1M1 Rev: 200
   External USB HDD Rev: 1.03
 usb: |
   1
@@ -53,7 +53,7 @@ versions:
   kernel: |
     4.4.14-11
   remark: |
-    
+
   credit: |
     Oleg Artemiev
   link: |

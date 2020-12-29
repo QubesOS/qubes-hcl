@@ -37,7 +37,7 @@ memory: |
   32716
 scsi: |
   Samsung SSD 850  Rev: 2B6Q
-  CT1000MX500SSD1  Rev: 023 
+  CT1000MX500SSD1  Rev: 023
   PNY CS900 120GB  Rev: 0612
   File-CD Gadget   Rev: 0310
 usb: |
@@ -53,7 +53,7 @@ versions:
   kernel: |
     4.14.119-2
   remark: |
-    
+
   credit: |
     Josh McNattin
   link: |

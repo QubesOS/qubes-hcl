@@ -10,9 +10,9 @@ iommu:
 tpm:
   'unknown'
 brand: |
-  System76                    
+  System76
 model: |
-  Lemur                       
+  Lemur
 bios: |
   5.11
 cpu: |

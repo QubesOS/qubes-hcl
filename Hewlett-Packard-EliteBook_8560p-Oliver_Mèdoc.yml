@@ -16,23 +16,23 @@ model: |
 bios: |
   F.08
 cpu: |
-  
+
 cpu-short: |
   i5-2540M
 chipset: |
-  
+
 chipset-short: |
   Sandy Bridge
 gpu: |
-  
+
 gpu-short: |
   ATI Caicos
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

@@ -16,23 +16,23 @@ model: |
 bios: |
   P04ABJ
 cpu: |
-  
+
 cpu-short: |
   i3-2330M
 chipset: |
-  
+
 chipset-short: |
   HM65
 gpu: |
-  
+
 gpu-short: |
   HD3000
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,11 +41,11 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+
   kernel: |
     3.11.1-2
   remark: |
-    
+
   credit: |
     Marc
   link: |

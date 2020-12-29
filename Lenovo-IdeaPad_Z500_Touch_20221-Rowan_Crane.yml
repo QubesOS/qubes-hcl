@@ -16,23 +16,23 @@ model: |
 bios: |
   1.21
 cpu: |
-  
+
 cpu-short: |
   i5-3230M
 chipset: |
-  
+
 chipset-short: |
   Ivy Bridge
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

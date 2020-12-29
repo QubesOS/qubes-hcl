@@ -29,7 +29,7 @@ gpu: |
 gpu-short: |
   Integrated Graphics (GMA 4500MHD)
 network: |
-  
+
 memory: |
   3987 Mb
 scsi: |

@@ -16,23 +16,23 @@ model: |
 bios: |
   1.32
 cpu: |
-  
+
 cpu-short: |
   E8400
 chipset: |
-  
+
 chipset-short: |
   Q35
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+
   kernel: |
     3.9.2-2
   remark: |

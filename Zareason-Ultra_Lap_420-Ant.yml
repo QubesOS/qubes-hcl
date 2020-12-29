@@ -14,25 +14,25 @@ brand: |
 model: |
   Ultra Lap 420
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
   i5-3317U
 chipset: |
-  
+
 chipset-short: |
   Ivy Bridge
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -45,7 +45,7 @@ versions:
   kernel: |
     3.7.6-2
   remark: |
-    
+
   credit: |
     Ant
   link: |

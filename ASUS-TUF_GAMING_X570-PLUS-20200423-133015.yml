@@ -36,7 +36,7 @@ network: |
 memory: |
   32684
 scsi: |
-  SanDisk SDSSDP12 Rev: 0   
+  SanDisk SDSSDP12 Rev: 0
 usb: |
   3
 versions:

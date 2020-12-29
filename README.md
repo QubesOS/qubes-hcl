@@ -31,42 +31,42 @@ iommu:
 tpm:
   'yes|no|partial'
 brand: |
-  
+
 model: |
-  
+
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
-  
+
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
 - works:
     'yes|no|partial'
   qubes: |
-    
+
   xen: |
-    
+
   kernel: |
-    
+
   remark: |
-    
+
   credit: |
     FIXAUTHOR
   link: |

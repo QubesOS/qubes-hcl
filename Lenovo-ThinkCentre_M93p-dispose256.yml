@@ -16,23 +16,23 @@ model: |
 bios: |
   FBKT75AUS
 cpu: |
-  
+
 cpu-short: |
   i7-4770
 chipset: |
-  
+
 chipset-short: |
   Haswell
 gpu: |
-  
+
 gpu-short: |
   GeForce GT 720
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -45,7 +45,7 @@ versions:
   kernel: |
     3.12.23-1
   remark: |
-    
+
   credit: |
     dispose256
   link: |

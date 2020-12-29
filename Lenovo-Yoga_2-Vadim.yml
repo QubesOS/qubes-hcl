@@ -16,23 +16,23 @@ model: |
 bios: |
   96CN23WW(V1.09)
 cpu: |
-  
+
 cpu-short: |
   i3-4010U
 chipset: |
-  
+
 chipset-short: |
   Haswell
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

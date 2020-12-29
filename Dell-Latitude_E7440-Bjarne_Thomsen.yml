@@ -16,23 +16,23 @@ model: |
 bios: |
   A09
 cpu: |
-  
+
 cpu-short: |
   i7-4600U
 chipset: |
-  
+
 chipset-short: |
   Haswell
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

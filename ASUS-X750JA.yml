@@ -16,23 +16,23 @@ model: |
 bios: |
   X750JB.208
 cpu: |
-  
+
 cpu-short: |
   i7-4700HQ
 chipset: |
-  
+
 chipset-short: |
   HM86
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD 4600)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

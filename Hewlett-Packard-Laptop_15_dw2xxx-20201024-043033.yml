@@ -37,7 +37,7 @@ network: |
 memory: |
   7973
 scsi: |
-  Toshiba MQ04ABF1 Rev: 7C  
+  Toshiba MQ04ABF1 Rev: 7C
 usb: |
   1
 versions:

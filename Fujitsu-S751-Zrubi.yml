@@ -16,23 +16,23 @@ model: |
 bios: |
   1.18
 cpu: |
-  
+
 cpu-short: |
   i5-2520M
 chipset: |
-  
+
 chipset-short: |
   QM67
 gpu: |
-  
+
 gpu-short: |
   HD3000
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,11 +41,11 @@ versions:
   qubes: |
     R1
   xen: |
-    
+
   kernel: |
-    
+
   remark: |
-    
+
   credit: |
     Zrubi
   link: |
@@ -56,11 +56,11 @@ versions:
   qubes: |
     R2B1
   xen: |
-    
+
   kernel: |
-    
+
   remark: |
-    
+
   credit: |
     Zrubi
   link: |
@@ -71,7 +71,7 @@ versions:
   qubes: |
     R2B2
   xen: |
-    
+
   kernel: |
     3.7.4
   remark: |
@@ -86,11 +86,11 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+
   kernel: |
     3.7.4
   remark: |
-    
+
   credit: |
     Zrubi
   link: |

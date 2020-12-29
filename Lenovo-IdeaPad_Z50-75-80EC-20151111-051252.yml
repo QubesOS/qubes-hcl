@@ -16,13 +16,13 @@ model: |
 bios: |
   A4CN40WW (V 2.09)
 cpu: |
-  AMD A10-7300 Radeon R6, 10 Compute Cores 4C+6G 
+  AMD A10-7300 Radeon R6, 10 Compute Cores 4C+6G
 cpu-short: |
   A10-7300
 chipset: |
   Advanced Micro Devices, Inc. [AMD] Family 15h (Models 30h-3fh) Processor Root Complex [1022:1422]
 chipset-short: |
-  
+
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Kaveri [Radeon R6 Graphics] [1002:130a] (prog-if 00 [VGA controller])
 gpu-short: |
@@ -33,7 +33,7 @@ network: |
 memory: |
   7098
 scsi: |
-  Toshiba MQ01ABD1 Rev: 5E  
+  Toshiba MQ01ABD1 Rev: 5E
   DVDRAM GUA0N     Rev: AL00
   Silicon-Power4G  Rev: PMAP
 

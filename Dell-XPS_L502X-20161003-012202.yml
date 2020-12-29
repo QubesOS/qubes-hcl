@@ -12,7 +12,7 @@ slat:
 tpm:
   'unknown'
 brand: |
-  Dell         
+  Dell
 model: |
   XPS L502X
 bios: |
@@ -36,7 +36,7 @@ network: |
 memory: |
   3990
 scsi: |
-  Toshiba MK3261GS Rev: 1D  
+  Toshiba MK3261GS Rev: 1D
   DVD+-RW GT32N    Rev: A203
 
 versions:

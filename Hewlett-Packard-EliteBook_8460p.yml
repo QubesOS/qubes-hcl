@@ -28,7 +28,7 @@ gpu: |
 gpu-short: |
   Integrated Graphics (HD 3000)
 network: |
-  
+
 memory:  |
   8098 Mb
 scsi: |
@@ -46,7 +46,7 @@ versions:
   kernel: |
     3.12.23-1
   remark: |
-    
+
   credit: |
     Ray Rizzuto Jr
   link: |

@@ -16,23 +16,23 @@ model: |
 bios: |
   A16
 cpu: |
-  
+
 cpu-short: |
   i5-M560
 chipset: |
-  
+
 chipset-short: |
   Arrandale
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

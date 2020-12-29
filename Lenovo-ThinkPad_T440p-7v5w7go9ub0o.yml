@@ -16,23 +16,23 @@ model: |
 bios: |
   2.21
 cpu: |
-  
+
 cpu-short: |
   i7-4800MQ
 chipset: |
-  
+
 chipset-short: |
   Haswell
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+
   kernel: |
     3.11
   remark: |

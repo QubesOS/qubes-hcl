@@ -37,7 +37,7 @@ network: |
 memory: |
   32649
 scsi: |
-  CT2000MX500SSD1  Rev: 022 
+  CT2000MX500SSD1  Rev: 022
 usb: |
   1
 versions:

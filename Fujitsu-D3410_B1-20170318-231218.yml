@@ -16,7 +16,7 @@ brand: |
 model: |
   D3410-B1
 bios: |
-  V5.0.0.11 R1.17.0                  
+  V5.0.0.11 R1.17.0
 cpu: |
   Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
 cpu-short: |
@@ -49,7 +49,7 @@ versions:
   kernel: |
     4.4.38-11
   remark: |
-    
+
   credit: |
     Marcus Dilger
   link: |

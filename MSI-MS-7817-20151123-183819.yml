@@ -33,7 +33,7 @@ network: |
 memory: |
   8053
 scsi: |
-  TS128GSSD370S    Rev: 4H  
+  TS128GSSD370S    Rev: 4H
   Hitachi HTS72755 Rev: A0E0
   ST1000DM003-1ER1 Rev: CC45
   ST3500418AS      Rev: CC38

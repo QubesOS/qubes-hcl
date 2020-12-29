@@ -16,23 +16,23 @@ model: |
 bios: |
   E16H2IMS.103
 cpu: |
-  
+
 cpu-short: |
   i7-4700HQ
 chipset: |
-  
+
 chipset-short: |
   Haswell
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -45,7 +45,7 @@ versions:
   kernel: |
     3.12.18-1
   remark: |
-    
+
   credit: |
     Rudd-O
   link: |

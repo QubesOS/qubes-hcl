@@ -38,7 +38,7 @@ memory: |
 scsi: |
   WDC WD5000AAKX-7 Rev: 1H20
   DVD+-RW DH-16AES Rev: 3D11
-  
+
 usb: |
   3
 versions:
@@ -52,7 +52,7 @@ versions:
   kernel: |
     4.9.35-20
   remark: |
-    
+
   credit: |
     Largentula
   link: |

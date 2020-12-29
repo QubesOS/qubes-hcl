@@ -16,23 +16,23 @@ model: |
 bios: |
   A04
 cpu: |
-  
+
 cpu-short: |
   i7-4702HQ
 chipset: |
-  
+
 chipset-short: |
   Haswell
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

@@ -18,7 +18,7 @@ bios: |
 cpu: |
   Intel(R) Core(TM) i7 CPU       L 640  @ 2.13GHz
 cpu-short: |
-  
+
 chipset: |
   Intel Corporation Core Processor DRAM Controller [8086:0044] (rev 02)
 chipset-short: |
@@ -46,7 +46,7 @@ versions:
   kernel: |
     3.19.8-100
   remark: |
-    
+
   credit: |
     James Hanson
   link: |

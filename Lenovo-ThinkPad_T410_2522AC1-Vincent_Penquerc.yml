@@ -16,23 +16,23 @@ model: |
 bios: |
   1.32
 cpu: |
-  
+
 cpu-short: |
   i5-520M
 chipset: |
-  
+
 chipset-short: |
   Arrandale
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

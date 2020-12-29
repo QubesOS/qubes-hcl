@@ -12,9 +12,9 @@ slat:
 tpm:
   'unknown'
 brand: |
-  Acer           
+  Acer
 model: |
-  Aspire VN7-571G                
+  Aspire VN7-571G
 bios: |
   V1.16
 cpu: |
@@ -35,7 +35,7 @@ network: |
 memory: |
   6063
 scsi: |
-  Toshiba MQ02ABD1 Rev: 5A  
+  Toshiba MQ02ABD1 Rev: 5A
 
 versions:
 

@@ -16,23 +16,23 @@ model: |
 bios: |
   MM61.88Z.0106. B03.1211161202
 cpu: |
-  
+
 cpu-short: |
   i7-3615QM
 chipset: |
-  
+
 chipset-short: |
   Ivy Bridge
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

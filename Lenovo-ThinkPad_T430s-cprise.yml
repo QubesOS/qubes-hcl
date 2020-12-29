@@ -16,23 +16,23 @@ model: |
 bios: |
   2.05
 cpu: |
-  
+
 cpu-short: |
   i5-3320M
 chipset: |
-  
+
 chipset-short: |
   QM77
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD 4000)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,9 +41,9 @@ versions:
   qubes: |
     R2B1
   xen: |
-    
+
   kernel: |
-    
+
   bios: |
     2.05
   remark: |
@@ -58,9 +58,9 @@ versions:
   qubes: |
     R2B2
   xen: |
-    
+
   kernel: |
-    
+
   bios: |
     2.05
   remark: |
@@ -75,13 +75,13 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+
   kernel: |
     3.11
   bios: |
     2.05
   remark: |
-    
+
   credit: |
     cprise
   link: |
@@ -92,7 +92,7 @@ versions:
   qubes: |
     R2rc1
   xen: |
-    
+
   kernel: |
     3.12.14-4
   bios: |

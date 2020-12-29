@@ -16,23 +16,23 @@ model: |
 bios: |
   1.52
 cpu: |
-  
+
 cpu-short: |
   i5-520M
 chipset: |
-  
+
 chipset-short: |
   Arrandale
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,11 +41,11 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+
   kernel: |
     3.9.2-2
   remark: |
-    
+
   credit: |
     pete
   link: |

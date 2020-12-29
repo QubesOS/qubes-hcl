@@ -14,25 +14,25 @@ brand: |
 model: |
   ThinkPad X201
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
   i5-520M
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
   HD3000
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2rc1
   xen: |
-    
+
   kernel: |
     3.9.2-2
   remark: |

@@ -16,23 +16,23 @@ model: |
 bios: |
   N14ET25W (1.03 )
 cpu: |
-  
+
 cpu-short: |
   i5-5200U
 chipset: |
-  
+
 chipset-short: |
   Broadwell-U
 gpu: |
-  
+
 gpu-short: |
   HD5500
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2
   xen: |
-    
+
   kernel: |
     3.18.5-101
   remark: |

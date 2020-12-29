@@ -16,23 +16,23 @@ model: |
 bios: |
   4.6.4
 cpu: |
-  
+
 cpu-short: |
   LGA1150
 chipset: |
-  
+
 chipset-short: |
   Z68
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

@@ -16,23 +16,23 @@ model: |
 bios: |
   0413
 cpu: |
-  
+
 cpu-short: |
   E8400
 chipset: |
-  
+
 chipset-short: |
   945GC
 gpu: |
-  
+
 gpu-short: |
   embedded VGA
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

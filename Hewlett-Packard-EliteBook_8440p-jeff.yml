@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   00:00.0 Host bridge [0600]: Intel Corporation Core Processor DRAM Controller [8086:0044] (rev 02)
 chipset-short: |
-  
+
 gpu: |
   00:02.0 VGA compatible controller [0300]: Intel Corporation Core Processor Integrated Graphics Controller [8086:0046] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |

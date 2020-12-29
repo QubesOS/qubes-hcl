@@ -14,25 +14,25 @@ brand: |
 model: |
   Zenbook UX-31
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
   i5-2557M
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
   HD 3000
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,9 +41,9 @@ versions:
   qubes: |
     R2B2
   xen: |
-    
+
   kernel: |
-    
+
   remark: |
     <a class="ext-link" href="https://groups.google.com/d/topic/qubes-devel/6I07Bbzn5M4/discussion"><span class="icon"></span>read more</a>
   credit: |

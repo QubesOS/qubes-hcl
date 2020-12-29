@@ -36,7 +36,7 @@ memory: |
 scsi: |
   ST1000LM014-SSHD Rev: LVD3
   DVDRAM GUA0N     Rev: AL00
-  External USB 3.0 Rev: 0   
+  External USB 3.0 Rev: 0
 
 versions:
 

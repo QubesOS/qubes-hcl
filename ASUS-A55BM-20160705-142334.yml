@@ -16,7 +16,7 @@ model: |
 bios: |
   1002
 cpu: |
-  AMD A6-6420K APU with Radeon(tm) HD Graphics   
+  AMD A6-6420K APU with Radeon(tm) HD Graphics
 cpu-short: |
   AMD A6-6420K
 chipset: |
@@ -45,7 +45,7 @@ versions:
   kernel: |
     4.1.13-9
   remark: |
-    
+
   credit: |
      Benson Muite
   link: |

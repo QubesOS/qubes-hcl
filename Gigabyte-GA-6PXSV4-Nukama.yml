@@ -16,23 +16,23 @@ model: |
 bios: |
   R17
 cpu: |
-  
+
 cpu-short: |
   Xeon E5
 chipset: |
-  
+
 chipset-short: |
   C604
 gpu: |
-  
+
 gpu-short: |
   Aspeed AST2300
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2
   xen: |
-    
+
   kernel: |
     3.12.23-1
   remark: |

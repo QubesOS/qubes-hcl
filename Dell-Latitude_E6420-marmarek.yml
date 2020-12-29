@@ -16,23 +16,23 @@ model: |
 bios: |
   A17
 cpu: |
-  
+
 cpu-short: |
   i5-2520M
 chipset: |
-  
+
 chipset-short: |
   Sandy Bridge
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R1
   xen: |
-    
+
   kernel: |
     3.4.17
   remark: |
@@ -49,14 +49,14 @@ versions:
   credit: |
     Qubes core developers
   link: |
-    
+
 
 - works:
     'partial'
   qubes: |
     R2B1
   xen: |
-    
+
   kernel: |
     3.4.17
   remark: |
@@ -64,14 +64,14 @@ versions:
   credit: |
     Qubes core developers
   link: |
-    
+
 
 - works:
     'partial'
   qubes: |
     R2B2
   xen: |
-    
+
   kernel: |
     3.7.4
   remark: |
@@ -79,18 +79,18 @@ versions:
   credit: |
     Qubes core developers
   link: |
-    
+
 
 - works:
     'partial'
   qubes: |
     R2B3
   xen: |
-    
+
   kernel: |
     3.11.1-2
   remark: |
-    
+
   credit: |
     marmarek (Qubes core developer)
   link: |

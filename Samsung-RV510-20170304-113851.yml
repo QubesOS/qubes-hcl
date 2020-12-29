@@ -14,9 +14,9 @@ tpm:
 brand: |
   Samsung ELECTRONICS CO.
 model: |
-  RV510     
+  RV510
 bios: |
-  03UC.P026.20101027.LX 
+  03UC.P026.20101027.LX
 cpu: |
   Pentium(R) Dual-Core CPU       T4500  @ 2.30GHz
 cpu-short: |
@@ -50,7 +50,7 @@ versions:
   kernel: |
     4.4.38-11
   remark: |
-    
+
   credit: |
     Todd Kleinpaste
   link: |

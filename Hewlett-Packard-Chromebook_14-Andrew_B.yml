@@ -14,25 +14,25 @@ brand: |
 model: |
   Chromebook 14
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
   Celeron 2955U
 chipset: |
-  
+
 chipset-short: |
   Haswell
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

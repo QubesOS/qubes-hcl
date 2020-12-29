@@ -35,7 +35,7 @@ network: |
 memory: |
   6026
 scsi: |
-  Toshiba MQ01ABD0 Rev: 4M  
+  Toshiba MQ01ABD0 Rev: 4M
   CDDVDW SU-208DB  Rev: TF01
 
 versions:
@@ -49,7 +49,7 @@ versions:
   kernel: |
     4.4.38-11
   remark: |
-    
+
   credit: |
     Caleb Thompson
   link: |

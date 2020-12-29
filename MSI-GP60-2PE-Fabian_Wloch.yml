@@ -16,23 +16,23 @@ model: |
 bios: |
   E16GHIMS.109
 cpu: |
-  
+
 cpu-short: |
   i5-4200H
 chipset: |
-  
+
 chipset-short: |
   Haswell
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

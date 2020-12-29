@@ -16,13 +16,13 @@ model: |
 bios: |
   M84 Ver. 01.10
 cpu: |
-  AMD A6 PRO-7050B R4, 5 Compute Cores 2C+3G     
+  AMD A6 PRO-7050B R4, 5 Compute Cores 2C+3G
 cpu-short: |
   A6 PRO-7050B
 chipset: |
   Advanced Micro Devices, Inc. [AMD] Family 15h (Models 30h-3fh) Processor Root Complex [1022:1422]
 chipset-short: |
-  
+
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Kaveri [Radeon R4 Graphics] [1002:130b] (prog-if 00 [VGA controller])
 gpu-short: |

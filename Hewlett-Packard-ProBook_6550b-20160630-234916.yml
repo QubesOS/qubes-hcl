@@ -33,7 +33,7 @@ network: |
 memory: |
   8119
 scsi: |
-  ADATA SP900      Rev: 2   
+  ADATA SP900      Rev: 2
   DVD RW AD-7711H  Rev: 1.81
 
 versions:

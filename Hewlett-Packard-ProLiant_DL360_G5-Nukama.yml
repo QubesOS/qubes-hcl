@@ -16,23 +16,23 @@ model: |
 bios: |
   P58
 cpu: |
-  
+
 cpu-short: |
   E5440
 chipset: |
-  
+
 chipset-short: |
   5000P
 gpu: |
-  
+
 gpu-short: |
   ATI ES1000
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

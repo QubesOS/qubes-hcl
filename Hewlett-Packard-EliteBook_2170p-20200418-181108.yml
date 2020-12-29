@@ -37,7 +37,7 @@ network: |
 memory: |
   16247
 scsi: |
-  Teclast 960GB A8 Rev: 6A0 
+  Teclast 960GB A8 Rev: 6A0
 usb: |
   3
 versions:
@@ -66,7 +66,7 @@ versions:
   kernel: |
     4.14.119-2
   remark: |
-    
+
   credit: |
     Dimiter Georgiev
   link: |

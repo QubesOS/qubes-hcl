@@ -41,7 +41,7 @@ scsi: |
   Samsung SSD 850  Rev: 2B6Q
   Ultra            Rev: 1.00
   Mass Storage     Rev: 2.00
-  22 HN-M750MBB    Rev:     
+  22 HN-M750MBB    Rev:
 usb: |
   3
 versions:
@@ -55,7 +55,7 @@ versions:
   kernel: |
     4.4.62-12
   remark: |
-    
+
   credit: |
     Gaiko Kyofusho
   link: |

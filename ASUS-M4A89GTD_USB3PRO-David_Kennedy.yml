@@ -16,23 +16,23 @@ model: |
 bios: |
   3029
 cpu: |
-  
+
 cpu-short: |
-  
+
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

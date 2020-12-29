@@ -14,25 +14,25 @@ brand: |
 model: |
   M780 S7240
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
-  
+
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,11 +41,11 @@ versions:
   qubes: |
     R1
   xen: |
-    
+
   kernel: |
-    
+
   remark: |
-    
+
   credit: |
     Franz
   link: |

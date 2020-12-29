@@ -10,7 +10,7 @@ iommu:
 tpm:
   'unknown'
 brand: |
-  Intel                                 
+  Intel
 model: |
   NUC5i5RYK
 bios: |

@@ -16,7 +16,7 @@ brand: |
 model: |
   MCP6P3
 bios: |
-  080015 
+  080015
 cpu: |
   AMD Athlon(tm) II X4 635 Processor
 cpu-short: |
@@ -53,7 +53,7 @@ versions:
   kernel: |
     4.4.38-11
   remark: |
-    
+
   credit: |
     Robert Williams
   link: |

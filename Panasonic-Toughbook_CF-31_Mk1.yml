@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Core Processor DRAM Controller [8086:0044] (rev 02)
 chipset-short: |
-  
+
 gpu: |
   Intel Corporation Core Processor Integrated Graphics Controller [8086:0046] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
@@ -33,7 +33,7 @@ network: |
 memory: |
   3894
 scsi: |
-  Corsair Performa Rev: 1.1 
+  Corsair Performa Rev: 1.1
   DV-W28S-V        Rev: B.0A
 
 versions:

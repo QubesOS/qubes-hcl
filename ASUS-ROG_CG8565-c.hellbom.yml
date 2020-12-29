@@ -14,25 +14,25 @@ brand: |
 model: |
   ROG CG8565
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
-  
+
 chipset: |
-  
+
 chipset-short: |
   Z68
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD) + GTX590/GTX560Ti
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2
   xen: |
-    
+
   kernel: |
     3.12.23-1
   remark: |

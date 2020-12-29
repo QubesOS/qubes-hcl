@@ -16,23 +16,23 @@ model: |
 bios: |
   A2KT44AUS
 cpu: |
-  
+
 cpu-short: |
   E5-1620 v2
 chipset: |
-  
+
 chipset-short: |
   Ivytown
 gpu: |
-  
+
 gpu-short: |
   Radeon HD 6950
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

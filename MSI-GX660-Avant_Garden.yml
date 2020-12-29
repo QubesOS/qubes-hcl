@@ -16,23 +16,23 @@ model: |
 bios: |
   1.0L
 cpu: |
-  
+
 cpu-short: |
   i5-460M
 chipset: |
-  
+
 chipset-short: |
   PM55
 gpu: |
-  
+
 gpu-short: |
   Radeon HD5870
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -45,7 +45,7 @@ versions:
   kernel: |
     3.11.1-2
   remark: |
-    
+
   credit: |
     Avant Garden
   link: |

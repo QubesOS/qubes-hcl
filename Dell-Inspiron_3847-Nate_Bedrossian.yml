@@ -16,23 +16,23 @@ model: |
 bios: |
   A05
 cpu: |
-  
+
 cpu-short: |
   i7-4790
 chipset: |
-  
+
 chipset-short: |
   Haswell
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -45,7 +45,7 @@ versions:
   kernel: |
     3.12.23-1
   remark: |
-    
+
   credit: |
     Nate Bedrossian
   link: |

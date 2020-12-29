@@ -34,7 +34,7 @@ network: |
 memory: |
   8097
 scsi: |
-  SanDisk X110 M.2 Rev: 512 
+  SanDisk X110 M.2 Rev: 512
 
 versions:
 

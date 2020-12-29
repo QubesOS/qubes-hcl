@@ -16,23 +16,23 @@ model: |
 bios: |
   UX31A.212
 cpu: |
-  
+
 cpu-short: |
   i7-3517U
 chipset: |
-  
+
 chipset-short: |
   Ivy Bridge
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD 4000)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+
   kernel: |
     3.11.1-2
   remark: |

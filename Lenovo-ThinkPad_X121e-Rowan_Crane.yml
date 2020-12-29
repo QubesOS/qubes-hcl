@@ -16,23 +16,23 @@ model: |
 bios: |
   8QET56WW (1.17 )
 cpu: |
-  
+
 cpu-short: |
   i3-2367M
 chipset: |
-  
+
 chipset-short: |
   Sandy Bridge
 gpu: |
-  
+
 gpu-short: |
   HD3000
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

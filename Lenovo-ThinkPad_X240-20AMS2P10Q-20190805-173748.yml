@@ -38,7 +38,7 @@ memory: |
   7879
 scsi: |
   ST1000LM035-1RK1 Rev: SBM3
-  SAMSWEET SSD NV6 Rev: 1B  
+  SAMSWEET SSD NV6 Rev: 1B
 usb: |
   2
 versions:

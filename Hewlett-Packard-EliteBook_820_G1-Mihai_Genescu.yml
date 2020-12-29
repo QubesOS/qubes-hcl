@@ -16,23 +16,23 @@ model: |
 bios: |
   L71 Ver. 01.11
 cpu: |
-  
+
 cpu-short: |
   i5-4300U
 chipset: |
-  
+
 chipset-short: |
   Haswell
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

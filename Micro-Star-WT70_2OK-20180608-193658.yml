@@ -42,7 +42,7 @@ scsi: |
   KINGSTON RBU-SMS Rev: 06.9
   BDDVDW SN-506BB  Rev: TM01
   HGST HTS721010A9 Rev: A3J0
-  Portable SSD T5  Rev: 0   
+  Portable SSD T5  Rev: 0
 usb: |
   3
 versions:

@@ -16,23 +16,23 @@ model: |
 bios: |
   2.53
 cpu: |
-  
+
 cpu-short: |
   i7-3740QM
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
   nVidia Optimus
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

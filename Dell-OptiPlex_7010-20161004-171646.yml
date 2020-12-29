@@ -35,7 +35,7 @@ network: |
 memory: |
   8078
 scsi: |
-  ST3250820AS      Rev: E   
+  ST3250820AS      Rev: E
 
 versions:
 

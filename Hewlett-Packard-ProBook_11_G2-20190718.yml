@@ -40,7 +40,7 @@ memory: |
 scsi: |
   SSD or M2 SSD
 usb: |
-  1x controller 3x USB 3.0 ports 
+  1x controller 3x USB 3.0 ports
 versions:
 
 - works:

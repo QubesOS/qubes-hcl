@@ -16,23 +16,23 @@ model: |
 bios: |
   GQET35WW (1.15 )
 cpu: |
-  
+
 cpu-short: |
   i5-4200U
 chipset: |
-  
+
 chipset-short: |
   Haswell
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

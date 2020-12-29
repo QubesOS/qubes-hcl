@@ -16,23 +16,23 @@ model: |
 bios: |
   GLET70WW (2.24 )
 cpu: |
-  
+
 cpu-short: |
   i7-4900MQ
 chipset: |
-  
+
 chipset-short: |
   QM87
 gpu: |
-  
+
 gpu-short: |
   GeForce GT 730M
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

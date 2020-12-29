@@ -34,7 +34,7 @@ network: |
 memory: |
   16289
 scsi: |
-  LITEON CV1-8B256 Rev: 201 
+  LITEON CV1-8B256 Rev: 201
   USB 3.0 FD       Rev: 1.00
 
 versions:
@@ -48,7 +48,7 @@ versions:
   kernel: |
     4.4.14-11
   remark: |
-    
+
   credit: |
     Bencarp
   link: |

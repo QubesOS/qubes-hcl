@@ -32,7 +32,7 @@ network: |
 memory: |
   16287
 scsi: |
-  SanDisk SD6SB1M2 Rev: 412 
+  SanDisk SD6SB1M2 Rev: 412
   Micron_M550_mSAT Rev: DL03
 
 versions:
@@ -46,7 +46,7 @@ versions:
   kernel: |
     3.19.8-100
   remark: |
-    
+
   credit: |
     Adrian Rocha
   link: |

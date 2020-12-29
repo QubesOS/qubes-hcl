@@ -16,23 +16,23 @@ model: |
 bios: |
   F5a
 cpu: |
-  
+
 cpu-short: |
   Phenom II X4 955
 chipset: |
-  
+
 chipset-short: |
   870-SB850
 gpu: |
-  
+
 gpu-short: |
   GTX 460
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,11 +41,11 @@ versions:
   qubes: |
     R2B2
   xen: |
-    
+
   kernel: |
     3.11.1-2
   remark: |
-    
+
   credit: |
     Fabian Lichte
   link: |
@@ -60,7 +60,7 @@ versions:
   kernel: |
     3.12.14-4
   remark: |
-    
+
   credit: |
     Fabian Lichte
   link: |

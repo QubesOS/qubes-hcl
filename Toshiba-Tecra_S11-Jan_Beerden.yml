@@ -14,25 +14,25 @@ brand: |
 model: |
   Tecra S11
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
-  
+
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,9 +41,9 @@ versions:
   qubes: |
     R1
   xen: |
-    
+
   kernel: |
-    
+
   remark: |
     <a class='ext-link' href='https://groups.google.com/group/qubes-devel/browse_thread/thread/fdec0ec165a87726'><span class='icon'></span>read more</a>
   credit: |

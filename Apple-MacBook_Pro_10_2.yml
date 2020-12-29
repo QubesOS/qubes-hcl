@@ -1,9 +1,9 @@
 ---
-layout: 
+layout:
   'hcl'
-type:   
+type:
   'laptop'
-hvm: 
+hvm:
   'yes'
 iommu:
   'yes'
@@ -20,19 +20,19 @@ cpu: |
 cpu-short: |
   i5-3210M
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

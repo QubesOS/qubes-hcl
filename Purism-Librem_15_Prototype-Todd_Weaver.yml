@@ -14,36 +14,36 @@ brand: |
 model: |
   Librem 15
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
   i7-4712MQ
 chipset: |
-  
+
 chipset-short: |
   HM87
 gpu: |
-  
+
 gpu-short: |
   GeForce 840M
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
 - works:
     ''
   qubes: |
-    
+
   xen: |
-    
+
   kernel: |
-    
+
   remark: |
     <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/WX1IXBFkUwk/M-Xg1e3kieMJ'><span class='icon'></span>read more</a>
   credit: |

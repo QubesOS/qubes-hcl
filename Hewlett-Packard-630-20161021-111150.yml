@@ -12,7 +12,7 @@ tpm:
 brand: |
   Hewlett-Packard
 model: |
-  630            
+  630
 bios: |
   F.33
 cpu: |
@@ -48,7 +48,7 @@ versions:
   kernel: |
     3.18.17-5
   remark: |
-    
+
   credit: |
     Vincent Elliott
   link: |

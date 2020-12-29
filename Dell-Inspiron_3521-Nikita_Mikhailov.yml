@@ -16,23 +16,23 @@ model: |
 bios: |
   A12
 cpu: |
-  
+
 cpu-short: |
   i3-3217U
 chipset: |
-  
+
 chipset-short: |
   HM76
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

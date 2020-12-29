@@ -16,23 +16,23 @@ model: |
 bios: |
   78DAA420
 cpu: |
-  
+
 cpu-short: |
   AM3
 chipset: |
-  
+
 chipset-short: |
   790GX/SB750
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+
   kernel: |
     3.9.2-2
   remark: |
@@ -56,7 +56,7 @@ versions:
   qubes: |
     R2rc1
   xen: |
-    
+
   kernel: |
     3.12.14-4
   remark: |

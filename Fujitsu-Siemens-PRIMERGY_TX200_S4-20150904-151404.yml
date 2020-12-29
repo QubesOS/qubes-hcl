@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation 5000Z Chipset Memory Controller Hub [8086:25d0] (rev 92)
 chipset-short: |
-  
+
 gpu: |
   Matrox Electronics Systems Ltd. MGA G200e [Pilot] ServerEngines (SEP1) [102b:0522] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |

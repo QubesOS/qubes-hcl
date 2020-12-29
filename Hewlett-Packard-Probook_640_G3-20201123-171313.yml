@@ -16,7 +16,7 @@ remap:
 brand: |
   Hewlett-Packard
 model: |
-  Probook 640 G3 
+  Probook 640 G3
 bios: |
   F.10
 cpu: |
@@ -52,7 +52,7 @@ versions:
   kernel: |
     4.19.155-1
   remark: |
-    
+
   credit: |
     Effie ML
   link: |

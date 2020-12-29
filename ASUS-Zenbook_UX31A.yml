@@ -16,23 +16,23 @@ model: |
 bios: |
   UX31A.212
 cpu: |
-  
+
 cpu-short: |
   i5-3317U
 chipset: |
-  
+
 chipset-short: |
   Ivy Bridge
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD 4000)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

@@ -37,7 +37,7 @@ network: |
 memory: |
   12024
 scsi: |
-  SanDisk SD6SP1M1 Rev: 202 
+  SanDisk SD6SP1M1 Rev: 202
   HGST HTS721010A9 Rev: A3J0
 usb: |
   1

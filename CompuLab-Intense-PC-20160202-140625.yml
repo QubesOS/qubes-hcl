@@ -36,8 +36,8 @@ memory: |
 scsi: |
   Samsung SSD 840  Rev: 5B0Q
   Ext Hard Disk    Rev: 0000
-  CDROM            Rev:     
-  Silicon-Power    Rev: 0   
+  CDROM            Rev:
+  Silicon-Power    Rev: 0
 
 versions:
 

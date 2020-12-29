@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Clevo                        
+  Clevo
 model: |
   N85_N87,HJ,HJ1,HK1
 bios: |

@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   00:00.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Root Complex [1022:1410]
 chipset-short: |
-  
+
 gpu: |
   00:01.0 VGA compatible controller [0300]: Advanced Micro Devices, Inc. [AMD/ATI] Trinity [Radeon HD 7660G] [1002:9900] (prog-if 00 [VGA controller])
 gpu-short: |

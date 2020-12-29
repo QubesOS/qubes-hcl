@@ -16,23 +16,23 @@ model: |
 bios: |
   A16
 cpu: |
-  
+
 cpu-short: |
   i7-3632QM
 chipset: |
-  
+
 chipset-short: |
   HM77
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD) + GeForce GT 640M
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

@@ -37,7 +37,7 @@ network: |
 memory: |
   16285
 scsi: |
-  LITEONIT LMT-128 Rev: 10F 
+  LITEONIT LMT-128 Rev: 10F
 usb: |
   2
 versions:

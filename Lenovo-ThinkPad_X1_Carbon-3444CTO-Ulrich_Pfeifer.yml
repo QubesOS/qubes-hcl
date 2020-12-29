@@ -16,23 +16,23 @@ model: |
 bios: |
   G6ET59WW (2.03 )
 cpu: |
-  
+
 cpu-short: |
   i5-3427U
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,11 +41,11 @@ versions:
   qubes: |
     R2B2
   xen: |
-    
+
   kernel: |
-    
+
   remark: |
-    
+
   credit: |
     Ulrich Pfeifer
   link: |

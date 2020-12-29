@@ -16,23 +16,23 @@ model: |
 bios: |
   1.0
 cpu: |
-  
+
 cpu-short: |
   Xeon E3-1245
 chipset: |
-  
+
 chipset-short: |
   Haswell
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,9 +41,9 @@ versions:
   qubes: |
     R1
   xen: |
-    
+
   kernel: |
-    
+
   remark: |
     TPM header
   credit: |
@@ -58,7 +58,7 @@ versions:
   xen: |
     4.1.2
   kernel: |
-    
+
   remark: |
     TPM header
   credit: |

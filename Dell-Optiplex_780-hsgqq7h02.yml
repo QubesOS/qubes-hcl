@@ -14,25 +14,25 @@ brand: |
 model: |
   OptiPlex 780
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
   Q6600
 chipset: |
-  
+
 chipset-short: |
   Q45
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2
   xen: |
-    
+
   kernel: |
     3.12.23-1
   remark: |

@@ -16,23 +16,23 @@ model: |
 bios: |
   3.22
 cpu: |
-  
+
 cpu-short: |
   P8400
 chipset: |
-  
+
 chipset-short: |
   GM45
 gpu: |
-  
+
 gpu-short: |
   GMA 4500MHD
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+
   kernel: |
     3.11.1-2
   remark: |

@@ -16,23 +16,23 @@ model: |
 bios: |
   4.6.4
 cpu: |
-  
+
 cpu-short: |
   i7-2720QM
 chipset: |
-  
+
 chipset-short: |
   Sandy Bridge
 gpu: |
-  
+
 gpu-short: |
   GeForce GTX 460M
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -45,7 +45,7 @@ versions:
   kernel: |
     3.12.14-4
   remark: |
-    
+
   credit: |
     David Kennedy
   link: |

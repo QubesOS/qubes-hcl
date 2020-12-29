@@ -16,23 +16,23 @@ model: |
 bios: |
   R0170H5
 cpu: |
-  
+
 cpu-short: |
   i5-2540M
 chipset: |
-  
+
 chipset-short: |
   Sandy Bridge
 gpu: |
-  
+
 gpu-short: |
   HD3000
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,9 +41,9 @@ versions:
   qubes: |
     R1
   xen: |
-    
+
   kernel: |
-    
+
   remark: |
     <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/fkC6em-Wqd0J'><span class='icon'></span>read more</a>
   credit: |
@@ -56,7 +56,7 @@ versions:
   qubes: |
     R2B3
   xen: |
-    
+
   kernel: |
     3.11.1-2
   bios: |

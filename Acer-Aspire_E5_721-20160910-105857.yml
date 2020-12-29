@@ -35,7 +35,7 @@ memory: |
 scsi: |
   Crucial_CT500MX2 Rev: MU02
   DVD-RAM UJ8E2Q   Rev: 1.00
-  SSD 850 EVO 500G Rev: B   
+  SSD 850 EVO 500G Rev: B
 
 versions:
 
@@ -48,7 +48,7 @@ versions:
   kernel: |
     4.4.14-11
   remark: |
-    
+
   credit: |
     whodatjohngalt
   link: |

@@ -39,7 +39,7 @@ memory: |
 scsi: |
   PNY CS900 120GB  Rev: 0612
   DVD-RAM UJ8E1    Rev: 1.00
-  Toshiba MQ01ABD1 Rev: 2J  
+  Toshiba MQ01ABD1 Rev: 2J
 usb: |
   3
 versions:

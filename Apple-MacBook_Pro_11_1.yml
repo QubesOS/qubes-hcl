@@ -1,9 +1,9 @@
 ---
-layout: 
+layout:
   'hcl'
-type:   
+type:
   'laptop'
-hvm: 
+hvm:
   'yes'
 iommu:
   'yes'

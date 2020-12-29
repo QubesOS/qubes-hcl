@@ -16,23 +16,23 @@ model: |
 bios: |
   G1ET92WW (2.52 )
 cpu: |
-  
+
 cpu-short: |
   i5-3320M
 chipset: |
-  
+
 chipset-short: |
   QM77
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
   7854
 scsi: |
-  
+
 
 versions:
 

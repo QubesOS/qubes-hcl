@@ -18,7 +18,7 @@ model: |
 bios: |
   F5j (custom mod)
 cpu: |
-  Any AM3(+) that supports virtualization.     
+  Any AM3(+) that supports virtualization.
 cpu-short: |
   AM3+
 chipset: |

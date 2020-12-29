@@ -14,25 +14,25 @@ brand: |
 model: |
   X55A
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
-  
+
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
@@ -41,7 +41,7 @@ versions:
   qubes: |
     R2B2
   xen: |
-    
+
   kernel: |
     3.7.6
   remark: |

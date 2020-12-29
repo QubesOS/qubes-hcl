@@ -36,7 +36,7 @@ network: |
 memory: |
   8056
 scsi: |
-  LITEON CV3-8D512 Rev: 203 
+  LITEON CV3-8D512 Rev: 203
 usb: |
   1
 versions:

@@ -36,7 +36,7 @@ network: |
 memory: |
   16267
 scsi: |
-  ADATA SP600      Rev: 1.2 
+  ADATA SP600      Rev: 1.2
   HGST HTS725050A7 Rev: B550
 
 versions:
@@ -50,7 +50,7 @@ versions:
   kernel: |
     4.4.31-11
   remark: |
-    
+
   credit: |
     Wojciech Gustowski
   link: |

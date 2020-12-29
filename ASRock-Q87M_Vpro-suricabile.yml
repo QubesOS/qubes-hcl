@@ -16,23 +16,23 @@ model: |
 bios: |
   P1.50
 cpu: |
-  
+
 cpu-short: |
   LGA1150
 chipset: |
-  
+
 chipset-short: |
   Q87
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

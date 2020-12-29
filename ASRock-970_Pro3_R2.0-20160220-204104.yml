@@ -16,13 +16,13 @@ model: |
 bios: |
   P2.50
 cpu: |
-  AMD FX(tm)-8320 Eight-Core Processor           
+  AMD FX(tm)-8320 Eight-Core Processor
 cpu-short: |
   FX-8320
 chipset: |
   Advanced Micro Devices, Inc. [AMD/ATI] RD890 PCI to PCI bridge (external gfx0 port B) [1002:5a14] (rev 02)
 chipset-short: |
-  
+
 gpu: |
   NVIDIA Corporation GT218 [GeForce 210] [10de:0a65] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |

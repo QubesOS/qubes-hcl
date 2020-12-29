@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Metabox                        
+  Metabox
 model: |
   Clevo P65_P67RGRERA
 bios: |

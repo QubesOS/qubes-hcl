@@ -16,23 +16,23 @@ model: |
 bios: |
   A10
 cpu: |
-  
+
 cpu-short: |
   i5-480M
 chipset: |
-  
+
 chipset-short: |
   Arrandale
 gpu: |
-  
+
 gpu-short: |
   GT 435M
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

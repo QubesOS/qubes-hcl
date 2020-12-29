@@ -16,23 +16,23 @@ model: |
 bios: |
   A06
 cpu: |
-  
+
 cpu-short: |
   i5-2540M
 chipset: |
-  
+
 chipset-short: |
   Sandy Bridge
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

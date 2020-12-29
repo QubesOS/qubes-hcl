@@ -16,23 +16,23 @@ model: |
 bios: |
   2.54
 cpu: |
-  
+
 cpu-short: |
   i7-3520M
 chipset: |
-  
+
 chipset-short: |
   Ivy Bridge
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

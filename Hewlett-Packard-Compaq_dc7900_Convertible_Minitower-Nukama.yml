@@ -16,23 +16,23 @@ model: |
 bios: |
   1.26
 cpu: |
-  
+
 cpu-short: |
   E8400
 chipset: |
-  
+
 chipset-short: |
   Q45/Q43
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 

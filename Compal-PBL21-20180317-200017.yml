@@ -37,7 +37,7 @@ network: |
 memory: |
   8173
 scsi: |
-  SanDisk SDSSDP06 Rev: 0   
+  SanDisk SDSSDP06 Rev: 0
   DVD A  DS8A5S    Rev: WX13
 usb: |
   3

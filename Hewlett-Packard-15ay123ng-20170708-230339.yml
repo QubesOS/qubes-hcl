@@ -37,7 +37,7 @@ network: |
 memory: |
   7980
 scsi: |
-  KingDian S280-24 Rev: 5A  
+  KingDian S280-24 Rev: 5A
   DVDRW GUD1N      Rev: MD00
 usb: |
   1

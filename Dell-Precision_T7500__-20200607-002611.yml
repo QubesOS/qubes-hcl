@@ -16,7 +16,7 @@ remap:
 brand: |
   Dell
 model: |
-  Precision T7500  
+  Precision T7500
 bios: |
   A17
 cpu: |
@@ -55,7 +55,7 @@ versions:
   kernel: |
     4.19.107-1
   remark: |
-    
+
   credit: |
     12345
   link: |
