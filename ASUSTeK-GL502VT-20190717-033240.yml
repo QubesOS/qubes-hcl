@@ -37,26 +37,25 @@ network: |
 memory: |
   12024
 scsi: |
-  SanDisk SD6SP1M1 Rev: 202 
+  SanDisk SD6SP1M1 Rev: 202
   HGST HTS721010A9 Rev: A3J0
 usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-7.fc25
-  kernel: |
-    4.14.119-2
-  remark: |
-    Turn secure boot off, use non-uefi install option
-  credit: |
-    Sphinx.py
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/dQVW4vnEEPfTO4uDfBxkG4yYnJm_h1wke-HDDMktEUwOl0ARGG_quXFmKx0Qoh-ATQmj8WudJ6DP9xrI69tvIVjMIrhwUFOJnpHh37yOf-k%3D%40protonmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-7.fc25
+    kernel: |
+      4.14.119-2
+    remark: |
+      Turn secure boot off, use non-uefi install option
+    credit: |
+      Sphinx.py
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/dQVW4vnEEPfTO4uDfBxkG4yYnJm_h1wke-HDDMktEUwOl0ARGG_quXFmKx0Qoh-ATQmj8WudJ6DP9xrI69tvIVjMIrhwUFOJnpHh37yOf-k%3D%40protonmail.com
 
 ---
-

@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.19.8-100
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/ogKupxioIAQ/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    Fabrizio
-  link: |
-    https://groups.google.com/d/msg/qubes-users/ogKupxioIAQ/If5BNk9xDwAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.19.8-100
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/ogKupxioIAQ/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      Fabrizio
+    link: |
+      https://groups.google.com/d/msg/qubes-users/ogKupxioIAQ/If5BNk9xDwAJ
 
 ---
-

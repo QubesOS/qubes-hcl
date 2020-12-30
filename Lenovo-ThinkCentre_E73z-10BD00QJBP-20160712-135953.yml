@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    
-  credit: |
-    Gustavo Lapido Loureiro
-  link: |
-    https://groups.google.com/d/msg/qubes-users/siGNz4wFn3U/6kUK_4huBgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+
+    credit: |
+      Gustavo Lapido Loureiro
+    link: |
+      https://groups.google.com/d/msg/qubes-users/siGNz4wFn3U/6kUK_4huBgAJ
 
 ---
-

@@ -37,20 +37,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.3
-  kernel: |
-    3.19.8-100
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/oKzln8n50Ro/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    Thomas Fleming
-  link: |
-    https://groups.google.com/d/msg/qubes-users/oKzln8n50Ro/nwYeCHZVBAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.3
+    kernel: |
+      3.19.8-100
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/oKzln8n50Ro/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      Thomas Fleming
+    link: |
+      https://groups.google.com/d/msg/qubes-users/oKzln8n50Ro/nwYeCHZVBAAJ
 
 ---
-

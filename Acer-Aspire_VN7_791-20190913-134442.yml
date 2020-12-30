@@ -44,20 +44,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-7.fc25
-  kernel: |
-    4.19.67-1
-  remark: |
-    Everything works
-  credit: |
-    chipspru
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/c2a5b943-6516-493c-9341-cd2e7231de32%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-7.fc25
+    kernel: |
+      4.19.67-1
+    remark: |
+      Everything works
+    credit: |
+      chipspru
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/c2a5b943-6516-493c-9341-cd2e7231de32%40googlegroups.com
 
 ---
-

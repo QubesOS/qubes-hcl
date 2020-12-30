@@ -16,55 +16,54 @@ model: |
 bios: |
   2.5.1
 cpu: |
-  
+
 cpu-short: |
   i5-3320M
 chipset: |
-  
+
 chipset-short: |
   Ivy Bridge
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R1
-  xen: |
-    
-  kernel: |
-    
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/XN6JrEXVOVA/lkxGRA00EqgJ'><span class='icon'></span>read more</a>
-  credit: |
-    Chris
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/XN6JrEXVOVA/lkxGRA00EqgJ
+  - works:
+      'yes'
+    qubes: |
+      R1
+    xen: |
 
-- works:
-    'partial'
-  qubes: |
-    R2B2
-  xen: |
-    4.1.5
-  kernel: |
-    3.7.6-2
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/hf0vkL3TE7k/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    mgflax
-  link: |
-    https://groups.google.com/d/msg/qubes-users/hf0vkL3TE7k/VOtrW3wEbtMJ
+    kernel: |
+
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/XN6JrEXVOVA/lkxGRA00EqgJ'><span class='icon'></span>read more</a>
+    credit: |
+      Chris
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/XN6JrEXVOVA/lkxGRA00EqgJ
+
+  - works:
+      'partial'
+    qubes: |
+      R2B2
+    xen: |
+      4.1.5
+    kernel: |
+      3.7.6-2
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/hf0vkL3TE7k/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      mgflax
+    link: |
+      https://groups.google.com/d/msg/qubes-users/hf0vkL3TE7k/VOtrW3wEbtMJ
 
 ---
-

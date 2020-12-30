@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.19.8-100
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/TRfxFkCl5pg/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    JWH
-  link: |
-    https://groups.google.com/d/msg/qubes-users/TRfxFkCl5pg/4P7Q_KQ0CgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.19.8-100
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/TRfxFkCl5pg/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      JWH
+    link: |
+      https://groups.google.com/d/msg/qubes-users/TRfxFkCl5pg/4P7Q_KQ0CgAJ
 
 ---
-

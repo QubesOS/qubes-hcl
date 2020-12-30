@@ -46,49 +46,49 @@ usb: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    Major graphics issues because of old Linux kernel. Some workarounds where required for Grub and the NVMe SSD. <a class='ext-link' href='https://groups.google.com/forum/#!msg/qubes-users/BQpFjqUgohs/3KvopyqvCAAJ'><span class='icon'></span>Read more</a>.
-  credit: |
-    ypid
-  link: |
-    https://groups.google.com/forum/#!msg/qubes-users/BQpFjqUgohs/3KvopyqvCAAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      Major graphics issues because of old Linux kernel. Some workarounds where required for Grub and the NVMe SSD. <a class='ext-link' href='https://groups.google.com/forum/#!msg/qubes-users/BQpFjqUgohs/3KvopyqvCAAJ'><span class='icon'></span>Read more</a>.
+    credit: |
+      ypid
+    link: |
+      https://groups.google.com/forum/#!msg/qubes-users/BQpFjqUgohs/3KvopyqvCAAJ
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.8.12-12
-  remark: |
-    R3.2 can not be installed directly but upgrade from R3.1 to R3.2 works. <a class='ext-link' href='https://groups.google.com/forum/#!msg/qubes-users/BQpFjqUgohs/3KvopyqvCAAJ'><span class='icon'></span>Read more</a>.
-  credit: |
-    ypid
-  link: |
-    https://groups.google.com/forum/#!msg/qubes-users/BQpFjqUgohs/3KvopyqvCAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.8.12-12
+    remark: |
+      R3.2 can not be installed directly but upgrade from R3.1 to R3.2 works. <a class='ext-link' href='https://groups.google.com/forum/#!msg/qubes-users/BQpFjqUgohs/3KvopyqvCAAJ'><span class='icon'></span>Read more</a>.
+    credit: |
+      ypid
+    link: |
+      https://groups.google.com/forum/#!msg/qubes-users/BQpFjqUgohs/3KvopyqvCAAJ
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.35-1
-  remark: |
-    Works without issues in UEFI mode. Does not boot in legacy boot mode/CSM which rules out AEM! <a class='ext-link' href='https://groups.google.com/forum/#!topic/qubes-users/iltyDL9QufQ'><span class='icon'></span>Read more</a>.
-  credit: |
-    ypid
-  link: |
-    https://groups.google.com/forum/#!topic/qubes-users/iltyDL9QufQ
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.35-1
+    remark: |
+      Works without issues in UEFI mode. Does not boot in legacy boot mode/CSM which rules out AEM! <a class='ext-link' href='https://groups.google.com/forum/#!topic/qubes-users/iltyDL9QufQ'><span class='icon'></span>Read more</a>.
+    credit: |
+      ypid
+    link: |
+      https://groups.google.com/forum/#!topic/qubes-users/iltyDL9QufQ
 
 ---

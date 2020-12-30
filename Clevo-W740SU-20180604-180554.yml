@@ -43,20 +43,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.35-1
-  remark: |
-    Suspend works
-  credit: |
-    Aret Tera
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/83394236.59.1556731756058%40ox3.dofishswim.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.35-1
+    remark: |
+      Suspend works
+    credit: |
+      Aret Tera
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/83394236.59.1556731756058%40ox3.dofishswim.com
 
 ---
-

@@ -35,25 +35,24 @@ network: |
 memory: |
   8073
 scsi: |
-  Toshiba MQ01ABD1 Rev: 2H  
+  Toshiba MQ01ABD1 Rev: 2H
   DVD-RAM UJ8D3    Rev: 1.00
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.38-11
-  remark: |
-    IOMMU discussion, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/aiaTUJV0wGA/ZbgWRyKsAwAJ'><span class='icon'></span>read more</a>
-  credit: |
-    r.florio
-  link: |
-    https://groups.google.com/d/msg/qubes-users/aiaTUJV0wGA/ZbgWRyKsAwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.38-11
+    remark: |
+      IOMMU discussion, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/aiaTUJV0wGA/ZbgWRyKsAwAJ'><span class='icon'></span>read more</a>
+    credit: |
+      r.florio
+    link: |
+      https://groups.google.com/d/msg/qubes-users/aiaTUJV0wGA/ZbgWRyKsAwAJ
 
 ---
-

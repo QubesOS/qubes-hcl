@@ -43,20 +43,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-5.fc25
-  kernel: |
-    4.14.103-1
-  remark: |
-    Had to remove PCI devices from sys-net.
-  credit: |
-    Aret Tera
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/83394236.59.1556731756058%40ox3.dofishswim.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-5.fc25
+    kernel: |
+      4.14.103-1
+    remark: |
+      Had to remove PCI devices from sys-net.
+    credit: |
+      Aret Tera
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/83394236.59.1556731756058%40ox3.dofishswim.com
 
 ---
-

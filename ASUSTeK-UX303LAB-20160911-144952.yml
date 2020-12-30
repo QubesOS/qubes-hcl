@@ -32,24 +32,23 @@ network: |
 memory: |
   7995
 scsi: |
-  Toshiba MQ01ABF0 Rev: 1J  
+  Toshiba MQ01ABF0 Rev: 1J
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.1
-  kernel: |
-    4.1.24-10
-  remark: |
-    
-  credit: |
-    Fanilo
-  link: |
-    https://groups.google.com/d/msg/qubes-users/M2jmWR0u4xY/Fa39jRpHBQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.1
+    kernel: |
+      4.1.24-10
+    remark: |
+
+    credit: |
+      Fanilo
+    link: |
+      https://groups.google.com/d/msg/qubes-users/M2jmWR0u4xY/Fa39jRpHBQAJ
 
 ---
-

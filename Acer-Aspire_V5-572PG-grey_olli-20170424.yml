@@ -38,26 +38,25 @@ memory: |
   6025
 scsi: |
   ST320LT020-9YG14 Rev: SDM1
-  SanDisk SD6SF1M1 Rev: 200 
+  SanDisk SD6SF1M1 Rev: 200
   External USB HDD Rev: 1.03
 usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    
-  credit: |
-    Oleg Artemiev
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CABunX6MfunMa_mxwfv_R1Qxu%3DTfEZfFm_X%2BDFRDsiG-UNz1O3g%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+
+    credit: |
+      Oleg Artemiev
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CABunX6MfunMa_mxwfv_R1Qxu%3DTfEZfFm_X%2BDFRDsiG-UNz1O3g%40mail.gmail.com
 
 ---
-

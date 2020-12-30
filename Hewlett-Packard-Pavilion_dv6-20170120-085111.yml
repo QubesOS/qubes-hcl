@@ -40,20 +40,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.4
-  kernel: |
-    4.8.12-12
-  remark: |
-    IOMMU and RAM issues
-  credit: |
-    qubeshcldv6
-  link: |
-    https://groups.google.com/forum/#!msg/qubes-users/3cWVLMtZTH4/eiDIE-sPCgAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.4
+    kernel: |
+      4.8.12-12
+    remark: |
+      IOMMU and RAM issues
+    credit: |
+      qubeshcldv6
+    link: |
+      https://groups.google.com/forum/#!msg/qubes-users/3cWVLMtZTH4/eiDIE-sPCgAJ
 
 ---
-

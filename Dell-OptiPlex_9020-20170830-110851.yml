@@ -38,25 +38,24 @@ memory: |
 scsi: |
   WDC WD5000AAKX-7 Rev: 1H20
   DVD+-RW DH-16AES Rev: 3D11
-  
+
 usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.35-20
-  remark: |
-    
-  credit: |
-    Largentula
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/fa9c26c33ff9e72b46d2da4a32b86c88%40turlan.org
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.35-20
+    remark: |
+
+    credit: |
+      Largentula
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/fa9c26c33ff9e72b46d2da4a32b86c88%40turlan.org
 
 ---
-

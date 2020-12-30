@@ -14,42 +14,41 @@ brand: |
 model: |
   ThinkPad W510
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
   i7-Q820
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
   nVidia
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R1
-  xen: |
-    
-  kernel: |
-    
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/TgDWwBs36yA/IUFZPHs716cJ'><span class='icon'></span>read more</a>
-  credit: |
-    Sebastian Hültenschmidt
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/TgDWwBs36yA/IUFZPHs716cJ
+  - works:
+      'yes'
+    qubes: |
+      R1
+    xen: |
+
+    kernel: |
+
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/TgDWwBs36yA/IUFZPHs716cJ'><span class='icon'></span>read more</a>
+    credit: |
+      Sebastian Hültenschmidt
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/TgDWwBs36yA/IUFZPHs716cJ
 
 ---
-

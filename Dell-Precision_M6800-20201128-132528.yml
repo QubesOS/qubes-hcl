@@ -45,20 +45,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-25.fc25
-  kernel: |
-    4.19.155-1
-  remark: |
-    
-  credit: |
-    Jason ZenRiot
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CACY%2BnWDDGth_VdeSJekvTewJhrDmNSi7t7OakqOvj_MwhGU6gQ%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-25.fc25
+    kernel: |
+      4.19.155-1
+    remark: |
+
+    credit: |
+      Jason ZenRiot
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CACY%2BnWDDGth_VdeSJekvTewJhrDmNSi7t7OakqOvj_MwhGU6gQ%40mail.gmail.com
 
 ---
-

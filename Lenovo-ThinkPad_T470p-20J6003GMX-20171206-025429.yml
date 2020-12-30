@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.2
-  kernel: |
-    4.9.56-21
-  remark: |
-    Disable secure boot and use rEFInd to install. Shutdown, sleep and screen issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAOnYue_jwFLsWxJ3f4AXKeGJDZA2Auui%3DsP8r%2B7CnB5U0%3Da0OQ%40mail.gmail.com'><span class='icon'></span>read more</a>.
-  credit: |
-    Josef Johansson
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAOnYue_jwFLsWxJ3f4AXKeGJDZA2Auui%3DsP8r%2B7CnB5U0%3Da0OQ%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.2
+    kernel: |
+      4.9.56-21
+    remark: |
+      Disable secure boot and use rEFInd to install. Shutdown, sleep and screen issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAOnYue_jwFLsWxJ3f4AXKeGJDZA2Auui%3DsP8r%2B7CnB5U0%3Da0OQ%40mail.gmail.com'><span class='icon'></span>read more</a>.
+    credit: |
+      Josef Johansson
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAOnYue_jwFLsWxJ3f4AXKeGJDZA2Auui%3DsP8r%2B7CnB5U0%3Da0OQ%40mail.gmail.com
 
 ---
-

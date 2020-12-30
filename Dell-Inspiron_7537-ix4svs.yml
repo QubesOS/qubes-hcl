@@ -37,20 +37,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3rc1
-  xen: |
-    4.4.2
-  kernel: |
-    3.18.10-2
-  remark: |
-    bus reset issue with wired network
-  credit: |
-    IX4 SVS
-  link: |
-    https://groups.google.com/d/msg/qubes-users/nRn3P1Zuw_8/x6bDka-3poUJ
+  - works:
+      'yes'
+    qubes: |
+      R3rc1
+    xen: |
+      4.4.2
+    kernel: |
+      3.18.10-2
+    remark: |
+      bus reset issue with wired network
+    credit: |
+      IX4 SVS
+    link: |
+      https://groups.google.com/d/msg/qubes-users/nRn3P1Zuw_8/x6bDka-3poUJ
 
 ---
-

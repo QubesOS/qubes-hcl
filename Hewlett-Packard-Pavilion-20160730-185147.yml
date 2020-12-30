@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
 chipset-short: |
-  Broadwell-U 
+  Broadwell-U
 gpu: |
   Intel Corporation Iris Graphics 6100 [8086:162b] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
@@ -33,25 +33,24 @@ network: |
 memory: |
   8120
 scsi: |
-  Toshiba MQ01ABD1 Rev: 2C  
+  Toshiba MQ01ABD1 Rev: 2C
   DVDRW GUD1N      Rev: MD00
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Everything works
-  credit: |
-    anon
-  link: |
-    https://groups.google.com/d/msg/qubes-users/Wu_NUhrCN8A/2etjhfL1CwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Everything works
+    credit: |
+      anon
+    link: |
+      https://groups.google.com/d/msg/qubes-users/Wu_NUhrCN8A/2etjhfL1CwAJ
 
 ---
-

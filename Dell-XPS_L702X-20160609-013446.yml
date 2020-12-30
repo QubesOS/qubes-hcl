@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    had sound problems, resolved by running in dom0 terminal `sudo alsactl init`
-  credit: |
-    Tom
-  link: |
-    https://github.com/tomck
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      had sound problems, resolved by running in dom0 terminal `sudo alsactl init`
+    credit: |
+      Tom
+    link: |
+      https://github.com/tomck
 
 ---
-

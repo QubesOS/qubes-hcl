@@ -38,25 +38,24 @@ memory: |
   7879
 scsi: |
   ST1000LM035-1RK1 Rev: SBM3
-  SAMSWEET SSD NV6 Rev: 1B  
+  SAMSWEET SSD NV6 Rev: 1B
 usb: |
   2
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-7.fc25
-  kernel: |
-    4.19.43-1
-  remark: |
-    Max RAM is 8G
-  credit: |
-    rss_qubes
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/20190805175252.4582a554%40armor-mail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-7.fc25
+    kernel: |
+      4.19.43-1
+    remark: |
+      Max RAM is 8G
+    credit: |
+      rss_qubes
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/20190805175252.4582a554%40armor-mail.com
 
 ---
-

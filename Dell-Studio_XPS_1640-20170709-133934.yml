@@ -40,20 +40,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.4.62-12
-  remark: |
-    
-  credit: |
-    Eric Duncan
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/3709a819-7b86-4d1f-aade-a015ea751ced%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.4.62-12
+    remark: |
+
+    credit: |
+      Eric Duncan
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/3709a819-7b86-4d1f-aade-a015ea751ced%40googlegroups.com
 
 ---
-

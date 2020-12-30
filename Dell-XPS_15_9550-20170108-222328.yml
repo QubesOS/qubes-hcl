@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.31-11
-  remark: |
-    replaced Broadcom wifi with Intel 8265
-  credit: |
-    bbrr3332
-  link: |
-    https://groups.google.com/forum/#!msg/qubes-users/HX9RYVT_Dyg/UGZZPSmNBgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.31-11
+    remark: |
+      replaced Broadcom wifi with Intel 8265
+    credit: |
+      bbrr3332
+    link: |
+      https://groups.google.com/forum/#!msg/qubes-users/HX9RYVT_Dyg/UGZZPSmNBgAJ
 
 ---
-

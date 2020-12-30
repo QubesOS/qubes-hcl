@@ -40,20 +40,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.19.8-100
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.19.8-100
+    remark: |
 
-  credit: |
-    AnonRonJon
-  link: |
-    https://groups.google.com/d/msg/qubes-users/bisYw4_bpbY/E7kS0CQQBwAJ
+    credit: |
+      AnonRonJon
+    link: |
+      https://groups.google.com/d/msg/qubes-users/bisYw4_bpbY/E7kS0CQQBwAJ
 
 ---
-

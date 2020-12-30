@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.4
-  kernel: |
-    4.4.55-11
-  remark: |
-    
-  credit: |
-    Steven Sheffey
-  link: |
-    https://groups.google.com/d/msg/qubes-users/-RS36hqyllU/6c466WLIBQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.4
+    kernel: |
+      4.4.55-11
+    remark: |
+
+    credit: |
+      Steven Sheffey
+    link: |
+      https://groups.google.com/d/msg/qubes-users/-RS36hqyllU/6c466WLIBQAJ
 
 ---
-

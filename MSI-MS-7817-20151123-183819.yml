@@ -33,7 +33,7 @@ network: |
 memory: |
   8053
 scsi: |
-  TS128GSSD370S    Rev: 4H  
+  TS128GSSD370S    Rev: 4H
   Hitachi HTS72755 Rev: A0E0
   ST1000DM003-1ER1 Rev: CC45
   ST3500418AS      Rev: CC38
@@ -41,20 +41,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.3
-  kernel: |
-    3.19.8-100
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/t8Is6z5rTsA/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    Amarnath Maddireddy
-  link: |
-    https://groups.google.com/d/msg/qubes-users/t8Is6z5rTsA/lHjCP5zYFQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.3
+    kernel: |
+      3.19.8-100
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/t8Is6z5rTsA/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      Amarnath Maddireddy
+    link: |
+      https://groups.google.com/d/msg/qubes-users/t8Is6z5rTsA/lHjCP5zYFQAJ
 
 ---
-

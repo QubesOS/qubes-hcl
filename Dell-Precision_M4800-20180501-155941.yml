@@ -44,20 +44,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    Everything works except 4K graphics.
-  credit: |
-    Benoit Rebillion
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/oq1zIrbekETcrjPtUZly22Vfq3P0dfWA8waGEhVPaoIhbK3mghuWPGQXx6vFVS5MF9z2-19k0RV9CgSuRKbrmtOH9ovT46A_bBoduuJ0CpY%3D%40protonmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+      Everything works except 4K graphics.
+    credit: |
+      Benoit Rebillion
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/oq1zIrbekETcrjPtUZly22Vfq3P0dfWA8waGEhVPaoIhbK3mghuWPGQXx6vFVS5MF9z2-19k0RV9CgSuRKbrmtOH9ovT46A_bBoduuJ0CpY%3D%40protonmail.com
 
 ---
-

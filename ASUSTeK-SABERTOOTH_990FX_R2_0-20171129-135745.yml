@@ -47,20 +47,19 @@ usb: |
   10
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.2
-  kernel: |
-    4.9.56-21
-  remark: |
-    Everything works
-  credit: |
-    Sergio Matta
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/2a850752-fe00-4887-8632-59d5f774e119%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.2
+    kernel: |
+      4.9.56-21
+    remark: |
+      Everything works
+    credit: |
+      Sergio Matta
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/2a850752-fe00-4887-8632-59d5f774e119%40googlegroups.com
 
 ---
-

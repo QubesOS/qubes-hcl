@@ -41,19 +41,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    Didn't work with iGPU, added R7 GPU. Enabled all virt options and ftpm.
-  credit: |
-    stefan neuhaus
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CA%2B3ek4ZDsbtMpWTC2j4m1f7agKS-Pts8RgoVY95sFxhJVyQPqg%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      Didn't work with iGPU, added R7 GPU. Enabled all virt options and ftpm.
+    credit: |
+      stefan neuhaus
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CA%2B3ek4ZDsbtMpWTC2j4m1f7agKS-Pts8RgoVY95sFxhJVyQPqg%40mail.gmail.com
 
 ---

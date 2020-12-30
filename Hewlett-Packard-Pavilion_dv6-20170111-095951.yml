@@ -40,20 +40,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.31-11
-  remark: |
-    Problem with USB mouse.
-  credit: |
-    nonhero
-  link: |
-    https://groups.google.com/d/msg/qubes-users/T3i2lSleIbY/9mlys4dJBwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.31-11
+    remark: |
+      Problem with USB mouse.
+    credit: |
+      nonhero
+    link: |
+      https://groups.google.com/d/msg/qubes-users/T3i2lSleIbY/9mlys4dJBwAJ
 
 ---
-

@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.4.67-13
-  remark: |
-    Disabled secure boot. Wifi needs newer template.
-  credit: |
-    Timon Orawski
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CACMYrpHBN1TH%2B9zYyi-Kds%3DDmfTUsDB2ZXUMQ3aZE2-YYMa12A%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.4.67-13
+    remark: |
+      Disabled secure boot. Wifi needs newer template.
+    credit: |
+      Timon Orawski
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CACMYrpHBN1TH%2B9zYyi-Kds%3DDmfTUsDB2ZXUMQ3aZE2-YYMa12A%40mail.gmail.com
 
 ---
-

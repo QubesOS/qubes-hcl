@@ -41,20 +41,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.57-1
-  remark: |
-    Works fine.
-  credit: |
-    Mykola Perehinets
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/12170b3e-2da6-d32d-a054-6f2f6e464cdf%40gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.57-1
+    remark: |
+      Works fine.
+    credit: |
+      Mykola Perehinets
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/12170b3e-2da6-d32d-a054-6f2f6e464cdf%40gmail.com
 
 ---
-

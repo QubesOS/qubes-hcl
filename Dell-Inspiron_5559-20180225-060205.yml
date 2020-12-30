@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.56-21
-  remark: |
-    Intermittant audio issues
-  credit: |
-    tempqube
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/8c7fcc54d0d3cb3b710acc06cd3c7965%40airmail.cc
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.56-21
+    remark: |
+      Intermittant audio issues
+    credit: |
+      tempqube
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/8c7fcc54d0d3cb3b710acc06cd3c7965%40airmail.cc
 
 ---
-

@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-   
-  credit: |
-    Pawel Krawczyk
-  link: |
-    https://groups.google.com/d/msg/qubes-users/OeOxN3WZUE4/nP6HPqAVDAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+
+    credit: |
+      Pawel Krawczyk
+    link: |
+      https://groups.google.com/d/msg/qubes-users/OeOxN3WZUE4/nP6HPqAVDAAJ
 
 ---
-

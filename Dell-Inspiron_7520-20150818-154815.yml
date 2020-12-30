@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.19.8-100
-  remark: |
-    
-  credit: |
-    Time ToGo
-  link: |
-    https://groups.google.com/d/msg/qubes-users/i5zaAP-ENHk/Lm_GPOK3AgAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.19.8-100
+    remark: |
+
+    credit: |
+      Time ToGo
+    link: |
+      https://groups.google.com/d/msg/qubes-users/i5zaAP-ENHk/Lm_GPOK3AgAJ
 
 ---
-

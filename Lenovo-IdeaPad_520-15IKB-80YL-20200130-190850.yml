@@ -37,26 +37,25 @@ network: |
 memory: |
   20261
 scsi: |
-  KingDian S280 48 Rev: 6A  
+  KingDian S280 48 Rev: 6A
   ST2000LM015-2E81 Rev: SDM1
 usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-14.fc25
-  kernel: |
-    4.19.94-1
-  remark: |
-    
-  credit: |
-    ase11
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/LzreVd6--3-2%40keemail.me
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.94-1
+    remark: |
+
+    credit: |
+      ase11
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/LzreVd6--3-2%40keemail.me
 
 ---
-

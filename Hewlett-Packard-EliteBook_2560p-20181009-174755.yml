@@ -42,20 +42,19 @@ usb: |
   2
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.14.67-1
-  remark: |
-    Suspend sys-net conflict. Also runs R4.0.
-  credit: |
-    Tom
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/0f3b7c56-e800-3378-76d6-c6215ab762dc%40bpam.uk
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.14.67-1
+    remark: |
+      Suspend sys-net conflict. Also runs R4.0.
+    credit: |
+      Tom
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/0f3b7c56-e800-3378-76d6-c6215ab762dc%40bpam.uk
 
 ---
-

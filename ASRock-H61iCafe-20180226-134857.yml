@@ -44,20 +44,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.13-3
-  remark: |
-    Requires kernel 4.14.13 to boot
-  credit: |
-    John Reese
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/696984232.202268.1519639256350%40ichabod.co-bxl
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.13-3
+    remark: |
+      Requires kernel 4.14.13 to boot
+    credit: |
+      John Reese
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/696984232.202268.1519639256350%40ichabod.co-bxl
 
 ---
-

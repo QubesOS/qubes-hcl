@@ -16,7 +16,7 @@ remap:
 brand: |
   Dell
 model: |
-  Precision T7500  
+  Precision T7500
 bios: |
   A17
 cpu: |
@@ -46,20 +46,19 @@ usb: |
   8
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-16.fc25
-  kernel: |
-    4.19.107-1
-  remark: |
-    
-  credit: |
-    12345
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/41-5edc3580-35-6e433c00%40233197339
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-16.fc25
+    kernel: |
+      4.19.107-1
+    remark: |
+
+    credit: |
+      12345
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/41-5edc3580-35-6e433c00%40233197339
 
 ---
-

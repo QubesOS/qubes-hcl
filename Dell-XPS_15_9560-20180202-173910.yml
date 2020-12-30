@@ -41,20 +41,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.13-2
-  remark: |
-    needed Kernel parameter modprobe.blacklist=nouveau
-  credit: |
-    hotratz04
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/ec7eb33f-436b-4e8e-a8a3-74ca52ee31b6%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.13-2
+    remark: |
+      needed Kernel parameter modprobe.blacklist=nouveau
+    credit: |
+      hotratz04
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/ec7eb33f-436b-4e8e-a8a3-74ca52ee31b6%40googlegroups.com
 
 ---
-

@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-6.fc25
-  kernel: |
-    5.1.2-1
-  remark: |
-    Disabled secure boot. System hangs on reboot.
-  credit: |
-    Sepimus Argus
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAEdSov7JHsU1wD0Q7kc7hGLzQ306fxJcK5v9ZkkatwfUd49gVQ%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-6.fc25
+    kernel: |
+      5.1.2-1
+    remark: |
+      Disabled secure boot. System hangs on reboot.
+    credit: |
+      Sepimus Argus
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAEdSov7JHsU1wD0Q7kc7hGLzQ306fxJcK5v9ZkkatwfUd49gVQ%40mail.gmail.com
 
 ---
-

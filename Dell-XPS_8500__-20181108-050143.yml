@@ -16,7 +16,7 @@ remap:
 brand: |
   Dell
 model: |
-  XPS 8500  
+  XPS 8500
 bios: |
   A11
 cpu: |
@@ -47,20 +47,19 @@ usb: |
   3
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    Suspend and ethernet conflict.
-  credit: |
-    Iam Iams
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/trinity-5aed3c65-7f71-4947-a8be-a0a6052c8261-1541673063066%403c-app-mailcom-lxa04
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+      Suspend and ethernet conflict.
+    credit: |
+      Iam Iams
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/trinity-5aed3c65-7f71-4947-a8be-a0a6052c8261-1541673063066%403c-app-mailcom-lxa04
 
 ---
-

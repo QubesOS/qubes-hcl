@@ -16,70 +16,69 @@ model: |
 bios: |
   06LY.M038. 20091110.JIP
 cpu: |
-  
+
 cpu-short: |
   P8600
 chipset: |
-  
+
 chipset-short: |
   PM45
 gpu: |
-  
+
 gpu-short: |
   GeForce 9200M GS
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R1
-  xen: |
-    
-  kernel: |
-    
-  remark: |
-    
-  credit: |
-    Qubes core developers
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
+  - works:
+      'partial'
+    qubes: |
+      R1
+    xen: |
 
-- works:
-    'partial'
-  qubes: |
-    R2B1
-  xen: |
-    
-  kernel: |
-    
-  remark: |
-    
-  credit: |
-    Qubes core developers
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
+    kernel: |
 
-- works:
-    'yes'
-  qubes: |
-    R2B3
-  xen: |
-    
-  kernel: |
-    3.11.1-2
-  remark: |
-    
-  credit: |
-    marmarek (Qubes core developer)
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
+    remark: |
+
+    credit: |
+      Qubes core developers
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
+
+  - works:
+      'partial'
+    qubes: |
+      R2B1
+    xen: |
+
+    kernel: |
+
+    remark: |
+
+    credit: |
+      Qubes core developers
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
+
+  - works:
+      'yes'
+    qubes: |
+      R2B3
+    xen: |
+
+    kernel: |
+      3.11.1-2
+    remark: |
+
+    credit: |
+      marmarek (Qubes core developer)
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/S-leNH8AYsU/WL_XdNAhBkQJ
 
 ---
-

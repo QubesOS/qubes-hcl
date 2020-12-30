@@ -38,26 +38,25 @@ memory: |
   16212
 scsi: |
   Micron_1100_MTFD Rev: U020
-  SSDPR-CL100-240  Rev: 9   
+  SSDPR-CL100-240  Rev: 9
   DVD+-RW GT80N    Rev: A103
 usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    
-  credit: |
-    Michal Zygowski
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/79384932-5178-4c00-cd8a-1d01d3c2b944%403mdeb.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+
+    credit: |
+      Michal Zygowski
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/79384932-5178-4c00-cd8a-1d01d3c2b944%403mdeb.com
 
 ---
-

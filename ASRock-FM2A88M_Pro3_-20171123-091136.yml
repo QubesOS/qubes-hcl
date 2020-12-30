@@ -38,7 +38,7 @@ memory: |
   31681
 scsi: |
   Toshiba THNSNJ12 Rev: 0101
-  ST3500630AS      Rev: E   
+  ST3500630AS      Rev: E
   ST500DM002-1BD14 Rev: KC45
   WD My Book       Rev: 1A01
   Ultra            Rev: 1.00
@@ -48,20 +48,19 @@ usb: |
   7
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.2
-  kernel: |
-    4.9.56-21
-  remark: |
-    Good stability
-  credit: |
-    William Bormann
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/bba2f7f6-3e6c-456a-b19b-b86c6d507762%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.2
+    kernel: |
+      4.9.56-21
+    remark: |
+      Good stability
+    credit: |
+      William Bormann
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/bba2f7f6-3e6c-456a-b19b-b86c6d507762%40googlegroups.com
 
 ---
-

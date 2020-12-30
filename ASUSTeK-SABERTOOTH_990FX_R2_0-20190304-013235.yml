@@ -51,20 +51,19 @@ usb: |
   10
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5
-  kernel: |
-    4.19.15-1
-  remark: |
-    Changed CPU & GPU
-  credit: |
-    Sergio Matta
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/4f43c5fc-41d3-4b0c-a30d-25650b9b5c88%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5
+    kernel: |
+      4.19.15-1
+    remark: |
+      Changed CPU & GPU
+    credit: |
+      Sergio Matta
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/4f43c5fc-41d3-4b0c-a30d-25650b9b5c88%40googlegroups.com
 
 ---
-

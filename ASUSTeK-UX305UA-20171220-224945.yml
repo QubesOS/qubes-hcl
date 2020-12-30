@@ -41,20 +41,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.2
-  kernel: |
-    4.9.56-21
-  remark: |
-    Enable legacy CSM and disable secure boot
-  credit: |
-    Jason Dreyzehner
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/b5e7712c-a650-1fd2-d239-801735e929ec%40dreyzehner.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.2
+    kernel: |
+      4.9.56-21
+    remark: |
+      Enable legacy CSM and disable secure boot
+    credit: |
+      Jason Dreyzehner
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/b5e7712c-a650-1fd2-d239-801735e929ec%40dreyzehner.com
 
 ---
-

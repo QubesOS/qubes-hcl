@@ -41,20 +41,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Needs 'modprobe iwlwifi' to detect Wifi
-  credit: |
-    Ken R
-  link: |
-    https://groups.google.com/d/msg/qubes-users/ielbj7cHD1w/5jNt1aRyAAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Needs 'modprobe iwlwifi' to detect Wifi
+    credit: |
+      Ken R
+    link: |
+      https://groups.google.com/d/msg/qubes-users/ielbj7cHD1w/5jNt1aRyAAAJ
 
 ---
-

@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.13-3
-  remark: |
-    Graphics workaround,  <a class='ext-link' href='https://groups.google.com/forum/#%21msg/qubes-users/YjNkEM1srSk/ljMSWgNTBAAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Krišjānis Gross
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CA%2BbLPogPufk7veLDtF73DBOSDu8n%2B3QPEB81-25TmHywO9HARQ%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.13-3
+    remark: |
+      Graphics workaround,  <a class='ext-link' href='https://groups.google.com/forum/#%21msg/qubes-users/YjNkEM1srSk/ljMSWgNTBAAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Krišjānis Gross
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CA%2BbLPogPufk7veLDtF73DBOSDu8n%2B3QPEB81-25TmHywO9HARQ%40mail.gmail.com
 
 ---
-

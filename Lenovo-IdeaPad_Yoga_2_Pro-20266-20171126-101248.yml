@@ -41,20 +41,19 @@ usb: |
   2
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.56-21
-  remark: |
-    
-  credit: |
-    dylen@riseup.net
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/8c6ebca50c4f1133d087c4b15764af3c%40riseup.net
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.56-21
+    remark: |
+
+    credit: |
+      dylen@riseup.net
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/8c6ebca50c4f1133d087c4b15764af3c%40riseup.net
 
 ---
-

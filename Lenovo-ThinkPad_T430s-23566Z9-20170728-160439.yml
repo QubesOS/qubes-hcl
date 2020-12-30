@@ -43,20 +43,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.4.67-13
-  remark: |
-    upgrade Bios for IOMMU ok
-  credit: |
-    Largentula
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/fb85675e535872dab49e510e0ae1ed73%40turlan.org
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.4.67-13
+    remark: |
+      upgrade Bios for IOMMU ok
+    credit: |
+      Largentula
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/fb85675e535872dab49e510e0ae1ed73%40turlan.org
 
 ---
-

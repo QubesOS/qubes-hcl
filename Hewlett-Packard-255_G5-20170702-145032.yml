@@ -44,20 +44,19 @@ usb: |
   3
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.4.67-13
-  remark: |
-    Suspend to RAM and DispVM not working, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/EsDkh2m48Tg/o0wqn1VJBAAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Dennis Olivetti
-  link: |
-    https://groups.google.com/d/msg/qubes-users/EsDkh2m48Tg/o0wqn1VJBAAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.4.67-13
+    remark: |
+      Suspend to RAM and DispVM not working, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/EsDkh2m48Tg/o0wqn1VJBAAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Dennis Olivetti
+    link: |
+      https://groups.google.com/d/msg/qubes-users/EsDkh2m48Tg/o0wqn1VJBAAJ
 
 ---
-

@@ -43,20 +43,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.12-9
-  remark: |
-    
-  credit: |
-    qubes crazy
-  link: |
-    https://groups.google.com/d/msg/qubes-users/aIX23ygkyhY/kH87YORPAwAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.12-9
+    remark: |
+
+    credit: |
+      qubes crazy
+    link: |
+      https://groups.google.com/d/msg/qubes-users/aIX23ygkyhY/kH87YORPAwAJ
 
 ---
-

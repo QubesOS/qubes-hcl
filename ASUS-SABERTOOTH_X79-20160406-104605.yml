@@ -32,26 +32,25 @@ network: |
 memory: |
   16317
 scsi: |
-  SanDisk SDSSDXP4 Rev: 1   
+  SanDisk SDSSDXP4 Rev: 1
   OCZ-VECTOR180    Rev: 1.01
   DVDRAM GH24NSB0  Rev: LN01
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/jximO5CasCY/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    anonymous
-  link: |
-    https://groups.google.com/d/msg/qubes-users/jximO5CasCY/XJfPgdi9BQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/jximO5CasCY/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      anonymous
+    link: |
+      https://groups.google.com/d/msg/qubes-users/jximO5CasCY/XJfPgdi9BQAJ
 
 ---
-

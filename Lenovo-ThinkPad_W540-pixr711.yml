@@ -41,19 +41,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.38-11
-  remark: |
-    
-  credit: |
-    pixr711
-  link: |
-    https://groups.google.com/d/msg/qubes-users/UlrXF5QRZ8U/8gkOgOLoAgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.38-11
+    remark: |
+
+    credit: |
+      pixr711
+    link: |
+      https://groups.google.com/d/msg/qubes-users/UlrXF5QRZ8U/8gkOgOLoAgAJ
 
 ---

@@ -50,20 +50,19 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    Used sys-net kernelopts "pci=nomsi"
-  credit: |
-    Damon Permezel
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/D1AB0E07-3E4F-4BA3-9A66-BD1E39609B69%40me.com
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+      Used sys-net kernelopts "pci=nomsi"
+    credit: |
+      Damon Permezel
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/D1AB0E07-3E4F-4BA3-9A66-BD1E39609B69%40me.com
 
 ---
-

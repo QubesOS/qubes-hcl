@@ -33,25 +33,24 @@ network: |
 memory: |
   8119
 scsi: |
-  ADATA SP900      Rev: 2   
+  ADATA SP900      Rev: 2
   DVD RW AD-7711H  Rev: 1.81
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    R3.0 works, but R3.1 has install and boot errors, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/rT7eOKMf6ok/mnzjmTqzAgAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Drew White
-  link: |
-    https://groups.google.com/d/msg/qubes-users/rT7eOKMf6ok/mnzjmTqzAgAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      R3.0 works, but R3.1 has install and boot errors, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/rT7eOKMf6ok/mnzjmTqzAgAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Drew White
+    link: |
+      https://groups.google.com/d/msg/qubes-users/rT7eOKMf6ok/mnzjmTqzAgAJ
 
 ---
-

@@ -37,20 +37,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    No issues
-  credit: |
-    Łukasz Milewski
-  link: |
-    https://groups.google.com/d/msg/qubes-users/03wHcnrHf4s/kgvCAWYyCAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      No issues
+    credit: |
+      Łukasz Milewski
+    link: |
+      https://groups.google.com/d/msg/qubes-users/03wHcnrHf4s/kgvCAWYyCAAJ
 
 ---
-

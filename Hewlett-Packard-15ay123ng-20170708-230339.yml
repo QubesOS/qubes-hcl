@@ -37,26 +37,25 @@ network: |
 memory: |
   7980
 scsi: |
-  KingDian S280-24 Rev: 5A  
+  KingDian S280-24 Rev: 5A
   DVDRW GUD1N      Rev: MD00
 usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.9.33-18
-  remark: |
-    Needs update to current testing repository for Wifi
-  credit: |
-    Florian Brandes
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/c727071d-8c45-6665-7813-050b6b97c9a3%40gmx.de
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.9.33-18
+    remark: |
+      Needs update to current testing repository for Wifi
+    credit: |
+      Florian Brandes
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/c727071d-8c45-6665-7813-050b6b97c9a3%40gmx.de
 
 ---
-

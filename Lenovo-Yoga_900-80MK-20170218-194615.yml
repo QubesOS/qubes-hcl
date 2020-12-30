@@ -34,25 +34,24 @@ network: |
 memory: |
   16289
 scsi: |
-  LITEON CV1-8B256 Rev: 201 
+  LITEON CV1-8B256 Rev: 201
   USB 3.0 FD       Rev: 1.00
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    
-  credit: |
-    Bencarp
-  link: |
-    https://groups.google.com/d/msg/qubes-users/r6ZXhXsNEGM/J-XDN4ahAQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+
+    credit: |
+      Bencarp
+    link: |
+      https://groups.google.com/d/msg/qubes-users/r6ZXhXsNEGM/J-XDN4ahAQAJ
 
 ---
-

@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation 5000Z Chipset Memory Controller Hub [8086:25d0] (rev 92)
 chipset-short: |
-  
+
 gpu: |
   Matrox Electronics Systems Ltd. MGA G200e [Pilot] ServerEngines (SEP1) [102b:0522] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
@@ -38,18 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.18.10-2
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/2s6VG9WoGqs/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    ypid
-  link: |
-    https://groups.google.com/d/msg/qubes-users/2s6VG9WoGqs/sHxWFfVgKgAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.18.10-2
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/2s6VG9WoGqs/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      ypid
+    link: |
+      https://groups.google.com/d/msg/qubes-users/2s6VG9WoGqs/sHxWFfVgKgAJ
+
 ---

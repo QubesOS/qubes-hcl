@@ -37,25 +37,24 @@ network: |
 memory: |
   16031
 scsi: |
-  LITEON CV3-8D256 Rev: 10D 
+  LITEON CV3-8D256 Rev: 10D
 usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-14.fc25
-  kernel: |
-    4.19.94-1
-  remark: |
-    
-  credit: |
-    Eduardo Barbosa
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/_-ipmTYA0-vxt1OdZ4te_Kf_An0aF3SdwZAW8_J-eV71j5vCkRFg69hxWQ_x4ZE-OGisqWdo0_peQgh5M2TZ_i42_FKKBXAvrhnt17sufgA%3D%40protonmail.ch
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.94-1
+    remark: |
+
+    credit: |
+      Eduardo Barbosa
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/_-ipmTYA0-vxt1OdZ4te_Kf_An0aF3SdwZAW8_J-eV71j5vCkRFg69hxWQ_x4ZE-OGisqWdo0_peQgh5M2TZ_i42_FKKBXAvrhnt17sufgA%3D%40protonmail.ch
 
 ---
-

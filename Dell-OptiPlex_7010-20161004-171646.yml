@@ -35,24 +35,23 @@ network: |
 memory: |
   8078
 scsi: |
-  ST3250820AS      Rev: E   
+  ST3250820AS      Rev: E
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Networking not working, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/M1J5Hijq8Xs/5HVeN_PkBwAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Jon M
-  link: |
-    https://groups.google.com/d/msg/qubes-users/M1J5Hijq8Xs/5HVeN_PkBwAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Networking not working, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/M1J5Hijq8Xs/5HVeN_PkBwAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Jon M
+    link: |
+      https://groups.google.com/d/msg/qubes-users/M1J5Hijq8Xs/5HVeN_PkBwAJ
 
 ---
-

@@ -42,20 +42,19 @@ usb: |
   2
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-14.fc25
-  kernel: |
-    4.19.94-1
-  remark: |
-    
-  credit: |
-    Ryan T Glascock
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/DM6PR10MB3836B8966E0BD1898EC013929CC10%40DM6PR10MB3836.namprd10.prod.outlook.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.94-1
+    remark: |
+
+    credit: |
+      Ryan T Glascock
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/DM6PR10MB3836B8966E0BD1898EC013929CC10%40DM6PR10MB3836.namprd10.prod.outlook.com
 
 ---
-

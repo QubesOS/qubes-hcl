@@ -12,7 +12,7 @@ tpm:
 brand: |
   Dell
 model: |
-  Precision T3500  
+  Precision T3500
 bios: |
   A07
 cpu: |
@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/3juxeAxE20I/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    Kartik Khanna
-  link: |
-    https://groups.google.com/d/msg/qubes-users/3juxeAxE20I/jmT5swZOCgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/3juxeAxE20I/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      Kartik Khanna
+    link: |
+      https://groups.google.com/d/msg/qubes-users/3juxeAxE20I/jmT5swZOCgAJ
 
 ---
-

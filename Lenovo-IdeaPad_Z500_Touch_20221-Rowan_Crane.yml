@@ -16,40 +16,39 @@ model: |
 bios: |
   1.21
 cpu: |
-  
+
 cpu-short: |
   i5-3230M
 chipset: |
-  
+
 chipset-short: |
   Ivy Bridge
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.18-1
-  remark: |
-    Touchpad doesn't work during installer
-  credit: |
-    Rowan Crane
-  link: |
-    https://groups.google.com/d/msg/qubes-users/6U_Qm3-Edg0/Aioi8lSBR3wJ
+  - works:
+      'yes'
+    qubes: |
+      R2
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.18-1
+    remark: |
+      Touchpad doesn't work during installer
+    credit: |
+      Rowan Crane
+    link: |
+      https://groups.google.com/d/msg/qubes-users/6U_Qm3-Edg0/Aioi8lSBR3wJ
 
 ---
-

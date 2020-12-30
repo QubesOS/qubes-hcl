@@ -36,24 +36,23 @@ scsi: |
   HGST HTS725050A7 Rev: B550
   ST1000LM024 HN-M Rev: 0001
   Crucial_CT512M55 Rev: MU01
-  2115             Rev: 0   
+  2115             Rev: 0
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/_b5ADux03qY/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    obo
-  link: |
-    https://groups.google.com/d/msg/qubes-users/_b5ADux03qY/oz0cITByBAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/_b5ADux03qY/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      obo
+    link: |
+      https://groups.google.com/d/msg/qubes-users/_b5ADux03qY/oz0cITByBAAJ
 
 ---
-

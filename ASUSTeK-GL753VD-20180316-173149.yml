@@ -44,20 +44,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.56-21
-  remark: |
-    Needed yumi uefi to install, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/4d28f08c-7f1f-415d-94d3-76cf7a88d823%40googlegroups.com'><span class='icon'></span>read more</a>
-  credit: |
-    olivier.defoulounoux
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/4d28f08c-7f1f-415d-94d3-76cf7a88d823%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.56-21
+    remark: |
+      Needed yumi uefi to install, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/4d28f08c-7f1f-415d-94d3-76cf7a88d823%40googlegroups.com'><span class='icon'></span>read more</a>
+    credit: |
+      olivier.defoulounoux
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/4d28f08c-7f1f-415d-94d3-76cf7a88d823%40googlegroups.com
 
 ---
-

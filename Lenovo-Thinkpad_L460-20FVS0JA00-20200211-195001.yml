@@ -37,25 +37,24 @@ network: |
 memory: |
   15811
 scsi: |
-  LITEON LCH-256V2 Rev: 902 
+  LITEON LCH-256V2 Rev: 902
 usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-14.fc25
-  kernel: |
-    4.19.94-1
-  remark: |
-    
-  credit: |
-    General
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/0102017035cdc50e-b50b968b-4af8-41d1-a56c-6acb43bf7da6-000000%40eu-west-1.amazonses.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.94-1
+    remark: |
+
+    credit: |
+      General
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/0102017035cdc50e-b50b968b-4af8-41d1-a56c-6acb43bf7da6-000000%40eu-west-1.amazonses.com
 
 ---
-

@@ -41,20 +41,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.31-11
-  remark: |
-    after Qubes R3.2 installation it cant boot - cant reach GRUB Boot Menu because MBR (or GRUB) is corrupted. Use grub2-install to fix it (<a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/TS1zfKZ7q8w/JQFkVF4xBgAJ'><span class='icon'></span>read more</a>) Everything else is OK
-  credit: |
-    qmastery16
-  link: |
-    https://groups.google.com/d/msg/qubes-users/TS1zfKZ7q8w/JQFkVF4xBgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.31-11
+    remark: |
+      after Qubes R3.2 installation it cant boot - cant reach GRUB Boot Menu because MBR (or GRUB) is corrupted. Use grub2-install to fix it (<a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/TS1zfKZ7q8w/JQFkVF4xBgAJ'><span class='icon'></span>read more</a>) Everything else is OK
+    credit: |
+      qmastery16
+    link: |
+      https://groups.google.com/d/msg/qubes-users/TS1zfKZ7q8w/JQFkVF4xBgAJ
 
 ---
-

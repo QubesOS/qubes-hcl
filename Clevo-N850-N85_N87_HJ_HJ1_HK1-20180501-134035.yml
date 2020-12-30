@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Clevo                        
+  Clevo
 model: |
   N85_N87,HJ,HJ1,HK1
 bios: |
@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    Cannot passthrough GTX1050Ti NVidia card. Suspend works intermittantly.
-  credit: |
-    Brunoais
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/558db6d5-a41c-ea6e-f303-c028277d3cc3%40gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+      Cannot passthrough GTX1050Ti NVidia card. Suspend works intermittantly.
+    credit: |
+      Brunoais
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/558db6d5-a41c-ea6e-f303-c028277d3cc3%40gmail.com
 
 ---
-

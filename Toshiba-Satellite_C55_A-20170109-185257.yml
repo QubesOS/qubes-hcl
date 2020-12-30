@@ -35,25 +35,24 @@ network: |
 memory: |
   6026
 scsi: |
-  Toshiba MQ01ABD0 Rev: 4M  
+  Toshiba MQ01ABD0 Rev: 4M
   CDDVDW SU-208DB  Rev: TF01
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.38-11
-  remark: |
-    
-  credit: |
-    Caleb Thompson
-  link: |
-    https://groups.google.com/d/msg/qubes-users/qsLAG2cBoy4/L0grQlTgBgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.38-11
+    remark: |
+
+    credit: |
+      Caleb Thompson
+    link: |
+      https://groups.google.com/d/msg/qubes-users/qsLAG2cBoy4/L0grQlTgBgAJ
 
 ---
-

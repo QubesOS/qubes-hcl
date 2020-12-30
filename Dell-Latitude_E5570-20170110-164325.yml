@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Display quirks. Setup needs UEFI workaround, <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting/'><span class='icon'></span>read more</a>
-  credit: |
-    Michael Krzyzanski
-  link: |
-    https://groups.google.com/d/msg/qubes-users/Kvt_g9-B7xg/YucsSUQUBwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Display quirks. Setup needs UEFI workaround, <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting/'><span class='icon'></span>read more</a>
+    credit: |
+      Michael Krzyzanski
+    link: |
+      https://groups.google.com/d/msg/qubes-users/Kvt_g9-B7xg/YucsSUQUBwAJ
 
 ---
-

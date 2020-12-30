@@ -12,7 +12,7 @@ tpm:
 brand: |
   Hewlett-Packard
 model: |
-  630            
+  630
 bios: |
   F.33
 cpu: |
@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.18.17-5
-  remark: |
-    
-  credit: |
-    Vincent Elliott
-  link: |
-    https://groups.google.com/d/msg/qubes-users/rk75zgez9dQ/YLuS5SywAAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.18.17-5
+    remark: |
+
+    credit: |
+      Vincent Elliott
+    link: |
+      https://groups.google.com/d/msg/qubes-users/rk75zgez9dQ/YLuS5SywAAAJ
 
 ---
-

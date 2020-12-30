@@ -40,21 +40,20 @@ scsi: |
 usb: |
   3
 versions:
- 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.4.67-12
-  remark: |
-    Works with CSM Legacy (non-EFI) booting only.  Had to use a USB3 stick with USB3 enabled in Keyboard dock for it to be recognized, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/Vz3q75j0-fg/vGzYkRtbCAAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Eric Duncan
-  link: |
-    https://groups.google.com/d/msg/qubes-users/Vz3q75j0-fg/vGzYkRtbCAAJ
- 
----
 
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.4.67-12
+    remark: |
+      Works with CSM Legacy (non-EFI) booting only.  Had to use a USB3 stick with USB3 enabled in Keyboard dock for it to be recognized, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/Vz3q75j0-fg/vGzYkRtbCAAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Eric Duncan
+    link: |
+      https://groups.google.com/d/msg/qubes-users/Vz3q75j0-fg/vGzYkRtbCAAJ
+
+---

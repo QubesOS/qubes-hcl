@@ -40,20 +40,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.38-11
-  remark: |
-    Booting in UEFI mode.
-  credit: |
-    Qubes Lovitt
-  link: |
-    https://groups.google.com/d/msg/qubes-users/ott8WG1p7o4/KlshlbEGAgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.38-11
+    remark: |
+      Booting in UEFI mode.
+    credit: |
+      Qubes Lovitt
+    link: |
+      https://groups.google.com/d/msg/qubes-users/ott8WG1p7o4/KlshlbEGAgAJ
 
 ---
-

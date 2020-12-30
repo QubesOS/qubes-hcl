@@ -42,23 +42,22 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    Need <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting/'><span class='icon'></span>uefi tricks</a>
-    - Install freezes: disable EFI runtime services
-    Need to disable TPM
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      Need <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting/'><span class='icon'></span>uefi tricks</a>
+      - Install freezes: disable EFI runtime services
+      Need to disable TPM
 
-  credit: |
-    birdynam
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/41a0c404-2a95-3dc0-5bd5-9b5904612155%40gmail.com
+    credit: |
+      birdynam
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/41a0c404-2a95-3dc0-5bd5-9b5904612155%40gmail.com
 
 ---
-

@@ -44,20 +44,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.13-2
-  remark: |
-    
-  credit: |
-    atepo4754
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/9fa56d71-5cb6-442a-8b71-eb7901609dc8%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.13-2
+    remark: |
+
+    credit: |
+      atepo4754
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/9fa56d71-5cb6-442a-8b71-eb7901609dc8%40googlegroups.com
 
 ---
-

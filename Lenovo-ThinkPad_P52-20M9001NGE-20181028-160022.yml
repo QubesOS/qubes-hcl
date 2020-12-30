@@ -43,20 +43,19 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    Don't buy now, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/em44ee8a6c-b707-403d-885e-f06a044d689e%40sir-face'><span class='icon'></span>read more</a>
-  credit: |
-    noses@noses.com
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/em44ee8a6c-b707-403d-885e-f06a044d689e%40sir-face
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      Don't buy now, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/em44ee8a6c-b707-403d-885e-f06a044d689e%40sir-face'><span class='icon'></span>read more</a>
+    credit: |
+      noses@noses.com
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/em44ee8a6c-b707-403d-885e-f06a044d689e%40sir-face
 
 ---
-

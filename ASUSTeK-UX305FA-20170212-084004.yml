@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.38-11
-  remark: |
-    Bluetooth successful
-  credit: |
-    cedric.flageul
-  link: |
-    https://groups.google.com/forum/#!msg/qubes-users/dTHePrk3ARc/MP_xXpc_AAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.38-11
+    remark: |
+      Bluetooth successful
+    credit: |
+      cedric.flageul
+    link: |
+      https://groups.google.com/forum/#!msg/qubes-users/dTHePrk3ARc/MP_xXpc_AAAJ
 
 ---
-

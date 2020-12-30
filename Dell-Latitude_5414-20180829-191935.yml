@@ -44,20 +44,19 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.57-1
-  remark: |
-    UEFI & TPM disabled and untested. sys-usb issues.
-  credit: |
-    kveselnitskaya
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/7b333e7a-eeb2-428c-954a-b44bd0083ed9%40googlegroups.com
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.57-1
+    remark: |
+      UEFI & TPM disabled and untested. sys-usb issues.
+    credit: |
+      kveselnitskaya
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/7b333e7a-eeb2-428c-954a-b44bd0083ed9%40googlegroups.com
 
 ---
-

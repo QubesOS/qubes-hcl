@@ -12,7 +12,7 @@ slat:
 tpm:
   'unknown'
 brand: |
-  Dell         
+  Dell
 model: |
   XPS L502X
 bios: |
@@ -36,25 +36,24 @@ network: |
 memory: |
   3990
 scsi: |
-  Toshiba MK3261GS Rev: 1D  
+  Toshiba MK3261GS Rev: 1D
   DVD+-RW GT32N    Rev: A203
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Slow
-  credit: |
-    Quentin Bourgeois
-  link: |
-    https://groups.google.com/d/msg/qubes-users/WgbzZOMBuaU/8jvlBZZXBwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Slow
+    credit: |
+      Quentin Bourgeois
+    link: |
+      https://groups.google.com/d/msg/qubes-users/WgbzZOMBuaU/8jvlBZZXBwAJ
 
 ---
-

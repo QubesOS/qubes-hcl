@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.1
-  kernel: |
-    4.1.24-10
-  remark: |
-    Used Debian 8 wiki to enable Broadcom Wifi, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/dyUhJmkU2Mc/mYZlDcs5AgAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Cristy Gutu
-  link: |
-    https://groups.google.com/d/msg/qubes-users/dyUhJmkU2Mc/mYZlDcs5AgAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.1
+    kernel: |
+      4.1.24-10
+    remark: |
+      Used Debian 8 wiki to enable Broadcom Wifi, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/dyUhJmkU2Mc/mYZlDcs5AgAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Cristy Gutu
+    link: |
+      https://groups.google.com/d/msg/qubes-users/dyUhJmkU2Mc/mYZlDcs5AgAJ
 
 ---
-

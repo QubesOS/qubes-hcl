@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-6
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/xGmIVFYYwKM/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    Thierry Laurion
-  link: |
-    https://groups.google.com/d/msg/qubes-users/xGmIVFYYwKM/r_pMqD_rBQAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-6
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/xGmIVFYYwKM/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      Thierry Laurion
+    link: |
+      https://groups.google.com/d/msg/qubes-users/xGmIVFYYwKM/r_pMqD_rBQAJ
 
 ---
-

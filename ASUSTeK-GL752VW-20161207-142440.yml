@@ -41,20 +41,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Needs nouveau.modeset=0. Ethernet not compatible <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/nCJ4gH_YNyY/Lol_8D-HDQAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Ronald Duncan
-  link: |
-    https://groups.google.com/d/msg/qubes-users/nCJ4gH_YNyY/Im-trSolDgAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Needs nouveau.modeset=0. Ethernet not compatible <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/nCJ4gH_YNyY/Lol_8D-HDQAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Ronald Duncan
+    link: |
+      https://groups.google.com/d/msg/qubes-users/nCJ4gH_YNyY/Im-trSolDgAJ
 
 ---
-

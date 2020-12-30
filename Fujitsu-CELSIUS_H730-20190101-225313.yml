@@ -37,25 +37,24 @@ network: |
 memory: |
   32649
 scsi: |
-  CT2000MX500SSD1  Rev: 022 
+  CT2000MX500SSD1  Rev: 022
 usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    Works. Windows OEM HVM notes, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/AM0PR04MB590621E2E36C66F18DBBB4B8D2B30%40AM0PR04MB5906.eurprd04.prod.outlook.com'><span class='icon'></span>read more</a>
-  credit: |
-    Robert Rettig
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/AM0PR04MB590621E2E36C66F18DBBB4B8D2B30%40AM0PR04MB5906.eurprd04.prod.outlook.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      Works. Windows OEM HVM notes, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/AM0PR04MB590621E2E36C66F18DBBB4B8D2B30%40AM0PR04MB5906.eurprd04.prod.outlook.com'><span class='icon'></span>read more</a>
+    credit: |
+      Robert Rettig
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/AM0PR04MB590621E2E36C66F18DBBB4B8D2B30%40AM0PR04MB5906.eurprd04.prod.outlook.com
 
 ---
-

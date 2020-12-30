@@ -37,26 +37,25 @@ memory: |
   8073
 scsi: |
   SK hynix SC311 S Rev: 0P10
-  3A               Rev:     
+  3A               Rev:
   SD/MMC           Rev: 1.00
 usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-19.fc25
-  kernel: |
-    4.19.132-1
-  remark: |
-    suspend/resume doesn't work reliably
-  credit: |
-    solutionsforprivacy.com
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/2025495874.138574.1601599311573%40privateemail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-19.fc25
+    kernel: |
+      4.19.132-1
+    remark: |
+      suspend/resume doesn't work reliably
+    credit: |
+      solutionsforprivacy.com
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/2025495874.138574.1601599311573%40privateemail.com
 
 ---
-

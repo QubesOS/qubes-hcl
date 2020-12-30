@@ -41,20 +41,19 @@ scsi: |
 
 versions:
 
-- works:
-    'no'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.13-2
-  remark: |
-    Also does not work with R3.2, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/fe10333f-c3a1-4a90-90e8-ae3b769dda92%40googlegroups.com'><span class='icon'></span>read more</a>
-  credit: |
-    Thaddeus Delude
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/fe10333f-c3a1-4a90-90e8-ae3b769dda92%40googlegroups.com
+  - works:
+      'no'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.13-2
+    remark: |
+      Also does not work with R3.2, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/fe10333f-c3a1-4a90-90e8-ae3b769dda92%40googlegroups.com'><span class='icon'></span>read more</a>
+    credit: |
+      Thaddeus Delude
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/fe10333f-c3a1-4a90-90e8-ae3b769dda92%40googlegroups.com
 
 ---
-

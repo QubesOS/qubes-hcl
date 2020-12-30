@@ -40,20 +40,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.4
-  kernel: |
-    4.4.38-11
-  remark: |
-    Wake from S3 sleep slow or crashes with USB storage attached
-  credit: |
-    Brendon Green
-  link: |
-    https://groups.google.com/d/msg/qubes-users/tKAnigE4ll4/uIgV5QdXAgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.4
+    kernel: |
+      4.4.38-11
+    remark: |
+      Wake from S3 sleep slow or crashes with USB storage attached
+    credit: |
+      Brendon Green
+    link: |
+      https://groups.google.com/d/msg/qubes-users/tKAnigE4ll4/uIgV5QdXAgAJ
 
 ---
-

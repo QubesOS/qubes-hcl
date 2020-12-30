@@ -36,24 +36,23 @@ memory: |
   8054
 scsi: |
   Fujitsu MHV2080B Rev: 0025
-  Toshiba MK5056GS Rev: 3A  
+  Toshiba MK5056GS Rev: 3A
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Problem with Wifi, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/2089086995.720004.1500749989218%40mail.libero.it'><span class='icon'></span>read more</a>
-  credit: |
-    Marco Falda
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/2089086995.720004.1500749989218%40mail.libero.it
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Problem with Wifi, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/2089086995.720004.1500749989218%40mail.libero.it'><span class='icon'></span>read more</a>
+    credit: |
+      Marco Falda
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/2089086995.720004.1500749989218%40mail.libero.it
 
 ---
-

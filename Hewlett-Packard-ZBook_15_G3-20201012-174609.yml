@@ -37,25 +37,24 @@ network: |
 memory: |
   65455
 scsi: |
-  CT1000MX500SSD4  Rev: 023 
+  CT1000MX500SSD4  Rev: 023
 usb: |
   2
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-23.fc25
-  kernel: |
-    4.19.147-1
-  remark: |
-    Install iwl7260-firmware in templateVM used by sys-net. Since Kernel 4.19.147-1 suspend works fine. Nouveau driver in use.
-  credit: |
-    Paul
-  link: |
-    https://qubes-os.discourse.group/t/hcl-hp-zbook-15-g3/1039
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-23.fc25
+    kernel: |
+      4.19.147-1
+    remark: |
+      Install iwl7260-firmware in templateVM used by sys-net. Since Kernel 4.19.147-1 suspend works fine. Nouveau driver in use.
+    credit: |
+      Paul
+    link: |
+      https://qubes-os.discourse.group/t/hcl-hp-zbook-15-g3/1039
 
 ---
-

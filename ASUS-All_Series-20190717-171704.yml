@@ -42,20 +42,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-7.fc25
-  kernel: |
-    4.14.119-2
-  remark: |
-    Turn CSM on and set secureboot to "other" for uefi install. Removed Soundblaster cart to stop system crashes.
-  credit: |
-    Soeren Rumpf
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAK4VyvVw2henGORnNkpx2AUjfAZz_bqPWLAESQeae9%3Dt9eKgWw%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-7.fc25
+    kernel: |
+      4.14.119-2
+    remark: |
+      Turn CSM on and set secureboot to "other" for uefi install. Removed Soundblaster cart to stop system crashes.
+    credit: |
+      Soeren Rumpf
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAK4VyvVw2henGORnNkpx2AUjfAZz_bqPWLAESQeae9%3Dt9eKgWw%40mail.gmail.com
 
 ---
-

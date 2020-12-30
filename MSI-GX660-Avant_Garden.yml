@@ -16,40 +16,39 @@ model: |
 bios: |
   1.0L
 cpu: |
-  
+
 cpu-short: |
   i5-460M
 chipset: |
-  
+
 chipset-short: |
   PM55
 gpu: |
-  
+
 gpu-short: |
   Radeon HD5870
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R2B3
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.11.1-2
-  remark: |
-    
-  credit: |
-    Avant Garden
-  link: |
-    https://groups.google.com/d/msg/qubes-users/UrWYjkHwon8/TPE0XSBiPDQJ
+  - works:
+      'partial'
+    qubes: |
+      R2B3
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.11.1-2
+    remark: |
+
+    credit: |
+      Avant Garden
+    link: |
+      https://groups.google.com/d/msg/qubes-users/UrWYjkHwon8/TPE0XSBiPDQJ
 
 ---
-

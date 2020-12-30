@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.38-11
-  remark: |
-    Wifi works after update. TPM requires UEFI (not AEM compatible).
-  credit: |
-    Elias Mårtenson
-  link: |
-    https://groups.google.com/d/msg/qubes-users/jcShbHJ8oEE/lcPozcLpAAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.38-11
+    remark: |
+      Wifi works after update. TPM requires UEFI (not AEM compatible).
+    credit: |
+      Elias Mårtenson
+    link: |
+      https://groups.google.com/d/msg/qubes-users/jcShbHJ8oEE/lcPozcLpAAAJ
 
 ---
-

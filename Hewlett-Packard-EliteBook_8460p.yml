@@ -28,8 +28,8 @@ gpu: |
 gpu-short: |
   Integrated Graphics (HD 3000)
 network: |
-  
-memory:  |
+
+memory: |
   8098 Mb
 scsi: |
   INTEL SSDSA2BW16 Rev: 4PC1
@@ -37,20 +37,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.23-1
-  remark: |
-    
-  credit: |
-    Ray Rizzuto Jr
-  link: |
-    https://groups.google.com/d/msg/qubes-users/xVMe56e4BXQ/lJVUTqC1a2oJ
+  - works:
+      'yes'
+    qubes: |
+      R2
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.23-1
+    remark: |
+
+    credit: |
+      Ray Rizzuto Jr
+    link: |
+      https://groups.google.com/d/msg/qubes-users/xVMe56e4BXQ/lJVUTqC1a2oJ
 
 ---
-

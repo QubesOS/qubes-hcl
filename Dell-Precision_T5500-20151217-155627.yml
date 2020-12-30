@@ -12,7 +12,7 @@ tpm:
 brand: |
   Dell
 model: |
-  Precision T5500  
+  Precision T5500
 bios: |
   A13
 cpu: |
@@ -33,42 +33,41 @@ network: |
 memory: |
   12285
 scsi: |
-  ADATA SP900      Rev: 2   
+  ADATA SP900      Rev: 2
   DVD+-RW DH-16ACS Rev: JD11
   Samsung HD154UI  Rev: 1118
   Ultra HS-SD/MMC  Rev: 1.82
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.3
-  kernel: |
-    3.18.17-7
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/avqu_g6PeTM/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    Drew White
-  link: |
-    https://groups.google.com/d/msg/qubes-users/avqu_g6PeTM/enZCHHUyBwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.3
+    kernel: |
+      3.18.17-7
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/avqu_g6PeTM/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      Drew White
+    link: |
+      https://groups.google.com/d/msg/qubes-users/avqu_g6PeTM/enZCHHUyBwAJ
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    
-  credit: |
-    Drew White
-  link: |
-    https://groups.google.com/d/msg/qubes-users/avqu_g6PeTM/qK9eq17DJwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+
+    credit: |
+      Drew White
+    link: |
+      https://groups.google.com/d/msg/qubes-users/avqu_g6PeTM/qK9eq17DJwAJ
 
 ---
-

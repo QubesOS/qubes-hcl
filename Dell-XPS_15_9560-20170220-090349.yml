@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.8.12-12
-  remark: |
-    Needed upgrade to kernel 4.8.12.
-  credit: |
-    Stefan Schlott
-  link: |
-    https://groups.google.com/forum/#!msg/qubes-users/fiIn0sd3Z9c/Rp-bg8wbAgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.8.12-12
+    remark: |
+      Needed upgrade to kernel 4.8.12.
+    credit: |
+      Stefan Schlott
+    link: |
+      https://groups.google.com/forum/#!msg/qubes-users/fiIn0sd3Z9c/Rp-bg8wbAgAJ
 
 ---
-

@@ -16,40 +16,39 @@ model: |
 bios: |
   A09
 cpu: |
-  
+
 cpu-short: |
   i7-3537U
 chipset: |
-  
+
 chipset-short: |
   Ivy Bridge
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
-- works:
-    'no'
-  qubes: |
-    R2B2
-  xen: |
-    
-  kernel: |
-    
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/21kqNBzJLPw/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    Brian J Smith-Sweeney
-  link: |
-    https://groups.google.com/d/msg/qubes-users/21kqNBzJLPw/e74SMRweTMsJ
+  - works:
+      'no'
+    qubes: |
+      R2B2
+    xen: |
+
+    kernel: |
+
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/21kqNBzJLPw/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      Brian J Smith-Sweeney
+    link: |
+      https://groups.google.com/d/msg/qubes-users/21kqNBzJLPw/e74SMRweTMsJ
 
 ---
-

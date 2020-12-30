@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.41-1
-  remark: |
-    
-  credit: |
-    hammerhead8599
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/45ed2bd9-bbf3-dbe7-8187-94cb1e07abb0%40att.net
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.41-1
+    remark: |
+
+    credit: |
+      hammerhead8599
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/45ed2bd9-bbf3-dbe7-8187-94cb1e07abb0%40att.net
 
 ---
-

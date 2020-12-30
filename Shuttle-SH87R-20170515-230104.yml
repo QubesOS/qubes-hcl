@@ -41,25 +41,24 @@ scsi: |
   Samsung SSD 850  Rev: 2B6Q
   Ultra            Rev: 1.00
   Mass Storage     Rev: 2.00
-  22 HN-M750MBB    Rev:     
+  22 HN-M750MBB    Rev:
 usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.4.62-12
-  remark: |
-    
-  credit: |
-    Gaiko Kyofusho
-  link: |
-    https://groups.google.com/d/msg/qubes-users/HNcc079X0oM/zrbdJWZ0CgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.4.62-12
+    remark: |
+
+    credit: |
+      Gaiko Kyofusho
+    link: |
+      https://groups.google.com/d/msg/qubes-users/HNcc079X0oM/zrbdJWZ0CgAJ
 
 ---
-

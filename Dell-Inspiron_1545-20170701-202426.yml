@@ -16,7 +16,7 @@ remap:
 brand: |
   Dell
 model: |
-  Inspiron 1545                   
+  Inspiron 1545
 bios: |
   A10
 cpu: |
@@ -44,20 +44,19 @@ usb: |
   8
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.4.67-13
-  remark: |
-    Limited by the lack of virtualization tech.
-  credit: |
-    Boris Yost
-  link: |
-    https://groups.google.com/d/msg/qubes-users/XXvORjAIS9g/wzvIdQogBAAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.4.67-13
+    remark: |
+      Limited by the lack of virtualization tech.
+    credit: |
+      Boris Yost
+    link: |
+      https://groups.google.com/d/msg/qubes-users/XXvORjAIS9g/wzvIdQogBAAJ
 
 ---
-

@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.57-1
-  remark: |
-    Issues with BIOS and keyboard layout, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/2c7302dc-e925-60ba-3ea5-f8a2e0762df7%40militant.dk'><span class='icon'></span>read more</a>
-  credit: |
-    Max Andersen
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/2c7302dc-e925-60ba-3ea5-f8a2e0762df7%40militant.dk
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.57-1
+    remark: |
+      Issues with BIOS and keyboard layout, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/2c7302dc-e925-60ba-3ea5-f8a2e0762df7%40militant.dk'><span class='icon'></span>read more</a>
+    credit: |
+      Max Andersen
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/2c7302dc-e925-60ba-3ea5-f8a2e0762df7%40militant.dk
 
 ---
-

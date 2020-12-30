@@ -43,20 +43,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    Video, audio, microphone, wireless, sleep, USB working.
-  credit: |
-    Andrew Clausen
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAAXZBWL7Q-uKnooa-egMh21kw4VM65VhOJP-Z8xVKfd9AcbpGA%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      Video, audio, microphone, wireless, sleep, USB working.
+    credit: |
+      Andrew Clausen
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAAXZBWL7Q-uKnooa-egMh21kw4VM65VhOJP-Z8xVKfd9AcbpGA%40mail.gmail.com
 
 ---
-

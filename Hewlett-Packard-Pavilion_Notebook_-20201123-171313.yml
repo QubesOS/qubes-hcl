@@ -16,7 +16,7 @@ remap:
 brand: |
   Hewlett-Packard
 model: |
-  Pavilion 
+  Pavilion
 bios: |
   F.10
 cpu: |
@@ -43,20 +43,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-25.fc25
-  kernel: |
-    4.19.155-1
-  remark: |
-    
-  credit: |
-    Raja Saham
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CA%2BXFw%3DUQ4EOBV0LCD_NFoX8GA3SUa%3DS1LuYTZg26mhA0mdhRMw%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-25.fc25
+    kernel: |
+      4.19.155-1
+    remark: |
+
+    credit: |
+      Raja Saham
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CA%2BXFw%3DUQ4EOBV0LCD_NFoX8GA3SUa%3DS1LuYTZg26mhA0mdhRMw%40mail.gmail.com
 
 ---
-

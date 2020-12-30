@@ -43,20 +43,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    Required altering boot args, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAD78PXg8nokmXP5YQOh-92U-mHqLMJkgrs_6LGwb7Ehh%2BDkqbQ%40mail.gmail.com'><span class='icon'></span>read more</a>
-  credit: |
-    Adam Lewis
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAD78PXg8nokmXP5YQOh-92U-mHqLMJkgrs_6LGwb7Ehh%2BDkqbQ%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      Required altering boot args, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAD78PXg8nokmXP5YQOh-92U-mHqLMJkgrs_6LGwb7Ehh%2BDkqbQ%40mail.gmail.com'><span class='icon'></span>read more</a>
+    credit: |
+      Adam Lewis
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAD78PXg8nokmXP5YQOh-92U-mHqLMJkgrs_6LGwb7Ehh%2BDkqbQ%40mail.gmail.com
 
 ---
-

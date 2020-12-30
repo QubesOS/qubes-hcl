@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.18.17-6
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/fTo8vXQv8QA/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    TNT BOM BOM
-  link: |
-    https://groups.google.com/d/msg/qubes-users/fTo8vXQv8QA/r41P7xAkCgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.18.17-6
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/fTo8vXQv8QA/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      TNT BOM BOM
+    link: |
+      https://groups.google.com/d/msg/qubes-users/fTo8vXQv8QA/r41P7xAkCgAJ
 
 ---
-

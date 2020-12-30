@@ -43,20 +43,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.2
-  kernel: |
-    4.9.56-21
-  remark: |
-    Suspend leaves network frozen
-  credit: |
-    János Goromba
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAF%2BWpeZ1ZNA9%3DnCYEzvJGKdunBqRK%3DBXUOPEE4y6fjjmx%2B%3D6Vw%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.2
+    kernel: |
+      4.9.56-21
+    remark: |
+      Suspend leaves network frozen
+    credit: |
+      János Goromba
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAF%2BWpeZ1ZNA9%3DnCYEzvJGKdunBqRK%3DBXUOPEE4y6fjjmx%2B%3D6Vw%40mail.gmail.com
 
 ---
-

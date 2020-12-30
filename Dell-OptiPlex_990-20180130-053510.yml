@@ -43,26 +43,25 @@ scsi: |
   Flash HS-COMBO   Rev: 4.44
   Flash HS-CF      Rev: 4.44
   Flash HS-COMBO   Rev: 4.44
-  HD204UI          Rev:     
+  HD204UI          Rev:
   10EAVS External  Rev: 1.75
 usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.2
-  kernel: |
-    4.9.56-21
-  remark: |
-    working fine
-  credit: |
-    Steve Coleman
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/e183a262-36c8-821a-c1cf-27618e9f6fa8%40jhuapl.edu
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.2
+    kernel: |
+      4.9.56-21
+    remark: |
+      working fine
+    credit: |
+      Steve Coleman
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/e183a262-36c8-821a-c1cf-27618e9f6fa8%40jhuapl.edu
 
 ---
-

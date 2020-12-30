@@ -41,20 +41,19 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Issues with UEFI boot and sys-usb; Cannot wake from sleep; <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/da2b52f1-0b65-460a-b762-2632bd0aaea5%40googlegroups.com'><span class='icon'></span>read more</a>
-  credit: |
-    Eliott
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/da2b52f1-0b65-460a-b762-2632bd0aaea5%40googlegroups.com
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Issues with UEFI boot and sys-usb; Cannot wake from sleep; <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/da2b52f1-0b65-460a-b762-2632bd0aaea5%40googlegroups.com'><span class='icon'></span>read more</a>
+    credit: |
+      Eliott
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/da2b52f1-0b65-460a-b762-2632bd0aaea5%40googlegroups.com
 
 ---
-

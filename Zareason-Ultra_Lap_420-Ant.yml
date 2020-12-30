@@ -14,42 +14,41 @@ brand: |
 model: |
   Ultra Lap 420
 bios: |
-  
+
 cpu: |
-  
+
 cpu-short: |
   i5-3317U
 chipset: |
-  
+
 chipset-short: |
   Ivy Bridge
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2B2
-  xen: |
-    4.1.2
-  kernel: |
-    3.7.6-2
-  remark: |
-    
-  credit: |
-    Ant
-  link: |
-    https://groups.google.com/d/msg/qubes-users/uKI-VBtKWxg/uKjsdGNSpSQJ
+  - works:
+      'yes'
+    qubes: |
+      R2B2
+    xen: |
+      4.1.2
+    kernel: |
+      3.7.6-2
+    remark: |
+
+    credit: |
+      Ant
+    link: |
+      https://groups.google.com/d/msg/qubes-users/uKI-VBtKWxg/uKjsdGNSpSQJ
 
 ---
-

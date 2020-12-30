@@ -45,20 +45,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.56-21
-  remark: |
-    Required legacy BIOS mode.
-  credit: |
-    Gaijin
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/c141a4978bc271d0631edcc2accda646%40riseup.net
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.56-21
+    remark: |
+      Required legacy BIOS mode.
+    credit: |
+      Gaijin
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/c141a4978bc271d0631edcc2accda646%40riseup.net
 
 ---
-

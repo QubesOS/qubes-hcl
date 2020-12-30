@@ -16,7 +16,7 @@ brand: |
 model: |
   ThinkCentre M700 (10HYS0NE00)
 bios: |
-  FWKT5AA  
+  FWKT5AA
 cpu: |
   Intel(R) Core(TM) i5-6400T CPU @ 2.20GHz
 cpu-short: |
@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Wifi untested
-  credit: |
-    60i2pu+bskm7bh1dhimo
-  link: |
-    https://groups.google.com/forum/#!msg/qubes-users/fQA6H455100/mrViPt9wCAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Wifi untested
+    credit: |
+      60i2pu+bskm7bh1dhimo
+    link: |
+      https://groups.google.com/forum/#!msg/qubes-users/fQA6H455100/mrViPt9wCAAJ
 
 ---
-

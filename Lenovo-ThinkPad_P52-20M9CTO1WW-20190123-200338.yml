@@ -43,20 +43,19 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    Legacy mode and Nvidia disabled. Wifi works but ethernet doesn't.
-  credit: |
-    Aly Abdellatif
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CANx%2BM24H1rMj6Xa0PDGYK9GJqaqYKk36Xe5OJFZQVRhFB%3DHUbw%40mail.gmail.com
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      Legacy mode and Nvidia disabled. Wifi works but ethernet doesn't.
+    credit: |
+      Aly Abdellatif
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CANx%2BM24H1rMj6Xa0PDGYK9GJqaqYKk36Xe5OJFZQVRhFB%3DHUbw%40mail.gmail.com
 
 ---
-

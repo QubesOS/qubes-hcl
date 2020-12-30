@@ -43,20 +43,19 @@ usb: |
   7
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.56-21
-  remark: |
-    Backlight doesn't turn off.
-  credit: |
-    Theo Jaklitsch
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CA%2BSfMGny2BisK-7uX_VcF1x_X%2BPuoyLjoeJhr1AGkri67j1P9g%40mail.gmail.com
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.56-21
+    remark: |
+      Backlight doesn't turn off.
+    credit: |
+      Theo Jaklitsch
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CA%2BSfMGny2BisK-7uX_VcF1x_X%2BPuoyLjoeJhr1AGkri67j1P9g%40mail.gmail.com
 
 ---
-

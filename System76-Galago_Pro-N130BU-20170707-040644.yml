@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  System76                        
+  System76
 model: |
   Galago Pro (N130BU)
 bios: |
@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.9.35-19
-  remark: |
-    Needs installer workarounds, has screen and ethernet issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAKsSGx9wDxxev5pMFaiQ-V_qqr33-7hHG3O14-_XjrqLfPPw_A%40mail.gmail.com'><span class='icon'></span>read more</a>
-  credit: |
-    Jeffrey Dileo
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAKsSGx9wDxxev5pMFaiQ-V_qqr33-7hHG3O14-_XjrqLfPPw_A%40mail.gmail.com
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.9.35-19
+    remark: |
+      Needs installer workarounds, has screen and ethernet issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAKsSGx9wDxxev5pMFaiQ-V_qqr33-7hHG3O14-_XjrqLfPPw_A%40mail.gmail.com'><span class='icon'></span>read more</a>
+    credit: |
+      Jeffrey Dileo
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAKsSGx9wDxxev5pMFaiQ-V_qqr33-7hHG3O14-_XjrqLfPPw_A%40mail.gmail.com
 
 ---
-

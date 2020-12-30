@@ -34,25 +34,24 @@ network: |
 memory: |
   7913
 scsi: |
-  OCZ-VERTEX4      Rev: 1.5 
+  OCZ-VERTEX4      Rev: 1.5
   DVD-ROM TS-H353B Rev: D700
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.31-11
-  remark: |
-    
-  credit: |
-    superlative
-  link: |
-    https://groups.google.com/d/msg/qubes-users/gl8FCTO1z9A/wQwgrXT8DgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.31-11
+    remark: |
+
+    credit: |
+      superlative
+    link: |
+      https://groups.google.com/d/msg/qubes-users/gl8FCTO1z9A/wQwgrXT8DgAJ
 
 ---
-

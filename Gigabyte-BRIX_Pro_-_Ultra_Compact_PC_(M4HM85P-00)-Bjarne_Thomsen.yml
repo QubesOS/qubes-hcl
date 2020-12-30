@@ -16,40 +16,39 @@ model: |
 bios: |
   F2
 cpu: |
-  
+
 cpu-short: |
   i5-4570R
 chipset: |
-  
+
 chipset-short: |
   HM87
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (Iris Pro 5200)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.23-1
-  remark: |
-    
-  credit: |
-    Bjarne Thomsen
-  link: |
-    https://groups.google.com/d/msg/qubes-users/uvBcfCB8dxk/ZX-tV3y2tXEJ
+  - works:
+      'yes'
+    qubes: |
+      R2
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.23-1
+    remark: |
+
+    credit: |
+      Bjarne Thomsen
+    link: |
+      https://groups.google.com/d/msg/qubes-users/uvBcfCB8dxk/ZX-tV3y2tXEJ
 
 ---
-

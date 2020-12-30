@@ -16,40 +16,39 @@ model: |
 bios: |
   G6ET93WW (2.53 )
 cpu: |
-  
+
 cpu-short: |
   i5-3317U
 chipset: |
-  
+
 chipset-short: |
   Ivy Bridge
 gpu: |
-  
+
 gpu-short: |
   Integrated Graphics (HD 4000)
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.23-1
-  remark: |
-    
-  credit: |
-    Dave C
-  link: |
-    https://groups.google.com/d/msg/qubes-users/sWPBlejozwU/w1Z3YT3kM7oJ
+  - works:
+      'yes'
+    qubes: |
+      R2
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.23-1
+    remark: |
+
+    credit: |
+      Dave C
+    link: |
+      https://groups.google.com/d/msg/qubes-users/sWPBlejozwU/w1Z3YT3kM7oJ
 
 ---
-

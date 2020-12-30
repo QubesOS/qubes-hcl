@@ -41,20 +41,19 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.35-1
-  remark: |
-    Touch doesn't work out of the box, must be allowed onto dom0 (if needed)
-  credit: |
-    hugoncosta
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/74b3e8c2-1993-4e65-b0aa-d572049eb70b%40googlegroups.com
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.35-1
+    remark: |
+      Touch doesn't work out of the box, must be allowed onto dom0 (if needed)
+    credit: |
+      hugoncosta
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/74b3e8c2-1993-4e65-b0aa-d572049eb70b%40googlegroups.com
 
 ---
-

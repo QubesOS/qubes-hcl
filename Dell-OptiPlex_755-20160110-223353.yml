@@ -12,7 +12,7 @@ tpm:
 brand: |
   Dell
 model: |
-  OptiPlex 755                 
+  OptiPlex 755
 bios: |
   A17
 cpu: |
@@ -37,20 +37,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.3
-  kernel: |
-    3.19.8-100
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/RTghmHA3fFI/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    Grizz
-  link: |
-    https://groups.google.com/d/msg/qubes-users/RTghmHA3fFI/GVeIS54hDwAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.3
+    kernel: |
+      3.19.8-100
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/RTghmHA3fFI/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      Grizz
+    link: |
+      https://groups.google.com/d/msg/qubes-users/RTghmHA3fFI/GVeIS54hDwAJ
 
 ---
-

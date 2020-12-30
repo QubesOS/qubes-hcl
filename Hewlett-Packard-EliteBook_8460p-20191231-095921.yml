@@ -43,20 +43,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-14.fc25
-  kernel: |
-    4.19.86-1
-  remark: |
-    If S3 sleep is engaged with Anti Evil Maid, laptop will do a hard shutdown. When booting without AEM, S3 sleep works fine.
-  credit: |
-    Lorenzo Lamas
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/15476fa2-354a-4669-8345-9df730c68319%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.86-1
+    remark: |
+      If S3 sleep is engaged with Anti Evil Maid, laptop will do a hard shutdown. When booting without AEM, S3 sleep works fine.
+    credit: |
+      Lorenzo Lamas
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/15476fa2-354a-4669-8345-9df730c68319%40googlegroups.com
 
 ---
-

@@ -40,20 +40,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    
-  credit: |
-    Jack Callahan
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CALRJVEDEhpWW1CdPrhv_OwqKK92g3E%3DVv4YHUsBYrUbpGpsGbw%40mail.gmail.com
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+
+    credit: |
+      Jack Callahan
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CALRJVEDEhpWW1CdPrhv_OwqKK92g3E%3DVv4YHUsBYrUbpGpsGbw%40mail.gmail.com
 
 ---
-

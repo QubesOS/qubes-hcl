@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-19.fc25
-  kernel: |
-    4.19.128-1
-  remark: |
-    
-  credit: |
-    Hammer
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/a239a298526759eb0e1a1dfef4da761a5da0ae13%40hey.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-19.fc25
+    kernel: |
+      4.19.128-1
+    remark: |
+
+    credit: |
+      Hammer
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/a239a298526759eb0e1a1dfef4da761a5da0ae13%40hey.com
 
 ---
-

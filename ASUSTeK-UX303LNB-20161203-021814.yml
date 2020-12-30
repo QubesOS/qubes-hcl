@@ -24,7 +24,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
 chipset-short: |
-  Broadwell-U 
+  Broadwell-U
 gpu: |
   Intel Corporation HD Graphics 5500 [8086:1616] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.14-11
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/jI4SJ8Oa4Ls/HNusM3_mDAAJ'><span class='icon'></span>read more</a>
-  credit: |
-    rob_66
-  link: |
-    https://groups.google.com/d/msg/qubes-users/jI4SJ8Oa4Ls/HNusM3_mDAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.14-11
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/jI4SJ8Oa4Ls/HNusM3_mDAAJ'><span class='icon'></span>read more</a>
+    credit: |
+      rob_66
+    link: |
+      https://groups.google.com/d/msg/qubes-users/jI4SJ8Oa4Ls/HNusM3_mDAAJ
 
 ---
-

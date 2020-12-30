@@ -42,20 +42,19 @@ usb: |
   2
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    
-  credit: |
-    Jeff Warner
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAK4unLo38xunz4DE0DSrZP9_zznjWT%2BSX1dBhvzqySYHV8sVZw%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+
+    credit: |
+      Jeff Warner
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAK4unLo38xunz4DE0DSrZP9_zznjWT%2BSX1dBhvzqySYHV8sVZw%40mail.gmail.com
 
 ---
-

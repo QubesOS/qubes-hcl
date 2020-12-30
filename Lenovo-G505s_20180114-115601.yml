@@ -44,20 +44,19 @@ usb: |
   6
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.56-21
-  remark: |
-    Corebook 4.6 with various issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/56wLBz2l-Vy1IUEhQOcgjshspUHrOAp1_WHSZcfxQQaacNg6dl-TKD-iOwhcKbcI22liKgemdBcDZMAAq0cDwy4ks1kczz7l2z37S3Pa2tM%3D%40protonmail.com'><span class='icon'></span>read more</a>
-  credit: |
-    Emil Novik
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/56wLBz2l-Vy1IUEhQOcgjshspUHrOAp1_WHSZcfxQQaacNg6dl-TKD-iOwhcKbcI22liKgemdBcDZMAAq0cDwy4ks1kczz7l2z37S3Pa2tM%3D%40protonmail.com
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.56-21
+    remark: |
+      Corebook 4.6 with various issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/56wLBz2l-Vy1IUEhQOcgjshspUHrOAp1_WHSZcfxQQaacNg6dl-TKD-iOwhcKbcI22liKgemdBcDZMAAq0cDwy4ks1kczz7l2z37S3Pa2tM%3D%40protonmail.com'><span class='icon'></span>read more</a>
+    credit: |
+      Emil Novik
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/56wLBz2l-Vy1IUEhQOcgjshspUHrOAp1_WHSZcfxQQaacNg6dl-TKD-iOwhcKbcI22liKgemdBcDZMAAq0cDwy4ks1kczz7l2z37S3Pa2tM%3D%40protonmail.com
 
 ---
-

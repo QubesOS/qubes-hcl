@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.38-11
-  remark: |
-    TPM 2.0 - untested
-  credit: |
-    ecneladis
-  link: |
-    https://groups.google.com/d/msg/qubes-users/tk8Anhro0h0/cMI7dsLDDwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.38-11
+    remark: |
+      TPM 2.0 - untested
+    credit: |
+      ecneladis
+    link: |
+      https://groups.google.com/d/msg/qubes-users/tk8Anhro0h0/cMI7dsLDDwAJ
 
 ---
-

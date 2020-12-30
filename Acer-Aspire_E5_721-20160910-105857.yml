@@ -35,24 +35,23 @@ memory: |
 scsi: |
   Crucial_CT500MX2 Rev: MU02
   DVD-RAM UJ8E2Q   Rev: 1.00
-  SSD 850 EVO 500G Rev: B   
+  SSD 850 EVO 500G Rev: B
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    
-  credit: |
-    whodatjohngalt
-  link: |
-    https://groups.google.com/d/msg/qubes-users/ZJWxG0Uzjkg/oid5oTP_BAAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+
+    credit: |
+      whodatjohngalt
+    link: |
+      https://groups.google.com/d/msg/qubes-users/ZJWxG0Uzjkg/oid5oTP_BAAJ
 
 ---
-

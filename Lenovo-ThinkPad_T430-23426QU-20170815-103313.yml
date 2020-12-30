@@ -39,25 +39,24 @@ memory: |
 scsi: |
   Crucial_CT120M50 Rev: MU05
   HGST HTS725050A7 Rev: B550
-  LITEON IT SMS-12 Rev: 206 
+  LITEON IT SMS-12 Rev: 206
 usb: |
   2
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Installer issue, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CADSWNhH4cM8KL_%2BHSHMabSfwJsqR2RROu8bOeoMFfZztrgxMMg%40mail.gmail.com'><span class='icon'></span>read more</a>
-  credit: |
-    AnDee Lim
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CADSWNhH4cM8KL_%2BHSHMabSfwJsqR2RROu8bOeoMFfZztrgxMMg%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Installer issue, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CADSWNhH4cM8KL_%2BHSHMabSfwJsqR2RROu8bOeoMFfZztrgxMMg%40mail.gmail.com'><span class='icon'></span>read more</a>
+    credit: |
+      AnDee Lim
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CADSWNhH4cM8KL_%2BHSHMabSfwJsqR2RROu8bOeoMFfZztrgxMMg%40mail.gmail.com
 
 ---
-

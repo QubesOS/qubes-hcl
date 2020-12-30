@@ -40,35 +40,34 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.19.8-100
-  remark: |
-    NVIDIA disabled in BIOS. <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/ThZUaE8TeoQ/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    cprise
-  link: |
-    https://groups.google.com/d/msg/qubes-users/ThZUaE8TeoQ/RjkkzuKGJgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.19.8-100
+    remark: |
+      NVIDIA disabled in BIOS. <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/ThZUaE8TeoQ/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      cprise
+    link: |
+      https://groups.google.com/d/msg/qubes-users/ThZUaE8TeoQ/RjkkzuKGJgAJ
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.8.9-12
-  remark: |
-    AEM needs tboot 1.9.4 or later to boot properly, <a class='ext-link' href='https://github.com/QubesOS/qubes-issues/issues/2155'><span class='icon'></span>read more</a>
-  credit: |
-    cprise
-  link: |
-    https://github.com/QubesOS/qubes-issues/issues/2155
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.8.9-12
+    remark: |
+      AEM needs tboot 1.9.4 or later to boot properly, <a class='ext-link' href='https://github.com/QubesOS/qubes-issues/issues/2155'><span class='icon'></span>read more</a>
+    credit: |
+      cprise
+    link: |
+      https://github.com/QubesOS/qubes-issues/issues/2155
 
 ---
-

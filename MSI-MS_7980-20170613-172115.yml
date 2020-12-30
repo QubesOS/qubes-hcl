@@ -43,20 +43,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.5
-  kernel: |
-    4.9.31-17
-  remark: |
-    Have to switch boot order, take out "UEFI" options
-  credit: |
-    qubenix
-  link: |
-    https://groups.google.com/d/msg/qubes-users/SlJ1awFlkNA/i8zXxanMBAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.5
+    kernel: |
+      4.9.31-17
+    remark: |
+      Have to switch boot order, take out "UEFI" options
+    credit: |
+      qubenix
+    link: |
+      https://groups.google.com/d/msg/qubes-users/SlJ1awFlkNA/i8zXxanMBAAJ
 
 ---
-

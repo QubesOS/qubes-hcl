@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-19.fc25
-  kernel: |
-    5.6.16-1
-  remark: |
-    legacy boot (not UEFI)
-  credit: |
-    A. Mousa
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/c1Pyo3Yrs_Lb2isbgCbww8krOnO_lnHi3czYC8WSuXjuX3sYPksxi2O-wugDhnWWOjwZ4OksT8fXEjPlE2VqS4P2KLhe4FTEdrNJt6z9Vhw%3D%40protonmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-19.fc25
+    kernel: |
+      5.6.16-1
+    remark: |
+      legacy boot (not UEFI)
+    credit: |
+      A. Mousa
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/c1Pyo3Yrs_Lb2isbgCbww8krOnO_lnHi3czYC8WSuXjuX3sYPksxi2O-wugDhnWWOjwZ4OksT8fXEjPlE2VqS4P2KLhe4FTEdrNJt6z9Vhw%3D%40protonmail.com
 
 ---
-

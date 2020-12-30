@@ -1,3 +1,5 @@
+---
+
 layout:
   'hcl'
 type:
@@ -42,18 +44,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    
-  credit: |
-    nortiusmediae
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/8eaa28e4-78b2-4c0a-a5d4-3071b4f6d6b2%40googlegroups.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
 
+    credit: |
+      nortiusmediae
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/8eaa28e4-78b2-4c0a-a5d4-3071b4f6d6b2%40googlegroups.com
+
+---

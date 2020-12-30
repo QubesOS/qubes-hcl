@@ -43,20 +43,19 @@ usb: |
   1
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    One of two NICs worked
-  credit: |
-    Zbigniew Łukasiak
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAGL_UUv8xLRDFpu%2B0pZagons5M%2BQu0hpSueEQmZ1Wxn9FH%2BWJg%40mail.gmail.com
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+      One of two NICs worked
+    credit: |
+      Zbigniew Łukasiak
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAGL_UUv8xLRDFpu%2B0pZagons5M%2BQu0hpSueEQmZ1Wxn9FH%2BWJg%40mail.gmail.com
 
 ---
-

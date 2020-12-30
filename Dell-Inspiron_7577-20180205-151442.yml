@@ -43,20 +43,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.13-2
-  remark: |
-    No dual screen, minor issues
-  credit: |
-    Joe Thielen
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAM9FSFyDPx-qAY0LaJoz8-ofd_caES_C8kkk2Q6eKt6TRw8a3Q%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.13-2
+    remark: |
+      No dual screen, minor issues
+    credit: |
+      Joe Thielen
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAM9FSFyDPx-qAY0LaJoz8-ofd_caES_C8kkk2Q6eKt6TRw8a3Q%40mail.gmail.com
 
 ---
-

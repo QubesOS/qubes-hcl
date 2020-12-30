@@ -44,20 +44,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    
-  credit: |
-    ozuhouz
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/Q8O1RUDCNFgs6EjVGtjXV4zY8FODz5PJNOvbOXlHz6LO975HCa_VSY0fbM8tTXcLPgQ96h8ll9JQt5c4LyFv3XvezvGch8l2pz3mLlYOjro%3D%40pm.me
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+
+    credit: |
+      ozuhouz
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/Q8O1RUDCNFgs6EjVGtjXV4zY8FODz5PJNOvbOXlHz6LO975HCa_VSY0fbM8tTXcLPgQ96h8ll9JQt5c4LyFv3XvezvGch8l2pz3mLlYOjro%3D%40pm.me
 
 ---
-

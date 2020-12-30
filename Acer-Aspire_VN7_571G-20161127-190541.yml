@@ -12,9 +12,9 @@ slat:
 tpm:
   'unknown'
 brand: |
-  Acer           
+  Acer
 model: |
-  Aspire VN7-571G                
+  Aspire VN7-571G
 bios: |
   V1.16
 cpu: |
@@ -35,24 +35,23 @@ network: |
 memory: |
   6063
 scsi: |
-  Toshiba MQ02ABD1 Rev: 5A  
+  Toshiba MQ02ABD1 Rev: 5A
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Need BIOS legacy mode for install
-  credit: |
-    Kellopyy
-  link: |
-    https://groups.google.com/d/msg/qubes-users/1v7L1Gw3o-c/SLUb0i9bCwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Need BIOS legacy mode for install
+    credit: |
+      Kellopyy
+    link: |
+      https://groups.google.com/d/msg/qubes-users/1v7L1Gw3o-c/SLUb0i9bCwAJ
 
 ---
-

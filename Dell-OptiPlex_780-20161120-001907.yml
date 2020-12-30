@@ -14,7 +14,7 @@ tpm:
 brand: |
   Dell
 model: |
-  OptiPlex 780                 
+  OptiPlex 780
 bios: |
   A15
 cpu: |
@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.14-11
-  remark: |
-    Updated BIOS
-  credit: |
-    mojosam
-  link: |
-    https://groups.google.com/d/msg/qubes-users/WfKylBYf1kE/KUBCN2TaCAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.14-11
+    remark: |
+      Updated BIOS
+    credit: |
+      mojosam
+    link: |
+      https://groups.google.com/d/msg/qubes-users/WfKylBYf1kE/KUBCN2TaCAAJ
 
 ---
-

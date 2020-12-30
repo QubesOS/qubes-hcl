@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    Problems with suspend locking, HVMs crashing. Applied EFI fix, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/pc71hg%24unf%241%40blaine.gmane.org'><span class='icon'></span>read more</a>
-  credit: |
-    NaBaCo
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/pc71hg%24unf%241%40blaine.gmane.org
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+      Problems with suspend locking, HVMs crashing. Applied EFI fix, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/pc71hg%24unf%241%40blaine.gmane.org'><span class='icon'></span>read more</a>
+    credit: |
+      NaBaCo
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/pc71hg%24unf%241%40blaine.gmane.org
 
 ---
-

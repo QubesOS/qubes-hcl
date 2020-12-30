@@ -46,20 +46,19 @@ usb: |
   3
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.56-21
-  remark: |
-    Networking issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/5ec2d6ba-4745-4cd0-2786-1b8d1d2fc420%40posteo.net'><span class='icon'></span>read more</a>
-  credit: |
-    Matteo
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/5ec2d6ba-4745-4cd0-2786-1b8d1d2fc420%40posteo.net
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.56-21
+    remark: |
+      Networking issues, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/5ec2d6ba-4745-4cd0-2786-1b8d1d2fc420%40posteo.net'><span class='icon'></span>read more</a>
+    credit: |
+      Matteo
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/5ec2d6ba-4745-4cd0-2786-1b8d1d2fc420%40posteo.net
 
 ---
-

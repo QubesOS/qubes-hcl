@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   00:00.0 Host bridge [0600]: Intel Corporation Core Processor DRAM Controller [8086:0044] (rev 02)
 chipset-short: |
-  
+
 gpu: |
   00:02.0 VGA compatible controller [0300]: Intel Corporation Core Processor Integrated Graphics Controller [8086:0046] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
@@ -30,7 +30,7 @@ gpu-short: |
 network: |
   00:19.0 Ethernet controller: Intel Corporation 82577LM Gigabit Network Connection (rev 05)
   43:00.0 Network controller: Intel Corporation Centrino Advanced-N 6200 (rev 35)
-memory:  |
+memory: |
   7983 Mb
 scsi: |
   OCZ-VERTEX2      Rev: 1.35
@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.9.2-3
-  remark: |
-    works only with 3.9 kernel
-  credit: |
-    jeff
-  link: |
-    https://groups.google.com/d/msg/qubes-users/tE23F8Ut6LQ/lOEQQ2X6XrIJ
+  - works:
+      'yes'
+    qubes: |
+      R2
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.9.2-3
+    remark: |
+      works only with 3.9 kernel
+    credit: |
+      jeff
+    link: |
+      https://groups.google.com/d/msg/qubes-users/tE23F8Ut6LQ/lOEQQ2X6XrIJ
 
 ---
-

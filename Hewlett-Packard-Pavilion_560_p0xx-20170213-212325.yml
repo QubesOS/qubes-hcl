@@ -44,20 +44,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.38-11
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.38-11
+    remark: |
 
-  credit: |
-    Andre
-  link: |
-    https://groups.google.com/forum/#!msg/qubes-users/mmn1QqWrvMk/EpUxCpU_AAAJ
+    credit: |
+      Andre
+    link: |
+      https://groups.google.com/forum/#!msg/qubes-users/mmn1QqWrvMk/EpUxCpU_AAAJ
 
 ---
-

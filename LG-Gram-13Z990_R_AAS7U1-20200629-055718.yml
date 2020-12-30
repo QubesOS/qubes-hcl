@@ -41,20 +41,19 @@ usb: |
   2
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-14.fc25
-  kernel: |
-    4.19.94-1
-  remark: |
-    Boot image will not present a menu and just launches with default options, complains of XSA-297 and reboots. Follow "Change installer kernel parameters in UEFI" to set "smt=on" and update your CPU's microcode post-install.
-  credit: |
-    Chris Allegretta
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/MN2PR13MB2863BF0FDFEBEF4878E46198846E0%40MN2PR13MB2863.namprd13.prod.outlook.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.94-1
+    remark: |
+      Boot image will not present a menu and just launches with default options, complains of XSA-297 and reboots. Follow "Change installer kernel parameters in UEFI" to set "smt=on" and update your CPU's microcode post-install.
+    credit: |
+      Chris Allegretta
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/MN2PR13MB2863BF0FDFEBEF4878E46198846E0%40MN2PR13MB2863.namprd13.prod.outlook.com
 
 ---
-

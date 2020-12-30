@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.31-11
-  remark: |
-    UEFI boot workaround. Update kernel to fix intel graphics flicker, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/IQ5jWwklAbM/QGoBoyJDBQAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Michael Liesenfelt
-  link: |
-    https://groups.google.com/d/msg/qubes-users/IQ5jWwklAbM/QGoBoyJDBQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.31-11
+    remark: |
+      UEFI boot workaround. Update kernel to fix intel graphics flicker, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/IQ5jWwklAbM/QGoBoyJDBQAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Michael Liesenfelt
+    link: |
+      https://groups.google.com/d/msg/qubes-users/IQ5jWwklAbM/QGoBoyJDBQAJ
 
 ---
-

@@ -43,20 +43,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-8
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/BnQy67kxdrY/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    Bill Wether
-  link: |
-    https://groups.google.com/d/msg/qubes-users/BnQy67kxdrY/MbED_yJlAwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-8
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/BnQy67kxdrY/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      Bill Wether
+    link: |
+      https://groups.google.com/d/msg/qubes-users/BnQy67kxdrY/MbED_yJlAwAJ
 
 ---
-

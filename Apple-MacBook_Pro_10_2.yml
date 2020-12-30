@@ -1,9 +1,9 @@
 ---
-layout: 
+layout:
   'hcl'
-type:   
+type:
   'laptop'
-hvm: 
+hvm:
   'yes'
 iommu:
   'yes'
@@ -20,37 +20,35 @@ cpu: |
 cpu-short: |
   i5-3210M
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
-  
+
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
-- works:
-    'no'
-  qubes: |
-    R2B2
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.23-1
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/ZbjrseLxuPQ/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    ph145h
-  link: |
-    https://groups.google.com/d/msg/qubes-users/ZbjrseLxuPQ/5Jx5DvpnwMMJ
+  - works:
+      'no'
+    qubes: |
+      R2B2
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.23-1
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/ZbjrseLxuPQ/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      ph145h
+    link: |
+      https://groups.google.com/d/msg/qubes-users/ZbjrseLxuPQ/5Jx5DvpnwMMJ
 
 ---
-
-

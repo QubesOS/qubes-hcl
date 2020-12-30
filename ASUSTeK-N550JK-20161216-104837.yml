@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.31-11
-  remark: |
-    Skip installer compatibility check. Audio sync issue, <a class='ext-link' href='https://github.com/QubesOS/qubes-issues/issues/1698'><span class='icon'></span>read more</a>
-  credit: |
-    TNT BOM BOM
-  link: |
-    https://groups.google.com/d/msg/qubes-users/Hm0UG3GEQV4/fuOr6QQDEQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.31-11
+    remark: |
+      Skip installer compatibility check. Audio sync issue, <a class='ext-link' href='https://github.com/QubesOS/qubes-issues/issues/1698'><span class='icon'></span>read more</a>
+    credit: |
+      TNT BOM BOM
+    link: |
+      https://groups.google.com/d/msg/qubes-users/Hm0UG3GEQV4/fuOr6QQDEQAJ
 
 ---
-

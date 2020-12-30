@@ -33,25 +33,24 @@ network: |
 memory: |
   16294
 scsi: |
-  CT240BX200SSD1   Rev: .6  
+  CT240BX200SSD1   Rev: .6
   KINGSTON SHFS37A Rev: BBF0
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.1
-  xen: |
-    4.6.0
-  kernel: |
-    4.1.13-9
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/5Nh0A8rwc_A/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    'infodox'
-  link: |
-    https://groups.google.com/d/msg/qubes-users/5Nh0A8rwc_A/vv7xsiCRBQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.1
+    xen: |
+      4.6.0
+    kernel: |
+      4.1.13-9
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-users/5Nh0A8rwc_A/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      'infodox'
+    link: |
+      https://groups.google.com/d/msg/qubes-users/5Nh0A8rwc_A/vv7xsiCRBQAJ
 
 ---
-

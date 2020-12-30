@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.19.8-100
-  remark: |
-    <a class='ext-link' href=''><span class='icon'></span>read more</a>
-  credit: |
-    Kevin Lipe
-  link: |
-    https://groups.google.com/d/msg/qubes-users/xGmIVFYYwKM/15qhqZt9DAAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.19.8-100
+    remark: |
+      <a class='ext-link' href=''><span class='icon'></span>read more</a>
+    credit: |
+      Kevin Lipe
+    link: |
+      https://groups.google.com/d/msg/qubes-users/xGmIVFYYwKM/15qhqZt9DAAJ
 
 ---
-

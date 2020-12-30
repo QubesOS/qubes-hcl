@@ -36,25 +36,24 @@ network: |
 memory: |
   16267
 scsi: |
-  ADATA SP600      Rev: 1.2 
+  ADATA SP600      Rev: 1.2
   HGST HTS725050A7 Rev: B550
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.31-11
-  remark: |
-    
-  credit: |
-    Wojciech Gustowski
-  link: |
-    https://groups.google.com/d/msg/qubes-users/eMCXQLovr2U/PcV1JiAzEQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.31-11
+    remark: |
+
+    credit: |
+      Wojciech Gustowski
+    link: |
+      https://groups.google.com/d/msg/qubes-users/eMCXQLovr2U/PcV1JiAzEQAJ
 
 ---
-

@@ -37,20 +37,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Sometimes doesn't wake after suspend
-  credit: |
-    Jean-Philippe Ouellet
-  link: |
-    https://groups.google.com/d/msg/qubes-users/wLP5KqW7nio/s12Axh6ZBgAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Sometimes doesn't wake after suspend
+    credit: |
+      Jean-Philippe Ouellet
+    link: |
+      https://groups.google.com/d/msg/qubes-users/wLP5KqW7nio/s12Axh6ZBgAJ
 
 ---
-

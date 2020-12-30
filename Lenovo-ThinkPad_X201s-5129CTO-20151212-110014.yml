@@ -18,7 +18,7 @@ bios: |
 cpu: |
   Intel(R) Core(TM) i7 CPU       L 640  @ 2.13GHz
 cpu-short: |
-  
+
 chipset: |
   Intel Corporation Core Processor DRAM Controller [8086:0044] (rev 02)
 chipset-short: |
@@ -37,20 +37,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.0
-  xen: |
-    4.4.2
-  kernel: |
-    3.19.8-100
-  remark: |
-    
-  credit: |
-    James Hanson
-  link: |
-    https://groups.google.com/d/msg/qubes-users/UOtFo2hVSf8/dp6A5nPYBQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.0
+    xen: |
+      4.4.2
+    kernel: |
+      3.19.8-100
+    remark: |
+
+    credit: |
+      James Hanson
+    link: |
+      https://groups.google.com/d/msg/qubes-users/UOtFo2hVSf8/dp6A5nPYBQAJ
 
 ---
-

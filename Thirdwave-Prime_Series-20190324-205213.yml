@@ -41,26 +41,25 @@ scsi: |
   Toshiba DT01ACA3 Rev: ABB0
   DVDRAM GH24NS70  Rev: GN03
   ST8000DM004-2CX1 Rev: 0001
-  HDCR-U           Rev:     
+  HDCR-U           Rev:
   USB Flash Disk   Rev: 1.00
 usb: |
   4
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.14.103-1
-  remark: |
-    IOMMU not recognized with R4 installer
-  credit: |
-    Gaijin
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/24056a9940d0eb2409289a5885f333a6%40riseup.net
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.14.103-1
+    remark: |
+      IOMMU not recognized with R4 installer
+    credit: |
+      Gaijin
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/24056a9940d0eb2409289a5885f333a6%40riseup.net
 
 ---
-

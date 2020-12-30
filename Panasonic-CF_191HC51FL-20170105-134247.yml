@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.31-11
-  remark: |
-    The ToughBook cf19 mark6 has a PCI-USB layout, which forces one to choose between Touchscreen and WWAN support when using sys-usb on Qubes3.2 (<a class='ext-link' href='http://toughbooktalk.com/viewtopic.php?f=3&t=3176'><span class='icon'></span>read more</a>)
-  credit: |
-    Karl Klammer
-  link: |
-    http://toughbooktalk.com/viewtopic.php?f=3&t=3176
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.31-11
+    remark: |
+      The ToughBook cf19 mark6 has a PCI-USB layout, which forces one to choose between Touchscreen and WWAN support when using sys-usb on Qubes3.2 (<a class='ext-link' href='http://toughbooktalk.com/viewtopic.php?f=3&t=3176'><span class='icon'></span>read more</a>)
+    credit: |
+      Karl Klammer
+    link: |
+      http://toughbooktalk.com/viewtopic.php?f=3&t=3176
 
 ---
-

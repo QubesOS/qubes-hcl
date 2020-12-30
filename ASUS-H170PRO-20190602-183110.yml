@@ -36,28 +36,27 @@ network: |
 memory: |
   24503
 scsi: |
-  CT500MX500SSD1   Rev: 023 
+  CT500MX500SSD1   Rev: 023
   Samsung HD154UI  Rev: 1113
   WDC WD20EZRX-00D Rev: 0A80
-  CT500MX500SSD1   Rev: 020 
+  CT500MX500SSD1   Rev: 020
 usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-5.fc25
-  kernel: |
-    4.14.116-1
-  remark: |
-    Also worked with the onboard Integrated Graphics (HD 530).
-  credit: |
-    eye0ai2phi
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/vt70RvG29_PajrKPLA6HUti487VFYb2WkyK-99KvmVTnGlePbgEtc9JZo3bNrnXVUJ_zSXmf_Yq-V52TJGDkhH1L-pL22VSI756uBQCsLPE%3D%40protonmail.ch
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-5.fc25
+    kernel: |
+      4.14.116-1
+    remark: |
+      Also worked with the onboard Integrated Graphics (HD 530).
+    credit: |
+      eye0ai2phi
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/vt70RvG29_PajrKPLA6HUti487VFYb2WkyK-99KvmVTnGlePbgEtc9JZo3bNrnXVUJ_zSXmf_Yq-V52TJGDkhH1L-pL22VSI756uBQCsLPE%3D%40protonmail.ch
 
 ---
-

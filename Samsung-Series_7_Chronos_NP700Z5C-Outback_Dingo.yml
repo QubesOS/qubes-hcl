@@ -16,70 +16,69 @@ model: |
 bios: |
   P04ABJ
 cpu: |
-  
+
 cpu-short: |
   i7-3635QM
 chipset: |
-  
+
 chipset-short: |
-  
+
 gpu: |
-  
+
 gpu-short: |
   nVidia Optimus
 network: |
-  
+
 memory: |
-  
+
 scsi: |
-  
+
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R1
-  xen: |
-    
-  kernel: |
-    
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ'><span class='icon'></span>read more</a>
-  credit: |
-    Outback Dingo
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ
+  - works:
+      'partial'
+    qubes: |
+      R1
+    xen: |
 
-- works:
-    'yes'
-  qubes: |
-    R2B1
-  xen: |
-    
-  kernel: |
-    
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ'><span class="icon"></span>read more</a>
-  credit: |
-    Outback Dingo
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ
+    kernel: |
 
-- works:
-    'yes'
-  qubes: |
-    R2B2
-  xen: |
-    4.1.2
-  kernel: |
-    3.7.6-2
-  remark: |
-    <a class='ext-link' href='https://groups.google.com/d/topic/qubes-devel/Wu1mn9f1qgM/discussion'><span class='icon'></span>read more</a>
-  credit: |
-    Outback Dingo
-  link: |
-    https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ'><span class='icon'></span>read more</a>
+    credit: |
+      Outback Dingo
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ
+
+  - works:
+      'yes'
+    qubes: |
+      R2B1
+    xen: |
+
+    kernel: |
+
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ'><span class="icon"></span>read more</a>
+    credit: |
+      Outback Dingo
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ
+
+  - works:
+      'yes'
+    qubes: |
+      R2B2
+    xen: |
+      4.1.2
+    kernel: |
+      3.7.6-2
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/topic/qubes-devel/Wu1mn9f1qgM/discussion'><span class='icon'></span>read more</a>
+    credit: |
+      Outback Dingo
+    link: |
+      https://groups.google.com/d/msg/qubes-devel/0xBeX8NZFiU/bUqxGdn6KOMJ
 
 ---
-

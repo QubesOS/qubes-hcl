@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    TPM works after downgrading TPM firmware from TPM v2.0 to TPM v1.2 
-  credit: |
-    Tony Adams
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAGu9LowyKUf-_LmaueTNai152FDAjKCc%2BAVvgMuXMNE1YM7NrQ%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+      TPM works after downgrading TPM firmware from TPM v2.0 to TPM v1.2
+    credit: |
+      Tony Adams
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAGu9LowyKUf-_LmaueTNai152FDAjKCc%2BAVvgMuXMNE1YM7NrQ%40mail.gmail.com
 
 ---
-

@@ -41,20 +41,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5
-  kernel: |
-    4.19.15-1
-  remark: |
-    Used installer workarounds, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/d364b4b3-3ff2-6c7b-d7cd-d6f37e941346%40t-online.de'><span class='icon'></span>read more</a>
-  credit: |
-    Fabian
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/a5ee7b7d-4eb0-f9d3-d8cb-3ae0654a69dd%40t-online.de
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5
+    kernel: |
+      4.19.15-1
+    remark: |
+      Used installer workarounds, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/d364b4b3-3ff2-6c7b-d7cd-d6f37e941346%40t-online.de'><span class='icon'></span>read more</a>
+    credit: |
+      Fabian
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/a5ee7b7d-4eb0-f9d3-d8cb-3ae0654a69dd%40t-online.de
 
 ---
-

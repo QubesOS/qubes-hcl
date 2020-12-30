@@ -35,26 +35,25 @@ network: |
 memory: |
   8173
 scsi: |
-  Toshiba MQ01ABD0 Rev: 1A  
+  Toshiba MQ01ABD0 Rev: 1A
   DVD RW AD-7740H  Rev: 1.V0
   USB Flash Disk   Rev: 1.00
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.31-11
-  remark: |
-    
-  credit: |
-    carlos gonzalez
-  link: |
-    https://groups.google.com/d/msg/qubes-users/DyRQKqlR6KY/5L31HotdDwAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.31-11
+    remark: |
+
+    credit: |
+      carlos gonzalez
+    link: |
+      https://groups.google.com/d/msg/qubes-users/DyRQKqlR6KY/5L31HotdDwAJ
 
 ---
-

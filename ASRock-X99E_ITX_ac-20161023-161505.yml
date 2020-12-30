@@ -40,20 +40,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    
-  credit: |
-    Grzegorz Chodzicki
-  link: |
-    https://groups.google.com/d/msg/qubes-users/waF5biRiPFw/y-KwJl9UAAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+
+    credit: |
+      Grzegorz Chodzicki
+    link: |
+      https://groups.google.com/d/msg/qubes-users/waF5biRiPFw/y-KwJl9UAAAJ
 
 ---
-

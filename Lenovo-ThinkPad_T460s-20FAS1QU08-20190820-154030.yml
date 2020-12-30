@@ -42,20 +42,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-7.fc25
-  kernel: |
-    4.14.119-2
-  remark: |
-    Enable TPM 1.2 in Bios to fix suspend issue
-  credit: |
-    Maximilian Ehlers
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/262ffd6260a0ed015daad449eccd396231e6e675.camel%40ehlers.berlin
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-7.fc25
+    kernel: |
+      4.14.119-2
+    remark: |
+      Enable TPM 1.2 in Bios to fix suspend issue
+    credit: |
+      Maximilian Ehlers
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/262ffd6260a0ed015daad449eccd396231e6e675.camel%40ehlers.berlin
 
 ---
-

@@ -16,7 +16,7 @@ brand: |
 model: |
   MCP6P3
 bios: |
-  080015 
+  080015
 cpu: |
   AMD Athlon(tm) II X4 635 Processor
 cpu-short: |
@@ -44,20 +44,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.3
-  kernel: |
-    4.4.38-11
-  remark: |
-    
-  credit: |
-    Robert Williams
-  link: |
-    https://groups.google.com/d/msg/qubes-users/QahtA8UPr34/P96mBgjsEAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.3
+    kernel: |
+      4.4.38-11
+    remark: |
+
+    credit: |
+      Robert Williams
+    link: |
+      https://groups.google.com/d/msg/qubes-users/QahtA8UPr34/P96mBgjsEAAJ
 
 ---
-

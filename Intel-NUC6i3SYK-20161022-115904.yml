@@ -40,20 +40,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    Install display issue, use xrandr --output HDMI1 --set audio force-dvi
-  credit: |
-    Yuval Kogman
-  link: |
-    https://groups.google.com/d/msg/qubes-users/vnvPBealr6E/ycKzHowMAAAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      Install display issue, use xrandr --output HDMI1 --set audio force-dvi
+    credit: |
+      Yuval Kogman
+    link: |
+      https://groups.google.com/d/msg/qubes-users/vnvPBealr6E/ycKzHowMAAAJ
 
 ---
-

@@ -41,21 +41,20 @@ usb: |
   2
 versions:
 
-- works:
-    yes
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-14.fc25
-  kernel: |
-    5.3.11-1
-  remark: |
-    To boot the installer, you need to remove mapbs=1 and noexitboot=1
-    To get suspend to work, you need to add mem_sleep_default=deep to the kernel= line in /boot/efi/EFI/qubes/xen.cfg.
-  credit: |
-    Daniel Moerner
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CAPSgt5n2j6RxiZnfi%2BRWX-3Ffy86v8Sm%2ByBc3opoka-VmAkpEA%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      5.3.11-1
+    remark: |
+      To boot the installer, you need to remove mapbs=1 and noexitboot=1
+      To get suspend to work, you need to add mem_sleep_default=deep to the kernel= line in /boot/efi/EFI/qubes/xen.cfg.
+    credit: |
+      Daniel Moerner
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAPSgt5n2j6RxiZnfi%2BRWX-3Ffy86v8Sm%2ByBc3opoka-VmAkpEA%40mail.gmail.com
 
 ---
-

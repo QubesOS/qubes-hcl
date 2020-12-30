@@ -38,20 +38,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.4
-  kernel: |
-    4.4.55-11
-  remark: |
-    Replaced Broadcom Wifi with Intel
-  credit: |
-    Darren Fix
-  link: |
-    https://groups.google.com/d/msg/qubes-users/rjyq-IC5Sbs/RpK6W1VfBQAJ
+  - works:
+      'yes'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.4
+    kernel: |
+      4.4.55-11
+    remark: |
+      Replaced Broadcom Wifi with Intel
+    credit: |
+      Darren Fix
+    link: |
+      https://groups.google.com/d/msg/qubes-users/rjyq-IC5Sbs/RpK6W1VfBQAJ
 
 ---
-

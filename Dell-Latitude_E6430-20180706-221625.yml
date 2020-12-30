@@ -43,20 +43,19 @@ usb: |
   3
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.3
-  kernel: |
-    4.14.18-1
-  remark: |
-    
-  credit: |
-    Blake
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/CANRdDiL2HBB7x6Bbi1qfuE7hDsGE-ACJU2tDNYVh_91TNu5w3g%40mail.gmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.3
+    kernel: |
+      4.14.18-1
+    remark: |
+
+    credit: |
+      Blake
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CANRdDiL2HBB7x6Bbi1qfuE7hDsGE-ACJU2tDNYVh_91TNu5w3g%40mail.gmail.com
 
 ---
-

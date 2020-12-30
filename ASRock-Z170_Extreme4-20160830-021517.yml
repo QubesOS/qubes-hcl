@@ -36,20 +36,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.4.14-11
-  remark: |
-    AEM works with TPM module, can't use suspend or microphone, problem with 21:9 ultrawide display, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/ydpsDlNTc0s/_pKMPg-pAgAJ'><span class='icon'></span>read more</a>
-  credit: |
-    Fabian Wloch
-  link: |
-    https://groups.google.com/d/msg/qubes-users/ydpsDlNTc0s/_pKMPg-pAgAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.4.14-11
+    remark: |
+      AEM works with TPM module, can't use suspend or microphone, problem with 21:9 ultrawide display, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/ydpsDlNTc0s/_pKMPg-pAgAJ'><span class='icon'></span>read more</a>
+    credit: |
+      Fabian Wloch
+    link: |
+      https://groups.google.com/d/msg/qubes-users/ydpsDlNTc0s/_pKMPg-pAgAJ
 
 ---
-

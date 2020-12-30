@@ -43,20 +43,19 @@ usb: |
   2
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.4
-  kernel: |
-    4.14.74-1
-  remark: |
-    Issues with Wifi
-  credit: |
-    Dominique St-Pierre Boucher
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/82e712bf-de9a-4c08-8167-6cfeb58b687e%40googlegroups.com
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.74-1
+    remark: |
+      Issues with Wifi
+    credit: |
+      Dominique St-Pierre Boucher
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/82e712bf-de9a-4c08-8167-6cfeb58b687e%40googlegroups.com
 
 ---
-

@@ -39,20 +39,19 @@ scsi: |
 
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.1
-  kernel: |
-    4.8.12-12
-  remark: |
-    Install and sleep mode issues
-  credit: |
-    Vincent Wiemann
-  link: |
-    https://groups.google.com/forum/#!msg/qubes-users/ewiPkMdLa_o/_cHuYHJNAAAJ
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.1
+    kernel: |
+      4.8.12-12
+    remark: |
+      Install and sleep mode issues
+    credit: |
+      Vincent Wiemann
+    link: |
+      https://groups.google.com/forum/#!msg/qubes-users/ewiPkMdLa_o/_cHuYHJNAAAJ
 
 ---
-

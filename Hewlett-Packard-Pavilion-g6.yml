@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   00:00.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Root Complex [1022:1410]
 chipset-short: |
-  
+
 gpu: |
   00:01.0 VGA compatible controller [0300]: Advanced Micro Devices, Inc. [AMD/ATI] Trinity [Radeon HD 7660G] [1002:9900] (prog-if 00 [VGA controller])
 gpu-short: |
@@ -37,20 +37,19 @@ scsi: |
 
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R2
-  xen: |
-    4.1.6.1
-  kernel: |
-    3.12.23-1
-  remark: |
-    wifi, bluetooth, webcam not working
-  credit: |
-    JoseJ
-  link: |
-    https://groups.google.com/d/msg/qubes-users/hACWQwJf9ek/qvi0YzUFrT4J
+  - works:
+      'yes'
+    qubes: |
+      R2
+    xen: |
+      4.1.6.1
+    kernel: |
+      3.12.23-1
+    remark: |
+      wifi, bluetooth, webcam not working
+    credit: |
+      JoseJ
+    link: |
+      https://groups.google.com/d/msg/qubes-users/hACWQwJf9ek/qvi0YzUFrT4J
 
 ---
-

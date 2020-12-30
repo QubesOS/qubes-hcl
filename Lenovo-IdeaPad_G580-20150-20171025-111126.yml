@@ -43,20 +43,19 @@ usb: |
   3
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R3.2
-  xen: |
-    4.6.6
-  kernel: |
-    4.9.45-21
-  remark: |
-    SD slot and hotkeys not working
-  credit: |
-    PG
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/bded6e4197f7f2b5ff199487392dc68c%40riseup.net
+  - works:
+      'partial'
+    qubes: |
+      R3.2
+    xen: |
+      4.6.6
+    kernel: |
+      4.9.45-21
+    remark: |
+      SD slot and hotkeys not working
+    credit: |
+      PG
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/bded6e4197f7f2b5ff199487392dc68c%40riseup.net
 
 ---
-

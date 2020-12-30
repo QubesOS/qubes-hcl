@@ -41,20 +41,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-13.fc25
-  kernel: |
-    4.19.84-1
-  remark: |
-    must be installed in UEFI
-  credit: |
-    Jan Fabo
-  link: |
-    https://groups.google.com/d/msgid/qubes-users/LT7oL1e4R7kVveIqcnijy_lSO321DttTvXWD7o5RMRgJTr6QjPRLH9WWy6qa8Mr5cPWoTwn5yd0DajXiqGMGt3mAy6zQ0eIvElNIF8gXPyY%3D%40protonmail.com
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-13.fc25
+    kernel: |
+      4.19.84-1
+    remark: |
+      must be installed in UEFI
+    credit: |
+      Jan Fabo
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/LT7oL1e4R7kVveIqcnijy_lSO321DttTvXWD7o5RMRgJTr6QjPRLH9WWy6qa8Mr5cPWoTwn5yd0DajXiqGMGt3mAy6zQ0eIvElNIF8gXPyY%3D%40protonmail.com
 
 ---
-
