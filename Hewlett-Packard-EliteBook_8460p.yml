@@ -29,7 +29,7 @@ gpu-short: |
   Integrated Graphics (HD 3000)
 network: |
 
-memory:  |
+memory: |
   8098 Mb
 scsi: |
   INTEL SSDSA2BW16 Rev: 4PC1

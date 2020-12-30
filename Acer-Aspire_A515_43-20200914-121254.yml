@@ -43,7 +43,7 @@ usb: |
 versions:
 
   - works:
-      Yes
+      'yes'
     qubes: |
       R4.0
     xen: |
