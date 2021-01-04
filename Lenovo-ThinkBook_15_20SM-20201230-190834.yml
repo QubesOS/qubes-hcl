@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkBook 15 IIL (20SM)
+bios: |
+  DJCN22WW
+cpu: |
+  Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
+cpu-short: |
+  i7-1065G7
+chipset: |
+  Intel Corporation Device [8086:8a12] (rev 03)
+chipset-short: |
+  Ice Lake U
+gpu: |
+  Intel Corporation Device [8086:8a52] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Plus G7)
+network: |
+  Intel Corporation Device 34f0 (rev 30)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  15898
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-28.fc25
+    kernel: |
+      4.19.155-1
+    remark: |
+      No wifi or touchpad. Other hardware untested. <a class='ext-link' href='https://qubes-os.discourse.group/t/hcl-lenovo-thinkbook-15-iil-wip/2142'><span class='icon'></span>Read more.</a>
+    credit: |
+      David Seaward
+    link: |
+      https://qubes-os.discourse.group/t/hcl-lenovo-thinkbook-15-iil-wip/2142
+
+---
