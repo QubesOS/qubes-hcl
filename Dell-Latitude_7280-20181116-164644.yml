@@ -51,7 +51,7 @@ versions:
     kernel: |
       4.14.18-1
     remark: |
-      TPM needs downgrading to TPM v1.2 (download link no longer works)
+      TPM needs downgrading to TPM v1.2 <a class='ext-link' href='https://groups.google.com/g/qubes-users/c/7XgBd5CZsPQ/m/YORQfHXGBwAJ'><span class='icon'></span>read more</a>
     credit: |
       Tony Adams
     link: |
