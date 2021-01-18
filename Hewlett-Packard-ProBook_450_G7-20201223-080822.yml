@@ -26,7 +26,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Device [8086:9b61] (rev 0c)
 chipset-short: |
-  8086:9b61
+  Comet Lake
 gpu: |
   Intel Corporation Device [8086:9b41] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
