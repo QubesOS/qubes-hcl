@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  EliteDesk 800 G2 SFF
+bios: |
+  N01 Ver. 02.17
+cpu: |
+  Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+cpu-short: |
+  i7-6700
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:191f] (rev 07)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 530 [8086:1912] (rev 06) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GP107GL [Quadro P400] [10de:1cb3] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 530) & Quadro P400
+network: |
+  Intel Corporation Ethernet Connection (2) I219-LM (rev 31)
+memory: |
+  65416
+scsi: |
+  SAMSUNG MZ7LN256 Rev: 2H0Q
+  SAMSUNG MZ7LN256 Rev: 100Q
+  DVDROM DU8RESH   Rev: 3HS2
+  ASM1153E         Rev: 0
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-29.fc25
+    kernel: |
+      5.4.88-1
+    remark: |
+
+    credit: |
+      Peter De Wolf
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/537143518.67929275.1612300664365.JavaMail.zimbra%40telenet.be
+
+---
