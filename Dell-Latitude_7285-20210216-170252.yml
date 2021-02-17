@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Latitude 7285
+bios: |
+  1.7.0
+cpu: |
+  Intel(R) Core(TM) i5-7Y57 CPU @ 1.20GHz
+cpu-short: |
+  i5-7Y57
+chipset: |
+  Intel Corporation Device [8086:590c] (rev 02)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Intel Corporation Device [8086:591e] (rev 02) (prog-if 00 [VGA controller])
+  Intel Corporation Sunrise Point-LP Integrated Sensor Hub [8086:9d35] (rev 21)
+gpu-short: |
+  Integrated Graphics (HD 615)
+network: |
+  Intel Corporation Wireless 8265 / 8275 (rev 78)
+memory: |
+  16262
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.94-1
+    remark: |
+      touchpad doesn't work
+    credit: |
+      Guil Dev
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAG4Nk%2BeTs6s%2BfD2%2B9xYOcA7C0CfqChE1yxtkquYLsfydhmxyjw%40mail.gmail.com
+
+---
