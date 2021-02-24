@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Latitude 3330
+bios: |
+  A01
+cpu: |
+  Intel(R) Core(TM) i5-3337U CPU @ 1.80GHz
+cpu-short: |
+  i5-3337U
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4000)
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
+  Intel Corporation Centrino Advanced-N 6235 (rev 24)
+memory: |
+  8063
+scsi: |
+  LITEONIT LCS-128 Rev: 10D
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-29.fc25
+    kernel: |
+      5.4.90-1
+    remark: |
+
+    credit: |
+      Phil
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/hQzzLcd0YNlcBbrNtHpyROxJz8AHA_3AXZmEFsdhWajG5f3kGBzy4xb35DYCdXyop6OERhoiH55zZLS8-d2Q5yv-2x7vhnMB0gpB-jusLzQ%3D%40protonmail.ch?utm_medium=email&utm_source=footer
+
+---
