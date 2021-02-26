@@ -1,0 +1,74 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 15 9570
+bios: |
+  1.18.1
+cpu: |
+  Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
+cpu-short: |
+  i7-8750H
+chipset: |
+  Intel Corporation 8th Gen Core Processor Host Bridge/DRAM Registers [8086:3ec4] (rev 07)
+chipset-short: |
+  Cannon Lake
+gpu: |
+  Intel Corporation UHD Graphics 630 (Mobile) [8086:3e9b] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 630)
+network: |
+  Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
+memory: |
+  32512
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-29.fc25
+    kernel: |
+      5.10.8-1
+    remark: |
+      software rendering, high CPU load, poor performance (input latency), <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/98TBMzQfjgXJmUKBxUjMQ64cIgMagVMA5turlXOGxzR_aCb44KaX13t-ESpxMjEo9VUMeYTmUgLiDxIYSvK5LNu5KXWAZeJFjrCsF_50tnM%3D%40protonmail.com'><span class='icon'></span>read more</a>
+    credit: |
+      Ben Moody
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/98TBMzQfjgXJmUKBxUjMQ64cIgMagVMA5turlXOGxzR_aCb44KaX13t-ESpxMjEo9VUMeYTmUgLiDxIYSvK5LNu5KXWAZeJFjrCsF_50tnM%3D%40protonmail.com
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.0
+    kernel: |
+      5.4.67-1
+    remark: |
+      input and gui lag, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/98TBMzQfjgXJmUKBxUjMQ64cIgMagVMA5turlXOGxzR_aCb44KaX13t-ESpxMjEo9VUMeYTmUgLiDxIYSvK5LNu5KXWAZeJFjrCsF_50tnM%3D%40protonmail.com'><span class='icon'></span>read more</a>
+    credit: |
+      Ben Moody
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/98TBMzQfjgXJmUKBxUjMQ64cIgMagVMA5turlXOGxzR_aCb44KaX13t-ESpxMjEo9VUMeYTmUgLiDxIYSvK5LNu5KXWAZeJFjrCsF_50tnM%3D%40protonmail.com
+
+---
