@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision 5520
+bios: |
+  1.18.0
+cpu: |
+  Intel(R) Xeon(R) CPU E3-1505M v6 @ 3.00GHz
+cpu-short: |
+  E3-1505M
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5918] (rev 05)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics P630 [8086:591d] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD P630)
+network: |
+  Intel Corporation Wireless 8265 / 8275 (rev 78)
+memory: |
+  32613
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.0
+    kernel: |
+      5.4.67-1
+    remark: |
+
+    credit: |
+      who
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/141877827.384049.1614445354101%40mail.yahoo.com
+
+---
