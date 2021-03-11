@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Medion
+model: |
+  S6445 MD61489
+bios: |
+  212
+cpu: |
+  Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+cpu-short: |
+  i5-8265U
+chipset: |
+  Intel Corporation Device [8086:3e34] (rev 0c)
+chipset-short: |
+  Whiskey Lake
+gpu: |
+  Intel Corporation Device [8086:3ea0] (rev 02) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 620)
+network: |
+  Intel Corporation Device 9df0 (rev 30)
+memory: |
+  8081
+scsi: |
+  TOSHIBA MQ04ABF1 Rev: 0A
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-29.fc25
+    kernel: |
+      5.4.88-1
+    remark: |
+      Needs UEFI troubleshooting, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/6b494938-c803-0e6a-2438-96f1311ca2ec%40gmx.de'><span class='icon'></span>read more</a>
+    credit: |
+      Lothar Zießau
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/6b494938-c803-0e6a-2438-96f1311ca2ec%40gmx.de
+
+---
