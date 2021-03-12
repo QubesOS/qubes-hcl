@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'server'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  ''
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  PowerEdge R7525
+bios: |
+  2.0.3
+cpu: |
+  AMD EPYC 7302 16-Core Processor
+cpu-short: |
+  EPYC 7302
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:1480]
+chipset-short: |
+  AMD
+gpu: |
+  Matrox Electronics Systems Ltd. Integrated Matrox G200eW3 Graphics Controller [102b:0536] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Matrox G200eW3
+network: |
+  Broadcom Limited NetXtreme BCM5720 Gigabit Ethernet PCIe
+
+memory: |
+  32362
+scsi: |
+  PERC H755N Front Rev: 5.13
+  Portable SSD T3  Rev: 0
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.98-1
+    remark: |
+      "Disable 'x2APIC Mode' in bios to install."
+    credit: |
+      Robert Horvath
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAOO7%3D3jEW1yJgzvUJyO4u7O7MJEjFEN-6qeSaey4h2Qej8fASw%40mail.gmail.com
+
+---
