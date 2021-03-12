@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  ASUSTeK
+model: |
+  ROG Zephyrus G14 (GA401IV)
+bios: |
+  GA401IV.218
+cpu: |
+  AMD Ryzen 9 4900HS with Radeon Graphics
+cpu-short: |
+  Ryzen 9 4900HS
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation TU106M [GeForce RTX 2060 Max-Q] [10de:1f12] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Renoir [1002:1636] (rev c5) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Renoir) & GeForce RTX 2060
+network: |
+  Intel Corporation Wi-Fi 6 AX200 (rev 1a)
+memory: |
+  32173
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.1
+    kernel: |
+      5.11.4-1
+    remark: |
+      'Touch pad sometimes requires full restart. Nvidia untested.'
+    credit: |
+      Alethia
+    link: |
+      https://qubes-os.discourse.group/t/hcl-asus-rog-zephyrus-g14-ga401iv-ha112r-14/3245/1
+
+---
