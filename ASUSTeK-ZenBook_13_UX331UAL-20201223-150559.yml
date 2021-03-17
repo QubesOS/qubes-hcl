@@ -26,7 +26,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Device [8086:5914] (rev 08)
 chipset-short: |
-  8086:5914
+  Kaby Lake
 gpu: |
   Intel Corporation Device [8086:5917] (rev 07) (prog-if 00 [VGA controller])
 gpu-short: |
