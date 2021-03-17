@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 17 9700
+bios: |
+  1.6.3
+cpu: |
+  Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+cpu-short: |
+  i7-10750H
+chipset: |
+  Intel Corporation 10th Gen Core Processor Host Bridge/DRAM Registers [8086:9b54] (rev 02)
+chipset-short: |
+  Comet Lake
+gpu: |
+  Intel Corporation CometLake-H GT2 [UHD Graphics] [8086:9bc4] (rev 05) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 630)
+network: |
+  Intel Corporation Comet Lake PCH CNVi WiFi
+memory: |
+  65281
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.1
+    kernel: |
+      5.10.21-1
+    remark: |
+      needs newer kernel for WiFi
+    credit: |
+      khisanth
+    link: |
+      https://qubes-os.discourse.group/t/hcl-dell-xps-17-9700-ax1650-variant/3326/1
+
+---
