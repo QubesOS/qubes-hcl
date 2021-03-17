@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  ASRock
+model: |
+  X399 Taichi
+bios: |
+  P3.90
+cpu: |
+  AMD Ryzen Threadripper 1920X 12-Core Processor
+cpu-short: |
+  Threadripper 1920X
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 17h (Models 00h-0fh) Root Complex [1022:1450]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation GK208 [GeForce GT 710B] [10de:128b] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce GT 710B
+network: |
+  Intel Corporation I211 Gigabit Network Connection (rev 03)
+  Intel Corporation Device 24fb (rev 10)
+  Intel Corporation I211 Gigabit Network Connection (rev 03)
+memory: |
+  16265
+scsi: |
+  GIGABYTE GP-GSTF Rev: P1.3
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.98-1
+    remark: |
+      no waking up from hibernation
+    credit: |
+      followentropy
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/hWzW9zBg7-KrLFULdfDbqk-wgefpI0Sj82ZEZzG5vUsJ22Xc4xz8EJDCz2lnXqvlM5tkCN2wO3SmXbwPEMj000C02rsOvfLJwYLEPePGfYk%3D%40protonmail.com
+---
