@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'no'
+brand: |
+  Hewlett-Packard
+model: |
+  Laptop 15-da0xxx
+bios: |
+  F.04
+cpu: |
+  Intel(R) Celeron(R) N4000 CPU @ 1.10GHz
+cpu-short: |
+  Celeron N4000
+chipset: |
+  Intel Corporation Device [8086:31f0] (rev 03)
+chipset-short: |
+  Gemini Lake
+gpu: |
+  Intel Corporation Device [8086:3185] (rev 03) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 600)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+  Realtek Semiconductor Co., Ltd. Device d723
+memory: |
+  3671
+scsi: |
+  SMI DISK Rev: 6A
+usb: |
+  1
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.94-1
+    remark: |
+      Not recommended due to missing VT-d/IOMMU feature.
+    credit: |
+      dispuser5132
+    link: |
+      https://qubes-os.discourse.group/t/hcl-hp-laptop-15-da0xxx/3309/1
+
+---

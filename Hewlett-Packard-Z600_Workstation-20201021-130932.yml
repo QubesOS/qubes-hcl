@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'workstation'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  'no'
+remap:
+  'no'
+brand: |
+  Hewlett-Packard
+model: |
+  HP Z600 Workstation
+bios: |
+  786G4 v03.61
+cpu: |
+  Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz
+cpu-short: |
+  Xeon E5520
+chipset: |
+  Intel Corporation 5520 I/O Hub to ESI Port [8086:3406] (rev 13)
+chipset-short: |
+  Tylersburg
+gpu: |
+  NVIDIA Corporation GF106GL [Quadro 2000] [10de:0dd8] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro 2000
+network: |
+  Broadcom Limited NetXtreme BCM5764M Gigabit Ethernet PCIe (rev 10)
+memory: |
+  24559
+scsi: |
+  WDC WD20EFRX-68E Rev: 0A82
+  ST4000DM004-2CV1 Rev: 0001
+  KINGSTON SA400S3 Rev: 71E0
+  SanDisk SDSSDP12 Rev: 0
+usb: |
+  9
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.94-1
+    remark: |
+      Not recommended due to missing VT-d/IOMMU feature.
+    credit: |
+      dispuser5132
+    link: |
+      https://qubes-os.discourse.group/t/hcl-hp-z600-workstation/3310/1
+
+---
