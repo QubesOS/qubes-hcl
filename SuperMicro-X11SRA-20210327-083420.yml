@@ -1,0 +1,64 @@
+---
+layout:
+  'hcl'
+type:
+  'server'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  SuperMicro
+model: |
+  X11SRA
+bios: |
+  1.2b
+cpu: |
+  Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz
+cpu-short: |
+  Xeon W-2123
+chipset: |
+  Intel Corporation Sky Lake-E DMI3 Registers [8086:2020] (rev 04)
+chipset-short: |
+  Sky Lake-E
+gpu: |
+  NVIDIA Corporation Device [10de:1cb6] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro P620
+network: |
+  Intel Corporation Ethernet Connection (2) I219-LM
+  Aquantia Corp. Device d108 (rev 02)
+memory: |
+  147148
+scsi: |
+  TOSHIBA DT01ACA3 Rev: ABB0
+  DVDRAM GH24NSD5  Rev: LJ00
+  ST8000DM004-2CX1 Rev: 0001
+  WDC WD40EFRX-68N Rev: 0A82
+  Samsung SSD 840  Rev: BB6Q
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      4.19.155-1
+    remark: |
+      some issues with 5.x kernel, stable with 4.x
+    credit: |
+      Gaijin
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/3b8998c58aeb42515c71b1a07f65d9a4%40riseup.net
+
+---
