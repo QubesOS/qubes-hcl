@@ -10,7 +10,7 @@ iommu:
 tpm:
   'partial'
 brand: |
-  Supermicro
+  SuperMicro
 model: |
   X10SAE
 bios: |

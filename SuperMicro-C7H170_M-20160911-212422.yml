@@ -10,7 +10,7 @@ iommu:
 tpm:
   'unknown'
 brand: |
-  Supermicro
+  SuperMicro
 model: |
   C7H170-M
 bios: |

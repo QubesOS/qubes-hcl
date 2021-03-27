@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Micro-Star
+model: |
+  GF63 Thin 9RCX
+bios: |
+  E16R3IMS.305
+cpu: |
+  Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+cpu-short: |
+  i7-9750H
+chipset: |
+  Intel Corporation Device [8086:3ec4] (rev 07)
+chipset-short: |
+  Cannon Lake
+gpu: |
+  Intel Corporation Device [8086:3e9b] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 630)
+network: |
+  Intel Corporation Device a370 (rev 10)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  16225
+scsi: |
+  SanDisk SD6SB1M- Rev: 706
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.98-1
+    remark: |
+      legacy boot (no secure boot), added nouveau.modset=0
+    credit: |
+      Eddie
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/lQyR0qhpz9_-F7bxb12i_c2NgclGZ2XeySAAupTU_QWdMDl1rJXvQq0cu159hjHWjIl_hbI-5KjFWXhxWse1ZetVimqikpYsT7SfU-OhIZ4%3D%40protonmail.com
+
+---

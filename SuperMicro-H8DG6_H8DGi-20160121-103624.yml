@@ -10,7 +10,7 @@ iommu:
 tpm:
   'yes'
 brand: |
-  Supermicro
+  SuperMicro
 model: |
   H8DG6/H8DGi
 bios: |
