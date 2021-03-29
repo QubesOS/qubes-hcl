@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 13 9310
+bios: |
+  2.1.0
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+cpu-short: |
+  i7-1165G7
+chipset: |
+  Intel Corporation Device [8086:9a14] (rev 01)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  Intel Corporation Device [8086:9a49] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Device a0f0 (rev 20)
+memory: |
+  16094
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.10.8-1
+    remark: |
+      requires igfx troubleshooting
+    credit: |
+      turscar
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CCtyEKU1ZDBH9U-BMo1WNoViZEmVe2aml3HXk1jZi_fLx5QuCTyFm0tIMxtwoeIlXDWGP-zkh_CdfaNrmGB5NjoV2uK_dHaLSQcmUTY11js%3D%40pm.me
+
+---
