@@ -31,7 +31,7 @@ gpu: |
   Intel Corporation Device [8086:5912] (rev 04)
   Advanced Micro Devices, Inc. [AMD/ATI] Ellesmere [Radeon RX 470/480] [1002:67df] (rev c7) (prog-if 00 [VGA controller])
 gpu-short: |
-  Radeon RX
+  Radeon RX 570
 network: |
   Intel Corporation Wireless 3165 (rev 79)
   Qualcomm Atheros QCA8171 Gigabit Ethernet (rev 10)
