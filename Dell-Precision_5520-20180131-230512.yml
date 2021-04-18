@@ -58,4 +58,19 @@ versions:
     link: |
       https://groups.google.com/d/msgid/qubes-users/e6166477-b811-4de0-aecc-91e935ee429c%40googlegroups.com
 
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.107-1
+    remark: |
+      some modification to install media, legacy boot, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/bcc471f9-3d43-cf3a-6046-86718bd7ec53%40protonmail.com'><span class='icon'></span>read more</a>
+    credit: |
+      Ben
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/bcc471f9-3d43-cf3a-6046-86718bd7ec53%40protonmail.com
+
 ---
