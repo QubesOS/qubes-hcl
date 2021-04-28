@@ -28,11 +28,11 @@ versions:
   - works:
       'yes'
     qubes: |
-      'R3.0'
+      R3.0
     xen: |
-      '4.4.2'
+      4.4.2
     kernel: |
-      '3.18.10-2'
+      3.18.10-2
     remark: |
 
     credit: |
