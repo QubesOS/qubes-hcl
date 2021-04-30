@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad L540 (20AV005GFR)
+bios: |
+  J4ET64WW(1.64)
+cpu: |
+  Intel(R) Core(TM) i5-4300M CPU @ 2.60GHz
+cpu-short: |
+  i5-4300M
+chipset: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller [8086:0c04] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4600)
+network: |
+  Intel Corporation Ethernet Connection I217-V (rev 05)
+  Intel Corporation Wireless 7260 (rev 6b)
+memory: |
+  7900
+scsi: |
+  SanDisk SSD PLUS Rev: 04RL
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.98-1
+    remark: |
+
+    credit: |
+      A Luciani
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CANRmXerED3WFDgw2zAJJy7i00hsMTC28PE6vVFXeq8Z9CUz%2BbA%40mail.gmail.com
+
+---
