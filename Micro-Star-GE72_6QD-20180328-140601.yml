@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Micro-Star
+  MSI
 model: |
   GE72 6QD
 bios: |

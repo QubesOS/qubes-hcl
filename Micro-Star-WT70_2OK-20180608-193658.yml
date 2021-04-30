@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Micro-Star
+  MSI
 model: |
   WT70 2OK
 bios: |
