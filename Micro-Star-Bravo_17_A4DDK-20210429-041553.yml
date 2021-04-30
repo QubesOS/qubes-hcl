@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  ''
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Micro-Star
+model: |
+  Bravo 17 A4DDK
+bios: |
+  E17FKAMS.117
+cpu: |
+  AMD Ryzen 7 4800H with Radeon Graphics
+cpu-short: |
+  Ryzen 7 4800H
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:7340] (rev c1)
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:1636] (rev c6) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Renoir) & Radeon RX 5500M
+network: |
+  Intel Corporation Device 2723 (rev 1a)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  15771
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.107-1
+    remark: |
+      comment out noexitatboot and mabps on install media
+    credit: |
+      Yann Dirson
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/905610205.632609916.1619685795971.JavaMail.root%40zimbra39-e7
+
+---
