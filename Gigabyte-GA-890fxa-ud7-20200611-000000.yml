@@ -6,11 +6,9 @@ type:
 hvm:
   true
 iommu:
-  status:yes
-  message:'Works with extra config'
+  true
 tpm:
-  status:no
-  message:'Lpc header there, prolly not populated.'
+  false
 brand: |
   Gigabyte
 model: |

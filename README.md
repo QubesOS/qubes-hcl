@@ -10,8 +10,8 @@ Generally you'll want to follow the above link to submit your report. However, f
 
 ```
 tpm:
-  status:'yes|no|partial'
-  message:'Text to be displayed goes here'
+  status: 'yes|no|partial'
+  message: 'Text to be displayed goes here'
 ```
 
 ## Template
