@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -38,14 +38,14 @@ network: |
 memory: |
   16250
 scsi: |
-  Toshiba THNSNK12 Rev: 4101
-  Toshiba MQ01ABD1 Rev: 3D
+  Toshiba THNSNK12 Rev:4101
+  Toshiba MQ01ABD1 Rev:3D
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

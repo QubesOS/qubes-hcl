@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   Hewlett-Packard
 model: |
@@ -33,14 +33,14 @@ network: |
 memory: |
   8043
 scsi: |
-  Hitachi HTS54755 Rev: A50A
-  DVD-RAM UJ8B1    Rev: H.03
-  Flash Disk       Rev: 8.07
+  Hitachi HTS54755 Rev:A50A
+  DVD-RAM UJ8B1    Rev:H.03
+  Flash Disk       Rev:8.07
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.0
     xen: |

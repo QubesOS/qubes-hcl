@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'motherboard'
+  motherboard
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASRock
 model: |
@@ -34,16 +34,16 @@ network: |
 memory: |
   32690
 scsi: |
-  DVDRAM GH10N     Rev: EV03
-  Samsung SSD 850  Rev: 2B6Q
-  Samsung SSD 850  Rev: 2B6Q
-  Samsung SSD 830  Rev: 3B1Q
-  DataTraveler 3.0 Rev: PMAP
+  DVDRAM GH10N     Rev:EV03
+  Samsung SSD 850  Rev:2B6Q
+  Samsung SSD 850  Rev:2B6Q
+  Samsung SSD 830  Rev:3B1Q
+  DataTraveler 3.0 Rev:PMAP
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

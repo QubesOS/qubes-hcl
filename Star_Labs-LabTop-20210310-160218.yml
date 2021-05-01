@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  ''
+
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Star Labs
 model: |
@@ -36,13 +36,13 @@ network: |
 memory: |
   16262
 scsi: |
-  Star Drive SATA  Rev: P1.3
+  Star Drive SATA  Rev:P1.3
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

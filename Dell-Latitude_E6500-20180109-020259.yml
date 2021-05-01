@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'no'
+  false
 iommu:
-  'yes'
+  true
 slat:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Dell
 model: |
@@ -45,7 +45,7 @@ usb: |
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

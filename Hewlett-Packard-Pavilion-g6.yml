@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  ''
+
 brand: |
   Hewlett-Packard
 model: |
@@ -38,7 +38,7 @@ scsi: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R2
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   ASUS
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   32636
 scsi: |
-  ST9250315AS      Rev: SDM1
-  CDDVDW SH-S203D  Rev: SB00
+  ST9250315AS      Rev:SDM1
+  CDDVDW SH-S203D  Rev:SB00
 usb: |
   8
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

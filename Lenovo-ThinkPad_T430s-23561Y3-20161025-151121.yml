@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Lenovo
 model: |
@@ -33,12 +33,12 @@ network: |
 memory: |
   16072
 scsi: |
-  INTEL SSDSC2BW18 Rev: LF1i
+  INTEL SSDSC2BW18 Rev:LF1i
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Lenovo
 model: |
@@ -33,12 +33,12 @@ network: |
 memory: |
   7646
 scsi: |
-  WDC WD10SPCX-08S Rev: 1A01
+  WDC WD10SPCX-08S Rev:1A01
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

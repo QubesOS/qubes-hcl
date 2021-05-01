@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'motherboard'
+  motherboard
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'yes'
+  true
 remap:
-  'yes'
+  true
 brand: |
   Gigabyte
 model: |
@@ -42,7 +42,7 @@ usb: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

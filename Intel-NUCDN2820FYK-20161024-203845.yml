@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Intel
 model: |
@@ -40,7 +40,7 @@ scsi: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

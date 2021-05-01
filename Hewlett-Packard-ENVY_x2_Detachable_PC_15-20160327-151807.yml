@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Hewlett-Packard
 model: |
@@ -32,14 +32,14 @@ network: |
 memory: |
   8121
 scsi: |
-  WDC WD5000M22K-6 Rev: 1A03
-  My Passport 0730 Rev: 1015
-  SES Device       Rev: 1015
+  WDC WD5000M22K-6 Rev:1A03
+  My Passport 0730 Rev:1015
+  SES Device       Rev:1015
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

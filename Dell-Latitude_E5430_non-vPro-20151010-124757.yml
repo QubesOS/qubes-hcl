@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  ''
+
 brand: |
   Dell
 model: |
@@ -33,14 +33,14 @@ network: |
 memory: |
   8065
 scsi: |
-  Samsung SSD PM83 Rev: 3D1Q
-  DVD+-RW UJ8D1    Rev: D.03
+  Samsung SSD PM83 Rev:3D1Q
+  DVD+-RW UJ8D1    Rev:D.03
   Flash Disk       Rev:
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.0
     xen: |

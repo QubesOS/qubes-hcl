@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   16271
 scsi: |
-  Lexar SSD        Rev: V4.9
-  CT480BX500SSD1   Rev: R022
+  Lexar SSD        Rev:V4.9
+  CT480BX500SSD1   Rev:R022
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

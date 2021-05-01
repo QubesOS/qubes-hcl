@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -39,15 +39,15 @@ network: |
 memory: |
   16285
 scsi: |
-  ST500LM000-1EJ16 Rev: DEM8
-  KINGSTON SA400S3 Rev: 0102
-  ST500LM000-1EJ16 Rev: DEM8
+  ST500LM000-1EJ16 Rev:DEM8
+  KINGSTON SA400S3 Rev:0102
+  ST500LM000-1EJ16 Rev:DEM8
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

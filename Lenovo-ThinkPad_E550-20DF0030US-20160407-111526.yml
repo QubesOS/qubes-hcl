@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Lenovo
 model: |
@@ -33,13 +33,13 @@ network: |
 memory: |
   16118
 scsi: |
-  ST500LM021-1KJ15 Rev: LIM1
-  DVDRAM GUA0N     Rev: LZ20
+  ST500LM021-1KJ15 Rev:LIM1
+  DVDRAM GUA0N     Rev:LZ20
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

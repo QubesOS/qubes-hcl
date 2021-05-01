@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'no'
+  false
 brand: |
   ASUSTek
 model: |
@@ -36,19 +36,19 @@ network: |
 memory: |
   32680
 scsi: |
-  ST2000DM001-1ER1 Rev: CC26
-  WDC WD10EADS-00P Rev: 0A01
-  WDC WD5000AAKS-0 Rev: 3B01
-  SD/MMC           Rev: 1.00
-  Compact Flash    Rev: 1.01
-  SM/xD-Picture    Rev: 1.02
-  MS/MS-Pro        Rev: 1.03
+  ST2000DM001-1ER1 Rev:CC26
+  WDC WD10EADS-00P Rev:0A01
+  WDC WD5000AAKS-0 Rev:3B01
+  SD/MMC           Rev:1.00
+  Compact Flash    Rev:1.01
+  SM/xD-Picture    Rev:1.02
+  MS/MS-Pro        Rev:1.03
 usb: |
   10
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

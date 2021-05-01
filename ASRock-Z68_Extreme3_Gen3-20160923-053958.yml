@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASRock
 model: |
@@ -41,7 +41,7 @@ scsi: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

@@ -1,32 +1,44 @@
 ---
-layout: 'hcl'
-brand: 'Lenovo'
-model: 'ThinkPad T450 (20BUS00X00)'
-type: 'laptop'
-bios: 'JBET49WW (1.14 )'
-ram: '3788'
-hvm: 'yes'
-iommu: 'yes'
-tpm: ''
-cpu-short: 'i5-5300U'
+layout:
+  hcl
+brand:
+  Lenovo
+model:
+  ThinkPad T450 (20BUS00X00)
+type:
+  laptop
+bios:
+  JBET49WW (1.14)
+ram:
+  3788
+hvm:
+  true
+iommu:
+  true
+tpm:
+
+cpu-short:
+  i5-5300U
 cpu: |
   Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz
-chipset-sort: 'Broadwell-U'
+chipset-sort:
+  Broadwell-U
 chipset: |
   Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
-gpu-short: 'Integrated Graphics (HD 5500)'
+gpu-short:
+  Integrated Graphics (HD 5500)
 gpu: |
   Intel Corporation Broadwell-U Integrated Graphics [8086:1616] (rev 09) (prog-if 00 [VGA controller])
 network: |
   Intel Corporation Ethernet Connection (3) I218-LM (rev 03)
   Intel Corporation Wireless 7265 (rev 59)
 scsi: |
-  Samsung MZ7PC128 Rev: 6L1Q
+  Samsung MZ7PC128 Rev:6L1Q
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.0
     xen: |

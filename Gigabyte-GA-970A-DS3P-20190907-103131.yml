@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  ''
+
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Gigabyte
 model: |
@@ -36,14 +36,14 @@ network: |
 memory: |
   8148
 scsi: |
-  ST1000DX002-2DV1 Rev: CC41
-  iHAS122   W      Rev: PL09
+  ST1000DX002-2DV1 Rev:CC41
+  iHAS122   W      Rev:PL09
 usb: |
   8
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

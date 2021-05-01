@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  ''
+
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   ASRock
 model: |
@@ -36,16 +36,16 @@ network: |
 memory: |
   8155
 scsi: |
-  Samsung HD103SJ  Rev: 00E5
-  DVD RW AD-5260S  Rev: 1.00
-  ST2000DM001-1CH1 Rev: CC24
-  PLEXTOR PX-128S2 Rev: 1.01
+  Samsung HD103SJ  Rev:00E5
+  DVD RW AD-5260S  Rev:1.00
+  ST2000DM001-1CH1 Rev:CC24
+  PLEXTOR PX-128S2 Rev:1.01
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

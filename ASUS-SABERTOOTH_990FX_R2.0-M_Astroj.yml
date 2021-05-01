@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'motherboard'
+  motherboard
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'partial'
+  partial
 brand: |
   ASUS
 model: |
@@ -37,7 +37,7 @@ scsi: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R2
     xen: |

@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'yes'
+  true
 brand: |
   Lenovo
 model: |
@@ -37,7 +37,7 @@ scsi: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R2B1
     xen: |
@@ -54,7 +54,7 @@ versions:
       https://groups.google.com/d/msg/qubes-devel/Z9seyOT46Ro/wX6tsrxE84sJ
 
   - works:
-      'yes'
+      true
     qubes: |
       R2B2
     xen: |
@@ -71,7 +71,7 @@ versions:
       https://groups.google.com/d/msg/qubes-users/V4PQYEBuoSg/udLCHyR6RUUJ
 
   - works:
-      'yes'
+      true
     qubes: |
       R2B3
     xen: |
@@ -88,7 +88,7 @@ versions:
       https://groups.google.com/d/msg/qubes-users/Ll_pPP7glwI/jtRbKtQO_rMJ
 
   - works:
-      'yes'
+      true
     qubes: |
       R2rc1
     xen: |

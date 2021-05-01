@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'workstation'
+  workstation
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Dell
 model: |
@@ -33,15 +33,15 @@ network: |
 memory: |
   12285
 scsi: |
-  ADATA SP900      Rev: 2
-  DVD+-RW DH-16ACS Rev: JD11
-  Samsung HD154UI  Rev: 1118
-  Ultra HS-SD/MMC  Rev: 1.82
+  ADATA SP900      Rev:2
+  DVD+-RW DH-16ACS Rev:JD11
+  Samsung HD154UI  Rev:1118
+  Ultra HS-SD/MMC  Rev:1.82
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.0
     xen: |
@@ -56,7 +56,7 @@ versions:
       https://groups.google.com/d/msg/qubes-users/avqu_g6PeTM/enZCHHUyBwAJ
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

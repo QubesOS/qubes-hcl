@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Dell
 model: |
@@ -40,7 +40,7 @@ scsi: |
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

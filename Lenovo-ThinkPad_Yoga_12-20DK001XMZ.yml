@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   Lenovo
 model: |
@@ -36,14 +36,14 @@ network: |
 memory: |
   7855
 scsi: |
-  Samsung MZ7TE256 Rev: 9L6Q
-  ADATA SP600NS34  Rev: 5.8f
+  Samsung MZ7TE256 Rev:9L6Q
+  ADATA SP600NS34  Rev:5.8f
 usb: |
   1
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

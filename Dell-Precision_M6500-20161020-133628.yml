@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Dell
 model: |
@@ -33,15 +33,15 @@ network: |
 memory: |
   16308
 scsi: |
-  Samsung SSD PM80 Rev: 4D1Q
-  DVD+-RW GS20N    Rev: A110
-  Crucial_CT512MX1 Rev: MU01
-  USB Flash Disk   Rev: 0.00
+  Samsung SSD PM80 Rev:4D1Q
+  DVD+-RW GS20N    Rev:A110
+  Crucial_CT512MX1 Rev:MU01
+  USB Flash Disk   Rev:0.00
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.0
     xen: |

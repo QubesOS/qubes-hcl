@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   12153
 scsi: |
-  SK hynix SC311 S Rev: 0P10
-  ST1000LM035-1RK1 Rev: SDM2
+  SK hynix SC311 S Rev:0P10
+  ST1000LM035-1RK1 Rev:SDM2
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

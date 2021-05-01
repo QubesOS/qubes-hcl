@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'yes'
+  true
 remap:
-  'yes'
+  true
 brand: |
   ASUSTek
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   11704
 scsi: |
-  Toshiba MQ01ABD1 Rev: 5J
-  DVD A  DA8AESH   Rev: XAA1
+  Toshiba MQ01ABD1 Rev:5J
+  DVD A  DA8AESH   Rev:XAA1
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

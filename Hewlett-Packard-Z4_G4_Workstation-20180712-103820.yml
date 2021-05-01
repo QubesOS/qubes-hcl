@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  ''
+
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   Hewlett-Packard
 model: |
@@ -38,13 +38,13 @@ network: |
 memory: |
   65255
 scsi: |
-  DVDRW  GUD1N     Rev: LD04
+  DVDRW  GUD1N     Rev:LD04
 usb: |
   1
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

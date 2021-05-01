@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Alienware
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   16125
 scsi: |
-  ST1000LM044 HN-M Rev: 0001
+  ST1000LM044 HN-M Rev:0001
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

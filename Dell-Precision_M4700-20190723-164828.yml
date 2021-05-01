@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -39,14 +39,14 @@ network: |
 memory: |
   16286
 scsi: |
-  KINGSTON SKC400S Rev: 001B
-  WDC WD10SPZX-00Z Rev: 1A01
+  KINGSTON SKC400S Rev:001B
+  WDC WD10SPZX-00Z Rev:1A01
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

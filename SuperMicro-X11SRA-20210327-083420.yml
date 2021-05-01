@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'server'
+  server
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   SuperMicro
 model: |
@@ -47,7 +47,7 @@ usb: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

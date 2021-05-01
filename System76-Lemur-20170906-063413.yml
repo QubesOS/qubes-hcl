@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  ''
+
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   System76
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   32559
 scsi: |
-  Crucial_CT1050MX Rev: R021
+  Crucial_CT1050MX Rev:R021
 usb: |
   1
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

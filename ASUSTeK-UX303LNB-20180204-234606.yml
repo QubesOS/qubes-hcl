@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   ASUSTek
 model: |
@@ -42,7 +42,7 @@ usb: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |
@@ -50,7 +50,7 @@ versions:
     kernel: |
       4.14.13-2
     remark: |
-      no major problems
+      false major problems
     credit: |
       rob_66
     link: |

@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Lenovo
 model: |
@@ -33,14 +33,14 @@ network: |
 memory: |
   7888
 scsi: |
-  OCZ-AGILITY3     Rev: 2.22
-  DVDRAM GT50N     Rev: LT20
-  Extreme          Rev: 0001
+  OCZ-AGILITY3     Rev:2.22
+  DVDRAM GT50N     Rev:LT20
+  Extreme          Rev:0001
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

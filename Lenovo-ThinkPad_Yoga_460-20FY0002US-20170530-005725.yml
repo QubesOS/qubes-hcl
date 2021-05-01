@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Lenovo
 model: |
@@ -38,13 +38,13 @@ network: |
 memory: |
   7619
 scsi: |
-  SanDisk SD8TB8U2 Rev: 0101
+  SanDisk SD8TB8U2 Rev:0101
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |
@@ -52,7 +52,7 @@ versions:
     kernel: |
       4.4.67-12
     remark: |
-      Followed the specific installation instructions, everything worked right out of the box including Wi-Fi and touchscreen.  Battery life is also excellent.  I do receive two error messages when logging in after a fresh reboot: 1.) Unknown controller version (3). 2.) nouveau unknown chiptset.
+      Followed the specific installation instructions, everything worked right out of the box including Wi-Fi and touchscreen.  Battery life is also excellent.  I do receive two error messages when logging in after a fresh reboot:1.) Unknown controller version (3). 2.) nouveau unknown chiptset.
     credit: |
       wearethealiens
     link: |

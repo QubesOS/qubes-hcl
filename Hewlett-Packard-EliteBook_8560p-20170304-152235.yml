@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Hewlett-Packard
 model: |
@@ -35,13 +35,13 @@ network: |
 memory: |
   16332
 scsi: |
-  WDC WD5000BPKT-6 Rev: 1A01
-  Crucial_CT500MX2 Rev: MU01
+  WDC WD5000BPKT-6 Rev:1A01
+  Crucial_CT500MX2 Rev:MU01
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

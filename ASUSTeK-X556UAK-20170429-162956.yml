@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASUSTek
 model: |
@@ -35,13 +35,13 @@ network: |
 memory: |
   8072
 scsi: |
-  Samsung MZ7PC128 Rev: 5H1Q
-  DVD A  DA8AESH   Rev: XAA1
+  Samsung MZ7PC128 Rev:5H1Q
+  DVD A  DA8AESH   Rev:XAA1
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

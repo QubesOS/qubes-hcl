@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'yes'
+  true
 brand: |
   Lenovo
 model: |
@@ -35,13 +35,13 @@ network: |
 memory: |
   7862
 scsi: |
-  Samsung SSD 840  Rev: 4B0Q
-  DVD-RAM UJ8C2    Rev: SB01
+  Samsung SSD 840  Rev:4B0Q
+  DVD-RAM UJ8C2    Rev:SB01
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.0
     xen: |
@@ -56,7 +56,7 @@ versions:
       https://groups.google.com/d/msg/qubes-users/ThZUaE8TeoQ/RjkkzuKGJgAJ
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

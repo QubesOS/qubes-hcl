@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  ''
+
 brand: |
   Dell
 model: |
@@ -32,13 +32,13 @@ network: |
 memory: |
   16289
 scsi: |
-  INTEL SSDSA1NW16 Rev: 0362
-  ST500LM000-1EJ16 Rev: DEM6
+  INTEL SSDSA1NW16 Rev:0362
+  ST500LM000-1EJ16 Rev:DEM6
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.1
     xen: |

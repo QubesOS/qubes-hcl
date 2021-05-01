@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Gigabyte
 model: |
@@ -35,12 +35,12 @@ network: |
 memory: |
   16254
 scsi: |
-  KINGSTON SM2280S Rev: 01.V
+  KINGSTON SM2280S Rev:01.V
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

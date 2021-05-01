@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Lenovo
 model: |
@@ -36,13 +36,13 @@ network: |
 memory: |
   8060
 scsi: |
-  KINGSTON SV300S3 Rev: BBF0
-  DVD-RW DS8A8SH   Rev: KL31
+  KINGSTON SV300S3 Rev:BBF0
+  DVD-RW DS8A8SH   Rev:KL31
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Lenovo
 model: |
@@ -34,13 +34,13 @@ network: |
 memory: |
   16070
 scsi: |
-  Samsung SSD 840  Rev: CB6Q
-  DVDRAM GU90N     Rev: LU20
+  Samsung SSD 840  Rev:CB6Q
+  DVDRAM GU90N     Rev:LU20
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

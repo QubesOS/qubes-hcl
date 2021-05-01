@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   ASUS
 model: |
@@ -36,19 +36,19 @@ network: |
 memory: |
   32706
 scsi: |
-  Samsung SSD 850  Rev: 1B6Q
-  WDC WD6401AALS-0 Rev: 3B01
-  WDC WD6401AALS-0 Rev: 3B01
-  WDC WD6401AALS-0 Rev: 3B01
-  WDC WD6401AALS-0 Rev: 3B01
-  Samsung HD501LJ  Rev: 0-12
-  BD-RE  WH14NS40  Rev: 1.01
+  Samsung SSD 850  Rev:1B6Q
+  WDC WD6401AALS-0 Rev:3B01
+  WDC WD6401AALS-0 Rev:3B01
+  WDC WD6401AALS-0 Rev:3B01
+  WDC WD6401AALS-0 Rev:3B01
+  Samsung HD501LJ  Rev:0-12
+  BD-RE  WH14NS40  Rev:1.01
 usb: |
   2
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

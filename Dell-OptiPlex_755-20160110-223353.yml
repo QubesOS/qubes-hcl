@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   Dell
 model: |
@@ -33,12 +33,12 @@ network: |
 memory: |
   6004
 scsi: |
-  SPCC Solid State Rev: BBF0
+  SPCC Solid State Rev:BBF0
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.0
     xen: |

@@ -6,12 +6,12 @@ See https://www.qubes-os.org/doc/hcl/ for information on how to submit an HCL re
 
 ## Extra features for hand-written reports
 
-Generally you'll want to follow the above link to submit your report. However, for people who choose to submit their HCL report directly or otherwise hand-modify the YAML, there's an extra feature to be aware of: wherever `yes|no|partial` is accepted, there is a mechanism to override the text that gets displayed. For example, to override the text shown in the TPM column:
+Generally you'll want to follow the above link to submit your report. However, for people who choose to submit their HCL report directly or otherwise hand-modify the YAML, there's an extra feature to be aware of:wherever `yes|no|partial` is accepted, there is a mechanism to override the text that gets displayed. For example, to override the text shown in the TPM column:
 
 ```
 tpm:
-  status: 'yes|no|partial'
-  message: 'Text to be displayed goes here'
+  status:'yes|no|partial'
+  message:'Text to be displayed goes here'
 ```
 
 ## Template
@@ -21,7 +21,7 @@ Template for reports:
 ```
 ---
 layout:
-  'hcl'
+  hcl
 type:
   'laptop|desktop|workstation|server|motherboard'
 hvm:

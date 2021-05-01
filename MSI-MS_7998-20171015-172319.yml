@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   MSI
 model: |
@@ -34,15 +34,15 @@ network: |
 memory: |
   32655
 scsi: |
-  WDC WD30EFRX-68E Rev: 0A82
-  WDC WD30EFRX-68E Rev: 0A82
-  BD  B  DH4B1S    Rev: 7P5B
-  WDC WD30EFRX-68E Rev: 0A82
+  WDC WD30EFRX-68E Rev:0A82
+  WDC WD30EFRX-68E Rev:0A82
+  BD  B  DH4B1S    Rev:7P5B
+  WDC WD30EFRX-68E Rev:0A82
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

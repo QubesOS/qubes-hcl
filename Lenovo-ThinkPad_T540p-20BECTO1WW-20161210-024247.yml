@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Lenovo
 model: |
@@ -36,13 +36,13 @@ network: |
 memory: |
   9906
 scsi: |
-  SanDisk SDSSDHII Rev: 00RL
-  M4-CT256M4SSD1   Rev: 040H
+  SanDisk SDSSDHII Rev:00RL
+  M4-CT256M4SSD1   Rev:040H
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Gigabyte
 model: |
@@ -33,16 +33,16 @@ network: |
 memory: |
   16340
 scsi: |
-  Samsung SSD 850  Rev: 1B6Q
-  WDC WD3000HLHX-0 Rev: 5G04
-  iHBS212   2      Rev: HL03
-  WDC WD20EADS-00W Rev: 0A01
-  WDC WD1003FZEX-0 Rev: 1A01
+  Samsung SSD 850  Rev:1B6Q
+  WDC WD3000HLHX-0 Rev:5G04
+  iHBS212   2      Rev:HL03
+  WDC WD20EADS-00W Rev:0A01
+  WDC WD1003FZEX-0 Rev:1A01
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

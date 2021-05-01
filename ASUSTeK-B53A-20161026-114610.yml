@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASUSTek
 model: |
@@ -35,15 +35,15 @@ network: |
 memory: |
   8061
 scsi: |
-  ST750LX003-1AC15 Rev: SM12
-  DVD-RAM UJ8E1    Rev: 1.00
-  Ultra Fit        Rev: 1.00
-  Card  Reader     Rev: 1.00
+  ST750LX003-1AC15 Rev:SM12
+  DVD-RAM UJ8E1    Rev:1.00
+  Ultra Fit        Rev:1.00
+  Card  Reader     Rev:1.00
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

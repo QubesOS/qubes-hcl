@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Lenovo
 model: |
@@ -33,13 +33,13 @@ network: |
 memory: |
   16080
 scsi: |
-  Crucial_CT500MX2 Rev: MU03
-  HGST HTS725050A7 Rev: B550
+  Crucial_CT500MX2 Rev:MU03
+  HGST HTS725050A7 Rev:B550
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

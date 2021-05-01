@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   ASUS
 model: |
@@ -36,13 +36,13 @@ network: |
 memory: |
   16297
 scsi: |
-  UDisk            Rev: 5.00
+  UDisk            Rev:5.00
 usb: |
   2
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.1
     xen: |

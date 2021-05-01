@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Dell
 model: |
@@ -35,13 +35,13 @@ network: |
 memory: |
   8057
 scsi: |
-  Samsung SSD 850  Rev: 2B6Q
-  DVD+-RW GT80N    Rev: A103
+  Samsung SSD 850  Rev:2B6Q
+  DVD+-RW GT80N    Rev:A103
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

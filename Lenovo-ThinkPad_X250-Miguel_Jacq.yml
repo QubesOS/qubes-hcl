@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'no'
+  false
 iommu:
-  'no'
+  false
 tpm:
-  'yes'
+  true
 brand: |
   Lenovo
 model: |
@@ -20,24 +20,24 @@ cpu: |
 cpu-short: |
   i5-5200U
 chipset: |
-  00:00.0 Host bridge [0600]: Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
+  00:00.0 Host bridge [0600]:Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
 chipset-short: |
   Broadwell-U
 gpu: |
-  00:02.0 VGA compatible controller [0300]: Intel Corporation Broadwell-U Integrated Graphics [8086:1616] (rev 09) (prog-if 00 [VGA controller])
+  00:02.0 VGA compatible controller [0300]:Intel Corporation Broadwell-U Integrated Graphics [8086:1616] (rev 09) (prog-if 00 [VGA controller])
 gpu-short: |
   Integrated Graphics (HD 5500)
 network: |
-  03:00.0 Network controller: Intel Corporation Wireless 7265 (rev 59)
+  03:00.0 Network controller:Intel Corporation Wireless 7265 (rev 59)
 memory: |
   7888
 scsi: |
-  03:00.0 Network controller: Intel Corporation Wireless 7265 (rev 59)
+  03:00.0 Network controller:Intel Corporation Wireless 7265 (rev 59)
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3rc1
     xen: |

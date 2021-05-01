@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'workstation'
+  workstation
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Dell
 model: |
@@ -33,13 +33,13 @@ network: |
 memory: |
   6141
 scsi: |
-  WDC WD3200AAKS-7 Rev: 3E02
-  DVD-ROM DH30N    Rev: A101
+  WDC WD3200AAKS-7 Rev:3E02
+  DVD-ROM DH30N    Rev:A101
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'motherboard'
+  motherboard
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Gigabyte
 model: |
@@ -34,12 +34,12 @@ network: |
 memory: |
   16241
 scsi: |
-  WDC WDS100T1B0B- Rev: 00WD
+  WDC WDS100T1B0B- Rev:00WD
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

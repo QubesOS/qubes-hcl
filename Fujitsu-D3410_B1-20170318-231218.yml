@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'motherboard'
+  motherboard
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Fujitsu
 model: |
@@ -34,14 +34,14 @@ network: |
 memory: |
   16213
 scsi: |
-  SanDisk SDSSDHII Rev: 00RL
-  DVDRAM GH24NS95  Rev: RN00
-  SuperVer         Rev: 6302
+  SanDisk SDSSDHII Rev:00RL
+  DVDRAM GH24NS95  Rev:RN00
+  SuperVer         Rev:6302
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

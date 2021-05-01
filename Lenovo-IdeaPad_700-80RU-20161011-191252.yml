@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Lenovo
 model: |
@@ -35,12 +35,12 @@ network: |
 memory: |
   16178
 scsi: |
-  WDC WD10SPCX-24H Rev: 1A02
+  WDC WD10SPCX-24H Rev:1A02
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

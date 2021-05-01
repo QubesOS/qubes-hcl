@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Gigabyte
 model: |
@@ -36,22 +36,22 @@ network: |
 memory: |
   32715
 scsi: |
-  ST4000LM024-2AN1 Rev: 0001
-  ST4000DM000-2AE1 Rev: 0001
-  DRW-24B1ST   j   Rev: 1.01
-  Crucial_CT525MX3 Rev: R031
-  ST4000DM000-2AE1 Rev: 0001
-  SanDisk SDSSDA24 Rev: 80RL
-  Expansion Desk   Rev: 9401
-  USB 3.0 FD       Rev: PMAP
-  USB 3.0 FD       Rev: 1100
-  Storage          Rev: 1.00
+  ST4000LM024-2AN1 Rev:0001
+  ST4000DM000-2AE1 Rev:0001
+  DRW-24B1ST   j   Rev:1.01
+  Crucial_CT525MX3 Rev:R031
+  ST4000DM000-2AE1 Rev:0001
+  SanDisk SDSSDA24 Rev:80RL
+  Expansion Desk   Rev:9401
+  USB 3.0 FD       Rev:PMAP
+  USB 3.0 FD       Rev:1100
+  Storage          Rev:1.00
 usb: |
   2
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

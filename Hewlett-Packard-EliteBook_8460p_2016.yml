@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Hewlett-Packard
 model: |
@@ -35,14 +35,14 @@ network: |
 memory: |
   16287
 scsi: |
-  Samsung MZ7PA128 Rev: 8L1Q
-  Toshiba MQ01ABD1 Rev: 1A
+  Samsung MZ7PA128 Rev:8L1Q
+  Toshiba MQ01ABD1 Rev:1A
   22 HN-M750MBB    Rev:
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  ''
+
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Apple
 model: |
@@ -36,14 +36,14 @@ network: |
 memory: |
   3972
 scsi: |
-  APPLE SSD SM128C Rev: 9A1Q
-  USB3.0           Rev: 0209
+  APPLE SSD SM128C Rev:9A1Q
+  USB3.0           Rev:0209
 usb: |
   4
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

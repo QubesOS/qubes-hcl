@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'device present'
+  device present
 brand: |
   ASUS
 model: |
@@ -33,12 +33,12 @@ network: |
 memory: |
   16253
 scsi: |
-  SanDisk SDSSDA12 Rev: 10RL
+  SanDisk SDSSDA12 Rev:10RL
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Lenovo
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   16095
 scsi: |
-  Toshiba MQ04ABF1 Rev: 4C
+  Toshiba MQ04ABF1 Rev:4C
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |
@@ -51,7 +51,7 @@ versions:
     kernel: |
       4.19.125-1
     remark: |
-      no resume after suspend
+      false resume after suspend
     credit: |
       David Easton
     link: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'yes'
+  true
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   8058
 scsi: |
-  Micron 1100 SATA Rev: L002
+  Micron 1100 SATA Rev:L002
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

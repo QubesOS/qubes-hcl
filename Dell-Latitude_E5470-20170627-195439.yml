@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -38,13 +38,13 @@ network: |
 memory: |
   7849
 scsi: |
-  ST500LM021-1KJ15 Rev: SDM1
+  ST500LM021-1KJ15 Rev:SDM1
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

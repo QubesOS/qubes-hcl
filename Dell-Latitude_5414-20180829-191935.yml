@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -37,15 +37,15 @@ network: |
 memory: |
   15979
 scsi: |
-  DVD+-RW GU90N    Rev: A1C2
-  SK hynix SC311 S Rev: 0P10
-  SD/MMC CRW       Rev: 1.00
+  DVD+-RW GU90N    Rev:A1C2
+  SK hynix SC311 S Rev:0P10
+  SD/MMC CRW       Rev:1.00
 usb: |
   1
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

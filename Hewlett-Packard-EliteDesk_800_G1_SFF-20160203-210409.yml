@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Hewlett-Packard
 model: |
@@ -33,14 +33,14 @@ network: |
 memory: |
   8102
 scsi: |
-  ST500DM002-1BD14 Rev: HP74
-  DVD A  DS8ABSH   Rev: AHS6
-  Ultra Fit        Rev: 1.00
+  ST500DM002-1BD14 Rev:HP74
+  DVD A  DS8ABSH   Rev:AHS6
+  Ultra Fit        Rev:1.00
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Hewlett-Packard
 model: |
@@ -35,13 +35,13 @@ network: |
 memory: |
   6134
 scsi: |
-  GOODRAM          Rev: 22.3
-  DVD RW AD-7701H  Rev: 2.85
+  GOODRAM          Rev:22.3
+  DVD RW AD-7701H  Rev:2.85
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

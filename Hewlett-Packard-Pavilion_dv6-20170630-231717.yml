@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Hewlett-Packard
 model: |
@@ -38,14 +38,14 @@ network: |
 memory: |
   12183
 scsi: |
-  WDC WD10JPVT-60A Rev: 1A01
-  DVD-RAM UJ8B1    Rev: H.03
+  WDC WD10JPVT-60A Rev:1A01
+  DVD-RAM UJ8B1    Rev:H.03
 usb: |
   3
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

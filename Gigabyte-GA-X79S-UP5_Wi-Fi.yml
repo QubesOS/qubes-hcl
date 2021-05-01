@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'motherboard'
+  motherboard
 hvm:
-  'yes'
+  true
 iommu:
-  'partial'
+  partial
 tpm:
-  'partial'
+  partial
 brand: |
   Gigabyte
 model: |
@@ -37,7 +37,7 @@ scsi: |
 versions:
 
   - works:
-      ''
+
     qubes: |
 
     xen: |

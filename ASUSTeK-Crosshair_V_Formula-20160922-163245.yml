@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASUSTek
 model: |
@@ -33,15 +33,15 @@ network: |
 memory: |
   32712
 scsi: |
-  OCZ-VERTEX2      Rev: 1.25
-  SanDisk SDSSDA24 Rev: 10RL
-  WDC WD10EZRX-00A Rev: 1A01
-  BD-RE  GGW-H20L  Rev: YL04
+  OCZ-VERTEX2      Rev:1.25
+  SanDisk SDSSDA24 Rev:10RL
+  WDC WD10EZRX-00A Rev:1A01
+  BD-RE  GGW-H20L  Rev:YL04
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

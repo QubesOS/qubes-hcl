@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -42,7 +42,7 @@ usb: |
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |
@@ -57,7 +57,7 @@ versions:
       https://groups.google.com/d/msgid/qubes-users/98TBMzQfjgXJmUKBxUjMQ64cIgMagVMA5turlXOGxzR_aCb44KaX13t-ESpxMjEo9VUMeYTmUgLiDxIYSvK5LNu5KXWAZeJFjrCsF_50tnM%3D%40protonmail.com
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.1
     xen: |

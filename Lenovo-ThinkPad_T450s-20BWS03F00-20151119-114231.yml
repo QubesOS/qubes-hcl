@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'no'
+  false
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   Lenovo
 model: |
@@ -33,12 +33,12 @@ network: |
 memory: |
   11984
 scsi: |
-  INTEL SSDSC2BF36 Rev: LTVi
+  INTEL SSDSC2BF36 Rev:LTVi
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.0
     xen: |

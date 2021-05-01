@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   Acer
 model: |
@@ -33,12 +33,12 @@ network: |
 memory: |
   16320
 scsi: |
-  ADATA SP550      Rev: 3B5a
+  ADATA SP550      Rev:3B5a
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.1
     xen: |

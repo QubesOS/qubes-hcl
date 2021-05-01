@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   Hewlett-Packard
 model: |
@@ -33,14 +33,14 @@ network: |
 memory: |
   16288
 scsi: |
-  Hitachi HDE72101 Rev: A3AA
-  Hitachi HDE72101 Rev: A3AA
-  DVD A  DH16AESH  Rev: 3HH6
+  Hitachi HDE72101 Rev:A3AA
+  Hitachi HDE72101 Rev:A3AA
+  DVD A  DH16AESH  Rev:3HH6
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.1
     xen: |

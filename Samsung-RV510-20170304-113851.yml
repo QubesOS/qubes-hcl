@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'no'
+  false
 iommu:
-  'no'
+  false
 slat:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   Samsung ELECTRONICS CO.
 model: |
@@ -36,13 +36,13 @@ network: |
 memory: |
   8124
 scsi: |
-  WDC WD3200BPVT-3 Rev: 1A01
-  CDDVDW TS-L633J  Rev: SC01
+  WDC WD3200BPVT-3 Rev:1A01
+  CDDVDW TS-L633J  Rev:SC01
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

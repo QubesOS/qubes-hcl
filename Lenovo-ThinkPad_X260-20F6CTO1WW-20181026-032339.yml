@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Lenovo
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   16267
 scsi: |
-  Samsung SSD 860  Rev: 1B6Q
+  Samsung SSD 860  Rev:1B6Q
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |
@@ -52,7 +52,7 @@ versions:
       4.14.74-1
     remark: |
       Need <a class='ext-link' href='https://www.qubes-os.org/doc/uefi-troubleshooting/'><span class='icon'></span>uefi tricks</a>
-      - Install freezes: disable EFI runtime services
+      - Install freezes:disable EFI runtime services
       Need to disable TPM
 
     credit: |

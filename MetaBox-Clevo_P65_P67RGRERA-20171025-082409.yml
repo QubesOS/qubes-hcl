@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Metabox
 model: |
@@ -37,15 +37,15 @@ network: |
 memory: |
   65490
 scsi: |
-  Samsung SSD 840  Rev: CB6Q
-  Samsung SSD 850  Rev: 2B6Q
-  BUP Fast HDD     Rev: 9409
+  Samsung SSD 840  Rev:CB6Q
+  Samsung SSD 850  Rev:2B6Q
+  BUP Fast HDD     Rev:9409
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

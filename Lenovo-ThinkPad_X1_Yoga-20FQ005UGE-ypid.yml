@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'yes'
+  true
 remap:
-  'yes'
+  true
 brand: |
   Lenovo
 model: |
@@ -47,7 +47,7 @@ usb: |
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.1
     xen: |
@@ -62,7 +62,7 @@ versions:
       https://groups.google.com/forum/#!msg/qubes-users/BQpFjqUgohs/3KvopyqvCAAJ
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |
@@ -77,7 +77,7 @@ versions:
       https://groups.google.com/forum/#!msg/qubes-users/BQpFjqUgohs/3KvopyqvCAAJ
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

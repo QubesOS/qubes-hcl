@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Lenovo
 model: |
@@ -33,12 +33,12 @@ network: |
 memory: |
   12005
 scsi: |
-  Samsung MZ7LN256 Rev: 3L6Q
+  Samsung MZ7LN256 Rev:3L6Q
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

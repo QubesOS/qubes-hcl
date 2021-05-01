@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Apple
 model: |
@@ -37,7 +37,7 @@ scsi: |
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R2
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  ''
+
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Razer
 model: |
@@ -42,7 +42,7 @@ usb: |
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

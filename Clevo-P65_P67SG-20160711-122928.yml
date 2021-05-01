@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unsupported'
+  false
 brand: |
   Clevo
 model: |
@@ -33,14 +33,14 @@ network: |
 memory: |
   32652
 scsi: |
-  Samsung SSD 840  Rev: CB6Q
-  Samsung SSD 840  Rev: CB6Q
-  PLEXTOR PX-G512M Rev: 1.04
+  Samsung SSD 840  Rev:CB6Q
+  Samsung SSD 840  Rev:CB6Q
+  PLEXTOR PX-G512M Rev:1.04
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

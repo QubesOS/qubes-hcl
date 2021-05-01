@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Dell
 model: |
@@ -36,13 +36,13 @@ network: |
 memory: |
   8139
 scsi: |
-  ST9750420AS      Rev: DEM1
-  DVD+-RW GS30N    Rev: A102
+  ST9750420AS      Rev:DEM1
+  DVD+-RW GS30N    Rev:A102
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Alienware
 model: |
@@ -35,13 +35,13 @@ network: |
 memory: |
   16251
 scsi: |
-  HGST HTS721010A9 Rev: A3P0
-  Kingston SHPM228 Rev: 05T2
+  HGST HTS721010A9 Rev:A3P0
+  Kingston SHPM228 Rev:05T2
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'disabled'
+  false
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -37,17 +37,17 @@ network: |
 memory: |
   65372
 scsi: |
-  Hitachi HUS72403 Rev: A5F0
-  DVD+-RW GU90N    Rev: A1C3
-  Hitachi HUS72403 Rev: A5F0
-  Hitachi HUS72403 Rev: A5F0
-  Card  Reader     Rev: 1.00
+  Hitachi HUS72403 Rev:A5F0
+  DVD+-RW GU90N    Rev:A1C3
+  Hitachi HUS72403 Rev:A5F0
+  Hitachi HUS72403 Rev:A5F0
+  Card  Reader     Rev:1.00
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0.4
     xen: |

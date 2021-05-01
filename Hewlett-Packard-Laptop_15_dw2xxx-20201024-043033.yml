@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Hewlett-Packard
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   7973
 scsi: |
-  Toshiba MQ04ABF1 Rev: 7C
+  Toshiba MQ04ABF1 Rev:7C
 usb: |
   1
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |
@@ -58,7 +58,7 @@ versions:
       https://groups.google.com/d/msgid/qubes-users/2cdd9cf0-e2ef-70af-3460-78f77c01bc6c%40blackpinguin.de
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

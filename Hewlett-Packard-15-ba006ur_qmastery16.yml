@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Hewlett-Packard
 model: |
@@ -35,12 +35,12 @@ network: |
 memory: |
   3545
 scsi: |
-  WDC WD5000LPCX-6 Rev: 1A01
+  WDC WD5000LPCX-6 Rev:1A01
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

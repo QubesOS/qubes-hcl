@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Shuttle
 model: |
@@ -36,18 +36,18 @@ network: |
 memory: |
   16241
 scsi: |
-  WDC WD20EADS-00R Rev: 0A01
-  ST32000542AS     Rev: CC34
-  Samsung SSD 850  Rev: 2B6Q
-  Ultra            Rev: 1.00
-  Mass Storage     Rev: 2.00
+  WDC WD20EADS-00R Rev:0A01
+  ST32000542AS     Rev:CC34
+  Samsung SSD 850  Rev:2B6Q
+  Ultra            Rev:1.00
+  Mass Storage     Rev:2.00
   22 HN-M750MBB    Rev:
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

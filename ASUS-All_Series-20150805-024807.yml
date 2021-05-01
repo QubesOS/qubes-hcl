@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   ASUS
 model: |
@@ -33,15 +33,15 @@ network: |
 memory: |
   16261
 scsi: |
-  Samsung SSD 850  Rev: 1B6Q
-  Samsung SSD 830  Rev: 3B1Q
-  WDC WD10EZRX-00D Rev: 0A80
-  Samsung MZHPU256 Rev: 501Q
+  Samsung SSD 850  Rev:1B6Q
+  Samsung SSD 830  Rev:3B1Q
+  WDC WD10EZRX-00D Rev:0A80
+  Samsung MZHPU256 Rev:501Q
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.0
     xen: |

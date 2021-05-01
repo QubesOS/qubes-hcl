@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'yes'
+  true
 brand: |
   Hewlett-Packard
 model: |
@@ -35,12 +35,12 @@ network: |
 memory: |
   8071
 scsi: |
-  Hitachi HTS72505 Rev: A820
+  Hitachi HTS72505 Rev:A820
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

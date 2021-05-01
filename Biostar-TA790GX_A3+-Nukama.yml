@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'motherboard'
+  motherboard
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'no'
+  false
 brand: |
   Biostar
 model: |
@@ -37,7 +37,7 @@ scsi: |
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R2B3
     xen: |
@@ -52,7 +52,7 @@ versions:
       https://groups.google.com/d/msg/qubes-users/DTot3wX1-nQ/229c20xWrdQJ
 
   - works:
-      'yes'
+      true
     qubes: |
       R2rc1
     xen: |

@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Hewlett-Packard
 model: |
@@ -34,13 +34,13 @@ network: |
 memory: |
   16272
 scsi: |
-  OWC Mercury Elec Rev: BBF0
-  DVD A  DH16ABSH  Rev: YHDD
+  OWC Mercury Elec Rev:BBF0
+  DVD A  DH16ABSH  Rev:YHDD
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

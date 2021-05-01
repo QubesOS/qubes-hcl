@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Dell
 model: |
@@ -35,13 +35,13 @@ network: |
 memory: |
   16323
 scsi: |
-  KINGSTON SV300S3 Rev: BBF0
-  DVD+-RW GS40N    Rev: A100
+  KINGSTON SV300S3 Rev:BBF0
+  DVD+-RW GS40N    Rev:A100
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

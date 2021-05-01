@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   Acer
 model: |
@@ -33,13 +33,13 @@ network: |
 memory: |
   3766
 scsi: |
-  WDC WD6400BEVT-0 Rev: 1A01
-  DVDRAM GT32N     Rev: 1.00
+  WDC WD6400BEVT-0 Rev:1A01
+  DVDRAM GT32N     Rev:1.00
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.0
     xen: |

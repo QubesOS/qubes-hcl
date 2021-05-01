@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Thirdwave
 model: |
@@ -37,18 +37,18 @@ network: |
 memory: |
   32676
 scsi: |
-  Samsung SSD 850  Rev: 2B6Q
-  Toshiba DT01ACA3 Rev: ABB0
-  DVDRAM GH24NS70  Rev: GN03
-  ST8000DM004-2CX1 Rev: 0001
+  Samsung SSD 850  Rev:2B6Q
+  Toshiba DT01ACA3 Rev:ABB0
+  DVDRAM GH24NS70  Rev:GN03
+  ST8000DM004-2CX1 Rev:0001
   HDCR-U           Rev:
-  USB Flash Disk   Rev: 1.00
+  USB Flash Disk   Rev:1.00
 usb: |
   4
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

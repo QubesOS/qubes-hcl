@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   ASRock
 model: |
@@ -37,15 +37,15 @@ network: |
 memory: |
   32701
 scsi: |
-  Toshiba DT01ACA2 Rev: ABB0
-  CDDVDW SH-224DB  Rev: SB01
-  Samsung SSD 840  Rev: BB6Q
+  Toshiba DT01ACA2 Rev:ABB0
+  CDDVDW SH-224DB  Rev:SB01
+  Samsung SSD 840  Rev:BB6Q
 usb: |
   2
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   MSI
 model: |
@@ -38,16 +38,16 @@ network: |
 memory: |
   32658
 scsi: |
-  Samsung SSD 860  Rev: 1B6Q
-  Samsung SSD 850  Rev: 2B6Q
-  Hitachi HUA72302 Rev: A840
-  ST2000DM006-2DM1 Rev: CC26
+  Samsung SSD 860  Rev:1B6Q
+  Samsung SSD 850  Rev:2B6Q
+  Hitachi HUA72302 Rev:A840
+  ST2000DM006-2DM1 Rev:CC26
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

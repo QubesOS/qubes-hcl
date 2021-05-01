@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   Samsung
 model: |
@@ -34,14 +34,14 @@ network: |
 memory: |
   8105
 scsi: |
-  Hitachi HTS72757 Rev: A0D0
-  SanDisk iSSD P4  Rev: 9.14
-  DVD-RAM UJ8A7AS  Rev: 1.00
+  Hitachi HTS72757 Rev:A0D0
+  SanDisk iSSD P4  Rev:9.14
+  DVD-RAM UJ8A7AS  Rev:1.00
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.1
     xen: |

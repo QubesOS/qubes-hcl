@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'no'
+  false
 tpm:
-  ''
+
 remap:
-  'no'
+  false
 brand: |
   Hewlett-Packard
 model: |
@@ -43,7 +43,7 @@ usb: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

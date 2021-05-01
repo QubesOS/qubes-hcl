@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   Hewlett-Packard
 model: |
@@ -34,13 +34,13 @@ network: |
 memory: |
   8139
 scsi: |
-  ST9750420AS      Rev: HPM1
-  BD E  DS6E2LH    Rev: FH62
+  ST9750420AS      Rev:HPM1
+  BD E  DS6E2LH    Rev:FH62
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.0
     xen: |

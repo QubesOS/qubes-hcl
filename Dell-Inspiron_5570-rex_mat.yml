@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -38,14 +38,14 @@ network: |
 memory: |
   7845
 scsi: |
-  ST2000LM007-1R81 Rev: SDM2
-  DVD+-RW GU90N    Rev: A1C3
+  ST2000LM007-1R81 Rev:SDM2
+  DVD+-RW GU90N    Rev:A1C3
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

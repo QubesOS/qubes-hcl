@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Hewlett-Packard
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   8128
 scsi: |
-  Samsung SSD 850  Rev: 1B6Q
-  BD CMB UJ162     Rev: 1.00
+  Samsung SSD 850  Rev:1B6Q
+  BD CMB UJ162     Rev:1.00
 usb: |
   2
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |
