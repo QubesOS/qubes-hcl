@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'motherboard'
+  motherboard
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Asus
 model: |
@@ -34,12 +34,12 @@ network: |
 memory: |
   16258
 scsi: |
-  Crucial_CT250MX2 Rev: MU03
+  Crucial_CT250MX2 Rev:MU03
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

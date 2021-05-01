@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Hewlett-Packard
 model: |
@@ -33,12 +33,12 @@ network: |
 memory: |
   15784
 scsi: |
-  SanDisk SD7SN6S- Rev: 1006
+  SanDisk SD7SN6S- Rev:1006
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

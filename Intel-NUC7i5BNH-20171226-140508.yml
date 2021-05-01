@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Intel
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   32660
 scsi: |
-  Micron_1100_MTFD Rev: U031
+  Micron_1100_MTFD Rev:U031
 usb: |
   1
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   Lenovo
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   16076
 scsi: |
-  Samsung SSD 850  Rev: 2B6Q
-  DVD-RAM UJ892    Rev: SB01
+  Samsung SSD 850  Rev:2B6Q
+  DVD-RAM UJ892    Rev:SB01
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

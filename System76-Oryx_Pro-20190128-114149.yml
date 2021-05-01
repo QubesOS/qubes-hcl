@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   System76
 model: |
@@ -38,13 +38,13 @@ network: |
 memory: |
   16214
 scsi: |
-  ST1000LM048-2E71 Rev: SDM1
+  ST1000LM048-2E71 Rev:SDM1
 usb: |
   1
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

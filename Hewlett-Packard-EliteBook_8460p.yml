@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Hewlett-Packard
 model: |
@@ -20,11 +20,11 @@ cpu: |
 cpu-short: |
   i5-2520M
 chipset: |
-  00:00.0 Host bridge [0600]: Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+  00:00.0 Host bridge [0600]:Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
 chipset-short: |
   Sandy Bridge
 gpu: |
-  00:02.0 VGA compatible controller [0300]: Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0126] (rev 09)
+  00:02.0 VGA compatible controller [0300]:Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0126] (rev 09)
 gpu-short: |
   Integrated Graphics (HD 3000)
 network: |
@@ -32,13 +32,13 @@ network: |
 memory: |
   8098 Mb
 scsi: |
-  INTEL SSDSA2BW16 Rev: 4PC1
-  DVD A  DS8A8SH   Rev: KH61
+  INTEL SSDSA2BW16 Rev:4PC1
+  DVD A  DS8A8SH   Rev:KH61
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R2
     xen: |

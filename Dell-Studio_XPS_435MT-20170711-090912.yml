@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'no'
+  false
 remap:
-  'no'
+  false
 brand: |
   Dell
 model: |
@@ -36,14 +36,14 @@ network: |
 memory: |
   8183
 scsi: |
-  WDC WD10EZEX-22B Rev: 1A01
-  Hitachi HUA72303 Rev: A580
+  WDC WD10EZEX-22B Rev:1A01
+  Hitachi HUA72303 Rev:A580
 usb: |
   8
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

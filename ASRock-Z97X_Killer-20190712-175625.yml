@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   ASRock
 model: |
@@ -36,16 +36,16 @@ network: |
 memory: |
   32716
 scsi: |
-  Samsung SSD 850  Rev: 2B6Q
-  CT1000MX500SSD1  Rev: 023
-  PNY CS900 120GB  Rev: 0612
-  File-CD Gadget   Rev: 0310
+  Samsung SSD 850  Rev:2B6Q
+  CT1000MX500SSD1  Rev:023
+  PNY CS900 120GB  Rev:0612
+  File-CD Gadget   Rev:0310
 usb: |
   4
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

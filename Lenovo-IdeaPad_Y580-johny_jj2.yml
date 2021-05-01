@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  ''
+
 iommu:
-  'no'
+  false
 tpm:
-  ''
+
 brand: |
   Lenovo
 model: |
@@ -37,7 +37,7 @@ scsi: |
 versions:
 
   - works:
-      'no'
+      false
     qubes: |
       R2rc2
     xen: |

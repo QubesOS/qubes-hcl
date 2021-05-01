@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'no'
+  false
 remap:
-  'yes'
+  true
 brand: |
   Gigabyte
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   16299
 scsi: |
-  Samsung SSD 850  Rev: 1B6Q
+  Samsung SSD 850  Rev:1B6Q
 usb: |
   1
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

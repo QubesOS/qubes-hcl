@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Alienware
 model: |
@@ -36,13 +36,13 @@ network: |
 memory: |
   16263
 scsi: |
-  HGST HTS721010A9 Rev: A3W0
-  Cruzer           Rev: 1.00
+  HGST HTS721010A9 Rev:A3W0
+  Cruzer           Rev:1.00
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

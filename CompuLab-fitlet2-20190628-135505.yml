@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   CompuLab
 model: |
@@ -39,13 +39,13 @@ network: |
 memory: |
   3832
 scsi: |
-  M2SCF-6M 64GB    Rev: 1A
+  M2SCF-6M 64GB    Rev:1A
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

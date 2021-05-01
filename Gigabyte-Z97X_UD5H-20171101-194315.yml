@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Gigabyte
 model: |
@@ -36,13 +36,13 @@ network: |
 memory: |
   32550
 scsi: |
-  Samsung SSD 840  Rev: BB6Q
-  DT HyperX 3.0    Rev: PMAP
+  Samsung SSD 840  Rev:BB6Q
+  DT HyperX 3.0    Rev:PMAP
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Lenovo
 model: |
@@ -36,13 +36,13 @@ network: |
 memory: |
   8108
 scsi: |
-  Samsung MZMTD512 Rev: 3L0Q
+  Samsung MZMTD512 Rev:3L0Q
 usb: |
   2
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

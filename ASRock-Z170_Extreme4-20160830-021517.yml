@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   ASRock
 model: |
@@ -32,12 +32,12 @@ network: |
 memory: |
   15299
 scsi: |
-  CT250BX100SSD1   Rev: MU02
+  CT250BX100SSD1   Rev:MU02
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

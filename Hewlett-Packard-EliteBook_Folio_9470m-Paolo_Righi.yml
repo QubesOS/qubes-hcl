@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  ''
+
 iommu:
-  ''
+
 tpm:
-  ''
+
 brand: |
   Hewlett-Packard
 model: |
@@ -37,7 +37,7 @@ scsi: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R2
     xen: |
@@ -45,7 +45,7 @@ versions:
     kernel: |
       3.12.23-1
     remark: |
-      no access to BIOS on this machine
+      false access to BIOS on this machine
     credit: |
       Paolo Righi
     link: |

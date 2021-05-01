@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Dell
 model: |
@@ -34,12 +34,12 @@ network: |
 memory: |
   8097
 scsi: |
-  SanDisk X110 M.2 Rev: 512
+  SanDisk X110 M.2 Rev:512
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

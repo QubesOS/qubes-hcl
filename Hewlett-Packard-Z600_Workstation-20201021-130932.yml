@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'workstation'
+  workstation
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'no'
+  false
 remap:
-  'no'
+  false
 brand: |
   Hewlett-Packard
 model: |
@@ -36,16 +36,16 @@ network: |
 memory: |
   24559
 scsi: |
-  WDC WD20EFRX-68E Rev: 0A82
-  ST4000DM004-2CV1 Rev: 0001
-  KINGSTON SA400S3 Rev: 71E0
-  SanDisk SDSSDP12 Rev: 0
+  WDC WD20EFRX-68E Rev:0A82
+  ST4000DM004-2CV1 Rev:0001
+  KINGSTON SA400S3 Rev:71E0
+  SanDisk SDSSDP12 Rev:0
 usb: |
   9
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -38,13 +38,13 @@ network: |
 memory: |
   8106
 scsi: |
-  ST1000LM014-1EJ1 Rev: DEMB
+  ST1000LM014-1EJ1 Rev:DEMB
 usb: |
   2
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

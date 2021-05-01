@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Lenovo
 model: |
@@ -38,14 +38,14 @@ network: |
 memory: |
   15852
 scsi: |
-  SanDisk SDSSDA24 Rev: 30RL
-  ST1000LM024 HN-M Rev: 0002
+  SanDisk SDSSDA24 Rev:30RL
+  ST1000LM024 HN-M Rev:0002
 usb: |
   6
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

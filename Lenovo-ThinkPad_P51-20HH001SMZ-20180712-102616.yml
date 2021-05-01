@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Lenovo
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   32682
 scsi: |
-  Samsung SSD 750 Rev: 1B6Q
+  Samsung SSD 750 Rev:1B6Q
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

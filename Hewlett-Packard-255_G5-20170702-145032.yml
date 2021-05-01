@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Hewlett-Packard
 model: |
@@ -37,15 +37,15 @@ network: |
 memory: |
   3551
 scsi: |
-  Samsung SSD 840  Rev: BB0Q
-  DVDRW  DU8AESH   Rev: 6H61
-  STORE N GO       Rev: PMAP
+  Samsung SSD 840  Rev:BB0Q
+  DVDRW  DU8AESH   Rev:6H61
+  STORE N GO       Rev:PMAP
 usb: |
   3
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

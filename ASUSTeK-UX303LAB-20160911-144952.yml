@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASUSTek
 model: |
@@ -32,12 +32,12 @@ network: |
 memory: |
   7995
 scsi: |
-  Toshiba MQ01ABF0 Rev: 1J
+  Toshiba MQ01ABF0 Rev:1J
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'motherboard'
+  motherboard
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'yes'
+  true
 brand: |
   SuperMicro
 model: |
@@ -38,13 +38,13 @@ network: |
 memory: |
   28670
 scsi: |
-  Samsung SSD 850  Rev: 1B6Q
-  Generic          Rev: 0223
+  Samsung SSD 850  Rev:1B6Q
+  Generic          Rev:0223
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASUSTek
 model: |
@@ -35,14 +35,14 @@ network: |
 memory: |
   24493
 scsi: |
-  Crucial_CT960M50 Rev: MU03
-  DVD A  DS8A9SH   Rev: EAA2
-  ST1000LM024 HN-M Rev: 0002
+  Crucial_CT960M50 Rev:MU03
+  DVD A  DS8A9SH   Rev:EAA2
+  ST1000LM024 HN-M Rev:0002
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

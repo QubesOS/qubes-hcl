@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   MSI
 model: |
@@ -32,13 +32,13 @@ network: |
 memory: |
   16332
 scsi: |
-  Toshiba THNSNJ25 Rev: 0101
-  WDC WD10EZEX-00K Rev: 1H15
+  Toshiba THNSNJ25 Rev:0101
+  WDC WD10EZEX-00K Rev:1H15
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

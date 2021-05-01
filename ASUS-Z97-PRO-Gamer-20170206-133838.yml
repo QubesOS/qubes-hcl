@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'motherboard'
+  motherboard
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   ASUS
 model: |
@@ -34,15 +34,15 @@ network: |
 memory: |
   32710
 scsi: |
-  SanDisk SDSSDA24 Rev: 10RL
-  Hitachi HDT72101 Rev: A31B
-  ST2000DM001-1ER1 Rev: HP51
-  CDDVDW SH-216FB  Rev: HP00
+  SanDisk SDSSDA24 Rev:10RL
+  Hitachi HDT72101 Rev:A31B
+  ST2000DM001-1ER1 Rev:HP51
+  CDDVDW SH-216FB  Rev:HP00
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

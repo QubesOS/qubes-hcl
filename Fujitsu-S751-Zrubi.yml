@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Fujitsu
 model: |
@@ -37,7 +37,7 @@ scsi: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R1
     xen: |
@@ -52,7 +52,7 @@ versions:
       https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
 
   - works:
-      'yes'
+      true
     qubes: |
       R2B1
     xen: |
@@ -67,7 +67,7 @@ versions:
       https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
 
   - works:
-      'partial'
+      partial
     qubes: |
       R2B2
     xen: |
@@ -82,7 +82,7 @@ versions:
       https://groups.google.com/d/msg/qubes-devel/xoyNCigBvFE/ER61L6TbVpwJ
 
   - works:
-      'partial'
+      partial
     qubes: |
       R2B3
     xen: |

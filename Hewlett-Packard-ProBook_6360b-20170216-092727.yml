@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Hewlett-Packard
 model: |
@@ -35,13 +35,13 @@ network: |
 memory: |
   8126
 scsi: |
-  Hitachi HTS72323 Rev: A60W
-  CDDVDW TS-L633J  Rev: HH00
+  Hitachi HTS72323 Rev:A60W
+  CDDVDW TS-L633J  Rev:HH00
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

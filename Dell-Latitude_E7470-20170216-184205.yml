@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Dell
 model: |
@@ -35,12 +35,12 @@ network: |
 memory: |
   7856
 scsi: |
-  SanDisk X400 M.2 Rev: 0012
+  SanDisk X400 M.2 Rev:0012
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

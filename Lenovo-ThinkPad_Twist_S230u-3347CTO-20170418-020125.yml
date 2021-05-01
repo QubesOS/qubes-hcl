@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Lenovo
 model: |
@@ -35,12 +35,12 @@ network: |
 memory: |
   7811
 scsi: |
-  SanDisk SDSSDA12 Rev: 80RL
+  SanDisk SDSSDA12 Rev:80RL
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Dell
 model: |
@@ -32,13 +32,13 @@ network: |
 memory: |
   16337
 scsi: |
-  SanDisk SDSSDA12 Rev: 00RL
-  DVD-ROM SN-108BB Rev: D100
+  SanDisk SDSSDA12 Rev:00RL
+  DVD-ROM SN-108BB Rev:D100
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

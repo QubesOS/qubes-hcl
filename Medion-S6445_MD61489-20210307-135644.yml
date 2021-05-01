@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Medion
 model: |
@@ -36,13 +36,13 @@ network: |
 memory: |
   8081
 scsi: |
-  TOSHIBA MQ04ABF1 Rev: 0A
+  TOSHIBA MQ04ABF1 Rev:0A
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

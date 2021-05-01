@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Lenovo
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   16252
 scsi: |
-  WDC WD10JPVX-16J Rev: 1A02
-  SanDisk SD8SB8U5 Rev: 0000
+  WDC WD10JPVX-16J Rev:1A02
+  SanDisk SD8SB8U5 Rev:0000
 usb: |
   3
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

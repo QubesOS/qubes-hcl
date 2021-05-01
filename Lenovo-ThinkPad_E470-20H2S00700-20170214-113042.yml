@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Lenovo
 model: |
@@ -35,12 +35,12 @@ network: |
 memory: |
   15831
 scsi: |
-  SanDisk SD8TB8U2 Rev: 0101
+  SanDisk SD8TB8U2 Rev:0101
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

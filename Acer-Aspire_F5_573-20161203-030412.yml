@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Acer
 model: |
@@ -35,14 +35,14 @@ network: |
 memory: |
   24444
 scsi: |
-  Patriot Blast    Rev: 12.2
-  DVD A  DA8AESH   Rev: XA11
-  Cruzer Glide     Rev: 1.27
+  Patriot Blast    Rev:12.2
+  DVD A  DA8AESH   Rev:XA11
+  Cruzer Glide     Rev:1.27
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

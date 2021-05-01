@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  ''
+
 brand: |
   Panasonic
 model: |
@@ -33,13 +33,13 @@ network: |
 memory: |
   3894
 scsi: |
-  Corsair Performa Rev: 1.1
-  DV-W28S-V        Rev: B.0A
+  Corsair Performa Rev:1.1
+  DV-W28S-V        Rev:B.0A
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.1
     xen: |

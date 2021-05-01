@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Sony
 model: |
@@ -35,13 +35,13 @@ network: |
 memory: |
   8054
 scsi: |
-  Fujitsu MHV2080B Rev: 0025
-  Toshiba MK5056GS Rev: 3A
+  Fujitsu MHV2080B Rev:0025
+  Toshiba MK5056GS Rev:3A
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -36,15 +36,15 @@ network: |
 memory: |
   8093
 scsi: |
-  INTEL SSDSC2KW51 Rev: 002C
-  DVD-ROM DS-8DBSH Rev: CD11
-  DVD+-RW SW830    Rev: D.02
+  INTEL SSDSC2KW51 Rev:002C
+  DVD-ROM DS-8DBSH Rev:CD11
+  DVD+-RW SW830    Rev:D.02
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

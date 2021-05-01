@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Fujitsu
 model: |
@@ -33,13 +33,13 @@ network: |
 memory: |
   7987
 scsi: |
-  CT240BX200SSD1   Rev: .6
-  Rev: PMAP
+  CT240BX200SSD1   Rev:.6
+  Rev:PMAP
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.0
     xen: |

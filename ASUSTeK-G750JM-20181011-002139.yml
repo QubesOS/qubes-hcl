@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   ASUSTek
 model: |
@@ -37,15 +37,15 @@ network: |
 memory: |
   12170
 scsi: |
-  PNY CS900 120GB  Rev: 0612
-  DVD-RAM UJ8E1    Rev: 1.00
-  Toshiba MQ01ABD1 Rev: 2J
+  PNY CS900 120GB  Rev:0612
+  DVD-RAM UJ8E1    Rev:1.00
+  Toshiba MQ01ABD1 Rev:2J
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

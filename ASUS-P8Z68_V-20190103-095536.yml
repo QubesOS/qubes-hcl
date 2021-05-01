@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'no'
+  false
 remap:
-  'no'
+  false
 brand: |
   ASUS
 model: |
@@ -36,15 +36,15 @@ network: |
 memory: |
   3798
 scsi: |
-  Hitachi HDS72101 Rev: A3MA
-  DVD+-RW AD-7200S Rev: 102A
-  Ultra            Rev: 1.00
+  Hitachi HDS72101 Rev:A3MA
+  DVD+-RW AD-7200S Rev:102A
+  Ultra            Rev:1.00
 usb: |
   3
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

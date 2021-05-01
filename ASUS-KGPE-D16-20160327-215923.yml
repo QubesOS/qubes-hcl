@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASUS
 model: |
@@ -38,7 +38,7 @@ scsi: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.0
     xen: |

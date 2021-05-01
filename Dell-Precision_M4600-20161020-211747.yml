@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Dell
 model: |
@@ -36,13 +36,13 @@ network: |
 memory: |
   8069
 scsi: |
-  KINGSTON SNV425S Rev: 309a
-  DVD+-RW TS-U633J Rev: D600
+  KINGSTON SNV425S Rev:309a
+  DVD+-RW TS-U633J Rev:D600
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

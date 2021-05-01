@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   System manufacturer
 model: |
@@ -37,16 +37,16 @@ network: |
 memory: |
   32699
 scsi: |
-  Samsung SSD 850  Rev: 2B6Q
-  Samsung SSD 850  Rev: 2B6Q
-  WDC WD20EARS-00M Rev: AB51
-  HITACHI HUA72303 Rev: NS01
+  Samsung SSD 850  Rev:2B6Q
+  Samsung SSD 850  Rev:2B6Q
+  WDC WD20EARS-00M Rev:AB51
+  HITACHI HUA72303 Rev:NS01
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

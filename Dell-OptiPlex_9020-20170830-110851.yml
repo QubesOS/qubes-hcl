@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -36,15 +36,15 @@ network: |
 memory: |
   16292
 scsi: |
-  WDC WD5000AAKX-7 Rev: 1H20
-  DVD+-RW DH-16AES Rev: 3D11
+  WDC WD5000AAKX-7 Rev:1H20
+  DVD+-RW DH-16AES Rev:3D11
 
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

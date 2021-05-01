@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   MSI
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   32654
 scsi: |
-  SanDisk SSD PLUS Rev: 04RL
-  SanDisk SDSSDH3  Rev: 40RL
+  SanDisk SSD PLUS Rev:04RL
+  SanDisk SDSSDH3  Rev:40RL
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.1
     xen: |

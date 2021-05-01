@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'no'
+  false
 brand: |
   Lenovo
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   16315
 scsi: |
-  KINGSTON SA400S3 Rev: J4.3
-  DVD+-RW DS-8A8SH Rev: KD11
+  KINGSTON SA400S3 Rev:J4.3
+  DVD+-RW DS-8A8SH Rev:KD11
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

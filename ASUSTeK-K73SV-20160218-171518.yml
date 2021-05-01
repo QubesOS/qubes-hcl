@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASUSTeK Computer Inc.
 model: |
@@ -34,15 +34,15 @@ network: |
 memory: |
   8104
 scsi: |
-  ST9500325AS      Rev: SDM1
-  ST9500325AS      Rev: SDM1
-  DVD A  DS8A5SH   Rev: XAA2
-  Cruzer           Rev: 8.01
+  ST9500325AS      Rev:SDM1
+  ST9500325AS      Rev:SDM1
+  DVD A  DS8A5SH   Rev:XAA2
+  Cruzer           Rev:8.01
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.0
     xen: |

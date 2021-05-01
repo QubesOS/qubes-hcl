@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Lenovo
 model: |
@@ -34,14 +34,14 @@ network: |
 memory: |
   8088
 scsi: |
-  ST1000LM014-SSHD Rev: LVD3
-  DVDRAM GUA0N     Rev: AL00
-  External USB 3.0 Rev: 0
+  ST1000LM014-SSHD Rev:LVD3
+  DVDRAM GUA0N     Rev:AL00
+  External USB 3.0 Rev:0
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

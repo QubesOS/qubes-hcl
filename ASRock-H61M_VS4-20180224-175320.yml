@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASRock
 model: |
@@ -34,14 +34,14 @@ network: |
 memory: |
   4054
 scsi: |
-  DVDRAM GH24NSB0  Rev: LM01
-  My Passport 0810 Rev: 1049
-  SES Device       Rev: 1049
+  DVDRAM GH24NSB0  Rev:LM01
+  My Passport 0810 Rev:1049
+  SES Device       Rev:1049
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

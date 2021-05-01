@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Lenovo
 model: |
@@ -35,14 +35,14 @@ network: |
 memory: |
   7987
 scsi: |
-  M4-CT256M4SSD2   Rev: 040H
-  DVD-RAM UJ892    Rev: SB01
-  Cruzer Glide 3.0 Rev: 1.00
+  M4-CT256M4SSD2   Rev:040H
+  DVD-RAM UJ892    Rev:SB01
+  Cruzer Glide 3.0 Rev:1.00
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

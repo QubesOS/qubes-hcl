@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   ASRock
 model: |
@@ -38,13 +38,13 @@ network: |
 memory: |
   16265
 scsi: |
-  GIGABYTE GP-GSTF Rev: P1.3
+  GIGABYTE GP-GSTF Rev:P1.3
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |
@@ -52,7 +52,7 @@ versions:
     kernel: |
       5.4.98-1
     remark: |
-      no waking up from hibernation
+      false waking up from hibernation
     credit: |
       followentropy
     link: |

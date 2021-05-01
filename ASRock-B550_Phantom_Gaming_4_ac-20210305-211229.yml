@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  ''
+
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   ASRock
 model: |
@@ -43,7 +43,7 @@ usb: |
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

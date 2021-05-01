@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'partial'
+  partial
 brand: |
   Hewlett-Packard
 model: |
@@ -37,7 +37,7 @@ scsi: |
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R2B3
     xen: |
@@ -52,7 +52,7 @@ versions:
       https://groups.google.com/d/msg/qubes-users/RYzkSFoMsxQ/ukXhBW4ybqQJ
 
   - works:
-      'partial'
+      partial
     qubes: |
       R2rc1
     xen: |

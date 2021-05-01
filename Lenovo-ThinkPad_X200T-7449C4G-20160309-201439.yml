@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   Lenovo
 model: |
@@ -34,12 +34,12 @@ network: |
 memory: |
   8088
 scsi: |
-  INTEL SSDSA2CW30 Rev: 0362
+  INTEL SSDSA2CW30 Rev:0362
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.1
     xen: |

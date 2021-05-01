@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'motherboard'
+  motherboard
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASRock
 model: |
@@ -34,13 +34,13 @@ network: |
 memory: |
   7913
 scsi: |
-  OCZ-VERTEX4      Rev: 1.5
-  DVD-ROM TS-H353B Rev: D700
+  OCZ-VERTEX4      Rev:1.5
+  DVD-ROM TS-H353B Rev:D700
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

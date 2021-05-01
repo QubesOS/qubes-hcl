@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   Lenovo
 model: |
@@ -38,14 +38,14 @@ network: |
 memory: |
   32345
 scsi: |
-  SanDisk SDSSDH3  Rev: 40RL
-  SanDisk SSD PLUS Rev: 04RL
+  SanDisk SDSSDH3  Rev:40RL
+  SanDisk SSD PLUS Rev:04RL
 usb: |
   2
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

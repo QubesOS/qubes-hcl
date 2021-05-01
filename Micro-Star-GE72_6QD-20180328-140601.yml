@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   MSI
 model: |
@@ -37,16 +37,16 @@ network: |
 memory: |
   16262
 scsi: |
-  Toshiba THNSNJ12 Rev: 0102
-  DVDRAM GUB0N     Rev: 1.00
-  Samsung SSD 850  Rev: 2B6Q
-  721010A9E630     Rev: JB0O
+  Toshiba THNSNJ12 Rev:0102
+  DVDRAM GUB0N     Rev:1.00
+  Samsung SSD 850  Rev:2B6Q
+  721010A9E630     Rev:JB0O
 usb: |
   2
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

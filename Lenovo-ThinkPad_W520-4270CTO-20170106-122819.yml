@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Lenovo
 model: |
@@ -36,13 +36,13 @@ network: |
 memory: |
   8075
 scsi: |
-  INTEL SSDSA2BW16 Rev: LE05
-  DVDRAM GT50N     Rev: LT20
+  INTEL SSDSA2BW16 Rev:LE05
+  DVDRAM GT50N     Rev:LT20
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

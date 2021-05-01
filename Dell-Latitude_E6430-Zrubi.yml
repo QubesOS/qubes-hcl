@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Dell
 model: |
@@ -34,13 +34,13 @@ network: |
 memory: |
   8065
 scsi: |
-  Samsung SSD PM83 Rev: CXM0
-  Toshiba MK5061GS Rev: MH00
+  Samsung SSD PM83 Rev:CXM0
+  Toshiba MK5061GS Rev:MH00
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R2
     xen: |

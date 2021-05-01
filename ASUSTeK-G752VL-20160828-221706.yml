@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASUSTek
 model: |
@@ -33,13 +33,13 @@ network: |
 memory: |
   16319
 scsi: |
-  HGST HTS721010A9 Rev: A3J0
-  CDDVDW SU-228GB  Rev: AS00
+  HGST HTS721010A9 Rev:A3J0
+  CDDVDW SU-228GB  Rev:AS00
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.1
     xen: |

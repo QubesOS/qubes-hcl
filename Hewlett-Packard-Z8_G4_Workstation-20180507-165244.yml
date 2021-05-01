@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  ''
+
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Hewlett-Packard
 model: |
@@ -40,18 +40,18 @@ network: |
 memory: |
   65235
 scsi: |
-  DVDRW  GUD1N     Rev: LD04
-  Smart Adapter    Rev: 1.04
-  LOGICAL VOLUME   Rev: 1.04
-  LOGICAL VOLUME   Rev: 1.04
-  2100-4i4e        Rev: 1.04
-  STORAGE DEVICE   Rev: HP01
+  DVDRW  GUD1N     Rev:LD04
+  Smart Adapter    Rev:1.04
+  LOGICAL VOLUME   Rev:1.04
+  LOGICAL VOLUME   Rev:1.04
+  2100-4i4e        Rev:1.04
+  STORAGE DEVICE   Rev:HP01
 usb: |
   1
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

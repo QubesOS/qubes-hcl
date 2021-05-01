@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   8149
 scsi: |
-  TEAM L3 EVO SSD  Rev: 00.3
-  DVD+-RW GS30N    Rev: A101
+  TEAM L3 EVO SSD  Rev:00.3
+  DVD+-RW GS30N    Rev:A101
 usb: |
   3
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

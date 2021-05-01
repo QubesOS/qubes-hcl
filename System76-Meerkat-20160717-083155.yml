@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   System76
 model: |
@@ -33,13 +33,13 @@ network: |
 memory: |
   32657
 scsi: |
-  Samsung SSD 850  Rev: 1B6Q
-  HD-PATU3         Rev: 0000
+  Samsung SSD 850  Rev:1B6Q
+  HD-PATU3         Rev:0000
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

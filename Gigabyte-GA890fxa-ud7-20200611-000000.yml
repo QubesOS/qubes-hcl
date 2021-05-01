@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  status: 'yes'
-  message: 'Works with extra config'
+  status:yes
+  message:'Works with extra config'
 tpm:
-  status: 'no'
-  message: 'Lpc header there, prolly not populated.'
+  status:no
+  message:'Lpc header there, prolly not populated.'
 brand: |
   Gigabyte
 model: |
@@ -39,7 +39,7 @@ scsi: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0.1
     xen: |

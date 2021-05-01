@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASUSTek
 model: |
@@ -34,12 +34,12 @@ network: |
 memory: |
   8094
 scsi: |
-  SanDisk SD7SB3Q2 Rev: 0000
+  SanDisk SD7SB3Q2 Rev:0000
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

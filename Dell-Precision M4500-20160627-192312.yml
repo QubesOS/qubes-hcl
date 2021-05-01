@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   Dell
 model: |
@@ -33,13 +33,13 @@ network: |
 memory: |
   8181
 scsi: |
-  KINGSTON SV300S3 Rev: BBF0
-  DVD-ROM DV18SA   Rev: D.0D
+  KINGSTON SV300S3 Rev:BBF0
+  DVD-ROM DV18SA   Rev:D.0D
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.1
     xen: |

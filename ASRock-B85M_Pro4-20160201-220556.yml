@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASRock
 model: |
@@ -32,14 +32,14 @@ network: |
 memory: |
   16037
 scsi: |
-  Samsung SSD 840  Rev: BB6Q
-  Hitachi HTS54323 Rev: C40C
-  Trans-It Drive   Rev: PMAP
+  Samsung SSD 840  Rev:BB6Q
+  Hitachi HTS54323 Rev:C40C
+  Trans-It Drive   Rev:PMAP
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

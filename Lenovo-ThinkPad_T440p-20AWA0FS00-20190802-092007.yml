@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   Lenovo
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   16070
 scsi: |
-  SATA SSD         Rev: 61.3
-  DVD-RAM UJ8E2    Rev: SB01
+  SATA SSD         Rev:61.3
+  DVD-RAM UJ8E2    Rev:SB01
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

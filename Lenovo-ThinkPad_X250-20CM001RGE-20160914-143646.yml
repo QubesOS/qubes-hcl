@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Lenovo
 model: |
@@ -33,12 +33,12 @@ network: |
 memory: |
   16182
 scsi: |
-  Toshiba THNSNJ51 Rev: 0101
+  Toshiba THNSNJ51 Rev:0101
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'no'
+  false
 iommu:
-  'no'
+  false
 tpm:
-  ''
+
 brand: |
   ASUS
 model: |
@@ -37,7 +37,7 @@ scsi: |
 versions:
 
   - works:
-      'no'
+      false
     qubes: |
       R2B2
     xen: |

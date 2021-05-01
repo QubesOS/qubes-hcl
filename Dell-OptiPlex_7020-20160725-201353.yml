@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -36,14 +36,14 @@ network: |
 memory: |
   8100
 scsi: |
-  PNY CS900 120GB  Rev: 0612
+  PNY CS900 120GB  Rev:0612
   3A               Rev:
 usb: |
   3
 versions:
 
   - works:
-      'no'
+      false
     qubes: |
       R4.0
     xen: |

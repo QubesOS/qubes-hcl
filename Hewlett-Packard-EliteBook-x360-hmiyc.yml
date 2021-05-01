@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Hewlett-Packard
 model: |
@@ -38,13 +38,13 @@ network: |
 memory: |
   15783
 scsi: |
-  SanDisk SD8SN8U- Rev: 0006
+  SanDisk SD8SN8U- Rev:0006
 usb: |
   2
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

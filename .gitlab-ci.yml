@@ -1,6 +1,6 @@
 include:
-  - project: 'QubesOS/qubes-continuous-integration'
-    file: '/gitlab-website.yml'
+  - project:'QubesOS/qubes-continuous-integration'
+    file:'/gitlab-website.yml'
 
 build:posts:
-  extends: .website
+  extends:.website

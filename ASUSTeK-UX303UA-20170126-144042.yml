@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASUSTek
 model: |
@@ -34,12 +34,12 @@ network: |
 memory: |
   12191
 scsi: |
-  HFS256G32MND-220 Rev: 0L00
+  HFS256G32MND-220 Rev:0L00
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

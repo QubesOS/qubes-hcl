@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  ''
+
 brand: |
   Hewlett-Packard
 model: |
@@ -34,12 +34,12 @@ network: |
 memory: |
   6135
 scsi: |
-  Toshiba MK3276GS Rev: 1X
+  Toshiba MK3276GS Rev:1X
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.0
     xen: |

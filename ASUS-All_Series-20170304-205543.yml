@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'motherboard'
+  motherboard
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASUS
 model: |
@@ -34,14 +34,14 @@ network: |
 memory: |
   8067
 scsi: |
-  KINGSTON SV300S3 Rev: BBF0
-  KINGSTON SHFS37A Rev: BBF0
-  WDC WD7500BPKX-0 Rev: 1A01
+  KINGSTON SV300S3 Rev:BBF0
+  KINGSTON SHFS37A Rev:BBF0
+  WDC WD7500BPKX-0 Rev:1A01
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

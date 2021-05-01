@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Lenovo
 model: |
@@ -36,13 +36,13 @@ network: |
 memory: |
   16267
 scsi: |
-  ADATA SP600      Rev: 1.2
-  HGST HTS725050A7 Rev: B550
+  ADATA SP600      Rev:1.2
+  HGST HTS725050A7 Rev:B550
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

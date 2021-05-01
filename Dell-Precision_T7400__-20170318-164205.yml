@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'workstation'
+  workstation
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'no'
+  false
 tpm:
-  ''
+
 brand: |
   Dell
 model: |
@@ -34,17 +34,17 @@ network: |
 memory: |
   40957
 scsi: |
-  DVD+-RW TS-H653B Rev: D300
-  WDC WD3000FYYZ-0 Rev: 1K01
-  WDC WD3000FYYZ-0 Rev: 1K01
-  ST3750640NS      Rev: 3BKS
-  ST3750640NS      Rev: 3BKS
-  VIRTUAL DISK     Rev: 1028
+  DVD+-RW TS-H653B Rev:D300
+  WDC WD3000FYYZ-0 Rev:1K01
+  WDC WD3000FYYZ-0 Rev:1K01
+  ST3750640NS      Rev:3BKS
+  ST3750640NS      Rev:3BKS
+  VIRTUAL DISK     Rev:1028
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

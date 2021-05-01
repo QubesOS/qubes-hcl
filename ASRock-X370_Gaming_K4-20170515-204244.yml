@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   ASRock
 model: |
@@ -36,17 +36,17 @@ network: |
 memory: |
   16336
 scsi: |
-  iHBS112   2      Rev: PL06
-  SanDisk SDSSDA24 Rev: 80RL
-  KINGSTON SH103S3 Rev: BBF0
-  Samsung HD204UI  Rev: 0001
-  Samsung SSD 850  Rev: 2B6Q
+  iHBS112   2      Rev:PL06
+  SanDisk SDSSDA24 Rev:80RL
+  KINGSTON SH103S3 Rev:BBF0
+  Samsung HD204UI  Rev:0001
+  Samsung SSD 850  Rev:2B6Q
 usb: |
   2
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

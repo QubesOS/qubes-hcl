@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   CompuLab
 model: |
@@ -34,15 +34,15 @@ network: |
 memory: |
   15823
 scsi: |
-  Samsung SSD 840  Rev: 5B0Q
-  Ext Hard Disk    Rev: 0000
+  Samsung SSD 840  Rev:5B0Q
+  Ext Hard Disk    Rev:0000
   CDROM            Rev:
-  Silicon-Power    Rev: 0
+  Silicon-Power    Rev:0
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'motherboard'
+  motherboard
 hvm:
-  ''
+
 iommu:
-  ''
+
 tpm:
-  ''
+
 brand: |
   MSI
 model: |
@@ -37,7 +37,7 @@ scsi: |
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R2B2
     xen: |

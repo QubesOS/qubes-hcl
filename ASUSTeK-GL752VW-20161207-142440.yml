@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASUSTek
 model: |
@@ -35,14 +35,14 @@ network: |
 memory: |
   32666
 scsi: |
-  DVD A  DA8AESH   Rev: XAA1
-  SanDisk SD8SN8U2 Rev: 0000
-  HGST HTS721010A9 Rev: A3J0
+  DVD A  DA8AESH   Rev:XAA1
+  SanDisk SD8SN8U2 Rev:0000
+  HGST HTS721010A9 Rev:A3J0
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

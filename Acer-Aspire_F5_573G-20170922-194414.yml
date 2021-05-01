@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Acer
 model: |
@@ -37,15 +37,15 @@ network: |
 memory: |
   16137
 scsi: |
-  ST1000LM024 HN-M Rev: 0001
-  DVD A  DA8A6SH   Rev: GA11
-  Samsung MZNLF128 Rev: 101Q
+  ST1000LM024 HN-M Rev:0001
+  DVD A  DA8A6SH   Rev:GA11
+  Samsung MZNLF128 Rev:101Q
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   ASUSTek
 model: |
@@ -36,23 +36,23 @@ network: |
 memory: |
   32662
 scsi: |
-  ST3000DM007-1WY1 Rev: 0001
-  ST3000DM007-1WY1 Rev: 0001
-  KINGSTON SA400S3 Rev: B1E1
-  WDC WD5000AAKS-0 Rev: 3B01
-  ST2000DM001-1ER1 Rev: CC26
-  WDC WD10EADS-00P Rev: 0A01
-  iHAS124   Y      Rev: BL0V
-  SD/MMC           Rev: 1.00
-  Compact Flash    Rev: 1.01
-  SM/xD-Picture    Rev: 1.02
-  MS/MS-Pro        Rev: 1.03
+  ST3000DM007-1WY1 Rev:0001
+  ST3000DM007-1WY1 Rev:0001
+  KINGSTON SA400S3 Rev:B1E1
+  WDC WD5000AAKS-0 Rev:3B01
+  ST2000DM001-1ER1 Rev:CC26
+  WDC WD10EADS-00P Rev:0A01
+  iHAS124   Y      Rev:BL0V
+  SD/MMC           Rev:1.00
+  Compact Flash    Rev:1.01
+  SM/xD-Picture    Rev:1.02
+  MS/MS-Pro        Rev:1.03
 usb: |
   10
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

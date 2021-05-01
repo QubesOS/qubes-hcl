@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'workstation'
+  workstation
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Dell
 model: |
@@ -37,7 +37,7 @@ scsi: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R2B2
     xen: |

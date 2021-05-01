@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Dell
 model: |
@@ -33,13 +33,13 @@ network: |
 memory: |
   8074
 scsi: |
-  HGST HTS541010A9 Rev: A560
-  DVD+-RW DU-8A4SH Rev: QD12
+  HGST HTS541010A9 Rev:A560
+  DVD+-RW DU-8A4SH Rev:QD12
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

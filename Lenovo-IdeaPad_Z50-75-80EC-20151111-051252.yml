@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 tpm:
-  'unknown'
+  unknown
 brand: |
   Lenovo
 model: |
@@ -33,14 +33,14 @@ network: |
 memory: |
   7098
 scsi: |
-  Toshiba MQ01ABD1 Rev: 5E
-  DVDRAM GUA0N     Rev: AL00
-  Silicon-Power4G  Rev: PMAP
+  Toshiba MQ01ABD1 Rev:5E
+  DVDRAM GUA0N     Rev:AL00
+  Silicon-Power4G  Rev:PMAP
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.0
     xen: |

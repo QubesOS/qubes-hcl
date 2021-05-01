@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Dell
 model: |
@@ -16,29 +16,29 @@ model: |
 bios: |
   A16
 cpu: |
-  00:00.0 Host bridge [0600]: Intel Corporation Core Processor DRAM Controller [8086:0044] (rev 02)
+  00:00.0 Host bridge [0600]:Intel Corporation Core Processor DRAM Controller [8086:0044] (rev 02)
 cpu-short: |
   i7-M640
 chipset: |
-  00:00.0 Host bridge [0600]: Intel Corporation Core Processor DRAM Controller [8086:0044] (rev 02)
+  00:00.0 Host bridge [0600]:Intel Corporation Core Processor DRAM Controller [8086:0044] (rev 02)
 chipset-short: |
   Arrandale
 gpu: |
-  01:00.0 VGA compatible controller [0300]: NVIDIA Corporation GT218M [NVS 3100M] [10de:0a6c] (rev a2) (prog-if 00 [VGA controller])
+  01:00.0 VGA compatible controller [0300]:NVIDIA Corporation GT218M [NVS 3100M] [10de:0a6c] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
   GT218M
 network: |
-  00:19.0 Ethernet controller: Intel Corporation 82577LM Gigabit Network Connection (rev 05)
-  03:00.0 Network controller: Intel Corporation Centrino Advanced-N 6200 (rev 35)
+  00:19.0 Ethernet controller:Intel Corporation 82577LM Gigabit Network Connection (rev 05)
+  03:00.0 Network controller:Intel Corporation Centrino Advanced-N 6200 (rev 35)
 memory: |
   8053
 scsi: |
-  Samsung SSD PB22 Rev: VBM9
+  Samsung SSD PB22 Rev:VBM9
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R2
     xen: |

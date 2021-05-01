@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   System76
 model: |
@@ -43,7 +43,7 @@ usb: |
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

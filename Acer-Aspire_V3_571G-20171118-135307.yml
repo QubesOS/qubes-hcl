@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Acer
 model: |
@@ -38,16 +38,16 @@ network: |
 memory: |
   5962
 scsi: |
-  ST500LT012-9WS14 Rev: SDM1
-  DVDRAM GT70N     Rev: YP10
-  My Passport 0837 Rev: 1072
-  SES Device       Rev: 1072
+  ST500LT012-9WS14 Rev:SDM1
+  DVDRAM GT70N     Rev:YP10
+  My Passport 0837 Rev:1072
+  SES Device       Rev:1072
 usb: |
   3
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

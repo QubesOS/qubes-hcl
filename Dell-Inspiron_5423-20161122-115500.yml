@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -38,14 +38,14 @@ network: |
 memory: |
   8058
 scsi: |
-  SanDisk SDSSDA24 Rev: 70RL
-  Samsung SSD PM83 Rev: 2D1Q
-  DVD+-RW GU70N    Rev: A102
+  SanDisk SDSSDA24 Rev:70RL
+  Samsung SSD PM83 Rev:2D1Q
+  DVD+-RW GU70N    Rev:A102
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |
@@ -53,14 +53,14 @@ versions:
     kernel: |
       4.4.14-11
     remark: |
-      Not working: bluetooth, mic, webcam
+      Not working:bluetooth, mic, webcam
     credit: |
       Amilton Justino
     link: |
       https://groups.google.com/d/msg/qubes-users/KXGNNdffEdg/Ckdi8LuSCQAJ
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

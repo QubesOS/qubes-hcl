@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   ASUS
 model: |
@@ -36,16 +36,16 @@ network: |
 memory: |
   24503
 scsi: |
-  CT500MX500SSD1   Rev: 023
-  Samsung HD154UI  Rev: 1113
-  WDC WD20EZRX-00D Rev: 0A80
-  CT500MX500SSD1   Rev: 020
+  CT500MX500SSD1   Rev:023
+  Samsung HD154UI  Rev:1113
+  WDC WD20EZRX-00D Rev:0A80
+  CT500MX500SSD1   Rev:020
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

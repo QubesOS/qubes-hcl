@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -37,16 +37,16 @@ network: |
 memory: |
   130985
 scsi: |
-  DVD+-RW GTA0N    Rev: A1C1
-  SK hynix SC311 S Rev: 0P10
-  ST2000DM001-1ER1 Rev: CC27
-  ST2000DM001-1ER1 Rev: CC27
+  DVD+-RW GTA0N    Rev:A1C1
+  SK hynix SC311 S Rev:0P10
+  ST2000DM001-1ER1 Rev:CC27
+  ST2000DM001-1ER1 Rev:CC27
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'server'
+  server
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   SuperMicro
 model: |
@@ -39,7 +39,7 @@ scsi: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

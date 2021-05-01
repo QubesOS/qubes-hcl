@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASUSTek
 model: |
@@ -32,13 +32,13 @@ network: |
 memory: |
   5837
 scsi: |
-  Hitachi HTS54505 Rev: A6C0
-  SanDisk SSD i100 Rev: 6.02
+  Hitachi HTS54505 Rev:A6C0
+  SanDisk SSD i100 Rev:6.02
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.0
     xen: |

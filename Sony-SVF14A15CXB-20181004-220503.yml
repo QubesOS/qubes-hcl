@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Sony
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   8073
 scsi: |
-  Toshiba MQ01ABD0 Rev: 2H
-  DVD-RAM UJ8D3    Rev: 1.00
+  Toshiba MQ01ABD0 Rev:2H
+  DVD-RAM UJ8D3    Rev:1.00
 usb: |
   3
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

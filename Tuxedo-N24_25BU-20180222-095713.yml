@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Tuxedo
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   16303
 scsi: |
-  Samsung SSD 850  Rev: 2B6Q
+  Samsung SSD 850  Rev:2B6Q
 usb: |
   2
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

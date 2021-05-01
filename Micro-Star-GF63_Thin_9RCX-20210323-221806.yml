@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   MSI
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   16225
 scsi: |
-  SanDisk SD6SB1M- Rev: 706
+  SanDisk SD6SB1M- Rev:706
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

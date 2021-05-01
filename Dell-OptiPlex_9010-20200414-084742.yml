@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -37,15 +37,15 @@ network: |
 memory: |
   16212
 scsi: |
-  Micron_1100_MTFD Rev: U020
-  SSDPR-CL100-240  Rev: 9
-  DVD+-RW GT80N    Rev: A103
+  Micron_1100_MTFD Rev:U020
+  SSDPR-CL100-240  Rev:9
+  DVD+-RW GT80N    Rev:A103
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

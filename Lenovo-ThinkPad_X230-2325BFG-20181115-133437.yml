@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   Lenovo/CGS
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   16308
 scsi: |
-  Samsung MZ7TD256 Rev: 4L6Q
+  Samsung MZ7TD256 Rev:4L6Q
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

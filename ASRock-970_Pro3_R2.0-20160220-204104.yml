@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   ASRock
 model: |
@@ -32,12 +32,12 @@ network: |
 memory: |
   16340
 scsi: |
-  INTEL SSDSA2CW08 Rev: 0362
+  INTEL SSDSA2CW08 Rev:0362
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Hewlett-Packard
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   3671
 scsi: |
-  SMI DISK Rev: 6A
+  SMI DISK Rev:6A
 usb: |
   1
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R4.0
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Hewlett-Packard
 model: |
@@ -37,15 +37,15 @@ network: |
 memory: |
   16304
 scsi: |
-  Fujitsu MHZ2320B Rev: 0009
-  DVDRW  DA8A6SH   Rev: GH61
-  Transcend 4GB    Rev: 8.07
+  Fujitsu MHZ2320B Rev:0009
+  DVDRW  DA8A6SH   Rev:GH61
+  Transcend 4GB    Rev:8.07
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'no'
+  false
 brand: |
   Lenovo
 model: |
@@ -42,7 +42,7 @@ usb: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Toshiba
 model: |
@@ -35,13 +35,13 @@ network: |
 memory: |
   6026
 scsi: |
-  Toshiba MQ01ABD0 Rev: 4M
-  CDDVDW SU-208DB  Rev: TF01
+  Toshiba MQ01ABD0 Rev:4M
+  CDDVDW SU-208DB  Rev:TF01
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

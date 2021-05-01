@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Gigabyte
 model: |
@@ -39,17 +39,17 @@ network: |
 memory: |
   32530
 scsi: |
-  ST2000DM006-2DM1 Rev: CC26
-  WD1002FBYS-0     Rev: 03.0
-  ST2000DM006-2DM1 Rev: CC26
-  Rev: PMAP
-  FA GoFlex Desk   Rev: 0D0B
+  ST2000DM006-2DM1 Rev:CC26
+  WD1002FBYS-0     Rev:03.0
+  ST2000DM006-2DM1 Rev:CC26
+  Rev:PMAP
+  FA GoFlex Desk   Rev:0D0B
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

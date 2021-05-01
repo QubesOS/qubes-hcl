@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  ''
+
 brand: |
   Hewlett-Packard
 model: |
@@ -33,13 +33,13 @@ network: |
 memory: |
   8119
 scsi: |
-  ADATA SP900      Rev: 2
-  DVD RW AD-7711H  Rev: 1.81
+  ADATA SP900      Rev:2
+  DVD RW AD-7711H  Rev:1.81
 
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.1
     xen: |

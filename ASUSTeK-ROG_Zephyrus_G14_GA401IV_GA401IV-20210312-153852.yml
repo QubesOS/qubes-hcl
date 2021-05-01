@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   ASUSTeK
 model: |
@@ -43,7 +43,7 @@ usb: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.1
     xen: |
@@ -51,7 +51,7 @@ versions:
     kernel: |
       5.11.4-1
     remark: |
-      'Touch pad sometimes requires full restart. Nvidia untested.'
+      Touch pad sometimes requires full restart. Nvidia untested.
     credit: |
       Alethia
     link: |

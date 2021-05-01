@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'yes'
+  true
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -36,21 +36,21 @@ network: |
 memory: |
   16337
 scsi: |
-  ST9160412ASG     Rev: SDM1
-  DVD+-RW DH-16ABS Rev: PD11
-  ST33000651AS     Rev: CC43
-  Flash HS-CF      Rev: 4.44
-  Flash HS-COMBO   Rev: 4.44
-  Flash HS-CF      Rev: 4.44
-  Flash HS-COMBO   Rev: 4.44
+  ST9160412ASG     Rev:SDM1
+  DVD+-RW DH-16ABS Rev:PD11
+  ST33000651AS     Rev:CC43
+  Flash HS-CF      Rev:4.44
+  Flash HS-COMBO   Rev:4.44
+  Flash HS-CF      Rev:4.44
+  Flash HS-COMBO   Rev:4.44
   HD204UI          Rev:
-  10EAVS External  Rev: 1.75
+  10EAVS External  Rev:1.75
 usb: |
   3
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

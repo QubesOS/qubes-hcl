@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'yes'
+  true
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   8074
 scsi: |
-  SK hynix SC308 S Rev: 0P10
-  TS120GMTS420S    Rev: 8F3S
+  SK hynix SC308 S Rev:0P10
+  TS120GMTS420S    Rev:8F3S
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

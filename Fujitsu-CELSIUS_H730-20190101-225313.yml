@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  ''
+
 remap:
-  'yes'
+  true
 brand: |
   Fujitsu
 model: |
@@ -37,13 +37,13 @@ network: |
 memory: |
   32649
 scsi: |
-  CT2000MX500SSD1  Rev: 022
+  CT2000MX500SSD1  Rev:022
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

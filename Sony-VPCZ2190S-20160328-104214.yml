@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'yes'
+  true
 brand: |
   Sony
 model: |
@@ -33,13 +33,13 @@ network: |
 memory: |
   8107
 scsi: |
-  Samsung MZRPC128 Rev: 3S1Q
-  Samsung MZRPC128 Rev: 3S1Q
+  Samsung MZRPC128 Rev:3S1Q
+  Samsung MZRPC128 Rev:3S1Q
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |

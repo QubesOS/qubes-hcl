@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Hewlett-Packard
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   3834
 scsi: |
-  Samsung SSD 850  Rev: 3B6Q
-  BD ROM BC-5501H  Rev: 2.88
+  Samsung SSD 850  Rev:3B6Q
+  BD ROM BC-5501H  Rev:2.88
 usb: |
   7
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

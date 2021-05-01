@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'workstation'
+  workstation
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   SuperMicro
 model: |
@@ -43,7 +43,7 @@ scsi: |
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

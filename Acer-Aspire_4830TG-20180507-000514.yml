@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'no'
+  false
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'no'
+  false
 brand: |
   Acer
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   5995
 scsi: |
-  WDC WD2500BEVT-0 Rev: 1A01
-  DVD-RAM UJ8A2AS  Rev: 1.00
+  WDC WD2500BEVT-0 Rev:1A01
+  DVD-RAM UJ8A2AS  Rev:1.00
 usb: |
   3
 versions:
 
   - works:
-      'partial'
+      partial
     qubes: |
       R3.2
     xen: |

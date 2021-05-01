@@ -1,16 +1,16 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'desktop'
+  desktop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 brand: |
   Fujitsu
 model: |
@@ -35,13 +35,13 @@ network: |
 memory: |
   16283
 scsi: |
-  Samsung MZ7TE128 Rev: 100Q
-  DVDRAM GS40N     Rev: HF01
+  Samsung MZ7TE128 Rev:100Q
+  DVDRAM GS40N     Rev:HF01
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

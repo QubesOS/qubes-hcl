@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -37,14 +37,14 @@ network: |
 memory: |
   16002
 scsi: |
-  WDC WD10SPZX-75Z Rev: 1A02
-  LITEON CV3-8D128 Rev: 10D
+  WDC WD10SPZX-75Z Rev:1A02
+  LITEON CV3-8D128 Rev:10D
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R4.0
     xen: |

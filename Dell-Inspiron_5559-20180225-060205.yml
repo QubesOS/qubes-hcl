@@ -1,18 +1,18 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 slat:
-  'yes'
+  true
 tpm:
-  'unknown'
+  unknown
 remap:
-  'yes'
+  true
 brand: |
   Dell
 model: |
@@ -36,14 +36,14 @@ network: |
 memory: |
   7763
 scsi: |
-  WDC WD10JPVX-75J Rev: 1A02
-  DVD+-RW GU90N    Rev: A1C1
+  WDC WD10JPVX-75J Rev:1A02
+  DVD+-RW GU90N    Rev:A1C1
 usb: |
   1
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.2
     xen: |

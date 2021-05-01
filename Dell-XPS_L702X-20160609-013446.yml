@@ -1,14 +1,14 @@
 ---
 layout:
-  'hcl'
+  hcl
 type:
-  'laptop'
+  laptop
 hvm:
-  'yes'
+  true
 iommu:
-  'yes'
+  true
 tpm:
-  'no'
+  false
 brand: |
   Dell
 model: |
@@ -34,13 +34,13 @@ network: |
 memory: |
   8086
 scsi: |
-  ST1000LM024 HN-M Rev: 0001
-  DVD+-RW AD-7747H Rev: 100A
+  ST1000LM024 HN-M Rev:0001
+  DVD+-RW AD-7747H Rev:100A
 
 versions:
 
   - works:
-      'yes'
+      true
     qubes: |
       R3.1
     xen: |
