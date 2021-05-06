@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Purism
+model: |
+  Librem Mini
+bios: |
+  4.12-Purism-3
+cpu: |
+  Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+cpu-short: |
+  i7-8565U
+chipset: |
+  Intel Corporation Device [8086:3e34] (rev 0b)
+chipset-short: |
+  Whiskey Lake
+gpu: |
+  Intel Corporation Device [8086:3ea0] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 620)
+network: |
+  Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 07)
+memory: |
+  32643
+scsi: |
+  WDC  WDS500G2B0A Rev: 30WD
+  SanDisk SSD G5 B Rev: 00WD
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.107-1
+    remark: |
+
+    credit: |
+      onequbesuser
+    link: |
+      https://qubes-os.discourse.group/t/hcl-librem-mini-v1/3944/1
+
+---
