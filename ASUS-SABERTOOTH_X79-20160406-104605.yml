@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Xeon E7 v2/Xeon E5 v2/Core i7 DMI2 [8086:0e00] (rev 04)
 chipset-short: |
-  Xeon E7
+  Ivy Bridge-EP
 gpu: |
   NVIDIA Corporation GK104 [GeForce GTX 770] [10de:1184] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
