@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Quiet PC
+model: |
+   Silent Multi Display Mini PC
+bios: |
+  5.13
+cpu: |
+  AMD Ryzen Embedded V1605B with Radeon Vega Gfx
+cpu-short: |
+  Ryzen Embedded V1605B
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:15d0]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:15dd] (rev 83) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD] Device [1022:15e6]
+gpu-short: |
+  Radeon Vega
+network: |
+  Intel Corporation Wireless 8265 / 8275 (rev 78)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)
+memory: |
+  7124
+scsi: |
+  WDC WDS120G2G0B- Rev: 0000
+usb: |
+  2
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.107-1
+    remark: |
+      Realtek AC262 sound not working
+    credit: |
+      Olaf Klinke
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/b868982560921085420c949b7ae5cd2394303458.camel%40gmx.de
+
+---
