@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  ASUSTeK
+model: |
+  GL552VW
+bios: |
+  GL552VW.304
+cpu: |
+  Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+cpu-short: |
+  i7-6700HQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1910] (rev 07)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 530 [8086:191b] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 530)
+network: |
+  Intel Corporation Wireless 7265 (rev 59)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 12)
+memory: |
+  20378
+scsi: |
+  HGST HTS721010A9 Rev: A3J0
+  DVDRAM GUE1N     Rev: AS00
+  WDC WDS240G2G0B- Rev: 0400
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.1
+    kernel: |
+      5.10.21-1
+    remark: |
+      WiFi requires <a class='ext-link' href='https://www.qubes-os.org/doc/pci-troubleshooting/#libvirtlibvirterror-internal-error-unable-to-reset-pci-device--internal-error-active--devices-on-bus-with--not-doing-bus-reset'><span class='icon'></span>troubleshooting</a>
+    credit: |
+      Jakub
+    link: |
+      https://qubes-os.discourse.group/t/hcl-asus-rog-gl552vw/4183/1
+
+---
