@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  ASRock
+model: |
+  B560 Pro4
+bios: |
+  P1.80
+cpu: |
+  11th Gen Intel(R) Core(TM) i5-11500 @ 2.70GHz
+cpu-short: |
+  i5-11500
+chipset: |
+  Intel Corporation Device [8086:4c53] (rev 01)
+chipset-short: |
+  Tiger Lake-H
+gpu: |
+  Intel Corporation Device [8086:4c8a] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 750)
+network: |
+  Intel Corporation Device 15fa (rev 11)
+memory: |
+  15975
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-32.fc25
+    kernel: |
+      5.4.107-1
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/fe78d75ca81903333993175a6846f37d%40yvt.net.au'><span class='icon'></span>see email thread</a>
+    credit: |
+      tech
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/fe78d75ca81903333993175a6846f37d%40yvt.net.au
+
+---
