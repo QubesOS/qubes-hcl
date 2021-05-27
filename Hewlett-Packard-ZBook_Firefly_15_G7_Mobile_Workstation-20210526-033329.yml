@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  ZBook Firefly 15 G7
+bios: |
+  S73 Ver. 01.03.02
+cpu: |
+  Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+cpu-short: |
+  i7-10510U
+chipset: |
+  Intel Corporation Device [8086:9b61] (rev 0c)
+chipset-short: |
+  Comet Lake
+gpu: |
+  Intel Corporation Device [8086:9b41] (rev 02) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 620)
+network: |
+  Intel Corporation Device 02f0
+memory: |
+  31963
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-32.fc25
+    kernel: |
+      5.4.107-1
+    remark: |
+      BIOS: disable GPU, set Video Memory to 512 MB
+    credit: |
+      Zaro
+    link: |
+      https://qubes-os.discourse.group/t/hcl-hp-zbook-firefly-15-g7/4223
+
+---
