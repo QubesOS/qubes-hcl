@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad 13 (20GJCTO1WW)
+bios: |
+  R0CET26W (1.14 )
+cpu: |
+  Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+cpu-short: |
+  i5-6200U
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1904] (rev 08)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 520)
+network: |
+  Intel Corporation Ethernet Connection I219-V (rev 21)
+  Intel Corporation Dual Band Wireless-AC 3165 Plus Bluetooth (rev 99)
+memory: |
+  24017
+scsi: |
+  SAMSUNG MZNTY128 Rev: 3L0Q
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.107-1
+    remark: |
+      touchpad stops working sometimes, <a class='ext-link' href='https://qubes-os.discourse.group/t/hcl-lenovo-thinkpad-13-20gjcto1ww/4257/1'><span class='icon'></span>read more</a>
+    credit: |
+      Qenthusiast
+    link: |
+      https://qubes-os.discourse.group/t/hcl-lenovo-thinkpad-13-20gjcto1ww/4257/1
+
+---
