@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Acer
+model: |
+  Chromebook C740
+bios: |
+  MrChromebox-4.12 (coreboot)
+cpu: |
+  Intel(R) Celeron(R) 3205U @ 1.50GHz
+cpu-short: |
+  Celeron 3205U
+chipset: |
+  Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 08)
+chipset-short: |
+  Broadwell-U
+gpu: |
+  Intel Corporation HD Graphics [8086:1606] (rev 08) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD GT1)
+network: |
+  Intel Corporation Wireless 7260 (rev cb)
+memory: |
+  3981
+scsi: |
+  TS120GMTS420S Rev: 9A0
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.11.8-1
+    remark: |
+
+    credit: |
+      dispuser5132
+    link: |
+      https://qubes-os.discourse.group/t/hcl-acer-chromebook-c740/4279
+
+---
