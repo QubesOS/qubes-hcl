@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Purism
+model: |
+  Librem 14 v1
+bios: |
+  PureBoot-Release-17.1
+cpu: |
+  Intel(R) Core(TM) i7-10710U CPU @ 1.10GHz
+cpu-short: |
+  i7-10710U
+chipset: |
+  Intel Corporation Device [8086:9b51]
+chipset-short: |
+  Comet Lake
+gpu: |
+  Intel Corporation Device [8086:9bca] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 620)
+network: |
+  Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  40834
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-32.fc25
+    kernel: |
+      5.4.107-1
+    remark: |
+
+    credit: |
+      hanabi
+    link: |
+      https://qubes-os.discourse.group/t/hcl-librem-14-v1/4409/1
+---
