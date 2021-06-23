@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad T430 (23445HU)
+bios: |
+  coreboot 4.13, SeaBIOS 1.14.0
+cpu: |
+  Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz
+cpu-short: |
+  i5-3320M
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller]
+
+gpu-short: |
+  Integrated Graphics (HD 4000)
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
+memory: |
+  4052
+scsi: |
+  INTEL SSDSC2BW18 Rev: LE1i
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.1
+    kernel: |
+      5.10.43-1
+    remark: |
+      No wifi chip installed (on purpose). ME-cleaned.
+    credit: |
+      icequbes1
+    link: |
+      https://qubes-os.discourse.group/t/hcl-lenovo-t430-coreboot-r4-1/4679/1
+
+---
