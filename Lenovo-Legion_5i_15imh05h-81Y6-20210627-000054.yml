@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Legion 5i (15imh05h)
+bios: |
+  EFCN46WW
+cpu: |
+  Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+cpu-short: |
+  i7-10750H
+chipset: |
+  Intel Corporation 10th Gen Core Processor Host Bridge/DRAM Registers [8086:9b54] (rev 02)
+chipset-short: |
+  Comet Lake
+gpu: |
+  Intel Corporation CometLake-H GT2 [UHD Graphics] [8086:9bc4] (rev 05) (prog-if 00 [VGA controller])
+  NVIDIA Corporation TU116M [GeForce GTX 1660 Ti Mobile] [10de:2191] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 630) & GeForce GTX 1660
+network: |
+  Intel Corporation Comet Lake PCH CNVi WiFi
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  16251
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.1
+    kernel: |
+      5.12.10-1
+    remark: |
+      WiFi needs kernel 5.6+
+    credit: |
+      51lieal
+    link: |
+      https://qubes-os.discourse.group/t/hcl-lenovo-legion-5i-15imh05h/4733/1
+
+---
