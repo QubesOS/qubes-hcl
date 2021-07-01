@@ -51,10 +51,10 @@ versions:
     kernel: |
       4.19.155-1
     remark: |
-      No wifi or touchpad. Other hardware untested. <a class='ext-link' href='https://qubes-os.discourse.group/t/hcl-lenovo-thinkbook-15-iil-wip/2142'><span class='icon'></span>Read more.</a>
+      No wifi or touchpad. Other hardware untested. <a class='ext-link' href='https://forum.qubes-os.org/t/hcl-lenovo-thinkbook-15-iil-wip/2142'><span class='icon'></span>Read more.</a>
     credit: |
       David Seaward
     link: |
-      https://qubes-os.discourse.group/t/hcl-lenovo-thinkbook-15-iil-wip/2142
+      https://forum.qubes-os.org/t/hcl-lenovo-thinkbook-15-iil-wip/2142
 
 ---

@@ -51,10 +51,10 @@ versions:
     kernel: |
       5.4.107-1
     remark: |
-      touchpad stops working sometimes, <a class='ext-link' href='https://qubes-os.discourse.group/t/hcl-lenovo-thinkpad-13-20gjcto1ww/4257/1'><span class='icon'></span>read more</a>
+      touchpad stops working sometimes, <a class='ext-link' href='https://forum.qubes-os.org/t/hcl-lenovo-thinkpad-13-20gjcto1ww/4257/1'><span class='icon'></span>read more</a>
     credit: |
       Qenthusiast
     link: |
-      https://qubes-os.discourse.group/t/hcl-lenovo-thinkpad-13-20gjcto1ww/4257/1
+      https://forum.qubes-os.org/t/hcl-lenovo-thinkpad-13-20gjcto1ww/4257/1
 
 ---

@@ -51,10 +51,10 @@ versions:
     kernel: |
       5.4.88-1
     remark: |
-      Mic doesn't work; Ethernet, Bluetooth & Fingerprint Reader not tested; <a class='ext-link' href='https://qubes-os.discourse.group/t/lenovo-thinkpad-x1-carbon-gen-7/2406/1'><span class='icon'></span>read more</a>
+      Mic doesn't work; Ethernet, Bluetooth & Fingerprint Reader not tested; <a class='ext-link' href='https://forum.qubes-os.org/t/lenovo-thinkpad-x1-carbon-gen-7/2406/1'><span class='icon'></span>read more</a>
     credit: |
       Rooftop
     link: |
-      https://qubes-os.discourse.group/t/lenovo-thinkpad-x1-carbon-gen-7/2406/1
+      https://forum.qubes-os.org/t/lenovo-thinkpad-x1-carbon-gen-7/2406/1
 
 ---
