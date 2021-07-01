@@ -1,0 +1,66 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  PowerEdge T40
+bios: |
+  1.4.0
+cpu: |
+  Intel(R) Xeon(R) E-2224G CPU @ 3.50GHz
+cpu-short: |
+  E-2224G
+chipset: |
+  Intel Corporation Device [8086:3e18] (rev 07)
+chipset-short: |
+  Coffee Lake
+gpu: |
+  Intel Corporation Device [8086:3e96] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD P630)
+network: |
+  Intel Corporation Ethernet Connection (7) I219-LM (rev 10)
+  Intel Corporation I350 Gigabit Network Connection (rev 01)
+  Intel Corporation I350 Gigabit Network Connection (rev 01)
+  Intel Corporation I350 Gigabit Network Connection (rev 01)
+  Intel Corporation I350 Gigabit Network Connection (rev 01)
+memory: |
+  32599
+scsi: |
+  ST4000NE001-2MA1 Rev: EN01
+  DVD+-RW GU90N    Rev: A1C3
+  ST2000DM008-2FR1 Rev: 0002
+  ST4000NE001-2MA1 Rev: EN01
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.107-1
+    remark: |
+
+    credit: |
+      stopi
+    link: |
+      https://forum.qubes-os.org/t/hcl-dell-poweredge-t40/4765
+
+---
