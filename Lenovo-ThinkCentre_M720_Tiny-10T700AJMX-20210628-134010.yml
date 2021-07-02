@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkCentre M720 Tiny (10T700AJMX)
+bios: |
+  M1UKT4EA
+cpu: |
+  Intel(R) Core(TM) i5-9400T CPU @ 1.80GHz
+cpu-short: |
+  i5-9400T
+chipset: |
+  Intel Corporation Device [8086:3ec2] (rev 07)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Intel Corporation Device [8086:3e92] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 630)
+network: |
+  Intel Corporation Ethernet Connection (7) I219-V (rev 10)
+memory: |
+  32635
+scsi: |
+  KINGSTON SKC6001 Rev: 0104
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-34.fc25
+    kernel: |
+      5.4.120-1
+    remark: |
+      wifi not tested
+    credit: |
+      Jarkko Turkulainen
+    link: |
+      https://forum.qubes-os.org/t/hcl-lenovo-thinkcentre-m720-tiny/4768
+
+---
