@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkStation D30 Type 4223 (42235W5)
+bios: |
+  A1KT54AUS
+cpu: |
+  Intel(R) Xeon(R) CPU E5-2660 0 @ 2.20GHz
+cpu-short: |
+  E5-2660
+chipset: |
+  Intel Corporation Xeon E5/Core i7 DMI2 [8086:3c00] (rev 07)
+chipset-short: |
+  Sandy Bridge EP
+gpu: |
+  NVIDIA Corporation GP107 [GeForce GTX 1050] [10de:1c81] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:66af] (rev c1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce GTX 1050 & Radeon VII
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 06)
+  Intel Corporation 82574L Gigabit Network Connection
+memory: |
+  24525
+scsi: |
+  BD DH12B2SH      Rev: 9L3A
+  SanDisk SDSSDA12 Rev: 30RL
+usb: |
+  4
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-34.fc25
+    kernel: |
+      5.4.125-1
+    remark: |
+
+    credit: |
+      ark
+    link: |
+      https://forum.qubes-os.org/t/hcl-lenovo-thinkstation-d30-type-4223/5094/1
+
+---
