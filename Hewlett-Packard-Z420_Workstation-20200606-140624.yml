@@ -26,7 +26,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Xeon E5/Core i7 DMI2 [8086:3c00] (rev 07)
 chipset-short: |
-  Patsburg
+  Sandy Bridge EP
 gpu: |
   NVIDIA Corporation GK106GL [Quadro K4000] [10de:11fa] (rev a1) (prog-if 00 [VGA controller])
   NVIDIA Corporation GF106GL [Quadro 2000] [10de:0dd8] (rev a1) (prog-if 00 [VGA controller])
