@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X13 Yoga Gen2 (20W80013GE)
+bios: |
+  N39ET44W (1.23 )
+cpu: |
+  11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+cpu-short: |
+  i5-1135G7
+chipset: |
+  Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a14] (rev 01)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] [8086:9a49] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Wi-Fi 6 AX201 (rev 20)
+memory: |
+  16103
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.1
+    kernel: |
+      5.12.9-1
+    remark: |
+
+    credit: |
+      Tie-fighter
+    link: |
+      https://forum.qubes-os.org/t/hcl-lenovo-thinkpad-x13-yoga-gen2-20w80013ge/4654/2
+
+---
