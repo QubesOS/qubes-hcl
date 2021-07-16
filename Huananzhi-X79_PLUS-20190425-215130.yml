@@ -26,7 +26,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Xeon E5/Core i7 DMI2 [8086:3c00] (rev 07)
 chipset-short: |
-  Sandy Bridge DMI2
+  Sandy Bridge EP
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Ellesmere [Radeon RX 470/480/570/580] [1002:67df] (rev e7) (prog-if 00 [VGA controller])
 gpu-short: |
