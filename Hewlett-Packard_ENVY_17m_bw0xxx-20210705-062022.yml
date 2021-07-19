@@ -16,7 +16,7 @@ remap:
 brand: |
   Hewlett-Packard
 model: |
-  ENVY 17m (bw0xxx)
+  ENVY 17m (bw0013dx)
 bios: |
   F.14
 cpu: |
@@ -35,11 +35,10 @@ network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 12)
   Intel Corporation Wireless 7265 (rev 59)
 memory: |
-  12028
+  32508
 scsi: |
   SanDisk SDSSDH3  Rev: 20RL
   DVDRW  DA8AESH   Rev: XH6M
-  Ultra Fit        Rev: 1.00
 usb: |
   1
 versions:
@@ -51,7 +50,7 @@ versions:
     xen: |
       4.8.5-34.fc25
     kernel: |
-      5.4.120-1
+      5.4.125-1
     remark: |
 
     credit: |
