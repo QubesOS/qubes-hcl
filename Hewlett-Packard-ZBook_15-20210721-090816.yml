@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  ''
+tpm:
+  ''
+remap:
+  'no'
+brand: |
+  Hewlett-Packard
+model: |
+  ZBook 15
+bios: |
+  L70 Ver. 01.47
+cpu: |
+  Intel(R) Core(TM) i7-4800MQ CPU @ 2.70GHz
+cpu-short: |
+  i7-4800MQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller [8086:0c04] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  NVIDIA Corporation GK107GLM [Quadro K1100M] [10de:0ff6] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4600) & Quadro K1100M
+network: |
+  Intel Corporation Ethernet Connection I217-LM (rev 04)
+  Intel Corporation Centrino Advanced-N 6235 (rev 24)
+memory: |
+  32699
+scsi: |
+  SanDisk SDSSDH35 Rev: 4000
+  ST2000LX001-1RG1 Rev: SDM1
+  LITEONIT LMS-32L Rev: 707
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-34.fc25
+    kernel: |
+      5.4.129-1
+    remark: |
+      BIOS: legacy boot (disable secure boot), integrated graphics
+    credit: |
+      @murdock
+    link: |
+      https://forum.qubes-os.org/t/hp-zbook-15-hcl-report/5235/1
+
+---
