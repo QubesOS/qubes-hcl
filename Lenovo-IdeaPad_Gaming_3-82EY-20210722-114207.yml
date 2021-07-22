@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Ideapad Gaming 3 (15ARH05)
+bios: |
+  FCCN16WW
+cpu: |
+  AMD Ryzen 7 4800H with Radeon Graphics
+cpu-short: |
+  Ryzen 7 4800H
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation TU117M [GeForce GTX 1650 Ti Mobile] [10de:1f95] (rev ff) (prog-if ff)
+  Advanced Micro Devices, Inc. [AMD/ATI] Renoir [1002:1636] (rev c6) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Renoir) & GeForce GTX 1650
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 10)
+  Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
+memory: |
+  15741
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.2
+    kernel: |
+      5.10.47-1
+    remark: |
+
+    credit: |
+      SP84Piano
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/yJQxPQI7xi97SJVQsAW8DcXagnuQ2OOEBVm5GclKKuw8Xp-x5sQWN4QNnKk5vNbdXIPWlrCdBuITFEOJ27ztGFKNlfPVdBGNauxj9L7BtTE%3D%40protonmail.com
+
+---
