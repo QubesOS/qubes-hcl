@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  Zenbook UX31A
+bios: |
+  UX31A.206
+cpu: |
+  Intel(R) Core(TM) i7-3517U CPU @ 1.90GHz
+cpu-short: |
+  i7-3517U
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4000)
+network: |
+  Intel Corporation Centrino Advanced-N 6235 (rev 24)
+memory: |
+  3981
+scsi: |
+  SanDisk SSD U100 Rev: 1.02
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.2
+    kernel: |
+      5.10.47-1
+    remark: |
+      It installs but 4GB RAM is too low to be usable!
+    credit: |
+      PMB-NL
+    link: |
+      https://forum.qubes-os.org/t/hcl-asus-zenbook-ux31a/5263/1
+
+---

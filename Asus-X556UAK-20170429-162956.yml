@@ -11,14 +11,12 @@ slat:
   'yes'
 tpm:
   'unknown'
-remap:
-  'yes'
 brand: |
-  Hewlett-Packard
+  Asus
 model: |
-  ENVY 13 (ab0XX)
+  X556UAK
 bios: |
-  F.11
+  X556UAK.307
 cpu: |
   Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
 cpu-short: |
@@ -32,13 +30,14 @@ gpu: |
 gpu-short: |
   Integrated Graphics (HD 620)
 network: |
-  Intel Corporation Wireless 7265 (rev 61)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 10)
+  Qualcomm Atheros QCA9377 802.11ac Wireless Network Adapter (rev 31)
 memory: |
-  7949
+  8072
 scsi: |
+  Samsung MZ7PC128 Rev: 5H1Q
+  DVD A  DA8AESH   Rev: XAA1
 
-usb: |
-  1
 versions:
 
   - works:
@@ -46,14 +45,14 @@ versions:
     qubes: |
       R3.2
     xen: |
-      4.6.1
+      4.6.4
     kernel: |
-      4.4.14-11
+      4.8.12-12
     remark: |
-      Issues with UEFI boot and sys-usb; Cannot wake from sleep; <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/da2b52f1-0b65-460a-b762-2632bd0aaea5%40googlegroups.com'><span class='icon'></span>read more</a>
+      Needs various workarounds, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/BUe4tFfERtA/buazJHIzCQAJ'><span class='icon'></span>read more</a>
     credit: |
-      Eliott
+      Mike Freemon
     link: |
-      https://groups.google.com/d/msgid/qubes-users/da2b52f1-0b65-460a-b762-2632bd0aaea5%40googlegroups.com
+      https://groups.google.com/d/msg/qubes-users/BUe4tFfERtA/buazJHIzCQAJ
 
 ---

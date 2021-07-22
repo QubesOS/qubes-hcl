@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  TUF B450 Plus Gaming
+bios: |
+  2409
+cpu: |
+  AMD Ryzen 5 3600 6-Core Processor
+cpu-short: |
+  Ryzen 5 3600
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex [1022:1480]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Ellesmere [Radeon RX 470/480/570/570X/580/580X/590] [1002:67df] (rev ef) (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon RX 570
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  16297
+scsi: |
+  UDisk            Rev: 5.00
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.0
+    kernel: |
+      5.4.67-1
+    remark: |
+
+    credit: |
+      A Luciani
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CANRmXeqY5wcnPfX3ASSOhwOpeYsoVKB1Dt8Cy8NhkDtaBakugQ%40mail.gmail.com
+
+---

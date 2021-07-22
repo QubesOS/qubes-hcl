@@ -14,11 +14,11 @@ tpm:
 remap:
   'yes'
 brand: |
-  Hewlett-Packard
+  Asus
 model: |
-  ENVY 13 (ad0xx)
+  UX330UAK
 bios: |
-  F.24
+  UX330UAK.303
 cpu: |
   Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
 cpu-short: |
@@ -32,11 +32,11 @@ gpu: |
 gpu-short: |
   Integrated Graphics (HD 620)
 network: |
-  Intel Corporation Wireless 7265 (rev 59)
+  Intel Corporation Wireless 8260 (rev 3a)
 memory: |
-  7949
+  8072
 scsi: |
-  SanDisk SD8SN8U- Rev: 0006
+  INTEL SSDSCKKW25 Rev: 010C
 usb: |
   1
 versions:
@@ -52,8 +52,8 @@ versions:
     remark: |
 
     credit: |
-      Rafal Niznik
+      Ed Thompson
     link: |
-      https://groups.google.com/d/msgid/qubes-users/CAD00PPQ%2BBFOiimpASpmb119PF7QkvfzxBAVu2C18wUt6OeUsiQ%40mail.gmail.com
+      https://groups.google.com/d/msgid/qubes-users/CACmnumrLJ_pRvzSJ%2Bt3QJ09cHcz8F1UGG_4BPTJrttXWaGUqbQ%40mail.gmail.com
 
 ---

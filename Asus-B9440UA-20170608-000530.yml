@@ -14,15 +14,15 @@ tpm:
 remap:
   'yes'
 brand: |
-  Hewlett-Packard
+  Asus
 model: |
-  ENVY 13 (ab0XX)
+  B9440UA
 bios: |
-  F.11
+  B9440UA.301
 cpu: |
-  Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
+  Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
 cpu-short: |
-  i7-7500U
+  i5-7200U
 chipset: |
   Intel Corporation Device [8086:5904] (rev 02)
 chipset-short: |
@@ -32,11 +32,11 @@ gpu: |
 gpu-short: |
   Integrated Graphics (HD 620)
 network: |
-  Intel Corporation Wireless 7265 (rev 61)
+  Intel Corporation Wireless 8260 (rev 3a)
 memory: |
-  7949
+  8073
 scsi: |
-
+  Micron_1100_MTFD Rev: A020
 usb: |
   1
 versions:
@@ -46,14 +46,14 @@ versions:
     qubes: |
       R3.2
     xen: |
-      4.6.1
+      4.6.5
     kernel: |
-      4.4.14-11
+      4.8.12-12
     remark: |
-      Issues with UEFI boot and sys-usb; Cannot wake from sleep; <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/da2b52f1-0b65-460a-b762-2632bd0aaea5%40googlegroups.com'><span class='icon'></span>read more</a>
+      No audio, <a class='ext-link' href='https://groups.google.com/d/msg/qubes-users/oejppzWtYpA/f-ZIKQjmAgAJ'><span class='icon'></span>read more</a>
     credit: |
-      Eliott
+      Kristian Elof Sørensen
     link: |
-      https://groups.google.com/d/msgid/qubes-users/da2b52f1-0b65-460a-b762-2632bd0aaea5%40googlegroups.com
+      https://groups.google.com/d/msg/qubes-users/oejppzWtYpA/f-ZIKQjmAgAJ
 
 ---
