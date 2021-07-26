@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Acer
+model: |
+  Aspire A515-55
+bios: |
+  V1.13
+cpu: |
+  Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
+cpu-short: |
+  i7-1065G7
+chipset: |
+  Intel Corporation Device [8086:8a12] (rev 03)
+chipset-short: |
+  Ice Lake U
+gpu: |
+  Intel Corporation Device [8086:8a52] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Plus G7)
+network: |
+  Intel Corporation Device 34f0 (rev 30)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  7969
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-34.fc25
+    kernel: |
+      5.4.125-1
+    remark: |
+      Disabled secure boot and Intel RST via BIOS.
+    credit: |
+      @rarez
+    link: |
+      https://forum.qubes-os.org/t/hcl-acer-aspire-515-55-intel-core-i7-10th-gen/5299/1
+
+---
