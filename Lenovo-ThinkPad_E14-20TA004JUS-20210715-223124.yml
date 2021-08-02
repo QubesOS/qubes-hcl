@@ -51,7 +51,7 @@ versions:
     kernel: |
       5.12.14-1
     remark: |
-      Couldn't install R4.0
+      Couldn't install R4.0, no resume after suspend
     credit: |
       @sys-firewall
     link: |
