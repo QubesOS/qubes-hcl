@@ -24,7 +24,7 @@ cpu: |
 cpu-short: |
   Xeon W-2155
 chipset: |
-  Intel Corporation Sky Lake-E DMI3 Registers [8086:2020] (rev 04)
+  Intel Corporation Skylake-E DMI3 Registers [8086:2020] (rev 04)
 chipset-short: |
   Skylake
 gpu: |

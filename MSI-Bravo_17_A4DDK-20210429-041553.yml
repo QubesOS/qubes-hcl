@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Micro-Star
+  MSI
 model: |
   Bravo 17 A4DDK
 bios: |

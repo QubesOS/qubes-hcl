@@ -20,9 +20,9 @@ cpu: |
 cpu-short: |
   i5-6500
 chipset: |
-  Intel Corporation Sky Lake Host Bridge/DRAM Registers [8086:191f] (rev 07)
+  Intel Corporation Skylake Host Bridge/DRAM Registers [8086:191f] (rev 07)
 chipset-short: |
-  Sky Lake
+  Skylake
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Amethyst XT [Radeon R9 M295X Mac Edition] [1002:6938] (rev f1) (prog-if 00 [VGA controller])
 gpu-short: |

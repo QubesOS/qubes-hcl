@@ -24,9 +24,9 @@ cpu: |
 cpu-short: |
   Xeon 4114
 chipset: |
-  Intel Corporation Sky Lake-E DMI3 Registers [8086:2020] (rev 04)
+  Intel Corporation Skylake-E DMI3 Registers [8086:2020] (rev 04)
 chipset-short: |
-  Sky Lake-E
+  Skylake-E
 gpu: |
   NVIDIA Corporation GP107GL [Quadro P1000] [10de:1cb1] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
