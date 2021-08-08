@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Micro-Star
+  MSI
 model: |
   GF63 Thin 9RCX
 bios: |
