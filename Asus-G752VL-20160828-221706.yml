@@ -20,7 +20,7 @@ cpu: |
 cpu-short: |
   i7-6700HQ
 chipset: |
-  Intel Corporation Sky Lake Host Bridge/DRAM Registers [8086:1910] (rev 07)
+  Intel Corporation Skylake Host Bridge/DRAM Registers [8086:1910] (rev 07)
 chipset-short: |
   Skylake
 gpu: |

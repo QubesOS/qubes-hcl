@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Micro-Star
+  MSI
 model: |
   MS-7C75
 bios: |

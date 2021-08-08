@@ -10,7 +10,7 @@ iommu:
 tpm:
   'unknown'
 brand: |
-  Micro-Star
+  MSI
 model: |
   GT72 2QD
 bios: |
