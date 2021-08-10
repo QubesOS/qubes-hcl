@@ -31,7 +31,7 @@ gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:15dd] (rev 83) (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD] Device [1022:15e6]
 gpu-short: |
-  Radeon Vega
+  Integrated Graphics (Radeon Vega 8 Mobile)
 network: |
   Intel Corporation Wireless 8265 / 8275 (rev 78)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)
