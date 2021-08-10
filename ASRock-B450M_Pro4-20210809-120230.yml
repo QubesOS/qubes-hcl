@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  ASRock
+model: |
+  B450M Pro4
+bios: |
+  P3.60
+cpu: |
+  AMD Ryzen 5 2400G with Radeon Vega Graphics
+cpu-short: |
+  Ryzen 5 2400G
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:15d0]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:15dd] (rev c6) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon Vega 8 Mobile)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  16248
+scsi: |
+  SanDisk SDSSDA-2 Rev: 40RL
+  SanDisk Ultra II Rev: 00RL
+  WDC WD10EAVS-00D Rev: 1A01
+  WDC WD10EARS-00M Rev: AB51
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-34.fc25
+    kernel: |
+      5.4.129-1
+    remark: |
+      LAN not tested. DVI not tested. M.2 not tested. Suspend/resume brokeN.
+    credit: |
+      @Johnboy
+    link: |
+      https://forum.qubes-os.org/t/hcl-asrock-b450m-pro4/5600/1
+
+---
