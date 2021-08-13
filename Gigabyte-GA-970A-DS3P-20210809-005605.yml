@@ -16,7 +16,7 @@ remap:
 brand: |
   Gigabyte
 model: |
-  GA-970A-DS3P (Rev 2.1)
+  GA-970A-DS3P
 bios: |
   FD
 cpu: |
@@ -28,33 +28,33 @@ chipset: |
 chipset-short: |
   AMD
 gpu: |
-  NVIDIA Corporation GF114 [GeForce GTX 560 Ti] [10de:1200] (rev a1) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GM107 [GeForce GTX 750 Ti] [10de:1380] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
-  GeForce GTX 560 Ti
+  GeForce GTX 750 Ti
 network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)
 memory: |
-  8148
+  7989
 scsi: |
-  ST1000DX002-2DV1 Rev: CC41
   iHAS122   W      Rev: PL09
+  ST3250824AS      Rev: H
 usb: |
   8
 versions:
 
   - works:
-      'partial'
+      'yes'
     qubes: |
       R4.0
     xen: |
-      4.8.5-7.fc25
+      4.8.5-34.fc25
     kernel: |
-      4.19.56-1
+      5.4.129-1
     remark: |
-      Suspend not working and sys-usb is unreliable.
+      Suspend/Hibernate do not work.
     credit: |
-      anirbankar84
+      Arun Kar
     link: |
-      https://groups.google.com/d/msgid/qubes-users/a0d258b3-54a1-4513-9be9-bb9afcc8a41e%40googlegroups.com
+      https://groups.google.com/d/msgid/qubes-users/2bbf2e80-c788-4d94-9991-266447ef43ean%40googlegroups.com
 
 ---

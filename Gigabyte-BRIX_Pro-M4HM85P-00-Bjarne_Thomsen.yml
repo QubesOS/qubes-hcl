@@ -12,7 +12,7 @@ tpm:
 brand: |
   Gigabyte
 model: |
-  BRIX Pro / Ultra Compact PC (M4HM85P-00)
+  BRIX Pro (M4HM85P-00)
 bios: |
   F2
 cpu: |
@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
 
 chipset-short: |
-  HM87
+  Crystal Well
 gpu: |
 
 gpu-short: |
