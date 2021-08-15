@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'desktop'
+  'motherboard'
 hvm:
   'yes'
 iommu:
@@ -16,7 +16,7 @@ remap:
 brand: |
   Gigabyte
 model: |
-  Z170X-UD3
+  GA-Z170X-UD3
 bios: |
   F6
 cpu: |

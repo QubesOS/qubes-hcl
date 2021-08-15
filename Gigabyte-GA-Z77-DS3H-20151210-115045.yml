@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'desktop'
+  'motherboard'
 hvm:
   'yes'
 iommu:
@@ -12,7 +12,7 @@ tpm:
 brand: |
   Gigabyte
 model: |
-  Z77-DS3H
+  GA-Z77-DS3H
 bios: |
   F11a
 cpu: |

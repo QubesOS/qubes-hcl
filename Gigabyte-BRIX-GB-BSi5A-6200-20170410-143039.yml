@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'laptop'
+  'desktop'
 hvm:
   'yes'
 iommu:
@@ -14,7 +14,7 @@ tpm:
 brand: |
   Gigabyte
 model: |
-  GB-BSi5A-6200
+  BRIX (GB-BSi5A-6200)
 bios: |
   F2
 cpu: |

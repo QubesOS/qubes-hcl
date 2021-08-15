@@ -18,11 +18,11 @@ bios: |
 cpu: |
 
 cpu-short: |
-  AMD FX-8350
+  FX-8350
 chipset: |
 
 chipset-short: |
-
+  AMD
 gpu: |
 
 gpu-short: |

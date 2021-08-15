@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'desktop'
+  'motherboard'
 hvm:
   'yes'
 iommu:
@@ -16,7 +16,7 @@ remap:
 brand: |
   Gigabyte
 model: |
-  Z270N-WIFI
+  GA-Z270N-WIFI
 bios: |
   F5
 cpu: |

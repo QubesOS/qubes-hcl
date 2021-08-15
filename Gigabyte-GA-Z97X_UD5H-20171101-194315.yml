@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'desktop'
+  'motherboard'
 hvm:
   'yes'
 iommu:
@@ -14,7 +14,7 @@ tpm:
 brand: |
   Gigabyte
 model: |
-  Z97X-UD5H
+  GA-Z97X-UD5H
 bios: |
   F9
 cpu: |
