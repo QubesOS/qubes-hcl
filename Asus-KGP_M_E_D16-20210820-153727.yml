@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  KGP(M)E-D16
+bios: |
+  3309
+cpu: |
+  AMD Opteron(tm) Processor 6386 SE
+cpu-short: |
+  Opteron 6386 SE
+chipset: |
+  Advanced Micro Devices, Inc. [AMD/ATI] RD890 Northbridge only dual slot (2x16) PCI-e GFX Hydra part [1002:5a10] (rev 02)
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Caicos [Radeon HD 6450/7450/8450 / R5 230 OEM] [1002:6779] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon HD
+network: |
+  Qualcomm Atheros AR922X Wireless Network Adapter (rev 01)
+memory: |
+  65503
+scsi: |
+  Samsung SSD 860
+usb: |
+  9
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-34.fc25
+    kernel: |
+      5.4.129-1
+    remarks: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/hcl-asus-kgpe-d16-6386se-with-stock-firmware/5809/1'><span class='icon'></span>read more</a>
+    credit: |
+      @Justin
+    link: |
+      https://forum.qubes-os.org/t/hcl-asus-kgpe-d16-6386se-with-stock-firmware/5809/1
+
+---
