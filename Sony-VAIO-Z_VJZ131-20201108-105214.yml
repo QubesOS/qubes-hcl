@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  VAIO
+  Sony
 model: |
-  Z VJZ131
+  VAIO Z VJZ131
 bios: |
   R1199SA
 cpu: |
