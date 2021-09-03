@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  ASUSTeK
+  Asus
 model: |
   ZenBook 13 (UX331UAL)
 bios: |

@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  ASUSTeK
+  Asus
 model: |
   ROG Zephyrus G14 (GA401IV)
 bios: |

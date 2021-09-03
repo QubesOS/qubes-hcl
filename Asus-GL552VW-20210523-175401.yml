@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  ASUSTeK
+  Asus
 model: |
   GL552VW
 bios: |
