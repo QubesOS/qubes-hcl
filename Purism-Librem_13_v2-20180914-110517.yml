@@ -57,7 +57,7 @@ versions:
       Elburz Sorkhabi
     link: |
       https://groups.google.com/d/msgid/qubes-users/_ZKOZ-ffukDNLxKAz0YoMUx1APw49SMef3mVV1qpKtHHsxQCsRo3i6GQtlO-SY-YxCoyxo9YQJjcDMHThAmOj8i3s4mdR5MprwA1l54-Rs8%3D%40protonmail.com
-  
+
   - works:
       'partial'
     qubes: |
@@ -73,7 +73,7 @@ versions:
     link: |
       https://groups.google.com/d/msgid/qubes-users/2c7302dc-e925-60ba-3ea5-f8a2e0762df7%40militant.dk
 
-- works:
+  - works:
       'yes'
     qubes: |
       R4.0
