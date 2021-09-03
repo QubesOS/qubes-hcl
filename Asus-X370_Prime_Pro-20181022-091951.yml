@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  System manufacturer
+  Asus
 model: |
-  System Product Name
+  X370 Prime Pro
 bios: |
   4024
 cpu: |
