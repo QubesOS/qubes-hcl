@@ -18,7 +18,7 @@ brand: |
 model: |
   Librem 13 v2
 bios: |
-  4.7-Purism-4-heads
+  4.7-Purism-4
 cpu: |
   Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
 cpu-short: |
@@ -48,11 +48,41 @@ versions:
     qubes: |
       R4.0
     xen: |
+      4.8.3
+    kernel: |
+      4.14.41-1
+    remark: |
+
+    credit: |
+      Elburz Sorkhabi
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/_ZKOZ-ffukDNLxKAz0YoMUx1APw49SMef3mVV1qpKtHHsxQCsRo3i6GQtlO-SY-YxCoyxo9YQJjcDMHThAmOj8i3s4mdR5MprwA1l54-Rs8%3D%40protonmail.com
+  
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.4
+    kernel: |
+      4.14.57-1
+    remark: |
+      Issues with BIOS and keyboard layout, <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/2c7302dc-e925-60ba-3ea5-f8a2e0762df7%40militant.dk'><span class='icon'></span>read more</a>
+    credit: |
+      Max Andersen
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/2c7302dc-e925-60ba-3ea5-f8a2e0762df7%40militant.dk
+
+- works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
       4.8.4
     kernel: |
       4.14.57-2
     remark: |
-      Everything works, including Heads+TPM
+
     credit: |
       Kyle Rankin
     link: |

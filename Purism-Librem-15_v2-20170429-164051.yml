@@ -12,9 +12,9 @@ slat:
 tpm:
   'unknown'
 brand: |
-  Librem
+  Purism
 model: |
-  15 v2
+  Librem 15 v2
 bios: |
   5.6.5
 cpu: |
