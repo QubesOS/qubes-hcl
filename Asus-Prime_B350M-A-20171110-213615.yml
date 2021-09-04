@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'desktop'
+  'motherboard'
 hvm:
   'yes'
 iommu:
@@ -14,9 +14,9 @@ tpm:
 remap:
   'no'
 brand: |
-  N/A
+  Asus
 model: |
-  Custom built machine
+  Prime B350M-A
 bios: |
   1001
 cpu: |

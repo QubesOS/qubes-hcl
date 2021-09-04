@@ -12,9 +12,9 @@ slat:
 tpm:
   'yes'
 brand: |
-  'Intel'
+  Intel
 model: |
-  'NUC6i3SYK'
+  NUC6i3SYK
 bios: |
   SYSKLi35.86A.0024.2015.1027.2142
 cpu: |

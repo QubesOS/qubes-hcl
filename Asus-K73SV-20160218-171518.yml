@@ -10,7 +10,7 @@ iommu:
 tpm:
   'unknown'
 brand: |
-  ASUSTeK Computer Inc.
+  Asus
 model: |
   K73SV
 bios: |

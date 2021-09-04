@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  Metabox
+  Clevo
 model: |
-  Clevo P65_P67RGRERA
+  P65_P67RGRERA
 bios: |
   1.05.06
 cpu: |
