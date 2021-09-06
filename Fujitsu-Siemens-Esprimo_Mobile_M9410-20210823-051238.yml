@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'no'
+tpm:
+  'unknown'
+remap:
+  'no'
+brand: |
+  Fujitsu Siemens
+model: |
+  Esprimo Mobile M9410
+bios: |
+  M118D0FR.112 - R081 - 1659
+cpu: |
+  Intel(R) Core(TM)2 Duo CPU     P8700  @ 2.53GHz
+cpu-short: |
+  Core2Duo P8700
+chipset: |
+  Intel Corporation Mobile 4 Series Chipset Memory Controller Hub [8086:2a40] (rev 07)
+chipset-short: |
+  Penryn
+gpu: |
+  Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a42] (rev 07) (prog-if 00 [VGA controller])
+  Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a43] (rev 07)
+gpu-short: |
+  Integrated Graphics (GMA 4500MHD)
+network: |
+  Intel Corporation 82567LF Gigabit Network Connection (rev 03)
+  Broadcom Limited BCM4313 802.11bgn Wireless Network Adapter (rev 01)
+memory: |
+  4028
+scsi: |
+  HITACHI HTS54757 Rev: D60D
+  CDDVDW TS-L633C  Rev: FS00
+usb: |
+  8
+versions:
+
+  - works:
+      partial
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.98-1
+    remark: |
+      No IOMMU -- not recommended for Qubes OS!
+    credit: |
+      @dispuser5132
+    link: |
+      https://forum.qubes-os.org/t/hcl-fujitsu-siemens-esprimo-mobile-m9410/6160/1
+
+---
