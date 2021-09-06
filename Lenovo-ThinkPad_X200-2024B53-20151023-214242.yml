@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Mobile 4 Series Chipset Memory Controller Hub [8086:2a40] (rev 07)
 chipset-short: |
-  Cantiga
+  Penryn
 gpu: |
   Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a42] (rev 07) (prog-if 00 [VGA controller])
   Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a43] (rev 07)

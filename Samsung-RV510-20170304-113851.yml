@@ -24,7 +24,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Mobile 4 Series Chipset Memory Controller Hub [8086:2a40] (rev 09)
 chipset-short: |
-  Intel Mobile 4
+  Penryn
 gpu: |
   Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a42] (rev 09) (prog-if 00 [VGA controller])
   Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller [8086:2a43] (rev 09)

@@ -26,7 +26,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Mobile 4 Series Chipset Memory Controller Hub [8086:2a40] (rev 07)
 chipset-short: |
-  Mobile 4
+  Penryn
 gpu: |
   NVIDIA Corporation G98M [Quadro NVS 160M] [10de:06eb] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
