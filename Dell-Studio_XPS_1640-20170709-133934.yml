@@ -24,7 +24,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Mobile 4 Series Chipset Memory Controller Hub [8086:2a40] (rev 07)
 chipset-short: |
-  Mobile 4 Series
+  Penryn
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] RV635/M86 [Mobility Radeon HD 3670] [1002:9593] (prog-if 00 [VGA controller])
 gpu-short: |
