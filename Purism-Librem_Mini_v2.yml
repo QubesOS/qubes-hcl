@@ -10,35 +10,34 @@ iommu:
 slat:
   'yes'
 tpm:
-  'unknown'
+  'no'
 remap:
   'yes'
 brand: |
   Purism
 model: |
-  Librem Mini v1
+  Librem Mini v2
 bios: |
-  4.12-Purism-3
+  PureBoot-Release-18
 cpu: |
-  Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+  Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
 cpu-short: |
-  i7-8565U
+  i7-10510U
 chipset: |
-  Intel Corporation Device [8086:3e34] (rev 0b)
+  Intel Corporation Device [8086:9b61] (rev 0c)
 chipset-short: |
-  Whiskey Lake
+  Comet Lake
 gpu: |
-  Intel Corporation Device [8086:3ea0] (prog-if 00 [VGA controller])
+  Intel Corporation Device [8086:9b41] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
   Integrated Graphics (UHD 620)
 network: |
   Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 07)
 memory: |
-  32643
+  32642
 scsi: |
-  WDC  WDS500G2B0A Rev: 30WD
-  SanDisk SSD G5 B Rev: 00WD
+
 usb: |
   1
 versions:
@@ -50,12 +49,12 @@ versions:
     xen: |
       4.8.5-30.fc25
     kernel: |
-      5.4.107-1
+      5.4.98-1
     remark: |
 
     credit: |
-      onequbesuser
+      MrChromebox
     link: |
-      https://forum.qubes-os.org/t/hcl-librem-mini-v1/3944/1
+      https://groups.google.com/d/msgid/qubes-users/ae0a2d0f66c9b5c49ba137e3ce5097209f3bc974.camel%40puri.sm
 
 ---

@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  15s-eq2xxx
+bios: |
+  F.12
+cpu: |
+  AMD Ryzen 5 5500U with Radeon Graphics
+cpu-short: |
+  Ryzen 5 5500U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:164c] (rev c2) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon)
+network: |
+  Realtek Semiconductor Co., Ltd. Device c821
+memory: |
+  15713
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.98-1
+    remark: |
+      remove "noexitboot" and "mapbs" from BOOTX64.cfg for installer, Wifi & TPM do not work
+    credit: |
+      @Quoorex
+    link: |
+      https://forum.qubes-os.org/t/hcl-hp-15s-eq2xxx/6258/1
+
+---
