@@ -10,7 +10,7 @@ iommu:
 slat:
   'yes'
 tpm:
-  ''
+  'yes'
 remap:
   'yes'
 brand: |
@@ -18,7 +18,7 @@ brand: |
 model: |
   Librem 14 v1
 bios: |
-  PureBoot-Release-17.1
+  PureBoot-Release-18
 cpu: |
   Intel(R) Core(TM) i7-10710U CPU @ 1.10GHz
 cpu-short: |
@@ -35,12 +35,42 @@ network: |
   Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
 memory: |
-  40834
+  65410
 scsi: |
 
 usb: |
   1
 versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-34.fc25
+    kernel: |
+      5.4.129-1
+    remark: |
+
+    credit: |
+      @dallas87
+    link: |
+      https://forum.qubes-os.org/t/short-list-of-laptops-desktops-that-work-well-with-qubes-os/5197/83
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-34.fc25
+    kernel: |
+      5.4.125-1
+    remark: |
+
+    credit: |
+      @dom0
+    link: |
+      https://forum.qubes-os.org/t/hcl-report-for-librem-14-v1/5585/1
 
   - works:
       'yes'
@@ -53,7 +83,23 @@ versions:
     remark: |
 
     credit: |
-      hanabi
+      @hanabi
     link: |
       https://forum.qubes-os.org/t/hcl-librem-14-v1/4409/1
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.98-1
+    remark: |
+
+    credit: |
+      MrChromebox
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/300a400c536f64602908b8c2d14ba4fd0a8db7bf.camel%40puri.sm
+
 ---
