@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'yes'
+remap:
+  'yes'
+brand: |
+  Tuxedo
+model: |
+  InfinityBook S15 Gen6
+bios: |
+  1.07.03RTR
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+cpu-short: |
+  i7-1165G7
+chipset: |
+  Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a14] (rev 01)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] [8086:9a49] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+  Intel Corporation Wi-Fi 6 AX200 (rev 1a)
+memory: |
+  32563
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.2
+    kernel: |
+      5.10.61-1
+    remark: |
+      enable acpi-processor!
+    credit: |
+      @S9qPsAMNuW4ax5EF5
+    link: |
+      https://forum.qubes-os.org/t/hcl-for-tuxedo-infinitybook-s15-gen-6/6418/1
+
+---
