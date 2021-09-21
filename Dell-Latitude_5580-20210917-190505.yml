@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Latitude 5580
+bios: |
+  1.8.2
+cpu: |
+  Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz
+cpu-short: |
+  i5-7300U
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5904] (rev 02)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 620)
+network: |
+  Intel Corporation Ethernet Connection (4) I219-LM (rev 21)
+  Intel Corporation Wireless 8265 / 8275 (rev 78)
+memory: |
+  16013
+scsi: |
+  INTEL SSDSCKKF25 Rev: D03N
+  Rev: 0204
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-35.fc25
+    kernel: |
+      5.4.143-1
+    remark: |
+
+    credit: |
+      Tech3599
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/W4-BL69g4LAYWCcg9Z2GAxHEiDDmeQ73dsiHKR3cV9krh_10mT-AKC38Ydm9vNSgquxHo09td06soqMgJo_vqslbFqbfVna8-ppjkLdVm9g%3D%40protonmail.com
+
+---
