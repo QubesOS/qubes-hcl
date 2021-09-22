@@ -14,13 +14,13 @@ tpm:
 brand: |
   Panasonic
 model: |
-  CF-191HC51FL
+  Toughbook CF-19 Mk6 (CF-191HC51FL)
 bios: |
   V6.00L10
 cpu: |
   Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz
 cpu-short: |
-  Intel i5-3320M
+  i5-3320M
 chipset: |
   Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
 chipset-short: |
@@ -47,7 +47,7 @@ versions:
     kernel: |
       4.4.31-11
     remark: |
-      The ToughBook cf19 mark6 has a PCI-USB layout, which forces one to choose between Touchscreen and WWAN support when using sys-usb on Qubes3.2 (<a class='ext-link' href='http://toughbooktalk.com/viewtopic.php?f=3&t=3176'><span class='icon'></span>read more</a>)
+      Need to choose between Touchscreen and WWAN support when using sys-usb (<a class='ext-link' href='http://toughbooktalk.com/viewtopic.php?f=3&t=3176'><span class='icon'></span>read more</a>).
     credit: |
       Karl Klammer
     link: |
