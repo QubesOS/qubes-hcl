@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'yes'
+remap:
+  'yes'
+brand: |
+  Panasonic
+model: |
+  Toughbook CF-54 Mk2
+bios: |
+  V2.00L24
+cpu: |
+  Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+cpu-short: |
+  i5-6300U
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1904] (rev 08)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 520 [8086:1916] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 520)
+network: |
+  Intel Corporation Ethernet Connection I219-LM (rev 21)
+  Intel Corporation Wireless 8260 (rev 3a)
+memory: |
+  16268
+scsi: |
+  DVDRAM GUD0N     Rev: PU01
+  TOSHIBA THNSNJ25 Rev: 0101
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-35.fc25
+    kernel: |
+      5.4.143-1
+    remark: |
+
+    credit: |
+      @owl
+    link: |
+      https://forum.qubes-os.org/t/hcl-panasonic-toughbook-cf-54-mk-2/6505/1
+
+---
