@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'yes'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad W530 (2441A75)
+bios: |
+  G5ETB6WW (2.76)
+cpu: |
+  Intel(R) Core(TM) i7-3940XM CPU @ 3.00GHz
+cpu-short: |
+  i7-3940XM
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GK107GLM [Quadro K1000M] [10de:0ffc] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4000) & Quadro K1000M
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
+memory: |
+  32313
+scsi: |
+  SHGS31-1000GS-2  Rev: 0Q00
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.2
+    kernel: |
+      5.10.69-1
+    remark: |
+
+    credit: |
+      @Dutch
+    link: |
+      https://forum.qubes-os.org/t/lenovo-w530-r4-1/6615/1
+
+---
