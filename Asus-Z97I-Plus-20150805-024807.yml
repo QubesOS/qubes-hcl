@@ -7,20 +7,18 @@ hvm:
   'yes'
 iommu:
   'yes'
-slat:
-  'yes'
 tpm:
-  'unknown'
+  ''
 brand: |
   Asus
 model: |
-  All Series (H97M-E)
+  Z97I-Plus
 bios: |
-  2702
+  2502
 cpu: |
-  Intel(R) Core(TM) i5-4460T CPU @ 1.90GHz
+  Intel(R) Core(TM) i5-4590S CPU @ 3.00GHz
 cpu-short: |
-  i5-4460T
+  5-4590S
 chipset: |
   Intel Corporation 4th Gen Core Processor DRAM Controller [8086:0c00] (rev 06)
 chipset-short: |
@@ -30,29 +28,31 @@ gpu: |
 gpu-short: |
   Integrated Graphics (HD 4600)
 network: |
-  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 11)
+  Intel Corporation Ethernet Connection (2) I218-V
+  Broadcom Corporation BCM4352 802.11ac Wireless Network Adapter (rev 03)
 memory: |
-  8067
+  16261
 scsi: |
-  KINGSTON SV300S3 Rev: BBF0
-  KINGSTON SHFS37A Rev: BBF0
-  WDC WD7500BPKX-0 Rev: 1A01
+  Samsung SSD 850  Rev: 1B6Q
+  Samsung SSD 830  Rev: 3B1Q
+  WDC WD10EZRX-00D Rev: 0A80
+  Samsung MZHPU256 Rev: 501Q
 
 versions:
 
   - works:
       'yes'
     qubes: |
-      R3.2
+      R3.0
     xen: |
-      4.6.4
+      4.4.2
     kernel: |
-      4.4.38-11
+      3.19.8-100
     remark: |
-      Everything (including display and sleep) seem to work as expected.
+
     credit: |
-      Timo Saarinen
+      AnonRonJon
     link: |
-      https://groups.google.com/d/msg/qubes-users/7CbJbyTflFk/NEk8sSbfAgAJ
+      https://groups.google.com/d/msg/qubes-users/bisYw4_bpbY/E7kS0CQQBwAJ
 
 ---

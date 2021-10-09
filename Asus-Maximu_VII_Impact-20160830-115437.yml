@@ -2,17 +2,17 @@
 layout:
   'hcl'
 type:
-  'desktop'
+  'motherboard'
 hvm:
   'yes'
 iommu:
   'yes'
 tpm:
-  'device present'
+  'yes'
 brand: |
   Asus
 model: |
-  All Series (Maximu VII Impact)
+  Maximu VII Impact
 bios: |
   3003
 cpu: |

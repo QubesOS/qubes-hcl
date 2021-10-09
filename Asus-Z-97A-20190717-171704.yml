@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'desktop'
+  'motherboard'
 hvm:
   'yes'
 iommu:
@@ -16,7 +16,7 @@ remap:
 brand: |
   Asus
 model: |
-  All Series
+  Z-97A
 bios: |
   2205
 cpu: |
