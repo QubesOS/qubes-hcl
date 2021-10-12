@@ -50,7 +50,7 @@ versions:
     kernel: |
       5.10.70-1
     remark: |
-      suspend doesn't work
+      suspend requires disabled hyper-threading in BIOS
     credit: |
       @bunnyapocalypse
     link: |
