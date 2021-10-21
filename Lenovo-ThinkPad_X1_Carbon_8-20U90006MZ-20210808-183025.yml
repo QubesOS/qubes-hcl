@@ -51,7 +51,7 @@ versions:
     kernel: |
       5.4.129-1
     remark: |
-
+      wifi requires latest kernel; <a class='ext-link' href='https://forum.qubes-os.org/t/1413'><span class='icon'></span>mic troubleshooting</a>
     credit: |
       @oijawyuh
     link: |
