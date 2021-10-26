@@ -24,7 +24,7 @@ cpu-short: |
 chipset: |
   Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Root Complex [1022:1410]
 chipset-short: |
-  Northbridge - AMD K15.1 (inside CPU) , Southbridge - AMD A76M Fusion (Bolton-M3, 218-0844012 part number)
+  AMD
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Richland [Radeon HD 8650G] [1002:990b] (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] Jet PRO [Radeon R5 M230] [1002:6665]

@@ -31,7 +31,7 @@ gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Richland [Radeon HD 8650G] [1002:990b] (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] Jet PRO [Radeon R5 M230] [1002:6665]
 gpu-short: |
-  Integrated Graphics (Radeon HD 8650G) & R5 M230
+  Integrated Graphics (Radeon HD 8650G) & Radeon R5 M230
 network: |
   Qualcomm Atheros QCA8172 Fast Ethernet (rev 10)
   Qualcomm Atheros AR9287 Wireless Network Adapter (PCI-Express) (rev 01)
