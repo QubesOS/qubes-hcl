@@ -22,7 +22,7 @@ bios: |
 cpu: |
   AMD A10-5750M APU with Radeon(tm) HD Graphics
 cpu-short: |
-  AMD A10-5750M
+  A10-5750M
 chipset: |
   Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Root Complex [1022:1410]
 chipset-short: |
