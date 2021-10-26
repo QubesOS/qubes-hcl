@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'no'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  G505s
+bios: |
+  CBET4000 Coreboot 4.12 + SeaBios 1.13
+cpu: |
+  AMD A10-5750M APU with Radeon(tm) HD Graphics
+cpu-short: |
+  AMD A10-5750M
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Root Complex [1022:1410]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Richland [Radeon HD 8650G] [1002:990b] (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Sun PRO [Radeon HD 8570A/8570M] [1002:6663]
+gpu-short: |
+  Integrated Graphics (Radeon HD 8650G)
+network: |
+  Qualcomm Atheros QCA8172 Fast Ethernet (rev 10)
+  Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter (rev 01)
+memory: |
+  15853
+scsi: |
+  Samsung SSD 840  Rev: BB6Q
+  DVD-RAM UJ8DB    Rev: 8.51
+usb: |
+  5
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-35.fc25
+    kernel: |
+      5.13.6-1
+    remark: |
+      Suspend broken, random freezes, USB3 issues
+    credit: |
+      @dispuser5132
+    link: |
+      https://forum.qubes-os.org/t/lenovo-g505s/7175/1
+
+---
