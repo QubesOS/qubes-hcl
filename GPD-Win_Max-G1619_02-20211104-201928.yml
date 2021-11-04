@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  GPD
+model: |
+  Win Max 2021 (G1619-02)
+bios: |
+  E.GA608..002
+cpu: |
+  AMD Ryzen 7 4800U with Radeon Graphics
+cpu-short: |
+  Ryzen 7 4800U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Renoir [1002:1636] (rev c1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Renoir)
+network: |
+  Intel Corporation Ethernet Controller I225-V (rev 03)
+  Intel Corporation Wireless 7265 (rev 59)
+memory: |
+  14274
+scsi: |
+  TOSHIBA USB DRV  Rev: PMAP
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.14.15-1
+    remark: |
+
+    credit: |
+      @alzer89
+    link: |
+      https://forum.qubes-os.org/t/7379/
+
+---
