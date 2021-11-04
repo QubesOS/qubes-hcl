@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  GPD
+model: |
+  Win Max 2021 (G1619-03)
+bios: |
+  1.10
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-1195G7 @ 2.90GHz
+cpu-short: |
+  i7-1195G7
+chipset: |
+  Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a14] (rev 02)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] [8086:9a49] (rev 03) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Wireless 7265 (rev 59)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  16159
+scsi: |
+  TOSHIBA USB DRV  Rev: PMAP
+usb: |
+  4
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.14.15-1
+    remark: |
+      alsa-sof-firmware needed in dom0 for audio to work
+    credit: |
+      @alzer89
+    link: |
+      https://forum.qubes-os.org/t/7376/
+
+---
