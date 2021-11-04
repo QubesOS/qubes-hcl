@@ -41,20 +41,19 @@ usb: |
   4
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.0
-  xen: |
-    4.8.5-35.fc25
-  kernel: |
-    5.14.15-1
-  remark: |
-    4GB memory is below minimum requirement, black screen on resume, R4.0.4 installer won't work, R4.1 won't run
-  credit: |
-    @alzer89
-  link: |
-    https://forum.qubes-os.org/t/7380/
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-35.fc25
+    kernel: |
+      5.14.15-1
+    remark: |
+      4GB memory is below minimum requirement, black screen on resume, R4.0.4 installer won't work, R4.1 won't run
+    credit: |
+      @alzer89
+    link: |
+      https://forum.qubes-os.org/t/7380/
 
 ---
-
