@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad T14 Gen 1 (20S0S0QF00)
+bios: |
+  N2XET32W (1.22 )
+cpu: |
+  Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
+cpu-short: |
+  i5-10210U
+chipset: |
+  Intel Corporation Device [8086:9b61] (rev 0c)
+chipset-short: |
+  Comet Lake
+gpu: |
+  Intel Corporation Device [8086:9b41] (rev 02) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 620)
+network: |
+  Intel Corporation Device 02f0
+  Intel Corporation Device 0d4f
+memory: |
+  40617
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-35.fc25
+    kernel: |
+      5.4.143-1
+    remark: |
+      Ethernet doesn't work with stock sys-net, microphone not detected, Wi-Fi stops after suspend
+    credit: |
+      Rifa Achrinza
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/fd0f6179-0d40-416b-3c9f-cd7cc1755c5c%40achrinza.com
+
+---
