@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 15 9500
+bios: |
+  1.9.1
+cpu: |
+  Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+cpu-short: |
+  i5-10300H
+chipset: |
+  Intel Corporation 10th Gen Core Processor Host Bridge/DRAM Registers [8086:9b64] (rev 02)
+chipset-short: |
+  Comet Lake
+gpu: |
+  Intel Corporation CometLake-H GT2 [UHD Graphics] [8086:9bc4] (rev 05) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 630)
+network: |
+  Intel Corporation Comet Lake PCH CNVi WiFi
+memory: |
+  16129
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.71-1
+    remark: |
+
+    credit: |
+      @YxU3BZB
+    link: |
+      https://forum.qubes-os.org/t/7576/
+
+---
