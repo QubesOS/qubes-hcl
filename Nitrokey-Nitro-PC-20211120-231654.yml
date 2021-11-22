@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Nitrokey
+model: |
+  NitroPC
+bios: |
+  4.13-dirty
+cpu: |
+  Intel(R) Core(TM) i7-10610U CPU @ 1.80GHz
+cpu-short: |
+  i7-10610U
+chipset: |
+  Intel Corporation Comet Lake-U v1 4c Host Bridge/DRAM Controller [8086:9b61] (rev 0c)
+chipset-short: |
+  Comet Lake
+gpu: |
+  Intel Corporation CometLake-U GT2 [UHD Graphics] [8086:9b41] (rev 02) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 620)
+network: |
+  Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 06)
+memory: |
+  65409
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.76-1
+    remark: |
+
+    credit: |
+      @TheGardner
+    link: |
+      https://forum.qubes-os.org/t/7715
+
+---
