@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad P1 Gen 4 (20Y3002LAU)
+bios: |
+  N40ET29W (1.11 )
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz
+cpu-short: |
+  i7-11850H
+chipset: |
+  Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a36] (rev 05)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  Intel Corporation TigerLake-H GT1 [UHD Graphics] [8086:9a60] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD)
+network: |
+  Intel Corporation Wi-Fi 6 AX210/AX211/AX411 160MHz (rev 1a)
+memory: |
+  65239
+scsi: |
+
+usb: |
+  5
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.76-1
+    remark: |
+
+    credit: |
+      @cheerfultuck
+    link: |
+      https://forum.qubes-os.org/t/7859
+
+---
