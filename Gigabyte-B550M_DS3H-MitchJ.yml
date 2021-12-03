@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Gigabyte
+model: |
+  B550M DS3H
+bios: |
+  F14e
+cpu: |
+  AMD Ryzen 5 5600G with Radeon Graphics
+cpu-short: |
+  Ryzen 5 5600G
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [1002:1638] (rev c9) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (RX Vega 8 5000)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 16)
+memory: |
+  23914
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.76-1
+    remark: |
+      suspend not working
+    credit: |
+      @MitchJ
+    link: |
+      https://forum.qubes-os.org/t/7916
+
+---
