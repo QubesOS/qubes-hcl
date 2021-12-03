@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  ASRock
+model: |
+  B450 Pro4
+bios: |
+  P4.20
+cpu: |
+  AMD Ryzen 7 3700X 8-Core Processor
+cpu-short: |
+  Ryzen 7 3700X
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex [1022:1480]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Cape Verde XT [Radeon HD 7770/8760 / R7 250X] [1002:683d] (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon HD
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  32699
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.76-1
+    remark: |
+
+    credit: |
+      Ken Fooy
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/a19d24f6-be54-41fc-856b-427635e41debn%40googlegroups.com
+
+---
