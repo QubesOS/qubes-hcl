@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  VivoBoook X513EA
+bios: |
+  X513EA.304
+cpu: |
+  11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz
+cpu-short: |
+  i3-1115G4
+chipset: |
+  00.0 Host bridge [0600]: Intel Corporation Device [8086:9a04] (rev 01)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  02.0 VGA compatible controller [0300]: Intel Corporation Device [8086:9a78] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD)
+network: |
+  14.3 Network controller: Intel Corporation Wi-Fi 6 AX201 (rev 20)
+memory: |
+  7874
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.71-1
+    remark: |
+      sleep/wake not reliable
+    credit: |
+      chris christiaansz ungerer
+    link: |
+      https://forum.qubes-os.org/t/7902
+
+---
