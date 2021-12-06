@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  20TRS00T00
+bios: |
+  N30ET22W (1.05 )
+cpu: |
+  Intel(R) Xeon(R) W-10855M CPU @ 2.80GHz
+cpu-short: |
+  Xeon W-10855M
+chipset: |
+  Intel Corporation Device [8086:9b54] (rev 02)
+chipset-short: |
+  Comet Lake
+gpu: |
+  Intel Corporation Device [8086:9bf6] (rev 05) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD)
+network: |
+  Intel Corporation Device 06f0
+  Intel Corporation Device 0d4c
+memory: |
+  32393
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.98-1
+    remark: |
+      Requires <a class='ext-link' href='https://www.qubes-os.org/doc/pci-troubleshooting/#domain--has-failed-to-start-internal-error-unable-to-reset-pci-device--no-flr-pm-reset-or-bus-reset-available'><span class='icon'></span>PCI troubleshooting</a>, sound & suspend not tested
+    credit: |
+      @BowTiedIguana
+    link: |
+      https://forum.qubes-os.org/t/7967
+
+---
