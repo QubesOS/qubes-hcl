@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision M4800
+bios: |
+  A23
+cpu: |
+  Intel(R) Core(TM) i7-4900MQ CPU @ 2.80GHz
+cpu-short: |
+  i7-4900MQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller [8086:0c04] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  NVIDIA Corporation GK107GLM [Quadro K1100M] [10de:0ff6] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro K1100M
+network: |
+  Intel Corporation Ethernet Connection I217-LM (rev 04)
+  Intel Corporation Wireless 7260 (rev 73)
+memory: |
+  32707
+scsi: |
+  Micron_M550_2.5" Rev: DL04
+  DVD-ROM SU-108FB Rev: D100
+  Samsung SSD 850  Rev: 1B6Q
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.76-1
+    remark: |
+
+    credit: |
+      IX4 Svs
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/844E8207-4F32-45EE-9B69-D6581100B558%40gmail.com
+
+---
