@@ -55,7 +55,7 @@ versions:
     credit: |
       @dallas87
     link: |
-      https://forum.qubes-os.org/t/short-list-of-laptops-desktops-that-work-well-with-qubes-os/5197/83
+      https://forum.qubes-os.org/t/5855/5
 
   - works:
       'yes'
@@ -70,7 +70,7 @@ versions:
     credit: |
       @dom0
     link: |
-      https://forum.qubes-os.org/t/hcl-report-for-librem-14-v1/5585/1
+      https://forum.qubes-os.org/t/5855/2
 
   - works:
       'yes'
@@ -85,7 +85,7 @@ versions:
     credit: |
       @hanabi
     link: |
-      https://forum.qubes-os.org/t/hcl-librem-14-v1/4409/1
+      https://forum.qubes-os.org/t/5855/7
 
   - works:
       'yes'
