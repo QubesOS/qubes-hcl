@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Baffin [Radeon RX 460/560D / Pro 450/455/460/560] [1002:67ef] (rev e5) (prog-if 00 [VGA controller])
 gpu-short: |
-  Radeon RX
+  Radeon RX 460
 network: |
   Qualcomm Atheros AR8151 v2.0 Gigabit Ethernet (rev c0)
 memory: |
