@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  ProArt B550-Creator
+bios: |
+  2423
+cpu: |
+  AMD Ryzen 9 5950X 16-Core Processor
+cpu-short: |
+  Ryzen 5950x
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex [1022:1480]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Ellesmere [Radeon RX 470/480/570/570X/580/580X/590] [1002:67df] (rev ef) (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon RX570
+network: |
+  Intel Corporation Ethernet Controller I225-V (rev 03)
+  Intel Corporation Ethernet Controller I225-V (rev 03)
+memory: |
+  65442
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.76-1
+    remark: |
+      Suspend not working, PS/2 mouse and keyboard not working at the same time, work separately
+    credit: |
+      @CrisF
+    link: |
+      https://forum.qubes-os.org/t/8740
+
+---
