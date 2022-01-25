@@ -55,6 +55,21 @@ versions:
     credit: |
       @HPOA909
     link: |
-      https://forum.qubes-os.org/t/8296
+      https://forum.qubes-os.org/t/5851/38
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1-rc4
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.90-1
+    remark: |
+
+    credit: |
+      @HPOA909
+    link: |
+      https://forum.qubes-os.org/t/5851/47
 
 ---
