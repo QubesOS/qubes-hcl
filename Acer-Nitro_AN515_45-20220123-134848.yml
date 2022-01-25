@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Acer
+model: |
+  Nitro AN515-45
+bios: |
+  V1.08
+cpu: |
+  AMD Ryzen 7 5800H with Radeon Graphics
+cpu-short: |
+  Ryzen 7 5800H
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation GA106M [GeForce RTX 3060 Mobile / Max-Q] [10de:2520] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [1002:1638] (rev c5) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (RX Vega 8 5000) & RTX 3060 Mobile
+network: |
+  Realtek Semiconductor Co., Ltd. Device 2600 (rev 21)
+  MEDIATEK Corp. Device 7961
+memory: |
+  15724
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.76-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/8871'><span class='icon'></span>needs troubleshooting</a>
+    credit: |
+      @quOSuser
+    link: |
+      https://forum.qubes-os.org/t/8871
+
+---
