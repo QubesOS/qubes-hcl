@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0 present'
+remap:
+  'yes'
+brand: |
+  Star Labs
+model: |
+  StarBook MK V
+bios: |
+  'Coreboot 7.91'
+cpu: |
+  '11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz'
+cpu-short: |
+  i7-1165G7
+chipset: |
+  'Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a14] (rev 01)'
+chipset-short: |
+  Tiger Lake
+gpu: |
+  'Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] [8086:9a49] (rev 01) (prog-if 00 [VGA controller])'
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  'Realtek RTL8153 for Ethernet, Intel Corp Wi-Fi 6 AX201 (rev 20) for WIFI'
+memory: |
+  32613
+scsi: |
+  'Gen4 PCIe (500GB OP SSD)'
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1-rc4
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.76-1
+    remark: |
+      Ethernet via sys-usb
+    credit: |
+      @MrLeery
+    link: |
+      https://forum.qubes-os.org/t/9050
+
+---
