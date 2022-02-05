@@ -52,7 +52,7 @@ versions:
     kernel: |
       5.10.76-1
     remark: |
-      Needs <a class='ext-link' href='https://forum.qubes-os.org/t/7859'><span class='icon'></span>WiFi fix</a> and <a class='ext-link' href='https://forum.qubes-os.org/t/8217/2'><span class='icon'></span>disabled bluetooth in BIOS.</a>.
+      Needs <a class='ext-link' href='https://forum.qubes-os.org/t/7859'><span class='icon'></span>WiFi fix</a> and <a class='ext-link' href='https://forum.qubes-os.org/t/8217/2'><span class='icon'></span>disabled bluetooth in BIOS.</a>. Unable to use external display.
     credit: |
       @ewokky
     link: |
