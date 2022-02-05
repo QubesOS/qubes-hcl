@@ -1,0 +1,28 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+brand: |
+  Dell
+model: |
+  Precision 7760
+
+versions:
+
+  - works:
+      'no'
+    qubes: |
+      R4.1rc4
+    xen: |
+      4.8.5-14.fc25
+    kernel: |
+      4.19.94-1
+    remark: |
+
+    credit: |
+      @ewokky
+    link: |
+      https://forum.qubes-os.org/t/9121
+
+---
