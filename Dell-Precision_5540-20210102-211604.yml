@@ -52,7 +52,7 @@ versions:
     remark: |
       tweak the UEFI by adding noexitboot / mapbs
     credit: |
-      tv.fuzzy
+      Tomas Vondra
     link: |
       https://groups.google.com/d/msgid/qubes-users/28688dbf-9106-4414-91b3-a8703ee715cen%40googlegroups.com
 

@@ -53,7 +53,7 @@ versions:
     remark: |
       add mem_sleep_default=deep to make suspend work
     credit: |
-      tv.fuzzy
+      Tomas Vondra
     link: |
       https://groups.google.com/d/msgid/qubes-users/8241adf3-bc3a-448b-91eb-519125aa25c1n%40googlegroups.com
 
