@@ -54,8 +54,23 @@ versions:
     remark: |
 
     credit: |
-      Tech3599
+      @tech3599
     link: |
       https://groups.google.com/d/msgid/qubes-users/W4-BL69g4LAYWCcg9Z2GAxHEiDDmeQ73dsiHKR3cV9krh_10mT-AKC38Ydm9vNSgquxHo09td06soqMgJo_vqslbFqbfVna8-ppjkLdVm9g%3D%40protonmail.com
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.90-1
+    remark: |
+
+    credit: |
+      @tech3599
+    link: |
+      https://forum.qubes-os.org/t/9306
 
 ---
