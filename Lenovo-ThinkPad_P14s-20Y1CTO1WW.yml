@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad P14s (20Y1CTO1WW)
+bios: |
+  R1BET67W(1.36)
+cpu: |
+  AMD Ryzen 7 PRO 4750U with Radeon Graphics
+cpu-short: |
+  Ryzen 7 PRO 4750U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Renoir [1002:1636] (rev d1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Renoir)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0e)
+  Intel Corporation Wi-Fi 6 AX200 (rev 1a)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  22247
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.90-1
+    remark: |
+      Performance issues, <a class='ext-link' href='https://forum.qubes-os.org/t/9296'><span class='icon'></span>read more</a>
+    credit: |
+      @kellyling
+    link: |
+      https://forum.qubes-os.org/t/9296
+
+---
