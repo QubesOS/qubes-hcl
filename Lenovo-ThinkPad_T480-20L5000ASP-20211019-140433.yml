@@ -56,5 +56,18 @@ versions:
       anonymous
     link: |
 
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.96-1
+    remark: |
+      <a class='ext-link' href='https://github.com/QubesOS/qubes-issues/issues/4604'><span class='icon'></span>CPU frequency scaling issue (high power usage)</a>
+    credit: |
+      anonymous
+    link: |
 
 ---
