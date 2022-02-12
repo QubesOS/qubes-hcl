@@ -45,16 +45,31 @@ versions:
   - works:
       'yes'
     qubes: |
-      R4.1
+      R4.1-RC2
     xen: |
       4.14.3
     kernel: |
       5.10.76-1
     remark: |
-
+      in-place-upgrade from R4.0
     credit: |
       @TheGardner
     link: |
       https://forum.qubes-os.org/t/7715
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.90-1
+    remark: |
+      in-place-upgrade from R4.0
+    credit: |
+      @TheGardner
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/9a09b67f-9507-06b7-7f2e-3f540ac4dbaf%40riseup.net
 
 ---
