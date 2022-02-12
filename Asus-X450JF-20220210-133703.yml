@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  X450JF
+bios: |
+  219
+cpu: |
+  Intel(R) Core(TM) i7-4700HQ CPU @ 2.40GHz
+cpu-short: |
+  i7-4700HQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller [8086:0c04] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4600)
+network: |
+  Qualcomm Atheros AR9485 Wireless Network Adapter (rev 01)
+  Qualcomm Atheros QCA8171 Gigabit Ethernet (rev 10)
+memory: |
+  16263
+scsi: |
+  Samsung SSD 860  Rev: 4B6Q
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.90-1
+    remark: |
+      USB controllers require "no-strict-reset=true" option
+    credit: |
+      Charles Dodgson
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/VI1P193MB0414681A5DE2D22D00FA3F44A92F9%40VI1P193MB0414.EURP193.PROD.OUTLOOK.COM
+
+---
