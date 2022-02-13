@@ -42,7 +42,7 @@ versions:
   - works:
       'yes'
     qubes: |
-      R3rc1
+      R3.0-RC1
     xen: |
       4.4.2
     kernel: |

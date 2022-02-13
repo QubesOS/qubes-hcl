@@ -39,7 +39,7 @@ versions:
   - works:
       'yes'
     qubes: |
-      R2rc1
+      R2.0-RC1
     xen: |
 
     kernel: |

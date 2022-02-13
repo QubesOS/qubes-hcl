@@ -39,7 +39,7 @@ versions:
   - works:
       'yes'
     qubes: |
-      R2B3
+      R2.0-Beta3
     xen: |
       4.1.6.1
     kernel: |

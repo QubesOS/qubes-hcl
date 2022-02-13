@@ -39,7 +39,7 @@ versions:
   - works:
       'partial'
     qubes: |
-      R2rc1
+      R2.0-RC1
     xen: |
       4.1.6.1
     kernel: |

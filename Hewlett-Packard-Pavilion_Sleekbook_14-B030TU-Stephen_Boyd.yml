@@ -39,7 +39,7 @@ versions:
   - works:
       'yes'
     qubes: |
-      R2B1
+      R2.0-Beta1
     xen: |
 
     kernel: |
@@ -54,7 +54,7 @@ versions:
   - works:
       'yes'
     qubes: |
-      R2B2
+      R2.0-Beta2
     xen: |
       4.1.2
     kernel: |
