@@ -52,7 +52,7 @@ versions:
     remark: |
       It installs but 4GB RAM is too low to be usable!
     credit: |
-      PMB-NL
+      @PMB-NL
     link: |
       https://forum.qubes-os.org/t/hcl-asus-zenbook-ux31a/5263/1
 

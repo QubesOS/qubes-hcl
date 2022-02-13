@@ -55,7 +55,7 @@ versions:
     remark: |
       WiFi requires <a class='ext-link' href='https://www.qubes-os.org/doc/pci-troubleshooting/#libvirtlibvirterror-internal-error-unable-to-reset-pci-device--internal-error-active--devices-on-bus-with--not-doing-bus-reset'><span class='icon'></span>troubleshooting</a>
     credit: |
-      Jakub
+      @Jakub
     link: |
       https://forum.qubes-os.org/t/hcl-asus-rog-gl552vw/4183/1
 

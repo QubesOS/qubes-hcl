@@ -52,7 +52,7 @@ versions:
     remark: |
       LAN driver isn't recognized by default.
     credit: |
-      PMB-NL
+      @PMB-NL
     link: |
       https://forum.qubes-os.org/t/hcl-hp-envy-x360-15-dr1948nd/5265/1
 

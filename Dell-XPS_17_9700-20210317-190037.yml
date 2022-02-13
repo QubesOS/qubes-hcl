@@ -52,7 +52,7 @@ versions:
     remark: |
       needs newer kernel for WiFi
     credit: |
-      khisanth
+      @khisanth
     link: |
       https://forum.qubes-os.org/t/hcl-dell-xps-17-9700-ax1650-variant/3326/1
 

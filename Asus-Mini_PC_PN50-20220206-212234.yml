@@ -52,7 +52,7 @@ versions:
     remark: |
       no wifi, graphics not supported by kernel (2560x1440 resolution works)
     credit: |
-      Olaf Klinke
+      @olf (Olaf Klinke)
     link: |
       https://forum.qubes-os.org/t/9183
 

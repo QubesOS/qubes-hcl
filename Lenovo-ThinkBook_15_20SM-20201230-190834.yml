@@ -53,7 +53,7 @@ versions:
     remark: |
       No wifi or touchpad. Other hardware untested. <a class='ext-link' href='https://forum.qubes-os.org/t/hcl-lenovo-thinkbook-15-iil-wip/2142'><span class='icon'></span>Read more.</a>
     credit: |
-      David Seaward
+      @lofidevops (David Seaward)
     link: |
       https://forum.qubes-os.org/t/hcl-lenovo-thinkbook-15-iil-wip/2142
 

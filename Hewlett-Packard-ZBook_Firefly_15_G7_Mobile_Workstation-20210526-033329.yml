@@ -52,7 +52,7 @@ versions:
     remark: |
       BIOS: disable GPU, set Video Memory to 512 MB
     credit: |
-      Zaro
+      @Zaro
     link: |
       https://forum.qubes-os.org/t/hcl-hp-zbook-firefly-15-g7/4223
 

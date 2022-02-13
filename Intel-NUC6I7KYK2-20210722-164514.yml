@@ -53,7 +53,7 @@ versions:
     remark: |
       LAN doesn't work. Possible driver issue.
     credit: |
-      PMB-NL
+      @PMB-NL
     link: |
       https://forum.qubes-os.org/t/hcl-intel-nuc-6i7kyk2/5264/1
 

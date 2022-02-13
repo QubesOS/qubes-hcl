@@ -53,7 +53,7 @@ versions:
     remark: |
       Install iwl7260-firmware in templateVM used by sys-net. Since Kernel 4.19.147-1 suspend works fine. Nouveau driver in use.
     credit: |
-      Paul
+      @dispuser5132
     link: |
       https://forum.qubes-os.org/t/hcl-hp-zbook-15-g3/1039
 

@@ -55,7 +55,7 @@ versions:
     remark: |
       Not recommended due to missing VT-d/IOMMU feature.
     credit: |
-      dispuser5132
+      @dispuser5132
     link: |
       https://forum.qubes-os.org/t/hcl-hp-z600-workstation/3310/1
 
