@@ -13,7 +13,7 @@ versions:
   - works:
       'no'
     qubes: |
-      R4.1rc4
+      R4.1-RC4
     xen: |
       4.8.5-14.fc25
     kernel: |

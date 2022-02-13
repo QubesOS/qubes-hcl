@@ -59,7 +59,7 @@ versions:
   - works:
       'partial'
     qubes: |
-      R4.1
+      R4.1-Beta
     xen: |
       4.14.0
     kernel: |
