@@ -53,8 +53,23 @@ versions:
     remark: |
 
     credit: |
-      Amadeus
+      @Amadeus65
     link: |
       https://groups.google.com/d/msgid/qubes-users/12270229.MjOZ4BOj1V%40race-horse
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.90-1
+    remark: |
+
+    credit: |
+      @Amadeus65
+    link: |
+      https://forum.qubes-os.org/t/5851/57
 
 ---
