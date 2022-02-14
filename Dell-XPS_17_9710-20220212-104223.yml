@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 17 9710
+bios: |
+  1.6.0
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+cpu-short: |
+  i7-11800H
+chipset: |
+  00.0 Host bridge [0600]: Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a36] (rev 05)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  02.0 VGA compatible controller [0300]: Intel Corporation TigerLake-H GT1 [UHD Graphics] [8086:9a60] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD)
+network: |
+  14.3 Network controller: Intel Corporation Tiger Lake PCH CNVi WiFi (rev 11)
+memory: |
+  16111
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works: |
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.16.5-1
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/CAOO7%3D3iefsrj%3DJak2HyWZJJ6K4YN1Z1%2Bf46Wk4UJE3Ea%3D57YDQ%40mail.gmail.com'><span class='icon'></span>Sound, microphone need troubleshooting</a>.
+    credit: |
+      Robert Horvath
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAOO7%3D3iefsrj%3DJak2HyWZJJ6K4YN1Z1%2Bf46Wk4UJE3Ea%3D57YDQ%40mail.gmail.com
+
+---
