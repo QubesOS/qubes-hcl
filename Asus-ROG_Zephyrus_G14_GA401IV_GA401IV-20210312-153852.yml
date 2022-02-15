@@ -57,4 +57,19 @@ versions:
     link: |
       https://forum.qubes-os.org/t/hcl-asus-rog-zephyrus-g14-ga401iv-ha112r-14/3245/1
 
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.90-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/9467'><span class='icon'></span>see post for details</a>
+    credit: |
+      @Alethia
+    link: |
+      https://forum.qubes-os.org/t/9467
+
 ---
