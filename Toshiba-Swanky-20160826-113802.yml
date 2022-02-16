@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'desktop'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -12,7 +12,7 @@ tpm:
 brand: |
   Toshiba
 model: |
-  Swanky Chromebook
+  Swanky (Chromebook)
 bios: |
 
 cpu: |

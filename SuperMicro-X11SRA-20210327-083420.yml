@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'server'
+  'motherboard'
 hvm:
   'yes'
 iommu:
