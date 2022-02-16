@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  ROG Crosshair VII Hero
+bios: |
+  4402
+cpu: |
+  AMD Ryzen 7 3700X 8-Core Processor
+cpu-short: |
+  Ryzen 7 3700X
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex [1022:1480]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation TU106 [GeForce RTX 2060 Rev. A] [10de:1f08] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce RTX 2060
+network: |
+  Intel Corporation I211 Gigabit Network Connection (rev 03)
+memory: |
+  32653
+scsi: |
+  Samsung SSD 850  Rev: 3B6Q
+  WDC WD10PURX-64E Rev: 1A01
+  WDC WD10EZEX-08W Rev: 1A02
+  WDC WDS240G2G0B- Rev: 0000
+  Transcend 8GB    Rev: 1100
+usb: |
+  5
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.96-1
+    remark: |
+      no suspend
+    credit: |
+      @waterfrontpark
+    link: |
+      https://forum.qubes-os.org/t/9493
+
+---
