@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  Lenovo
+  Nitrokey
 model: |
-  ThinkPad X230 (2325PB3)
+  NitroPad X230 (2325PB3)
 bios: |
   NitroPad v1.3.1
 cpu: |
