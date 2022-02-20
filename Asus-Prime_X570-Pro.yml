@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  Prime X570-Pro
+bios: |
+  4021
+cpu: |
+  AMD Ryzen 5 2600 Six-Core Processor
+cpu-short: |
+  Ryzen 5 2600
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 17h (Models 00h-0fh) Root Complex [1022:1450]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation GK208B [GeForce GT 710] [10de:128b] (rev a1) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GK208B [GeForce GT 710] [10de:128b] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  2x GeForce GT 710
+network: |
+  Intel Corporation I211 Gigabit Network Connection (rev 03)
+memory: |
+  65452
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.90-1
+    remark: |
+
+    credit: |
+      @Gartech
+    link: |
+      https://forum.qubes-os.org/t/9621
+
+---
