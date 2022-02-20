@@ -1,0 +1,69 @@
+---
+layout:
+  'hcl'
+type:
+  'workstation'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision WorkStation T7500
+bios: |
+  A17
+cpu: |
+  Intel(R) Xeon(R) CPU L5638 @ 2.00GHz
+cpu-short: |
+  Xeon L5638
+chipset: |
+  Intel Corporation 5520 I/O Hub to ESI Port [8086:3406] (rev 22)
+chipset-short: |
+  Tylersburg
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Bonaire [FirePro W5100] [1002:6649] (prog-if 00 [VGA controller])
+gpu-short: |
+  FirePro W5100
+network: |
+  Intel Corporation 82546EB Gigabit Ethernet Controller (rev 01)
+  Intel Corporation 82546EB Gigabit Ethernet Controller (rev 01)
+  Intel Corporation 82546EB Gigabit Ethernet Controller (rev 01)
+  Intel Corporation 82546EB Gigabit Ethernet Controller (rev 01)
+  Broadcom Inc. and subsidiaries NetXtreme BCM5761 Gigabit Ethernet PCIe (rev 10)
+  Oracle/SUN Happy Meal 10/100 Ethernet [hme] (rev 01)
+  Oracle/SUN Happy Meal 10/100 Ethernet [hme] (rev 01)
+  Oracle/SUN Happy Meal 10/100 Ethernet [hme] (rev 01)
+  Oracle/SUN Happy Meal 10/100 Ethernet [hme] (rev 01)
+memory: |
+  196605
+scsi: |
+  Intenso SSD Sata Rev: 9A0
+  DVD+-RW DH-16ABS Rev: PD11
+  Samsung SSD 860  Rev: 1B6Q
+usb: |
+  8
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.96-1
+    remark: |
+
+    credit: |
+      @luja
+    link: |
+      https://forum.qubes-os.org/t/9626
+
+---
