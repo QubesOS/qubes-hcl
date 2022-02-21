@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Gigabyte
+model: |
+  H170N-WIFI
+bios: |
+  F22e
+cpu: |
+  Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+cpu-short: |
+  i7-6700
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:191f] (rev 07)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 530 [8086:1912] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 530)
+network: |
+  Intel Corporation Ethernet Connection (2) I219-V (rev 31)
+  Intel Corporation I211 Gigabit Network Connection (rev 03)
+  Intel Corporation Wireless 8260 (rev 3a)
+memory: |
+  31685
+scsi: |
+  Crucial_CT525MX3 Rev: R060
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.96-1
+    remark: |
+
+    credit: |
+      @kysstfafm
+    link: |
+      https://forum.qubes-os.org/t/9657
+
+---
