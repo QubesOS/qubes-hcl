@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Acer
+model: |
+  Aspire F5-573
+bios: |
+  V1.27
+cpu: |
+  Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+cpu-short: |
+  i5-7200U
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5904] (rev 02)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 620)
+network: |
+  Intel Corporation Dual Band Wireless-AC 3168NGW [Stone Peak] (rev 10)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 12)
+memory: |
+  32636
+scsi: |
+  DVD A  DA8AESH   Rev: XA11
+  Crucial_CT275MX3 Rev: R060
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.96-1
+    remark: |
+
+    credit: |
+      @kysstfafm
+    link: |
+      https://forum.qubes-os.org/t/9658
+
+---
