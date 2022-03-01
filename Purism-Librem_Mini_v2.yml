@@ -18,7 +18,7 @@ brand: |
 model: |
   Librem Mini v2
 bios: |
-  PureBoot-Release-18
+  PureBoot-Release-20
 cpu: |
   Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
 cpu-short: |
@@ -56,5 +56,20 @@ versions:
       MrChromebox
     link: |
       https://groups.google.com/d/msgid/qubes-users/ae0a2d0f66c9b5c49ba137e3ce5097209f3bc974.camel%40puri.sm
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.96-1
+    remark: |
+
+    credit: |
+      @code9n
+    link: |
+      https://forum.qubes-os.org/t/9792
 
 ---
