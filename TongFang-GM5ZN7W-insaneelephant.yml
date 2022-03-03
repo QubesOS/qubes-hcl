@@ -1,0 +1,51 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+brand: |
+  TongFang
+model: |
+  GM5ZN7W
+cpu-short: |
+  Ryzen 9 5900HX
+chipset-short: |
+  AMD
+gpu-short: |
+  RTX 3070
+memory: |
+  65243
+
+versions:
+
+  - works:
+      'no'
+    qubes: |
+      R4.0
+    remark: |
+      Ryzen 5000 series not supported by Xen < 4.15
+    credit: |
+      insaneelephant
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/13871238.85357.1646230311365%40smtp3.opayq.com
+
+  - works:
+      'no'
+    qubes: |
+      R4.1
+    remark: |
+      Ryzen 5000 series not supported by Xen < 4.15
+    credit: |
+      insaneelephant
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/13871238.85357.1646230311365%40smtp3.opayq.com
+
+---
