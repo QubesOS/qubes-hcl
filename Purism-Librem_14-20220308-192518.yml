@@ -57,4 +57,19 @@ versions:
     link: |
       https://forum.qubes-os.org/t/5855/48
 
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.76-1
+    remark: |
+
+    credit: |
+      @dallas87
+    link: |
+      https://forum.qubes-os.org/t/5855/61
+
 ---
