@@ -14,7 +14,7 @@ brand: |
 model: |
   G505s
 bios: |
-  Coreboot + SeaBIOS 1.8
+  coreboot + SeaBIOS 1.8
 cpu: |
   AMD A10-5750M APU with Radeon(tm) HD Graphics
 cpu-short: |
@@ -48,7 +48,7 @@ versions:
     kernel: |
       3.18.10-2
     remark: |
-      Coreboot
+
     credit: |
       Vladimir Shipovalov
     link: |

@@ -18,7 +18,7 @@ brand: |
 model: |
   ThinkPad X220 (4286CTO)
 bios: |
-  Heads-v0.2.0-1058
+  Heads 0.2.0-1058
 cpu: |
   Intel(R) Core(TM) i7-2640M CPU @ 2.80GHz
 cpu-short: |

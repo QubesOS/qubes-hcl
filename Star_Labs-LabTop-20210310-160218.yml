@@ -18,7 +18,7 @@ brand: |
 model: |
   LabTop Mk IV
 bios: |
-  1.4.0
+  coreboot 1.4.0
 cpu: |
   Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz
 cpu-short: |
@@ -50,7 +50,7 @@ versions:
     kernel: |
       5.4.98-1
     remark: |
-      tested with Coreboot
+
     credit: |
       Stephen Edworthy
     link: |

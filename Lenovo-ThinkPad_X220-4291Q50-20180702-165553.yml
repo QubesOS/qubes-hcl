@@ -51,7 +51,7 @@ versions:
     kernel: |
       4.9.56-21
     remark: |
-      Coreboot firmware with HEADS
+
     credit: |
       ninetynine487
     link: |

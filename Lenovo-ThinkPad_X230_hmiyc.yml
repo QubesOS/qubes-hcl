@@ -18,7 +18,7 @@ brand: |
 model: |
   ThinkPad X230 (2325YBN)
 bios: |
-  CBET4000 4.6-196-g0fb6568
+  coreboot 4.6-196
 cpu: |
   Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz
 cpu-short: |

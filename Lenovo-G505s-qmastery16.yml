@@ -16,7 +16,7 @@ brand: |
 model: |
   G505s
 bios: |
-  Coreboot 4.5 + SeaBIOS 1.10
+  coreboot 4.5 + SeaBIOS 1.10
 cpu: |
   AMD A10-5750M APU with Radeon(tm) HD Graphics
 cpu-short: |
