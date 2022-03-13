@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Tuxedo
+model: |
+  InfinityBook Pro 14 Gen6
+bios: |
+  N.1.15A07
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-11370H @ 3.30GHz
+cpu-short: |
+  i7-11370H
+chipset: |
+  Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a14] (rev 01)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] [8086:9a49] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Wi-Fi 6 AX201 (rev 20)
+memory: |
+  65267
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.15.14-1
+    remark: |
+      needs i915.enable_psr=0, no suspend
+    credit: |
+      @slimy-crawdad
+    link: |
+      https://forum.qubes-os.org/t/7822/4
+
+---
