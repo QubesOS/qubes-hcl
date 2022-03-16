@@ -18,7 +18,7 @@ brand: |
 model: |
   Librem 14 v1
 bios: |
-  coreboot 4.13 (Purism 2)
+  coreboot 4.15 (Purism 3)
 cpu: |
   Intel(R) Core(TM) i7-10710U CPU @ 1.10GHz
 cpu-short: |
@@ -28,11 +28,11 @@ chipset: |
 chipset-short: |
   Comet Lake
 gpu: |
-  Intel Corporation Device [8086:9bca] (rev 04) (prog-if 00 [VGA controller])
+  Intel Corporation Comet Lake UHD Graphics [8086:9bca] (rev 04) (prog-if 00 [VGA controller])
 gpu-short: |
   Integrated Graphics (UHD 620)
 network: |
-  Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
+  Qualcomm Atheros AR9462 Wireless Network Adapter (rev ff)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
 memory: |
   65410
@@ -45,16 +45,16 @@ versions:
   - works:
       'yes'
     qubes: |
-      R4.0
+      R4.1
     xen: |
-      4.8.5-34.fc25
+      4.14.3
     kernel: |
-      5.4.125-1
+      5.10.96-1
     remark: |
 
     credit: |
       @dom0
     link: |
-      https://forum.qubes-os.org/t/5855/2
+      https://forum.qubes-os.org/t/5855/67
 
 ---

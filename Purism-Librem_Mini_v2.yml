@@ -18,7 +18,7 @@ brand: |
 model: |
   Librem Mini v2
 bios: |
-  PureBoot-Release-20
+  PureBoot 20
 cpu: |
   Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
 cpu-short: |

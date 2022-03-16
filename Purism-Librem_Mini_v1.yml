@@ -18,7 +18,7 @@ brand: |
 model: |
   Librem Mini v1
 bios: |
-  4.12-Purism-3
+  coreboot 4.12 (Purism 3)
 cpu: |
   Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
 cpu-short: |
