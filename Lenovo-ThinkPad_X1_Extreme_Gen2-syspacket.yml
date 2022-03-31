@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X1 Extreme Gen2 (20QVCTO1WW)
+bios: |
+  N2OET55W (1.42 )
+cpu: |
+  Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz
+cpu-short: |
+  i9-9880H
+chipset: |
+  Intel Corporation Device [8086:3e20] (rev 0d)
+chipset-short: |
+  Coffee Lake
+gpu: |
+  Intel Corporation CoffeeLake-H GT2 [UHD Graphics 630] [8086:3e9b] (rev 02) (prog-if 00 [VGA controller])
+  NVIDIA Corporation TU117M [GeForce GTX 1650 Mobile / Max-Q] [10de:1f91] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 630)
+network: |
+  Intel Corporation Ethernet Connection (7) I219-LM (rev 10)
+  Intel Corporation Wi-Fi 6 AX200 (rev 1a)
+memory: |
+  65144
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.4
+    kernel: |
+      5.16.13-2
+    remark: |
+      frequent crashes related to GPU lockup
+    credit: |
+      @syspacket
+    link: |
+      https://forum.qubes-os.org/t/10507
+
+---
