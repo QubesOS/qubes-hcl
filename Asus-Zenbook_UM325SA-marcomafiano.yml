@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  ZenBook (UM325SA)
+bios: |
+  UX325SA.302
+cpu: |
+  AMD Ryzen 7 5800U with Radeon Graphics
+cpu-short: |
+  AMD Ryzen 7 5800U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [1002:1638] (rev c1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Cezanne)
+network: |
+  Intel Corporation Wireless 8265 / 8275 (rev 78)
+memory: |
+  15752
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.4
+    kernel: |
+      5.16.13-2
+    remark: |
+      internal keyboard and sleep do not work
+    credit: |
+      @marcomafiano
+    link: |
+      https://forum.qubes-os.org/t/10840
+
+---
