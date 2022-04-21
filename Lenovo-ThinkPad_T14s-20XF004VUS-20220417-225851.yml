@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad T14s (20XF004VUS)
+bios: |
+  R1NET39W (1.09)
+cpu: |
+  AMD Ryzen 7 PRO 5850U with Radeon Graphics
+cpu-short: |
+  Ryzen 7 PRO 5850U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [1002:1638] (rev d1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Cezanne)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0e)
+  MEDIATEK Corp. Device 7961
+memory: |
+  31566
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.4
+    kernel: |
+      5.10.104-3
+    remark: |
+
+    credit: |
+      Roland
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/3429172.iIbC2pHGDl%40race-horse
+
+---
