@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  PRO Z690-A (MS-7D25)
+bios: |
+  Dasharo (coreboot+UEFI) v0.4.0
+cpu: |
+  12th Gen Intel(R) Core(TM) i9-12900K
+cpu-short: |
+  i9-12900K
+chipset: |
+  Intel Corporation Device [8086:4660] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation AlderLake-S GT1 [8086:4680] (rev 0c)
+  NVIDIA Corporation GP106 [GeForce GTX 1060 3GB] [10de:1c02] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 770) & GeForce GTX 1060
+network: |
+  Intel Corporation Device 7af0 (rev 11)
+  Intel Corporation Ethernet Controller I225-V (rev 03)
+memory: |
+  32552
+scsi: |
+  SanDisk 3.2Gen1 Rev: 1.00
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.90-1
+    remark: |
+
+    credit: |
+      @renehoj
+    link: |
+      https://forum.qubes-os.org/t/11490/6
+
+---
