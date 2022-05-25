@@ -52,7 +52,7 @@ versions:
     kernel: |
       5.10.90-1
     remark: |
-      needs legacy boot, integrated gfx and wifi don't work
+      needs legacy boot, integrated gfx doesn't work
     credit: |
       @renehoj
     link: |
