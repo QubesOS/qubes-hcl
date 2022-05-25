@@ -16,7 +16,7 @@ remap:
 brand: |
   MSI
 model: |
-  PRO Z690-A (MS-7D25)
+  PRO Z690-A DDR4 (MS-7D25)
 bios: |
   Dasharo (coreboot+UEFI) v0.4.0
 cpu: |
