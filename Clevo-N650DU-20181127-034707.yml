@@ -55,7 +55,7 @@ versions:
     credit: |
       @datalove
     link: |
-      https://forum.qubes-os.org/t/hcl-clevo-n650du/5673/1
+      https://forum.qubes-os.org/t/5673/1
 
   - works:
       'yes'
@@ -70,6 +70,20 @@ versions:
     credit: |
       @datalove
     link: |
-      https://forum.qubes-os.org/t/hcl-clevo-n650du/5673/1
+      https://forum.qubes-os.org/t/5673/1
 
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.4
+    kernel: |
+      5.10.112-1
+    remark: |
+
+    credit: |
+      @datalove
+    link: |
+      https://forum.qubes-os.org/t/5673/3
 ---
