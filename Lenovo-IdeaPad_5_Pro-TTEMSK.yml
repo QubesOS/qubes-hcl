@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  IdeaPad 5 Pro (16ACH6 82L5)
+bios: |
+  GSCN29WW
+cpu: |
+  AMD XRyzen 9 5900H with Radeon Graphics
+cpu-short: |
+  Ryzen 9 5900H
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [1002:1638] (rev c4) (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon RTX3050
+network: |
+  MEDIATEK Corp. Device 7961
+memory: |
+  28524
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.17.5-1
+    remark: |
+      WiFi needs kernel 5.15+; wake/suspended doesn't work.
+    credit: |
+      @TTEMSK
+    link: |
+      https://forum.qubes-os.org/t/11849/
+
+---
