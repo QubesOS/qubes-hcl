@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  IdeaCentre 510A-15ARR (90J0007GCF)
+bios: |
+  O4DKT39A
+cpu: |
+  AMD Ryzen 5 3400G with Radeon Vega Graphics
+cpu-short: |
+  Ryzen 5 3400G
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Root Complex [1022:15d0]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Picasso [1002:15d8] (rev c8) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon Vega 3)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)
+  Qualcomm Atheros QCA9377 802.11ac Wireless Network Adapter (rev 31)
+memory: |
+  30653
+scsi: |
+  ST1000DM003-1SB1 Rev: CC64
+  DVDRAM GUE1N     Rev: ME03
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.90-1
+    remark: |
+
+    credit: |
+      @BestBefore2023
+    link: |
+      https://forum.qubes-os.org/t/12035/
+---
