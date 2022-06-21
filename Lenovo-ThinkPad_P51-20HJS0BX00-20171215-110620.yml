@@ -52,7 +52,7 @@ versions:
     kernel: |
       4.4.14-11
     remark: |
-      EFI boot fix and upgrade to kernel 4.9 for networking required
+      EFI boot fix and kernel 4.9+ required
     credit: |
       Sven Semmler
     link: |
@@ -82,7 +82,7 @@ versions:
     kernel: |
       5.10.90-1
     remark: |
-
+      select 'discrete' graphics in BIOS
     credit: |
       Sven Semmler
     link: |
