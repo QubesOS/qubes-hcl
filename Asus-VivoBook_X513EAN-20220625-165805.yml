@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  VivoBook X513EAN
+bios: |
+  X513EAN.301
+cpu: |
+  11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+cpu-short: |
+  i5-1135G7
+chipset: |
+  00.0 Host bridge [0600]: Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a14] (rev 01)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  02.0 VGA compatible controller [0300]: Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] [8086:9a49] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  14.3 Network controller: Intel Corporation Wi-Fi 6 AX201 (rev 20)
+memory: |
+  16078
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.4
+    kernel: |
+      5.16.18-2
+    remark: |
+      suspend/wake and touchpad do not work
+    credit: |
+      @rlaneth
+    link: |
+      https://forum.qubes-os.org/t/12207
+
+---
