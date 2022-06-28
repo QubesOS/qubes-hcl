@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  MS-7D25
+bios: |
+  Dasharo v1.0.0
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-12700K
+cpu-short: |
+  i7-12700K
+chipset: |
+  Intel Corporation Device [8086:4668] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation AlderLake-S GT1 [8086:4680] (rev 0c)
+  NVIDIA Corporation GP102 [GeForce GTX 1080 Ti] [10de:1b06] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 770) & GeForce GTX 1080 Ti
+network: |
+  Intel Corporation Device 7af0 (rev 11)
+  Intel Corporation Ethernet Controller I225-V (rev 03)
+memory: |
+  32611
+scsi: |
+  KINGSTON SA400S3 Rev: B1E1
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.3
+    kernel: |
+      5.10.90-1
+    remark: |
+
+    credit: |
+      Michael Wikman
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CA%2BLUNEUFu%2BYb2t1NGBF%3Du3fX_9UftkhoFJQQ_PiNgk1i_%3D0PAQ%40mail.gmail.com
+
+---
