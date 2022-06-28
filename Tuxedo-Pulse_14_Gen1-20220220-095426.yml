@@ -51,7 +51,7 @@ versions:
     kernel: |
       5.15.14-1
     remark: |
-      loud fan noise
+      loud fan noise, <a class='ext-link' href='https://forum.qubes-os.org/t/9633/6'><span class='icon'></span>read more</a>
     credit: |
       @wqpw
     link: |
