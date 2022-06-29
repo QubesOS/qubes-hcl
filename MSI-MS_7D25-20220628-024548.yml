@@ -18,7 +18,7 @@ brand: |
 model: |
   MS-7D25
 bios: |
-  Dasharo v1.0.0
+  Dasharo (coreboot+UEFI) v1.0.0
 cpu: |
   12th Gen Intel(R) Core(TM) i7-12700K
 cpu-short: |
