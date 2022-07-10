@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  EliteBook 860 G9
+bios: |
+  U70 Ver. 01.02.04
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-1280P
+cpu-short: |
+  i7-1280P
+chipset: |
+  Intel Corporation Device [8086:4641] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Wi-Fi 6 AX200 (rev 1a)
+memory: |
+  65104
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.18.9-1
+    remark: |
+      no wifi, speakers, suspend/wake (<a class='ext-link' href='https://forum.qubes-os.org/t/12474'><span class='icon'></span>read more</a>)
+    credit: |
+      @tze
+    link: |
+      https://forum.qubes-os.org/t/12474
+
+---
