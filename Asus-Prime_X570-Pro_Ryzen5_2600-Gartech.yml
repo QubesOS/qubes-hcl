@@ -41,7 +41,7 @@ usb: |
 versions:
 
   - works:
-      'yes'
+      'partial'
     qubes: |
       R4.1
     xen: |
@@ -49,7 +49,7 @@ versions:
     kernel: |
       5.10.90-1
     remark: |
-
+      display issues, GPU hangs (require reset)
     credit: |
       @Gartech
     link: |
