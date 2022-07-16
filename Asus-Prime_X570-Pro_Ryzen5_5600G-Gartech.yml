@@ -1,0 +1,57 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  Prime X570-Pro
+bios: |
+  4021
+cpu: |
+  AMD Ryzen 5 5600G with Radeon Graphics
+cpu-short: |
+  Ryzen 5 5600G
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [1002:1638] (rev c9) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon)
+network: |
+  Intel Corporation I211 Gigabit Network Connection (rev 03)
+memory: |
+  65452
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.10.112-1
+    remark: |
+
+    credit: |
+      @Gartech
+    link: |
+      https://forum.qubes-os.org/t/9621/4
+
+---
