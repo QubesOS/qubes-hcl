@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  G15 5520
+bios: |
+  1.4.1
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-12700H
+cpu-short: |
+  i7-12700H
+chipset: |
+  Intel Corporation Device [8086:4641] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:46a6] (rev 0c)
+  NVIDIA Corporation GA106M [GeForce RTX 3060 Mobile / Max-Q] [10de:2560] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe) & GeForce RTX 3060 Mobile
+network: |
+  Intel Corporation Device 51f0 (rev 01)
+  Realtek Semiconductor Co., Ltd. Device 2600 (rev 21)
+memory: |
+  32452
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.16.18-2
+    remark: |
+      requires <a class='ext-link' href='https://forum.qubes-os.org/t/12622'><span class='icon'></span>NVIDIA and sound troubleshooting</a>
+    credit: |
+      @siginigin
+    link: |
+      https://forum.qubes-os.org/t/12622/4
+
+---
