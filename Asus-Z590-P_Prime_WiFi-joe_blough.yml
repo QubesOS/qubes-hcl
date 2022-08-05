@@ -1,0 +1,66 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  Z590-P Prime WiFi
+bios: |
+  1601
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz
+cpu-short: |
+  i7-11700K
+chipset: |
+  Intel Corporation Device [8086:4c43] (rev 01)
+chipset-short: |
+  Rocket Lake
+gpu: |
+  Intel Corporation RocketLake-S GT1 [UHD Graphics 750] [8086:4c8a] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 750)
+network: |
+  Intel Corporation Tiger Lake PCH CNVi WiFi (rev 11)
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller (rev 04)
+memory: |
+  31540
+scsi: |
+  Samsung SSD 840  Rev: 6B0Q
+  Samsung SSD 850  Rev: 4B6Q
+  BW-16D1HT        Rev: 1.01
+  USB SD Reader    Rev: 1.00
+  USB CF Reader    Rev: 1.01
+  USB xD/SM Reader Rev: 1.02
+  USB MS Reader    Rev: 1.03
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.52-1
+    remark: |
+      enable IOMMU in UEFI
+    credit: |
+      @joe.blough
+    link: |
+      https://forum.qubes-os.org/t/12870/1
+
+---
