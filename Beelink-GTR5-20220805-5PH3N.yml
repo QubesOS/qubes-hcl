@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Beelink
+model: |
+  GTR5
+bios: |
+  GTR_V1.24_bLink_P4C5M43
+cpu: |
+  AMD Ryzen 9 5900HX with Radeon Graphics
+cpu-short: |
+  Ryzen 9 5900HX
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [1002:1638] (rev c4) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (RX Vega 8 5000)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller (rev 05)
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller (rev 05)
+  MEDIATEK Corp. Device 0608
+memory: |
+  32158
+scsi: |
+  NFS061SA31T-6007 Rev: 6A
+  500SSD1          Rev: M3CR
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.52-1
+    remark: |
+
+    credit: |
+      @5PH3N
+    link: |
+      https://forum.qubes-os.org/t/13007/
+
+---
