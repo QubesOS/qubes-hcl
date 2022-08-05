@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'Not Used'
+remap:
+  'yes'
+brand: |
+  Tuxedo
+model: |
+  Pulse 15 Gen1
+bios: |
+  N.1.07.A05
+cpu: |
+  AMD Ryzen 7 4800H with Radeon Graphics
+cpu-short: |
+  Ryzen 7 4800H
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Renoir [1002:1636] (rev c6) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Vega 7)
+network: |
+  Intel Corporation Wi-Fi 6 AX200 (rev 1a)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  63403
+scsi: |
+  N/A
+usb: |
+  2
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.18.9-1
+    remark: |
+      firmware issues, <a class='ext-link' href='https://forum.qubes-os.org/t/12886'><span class='icon'></span>read more</a>
+    credit: |
+      @qufo
+    link: |
+      https://forum.qubes-os.org/t/12886
+
+---
