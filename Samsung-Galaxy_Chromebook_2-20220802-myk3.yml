@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Samsung
+model: |
+  Galaxy Chromebook 2
+bios: |
+  MrChromebox-4.17.2
+cpu: |
+  Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz
+cpu-short: |
+  i3-10110U
+chipset: |
+  Intel Corporation Device [8086:9b71] (rev 0c)
+chipset-short: |
+  Comet Lake-U
+gpu: |
+  Intel Corporation CometLake-U GT2 [UHD Graphics] [8086:9b41] (rev 02) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 620)
+network: |
+  Intel Corporation Comet Lake PCH-LP CNVi WiFi
+memory: |
+  8065
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.18.9-1
+    remark: |
+      no audio
+    credit: |
+      @myk3
+    link: |
+      https://forum.qubes-os.org/t/12950/1
+
+---
