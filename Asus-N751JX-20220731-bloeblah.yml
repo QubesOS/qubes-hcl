@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  N751JX
+bios: |
+  N751JX.211
+cpu: |
+  Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz
+cpu-short: |
+  i7-4750HQ
+chipset: |
+  Intel Corporation Crystal Well DRAM Controller [8086:0d04] (rev 08)
+chipset-short: |
+  Haswell
+gpu: |
+  Intel Corporation Crystal Well Integrated Graphics Controller [8086:0d26] (rev 08) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 520)
+network: |
+  Intel Corporation Wireless 7260 (rev bb)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 12)
+memory: |
+  11985
+scsi: |
+  DVDRAM GUC0N     Rev: AS01
+  Samsung SSD 860  Rev: 2B6Q
+  HGST HTS721010A9 Rev: A3J0
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.52-1
+    remark: |
+
+    credit: |
+      @bloeblah
+    link: |
+      https://forum.qubes-os.org/t/12876/1
+
+---
