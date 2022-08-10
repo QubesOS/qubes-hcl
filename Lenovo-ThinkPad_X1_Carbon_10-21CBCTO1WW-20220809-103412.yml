@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X1 Carbon 10 (21CBCTO1WW)
+bios: |
+  N3AET62W (1.27 )
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-1270P
+cpu-short: |
+  i7-1270P
+chipset: |
+  Intel Corporation Device [8086:4621] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Device 51f0 (rev 01)
+memory: |
+  32475
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'no'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.18.9-1
+    remark: |
+      no network, graphics issues
+    credit: |
+      Martin Holst Swende
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/38e2f033-0a55-d5b6-6d33-7bcc8557e96b%40gmail.com
+
+---
