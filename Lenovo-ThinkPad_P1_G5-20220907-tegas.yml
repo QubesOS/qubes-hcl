@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad P1 Gen5 (21DCCTO1WW)
+bios: |
+  N3JET24W (1.08 )
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-12800H
+cpu-short: |
+  i7-12800H
+chipset: |
+  Intel Corporation Device [8086:4641] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Device 51f0 (rev 01)
+memory: |
+  32435
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.18.16-1
+    remark: |
+      install issues, no Wi-Fi, no suspend
+    credit: |
+      @tegas
+    link: |
+      https://forum.qubes-os.org/t/13590
+
+---
