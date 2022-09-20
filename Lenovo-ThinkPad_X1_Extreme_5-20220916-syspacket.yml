@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X1 Extreme Gen 5 (21DE003JKR)
+bios: |
+  N3JET24W (1.08)
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-12700H
+cpu-short: |
+  i7-12700H
+chipset: |
+  Intel Corporation Device [8086:4641] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  NVIDIA Corporation GA107M [GeForce RTX 3050 Ti Mobile] [10de:25a0] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  RTX 3050 Ti Mobile
+network: |
+  Intel Corporation Device 51f0 (rev 01)
+memory: |
+  65307
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.18.16-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/13718/'><span class='icon'></span>troubleshooting &amp; workarounds required</a>
+    credit: |
+      @syspacket
+    link: |
+      https://forum.qubes-os.org/t/13718/
+
+---
