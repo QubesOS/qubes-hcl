@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad T480s
+bios: |
+  latest
+cpu: |
+  Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+cpu-short: |
+  i7-8650U
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
+chipset-short: |
+  Kaby Lake R
+gpu: |
+  Intel Corporation UHD Graphics 620
+gpu-short: |
+  Integrated Graphics (UHD 620)
+network: |
+  Intel Corporation Ethernet Connection
+  Intel Corporation Wireless 8265 / 8275
+memory: |
+  40705
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.64-1
+    remark: |
+      UEFI troubleshooting; touchscreen on USB
+    credit: |
+      @Quser59
+    link: |
+      https://forum.qubes-os.org/t/5851/62
+---
