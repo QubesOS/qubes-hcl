@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Star Labs
+model: |
+  StarLite Mk IV
+bios: |
+  8.15
+cpu: |
+  Intel(R) Pentium(R) Silver N5030 CPU @ 1.10GHz
+cpu-short: |
+  N5030
+chipset: |
+  Intel Corporation Device [8086:31f0] (rev 06)
+chipset-short: |
+  Gemini Lake
+gpu: |
+  Intel Corporation Device [8086:3184] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 605)
+network: |
+  Intel Corporation Device 31dc (rev 06)
+memory: |
+  8055
+scsi: |
+  Star Drive SATA  Rev: KA.3
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.0
+    xen: |
+      4.8.5-30.fc25
+    kernel: |
+      5.4.98-1
+    remark: |
+
+    credit: |
+      Stephen Edworthy
+    link: |
+      https://forum.qubes-os.org/t/14142
+
+---
