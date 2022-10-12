@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision 14 5470
+bios: |
+  1.4.2
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-12800H
+cpu-short: |
+  i7-12800H
+chipset: |
+  Intel Corporation Device [8086:4641] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+  NVIDIA Corporation Device [10de:25b9] (rev a1)
+gpu-short: |
+  Integrated Graphics (Iris Xe) & RTX A1000
+network: |
+  Intel Corporation Device 51f0 (rev 01)
+memory: |
+  32375
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.19.9-1
+    remark: |
+      Webcam / suspend do not work
+    credit: |
+      @makuoly
+    link: |
+      https://forum.qubes-os.org/t/14125
+
+---
