@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  Prime H510M-E
+bios: |
+  1601
+cpu: |
+  11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz
+cpu-short: |
+  i5-11400F
+chipset: |
+  Intel Corporation Device [8086:4c53] (rev 01)
+chipset-short: |
+  Tiger Lake-H
+gpu: |
+  NVIDIA Corporation TU117 [GeForce GTX 1650] [10de:1f82] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce GTX 1650
+network: |
+  Intel Corporation Ethernet Connection (14) I219-V (rev 11)
+  Realtek Semiconductor Co., Ltd. RTL8812AE 802.11ac PCIe Wireless Network Adapter (rev 01)
+memory: |
+  16217
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.64-1
+    remark: |
+      Boot installer in BIOS legacy mode.
+    credit: |
+      @rarez
+    link: |
+      https://forum.qubes-os.org/t/14210
+
+---
