@@ -43,7 +43,7 @@ usb: |
 versions:
 
   - works:
-      'yes'
+      'partial'
     qubes: |
       R4.1
     xen: |
@@ -51,7 +51,7 @@ versions:
     kernel: |
       5.15.14-1
     remark: |
-      loud fan noise, <a class='ext-link' href='https://forum.qubes-os.org/t/9633/6'><span class='icon'></span>read more</a>
+      <a class='ext-link' href='https://forum.qubes-os.org/t/9633/12'><span class='icon'></span>several issues</a>
     credit: |
       @wqpw
     link: |
