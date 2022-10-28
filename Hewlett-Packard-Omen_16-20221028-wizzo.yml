@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  OMEN 16
+bios: |
+  F.12
+cpu: |
+  AMD Ryzen 9 5900HX with Radeon Graphics
+cpu-short: |
+  Ryzen 9 5900HX
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation GA104M [GeForce RTX 3070 Mobile / Max-Q] [10de:249d] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [1002:1638] (rev c4) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (RX Vega 8 5000) & GeForce RTX 3070 Mobile
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 16)
+  Realtek Semiconductor Co., Ltd. Device 8852
+memory: |
+  32100
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.64-1
+    remark: |
+      no HDMI, no WiFi with 5.15 kernel
+    credit: |
+      @Wizzo_the_Wizard
+    link: |
+      https://forum.qubes-os.org/t/14491
+
+---
