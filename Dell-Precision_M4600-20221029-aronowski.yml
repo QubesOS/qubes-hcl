@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision M4600
+bios: |
+  A16
+cpu: |
+  Intel(R) Core(TM) i7-2720QM CPU @ 2.20GHz
+cpu-short: |
+  i7-2720QM
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  NVIDIA Corporation GF108GLM [Quadro 1000M] [10de:0dfa] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro 1000M
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
+  Qualcomm Atheros AR9285 Wireless Network Adapter (PCI-Express) (rev 01)
+memory: |
+  32725
+scsi: |
+  SPCC Solid State Rev: 6B0
+  DVD+-RW TS-U633J Rev: D400
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.52-1
+    remark: |
+
+    credit: |
+      @aronowski
+    link: |
+      https://forum.qubes-os.org/t/14514/
+
+---
