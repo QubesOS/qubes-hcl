@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Tuxedo
+model: |
+  Aura 15 (Gen1)
+bios: |
+  1.07.08TTR3
+cpu: |
+  AMD Ryzen 7 4700U with Radeon Graphics
+cpu-short: |
+  Ryzen 7 4700U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Renoir [1002:1636] (rev c2) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Renoir)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+  Intel Corporation Wi-Fi 6 AX200 (rev 1a)
+memory: |
+  64893
+scsi: |
+  Samsung SSD 860  Rev: 4B6Q
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.52-1
+    remark: |
+      kernel-latest & some <a class='ext-link' href='https://forum.qubes-os.org/t/14634'><span class='icon'></span>BIOS settings</a>
+    credit: |
+      @snufkin
+    link: |
+      https://forum.qubes-os.org/t/14634
+
+---
