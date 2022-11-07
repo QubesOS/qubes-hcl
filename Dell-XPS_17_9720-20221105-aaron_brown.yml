@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 17 9720
+bios: |
+  1.4.0
+cpu: |
+  12th Gen Intel(R) Core(TM) i9-12900HK
+cpu-short: |
+  i9-12900HK
+chipset: |
+  Intel Corporation Device [8086:4641] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GA106M [GeForce RTX 3060 Mobile / Max-Q] [10de:2520] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe) & GeForce RTX 3060 Mobile
+network: |
+  Intel Corporation Device 51f0 (rev 01)
+memory: |
+  65220
+scsi: |
+
+usb: |
+  5
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.0.2-2
+    remark: |
+      graphics requires troubleshooting
+    credit: |
+      Aaron Brown
+    link: |
+      https://forum.qubes-os.org/t/14674
+
+---
