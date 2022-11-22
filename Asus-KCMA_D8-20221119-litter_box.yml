@@ -42,18 +42,19 @@ usb: |
   7
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.1
-  xen: |
-    4.14.5
-  kernel: |
-    5.15.76-1
-  remark: |
-      <a class='ext-link' href='https://forum.qubes-os.org/t/14919/'><span class='icon'></span>USB/Mouse issues</a>
-  credit: |
-    @Litter_Box
-  link: |
-   https://defendwikileaks.org/
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.76-1
+    remark: |
+        <a class='ext-link' href='https://forum.qubes-os.org/t/14919/'><span class='icon'></span>USB/Mouse issues</a>
+    credit: |
+      @Litter_Box
+    link: |
+      https://defendwikileaks.org
+
 ---
