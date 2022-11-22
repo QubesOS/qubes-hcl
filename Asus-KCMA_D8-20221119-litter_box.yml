@@ -20,42 +20,40 @@ model: |
 bios: |
   Libreboot stable 20160907
 cpu: |
-  AMD Opteron(tm) Processor 4284
+  AMD Opteron(tm) Processor 4274 HE
 cpu-short: |
-  Opteron 4284
+  Opteron 4274 HE
 chipset: |
   Advanced Micro Devices, Inc. [AMD/ATI] RD890 Northbridge only dual slot (2x8) PCI-e GFX Hydra part [1002:5a12] (rev 02)
 chipset-short: |
-  AMD RD890
+  AMD
 gpu: |
-  NVIDIA Corporation GK208 [GeForce GT 710B] [10de:128b] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Pitcairn XT GL [FirePro W7000] [1002:6808] (prog-if 00 [VGA controller])
 gpu-short: |
-  GeForce GT 710B
+  FirePro W7000
 network: |
   Intel Corporation 82574L Gigabit Network Connection
   Intel Corporation 82574L Gigabit Network Connection
 memory: |
-  32636
+  65404
 scsi: |
-  ST9250315AS      Rev: SDM1
-  CDDVDW SH-S203D  Rev: SB00
+  Samsung SSD 860 Rev: 4B6Q
 usb: |
-  8
+  7
 versions:
 
-  - works:
-      'yes'
-    qubes: |
-      R4.0
-    xen: |
-      4.8.4
-    kernel: |
-      4.14.74-1
-    remark: |
-      Vikings D8
-    credit: |
-      Vikings GmbH
-    link: |
-      https://groups.google.com/d/msgid/qubes-users/673fd31c-5185-f85b-1ac2-4b98abf9ed3c%40vikings.net
-
+- works:
+    'yes'
+  qubes: |
+    R4.1
+  xen: |
+    4.14.5
+  kernel: |
+    5.15.76-1
+  remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/14919/'><span class='icon'></span>USB/Mouse issues</a>
+  credit: |
+    @Litter_Box
+  link: |
+   https://defendwikileaks.org/
 ---
