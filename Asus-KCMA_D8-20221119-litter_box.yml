@@ -51,7 +51,7 @@ versions:
     kernel: |
       5.15.76-1
     remark: |
-        <a class='ext-link' href='https://forum.qubes-os.org/t/14919/'><span class='icon'></span>USB/Mouse issues</a>
+      no sleep mode, <a class='ext-link' href='https://forum.qubes-os.org/t/14919/'><span class='icon'></span>USB/Mouse issues</a>
     credit: |
       @Litter_Box
     link: |
