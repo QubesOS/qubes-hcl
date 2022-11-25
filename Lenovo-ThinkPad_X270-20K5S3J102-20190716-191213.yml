@@ -45,7 +45,7 @@ versions:
   - works:
       'yes'
     qubes: |
-      R4.0.2rc1
+      R4.0.2-RC1
     xen: |
       4.8.5-7.fc25
     kernel: |
