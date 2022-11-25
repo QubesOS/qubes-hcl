@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Toshiba
+model: |
+  Tecra A50-C
+bios: |
+  Version 5.70
+cpu: |
+  Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+cpu-short: |
+  i7-6600U
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1904] (rev 08)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation Skylake GT2 [HD Graphics 520] [8086:1916] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 520)
+network: |
+  Intel Corporation Ethernet Connection I219-LM (rev 21)
+  Intel Corporation Wireless 8260 (rev 3a)
+memory: |
+  16289
+scsi: |
+  SAMSUNG SSD SM84 Rev: 1D0Q
+  Elements 2621    Rev: 1034
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.76-1
+    remark: |
+      suspend not tested
+    credit: |
+      @Disposable
+    link: |
+      https://forum.qubes-os.org/t/15022
+
+---
