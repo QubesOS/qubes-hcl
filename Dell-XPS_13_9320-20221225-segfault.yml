@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 13 (9320)
+bios: |
+  1.7.1
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-1280P
+cpu-short: |
+  i7-1280P
+chipset: |
+  00.0 Host bridge [0600]: Intel Corporation Device [8086:4641] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  02.0 VGA compatible controller [0300]: Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  14.3 Network controller: Intel Corporation Device 51f0 (rev 01)
+memory: |
+  32372
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.0.8-1
+    remark: |
+      requires kernel-latest, no wifi/sound/sleep
+    credit: |
+      @segfault
+    link: |
+      https://forum.qubes-os.org/t/15590
+
+---
