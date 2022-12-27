@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  B660M-A (MS-7D43)
+bios: |
+  1.90
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-12700
+cpu-short: |
+  i7-12700
+chipset: |
+  Intel Corporation Device [8086:4668] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation AlderLake-S GT1 [8086:4680] (rev 0c) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:743f] (rev c1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 770) & AMD Navi 24
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller (rev 05)
+memory: |
+  65323
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.0.8-1
+    remark: |
+      Issues with iGPU
+    credit: |
+      tv.fuzzy
+    link: |
+      https://forum.qubes-os.org/t/15549
+
+---
