@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  OMEN 17 (an007na)
+bios: |
+  F.07
+cpu: |
+  Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz
+cpu-short: |
+  i5-7300HQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5910] (rev 05)
+chipset-short: |
+   Kaby Lake
+gpu: |
+  Intel Corporation HD Graphics 630 [8086:591b] (rev 04) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GP107M [GeForce GTX 1050 Mobile] [10de:1c8d] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 630) & GeForce GTX 1050 Mobile
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 16)
+  Intel Corporation Wireless 7265 (rev 61)
+memory: |
+  16267
+scsi: |
+  HGST HTS721010A9 Rev: A3T0
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.78-1
+    remark: |
+
+    credit: |
+      Focus Kiseri
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CA%2BFKxEss%2BWjKKgdeKzXfdX9bAgT9Nv0EuP9As_yfjPhPQhPYGg%40mail.gmail.com
+
+---
