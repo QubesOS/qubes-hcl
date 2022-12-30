@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Huawei
+model: |
+  MateBook D14 2021 (NBD-WXX9)
+bios: |
+  2.19
+cpu: |
+  11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+cpu-short: |
+  i5-1135G7
+chipset: |
+  Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a14] (rev 01)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] [8086:9a49] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Wi-Fi 6 AX201 (rev 20)
+memory: |
+  8023
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.78-1
+    remark: |
+      no audio (mic, cam & bluetooth untested)
+    credit: |
+      @Luc
+    link: |
+      https://forum.qubes-os.org/t/15657/
+
+---
