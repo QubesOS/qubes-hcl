@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Purism
+model: |
+  Librem 14 v1
+bios: |
+  PureBoot 23
+cpu: |
+  Intel(R) Core(TM) i7-10710U CPU @ 1.10GHz
+cpu-short: |
+  i7-10710U
+chipset: |
+  Intel Corporation Device [8086:9b51]
+chipset-short: |
+  Comet Lake
+gpu: |
+  Intel Corporation Comet Lake UHD Graphics [8086:9bca] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 620)
+network: |
+  Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  32642
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.81-1
+    remark: |
+      issues with CPU frequency, slow charging, some function keys
+    credit: |
+      @wqpw
+    link: |
+      https://forum.qubes-os.org/t/5855/76
+
+---
