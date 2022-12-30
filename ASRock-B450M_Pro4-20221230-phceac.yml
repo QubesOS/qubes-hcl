@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  ASRock
+model: |
+  B450M Pro4
+bios: |
+  P3.50
+cpu: |
+  AMD Ryzen 7 1700 Eight-Core Processor
+cpu-short: |
+  Ryzen 7 1700
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 17h (Models 00h-0fh) Root Complex [1022:1450]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Oland PRO [Radeon R7 240/340] [1002:6613] (rev 87) (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon R7
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  32699
+scsi: |
+  CT4000MX500SSD1  Rev: 045
+  CT2000MX500SSD1  Rev: 033
+  iHAS124   F      Rev: CL9M
+  CT1000X8SSD9     Rev: PMAP
+  STORE N GO       Rev: 0000
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.81-1
+    remark: |
+
+    credit: |
+      @phceac (CharlieC)
+    link: |
+      https://forum.qubes-os.org/t/15703
+
+---
