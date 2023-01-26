@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Acer
+model: |
+  Predator PH315-54
+bios: |
+  V1.14
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+cpu-short: |
+  i7-11800H
+chipset: |
+  Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a36] (rev 05)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  Intel Corporation TigerLake-H GT1 [UHD Graphics] [8086:9a60] (rev 01) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GA106M [GeForce RTX 3060 Mobile / Max-Q] [10de:2520] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD) & GeForce RTX 3060 Mobile
+network: |
+  Intel Corporation Tiger Lake PCH CNVi WiFi (rev 11)
+  Realtek Semiconductor Co., Ltd. Device 2600 (rev 21)
+memory: |
+  65315
+scsi: |
+  SanDisk SDSSDH35 Rev: 4000
+usb: |
+  3
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.1.6-1
+    remark: |
+      sound issues
+    credit: |
+      @ful0n
+    link: |
+      https://forum.qubes-os.org/t/16245
+
+---
