@@ -50,7 +50,7 @@ versions:
     kernel: |
       5.15.52-1
     remark: |
-
+      requires kernel 6.1+ and igfx troubleshooting
     credit: |
       @sheepskin
     link: |
