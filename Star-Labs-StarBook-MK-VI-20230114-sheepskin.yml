@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Star Labs
+model: |
+  StarBook MK VI
+bios: |
+  8.21
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-1260P
+cpu-short: |
+  i7-1260P
+chipset: |
+  Intel Corporation Device [8086:4621] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Wi-Fi 6 AX210/AX211/AX411 160MHz (rev 1a)
+memory: |
+  65379
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.52-1
+    remark: |
+
+    credit: |
+      @sheepskin
+    link: |
+      https://forum.qubes-os.org/t/16130
+
+---
