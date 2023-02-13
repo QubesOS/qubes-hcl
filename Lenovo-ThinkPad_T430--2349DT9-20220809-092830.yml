@@ -18,7 +18,7 @@ brand: |
 model: |
   ThinkPad T430 (2349DT9)
 bios: |
-  Heads v0.2.0-1222-g21505aa
+  Heads v0.2.0-1222
 cpu: |
   Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz
 cpu-short: |
