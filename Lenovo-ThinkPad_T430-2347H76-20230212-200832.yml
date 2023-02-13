@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad T430 (2347H76)
+bios: |
+  Heads v0.2.0-1359
+cpu: |
+  Intel(R) Core(TM) i7-3840QM CPU @ 2.80GHz
+cpu-short: |
+  i7-3840QM
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4000)
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
+  Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] (rev 34)
+memory: |
+  16340
+scsi: |
+  PNY 500GB SATA S Rev: 5A0
+  DVD ROM DDU7740H Rev: 1RS1
+usb: |
+  3
+
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.52-1
+    remark: |
+
+    credit: |
+      @Litter_Box
+    link: |
+      https://forum.qubes-os.org/t/5847/61
+---
