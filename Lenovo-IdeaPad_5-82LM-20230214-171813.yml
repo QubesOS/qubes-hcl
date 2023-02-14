@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  IdeaPad 5 (82LM)
+bios: |
+  G5CN16WW(V1.04)
+cpu: |
+  AMD Ryzen 5 5500U with Radeon Graphics
+cpu-short: |
+  Ryzen 5 5500U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Lucienne [1002:164c] (rev c2) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon)
+network: |
+  Intel Corporation Wi-Fi 6 AX200 (rev 1a)
+memory: |
+  15722
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.89-1
+    remark: |
+      no wake from sleep
+    credit: |
+      @uon
+    link: |
+      https://forum.qubes-os.org/t/16814/
+
+---
