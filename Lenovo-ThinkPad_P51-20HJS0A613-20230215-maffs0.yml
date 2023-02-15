@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad P51 (20HJS0A613)
+bios: |
+  N1UET86W (1.60 )
+cpu: |
+  Intel(R) Core™ i7-7820HQ CPU @ 2.90GHz
+cpu-short: |
+  i7-7820HQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5910] (rev 05)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  NVIDIA Corporation GM107GLM [Quadro M1200 Mobile] [10de:13b6] (rev a2) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro M1200
+network: |
+  Intel Corporation Ethernet Connection (5) I219-LM (rev 31)
+  Intel Corporation Wireless 8265 / 8275 (rev 78)
+memory: |
+  16169
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.81-1
+    remark: |
+      no audio on HDMI
+    credit: |
+      @maffs0
+    link: |
+      https://forum.qubes-os.org/t/5850/16
+---
