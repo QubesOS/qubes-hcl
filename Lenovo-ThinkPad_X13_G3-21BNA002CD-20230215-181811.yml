@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X13 G3 (21BNA002CD)
+bios: |
+  N3CET47W (1.28 )
+cpu: |
+  12th Gen Intel(R) Core(TM) i5-1240P
+cpu-short: |
+  i5-1240P
+chipset: |
+  Intel Corporation Device [8086:4621] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Device 51f0 (rev 01)
+memory: |
+  16091
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.1.7-1
+    remark: |
+
+    credit: |
+      @fuel_can
+    link: |
+      https://forum.qubes-os.org/t/16843/
+---
