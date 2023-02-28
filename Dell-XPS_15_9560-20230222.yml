@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 15 9560
+bios: |
+  1.24.0
+cpu: |
+  Intel(R) Core™ i7-7700HQ CPU @ 2.80GHz
+cpu-short: |
+  i7-7700HQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5910] (rev 05)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Intel Corporation HD Graphics 630 [8086:591b] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 630)
+network: |
+  Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
+memory: |
+  32334
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.89-1
+    remark: |
+
+    credit: |
+      @anonDoveee
+    link: |
+      https://forum.qubes-os.org/t/16962
+
+---
