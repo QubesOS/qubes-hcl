@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Vostro 3425
+bios: |
+  1.6.0
+cpu: |
+  AMD Ryzen 5 5625U with Radeon Graphics
+cpu-short: |
+  Ryzen 5 5625U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:15e7] (rev c2) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+  Realtek Semiconductor Co., Ltd. RTL8821CE 802.11ac PCIe Wireless Network Adapter
+memory: |
+  15720
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.89-1
+    remark: |
+      no suspend
+    credit: |
+      Taro Yamada
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/7om7nqqjYL6xVDfmsDjGGr2X7Sd7ggfvJESatGchHDQqO1UARnGAchiUa165HwJjm01aRAkpqK70RMwBH8afZ7U4exh4a_lZpH0Uk75vHqQ%3D%40proton.me
+
+---
