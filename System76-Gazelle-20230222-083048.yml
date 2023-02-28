@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  System76
+model: |
+  Gazelle
+bios: |
+  2022-06-07_090f9e0
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-12700H
+cpu-short: |
+  i7-12700H
+chipset: |
+  Intel Corporation Device [8086:4641] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GA106M [GeForce RTX 3060 Mobile / Max-Q] [10de:2520] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe) & RTX 3060 Mobile
+network: |
+  Intel Corporation Device 51f0 (rev 01)
+  Intel Corporation Ethernet Connection (16) I219-V (rev 01)
+memory: |
+  40804
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.1.12-1
+    remark: |
+
+    credit: |
+      Sec Is Fun
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/167707316701.924674.12967958698098045607%40startmail.com
+
+---
