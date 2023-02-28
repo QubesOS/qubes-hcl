@@ -46,7 +46,7 @@ usb: |
 versions:
 
   - works:
-      'yes'
+      'partial'
     qubes: |
       R4.1
     xen: |

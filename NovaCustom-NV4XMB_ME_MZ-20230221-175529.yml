@@ -43,7 +43,7 @@ usb: |
 versions:
 
   - works:
-      'FIXME:yes|no|partial'
+      'partial'
     qubes: |
       R4.1
     xen: |
