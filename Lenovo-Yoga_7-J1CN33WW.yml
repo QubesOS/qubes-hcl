@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Yoga 7 (16IAP7/82QG)
+bios: |
+  J1CN33WW
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-1260P
+cpu-short: |
+  i7-1260P
+chipset: |
+  Intel Corporation Device [8086:4621] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])  a.k.a "Intel Iris Xe Graphics"
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Device 51f0 (rev 01)
+memory: |
+  16108
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.89-1
+    remark: |
+      kernel option `i915.force_probe=*​` needed, slow system
+    credit: |
+      Me
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/Q2_mK98RV81FvuX7bnZcqkL_kXI55ckJepb3fbubiWTazWmCEs4GfzwZuNXLodMdikuHHSkAv6x2RJEai_t3m_VPReJnO0VXCoWAnDK9cuk%3D%40proslo.dev
+
+---
