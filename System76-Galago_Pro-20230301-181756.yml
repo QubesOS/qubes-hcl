@@ -44,7 +44,7 @@ usb: |
 versions:
 
   - works:
-      'yes'
+      'partial'
     qubes: |
       R4.1
     xen: |
@@ -52,7 +52,7 @@ versions:
     kernel: |
       5.15.94-1
     remark: |
-
+      brightness stuck at half level, intermittent wifi issues
     credit: |
       @procShield
     link: |
