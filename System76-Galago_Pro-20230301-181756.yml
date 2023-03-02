@@ -1,0 +1,61 @@
+---
+
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  System76
+model: |
+  Galago Pro
+bios: |
+  2022-11-21_b337ac6
+cpu: |
+  12th Gen Intel(R) Core™ i5-1240P
+cpu-short: |
+  i5-1240P
+chipset: |
+  Intel Corporation Device [8086:4621] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:4626] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Device 51f0 (rev 01)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  8036
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.94-1
+    remark: |
+
+    credit: |
+      @procShield
+    link: |
+      https://forum.qubes-os.org/t/17134
+
+---
