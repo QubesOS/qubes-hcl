@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+
+remap:
+  'yes'
+brand: |
+  Purism
+model: |
+  Librem 13 v3
+bios: |
+  coreboot 4.7 (Purism 4)
+cpu: |
+  Intel(R) Core™ i7-6500U CPU @ 2.50GHz
+cpu-short: |
+  i7-6500U
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1904] (rev 08)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation Skylake GT2 [HD Graphics 520] [8086:1916] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 520)
+network: |
+  Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
+memory: |
+  32682
+scsi: |
+  Samsung SSD 860 Rev: 2B6Q
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.4
+    kernel: |
+      5.16.11-1
+    remark: |
+      internal USB keyboard
+    credit: |
+      @SteveC
+    link: |
+      https://forum.qubes-os.org/t/17156
+
+---
