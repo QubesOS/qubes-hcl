@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  ZenBook Flip 15 (UX564EH)
+bios: |
+  UX564EH.203
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+cpu-short: |
+  i7-1165G7
+chipset: |
+  00.0 Host bridge [0600]: Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a14] (rev 01)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  02.0 VGA compatible controller [0300]: Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] [8086:9a49] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  14.3 Network controller: Intel Corporation Wi-Fi 6 AX201 (rev 20)
+memory: |
+  16062
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.1.12-1
+    remark: |
+      issues with assigning PCI devices
+    credit: |
+      @SGsQeS4SHNrm
+    link: |
+      https://forum.qubes-os.org/t/17187
+
+---
