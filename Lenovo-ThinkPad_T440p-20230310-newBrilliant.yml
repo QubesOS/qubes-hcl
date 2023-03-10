@@ -1,0 +1,63 @@
+---
+
+layout:
+  'hcl'
+type:
+  'notebook'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad T440p (20AN006NUS)
+bios: |
+  GLETA2WW (2.56)
+cpu: |
+  Intel(R) Core™ i7-4900MQ CPU @ 2.80GHz
+cpu-short: |
+  i7-4900MQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller [8086:0c04] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GK208M [GeForce GT 730M] [10de:1290] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4600) && GeForce GT 730M
+network: |
+  Intel Corporation Ethernet Connection I217-LM (rev 04)
+  Intel Corporation Wireless 7260 (rev 83)
+memory: |
+  16071
+scsi: |
+  CT1000MX500SSD1 Rev: 032
+  DVD-RAM UJ8E2 Rev: SB01
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.94-1
+    remark: |
+
+    credit: |
+      @newBrilliant
+    link: |
+      https://forum.qubes-os.org/t/17316
+
+---
