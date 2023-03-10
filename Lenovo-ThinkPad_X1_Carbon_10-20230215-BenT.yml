@@ -42,7 +42,7 @@ usb: |
 versions:
 
   - works:
-      'partial'
+      'yes'
     qubes: |
       R4.1
     xen: |
@@ -50,7 +50,7 @@ versions:
     kernel: |
       6.1.7-1
     remark: |
-      no sleep/wake
+      needs kernel 6.0.7+ for sleep/wake
     credit: |
       @BenT
     link: |
