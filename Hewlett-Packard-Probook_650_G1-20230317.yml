@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  ''
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  ProBook 650 G1
+bios: |
+  L78 Ver. 01.22
+cpu: |
+  Intel(R) Core(TM) i7-4610M CPU @ 3.00GHz
+cpu-short: |
+  i7-4610M
+chipset: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller [8086:0c04] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4600)
+network: |
+  Intel Corporation Ethernet Connection I217-LM (rev 04)
+  Intel Corporation Wireless 7260 (rev 73)
+memory: |
+  7609
+scsi: |
+  WD Green 2.5 480 Rev: 1100
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.94-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/17473'><span class='icon'></span>needs troubleshooting</a>
+    credit: |
+      @disclose-mushy
+    link: |
+      https://forum.qubes-os.org/t/17473
+
+---
