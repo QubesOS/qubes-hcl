@@ -51,7 +51,7 @@ versions:
     kernel: |
       6.1.12-1
     remark: |
-      <a class='ext-link' href=''><span class='icon'></span>needs troubleshooting</a>
+      <a class='ext-link' href='https://forum.qubes-os.org/t/17400'><span class='icon'></span>needs troubleshooting</a>
     credit: |
       @glenl
     link: |
