@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  B550
+bios: |
+  2803
+cpu: |
+  AMD Ryzen 7 PRO 4750G with Radeon Graphics
+cpu-short: |
+  Ryzen 7 PRO 4750G
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation GP108 [GeForce GT 1030] [10de:1d01] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce GT 1030
+network: |
+  Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+memory: |
+  130865
+scsi: |
+  SSD 256GB        Rev: 1219
+  SSD 256GB        Rev: 61I3
+usb: |
+  4
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.94-1
+    remark: |
+      Qubes OS freeze, crash and reboots
+    credit: |
+      @oh_no
+    link: |
+      https://forum.qubes-os.org/t/17621
+
+---
