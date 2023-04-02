@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  Zenbook 14 (UX3402ZA)
+bios: |
+  UX3402ZA.309
+cpu: |
+  12th Gen Intel(R) Core™ i7-1260P
+cpu-short: |
+  i7-1260P
+chipset: |
+  00.0 Host bridge [0600]: Intel Corporation Device [8086:4621] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  02.0 VGA compatible controller [0300]: Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  14.3 Network controller: Intel Corporation Device 51f0 (rev 01)
+memory: |
+  16010
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.1.12-1
+    remark: |
+      no wifi
+    credit: |
+      @fugafodag
+    link: |
+      https://forum.qubes-os.org/t/17636
+
+---
