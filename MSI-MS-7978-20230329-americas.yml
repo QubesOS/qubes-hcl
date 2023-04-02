@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  MS-7978
+bios: |
+  A.30
+cpu: |
+  Intel(R) Core™ i7-6700K CPU @ 4.00GHz
+cpu-short: |
+  i7-6700K
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:191f] (rev 07)
+chipset-short: |
+  Skylake
+gpu: |
+  NVIDIA Corporation GP104 [GeForce GTX 1070] [10de:1b81] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce GTX 1070
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8192EE PCIe Wireless Network Adapter
+  Qualcomm Atheros Killer E2400 Gigabit Ethernet Controller (rev 10)
+memory: |
+  16341
+scsi: |
+  EFAX-68JH4N1 Rev: 0101
+  008-2DR166 Rev: 0101
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.52-1
+    remark: |
+
+    credit: |
+      @americas
+    link: |
+      https://forum.qubes-os.org/t/17691
+
+---
