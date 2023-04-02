@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  OptiPlex 9020
+bios: |
+  A09
+cpu: |
+  Intel(R) Core™ i5-4590 CPU @ 3.30GHz
+cpu-short: |
+  i5-4590
+chipset: |
+  Intel Corporation 4th Gen Core Processor DRAM Controller [8086:0c00] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller [8086:0412] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4600)
+network: |
+  Intel Corporation Ethernet Connection I217-LM (rev 04)
+memory: |
+  32676
+scsi: |
+  SATA SSD Rev: 61.5
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.89-1
+    remark: |
+
+    credit: |
+      @bill
+    link: |
+      https://forum.qubes-os.org/t/17583
+
+---
