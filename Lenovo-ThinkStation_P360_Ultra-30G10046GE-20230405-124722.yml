@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkStation P360 Ultra (30G10046GE)
+bios: |
+  S0FKT27A
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-12700K
+cpu-short: |
+  i7-12700K
+chipset: |
+  Intel Corporation Device [8086:4668] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation AlderLake-S GT1 [8086:4680] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 770)
+network: |
+  Intel Corporation Ethernet Controller I225-LM (rev 03)
+  Intel Corporation I210 Gigabit Network Connection (rev 03)
+memory: |
+  32406
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.1.12-1
+    remark: |
+      needs kernel 6.1+ for smooth performance
+    credit: |
+      @Hug1985
+    link: |
+      https://forum.qubes-os.org/t/17843/
+
+---
