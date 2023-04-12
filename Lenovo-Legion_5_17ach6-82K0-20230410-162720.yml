@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Legion 5 17ach6 (82K0)
+bios: |
+  HHCN31WW
+cpu: |
+  AMD Ryzen 5 5600H with Radeon Graphics
+cpu-short: |
+  Ryzen 5 5600H
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation TU117BM [GeForce GTX 1650 Mobile Refresh] [10de:1fdd] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [Radeon Vega Series / Radeon Vega Mobile Series] [1002:1638] (rev c6) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (RX Vega 8 5000) & GeForce GTX 1650 Mobile
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+  Realtek Semiconductor Co., Ltd. RTL8852AE 802.11ax PCIe Wireless Network Adapter
+memory: |
+  14188
+scsi: |
+  WDC WD10SPZX-08Z Rev: 1A05
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      4.2.0-alpha
+    xen: |
+      4.17.0
+    kernel: |
+      6.2.6-1
+    remark: |
+      trackpad requires kernel 6.2.6+
+    credit: |
+      @51lieal
+    link: |
+      https://forum.qubes-os.org/t/17914
