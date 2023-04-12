@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkBook 14 G3 ACL (21A2)
+bios: |
+  GQCN30WW(V1.16)
+cpu: |
+  AMD Ryzen 5 5500U with Radeon Graphics
+cpu-short: |
+  Ryzen 5 5500U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Lucienne [1002:164c] (rev c2) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+  Realtek Semiconductor Co., Ltd. Device b852
+memory: |
+  14158
+scsi: |
+
+usb: |
+  2
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.1.12-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/17952'><span class='icon'></span>troubleshooting required</a>
+    credit: |
+      oftheforest
+    link: |
+      https://forum.qubes-os.org/t/17952
+
+---
