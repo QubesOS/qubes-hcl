@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  MS-7D25
+bios: |
+  1.B0
+cpu: |
+  13th Gen Intel(R) Core(TM) i5-13600K
+cpu-short: |
+  i5-13600K
+chipset: |
+  Intel Corporation Device [8086:a704] (rev 01)
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Device [8086:a780] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 770)
+network: |
+  Intel Corporation Device 7af0 (rev 11)
+  Intel Corporation Ethernet Controller I225-V (rev 03)
+memory: |
+  65317
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.1.12-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/17982'><span class='icon'></span>requires troubleshooting</a>
+    credit: |
+      @taradiddles
+    link: |
+      https://forum.qubes-os.org/t/17982
+
+---
