@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'v1.02H'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  P8Z77-M Pro
+bios: |
+  Heads v0.2.0-1515
+cpu: |
+  Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz
+cpu-short: |
+  i7-3770
+chipset: |
+  Intel Corporation Xeon E3-1200 v2/3rd Gen Core processor DRAM Controller [8086:0150] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation Xeon E3-1200 v2/3rd Gen Core processor Graphics Controller [8086:0162] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4000)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 09)
+memory: |
+  32724
+scsi: |
+  INTEL SSDSC2BA40 Rev: 0265
+usb: |
+  4
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.94-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/17955'><span class='icon'></span>First mATX Intel Desktop added to Heads firmware</a>
+    credit: |
+      @Plexus
+    link: |
+      https://forum.qubes-os.org/t/17956
+
+---
