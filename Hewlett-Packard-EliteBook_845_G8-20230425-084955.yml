@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  EliteBook 845 G8
+bios: |
+  T82 Ver. 01.10.01
+cpu: |
+  AMD Ryzen 7 PRO 5850U with Radeon Graphics
+cpu-short: |
+   Ryzen 7 PRO 5850U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [1002:1638] (rev d1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (RX Vega 8 5000)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8822CE 802.11ac PCIe Wireless Network Adapter
+memory: |
+  32065
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.94-1
+    remark: |
+
+    credit: |
+      Bernhard Haaber
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/5fa9593f-88bd-5424-740f-781a285fb760%40web.de
+
+---
