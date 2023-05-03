@@ -3,7 +3,7 @@
 layout:
   'hcl'
 type:
-  'notebook'
+  'laptop'
 hvm:
   'yes'
 iommu:
