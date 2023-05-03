@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  ROG Zephyrus G14 (GA402RJ)
+bios: |
+  GA402RJ.318
+cpu: |
+  AMD Ryzen 9 6900HS with Radeon Graphics
+cpu-short: |
+  Ryzen 9 6900HS
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14b5] (rev 01)
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:73ef] (rev c2) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:1681] (rev c7) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Rembrandt) & RX 6650 XT
+network: |
+  MEDIATEK Corp. Device 0616
+memory: |
+  15596
+scsi: |
+
+usb: |
+  5
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.103-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/18378/'><span class='icon'></span>requires troubleshooting</a>
+    credit: |
+      @wahcha
+    link: |
+      https://forum.qubes-os.org/t/18378/
+
+---
