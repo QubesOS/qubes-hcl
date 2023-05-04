@@ -42,7 +42,7 @@ usb: |
 versions:
 
   - works:
-      'yes'
+      'partial'
     qubes: |
       R4.1
     xen: |
@@ -50,7 +50,7 @@ versions:
     kernel: |
       5.15.94-1
     remark: |
-
+      <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/073859e0-3338-2ff5-5994-c6b796d01a27%40web.de'><span class='icon'></span>suspend issues, read more</a>
     credit: |
       Bernhard Haaber
     link: |
