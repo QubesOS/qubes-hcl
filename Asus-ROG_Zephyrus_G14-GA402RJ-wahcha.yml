@@ -31,7 +31,7 @@ gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:73ef] (rev c2) (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:1681] (rev c7) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Rembrandt) & RX 6650 XT
+  Integrated Graphics (Rembrandt) & RX 6700S
 network: |
   MEDIATEK Corp. Device 0616
 memory: |
