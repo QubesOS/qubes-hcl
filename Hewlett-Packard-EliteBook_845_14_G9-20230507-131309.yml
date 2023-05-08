@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  EliteBook 845 G9
+bios: |
+  U82 Ver. 01.03.01
+cpu: |
+  AMD Ryzen 7 PRO 6850U with Radeon Graphics
+cpu-short: |
+  Ryzen 7 PRO 6850U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14b5] (rev 01)
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:1681] (rev d4) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Rembrandt)
+network: |
+  Intel Corporation Wi-Fi 6 AX200 (rev 1a)
+memory: |
+  64833
+scsi: |
+
+usb: |
+  7
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.103-1
+    remark: |
+      no suspend, no speaker, wifi with different card
+    credit: |
+      @John2
+    link: |
+      https://forum.qubes-os.org/t/18445/
+
+---
