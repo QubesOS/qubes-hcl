@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  MEG x670e ACE (MS-7D69)
+bios: |
+  1.84
+cpu: |
+  AMD Ryzen 9 7900X 12-Core Processor
+cpu-short: |
+  Ryzen 9 7900x
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14d8]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation TU102 [GeForce RTX 2080 Ti Rev. A] [10de:1e07] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Raphael [1002:164e] (rev c2) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (AMD) & RTX 2080ti
+network: |
+  Aquantia Corp. AQC113CS NBase-T/IEEE 802.3bz Ethernet Controller [AQtion] (rev 03)
+memory: |
+  31892
+scsi: |
+  CT1000MX500SSD1  Rev: 023
+  BD-RE  BH16NS55  Rev: 1.02
+  USB Flash Drive  Rev: 1100
+usb: |
+  8
+versions:
+  - works:
+      partial
+    qubes: |
+      4.2.0-alpha
+    xen: |
+      4.17.0
+    kernel: |
+      6.1.28-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/19035'><span class='icon'></span>read more</a>
+    credit: |
+      rickyjumb
+    link: |
+      https://forum.qubes-os.org/t/19035
