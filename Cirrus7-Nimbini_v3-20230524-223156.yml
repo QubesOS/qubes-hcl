@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Cirrus7
+model: |
+  Nimbini v3 (NUC12WSHv5)
+bios: |
+  WSADLV57.0087.2023.0306.1817
+cpu: |
+  12th Gen Intel(R) Core(TM) i5-1250P
+cpu-short: |
+  i5-1250P
+chipset: |
+  Intel Corporation Device [8086:4621] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Iris Xe 80U
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Wi-Fi 6E AX211
+memory: |
+  65092
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.1.12-1
+    remark: |
+      needs kernel latest
+    credit: |
+      Eichennarr
+    link: |
+      https://forum.qubes-os.org/t/18827
+
+---
