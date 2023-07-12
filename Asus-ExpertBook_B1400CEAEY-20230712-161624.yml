@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  ExpertBook (B1400CEAEY)
+bios: |
+  B1400CEAEY.321
+cpu: |
+  11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+cpu-short: |
+  i5-1135G7
+chipset: |
+  Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a14] (rev 01)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] [8086:9a49] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Wi-Fi 6 AX201 (rev 20)
+  Intel Corporation Ethernet Connection (13) I219-V (rev 20)
+memory: |
+  32458
+scsi: |
+  WDC WD10SPZX-24Z Rev: 1A04
+usb: |
+  2
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.3.9-1
+    remark: |
+
+    credit: |
+      anonymous
+    link: |
+
+---
