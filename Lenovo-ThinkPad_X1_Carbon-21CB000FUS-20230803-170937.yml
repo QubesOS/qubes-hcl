@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'yes'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X1 Carbon (21CB000FUS)
+bios: |
+  N3AET72W (1.37)
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-1270P
+cpu-short: |
+  i7-1270P
+chipset: |
+  Intel Corporation Device [8086:4621] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Device 51f0 (rev 01)
+memory: |
+  32433
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.1.35-1
+    remark: >
+      Requires latest kernels.  No resume / mic.
+    credit: |
+      @cfm
+    link: |
+      https://forum.qubes-os.org/t/20190/
+
+---
