@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Intel
+model: |
+  NUC13ANHi5
+bios: |
+  ANRPL357.0027.2023.0607.1754
+cpu: |
+  13th Gen Intel(R) Core(TM) i5-1340P
+cpu-short: |
+  i5-1340P
+chipset: |
+  Intel Corporation Device [8086:a707]
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Device [8086:a7a0] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Device 51f1 (rev 01)
+  Intel Corporation Device 125c (rev 04)
+memory: |
+  65084
+scsi: |
+  Samsung SSD 870  Rev: 2B6Q
+usb: |
+  4
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.3.9-1
+    remark: |
+      no resume
+    credit: |
+      @QubesAnon
+    link: |
+      https://forum.qubes-os.org/t/20088/
+
+---
