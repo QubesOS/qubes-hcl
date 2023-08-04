@@ -10,7 +10,7 @@ iommu:
 slat:
   'yes'
 tpm:
-  'unknown'
+  ''
 remap:
   'yes'
 brand: |
@@ -18,11 +18,11 @@ brand: |
 model: |
   Librem 14 v1
 bios: |
-  4.19 (Purism 1)
+  PureBoot 27.1
 cpu: |
   Intel(R) Core(TM) i7-10710U CPU @ 1.10GHz
 cpu-short: |
- i7-10710U
+  i7-10710U
 chipset: |
   Intel Corporation Device [8086:9b51]
 chipset-short: |
@@ -32,7 +32,7 @@ gpu: |
 gpu-short: |
   Integrated Graphics (UHD 620)
 network: |
-  Qualcomm Atheros AR9462 Wireless Network Adapter (rev ff)
+  Qualcomm Atheros AR9462 Wireless Network Adapter (rev 01)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
 memory: |
   65410
@@ -49,12 +49,12 @@ versions:
     xen: |
       4.14.5
     kernel: |
-      5.15.94-1
+      6.1.35-1
     remark: |
-      microphone works with coreboot 4.19
+
     credit: |
-      @dom0
+      @FranklyFlawless
     link: |
-      https://forum.qubes-os.org/t/5855/84
+      https://forum.qubes-os.org/t/5855/87
 
 ---
