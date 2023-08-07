@@ -1,0 +1,64 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Gigabyte
+model: |
+  B650E Aorus Master
+bios: |
+  F3c
+cpu: |
+  AMD Ryzen 9 7950X 16-Core Processor
+cpu-short: |
+  Ryzen 9 7950X
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14d8]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] [1002:731f] (rev c0) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Raphael [1002:164e] (rev c1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (AMD) & Radeon RX (Navi 10)
+network: |
+  Intel Corporation Ethernet Controller I225-V [8086:15f3] (rev 01)
+  MEDIATEK Corp. MT7922 802.11ax PCI Express Wireless Network Adapter [14c3:0616]
+memory: |
+  64663
+scsi: |
+  SanDisk SDSSDXPS Rev: 00RL
+  TOSHIBA MG09ACA1 Rev: 0104
+  TOSHIBA HDWD130  Rev: ACF0
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      4.2.0-alpha
+    xen: |
+      4.17.1
+    kernel: |
+      6.1.35-1
+    remark: |
+      <a class='ext-link' href='https://groups.google.com/d/msgid/qubes-users/84c3c748b37bdac5df01a5a45ef73ac223c5038a.camel%40etorok.net'><span class='icon'></span>read details</a>
+    credit: |
+      Edwin Török
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/84c3c748b37bdac5df01a5a45ef73ac223c5038a.camel%40etorok.net
+
+---
