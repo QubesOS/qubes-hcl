@@ -52,7 +52,7 @@ versions:
     kernel: |
       6.1.42-1
     remark: |
-      <a class='ext-link' href=''><span class='icon'></span>display issues unrelated to Qubes OS</a>
+      <a class='ext-link' href='https://forum.qubes-os.org/t/20346'><span class='icon'></span>display issues unrelated to Qubes OS</a>
     credit: |
       @onisec
     link: |
