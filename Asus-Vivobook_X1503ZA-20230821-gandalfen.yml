@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  Vivobook X1503ZA
+bios: |
+  X1503ZA.305
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-12700H
+cpu-short: |
+  i7-12700H
+chipset: |
+  Intel Corporation Device [8086:4641] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  MEDIATEK Corp. Device 7961
+memory: |
+  16076
+scsi: |
+
+usb: |
+  1
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.4.7-1
+    remark: |
+      Disable secure boot and VMD, no wake from suspend
+    credit: |
+      @Gandalfin
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/169261574502.6.9546733988854435634.168624131%40simplelogin.com
+
+---
