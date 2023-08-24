@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad P16 Gen 2 (21FACTO1WW)
+bios: |
+  N3TET16W (1.03)
+cpu: |
+  13th Gen Intel(R) Core(TM) i9-13980HX
+cpu-short: |
+  i9-13980HX
+chipset: |
+  Intel Corporation Device [8086:a702] (rev 01)
+chipset-short: |
+  Raptor Lake
+gpu: |
+  NVIDIA Corporation Device [10de:25bc] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  RTX A1000 6GB
+network: |
+  Intel Corporation Device 7a70 (rev 11)
+memory: |
+  196368
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.1.12-1
+    remark: |
+      mic, cam, and suspend not tested
+    credit: |
+      @syspacket
+    link: |
+      https://forum.qubes-os.org/t/20446
+
+---
