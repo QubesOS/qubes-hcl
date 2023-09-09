@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  ASRock
+model: |
+  B450M Pro4
+bios: |
+  P1.60
+cpu: |
+  AMD Ryzen 5 2400G with Radeon Vega Graphics
+cpu-short: |
+  Ryzen 5 2400G
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Root Complex [1022:15d0]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Raven Ridge [Radeon Vega Series / Radeon Vega Mobile Series] [1002:15dd] (rev c6) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon Vega)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+memory: |
+  31673
+scsi: |
+  WDC WD20EZRZ-00Z Rev: 0A80
+  Samsung SSD 860  Rev: 2B6Q
+  Samsung SSD 860  Rev: 1B6Q
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      4.2.0-rc2
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.43-1
+    remark: |
+
+    credit: |
+      @pjmbraet
+    link: |
+      https://forum.qubes-os.org/t/20741
