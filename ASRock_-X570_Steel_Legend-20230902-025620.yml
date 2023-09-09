@@ -58,7 +58,7 @@ versions:
     kernel: |
       6.4.8-1
     remark: |
-      FIXME
+
     credit: |
       @pjmbraet
     link: |
