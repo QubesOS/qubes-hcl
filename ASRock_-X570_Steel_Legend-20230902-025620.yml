@@ -1,0 +1,65 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  ASRock
+model: |
+  X570 Steel Legend
+bios: |
+  P5.01
+cpu: |
+  AMD Ryzen 9 3900X 12-Core Processor
+cpu-short: |
+  Ryzen 9 3900X
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex [1022:1480]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] [1002:731f] (rev ca) (prog-if 00 [VGA controller])
+gpu-short: |
+  Navi 10
+network: |
+  Intel Corporation I211 Gigabit Network Connection [8086:1539] (rev 03)
+memory: |
+  130994
+scsi: |
+  DRW-24D5MT       Rev: 2.00
+  ST8000DM004-2CX1 Rev: 0001
+  WDC WD1003FZEX-0 Rev: 1A01
+  WDC WD1003FZEX-0 Rev: 1A01
+  WDC  WDS500G2B0A Rev: 00WD
+  WDC  WDS500G2B0A Rev: 00WD
+  ST4000LM024-2AN1 Rev: 0001
+  ST4000LM024-2AN1 Rev: 0001
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      4.2.0-rc2
+    xen: |
+      4.17.2
+    kernel: |
+      6.4.8-1
+    remark: |
+      FIXME
+    credit: |
+      @pjmbraet
+    link: |
+      https://forum.qubes-os.org/t/20720
