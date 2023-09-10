@@ -62,7 +62,7 @@ versions:
   - works:
       'yes'
     qubes: |
-      4.2.0-rc2
+      R4.2.0-rc2
     xen: |
       4.17.2
     kernel: |
