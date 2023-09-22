@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  Gaming Laptop 15
+bios: |
+  F.11
+cpu: |
+  AMD Ryzen 5 4600H with Radeon Graphics
+cpu-short: |
+  Ryzen 5 4600H
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation TU117M [GeForce GTX 1650 Ti Mobile] [10de:1f95] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Renoir [1002:1636] (rev c7) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Renoir) & GeForce GTX 1650 Ti Mobile
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 16)
+  Realtek Semiconductor Co., Ltd. RTL8822CE 802.11ac PCIe Wireless Network Adapter [10ec:c822]
+memory: |
+  15733
+scsi: |
+
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      4.2.0-rc3
+    xen: |
+      4.17.2
+    kernel: |
+      6.4.8-1
+    remark: |
+
+    credit: |
+      @qos_newbie
+    link: |
+      https://forum.qubes-os.org/t/20989
