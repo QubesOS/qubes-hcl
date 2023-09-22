@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X1 Extreme G4 (20Y5000VUS)
+bios: |
+  N40ET42W (1.24)
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+cpu-short: |
+  i7-11800H
+chipset: |
+  Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a36] (rev 05)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  Intel Corporation TigerLake-H GT1 [UHD Graphics] [8086:9a60] (rev 01) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GA107M [GeForce  RTX3050 Ti Mobile] [10de:25a0] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD) & GeForce  RTX3050 Ti Mobile
+network: |
+  Intel Corporation Wi-Fi 6 AX210/AX211/AX411 160MHz (rev 1a)
+memory: |
+  65255
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.94-1
+    remark: |
+      <a class='ext-link' href=''><span class='icon'></span>detailed report</a>
+    credit: |
+      @QuberX
+    link: |
+      https://forum.qubes-os.org/t/20948
+
+---
