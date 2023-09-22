@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  ZBook 17 G4
+bios: |
+  P70 Ver. 01.44
+cpu: |
+  Intel(R) Core(TM) i7-7820HQ CPU @ 2.90GHz
+cpu-short: |
+  i7-7820HQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5910] (rev 05)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Intel Corporation HD Graphics 630 [8086:591b] (rev 04) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GM206GLM [Quadro M2200 Mobile] [10de:1436] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 630) & Quadro M2200 Mobile
+network: |
+  Intel Corporation Ethernet Connection (2) I219-LM (rev 31)
+  Intel Corporation Wireless 8265 / 8275 (rev 78)
+memory: |
+  16035
+scsi: |
+  SAMSUNG MZ7LN256 Rev: 1H3Q
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.6
+    kernel: |
+      6.4.7-1
+    remark: |
+
+    credit: |
+      crypto_pipao
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/a72zLyL_11hF4aBQI7Db0VMECj06M8ZasHANUTAEj-YyHTFLf7fL63IvTCDODMe3xCew-0goy6F-DKXaZbZBmm_hI_UlhRBasUBikBXUcSI%3D%40protonmail.com
+
+---
