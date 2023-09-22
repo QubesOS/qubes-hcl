@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  Prime Z390-A
+bios: |
+  1005
+cpu: |
+  Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+cpu-short: |
+  i9-9900K
+chipset: |
+  Intel Corporation 8th/9th Gen Core 8-core Desktop Processor Host Bridge/DRAM Registers [Coffee Lake S] [8086:3e30] (rev 0a)
+chipset-short: |
+  Coffee Lake S
+gpu: |
+  NVIDIA Corporation GP102 [GeForce GTX 1080 Ti] [10de:1b06] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce GTX 1080 Ti
+network: |
+  Intel Corporation Ethernet Connection (7) I219-V (rev 10)
+memory: |
+  32683
+scsi: |
+  SanDisk SDSSDA24 Rev: 30RL
+  ST1000DM010-2EP1 Rev: CC43
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.94-1
+    remark: |
+
+    credit: |
+      Eduardo Bogosian
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/CAG8K1h85b9tEDDiXeVieDjGa%2BoYGCwEYA296UoNmoBU0%2BWH8BQ%40mail.gmail.com
+
+---
