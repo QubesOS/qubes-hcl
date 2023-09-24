@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X1 Carbon G11 (21HMCTO1WW)
+bios: |
+  N3XET42W (1.17)
+cpu: |
+  13th Gen Intel(R) Core(TM) i7-1355U
+cpu-short: |
+  i7-1355U
+chipset: |
+  Intel Corporation Device [8086:a708] (rev 01)
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Raptor Lake-P [Iris Xe Graphics] [8086:a7a1] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Device [8086:51f1] (rev 01)
+memory: |
+  32441
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.0-rc3
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.43-1
+    remark: |
+      no suspend
+    credit: |
+      @qubesuser11
+    link: |
+      https://forum.qubes-os.org/t/21066
