@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Minisforum
+model: |
+  UM773 Lite
+bios: |
+  1.06
+cpu: |
+  AMD Ryzen 7 7735HS with Radeon Graphics
+cpu-short: |
+  Ryzen 7 7735HS
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14b5] (rev 01)
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:1681] (rev 0a) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Rembrandt)
+network: |
+  Intel Corporation Ethernet Controller I225-V (rev 03)
+memory: |
+  64765
+scsi: |
+
+usb: |
+  6
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.6
+    kernel: |
+      6.4.8-1
+    remark: |
+
+    credit: |
+      @polio_flume
+    link: |
+      https://forum.qubes-os.org/t/21549
+
+---
