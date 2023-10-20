@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Gigabyte
+model: |
+  G7 MD
+bios: |
+  FB07
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+cpu-short: |
+  i7-11800H
+chipset: |
+  Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a36] (rev 05)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  Intel Corporation TigerLake-H GT1 [UHD Graphics] [8086:9a60] (rev 01) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GA107M [GeForce RTX 3050 Ti Mobile] [10de:25a0] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD) & GeForce RTX 3050 Ti Mobile
+network: |
+  Intel Corporation Tiger Lake PCH CNVi WiFi [8086:43f0] (rev 11)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+memory: |
+  16163
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      4.2.0-rc3
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.43-1
+    remark: |
+
+    credit: |
+      @rarez
+    link: |
+      https://forum.qubes-os.org/t/21352
+
+---
