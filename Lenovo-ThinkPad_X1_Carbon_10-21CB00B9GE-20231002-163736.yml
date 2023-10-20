@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X1 Carbon 10 (21CB00B9GE)
+bios: |
+  N3AET75W (1.40)
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-1260P
+cpu-short: |
+  i7-1260P
+chipset: |
+  Intel Corporation Device [8086:4621] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Device 51f0 (rev 01)
+memory: |
+  32467
+scsi: |
+
+usb: |
+  4
+versions:
+
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.6
+    kernel: |
+      6.1.43-1
+    remark: |
+      suspend & cam doesn't work
+    credit: |
+      @gluonium
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/Nfl1cEf--B-9%40tuta.io
+
+---
