@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  ProBook 445 14" G9
+bios: |
+  U78 Ver. 01.07.00
+cpu: |
+  AMD Ryzen 5 5625U with Radeon Graphics
+cpu-short: |
+   Ryzen 5 5625U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Barcelo [1002:15e7] (rev c2) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+  Realtek Semiconductor Co., Ltd. Device [10ec:b852]
+memory: |
+  7489
+scsi: |
+
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      4.2.0-rc3
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.43-1
+    remark: |
+
+    credit: |
+      @holycat
+    link: |
+      https://forum.qubes-os.org/t/21275
+
+---
