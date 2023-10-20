@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  System76
+model: |
+  Lemur Pro
+bios: |
+  2023-08-18_a8dd6c2
+cpu: |
+  13th Gen Intel(R) Core(TM) i7-1355U
+cpu-short: |
+  i7-1355U
+chipset: |
+  Intel Corporation Device [8086:a708] (rev 01)
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Device [8086:a7a1] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Device 51f1 (rev 01)
+memory: |
+  40803
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.6
+    kernel: |
+      6.4.8-1
+    remark: |
+
+    credit: |
+      @qblast37
+    link: |
+      https://forum.qubes-os.org/t/21212
+
+---
