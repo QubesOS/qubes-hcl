@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  TUF Gaming A17 (FA707RC)
+bios: |
+  FA707RC.304
+cpu: |
+  AMD Ryzen 7 6800H with Radeon Graphics
+cpu-short: |
+  Ryzen 7 6800H
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14b5] (rev 01)
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation GA107M [GeForce RTX 3050 Mobile] [10de:25a2] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:1681] (rev c8) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Rembrandt) && GeForce RTX 3050 Mobile
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+  MEDIATEK Corp. Device 7961
+memory: |
+  15629
+scsi: |
+
+usb: |
+  5
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.6
+    kernel: |
+      6.4.8-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/21365'><span class='icon'></span>needs troubleshooting</a>
+    credit: |
+      @anone381
+    link: |
+      https://forum.qubes-os.org/t/21365
+
+---
