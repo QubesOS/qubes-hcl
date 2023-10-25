@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  System76
+model: |
+  Meerkat 7
+bios: |
+  WSADL357.0086.2022.1103.1433
+cpu: |
+  12th Gen Intel(R) Core(TM) i3-1220P
+cpu-short: |
+  i3-1220P
+chipset: |
+  Intel Corporation Device [8086:4601] (rev 04)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Alder Lake-UP3 GT1 [UHD Graphics] [8086:46b3] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD)
+network: |
+  Intel Corporation Alder Lake-P PCH CNVi WiFi [8086:51f0] (rev 01)
+  Intel Corporation Ethernet Controller I225-V [8086:15f3] (rev 03)
+memory: |
+  32340
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      4.2.0-rc3
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.43-1
+    remark: |
+      FIXME
+    credit: |
+      @Euwiiwueir
+    link: |
+      https://forum.qubes-os.org/t/21678
+
+---
