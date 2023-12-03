@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  ROG GU501GM
+bios: |
+  GU501GM.313
+cpu: |
+  Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
+cpu-short: |
+  i7-8750H
+chipset: |
+  Intel Corporation 8th Gen Core Processor Host Bridge/DRAM Registers [8086:3ec4] (rev 07)
+chipset-short: |
+  Cannon Lake
+gpu: |
+  Intel Corporation CoffeeLake-H GT2 [UHD Graphics 630] [8086:3e9b] (prog-if 00 [VGA controller])
+  NVIDIA Corporation GP106M [GeForce GTX 1060 Mobile] [10de:1c20] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 630) & GeForce GTX 1060 Mobile
+network: |
+  Intel Corporation Wireless-AC 9560 [Jefferson Peak] (rev 10)
+memory: |
+  32617
+scsi: |
+  ST1000LX015-1U71 Rev: SDM1
+usb: |
+  1
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.6
+    kernel: |
+      6.1.57-1
+    remark: |
+
+    credit: |
+      s smith
+    link: |
+      https://groups.google.com/d/msgid/qubes-users/403278c0-208a-49eb-9667-31558dc4b5a8n%40googlegroups.com
+
+---
