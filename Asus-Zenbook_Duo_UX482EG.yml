@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  ZenBook (UX482EG)
+bios: |
+  UX482EG.311
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+cpu-short: |
+  i7-1165G7
+chipset: |
+  00.0 Host bridge [0600]: Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a14] (rev 01)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  02.0 VGA compatible controller [0300]: Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] [8086:9a49] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  00.0 Network controller: Intel Corporation Wi-Fi 6 AX200 (rev 1a)
+memory: |
+  16075
+scsi: |
+
+usb: |
+  3
+versions:
+
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.6
+    kernel: |
+      6.1.43-1
+    remark: |
+
+    credit: |
+      @Porky_ang
+    link: |
+      https://forum.qubes-os.org/t/21744
+
+---
