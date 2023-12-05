@@ -10,7 +10,7 @@ iommu:
 slat:
   'yes'
 tpm:
-  'unknown'
+  'no'
 remap:
   'yes'
 brand: |
@@ -22,7 +22,7 @@ bios: |
 cpu: |
   Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
 cpu-short: |
-  
+  i5-10210U
 chipset: |
   Intel Corporation Comet Lake-U v1 4c Host Bridge/DRAM Controller [8086:9b61] (rev 0c)
 chipset-short: |
@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation CometLake-U GT2 [UHD Graphics] [8086:9b41] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
-  
+  Intel UHD 620
 network: |
   Intel Corporation Ethernet Connection (10) I219-V
 memory: |
