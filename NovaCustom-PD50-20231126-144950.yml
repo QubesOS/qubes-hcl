@@ -1,0 +1,60 @@
+layout:
+ ‘hcl’
+type:
+ ‘laptop’
+hvm:
+ ‘yes’
+iommu:
+ ‘yes’
+slat:
+ ‘yes’
+tpm:
+ ‘2.0’
+remap:
+ ‘yes’
+brand: |
+ NovaCustom
+model: |
+ PD50
+bios: |
+ 1.07.07TDES
+cpu: |
+ 13th Gen Intel(R) Core™ i7-13700HX
+cpu-short: |
+ i7-13700HX
+chipset: |
+ Intel Corporation Device [8086:4637] (rev 02)
+chipset-short: |
+ Raptor Lake
+gpu: |
+ Intel Corporation Alder Lake-HX GT1 [UHD Graphics 770] [8086:4688] (rev 0c) (prog-if 00 [VGA controller])
+ NVIDIA Corporation AD107M [GeForce RTX 4060 Max-Q / Mobile] [10de:28e0] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+ Alder Lake & RTX 4060 Mobile
+network: |
+ Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+ Intel Corporation Wi-Fi 6 AX200 [8086:2723] (rev 1a)
+memory: |
+ 32471
+scsi: |
+
+usb: |
+ 3
+certified:
+ ‘no’
+versions:
+
+works:
+ partial
+qubes: |
+ R4.2.0-rc4
+xen: |
+ 4.17.2
+kernel: |
+ 6.1.56-1
+remark: |
+ Built-in HDMI doesn't work; USB-C HDMI works, <a class='ext-link' href='https://forum.qubes-os.org/t/hcl-novacustom-pd50/22295'><span class='icon'></span>read more</a>
+credit: |
+ @Star42Blue19
+link: |
+ https://forum.qubes-os.org/t/hcl-novacustom-pd50/22295
