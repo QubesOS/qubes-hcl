@@ -31,7 +31,7 @@ memory: |
 scsi: ""
 usb: |
   3
-  
+
 versions:
 
  - works: |
@@ -47,6 +47,6 @@ versions:
    credit: |
      @kev_chen91
    link: |
-     https://forum.qubes-os.org/t/hcl-lg-gram-17-2023-i7-1360p-32gb/22685
+     https://forum.qubes-os.org/t/22685
 
 ---
