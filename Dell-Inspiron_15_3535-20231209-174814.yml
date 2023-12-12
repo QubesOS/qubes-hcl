@@ -26,7 +26,7 @@ cpu-short: |
 chipset: |
   Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
 chipset-short: |
-  AMD
+  Integrated Graphics (Radeon)
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Barcelo [1002:15e7] (rev c5) (prog-if 00 [VGA controller])
 gpu-short: |
@@ -43,7 +43,7 @@ certified:
   'no'
 versions:
   - works:
-      partial
+      'partial'
     qubes: |
       R4.2.0-rc5
     xen: |
@@ -55,4 +55,4 @@ versions:
     credit: |
       @qos_newbie
     link: |
-      https://forum.qubes-os.org/t/laptop-dell-inspiron-15-3535/22679
+      https://forum.qubes-os.org/t/22679
