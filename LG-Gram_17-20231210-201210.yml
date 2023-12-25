@@ -1,11 +1,11 @@
 ---
-layout: ‘hcl’
-type: ‘laptop’
-hvm: ‘yes’
-iommu: ‘yes’
-slat: ‘’
-tpm: ‘unknown’
-remap: ‘no’
+layout: 'hcl'
+type: 'laptop'
+hvm: 'yes'
+iommu: 'yes'
+slat: ''
+tpm: 'unknown'
+remap: 'no'
 brand: |
   LG
 model: |
@@ -35,7 +35,7 @@ usb: |
 versions:
 
  - works: |
-     ‘partial’
+     'partial'
    qubes: |
      R4.1
    xen: |

@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'Laptop'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  LENOVO
+  Lenovo
 model: |
   21DC000JGE
 bios: |
@@ -41,18 +41,18 @@ usb: |
   4
 versions:
 
-- works:
-    'partial'
-  qubes: |
-    R4.1
-  xen: |
-    4.14.6
-  kernel: |
-    6.6.2-1
-  remark: |
-    Needs kernel 6.1 or newer for wifi; reboots on resume
-  credit: |
-    rabla
-  link: |
-    https://forum.qubes-os.org/t/22836
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.6
+    kernel: |
+      6.6.2-1
+    remark: |
+      Needs kernel 6.1 or newer for wifi; reboots on resume
+    credit: |
+      @rabla
+    link: |
+      https://forum.qubes-os.org/t/22836
 ---

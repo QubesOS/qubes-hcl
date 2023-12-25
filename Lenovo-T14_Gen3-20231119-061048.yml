@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  LENOVO
+  Lenovo
 model: |
   ThinkPad T14 Gen 3
 bios: |
@@ -42,19 +42,19 @@ usb: |
   4
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.1
-  xen: |
-    4.14.6
-  kernel: |
-    6.5.8-1
-  remark: |
-    Requires kernel 6.5.8.1, ethernet requires disabling strict reset
-  credit: |
-    @hub1985
-  link: |
-    https://forum.qubes-os.org/t/22146
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.6
+    kernel: |
+      6.5.8-1
+    remark: |
+      Requires kernel 6.5.8.1, ethernet requires disabling strict reset
+    credit: |
+      @hub1985
+    link: |
+      https://forum.qubes-os.org/t/22146
 
 ---

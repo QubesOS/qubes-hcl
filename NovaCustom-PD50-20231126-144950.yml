@@ -42,7 +42,7 @@ scsi: |
 usb: |
   3
 certified:
-  ‘no’
+  'no'
 versions:
 
   - works:

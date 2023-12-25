@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  SAMSUNG
+  Samsung
 model: |
   Expert X41
 bios: |
@@ -24,18 +24,15 @@ cpu: |
 cpu-short: |
   i7-7500U
 chipset: |
-  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host
-Bridge/DRAM Registers [8086:5904] (rev 02)
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5904] (rev 02)
 chipset-short: |
   Kaby Lake
 gpu: |
-  Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00
-[VGA controller])
+  Intel Corporation HD Graphics 620 [8086:5916] (rev 02) (prog-if 00 [VGA controller])
 gpu-short: |
   Integrated Graphics (HD 620)
 network: |
-  Realtek Semiconductor Co., Ltd. RTL810xE PCI Express Fast Ethernet
-controller (rev 07)
+  Realtek Semiconductor Co., Ltd. RTL810xE PCI Express Fast Ethernet controller (rev 07)
   Qualcomm Atheros QCA9377 802.11ac Wireless Network Adapter (rev 31)
 memory: |
   8101
@@ -46,19 +43,19 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.1
-  xen: |
-    4.14.6
-  kernel: |
-    6.1.62-1
-  remark: |
-    Installed with legacy boot (UEFI install didn't work)
-  credit: |
-    Yzapre
-  link: |
-    https://groups.google.com/g/qubes-users/c/8Wyz3a13YDY
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.6
+    kernel: |
+      6.1.62-1
+    remark: |
+      Installed with legacy boot (UEFI install didn't work)
+    credit: |
+      Yzapre
+    link: |
+      https://groups.google.com/g/qubes-users/c/8Wyz3a13YDY
 
 ---

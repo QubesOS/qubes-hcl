@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  LENOVO
+  Lenovo
 model: |
-  Thinkpad T14 G2 AMD (20XLS0AD00)
+  ThinkPad T14 G2 AMD (20XLS0AD00)
 bios: |
   R1MET54W (1.24 )
 cpu: |
@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [Radeon Vega Series / Radeon Vega Mobile Series] [1002:1638] (rev d1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated graphics (Cezanne Radeon Vega Mobile Series)
+  Integrated Graphics (Cezanne)
 network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 0e)
   Realtek Semiconductor Co., Ltd. RTL8852AE 802.11ax PCIe Wireless Network Adapter [10ec:8852]
@@ -53,9 +53,9 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      Used workaround to fix WiFi break on suspend - unload and reload drivers in sys-net using suspend-module-blacklist & increase sys-net memory to 600MB
+      <a class='ext-link' href='https://forum.qubes-os.org/t/23132'><span class='icon'></span>Workaround needed</a>
     credit: |
-      Qubesthrowaway
+      @Qubesthrowaway
     link: |
       https://forum.qubes-os.org/t/23132
 
