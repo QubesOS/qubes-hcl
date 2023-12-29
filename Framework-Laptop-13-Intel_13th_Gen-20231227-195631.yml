@@ -1,0 +1,51 @@
+---
+layout: hcl
+type: laptop
+hvm: yes
+iommu: yes
+slat: yes
+tpm: unknown
+remap: yes
+brand: |
+  Framework
+model: |
+  Laptop (13th Gen Intel Core)
+bios: |
+  03.04
+cpu: |
+  13th Gen Intel(R) Core(TM) i7-1370P
+cpu-short: |
+  i7-1370P
+chipset: |
+  Intel Corporation Device [8086:a706]
+chipset-short: |
+  Raptor Lake
+gpu: >
+  Intel Corporation Raptor Lake-P [Iris Xe Graphics] [8086:a7a0] (rev 04)
+  (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Wi-Fi 6 AX210/AX211/AX411 160MHz [8086:2725] (rev 1a)
+memory: |
+  65243
+scsi: ""
+usb: |
+  4
+certified: no
+versions:
+  - works: yes
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+      Brightness control keys and Ethernet don't work out of the box
+    credit: |
+      Leee
+    link: |
+      https://forum.qubes-os.org/t/20052
+
+---
