@@ -8,53 +8,51 @@ hvm:
 iommu:
   'yes'
 slat:
-  'yes'
+  ''
 tpm:
   'unknown'
 remap:
   'yes'
 brand: |
-  Nitrokey
+  Lenovo
 model: |
-  NitroPad NS50
+  21DC000JGE
 bios: |
-  Dasharo (coreboot) Heads v0.2.0-1584
+  N3JET37W (1.21 )
 cpu: |
-  12th Gen Intel(R) Core(TM) i7-1260P
+  12th Gen Intel(R) Core(TM) i7-12800H
 cpu-short: |
-  i7-1260P
+  i7-12800H
 chipset: |
-  Intel Corporation Device [8086:4621] (rev 02)
+  Intel Corporation Device [8086:4641] (rev 02)
 chipset-short: |
   Alder Lake
 gpu: |
   Intel Corporation Device [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (Iris Xe)
+  Intel Integrated Graphics (Iris XE Graphics)
 network: |
   Intel Corporation Device 51f0 (rev 01)
-  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)
 memory: |
-  65380
+  65233
 scsi: |
 
 usb: |
-  3
+  4
 versions:
 
   - works:
-      'yes'
+      'partial'
     qubes: |
       R4.1
     xen: |
       4.14.6
     kernel: |
-      6.4.7-1
+      6.6.2-1
     remark: |
-
+      Needs kernel 6.1 or newer for wifi; reboots on resume
     credit: |
-      Amir Rashidi
+      @rabla
     link: |
-      https://groups.google.com/d/msgid/qubes-users/CAKS5N2HLz3TMrRmG7%3DbhaGUpoe_pn9yBbcsVfgxNMpQpE7okVA%40mail.gmail.com
-
+      https://forum.qubes-os.org/t/22836
 ---

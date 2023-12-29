@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Notebook
+model: |
+  NV4xPZ
+bios: |
+  Dasharo (coreboot+UEFI) v1.6.0
+cpu: |
+  12th Gen Intel(R) Core(TM) i5-1240P
+cpu-short: |
+  i5-1240P
+chipset: |
+  Intel Corporation Device [8086:4621] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Alder Lake-P GT2 [Iris Xe Graphics] [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+memory: |
+  65376
+scsi: |
+
+usb: |
+  3
+certified:
+  'yes'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.6.2-1
+    remark: |
+      Laptop ordered with no camera and no WIFI
+    credit: |
+      Theseus
+    link: |
+      https://forum.qubes-os.org/t/23071
+---

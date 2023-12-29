@@ -1,0 +1,52 @@
+---
+layout: 'hcl'
+type: 'laptop'
+hvm: 'yes'
+iommu: 'yes'
+slat: ''
+tpm: 'unknown'
+remap: 'no'
+brand: |
+  LG
+model: |
+  17Z90R-K.ADS9U1
+bios: |
+  R1ZH0330 X64
+cpu: |
+  13th Gen Intel(R) Core™ i7-1360P
+cpu-short: |
+  i7-1360p
+chipset: |
+  Intel Corporation Device [8086:a707]
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Device [8086:a7a0] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated graphics (HD 770)
+network: |
+  Intel Corporation Device 51f1 (rev 01)
+memory: |
+  32482
+scsi: ""
+usb: |
+  3
+
+versions:
+
+ - works: |
+     'partial'
+   qubes: |
+     R4.1
+   xen: |
+     4.14.6
+   kernel: |
+     6.5.8-1
+   remark: |
+     Disable secure BIOS to install
+   credit: |
+     @kev_chen91
+   link: |
+     https://forum.qubes-os.org/t/22685
+
+---
