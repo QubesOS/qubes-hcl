@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  ASUSTeK COMPUTER INC.
+model: |
+  ROG Strix G513RM
+bios: |
+  G513RM.327
+cpu: |
+  AMD Ryzen 7 6800H with Radeon Graphics
+cpu-short: |
+  Ryzen 7 6800H
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 17h-19h PCIe Root Complex [1022:14b5] (rev 01)
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation GA106M [GeForce RTX 3060 Mobile / Max-Q] [10de:2520] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Rembrandt [Radeon 680M] [1002:1681] (rev c8) (prog-if 00 [VGA controller])
+gpu-short: |
+  Nvidia RTX 3060 Mobile
+  Radeon 680M
+network: |
+  MEDIATEK Corp. MT7922 802.11ax PCI Express Wireless Network Adapter [14c3:0616]
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+memory: |
+  15628
+scsi: |
+  Expansion HDD    Rev: 1901
+usb: |
+  5
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+      
+    credit: |
+      @Tenten
+    link: |
+      https://forum.qubes-os.org/t/23368
+
+---
