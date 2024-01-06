@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  TUF GAMING X570-PLUS
+bios: |
+  4602
+cpu: |
+  AMD Ryzen 7 3700X 8-Core Processor
+cpu-short: |
+  Ryzen 7 3700X
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex [1022:1480]
+chipset-short: |
+  AMD X570
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] [1002:731f] (rev c1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon RX 5700XT 8GB
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 26)
+memory: |
+  49062
+scsi: |
+  Corsair MP600 PRO LPX 2TB
+usb: |
+  3
+versions:
+
+- works:
+    yes
+  qubes: |
+    R4.1
+  xen: |
+    4.14.5
+  kernel: |
+    5.15.94-1
+  remark: |
+    Had to disable SMT (multithreading) manually in the BIOS
+  credit: |
+    @Ophrys
+  link: |
+    https://forum.qubes-os.org/u/ophrys/summary
+
+---
