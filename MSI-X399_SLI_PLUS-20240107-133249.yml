@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'Desktop'
+  'motherboard'
 hvm:
   'yes'
 iommu:
@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  Micro-Star International Co., Ltd.
+  MSI
 model: |
-  MS-7B09
+  X399 SLI PLUS (MS-7B09)
 bios: |
   A.88
 cpu: |
@@ -31,16 +31,16 @@ gpu: |
   NVIDIA Corporation GA104 [GeForce RTX 3060 Ti Lite Hash Rate] [10de:2489] (rev a1) (prog-if 00 [VGA controller])
   NVIDIA Corporation GM204 [GeForce GTX 980] [10de:13c0] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Nvidia RTX 3060
-  Nvidia GTX 980
+  GeForce RTX 3060
+  GeForce GTX 980
 network: |
   Intel Corporation I211 Gigabit Network Connection [8086:1539] (rev 03)
 memory: |
   130962
 scsi: |
-  CT1000MX500SSD1  Rev: 033 
-  CT1000MX500SSD1  Rev: 033 
-  CT1000MX500SSD1  Rev: 033 
+  CT1000MX500SSD1  Rev: 033
+  CT1000MX500SSD1  Rev: 033
+  CT1000MX500SSD1  Rev: 033
 usb: |
   7
 certified:
@@ -55,7 +55,7 @@ versions:
     kernel: |
       6.6.2-1
     remark: |
-      
+
     credit: |
       @AbusiveHeathenry
     link: |

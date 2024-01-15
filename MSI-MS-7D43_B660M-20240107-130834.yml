@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'Desktop'
+  'motherboard'
 hvm:
   'yes'
 iommu:
@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  Micro-Star International Co., Ltd.
+  MSI
 model: |
-  MS-7D43
+  PRO B660M-A DDR4 (MS-7D43)
 bios: |
   1.90
 cpu: |
@@ -31,7 +31,7 @@ gpu: |
   Intel Corporation AlderLake-S GT1 [8086:4680] (rev 0c) (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] Navi 24 [Radeon RX 6400/6500 XT/6500M] [1002:743f] (rev c1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated graphics (Intel UHD 770)
+  Integrated Graphics (UHD 770)
 network: |
   Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
 memory: |
@@ -54,7 +54,7 @@ versions:
     remark: |
       had to fix UEFI after install
     credit: |
-      Tomas Vondra
+      @tomasv
     link: |
       https://forum.qubes-os.org/t/23362
 

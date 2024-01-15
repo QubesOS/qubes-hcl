@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  HP
+  Hewlett-Packard
 model: |
-  HP Laptop 14s-fq0xxx
+  Laptop 14s-fq0xxx
 bios: |
   F.51
 cpu: |
@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Renoir [1002:1636] (rev c3) (prog-if 00 [VGA controller])
 gpu-short: |
-  Renoir
+  Integrated Graphics (Renoir)
 network: |
   Realtek Semiconductor Co., Ltd. RTL8822CE 802.11ac PCIe Wireless Network Adapter [10ec:c822]
 memory: |
@@ -51,7 +51,7 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      
+
     credit: |
       @harddisk
     link: |

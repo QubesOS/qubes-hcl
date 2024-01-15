@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'desktop'
+  'motherboard'
 hvm:
   'yes'
 iommu:
@@ -26,7 +26,7 @@ cpu-short: |
 chipset: |
   Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex [1022:1480]
 chipset-short: |
-  AMD X570
+  AMD
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] [1002:731f] (rev c1) (prog-if 00 [VGA controller])
 gpu-short: |
@@ -41,19 +41,19 @@ usb: |
   3
 versions:
 
-- works:
-    yes
-  qubes: |
-    R4.1
-  xen: |
-    4.14.5
-  kernel: |
-    5.15.94-1
-  remark: |
-    Had to disable SMT (multithreading) manually in the BIOS
-  credit: |
-    @Ophrys
-  link: |
-    https://forum.qubes-os.org/u/ophrys/summary
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.94-1
+    remark: |
+      Had to disable SMT (multithreading) manually in the BIOS
+    credit: |
+      @Ophrys
+    link: |
+      https://forum.qubes-os.org/t/17997
 
 ---

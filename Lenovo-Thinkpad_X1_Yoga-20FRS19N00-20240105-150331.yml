@@ -1,24 +1,30 @@
 ---
-layout: hcl
-type: laptop
-hvm: yes
-iommu: yes
-slat: yes
-tpm: unknown
-remap: yes
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
 brand: |
-  LENOVO
+  Lenovo
 model: |
-  20FRS19N00
+  ThinkPad X1 Yoga (20FRS19N00)
 bios: |
-  N1FET82W (1.56 )
+  N1FET82W (1.56)
 cpu: |
-  Intel(R) Core™ i7-6600U CPU @ 2.60GHz
+  Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
 cpu-short: |
   i7-6600U
 chipset: |
-  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor
-  Host Bridge/DRAM Registers [8086:1904] (rev 08)
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1904] (rev 08)
 chipset-short: |
   Skylake
 gpu: |
@@ -31,15 +37,17 @@ network: |
   Intel Corporation Wireless 8260 [8086:24f3] (rev 3a)
 memory: |
   16239
-scsi: ""
+scsi: |
+
 usb: |
   1
-certified: no
+certified:
+  'no'
 
 versions:
 
-  - works: 
-      'no'
+  - works:
+      'yes'
     qubes: |
       R4.2.0
     xen: |
@@ -47,10 +55,10 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      Unable to install. Likely kernel or firmware bug
+
     credit: |
-      @namer123
+      @vkpie
     link: |
-      https://forum.qubes-os.org/t/23485/9
+      https://forum.qubes-os.org/t/23485
 
 ---

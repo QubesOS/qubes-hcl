@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Dell Inc.
+  Dell
 model: |
   Precision 5540
 bios: |
@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation CoffeeLake-H GT2 [UHD Graphics 630] [8086:3e9b] (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (UHD Graphics 630)
+  Integrated Graphics (UHD 630)
 network: |
   Intel Corporation Wireless-AC 9260 [8086:2526] (rev 29)
 memory: |
@@ -51,9 +51,9 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      no install issues, fans seem noisier / battery life not great
+      fans seems noisy / battery life not great
     credit: |
-      Tomas Vondra
+      @tomasv
     link: |
       https://forum.qubes-os.org/t/23446
 

@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  ASUSTeK COMPUTER INC.
+  Asus
 model: |
   ROG Strix G513RM
 bios: |
@@ -31,8 +31,7 @@ gpu: |
   NVIDIA Corporation GA106M [GeForce RTX 3060 Mobile / Max-Q] [10de:2520] (rev a1) (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] Rembrandt [Radeon 680M] [1002:1681] (rev c8) (prog-if 00 [VGA controller])
 gpu-short: |
-  Nvidia RTX 3060 Mobile
-  Radeon 680M
+  Integrated Graphics (Rembrandt) & GeForce RTX 3060 Mobile
 network: |
   MEDIATEK Corp. MT7922 802.11ax PCI Express Wireless Network Adapter [14c3:0616]
   Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
@@ -54,7 +53,7 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      
+
     credit: |
       @Tenten
     link: |

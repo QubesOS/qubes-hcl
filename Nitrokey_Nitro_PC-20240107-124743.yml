@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'Desktop'
+  'desktop'
 hvm:
   'yes'
 iommu:
@@ -16,7 +16,7 @@ remap:
 brand: |
   Nitrokey
 model: |
-  NitroPC
+  Nitro PC
 bios: |
   4.13-dirty
 cpu: |
@@ -52,7 +52,7 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      
+
     credit: |
       @TheGardner
     link: |
