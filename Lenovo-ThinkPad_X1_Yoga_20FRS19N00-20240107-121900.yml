@@ -1,0 +1,64 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X1 Yoga (20FRS19N00)
+bios: |
+  N1FET82W (1.56 )
+cpu: |
+  Intel(R) Core™ i7-6600U CPU @ 2.60GHz
+cpu-short: |
+  i7-6600U
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1904] (rev 08)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation Skylake GT2 [HD Graphics 520] [8086:1916] (rev 07) (prog-if 00 [VGA controller])
+  Intel Corporation Sunrise Point-LP Integrated Sensor Hub [8086:9d35] (rev 21)
+gpu-short: |
+  Integrated Graphics (HD 520)
+network: |
+  Intel Corporation Ethernet Connection I219-LM [8086:156f] (rev 21)
+  Intel Corporation Wireless 8260 [8086:24f3] (rev 3a)
+memory: |
+  16239
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+
+versions:
+
+  - works:
+      'no'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+      unable to install
+    credit: |
+      @namer123
+    link: |
+      https://forum.qubes-os.org/t/23485/9
+
+---

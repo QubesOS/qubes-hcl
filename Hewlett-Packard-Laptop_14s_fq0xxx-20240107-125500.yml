@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  Laptop 14s-fq0xxx
+bios: |
+  F.51
+cpu: |
+  AMD Ryzen 5 4500U with Radeon Graphics
+cpu-short: |
+  Ryzen 5 4500U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Renoir [1002:1636] (rev c3) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Renoir)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8822CE 802.11ac PCIe Wireless Network Adapter [10ec:c822]
+memory: |
+  15733
+scsi: |
+
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+
+    credit: |
+      @harddisk
+    link: |
+      https://forum.qubes-os.org/t/23359
+
+---

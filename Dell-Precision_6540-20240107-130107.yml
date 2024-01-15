@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision 5540
+bios: |
+  1.19.0
+cpu: |
+  Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+cpu-short: |
+  i7-9750H
+chipset: |
+  Intel Corporation 8th Gen Core Processor Host Bridge/DRAM Registers [8086:3ec4] (rev 07)
+chipset-short: |
+  Coffee Lake
+gpu: |
+  Intel Corporation CoffeeLake-H GT2 [UHD Graphics 630] [8086:3e9b] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 630)
+network: |
+  Intel Corporation Wireless-AC 9260 [8086:2526] (rev 29)
+memory: |
+  65137
+scsi: |
+
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+      fans seems noisy / battery life not great
+    credit: |
+      @tomasv
+    link: |
+      https://forum.qubes-os.org/t/23446
+
+---

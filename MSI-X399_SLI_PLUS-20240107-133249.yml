@@ -1,0 +1,64 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  X399 SLI PLUS (MS-7B09)
+bios: |
+  A.88
+cpu: |
+  AMD Ryzen Threadripper 1950X 16-Core Processor
+cpu-short: |
+  Threadripper 1950X
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 17h (Models 00h-0fh) Root Complex [1022:1450]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation GA104 [GeForce RTX 3060 Ti Lite Hash Rate] [10de:2489] (rev a1) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GM204 [GeForce GTX 980] [10de:13c0] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce RTX 3060
+  GeForce GTX 980
+network: |
+  Intel Corporation I211 Gigabit Network Connection [8086:1539] (rev 03)
+memory: |
+  130962
+scsi: |
+  CT1000MX500SSD1  Rev: 033
+  CT1000MX500SSD1  Rev: 033
+  CT1000MX500SSD1  Rev: 033
+usb: |
+  7
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.6.2-1
+    remark: |
+
+    credit: |
+      @AbusiveHeathenry
+    link: |
+      https://forum.qubes-os.org/t/23104
+
+---

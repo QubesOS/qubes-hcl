@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  PRO B660M-A DDR4 (MS-7D43)
+bios: |
+  1.90
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-12700
+cpu-short: |
+  i7-12700
+chipset: |
+  Intel Corporation 12th Gen Core Processor Host Bridge/DRAM Registers [8086:4668] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation AlderLake-S GT1 [8086:4680] (rev 0c) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Navi 24 [Radeon RX 6400/6500 XT/6500M] [1002:743f] (rev c1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 770)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+memory: |
+  65319
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+      had to fix UEFI after install
+    credit: |
+      @tomasv
+    link: |
+      https://forum.qubes-os.org/t/23362
+
+---

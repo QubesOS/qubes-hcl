@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Legion 5 Pro (82JQ)
+bios: |
+  GKCN60WW
+cpu: |
+  AMD Ryzen 7 5800H with Radeon Graphics
+cpu-short: |
+  Ryzen 7 5800H
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation GA104M [GeForce RTX 3070 Mobile / Max-Q] [10de:24dd] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [Radeon Vega Series / Radeon Vega Mobile Series] [1002:1638] (rev c5) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Cezanne) & GeForce RTX 3070 Mobile
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+  MEDIATEK Corp. MT7921 802.11ax PCI Express Wireless Network Adapter [14c3:7961]
+memory: |
+  28524
+scsi: |
+
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.6.2-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/23559'><span class='icon'></span>read more</a>
+    credit: |
+      @t_user
+    link: |
+      https://forum.qubes-os.org/t/23559
+
+---
