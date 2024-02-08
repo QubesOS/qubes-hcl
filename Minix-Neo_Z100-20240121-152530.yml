@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  MINIX Technology Limited
+model: |
+  MINIX NEO Z100-0dB
+bios: |
+  5.27
+cpu: |
+  Intel(R) N100
+cpu-short: |
+  N100
+chipset: |
+  Intel Corporation Device [8086:461c]
+chipset-short: |
+  Alder Lake-N
+gpu: |
+  Intel Corporation Alder Lake-N [UHD Graphics] [8086:46d1] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD)
+network: |
+  Intel Corporation CNVi: Wi-Fi [8086:54f0]
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+memory: |
+  16156
+scsi: |
+
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+      None
+    credit: |
+      @Kitefoiler
+    link: |
+      https://forum.qubes-os.org/t/23940
+
+---
