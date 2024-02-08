@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  ASUS
+model: |
+  PRIME B660M-A WIFI D4
+bios: |
+  2801
+cpu: |
+  12th Gen Intel(R) Core(TM) i5-12400
+cpu-short: |
+  i5-12400
+chipset: |
+  Intel Corporation Device [8086:4650] (rev 05)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Alder Lake-S GT1 [UHD Graphics 730] [8086:4692] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 730)
+network: |
+  Intel Corporation Ethernet Connection (17) I219-V [8086:1a1d] (rev 11)
+memory: |
+  65277
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+      problem at build qube. sys-usb not working. usb mouse and keyboard will freeze. just uncheck the option "create sys-usb" let dom0 manage usb or using PS/2 mouse instead
+    credit: |
+      @WaiFu8964
+    link: |
+      https://forum.qubes-os.org/t/24150
+
+---
