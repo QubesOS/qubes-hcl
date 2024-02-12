@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  HP
+  Hewlett-Packard
 model: |
-  HP Dragonfly 13.5 inch G4 Notebook PC
+  Dragonfly 13.5" G4
 bios: |
   V90 Ver. 01.03.01
 cpu: |

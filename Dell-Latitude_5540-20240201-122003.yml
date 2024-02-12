@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Dell Inc.
+  Dell
 model: |
   Latitude 5540
 bios: |
@@ -52,7 +52,7 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      Turned off Secure Boot. Disabled VMD controller. “Unable to reset PCI device” error solved following instructions 
+      Turned off Secure Boot. Disabled VMD controller. “Unable to reset PCI device” error solved following instructions
     credit: |
       @cisba
     link: |

@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  ASUS
+  Asus
 model: |
   PRIME B660M-A WIFI D4
 bios: |
@@ -51,7 +51,7 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      problem at build qube. sys-usb not working. usb mouse and keyboard will freeze. just uncheck the option "create sys-usb" let dom0 manage usb or using PS/2 mouse instead
+      sys-usb not working
     credit: |
       @WaiFu8964
     link: |

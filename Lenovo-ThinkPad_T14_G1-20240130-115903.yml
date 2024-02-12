@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  LENOVO
+  Lenovo
 model: |
-  20UES66B00
+  ThinkPad T14 G1 (20UES66B00)
 bios: |
   R1BET76W(1.45 )
 cpu: |
@@ -53,7 +53,7 @@ versions:
     kernel: |
       6.6.9-1
     remark: |
-      None
+
     credit: |
       @heavy.water0759
     link: |

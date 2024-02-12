@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  MINIX Technology Limited
+  Minix
 model: |
-  MINIX NEO Z100-0dB
+  NEO Z100
 bios: |
   5.27
 cpu: |
@@ -52,7 +52,7 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      None
+
     credit: |
       @Kitefoiler
     link: |

@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  INTEL
+  Intel
 model: |
   ADL-P AIO-V
 bios: |
@@ -52,7 +52,7 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      None
+      qubes.enable_insecure_pv_passthrough workaround needed
     credit: |
       @quOSuser
     link: |
