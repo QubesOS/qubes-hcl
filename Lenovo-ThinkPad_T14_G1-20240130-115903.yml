@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad T14 G1 (20UES66B00)
+bios: |
+  R1BET76W(1.45 )
+cpu: |
+  AMD Ryzen 7 PRO 4750U with Radeon Graphics
+cpu-short: |
+  Ryzen 7 PRO 4750U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Renoir [1002:1636] (rev d1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Renoir)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 0e)
+  MEDIATEK Corp. MT7921 802.11ax PCI Express Wireless Network Adapter [14c3:7961]
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+memory: |
+  30439
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.6.9-1
+    remark: |
+
+    credit: |
+      @heavy.water0759
+    link: |
+      https://forum.qubes-os.org/t/24122
+
+---

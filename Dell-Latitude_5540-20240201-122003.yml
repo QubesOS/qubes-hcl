@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Latitude 5540
+bios: |
+  1.4.1
+cpu: |
+  13th Gen Intel(R) Core(TM) i7-1365U
+cpu-short: |
+  i7-1365U
+chipset: |
+  Intel Corporation Raptor Lake-P/U 2p+8e cores Host Bridge/DRAM Controller [8086:a708] (rev 01)
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Raptor Lake-P [Iris Xe Graphics] [8086:a7a1] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Raptor Lake PCH CNVi WiFi [8086:51f1] (rev 01)
+  Intel Corporation Device [8086:0dc5] (rev 01)
+memory: |
+  32452
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+      Turned off Secure Boot. Disabled VMD controller. “Unable to reset PCI device” error solved following instructions
+    credit: |
+      @cisba
+    link: |
+      https://forum.qubes-os.org/t/24166
+
+---

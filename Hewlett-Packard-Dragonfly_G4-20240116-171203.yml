@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  Dragonfly 13.5" G4
+bios: |
+  V90 Ver. 01.03.01
+cpu: |
+  13th Gen Intel(R) Core(TM) i7-1355U
+cpu-short: |
+  i7-1355U
+chipset: |
+  Intel Corporation Raptor Lake-P/U 2p+8e cores Host Bridge/DRAM Controller [8086:a708] (rev 01)
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Raptor Lake-P [Iris Xe Graphics] [8086:a7a1] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Raptor Lake PCH CNVi WiFi [8086:51f1] (rev 01)
+memory: |
+  32336
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.6.2-1
+    remark: |
+      S3 sleep doesn't work
+    credit: |
+      @soleblaze
+    link: |
+      https://forum.qubes-os.org/t/23809
+
+---

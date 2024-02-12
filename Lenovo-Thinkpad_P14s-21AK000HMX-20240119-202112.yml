@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Thinkpad P14s (21AK000HMX)
+bios: |
+  N3BET59W (1.37 )
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-1260P
+cpu-short: |
+  i7-1260P
+chipset: |
+  Intel Corporation Device [8086:4621] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Alder Lake-P GT2 [Iris Xe Graphics] [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Alder Lake-P PCH CNVi WiFi [8086:51f0] (rev 01)
+  Intel Corporation Ethernet Connection (16) I219-V [8086:1a1f] (rev 01)
+memory: |
+  32467
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+      NIC requries strict reset.
+    credit: |
+      @renehog
+    link: |
+      https://forum.qubes-os.org/t/23888
+
+---
