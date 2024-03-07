@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  ASUSTeK COMPUTER INC.
+model: |
+  ROG Zephyrus G14 GA402RJ_GA402RJ
+bios: |
+  GA402RJ.318
+cpu: |
+  AMD Ryzen 9 6900HS with Radeon Graphics
+cpu-short: |
+  Ryzen 9 6900HS
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 17h-19h PCIe Root Complex [1022:14b5] (rev 01)
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Rembrandt [Radeon 680M] [1002:1681] (rev c7) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated graphics (Rembrandt)
+network: |
+  MEDIATEK Corp. MT7922 802.11ax PCI Express Wireless Network Adapter [14c3:0616]
+memory: |
+  15596
+scsi: |
+
+usb: |
+  7
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.3
+    kernel: |
+      6.1.75-1
+    remark: |
+      Keyboard backlight doesn't work
+    credit: |
+      @wahcha
+    link: |
+      https://forum.qubes-os.org/t/hcl-report-asus-rog-zephyrus-g14-ga402r
+
+---
