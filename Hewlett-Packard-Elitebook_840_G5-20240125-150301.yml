@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  EliteBook 840 G5
+bios: |
+  Q78 Ver. 01.26.00
+cpu: |
+  Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+cpu-short: |
+  i5-8250U
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5914] (rev 08)
+chipset-short: |
+  Coffee Lake
+gpu: |
+  Intel Corporation UHD Graphics 620 [8086:5917] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 620)
+network: |
+  Intel Corporation Ethernet Connection (4) I219-V [8086:15d8] (rev 21)
+  Intel Corporation Wireless-AC 9260 [8086:2526] (rev 29)
+memory: |
+  32579
+scsi: |
+
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+
+    credit: |
+      @rjrizzuto
+    link: |
+      https://forum.qubes-os.org/t/24015
+
+---
