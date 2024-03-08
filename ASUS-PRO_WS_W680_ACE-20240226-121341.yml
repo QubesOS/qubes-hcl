@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  ASUSTeK COMPUTER INC.
+model: |
+  Pro WS W680-ACE
+bios: |
+  3101
+cpu: |
+  Intel(R) Core(TM) i9-14900K
+cpu-short: |
+  i9-14900K
+chipset: |
+  Intel Corporation Device [8086:a700] (rev 01)
+chipset-short: |
+  Raptor Lake
+gpu: |
+  NVIDIA Corporation GP104 [GeForce GTX 1080] [10de:1b80] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  NVIDIA GeForce GTX 1080
+network: |
+  Intel Corporation Alder Lake-S PCH CNVi WiFi [8086:7af0] (rev 11)
+  Intel Corporation Ethernet Controller I226-LM [8086:125b] (rev 06)
+  Intel Corporation Ethernet Controller I226-LM [8086:125b] (rev 06)
+memory: |
+  65135
+scsi: |
+  
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      yes
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.3
+    kernel: |
+      6.1.75-1
+    remark: |
+      Suspend works with memory set to AUTO; not XMP.
+    credit: |
+      @quantum
+    link: |
+      https://forum.qubes-os.org/t/asus-pro-ws-w680-ace-motherboard
+
+---
