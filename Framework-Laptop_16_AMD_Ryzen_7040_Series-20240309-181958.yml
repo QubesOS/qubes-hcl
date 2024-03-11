@@ -22,15 +22,15 @@ bios: |
 cpu: |
   AMD Ryzen 9 7940HS w/ Radeon 780M Graphics
 cpu-short: |
-  FIXME
+  AMD Ryzen 9 7940HS
 chipset: |
   Advanced Micro Devices, Inc. [AMD] Device [1022:14e8]
 chipset-short: |
-  FIXME
+  AMD
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Phoenix1 [1002:15bf] (rev c1) (prog-if 00 [VGA controller])
 gpu-short: |
-  FIXME
+  Integrated Graphics (AMD)
 network: |
   MEDIATEK Corp. MT7922 802.11ax PCI Express Wireless Network Adapter [14c3:0616]
 memory: |
