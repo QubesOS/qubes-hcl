@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'Notebook'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Framework
+model: |
+  Laptop 16 (AMD Ryzen 7040 Series)
+bios: |
+  03.02
+cpu: |
+  AMD Ryzen 9 7940HS w/ Radeon 780M Graphics
+cpu-short: |
+  FIXME
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14e8]
+chipset-short: |
+  FIXME
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Phoenix1 [1002:15bf] (rev c1) (prog-if 00 [VGA controller])
+gpu-short: |
+  FIXME
+network: |
+  MEDIATEK Corp. MT7922 802.11ax PCI Express Wireless Network Adapter [14c3:0616]
+memory: |
+  31940
+scsi: |
+
+usb: |
+  8
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.6.2-1
+    remark: |
+      Touchpad requires the addition of a command in the Grub config to work. Everything else works out of the box, expansion cards are truly plug and play and do not require any rebooting. <a class='ext-link' href='https://forum.qubes-os.org/t/framework-laptop-16-amd-ryzen-7040-series/24985'><span class='icon'></span>Read more.</a>
+    credit: |
+      @tayari (Daylam Tayari)
+    link: |
+      https://forum.qubes-os.org/t/framework-laptop-16-amd-ryzen-7040-series/24985
