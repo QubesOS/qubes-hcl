@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  ASUSTeK COMPUTER INC.
+  Asus
 model: |
   Pro WS W680-ACE
 bios: |
@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   NVIDIA Corporation GP104 [GeForce GTX 1080] [10de:1b80] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  NVIDIA GeForce GTX 1080
+  GeForce GTX 1080
 network: |
   Intel Corporation Alder Lake-S PCH CNVi WiFi [8086:7af0] (rev 11)
   Intel Corporation Ethernet Controller I226-LM [8086:125b] (rev 06)
@@ -38,14 +38,14 @@ network: |
 memory: |
   65135
 scsi: |
-  
+
 usb: |
   1
 certified:
   'no'
 versions:
   - works:
-      yes
+      'yes'
     qubes: |
       R4.2.0
     xen: |
@@ -57,6 +57,6 @@ versions:
     credit: |
       @quantum
     link: |
-      https://forum.qubes-os.org/t/asus-pro-ws-w680-ace-motherboard
+      https://forum.qubes-os.org/t/24657
 
 ---
