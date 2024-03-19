@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Dell Inc.
+  Dell
 model: |
   OptiPlex 9020
 bios: |
@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics Controller [8086:0412] (rev 06) (prog-if 00 [VGA controller])
 gpu-short: |
-  Intel integrated graphics
+  Integrated Graphics (HD 4600)
 network: |
   Intel Corporation Ethernet Connection I217-LM [8086:153a] (rev 04)
 memory: |
@@ -52,10 +52,10 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      
+
     credit: |
-      9thCat
+      @9thCat
     link: |
-      https://forum.qubes-os.org/t/hcl-dell-optiplex-9020-r4-2-0
+      https://forum.qubes-os.org/t/24840
 
 ---
