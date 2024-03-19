@@ -14,11 +14,11 @@ tpm:
 remap:
   'yes'
 brand: |
-  LENOVO
+  Lenovo
 model: |
-  20LCS1Q400
+  ThinkPad P52S (20LCS1Q400)
 bios: |
-  N27ET52P (1.38 )
+  N27ET52P (1.38)
 cpu: |
   Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
 cpu-short: |
@@ -26,7 +26,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5914] (rev 08)
 chipset-short: |
-  Kaby Lake
+  Kaby Lake R
 gpu: |
   Intel Corporation UHD Graphics 620 [8086:5917] (rev 07) (prog-if 00 [VGA controller])
 gpu-short: |
@@ -52,7 +52,7 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      
+
     credit: |
       @Runner
     link: |
