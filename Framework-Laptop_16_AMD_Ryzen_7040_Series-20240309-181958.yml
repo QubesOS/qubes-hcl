@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Framework
+model: |
+  Laptop 16 (AMD)
+bios: |
+  03.02
+cpu: |
+  AMD Ryzen 9 7940HS w/ Radeon 780M Graphics
+cpu-short: |
+  AMD Ryzen 9 7940HS
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14e8]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Phoenix1 [1002:15bf] (rev c1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (AMD)
+network: |
+  MEDIATEK Corp. MT7922 802.11ax PCI Express Wireless Network Adapter [14c3:0616]
+memory: |
+  31940
+scsi: |
+
+usb: |
+  8
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.6.2-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/24985'><span class='icon'></span>Read more.</a>
+    credit: |
+      @tayari (Daylam Tayari)
+    link: |
+      https://forum.qubes-os.org/t/24985
