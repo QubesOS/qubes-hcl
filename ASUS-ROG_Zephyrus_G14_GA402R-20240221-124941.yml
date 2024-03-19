@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  ASUSTeK COMPUTER INC.
+  Asus
 model: |
-  ROG Zephyrus G14 GA402RJ_GA402RJ
+  ROG Zephyrus G14 (GA402RJ)
 bios: |
   GA402RJ.318
 cpu: |
@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Rembrandt [Radeon 680M] [1002:1681] (rev c7) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated graphics (Rembrandt)
+  Integrated Graphics (Rembrandt)
 network: |
   MEDIATEK Corp. MT7922 802.11ax PCI Express Wireless Network Adapter [14c3:0616]
 memory: |
@@ -55,6 +55,6 @@ versions:
     credit: |
       @wahcha
     link: |
-      https://forum.qubes-os.org/t/hcl-report-asus-rog-zephyrus-g14-ga402r
+      https://forum.qubes-os.org/t/24575
 
 ---
