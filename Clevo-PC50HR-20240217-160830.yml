@@ -16,13 +16,13 @@ remap:
 brand: |
   Clevo
 model: |
-  PC5x_7xHP_HR_HS
+  PC50HR
 bios: |
   1.07.11
 cpu: |
   11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
 cpu-short: |
-  FIXME
+  i7-11800H
 chipset: |
   Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a36] (rev 05)
 chipset-short: |
@@ -31,7 +31,7 @@ gpu: |
   Intel Corporation TigerLake-H GT1 [UHD Graphics] [8086:9a60] (rev 01) (prog-if 00 [VGA controller])
   NVIDIA Corporation GA104M [GeForce RTX 3070 Mobile / Max-Q] [10de:249d] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated graphics (UHD) & NVIDIA RTX 3070 Mobile
+  Integrated Graphics (UHD) & NVIDIA RTX 3070 Mobile
 network: |
   Intel Corporation Tiger Lake PCH CNVi WiFi [8086:43f0] (rev 11)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
@@ -53,10 +53,10 @@ versions:
     kernel: |
       6.6.2-1
     remark: |
-      VDM Mode must be disabled for the installer to work.
+      VDM Mode must be disabled.
     credit: |
       @YellowBeanSprout
     link: |
-      https://forum.qubes-os.org/t/clevo-pc50hr
+      https://forum.qubes-os.org/t/24493
 
 ---
