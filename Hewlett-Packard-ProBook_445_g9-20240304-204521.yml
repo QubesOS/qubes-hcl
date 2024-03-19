@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  HP
+  Hewlett-Packard
 model: |
-  HP ProBook 445 14 inch G9 Notebook PC
+  ProBook 445 14" G9
 bios: |
   U78 Ver. 01.07.00
 cpu: |
@@ -30,7 +30,7 @@ chipset-short: |
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Barcelo [1002:15e7] (rev c2) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated AMD graphics
+  Integrated Graphics (AMD)
 network: |
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
   Realtek Semiconductor Co., Ltd. Device [10ec:b852]
@@ -56,6 +56,6 @@ versions:
     credit: |
       @holycat
     link: |
-      https://forum.qubes-os.org/t/hcl-hp-probook-445-14-inch-g9-notebook-pc
+      https://forum.qubes-os.org/t/21275
 
 ---
