@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Gigabyte Technology Co., Ltd.
+model: |
+  Z790 AORUS ELITE DDR4
+bios: |
+  F10
+cpu: |
+  13th Gen Intel(R) Core(TM) i5-13500
+cpu-short: |
+  FIXME
+chipset: |
+  Intel Corporation Device [8086:4640] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation AlderLake-S GT1 [8086:4680] (rev 0c)
+  Advanced Micro Devices, Inc. [AMD/ATI] Baffin [Radeon RX 550 640SP / RX 560/560X] [1002:67ff] (rev c1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Radeon RX (Polaris 12)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+memory: |
+  65298
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+      
+    credit: |
+      @lemon101
+    link: |
+      https://forum.qubes-os.org/t/gigabyte-aorus-elite-z790-intel-i5-13500-amd-radeon-rx-560
+
+---
