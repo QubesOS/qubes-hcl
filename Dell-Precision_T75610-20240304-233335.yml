@@ -1,0 +1,62 @@
+---
+layout:
+  'hcl'
+type:
+  'Desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell Inc.
+model: |
+  Precision T5610
+bios: |
+  A19
+cpu: |
+  Intel(R) Xeon(R) CPU E5-2620 v2 @ 2.10GHz
+cpu-short: |
+  E5-2620
+chipset: |
+  Intel Corporation Xeon E7 v2/Xeon E5 v2/Core i7 DMI2 [8086:0e00] (rev 04)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  NVIDIA Corporation GK107GL [Quadro K2000] [10de:0ffe] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Quadro K2000
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) [8086:1502] (rev 06)
+memory: |
+  16328
+scsi: |
+  SAMSUNG HD502HJ  Rev: 0001
+  Micron_M550_2.5" Rev: DL03
+  WDC WD10JPVX-60J Rev: 1A01
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.3
+    kernel: |
+      6.1.75-1
+    remark: |
+      Had to disable DPMS and install official Nvidia drivers
+    credit: |
+      @alaska
+    link: |
+      https://forum.qubes-os.org/t/25190
+
+---
