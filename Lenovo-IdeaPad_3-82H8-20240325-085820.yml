@@ -1,0 +1,57 @@
+---
+layout:
+  'hcl'
+type:
+  'Laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  LENOVO
+model: |
+  82H8
+bios: |
+  GGCN34WW
+cpu: |
+  11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+cpu-short: |
+  i5-1135G7
+chipset: |
+  00.0 Host bridge [0600]: Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a14] (rev 01)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  02.0 VGA compatible controller [0300]: Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] [8086:9a49] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  14.3 Network controller: Intel Corporation Wi-Fi 6 AX201 (rev 20)
+memory: |
+  7991
+scsi: |
+usb: |
+  2
+versions:
+- works:
+    'yes'
+  qubes: |
+    R4.1
+  xen: |
+    4.14.5
+  kernel: |
+    5.15.52-1
+  remark: |
+    Original UMIS AM620 "union memory" SSD did not work. Replaced it with Samsung 960 Pro SSD.
+  credit: |
+    @ZooK11
+  link: |
+    https://forum.qubes-os.org/t/25353
+
+---
