@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'Laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Acer
+model: |
+  Swift SF314-57
+bios: |
+  V1.21
+cpu: |
+  Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+cpu-short: |
+  i5-1035G1
+chipset: |
+  Intel Corporation Ice Lake-LP Processor Host Bridge/DRAM Registers [8086:8a12] (rev 03)
+chipset-short: |
+  Ice Lake
+gpu: |
+  Intel Corporation Iris Plus Graphics G1 (Ice Lake) [8086:8a56] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD)
+network: |
+  Intel Corporation Ice Lake-LP PCH CNVi WiFi [8086:34f0] (rev 30)
+memory: |
+  7870
+scsi: |
+
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+      Installation onto built-in NVMe requires pressing Ctrl+S in UEFI's main/advanced tab. Then, you will be able to switch from Optane RAID into AHCI, and Qubes will find the built in NVMe.
+    credit: |
+      @Triona
+    link: |
+      https://forum.qubes-os.org/t/25286
+
+---
