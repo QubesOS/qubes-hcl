@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'Desktop'
+  'desktop'
 hvm:
   'yes'
 iommu:
@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Dell Inc.
+  Dell
 model: |
   Precision T5610
 bios: |

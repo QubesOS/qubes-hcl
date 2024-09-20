@@ -2,12 +2,11 @@
 layout:
   'hcl'
 type:
-  'Laptop'
+  'laptop'
 hvm:
   'yes'
 iommu:
   'yes'
-  
 slat:
   'yes'
 tpm:
@@ -55,7 +54,7 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      Require to activate VMD, 'hidden' option in the BIOS: Ctrl + S to show the option in the advanced tab
+      Require to activate VMD (Ctrl + S to show in BIOS).
     credit: |
       @Korben
     link: |

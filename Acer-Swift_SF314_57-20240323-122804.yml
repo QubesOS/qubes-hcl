@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'Laptop'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -51,7 +51,7 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-      Installation onto built-in NVMe requires pressing Ctrl+S in UEFI's main/advanced tab. Then, you will be able to switch from Optane RAID into AHCI, and Qubes will find the built in NVMe.
+      Switch from Optane RAID into AHCI.
     credit: |
       @Triona
     link: |

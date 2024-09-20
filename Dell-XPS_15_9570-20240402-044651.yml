@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'Laptop'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -14,7 +14,7 @@ tpm:
 remap:
   'yes'
 brand: |
-  Dell Inc.
+  Dell
 model: |
   XPS 15 9570
 bios: |
@@ -52,7 +52,7 @@ versions:
     kernel: |
       6.7.7-1
     remark: |
-      N/A
+
     credit: |
       @qubes.epic
     link: |

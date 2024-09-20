@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'Laptop'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -14,9 +14,9 @@ tpm:
 remap:
   'yes'
 brand: |
-  LENOVO
+  Lenovo
 model: |
-  82H8
+  IdeaPad 3 (82H8)
 bios: |
   GGCN34WW
 cpu: |
@@ -39,19 +39,19 @@ scsi: |
 usb: |
   2
 versions:
-- works:
-    'yes'
-  qubes: |
-    R4.1
-  xen: |
-    4.14.5
-  kernel: |
-    5.15.52-1
-  remark: |
-    Original UMIS AM620 "union memory" SSD did not work. Replaced it with Samsung 960 Pro SSD.
-  credit: |
-    @ZooK11
-  link: |
-    https://forum.qubes-os.org/t/25353
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      5.15.52-1
+    remark: |
+      Original SSD did not work. Replaced with Samsung 960 Pro.
+    credit: |
+      @ZooK11
+    link: |
+      https://forum.qubes-os.org/t/25353
 
 ---
