@@ -1,0 +1,64 @@
+---
+layout:
+  'hcl'
+type:
+  'Laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+  
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Acer
+model: |
+  Nitro ANV15-51
+bios: |
+  V1.06
+cpu: |
+  13th Gen Intel(R) Core(TM) i7-13620H
+cpu-short: |
+  i7-13620H
+chipset: |
+  Intel Corporation Device [8086:a715]
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Raptor Lake-P [UHD Graphics] [8086:a7a8] (rev 04) (prog-if 00 [VGA controller])
+  NVIDIA Corporation AD107M [GeForce RTX 4050 Max-Q / Mobile] [10de:28a1] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD)
+  GeForce RTX 4050
+network: |
+  Intel Corporation Raptor Lake PCH CNVi WiFi [8086:51f1] (rev 01)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+memory: |
+  16087
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+      Require to activate VMD, 'hidden' option in the BIOS: Ctrl + S to show the option in the advanced tab
+    credit: |
+      @Korben
+    link: |
+      https://forum.qubes-os.org/t/25169
+
+---
