@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  OptiPlex 7050
+bios: |
+  1.12.1
+cpu: |
+  Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+cpu-short: |
+  i7-6700
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:191f] (rev 07)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 530 [8086:1912] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 530)
+network: |
+  Intel Corporation Ethernet Connection (5) I219-LM [8086:15e3]
+memory: |
+  16247
+scsi: |
+  TOSHIBA KSG60ZSE Rev: 4101
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.2
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.36-1
+    remark: |
+
+    credit: |
+      @wilhere
+    link: |
+      https://forum.qubes-os.org/t/27938
