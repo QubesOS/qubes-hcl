@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  NiPoGi
+model: |
+  AK2 Plus
+bios: |
+  5.26
+cpu: |
+  Intel(R) N100
+cpu-short: |
+  N100
+chipset: |
+  Intel Corporation Device [8086:461c]
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Alder Lake-N [UHD Graphics] [8086:46d1] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+  Realtek Semiconductor Co., Ltd. RTL8821CE 802.11ac PCIe Wireless Network Adapter [10ec:c821]
+memory: |
+  16159
+scsi: |
+  SanDisk SDSSDA-2 Rev: 40RL
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.2
+    xen: |
+      4.17.4
+    kernel: |
+      6.10.3-1
+    remark: |
+      workarounds needed
+    credit: |
+      @Johnboy
+    link: |
+      https://forum.qubes-os.org/t/28813
