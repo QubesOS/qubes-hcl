@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Framework
+model: |
+  Laptop 13
+bios: |
+  03.05
+cpu: |
+  AMD Ryzen 5 7640U w/ Radeon 760M Graphics
+cpu-short: |
+  Ryzen 5 7640U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14e8]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Phoenix1 [1002:15bf] (rev cb) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (AMD)
+network: |
+  MEDIATEK Corp. MT7922 802.11ax PCI Express Wireless Network Adapter [14c3:0616]
+memory: |
+  32060
+scsi: |
+
+usb: |
+  8
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.2
+    xen: |
+      4.17.4
+    kernel: |
+      6.9.7-1
+    remark: |
+
+    credit: |
+      @Anneleya
+    link: |
+      https://forum.qubes-os.org/t/28497
