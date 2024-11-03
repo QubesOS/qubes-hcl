@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad P1 (Gen 6)(21FWS55P00)
+bios: |
+  N3ZET44W (1.31)
+cpu: |
+  13th Gen Intel(R) Core(TM) i7-13700H
+cpu-short: |
+  i7-13700H
+chipset: |
+  Intel Corporation Device [8086:a706]
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Raptor Lake-P [Iris Xe Graphics] (rev 04) (prog-if 00 [VGA controller])
+  NVIDIA Corporation AD107GLM [RTX 2000 Ada Generation Laptop GPU] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe) & RTX 2000 Ada
+network: |
+  Intel Corporation Raptor Lake PCH CNVi WiFi (rev 01)
+memory: |
+  65208
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.48-1
+    remark: |
+
+    credit: |
+      @freethesoul
+    link: |
+      https://forum.qubes-os.org/t/29414
