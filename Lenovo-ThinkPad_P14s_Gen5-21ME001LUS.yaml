@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad P14s (21ME001LUS)
+bios: |
+  R2LET25W (1.06)
+cpu: |
+  AMD Ryzen 7 PRO 8840HS w/ Radeon 780M Graphics
+cpu-short: |
+  Ryzen 7 PRO 8840HS
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14e8]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:1900] (rev d2) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon 780M)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 0e)
+  Qualcomm Technologies, Inc QCNFA765 Wireless Network Adapter [17cb:1103] (rev 01)
+memory: |
+  28314
+scsi: |
+
+usb: |
+  8
+certified:
+  'no'
+versions:
+  - works:
+      'no'
+    qubes: |
+      R4.2.2
+    xen: |
+      4.17.4
+    kernel: |
+      6.9.7-1
+    remark: |
+      no WiFi, no thunderbolt, unstable (unplugging USB devices causes machine crash)
+    credit: |
+      @danny
+    link: |
+      https://forum.qubes-os.org/t/28593
