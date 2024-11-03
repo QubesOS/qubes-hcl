@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad P14 (21ML005GGE)
+bios: |
+  N47ET16W (1.05)
+cpu: |
+  Intel(R) Core(TM) Ultra 5 125U
+cpu-short: |
+  Ultra 5 125U
+chipset: |
+  Intel Corporation Device [8086:7d02] (rev 04)
+chipset-short: |
+  Meteor Lake
+gpu: |
+  Intel Corporation Meteor Lake-P [Intel Graphics] [8086:7d45] (rev 08) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics
+network: |
+  Intel Corporation Device [8086:7e40] (rev 20)
+  Intel Corporation Device [8086:550b] (rev 20)
+memory: |
+  32449
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.2
+    xen: |
+      4.17.4
+    kernel: |
+      6.9.7-1
+    remark: |
+      for WiFi, use Fedora based sys-net
+    credit: |
+      @hildi
+    link: |
+      https://forum.qubes-os.org/t/27923
