@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Tuxedo
+model: |
+  InfinityBook S Gen8
+bios: |
+  1.07.10RTR1
+cpu: |
+  13th Gen Intel(R) Core(TM) i7-1360P
+cpu-short: |
+  i7-1360P
+chipset: |
+  Intel Corporation Raptor Lake-P/U 4p+8e cores Host Bridge/DRAM Controller [8086:a707]
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Raptor Lake-P [Iris Xe Graphics] [8086:a7a0] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Raptor Lake PCH CNVi WiFi [8086:51f1] (rev 01)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+memory: |
+  32471
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.1
+    xen: |
+      4.17.4
+    kernel: |
+      6.9.2-1
+    remark: |
+
+    credit: |
+      @kris_748201
+    link: |
+      https://forum.qubes-os.org/t/27466
