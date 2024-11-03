@@ -57,4 +57,19 @@ versions:
     link: |
       https://configurelaptop.eu/nv41-series/
 
+  - works:
+      'partial'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.5
+    kernel: |
+      6.3.2-1
+    remark: |
+      resume fails with kernel 6.3.2-1, charging issues over USB-C
+    credit: |
+      @disp666
+    link: |
+      https://forum.qubes-os.org/t/18531/10
+
 ---
