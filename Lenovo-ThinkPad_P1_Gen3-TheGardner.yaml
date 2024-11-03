@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad P1 (Gen 3) (20TH001AGE)
+bios: |
+  N2VET49W (1.34)
+cpu: |
+  Intel(R) Core(TM) i9-10885H CPU @ 2.40GHz
+cpu-short: |
+  i9-10885H
+chipset: |
+  Intel Corporation 10th Gen Core Processor Host Bridge/DRAM Registers [8086:9b44] (rev 02)
+chipset-short: |
+  Comet Lake
+gpu: |
+  Intel Corporation CometLake-H GT2 [UHD Graphics] [8086:9bc4] (rev 05) (prog-if 00 [VGA controller])
+  NVIDIA Corporation TU117GLM [Quadro T2000 Mobile / Max-Q] [10de:1fb8] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 630) & Quadro T2000 Mobile
+network: |
+  Intel Corporation Comet Lake PCH CNVi WiFi [8086:06f0]
+memory: |
+  65288
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.48-1
+    remark: |
+
+    credit: |
+      @TheGardner
+    link: |
+      https://forum.qubes-os.org/t/29428
