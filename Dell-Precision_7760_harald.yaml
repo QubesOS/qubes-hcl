@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'Laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision 7760
+bios: |
+  1.34.0
+cpu: |
+  11th Gen Intel(R) Core(TM) i9-11950H @ 2.60GHz
+cpu-short: |
+  i9-11950H
+chipset: |
+  Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a36] (rev 05)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  Intel Corporation TigerLake-H GT1 [UHD Graphics] [8086:9a60] (rev 01) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GA104GLM [RTX A4000 Mobile] [10de:24b7] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD) & RTX A4000 Mobile
+network: |
+  Intel Corporation Ethernet Connection (14) I219-LM [8086:15f9] (rev 11)
+  Intel Corporation Wi-Fi 6 AX210/AX211/AX411 160MHz [8086:2725] (rev 1a)
+memory: |
+  130261
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.48-1
+    remark: |
+      needs older WiFi driver
+    credit: |
+      @harald
+    link: |
+      https://forum.qubes-os.org/t/29871
