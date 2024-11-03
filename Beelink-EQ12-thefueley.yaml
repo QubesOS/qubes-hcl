@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Beelink
+model: |
+  EQ12
+bios: |
+  N95V106
+cpu: |
+  Intel(R) N100
+cpu-short: |
+  N100
+chipset: |
+  Intel Corporation Device [8086:461c]
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Alder Lake-N [UHD Graphics] [8086:46d1] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD)
+network: |
+  Intel Corporation CNVi: Wi-Fi [8086:54f0]
+  Intel Corporation Ethernet Controller I225-V [8086:15f3] (rev 03)
+memory: |
+  16158
+scsi: |
+  FORESEE 512GB SS Rev: 0.2
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.2
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.36-1
+    remark: |
+
+    credit: |
+      @thefueley
+    link: |
+      https://forum.qubes-os.org/t/28414
