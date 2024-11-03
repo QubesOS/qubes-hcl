@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 15 9520
+bios: |
+  1.23.0
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-12700H
+cpu-short: |
+  i7-12700H
+chipset: |
+  00.0 Host bridge [0600]: Intel Corporation 12th Gen Core Processor Host Bridge/DRAM Registers [8086:4641] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  02.0 VGA compatible controller [0300]: Intel Corporation Alder Lake-P GT2 [Iris Xe Graphics] [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  14.3 Network controller [0280]: Intel Corporation Alder Lake-P PCH CNVi WiFi [8086:51f0] (rev 01)
+memory: |
+  65207
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.1
+    xen: |
+      4.17.4
+    kernel: |
+      6.9.4-1
+    remark: |
+
+    credit: |
+      @yerill
+    link: |
+      https://forum.qubes-os.org/t/27111
