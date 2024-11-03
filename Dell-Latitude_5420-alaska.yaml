@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'Laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Latitude 5420
+bios: |
+  1.30.0
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+cpu-short: |
+  i7-1165G7
+chipset: |
+  Intel Corporation 11th Gen Core Processor Host Bridge/DRAM Registers [8086:9a14] (rev 01)
+chipset-short: |
+  Tiger Lake
+gpu: |
+  Intel Corporation TigerLake-LP GT2 [Iris Xe Graphics] [8086:9a49] (rev 01) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Wi-Fi 6 AX201 [8086:a0f0] (rev 20)
+  Intel Corporation Ethernet Connection (13) I219-V [8086:15fc] (rev 20)
+memory: |
+  15781
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.48-1
+    remark: |
+      battery drains fast
+    credit: |
+      @alaska
+    link: |
+      https://forum.qubes-os.org/t/29765
