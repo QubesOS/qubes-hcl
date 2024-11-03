@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 13 9340
+bios: |
+  1.7.0
+cpu: |
+  Intel(R) Core(TM) Ultra 7 155H
+cpu-short: |
+  Ultra 7 155H
+chipset: |
+  00.0 Host bridge [0600]: Intel Corporation Device [8086:7d01] (rev 04)
+chipset-short: |
+  Meteor Lake
+gpu: |
+  02.0 VGA compatible controller [0300]: Intel Corporation Meteor Lake-P [Intel Arc Graphics] [8086:7d55] (rev 08) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Arc)
+network: |
+  00.0 Network controller [0280]: Intel Corporation Device [8086:272b] (rev 1a)
+memory: |
+  64980
+scsi: |
+
+usb: |
+  5
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.2
+    xen: |
+      4.17.4
+    kernel: |
+      6.10.3-1
+    remark: |
+      no cam (without proprietary blob)
+    credit: |
+      @face
+    link: |
+      https://forum.qubes-os.org/t/28379
