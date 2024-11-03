@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad T540p (20BFS0VV00)
+bios: |
+  GMET91WW (2.39)
+cpu: |
+  Intel(R) Core(TM) i7-4600M CPU @ 2.90GHz
+cpu-short: |
+  i7-4600M
+chipset: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller [8086:0c04] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4600)
+network: |
+  Intel Corporation Ethernet Connection I217-LM [8086:153a] (rev 04)
+  Intel Corporation Wireless 7260 [8086:08b2] (rev 83)
+memory: |
+  7876
+scsi: |
+  SAMSUNG MZ7LN256 Rev: 3L6Q
+  DVD-RW DU8A5SH   Rev: BU51
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.1
+    xen: |
+      4.17.3
+    kernel: |
+      6.6.21-1
+    remark: |
+
+    credit: |
+      @Fresh_D
+    link: |
+      https://forum.qubes-os.org/t/28154
