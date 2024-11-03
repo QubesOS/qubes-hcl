@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  MS-7E01
+bios: |
+  M.00
+cpu: |
+  12th Gen Intel(R) Core(TM) i5-12400
+cpu-short: |
+  i5-12400
+chipset: |
+  Intel Corporation Device [8086:4650] (rev 05)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Alder Lake-S GT1 [UHD Graphics 730] [8086:4692] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 730)
+network: |
+  Intel Corporation Device [8086:7a70] (rev 11)
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+memory: |
+  65312
+scsi: |
+  Samsung SSD 860  Rev: 1B6Q
+  Hitachi HDS72202 Rev: A20N
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.1
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.33-1
+    remark: |
+
+    credit: |
+      @stumpi
+    link: |
+      https://forum.qubes-os.org/t/27685
