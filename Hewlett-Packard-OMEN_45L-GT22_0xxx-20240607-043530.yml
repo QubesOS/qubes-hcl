@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  OMEN 45L (GT22-0xxx)
+bios: |
+  F.50
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-12700K
+cpu-short: |
+  i7-12700K
+chipset: |
+  00.0 Host bridge [0600]: Intel Corporation 12th Gen Core Processor Host Bridge/DRAM Registers [8086:4668] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  00.0 VGA compatible controller [0300]: NVIDIA Corporation GA104 [GeForce RTX 3070 Lite Hash Rate] [10de:2488] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  RTX 3070 Lite
+network: |
+  14.3 Network controller [0280]: Intel Corporation Alder Lake-S PCH CNVi WiFi [8086:7af0] (rev 11)
+  00.0 Ethernet controller [0200]: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 16)
+memory: |
+  32525
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.1
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.29-1
+    remark: |
+
+    credit: |
+      @Lokil0k
+    link: |
+      https://forum.qubes-os.org/t/26866
