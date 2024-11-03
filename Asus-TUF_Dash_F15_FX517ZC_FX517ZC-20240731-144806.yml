@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  TUF Dash F15 (FX517ZC)
+bios: |
+  FX517ZC.318
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-12650H
+cpu-short: |
+  i7-12650H
+chipset: |
+  00.0 Host bridge [0600]: Intel Corporation Device [8086:4649] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  02.0 VGA compatible controller [0300]: Intel Corporation Alder Lake-P GT1 [UHD Graphics] [8086:46a3] (rev 0c) (prog-if 00 [VGA controller])
+  00.0 VGA compatible controller [0300]: NVIDIA Corporation GA107M [GeForce RTX 3050 Mobile] [10de:25a2] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD) & RTX 3050 Mobile
+network: |
+  14.3 Network controller [0280]: Intel Corporation Alder Lake-P PCH CNVi WiFi [8086:51f0] (rev 01)
+  1f.6 Ethernet controller [0200]: Intel Corporation Ethernet Connection (16) I219-LM [8086:1a1e] (rev 01)
+memory: |
+  16004
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.2
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.36-1
+    remark: |
+
+    credit: |
+      @otter2
+    link: |
+      https://forum.qubes-os.org/t/27986
