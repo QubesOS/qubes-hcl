@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Legion T5 (90RT00TVKS)
+bios: |
+  O54KT1CA
+cpu: |
+  11th Gen Intel(R) Core(TM) i7-11700 @ 2.50GHz
+cpu-short: |
+  i7-11700
+chipset: |
+  Intel Corporation Device [8086:4c43] (rev 01)
+chipset-short: |
+  Rocket Lake
+gpu: |
+  NVIDIA Corporation GA106 [GeForce RTX 3060 Lite Hash Rate] [10de:2504] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  RTX 3060 Lite
+network: |
+  Intel Corporation Tiger Lake PCH CNVi WiFi [8086:43f0] (rev 11)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+memory: |
+  16102
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.2
+    xen: |
+      4.17.4
+    kernel: |
+      6.9.7-1
+    remark: |
+
+    credit: |
+      @Gandalfen
+    link: |
+      https://forum.qubes-os.org/t/27943
