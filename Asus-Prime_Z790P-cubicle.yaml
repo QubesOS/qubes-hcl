@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  Prime Z790P
+bios: |
+  1402
+cpu: |
+  Intel(R) Core(TM) i9-14900
+cpu-short: |
+  i9-14900
+chipset: |
+  Intel Corporation Device [8086:a700] (rev 01)
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Raptor Lake-S GT1 [UHD Graphics 770] [8086:a780] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 770)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+memory: |
+  32508
+scsi: |
+  CT1000MX500SSD1  Rev: 023 
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.48-1
+    remark: |
+
+    credit: |
+      @cubicle
+    link: |
+      https://forum.qubes-os.org/t/29612
