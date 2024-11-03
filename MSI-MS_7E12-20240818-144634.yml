@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  MS-7E12
+bios: |
+  1.E0
+cpu: |
+  AMD Ryzen 9 9950X 16-Core Processor
+cpu-short: |
+  Ryzen 9 9950X
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14d8]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation AD106 [GeForce RTX 4060 Ti 16GB] [10de:2805] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:13c0] (rev c1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (AMD) & GeForce RTX 4060 Ti
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+memory: |
+  128616
+scsi: |
+
+usb: |
+  5
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.2
+    xen: |
+      4.17.4
+    kernel: |
+      6.10.3-1
+    remark: |
+      no suspend
+    credit: |
+      @renehoj
+    link: |
+      https://forum.qubes-os.org/t/28383
