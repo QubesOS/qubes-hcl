@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Clevo
+model: |
+  PE60RNE
+bios: |
+  1.07.03TSAS
+cpu: |
+  13th Gen Intel(R) Core(TM) i9-13900H
+cpu-short: |
+  i9-13900H
+chipset: |
+  00.0 Host bridge [0600]: Intel Corporation Device [8086:a706]
+chipset-short: |
+  Raptor Lake
+gpu: |
+  02.0 VGA compatible controller [0300]: Intel Corporation Raptor Lake-P [Iris Xe Graphics] [8086:a7a0] (rev 04) (prog-if 00 [VGA controller])
+  00.0 VGA compatible controller [0300]: NVIDIA Corporation AD107M [GeForce RTX 4050 Max-Q / Mobile] [10de:28e1] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe) & RTX 4050 Max-Q
+network: |
+  00.0 Network controller [0280]: Intel Corporation Wi-Fi 6 AX200 [8086:2723] (rev 1a)
+  00.0 Ethernet controller [0200]: Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+memory: |
+  65256
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.48-1
+    remark: |
+
+    credit: |
+      @zinzloun
+    link: |
+      https://forum.qubes-os.org/t/29412
