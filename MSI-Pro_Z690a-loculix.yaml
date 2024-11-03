@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  Pro Z690a Wifi (MS-7D25)
+bios: |
+  A.H0
+cpu: |
+  13th Gen Intel(R) Core(TM) i9-13900K
+cpu-short: |
+  i9-13900K
+chipset: |
+  Intel Corporation Device [8086:a700] (rev 01)
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Raptor Lake-S GT1 [UHD Graphics 770] [8086:a780] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 770)
+network: |
+  Intel Corporation Alder Lake-S PCH CNVi WiFi [8086:7af0] (rev 11)
+  Intel Corporation Ethernet Controller I225-V [8086:15f3] (rev 03)
+memory: |
+  98084
+scsi: |
+
+usb: |
+  9
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.1
+    xen: |
+      4.17.3
+    kernel: |
+      6.6.21-1
+    remark: |
+
+    credit: |
+      @loculix
+    link: |
+      https://forum.qubes-os.org/t/26983
