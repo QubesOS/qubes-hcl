@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  GL552VW
+bios: |
+  GL552VW.304
+cpu: |
+  Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+cpu-short: |
+  i7-6700HQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1910] (rev 07)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 530 [8086:191b] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 530)
+network: |
+  Intel Corporation Wireless 7265 [8086:095a] (rev 59)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 12)
+memory: |
+  16282
+scsi: |
+  HGST HTS721010A9 Rev: A3J0
+  DVD A  DA8A6SH   Rev: GAA2
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.1
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.33-1
+    remark: |
+
+    credit: |
+      @crying
+    link: |
+      https://forum.qubes-os.org/t/27411
