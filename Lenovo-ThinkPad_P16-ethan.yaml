@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad P16 (21D6007XUS)
+bios: |
+  N3FET32W (1.17)
+cpu: |
+  12th Gen Intel(R) Core(TM) i9-12900HX
+cpu-short: |
+  i9-12900HX
+chipset: |
+  Intel Corporation Device [8086:4637] (rev 02)
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Alder Lake-HX GT1 [UHD Graphics 770] [8086:4688] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 770)
+network: |
+  Intel Corporation Alder Lake-S PCH CNVi WiFi [8086:7af0] (rev 11)
+memory: |
+  130769
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.1
+    xen: |
+      4.17.3
+    kernel: |
+      6.6.21-1
+    remark: |
+
+    credit: |
+      @ethnh (Ethan Hindmarsh)
+    link: |
+      https://forum.qubes-os.org/t/26733
