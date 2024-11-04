@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Beelink
+model: |
+  SER5
+bios: |
+  5800H603
+cpu: |
+  AMD Ryzen 7 5800H with Radeon Graphics
+cpu-short: |
+  Ryzen 7 5800H
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [Radeon Vega Series / Radeon Vega Mobile Series] [1002:1638] (rev c5) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Vega 8)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+  Intel Corporation Wi-Fi 6 AX200 [8086:2723] (rev 1a)
+memory: |
+  29618
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+
+    credit: |
+      bozoslivehere
+    link: |
+      https://groups.google.com/g/qubes-users/c/rSe1_BN2q2A/m/dqDHQ8_DAAAJ

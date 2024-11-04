@@ -36,7 +36,7 @@ network: |
 memory: |
   32508
 scsi: |
-  CT1000MX500SSD1  Rev: 023 
+  CT1000MX500SSD1  Rev: 023
 usb: |
   2
 certified:

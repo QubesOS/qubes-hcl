@@ -37,7 +37,7 @@ network: |
 memory: |
   16340
 scsi: |
-  INTENSO SSD      Rev: 2A0 
+  INTENSO SSD      Rev: 2A0
   DVD-RAM UJ8G2    Rev: 1.00
 usb: |
   3
