@@ -10,21 +10,21 @@ iommu:
 slat:
   'yes'
 tpm:
-  'unknown'
+  '2.0'
 remap:
   'yes'
 brand: |
-  Dell
+  Lenovo
 model: |
-  OptiPlex 7050
+  ThinkCentre m910x (10N0000AUS)
 bios: |
-  1.10.2
+  M1AKT3EA
 cpu: |
   Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
 cpu-short: |
   i5-7500
 chipset: |
-  Intel Corporation Intel Kaby Lake Host Bridge [8086:591f] (rev 05)
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:591f] (rev 05)
 chipset-short: |
   Kaby Lake
 gpu: |
@@ -32,29 +32,28 @@ gpu: |
 gpu-short: |
   Integrated Graphics (HD 630)
 network: |
-  Intel Corporation Ethernet Connection (5) I219-LM
-  Intel Corporation I210 Gigabit Network Connection (rev 03)
+  Intel Corporation Ethernet Connection (2) I219-LM [8086:15b7]
+  Intel Corporation Wireless 8265 / 8275 [8086:24fd] (rev 78)
 memory: |
-  8055
+  8079
 scsi: |
 
 usb: |
   1
+certified:
+  'no'
 versions:
-
   - works:
       'yes'
     qubes: |
-      R4.0
+      R4.2.0
     xen: |
-      4.8.3
+      4.17.2
     kernel: |
-      4.14.18-1
+      6.1.62-1
     remark: |
 
     credit: |
-      Arthur Roland
+      @krupskd525
     link: |
-      https://groups.google.com/d/msgid/qubes-users/287642781.5771394.1547557530692.JavaMail.zimbra%40univ-lille.fr
-
----
+      https://forum.qubes-os.org/t/23834
