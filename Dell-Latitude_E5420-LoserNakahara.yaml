@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Latitude E5420
+bios: |
+  A14
+cpu: |
+  Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz
+cpu-short: |
+  i5-2520M
+chipset: |
+  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0104] (rev 09)
+chipset-short: |
+  Sandy Bridge
+gpu: |
+  Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0126] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 3000)
+network: |
+  Intel Corporation Centrino Ultimate-N 6300 [8086:4238] (rev 3e)
+  Broadcom Inc. and subsidiaries NetXtreme BCM5761 Gigabit Ethernet PCIe [14e4:1681] (rev 10)
+memory: |
+  6041
+scsi: |
+  WDC WDS120G2G0A- Rev: 0000
+  TOSHIBA MK2561GS Rev: 0D  
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.1
+    xen: |
+      4.17.3
+    kernel: |
+      6.6.21-1
+    remark: |
+
+    credit: |
+      @LoserNakahara
+    link: |
+      https://forum.qubes-os.org/t/25862
