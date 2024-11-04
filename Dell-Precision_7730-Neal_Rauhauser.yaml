@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision 7730
+bios: |
+  1.31.0
+cpu: |
+  Intel(R) Xeon(R) E-2176M  CPU @ 2.70GHz
+cpu-short: |
+  E-2176M
+chipset: |
+  Intel Corporation 8th Gen Core Processor Host Bridge/DRAM Registers [8086:3ec4] (rev 07)
+chipset-short: |
+  Cannon Lake
+gpu: |
+  Intel Corporation Coffee Lake-S GT2 [UHD Graphics P630] [8086:3e94] (prog-if 00 [VGA controller])
+  NVIDIA Corporation GP104GLM [Quadro P4200 Mobile] [10de:1bb9] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 630) & Quadro P4200 Mobile
+network: |
+  Intel Corporation Ethernet Connection (7) I219-LM [8086:15bb] (rev 10)
+  Intel Corporation Wireless-AC 9260 [8086:2526] (rev 29)
+memory: |
+  32522
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+
+    credit: |
+      Neal Rauhauser
+    link: |
+      https://groups.google.com/g/qubes-users/c/pRnwqed-Fr4/m/hxPSbaixAAAJ
