@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Hewlett-Packard
+model: |
+  Dev One
+bios: |
+  F.05
+cpu: |
+  AMD Ryzen 7 PRO 5850U with Radeon Graphics
+cpu-short: |
+  Ryzen 7 PRO 5850U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [Radeon Vega Series / Radeon Vega Mobile Series] [1002:1638] (rev d1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon Vega Mobile)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8822CE 802.11ac PCIe Wireless Network Adapter [10ec:c822]
+memory: |
+  64848
+scsi: |
+
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.1
+    xen: |
+      4.17.3
+    kernel: |
+      6.1.75-1
+    remark: |
+      Camera, mic, audio speakers, & Wi-Fi work; didn't test Bluetooth
+    credit: |
+      @taivlam (Tai Lam)
+    link: |
+      https://forum.qubes-os.org/t/13811/14
