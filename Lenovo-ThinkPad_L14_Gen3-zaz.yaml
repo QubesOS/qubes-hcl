@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad L14 Gen 3 (21C6S08E00)
+bios: |
+  R1YET49W (1.26)
+cpu: |
+  AMD Ryzen 7 PRO 5875U with Radeon Graphics
+cpu-short: |
+  Ryzen 7 PRO 5875U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Barcelo [1002:15e7] (rev d1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (AMD)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 0e)
+  MEDIATEK Corp. MT7922 802.11ax PCI Express Wireless Network Adapter [14c3:0616]
+memory: |
+  64302
+scsi: |
+
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+
+    credit: |
+      @zaz (Zaz Brown)
+    link: |
+      https://forum.qubes-os.org/t/23574
