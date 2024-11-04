@@ -51,7 +51,7 @@ versions:
     kernel: |
       4.14.74-1
     remark: |
-      EUFI Secure boot off, legacy boot - nothing else tried
+      UEFI Secure boot off, legacy boot - nothing else tried
     credit: |
       telling
     link: |

@@ -51,7 +51,7 @@ versions:
     kernel: |
       5.10.61-1
     remark: |
-      enable acpi-processor!
+      enable ACPI-processor!
     credit: |
       @S9qPsAMNuW4ax5EF5
     link: |
