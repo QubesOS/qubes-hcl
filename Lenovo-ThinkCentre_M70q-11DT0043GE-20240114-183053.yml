@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkCentre M70q (11DT0043GE)
+bios: |
+  M2WKT5CA
+cpu: |
+  Intel(R) Core(TM) i5-10400T CPU @ 2.00GHz
+cpu-short: |
+  i5-10400T
+chipset: |
+  Intel Corporation Comet Lake-S 6c Host Bridge/DRAM Controller [8086:9b53] (rev 03)
+chipset-short: |
+  Comet Lake
+gpu: |
+  Intel Corporation CometLake-S GT2 [UHD Graphics 630] [8086:9bc8] (rev 03) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 630)
+network: |
+  Intel Corporation Comet Lake PCH CNVi WiFi [8086:06f0]
+  Intel Corporation Ethernet Connection (11) I219-V [8086:0d4d]
+memory: |
+  16116
+scsi: |
+  Samsung SSD 870  Rev: 1B6Q
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    remark: |
+
+    credit: |
+      @Cerberus
+    link: |
+      https://forum.qubes-os.org/t/23738
