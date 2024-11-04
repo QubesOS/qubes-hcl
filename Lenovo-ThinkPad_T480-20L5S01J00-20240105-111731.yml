@@ -10,19 +10,19 @@ iommu:
 slat:
   'yes'
 tpm:
-  'unknown'
+  '2.0'
 remap:
   'yes'
 brand: |
   Lenovo
 model: |
-  ThinkPad T480 (20L6SBJW00)
+  ThinkPad T480 (20L5S01J00)
 bios: |
-  N24ET60W (1.35)
+  N24ET71P (1.46)
 cpu: |
-  Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+  Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
 cpu-short: |
-  i7-8650U
+  i7-8550U
 chipset: |
   Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5914] (rev 08)
 chipset-short: |
@@ -32,31 +32,17 @@ gpu: |
 gpu-short: |
   Integrated Graphics (HD 620)
 network: |
-  Intel Corporation Ethernet Connection (4) I219-LM (rev 21)
-  Intel Corporation Wireless 8265 / 8275 (rev 78)
+  Intel Corporation Ethernet Connection (4) I219-V [8086:15d8] (rev 21)
+  Intel Corporation Wireless 8265 / 8275 [8086:24fd] (rev 78)
 memory: |
-  16258
+  32524
 scsi: |
 
 usb: |
   2
+certified:
+  'no'
 versions:
-
-  - works:
-      'yes'
-    qubes: |
-      R4.1
-    xen: |
-      4.14.5
-    kernel: |
-      5.15.64-1
-    remark: |
-
-    credit: |
-      @aronowski
-    link: |
-      https://forum.qubes-os.org/t/3290/10
-
   - works:
       'yes'
     qubes: |
@@ -66,10 +52,8 @@ versions:
     kernel: |
       6.1.62-1
     remark: |
-
+      <a class='ext-link' href='https://forum.qubes-os.org/t/3290/57'><span class='icon'></span>read more</a>
     credit: |
-      @aronowski
+      @matik
     link: |
-      https://forum.qubes-os.org/t/3290/55
-
----
+      https://forum.qubes-os.org/t/3290/57
