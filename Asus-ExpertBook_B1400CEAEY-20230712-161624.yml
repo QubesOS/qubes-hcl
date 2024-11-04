@@ -56,4 +56,18 @@ versions:
       @Xuni
     link: |
       https://forum.qubes-os.org/t/19802/
+
+  - works:
+      'yes'
+    qubes: |
+      R4.2.0
+    xen: |
+      4.17.2
+    kernel: |
+      6.1.62-1
+    credit: |
+      @Xuni
+    link: |
+      https://forum.qubes-os.org/t/19802/3
+
 ---
