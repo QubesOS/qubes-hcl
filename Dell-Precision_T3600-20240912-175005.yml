@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision T3600
+bios: |
+  A18
+cpu: |
+  Intel(R) Xeon(R) CPU E5-1620 0 @ 3.60GHz
+cpu-short: |
+  E5-1620
+chipset: |
+  Intel Corporation Xeon E5/Core i7 DMI2 [8086:3c00] (rev 07)
+chipset-short: |
+  Sandy Bridge EP
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Turks GL [FirePro V4900] [1002:6749] (prog-if 00 [VGA controller])
+gpu-short: |
+  FirePro V4900
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) [8086:1502] (rev 05)
+memory: |
+  32725
+scsi: |
+  KINGSTON SA400S3 Rev: B1D2
+  DVD+-RW GT60N    Rev: A102
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.2
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.42-1
+    remark: |
+      Uses Ethernet, no Wi-Fi yet
+    credit: |
+      Francis King
+    link: |
+      https://groups.google.com/g/qubes-users/c/gddgpaUtQpk/m/jTgU9x9HAQAJ
