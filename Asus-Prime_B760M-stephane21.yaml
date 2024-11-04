@@ -14,48 +14,46 @@ tpm:
 remap:
   'yes'
 brand: |
-  Gigabyte Technology Co., Ltd.
+  Asus
 model: |
-  Z790 AORUS ELITE DDR4
+  Prime B760M-A Wifi
 bios: |
-  F10
+  1656
 cpu: |
   13th Gen Intel(R) Core(TM) i5-13500
 cpu-short: |
-  FIXME
+  i5-13500
 chipset: |
   Intel Corporation Device [8086:4640] (rev 02)
 chipset-short: |
   Alder Lake
 gpu: |
-  Intel Corporation AlderLake-S GT1 [8086:4680] (rev 0c)
-  Advanced Micro Devices, Inc. [AMD/ATI] Baffin [Radeon RX 550 640SP / RX 560/560X] [1002:67ff] (rev c1) (prog-if 00 [VGA controller])
+  Intel Corporation AlderLake-S GT1 [8086:4680] (rev 0c) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (UHD 770) & Radeon RX (Polaris 12)
+  Integrated Graphics (UHD 770)
 network: |
+  Intel Corporation Device [8086:7a70] (rev 11)
   Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
 memory: |
-  65298
+  32509
 scsi: |
 
 usb: |
-  1
+  2
 certified:
   'no'
 versions:
   - works:
       'yes'
     qubes: |
-      R4.2.0
+      R4.2.1
     xen: |
-      4.17.2
+      4.17.3
     kernel: |
-      6.1.62-1
+      6.6.21-1
     remark: |
 
     credit: |
-      @lemon101
+      @stephane21
     link: |
-      https://forum.qubes-os.org/t/gigabyte-aorus-elite-z790-intel-i5-13500-amd-radeon-rx-560
-
----
+      https://forum.qubes-os.org/t/26692
