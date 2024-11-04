@@ -14,11 +14,11 @@ tpm:
 remap:
   'yes'
 brand: |
-  Acer
+  MSI
 model: |
-  Nitro ANV15-51
+  Katana 15 (B13VEK)
 bios: |
-  V1.06
+  E1585IMS.113
 cpu: |
   13th Gen Intel(R) Core(TM) i7-13620H
 cpu-short: |
@@ -31,32 +31,30 @@ gpu: |
   Intel Corporation Raptor Lake-P [UHD Graphics] [8086:a7a8] (rev 04) (prog-if 00 [VGA controller])
   NVIDIA Corporation AD107M [GeForce RTX 4050 Max-Q / Mobile] [10de:28a1] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (UHD) & GeForce RTX 4050
+  Integrated Graphics (UHD) & RTX 4050 Max-Q
 network: |
   Intel Corporation Raptor Lake PCH CNVi WiFi [8086:51f1] (rev 01)
   Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
 memory: |
-  16087
+  65234
 scsi: |
 
 usb: |
-  3
+  1
 certified:
   'no'
 versions:
   - works:
       'yes'
     qubes: |
-      R4.2.0
+      R4.2.1
     xen: |
-      4.17.2
+      4.17.3
     kernel: |
-      6.1.62-1
+      6.6.21-1
     remark: |
-      Require to activate VMD (Ctrl + S to show in BIOS).
-    credit: |
-      @Korben
-    link: |
-      https://forum.qubes-os.org/t/25169
 
----
+    credit: |
+      @peachmaster
+    link: |
+      https://forum.qubes-os.org/t/25819
