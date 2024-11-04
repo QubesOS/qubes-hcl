@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  ''
+tpm:
+  'unknown'
+remap:
+  'no'
+brand: |
+  Dell
+model: |
+  Precision 5510
+bios: |
+  1.14.2
+cpu: |
+  Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz
+cpu-short: |
+  i7-6820HQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1910] (rev 07)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics 530 [8086:191b] (rev 06) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 530)
+network: |
+  Intel Corporation Wireless 8260 (rev 3a)
+memory: |
+  32616
+scsi: |
+
+usb: |
+  1
+versions:
+
+- works:
+    'yes'
+  qubes: |
+    R4.1
+  xen: |
+    4.14.6
+  kernel: |
+    6.1.43-1
+  remark: |
+
+  credit: |
+    @Qubesthrowaway
+  link: |
+    https://forum.qubes-os.org/t/22361
+
+---
