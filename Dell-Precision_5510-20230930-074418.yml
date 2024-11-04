@@ -41,19 +41,17 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.1
-  xen: |
-    4.14.6
-  kernel: |
-    6.1.43-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.6
+    kernel: |
+      6.1.43-1
+    remark: |
 
-  credit: |
-    @Qubesthrowaway
-  link: |
-    https://forum.qubes-os.org/t/22361
-
----
+    credit: |
+      @Qubesthrowaway
+    link: |
+      https://forum.qubes-os.org/t/22361
