@@ -31,7 +31,7 @@ gpu: |
   Intel Corporation CoffeeLake-H GT2 [UHD Graphics 630] [8086:3e9b] (prog-if 00 [VGA controller])
   NVIDIA Corporation GP106M [GeForce GTX 1060 Mobile] [10de:1c20] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
-  Integrated Graphics (HD 630) & GeForce GTX 1060 Mobile
+  Integrated Graphics (UHD 630) & GTX 1060 Mobile
 network: |
   Intel Corporation Wireless-AC 9560 [Jefferson Peak] (rev 10)
 memory: |
@@ -53,8 +53,6 @@ versions:
     remark: |
 
     credit: |
-      s smith
+      S. Smith
     link: |
-      https://groups.google.com/d/msgid/qubes-users/403278c0-208a-49eb-9667-31558dc4b5a8n%40googlegroups.com
-
----
+      https://groups.google.com/g/qubes-users/c/ABkapCe9wKw/m/uaj7Qkb7AAAJ
