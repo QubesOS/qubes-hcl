@@ -58,3 +58,18 @@ versions:
       @otter2
     link: |
       https://forum.qubes-os.org/t/27986
+
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.54-1
+    remark: |
+      device instability (webcam, bluetooth adapter)
+    credit: |
+      @otter2
+    link: |
+      https://forum.qubes-os.org/t/27986/2
