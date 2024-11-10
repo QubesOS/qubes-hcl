@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  TRX40 Pro WiFi (MS-7C60)
+bios: |
+  2.81
+cpu: |
+  AMD Ryzen Threadripper 3960X 24-Core Processor
+cpu-short: |
+  Ryzen 3960X
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex [1022:1480]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation AD102 [GeForce RTX 4090] [10de:2684] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce RTX 4090
+network: |
+  Intel Corporation I211 Gigabit Network Connection [8086:1539] (rev 03)
+  Intel Corporation I211 Gigabit Network Connection [8086:1539] (rev 03)
+memory: |
+  262039
+scsi: |
+  WDC  WDS100T2B0A Rev: 20WD
+usb: |
+  5
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.11.2-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/30077'><span class='icon'></span>read more</a>
+    credit: |
+      @BCSharp
+    link: |
+      https://forum.qubes-os.org/t/30077
