@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X13 Gen4 (21J3CTO1WW)
+bios: |
+  R29ET56W (1.30)
+cpu: |
+  AMD Ryzen 7 PRO 7840U w/ Radeon 780M Graphics
+cpu-short: |
+  Ryzen 7 PRO 7840U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14e8]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Phoenix1 [1002:15bf] (rev dd) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics
+network: |
+  Qualcomm Technologies, Inc QCNFA765 Wireless Network Adapter [17cb:1103] (rev 01)
+memory: |
+  31385
+scsi: |
+
+usb: |
+  8
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.54-1
+    remark: |
+      no WiFi, touchpad needs troubleshooting
+    credit: |
+      @Rectangle
+    link: |
+      https://forum.qubes-os.org/t/30083
