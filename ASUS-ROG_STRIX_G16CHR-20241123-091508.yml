@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  ASUS
+model: |
+  ROG STRIX (G16CHR)
+bios: |
+  G16CHR.325
+cpu: |
+  Intel(R) Core(TM) i9-14900K
+cpu-short: |
+  i9-14900K
+chipset: |
+  Intel Corporation Device [8086:a700] (rev 01)
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Raptor Lake-S GT1 [UHD Graphics 770] [8086:a780] (rev 04) (prog-if 00 [VGA controller])
+  NVIDIA Corporation AD104 [GeForce RTX 4070 SUPER] [10de:2783] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 770) & GeForce RTX 4070 SUPER
+network: |
+  Intel Corporation Raptor Lake-S PCH CNVi WiFi [8086:7a70] (rev 11)
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+memory: |
+  32476
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.3-alpha
+    xen: |
+      4.19.0
+    kernel: |
+      6.12.1-1
+    remark: |
+
+    credit: |
+      @Dutch
+    link: |
+      https://forum.qubes-os.org/t/30330
