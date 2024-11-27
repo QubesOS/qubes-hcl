@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Gigabyte
+model: |
+  A520M S2H
+bios: |
+  F12
+cpu: |
+  AMD Ryzen 3 PRO 4350G with Radeon Graphics
+cpu-short: |
+  Ryzen 3 PRO 4350G
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Renoir [1002:1636] (rev da) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Renoir)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 16)
+memory: |
+  15780
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.54-1
+    remark: |
+
+    credit: |
+      @IllBeBack
+    link: |
+      https://forum.qubes-os.org/t/30341
