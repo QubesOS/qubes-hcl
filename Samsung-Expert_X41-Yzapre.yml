@@ -43,17 +43,17 @@ usb: |
   1
 versions:
 
-- works:
-    'yes'
-  qubes: |
-    R4.1
-  xen: |
-    4.14.6
-  kernel: |
-    6.1.62-1
-  remark: |
+  - works:
+      'yes'
+    qubes: |
+      R4.1
+    xen: |
+      4.14.6
+    kernel: |
+      6.1.62-1
+    remark: |
 
-  credit: |
-    Yzapre
-  link: |
-    https://groups.google.com/g/qubes-users/c/8Wyz3a13YDY/m/WH7_xZ2YAAAJ
+    credit: |
+      Yzapre
+    link: |
+      https://groups.google.com/g/qubes-users/c/8Wyz3a13YDY/m/WH7_xZ2YAAAJ
