@@ -51,7 +51,7 @@ versions:
     kernel: |
       6.6.29-1
     remark: |
-      build-in cam doesn't work
+      built-in cam doesn't work
     credit: |
       @stancan
     link: |
