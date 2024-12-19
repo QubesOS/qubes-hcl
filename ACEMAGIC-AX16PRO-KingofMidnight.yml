@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  ACEMAGIC
+model: |
+  AX16PRO
+bios: |
+  2.15
+cpu: |
+  AMD Ryzen 7 5700U with Radeon Graphics
+cpu-short: |
+  Ryzen 7 5700U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Lucienne [1002:164c] (rev c1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon)
+network: |
+  Realtek Semiconductor Co., Ltd. Device [10ec:b852]
+memory: |
+  15752
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.11.2-1
+    remark: |
+
+    credit: |
+      @KingofMidnight (caio.volpato)
+    link: |
+      https://forum.qubes-os.org/t/30542
