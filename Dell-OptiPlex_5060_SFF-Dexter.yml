@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  OptiPlex 5060
+bios: |
+  1.25.0
+cpu: |
+  Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+cpu-short: |
+  i5-8500
+chipset: |
+  Intel Corporation 8th Gen Core Processor Host Bridge/DRAM Registers [8086:3ec2] (rev 07)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Intel Corporation CoffeeLake-S GT2 [UHD Graphics 630] [8086:3e92] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 630)
+network: |
+  Intel Corporation Ethernet Connection (7) I219-V [8086:15bc] (rev 10)
+memory: |
+  24372
+scsi: |
+  WDC WD5000LPVX-6 Rev: 1A01
+  DVD+-RW DU-8A5LH Rev: 6D1M
+  SK hynix SC401 S Rev: 0121
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.54-1
+    remark: |
+
+    credit: |
+      @Dexter
+    link: |
+      https://forum.qubes-os.org/t/30540
