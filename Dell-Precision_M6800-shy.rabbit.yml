@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '1.2'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision M6800
+bios: |
+  A23
+cpu: |
+  Intel(R) Core(TM) i7-4810MQ CPU @ 2.80GHz
+cpu-short: |
+  i7-4810MQ
+chipset: |
+  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller [8086:0c04] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416] (rev 06) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GK104GLM [Quadro K4100M] [10de:11b7] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4600) & Quadro K4100M
+network: |
+  Intel Corporation Ethernet Connection I217-LM [8086:153a] (rev 04)
+  Intel Corporation Wireless 7260 [8086:08b1] (rev 73)
+memory: |
+  32673
+scsi: |
+  ST2000LM015-2E81 Rev: 0001
+  DVD+-RW GS40N    Rev: A100
+  Samsung SSD 860  Rev: 1B6Q
+  KIOXIA-EXCERIA S Rev: 1a.1
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.54-1
+    remark: |
+
+    credit: |
+      @shy.rabbit
+    link: |
+      https://forum.qubes-os.org/t/30786
