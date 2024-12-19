@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  TUF Gaming (FX505DU)
+bios: |
+  FX505DU.316
+cpu: |
+  AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx
+cpu-short: |
+  Ryzen 7 3750H
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Root Complex [1022:15d0]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation TU116M [GeForce GTX 1660 Ti Mobile] [10de:2191] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series] [1002:15d8] (rev c1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Vega) & GeForce GTX 1660M
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+  Realtek Semiconductor Co., Ltd. RTL8822BE 802.11a/b/g/n/ac WiFi adapter [10ec:b822]
+memory: |
+  15807
+scsi: |
+  TOSHIBA MQ04ABF1 Rev: 0J
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.48-1
+    remark: |
+
+    credit: |
+      @HadManySons
+    link: |
+      https://forum.qubes-os.org/t/30883
