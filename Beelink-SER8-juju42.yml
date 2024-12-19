@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'no'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'no'
+brand: |
+  Beelink
+model: |
+  SER8
+bios: |
+  HPT.8xxx.SER8.V029.P8C0M0C15.08.Link
+cpu: |
+  AMD Ryzen 7 8745HS w/ Radeon 780M Graphics
+cpu-short: |
+  Ryzen 7 8745HS
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14e8]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:1900] (rev b3) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon 780M)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+  Intel Corporation Wi-Fi 6 AX200 [8086:2723] (rev 1a)
+memory: |
+  28457
+scsi: |
+
+usb: |
+  7
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.48-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/30493'><span class='icon'></span>read more</a>
+    credit: |
+      @juju42
+    link: |
+      https://forum.qubes-os.org/t/30493
