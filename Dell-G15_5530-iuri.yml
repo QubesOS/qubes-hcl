@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  G15 5530
+bios: |
+  1.20.0
+cpu: |
+  13th Gen Intel(R) Core(TM) i5-13450HX
+cpu-short: |
+  i5-13450HX
+chipset: |
+  Intel Corporation Device [8086:a719] (rev 01)
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Raptor Lake-S UHD Graphics [8086:a78b] (rev 04) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GN20-P0-R-K2 [GeForce RTX 3050 6GB Laptop GPU] [10de:25ec] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD) & GeForce RTX 3050
+network: |
+  Intel Corporation Device [8086:7a70] (rev 11)
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+memory: |
+  32452
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.48-1
+    remark: |
+
+    credit: |
+      @iuri
+    link: |
+      https://forum.qubes-os.org/t/31091
