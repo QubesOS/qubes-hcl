@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision 7540
+bios: |
+  1.31.0
+cpu: |
+  Intel(R) Xeon(R) E-2276M  CPU @ 2.80GHz
+cpu-short: |
+  Xeon E-2276M
+chipset: |
+  Intel Corporation 8th Gen Core Processor Host Bridge/DRAM Registers [8086:3ec4] (rev 0d)
+chipset-short: |
+  Cannon Lake
+gpu: |
+  Intel Corporation CoffeeLake-H GT2 [UHD Graphics 630] [8086:3e9b] (rev 02) (prog-if 00 [VGA controller])
+  NVIDIA Corporation TU106GLM [Quadro RTX 3000 Mobile / Max-Q] [10de:1f36] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 630) & Quadro RTX 3000 Mobile
+network: |
+  Intel Corporation Ethernet Connection (7) I219-LM [8086:15bb] (rev 10)
+  Intel Corporation Wi-Fi 6 AX200 [8086:2723] (rev 1a)
+memory: |
+  130821
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.11.10-1
+    remark: |
+
+    credit: |
+      @had127
+    link: |
+      https://forum.qubes-os.org/t/30923
