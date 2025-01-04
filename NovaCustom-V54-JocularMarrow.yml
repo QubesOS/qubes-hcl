@@ -52,7 +52,7 @@ versions:
     kernel: |
       6.6.65-1
     remark: |
-      hdmi, ethernet not tested
+      ethernet not tested
     credit: |
       @JocularMarrow
     link: |
