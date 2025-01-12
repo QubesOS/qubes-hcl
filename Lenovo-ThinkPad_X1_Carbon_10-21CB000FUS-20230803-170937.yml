@@ -55,5 +55,19 @@ versions:
       @cfm
     link: |
       https://forum.qubes-os.org/t/20190/
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.65-1
+    remark: |
+
+    credit: |
+      @cfm
+    link: |
+      https://forum.qubes-os.org/t/20190/3
 
 ---
