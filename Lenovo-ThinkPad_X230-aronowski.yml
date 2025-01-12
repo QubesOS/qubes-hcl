@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '1.2'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad X230 (23259S2)
+bios: |
+  G2ETB4WW (2.74 )
+cpu: |
+  Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz
+cpu-short: |
+  i5-3230M
+chipset: |
+  Intel Corporation 3rd Gen Core processor DRAM Controller [8086:0154] (rev 09)
+chipset-short: |
+  Ivy Bridge
+gpu: |
+  Intel Corporation 3rd Gen Core processor Graphics Controller [8086:0166] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 4000)
+network: |
+  Intel Corporation 82579LM Gigabit Network Connection (Lewisville) [8086:1502] (rev 04)
+  Intel Corporation Centrino Advanced-N 6205 [Taylor Peak] [8086:0085] (rev 34)
+memory: |
+  8009
+scsi: |
+  SSD 128GB        Rev: 22A1
+usb: |
+  3
+certified:
+  'yes'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.48-1
+    remark: |
+
+    credit: |
+      @aronowski
+    link: |
+      https://forum.qubes-os.org/t/5849/7
