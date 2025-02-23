@@ -72,4 +72,18 @@ versions:
     link: |
       https://forum.qubes-os.org/t/5855/105
 
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.68-1
+    remark: |
+
+    credit: |
+      @FranklyFlawless
+    link: |
+      https://forum.qubes-os.org/t/5855/106
 ---
