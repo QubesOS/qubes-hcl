@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision 5570
+bios: |
+  1.13.1
+cpu: |
+  12th Gen Intel(R) Core(TM) i9-12900H
+cpu-short: |
+  i9-12900H
+chipset: |
+  Intel Corporation 12th Gen Core Processor Host Bridge/DRAM Registers [8086:4641] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Alder Lake-P GT2 [Iris Xe Graphics] [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Alder Lake-P PCH CNVi WiFi [8086:51f0] (rev 01)
+memory: |
+  65207
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.65-1
+    remark: |
+      kernel-latest needed
+    credit: |
+      @3isenHeiM
+    link: |
+      https://forum.qubes-os.org/t/31545
