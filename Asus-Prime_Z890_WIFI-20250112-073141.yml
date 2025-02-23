@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  Prime Z890-P WiFi
+bios: |
+  1004
+cpu: |
+  Intel(R) Core(TM) Ultra 7 265K
+cpu-short: |
+  Ultra 7 265K
+chipset: |
+  Intel Corporation Device [8086:7d1b] (rev 01)
+chipset-short: |
+  Arrow Lake
+gpu: |
+  Intel Corporation Arrow Lake-S [Intel Graphics] [8086:7d67] (rev 06) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] [1002:731f] (rev c1) (prog-if 00 [VGA controller])
+  Intel Corporation Device [8086:7f2f] (rev 10)
+gpu-short: |
+  Integrated Graphics & Radeon RX 5700 XT
+network: |
+  MEDIATEK Corp. Device [14c3:7925]
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 0c)
+memory: |
+  32142
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.3-alpha
+    xen: |
+      4.19.1
+    kernel: |
+      6.13-rc6 (20250110)
+    remark: |
+      kernel does not support many bridges on this motherboard yet
+    credit: |
+      @Dutch
+    link: |
+      https://forum.qubes-os.org/t/31467
