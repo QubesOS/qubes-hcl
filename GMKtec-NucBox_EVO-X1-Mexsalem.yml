@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  GMKtec
+model: |
+  NucBox EVO-X1
+bios: |
+  NucBox EVO-X1 1.02
+cpu: |
+  AMD Ryzen AI 9 HX 370 w/ Radeon 890M
+cpu-short: |
+  Ryzen AI 9 HX 370
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:1507]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:150e] (rev c1)
+gpu-short: |
+  Integrated Graphics
+network: |
+  Intel Corporation Wi-Fi 6 AX200 [8086:2723] (rev 1a)
+  Intel Corporation Ethernet Controller I226-V [8086:125c] (rev 04)
+memory: |
+  28280
+scsi: |
+
+usb: |
+  5
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.68-1
+    remark: |
+
+    credit: |
+      @Mexsalem
+    link: |
+      https://forum.qubes-os.org/t/31755
