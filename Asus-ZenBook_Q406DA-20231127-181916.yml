@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  ZenBook (Q406DA)
+bios: |
+  Q406DA.312
+cpu: |
+  AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx
+cpu-short: |
+  Ryzen 5 3500U
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Root Complex [1022:15d0]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series] [1002:15d8] (rev c2) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Radeon)
+network: |
+  Intel Corporation Wireless 8265 / 8275 [8086:24fd] (rev 78)
+memory: |
+  6091
+scsi: |
+  SanDisk SD9SN8W2 Rev: 6002
+  USB DISK 2.0     Rev: PMAP
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'no'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.77-1
+    remark: |
+
+    credit: |
+      @Droplet6200
+    link: |
+      https://forum.qubes-os.org/t/32407
