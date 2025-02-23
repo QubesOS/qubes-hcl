@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  Precision Tower 5810
+bios: |
+  A34
+cpu: |
+  Intel(R) Xeon(R) CPU E5-2699 v3 @ 2.30GHz
+cpu-short: |
+  E5-2699 v3
+chipset: |
+  Intel Corporation Xeon E7 v3/Xeon E5 v3/Core i7 DMI2 [8086:2f00] (rev 02)
+chipset-short: |
+  Haswell
+gpu: |
+  NVIDIA Corporation GP106 [GeForce GTX 1060 6GB] [10de:1c03] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce GTX 1060
+network: |
+  Intel Corporation Ethernet Connection I217-LM [8086:153a] (rev 05)
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+memory: |
+  81841
+scsi: |
+  DVD+-RW GTA0N    Rev: A1C0
+  SanDisk Ultra II Rev: 20RL
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.77-1
+    remark: |
+      need to remove ASR-8405 RAID controller
+    credit: |
+      @grini_d
+    link: |
+      https://forum.qubes-os.org/t/32432
