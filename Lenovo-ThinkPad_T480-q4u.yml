@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad T480
+bios: |
+  Libreboot 20241206rev8
+cpu: |
+  Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz
+cpu-short: |
+  i5-8350U
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5914] (rev 08)
+chipset-short: |
+  Kaby Lake
+gpu: |
+  Intel Corporation UHD Graphics 620 [8086:5917] (rev 07) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 620)
+network: |
+  Intel Corporation Ethernet Connection (4) I219-LM [8086:15d7] (rev 21)
+  Intel Corporation Wireless 8265 / 8275 [8086:24fd] (rev 78)
+memory: |
+  24489
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.68-1
+    remark: |
+
+    credit: |
+      @q4u
+    link: |
+      https://forum.qubes-os.org/t/3290/61
