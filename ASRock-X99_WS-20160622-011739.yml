@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Xeon E5 v3/Core i7 DMI2 [8086:2f00] (rev 02)
 chipset-short: |
-  Xeon E5
+  Haswell
 gpu: |
   Advanced Micro Devices, Inc. [AMD/ATI] Cayman XT [Radeon HD 6970] [1002:6718] (prog-if 00 [VGA controller])
   Advanced Micro Devices, Inc. [AMD/ATI] Caicos PRO [Radeon HD 7450] [1002:677b] (prog-if 00 [VGA controller])

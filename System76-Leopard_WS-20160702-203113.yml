@@ -22,7 +22,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Xeon E7 v3/Xeon E5 v3/Core i7 DMI2 [8086:2f00] (rev 02)
 chipset-short: |
-  Intel
+  Haswell
 gpu: |
   NVIDIA Corporation GM206 [GeForce GTX 960] [10de:1401] (rev a1) (prog-if 00 [VGA controller])
 gpu-short: |
