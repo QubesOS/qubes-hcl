@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad L390 Yoga (20NUS01W00)
+bios: |
+  R10ET54W (1.39 )
+cpu: |
+  Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+cpu-short: |
+  i5-8265U
+chipset: |
+  Intel Corporation Coffee Lake HOST and DRAM Controller [8086:3e34] (rev 0b)
+chipset-short: |
+  Whiskey Lake
+gpu: |
+  Intel Corporation WhiskeyLake-U GT2 [UHD Graphics 620] [8086:3ea0] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 620)
+network: |
+  Intel Corporation Cannon Point-LP CNVi [Wireless-AC] [8086:9df0] (rev 11)
+  Intel Corporation Ethernet Connection (6) I219-V [8086:15be] (rev 11)
+memory: |
+  7947
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.65-1
+    remark: |
+      no touch display
+    credit: |
+      @redcreed
+    link: |
+      https://forum.qubes-os.org/t/31628
