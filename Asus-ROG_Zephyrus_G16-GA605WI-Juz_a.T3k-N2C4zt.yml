@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  ROG Zephyrus G16 (GA605WI)
+bios: |
+  GA605WI.310
+cpu: |
+  AMD Ryzen AI 9 HX 370 w/ Radeon 890M
+cpu-short: |
+  Ryzen AI 9 HX 370
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:1507]
+chipset-short: |
+  AMD
+gpu: |
+  NVIDIA Corporation AD106M [GeForce RTX 4070 Max-Q / Mobile] [10de:2860] (rev a1) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Device [1002:150e] (rev c1)
+gpu-short: |
+  Integrated Graphics (Radeon) & GeForce RTX 4070 Max-Q
+network: |
+  MEDIATEK Corp. Device [14c3:7925]
+memory: |
+  31864
+scsi: |
+
+usb: |
+  5
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.3
+    xen: |
+      4.17.4
+    kernel: |
+      6.6.48-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/31692'><span class='icon'></span>needs workaround</a>
+    credit: |
+      @Juz_a.T3k-N2C4zt
+    link: |
+      https://forum.qubes-os.org/t/31692
