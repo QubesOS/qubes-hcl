@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  MAG Z790 Tomahawk (MS-7E25)
+bios: |
+  A.80
+cpu: |
+  12th Gen Intel(R) Core(TM) i9-12900K
+cpu-short: |
+  i9-12900K
+chipset: |
+  Intel Corporation 12th Gen Core Processor Host Bridge/DRAM Registers [8086:4660] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation AlderLake-S GT1 [8086:4680] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD 770)
+network: |
+  Intel Corporation Ethernet Controller I225-V [8086:15f3] (rev 03)
+  Qualcomm Technologies, Inc Device [17cb:1107] (rev 01)
+memory: |
+  65207
+scsi: |
+
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.12.11-1
+    remark: |
+      WiFi7 adapter not supported
+    credit: |
+      @joe.blough
+    link: |
+      https://forum.qubes-os.org/t/24071/3
