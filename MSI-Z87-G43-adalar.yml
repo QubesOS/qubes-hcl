@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  MSI
+model: |
+  Z87-G43 (MS-7816)
+bios: |
+  V17.11
+cpu: |
+  Intel(R) Xeon(R) CPU E3-1268L v3 @ 2.30GHz
+cpu-short: |
+  E3-1268L v3
+chipset: |
+  Intel Corporation Xeon E3-1200 v3 Processor DRAM Controller [8086:0c08] (rev 06)
+chipset-short: |
+  Haswell
+gpu: |
+  NVIDIA Corporation GM204 [GeForce GTX 970] [10de:13c2] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  GeForce GTX 970
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 06)
+memory: |
+  16329
+scsi: |
+  CT240BX500SSD1   Rev: 056
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.12.11-1
+    remark: |
+      remove the Adaptec Series 6 RAID card for booting
+    credit: |
+      @adalar
+    link: |
+      https://forum.qubes-os.org/t/32485
