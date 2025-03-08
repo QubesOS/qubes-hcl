@@ -101,4 +101,18 @@ versions:
       @HPOA909
     link: |
       https://forum.qubes-os.org/t/5851/65
----
+
+  - works:
+      'yes'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.13.4-1
+    remark: |
+
+    credit: |
+      @HPOA909
+    link: |
+      https://forum.qubes-os.org/t/5851/77
