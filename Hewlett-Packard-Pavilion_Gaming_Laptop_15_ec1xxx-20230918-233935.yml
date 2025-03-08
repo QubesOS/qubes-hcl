@@ -58,3 +58,18 @@ versions:
       @qos_newbie
     link: |
       https://forum.qubes-os.org/t/20989
+
+  - works:
+      'partial'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.68-1
+    remark: |
+      touchpad doesn't work
+    credit: |
+      @F12
+    link: |
+      https://forum.qubes-os.org/t/20989/3
