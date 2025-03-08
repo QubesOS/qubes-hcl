@@ -86,4 +86,19 @@ versions:
       @FranklyFlawless
     link: |
       https://forum.qubes-os.org/t/5855/106
+
+  - works:
+      'yes'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.12.11-1
+    remark: |
+
+    credit: |
+      @FranklyFlawless
+    link: |
+      https://forum.qubes-os.org/t/5855/108      
 ---
