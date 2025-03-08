@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad T16 Gen 2 (21HHS1C600)
+bios: |
+  N3QET44W (1.44 )
+cpu: |
+  13th Gen Intel(R) Core(TM) i7-1355U
+cpu-short: |
+  i7-1355U
+chipset: |
+  Intel Corporation Raptor Lake-P/U 2p+8e cores Host Bridge/DRAM Controller [8086:a708] (rev 01)
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Raptor Lake-P [Iris Xe Graphics] [8086:a7a1] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Raptor Lake PCH CNVi WiFi [8086:51f1] (rev 01)
+  Intel Corporation Device [8086:0dc6] (rev 01)
+memory: |
+  32440
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.77-1
+    remark: |
+      BT, Audio issues
+    credit: |
+      @daem0ni
+    link: |
+      https://forum.qubes-os.org/t/32714
