@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '1.2'
+remap:
+  'yes'
+brand: |
+  Google
+model: |
+  Chromebook Pixel 2025 (Samus)
+bios: |
+  MrChromebox-2408.1
+cpu: |
+  Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+cpu-short: |
+  i7-5500U
+chipset: |
+  Intel Corporation Broadwell-U Host Bridge -OPI [8086:1604] (rev 09)
+chipset-short: |
+  Broadwell-U
+gpu: |
+  Intel Corporation HD Graphics 5500 [8086:1616] (rev 09) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 5500)
+network: |
+  Intel Corporation Wireless 7260 [8086:08b1] (rev cb)
+memory: |
+  16251
+scsi: |
+  KINGSTON RBU-SUS Rev: 02.3
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.12.11-1
+    remark: |
+      sounds, mic not working
+    credit: |
+      @q4u
+    link: |
+      https://forum.qubes-os.org/t/32699
