@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 15 9570
+bios: |
+  1.20.0
+cpu: |
+  Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz
+cpu-short: |
+  i5-8300H
+chipset: |
+  Intel Corporation 8th Gen Core 4-core Processor Host Bridge/DRAM Registers [Coffee Lake H] [8086:3e10] (rev 07)
+chipset-short: |
+  Coffee Lake
+gpu: |
+  Intel Corporation CoffeeLake-H GT2 [UHD Graphics 630] [8086:3e9b] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD 630)
+network: |
+  Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter [168c:003e] (rev 32)
+  1535]
+memory: |
+  32428
+scsi: |
+  SK hynix SC311 S Rev: 0P10
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.77-1
+    remark: |
+      warm boot and suspend do not work
+    credit: |
+      @marcos-morar
+    link: |
+      https://forum.qubes-os.org/t/32721
