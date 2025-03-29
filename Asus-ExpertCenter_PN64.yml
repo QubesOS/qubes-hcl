@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  ExpertCenter PN64
+bios: |
+  3.04.00
+cpu: |
+  12th Gen Intel(R) Core(TM) i3-1220P
+cpu-short: |
+  i3-1220P
+chipset: |
+  Intel Corporation Device [8086:4601] (rev 04)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Alder Lake-UP3 GT1 [UHD Graphics] [8086:46b3] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD)
+network: |
+  Intel Corporation Ethernet Controller I225-V [8086:15f3] (rev 03)
+memory: |
+  30378
+scsi: |
+
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.77-1
+    remark: |
+
+    credit: |
+      @MaPo
+    link: |
+      https://forum.qubes-os.org/t/33053
