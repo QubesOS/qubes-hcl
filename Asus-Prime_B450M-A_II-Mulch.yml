@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  PRIME B450M-A II
+bios: |
+  4202
+cpu: |
+  AMD Ryzen 5 4600G with Radeon Graphics
+cpu-short: |
+  Ryzen 5 4600G
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex [1022:1630]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Renoir [1002:1636] (rev c9) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Renoir)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+memory: |
+  64809
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.77-1
+    remark: |
+      no wake/sleep
+    credit: |
+      @Mulch
+    link: |
+      https://forum.qubes-os.org/t/32841
