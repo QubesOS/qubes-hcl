@@ -1,0 +1,61 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Asus
+model: |
+  Proart Z890 Creator WiFi 7
+bios: |
+  1602
+cpu: |
+  Intel(R) Core(TM) Ultra 9 285K
+cpu-short: |
+  Ultra 9 285K
+chipset: |
+  Intel Corporation Device [8086:7d1a] (rev 01)
+chipset-short: |
+  Arrow Lake
+gpu: |
+  Intel Corporation Arrow Lake-S [Intel Graphics] [8086:7d67] (rev 06) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GN22 [GeForce RTX 5070] [10de:2f04] (rev a1) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics & GeForce RTX 5070
+network: |
+  Aquantia Corp. AQtion AQC113 NBase-T/IEEE 802.3an Ethernet Controller [Antigua 10G] [1d6a:04c0] (rev 03)
+  Intel Corporation Ethernet Controller I226-V [8086:125c] (rev 06)
+  Intel Corporation Wi-Fi 7(802.11be) AX1775*/AX1790*/BE20*/BE401/BE1750* 2x2 [8086:272b] (rev 1a)
+memory: |
+  48407
+scsi: |
+
+usb: |
+  6
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.3-alpha
+    xen: |
+      4.19.1
+    kernel: |
+      6.14.0-1
+    remark: |
+
+    credit: |
+      @Dutch
+    link: |
+      https://forum.qubes-os.org/t/33106
