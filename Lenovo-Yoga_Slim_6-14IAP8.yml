@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  Lenovo Yoga Slim 6 (14IAP8/83C7)
+bios: |
+  KTCN45WW
+cpu: |
+  12th Gen Intel(R) Core(TM) i7-1260P
+cpu-short: |
+  i7-1260P
+chipset: |
+  Intel Corporation Device [8086:4621] (rev 02)
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Alder Lake-P GT2 [Iris Xe Graphics] [8086:46a6] (rev 0c) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Alder Lake-P PCH CNVi WiFi [8086:51f0] (rev 01)
+memory: |
+  16109
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.77-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/32781'><span class='icon'></span>some limitations</a>
+    credit: |
+      @lammer
+    link: |
+      https://forum.qubes-os.org/t/32781
