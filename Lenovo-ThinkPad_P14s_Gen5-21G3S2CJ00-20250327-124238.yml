@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad P14s Gen 5(21G3S2CJ00)
+bios: |
+  R2DET36W (1.21 )
+cpu: |
+  Intel(R) Core(TM) Ultra 9 185H
+cpu-short: |
+  Ultra 9 185H
+chipset: |
+  Intel Corporation Device [8086:7d01] (rev 04)
+chipset-short: |
+  Meteor Lake
+gpu: |
+  Intel Corporation Meteor Lake-P [Intel Arc Graphics] [8086:7d55] (rev 08) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Arc)
+network: |
+  Intel Corporation Device [8086:7e40] (rev 20)
+  Intel Corporation Device [8086:550a] (rev 20)
+memory: |
+  64969
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.13.6-1
+    remark: |
+
+    credit: |
+      @QUSER1
+    link: |
+      https://forum.qubes-os.org/t/33101
