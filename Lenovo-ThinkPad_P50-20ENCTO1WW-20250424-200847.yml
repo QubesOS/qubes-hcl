@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '1.2'
+remap:
+  'yes'
+brand: |
+  Lenovo
+model: |
+  ThinkPad P50 (20ENCTO1WW)
+bios: |
+  N1EETA2W (1.75)
+cpu: |
+  Intel(R) Xeon(R) CPU E3-1535M v5 @ 2.90GHz
+cpu-short: |
+  E3-1535M v5
+chipset: |
+  Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers [8086:1918] (rev 07)
+chipset-short: |
+  Skylake
+gpu: |
+  Intel Corporation HD Graphics P530 [8086:191d] (rev 06) (prog-if 00 [VGA controller])
+  NVIDIA Corporation GM107GLM [Quadro M2000M] [10de:13b0] (rev a2) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (HD) & Quadro M2000M
+network: |
+  Intel Corporation Ethernet Connection (2) I219-LM [8086:15b7] (rev 31)
+  Intel Corporation Wireless 8260 [8086:24f3] (rev 3a)
+memory: |
+  65230
+scsi: |
+  Samsung SSD 850  Rev: 4B6Q
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.12.18-1
+    remark: |
+      Networking issues, <a class='ext-link' href='https://forum.qubes-os.org/t/33644'><span class='icon'></span>read more</a>
+    credit: |
+      @mkowalski
+    link: |
+      https://forum.qubes-os.org/t/33644
