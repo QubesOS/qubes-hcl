@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'motherboard'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Minisforum
+model: |
+  BD795m
+bios: |
+  1.02
+cpu: |
+  AMD Ryzen 9 7945HX with Radeon Graphics
+cpu-short: |
+  Ryzen 9 7945HX
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:14d8]
+chipset-short: |
+  AMD
+gpu: |
+  Advanced Micro Devices, Inc. [AMD/ATI] Raphael [1002:164e] (rev d8) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (AMD)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+memory: |
+  31456
+scsi: |
+
+usb: |
+  3
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.12.25-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/34253'><span class='icon'></span>read more</a>
+    credit: |
+      @noskb
+    link: |
+      https://forum.qubes-os.org/t/34253
