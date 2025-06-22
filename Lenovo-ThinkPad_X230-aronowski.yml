@@ -57,3 +57,18 @@ versions:
       @aronowski
     link: |
       https://forum.qubes-os.org/t/5849/7
+
+  - works:
+      'yes'
+    qubes: |
+      R4.3-alpha
+    xen: |
+      4.19.1
+    kernel: |
+      6.12.21-1
+    remark: |
+
+    credit: |
+      @aronowski
+    link: |
+      https://forum.qubes-os.org/t/5849/9
