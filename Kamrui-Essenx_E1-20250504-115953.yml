@@ -1,0 +1,60 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Kamrui
+model: |
+  Essenx E1
+bios: |
+  5.26
+cpu: |
+  Intel(R) N95
+cpu-short: |
+  N95
+chipset: |
+  Intel Corporation Device [8086:4618]
+chipset-short: |
+  Alder Lake-N
+gpu: |
+  Intel Corporation Alder Lake-N [UHD Graphics] [8086:46d2] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD)
+network: |
+  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 15)
+  Realtek Semiconductor Co., Ltd. RTL8821CE 802.11ac PCIe Wireless Network Adapter [10ec:c821]
+  c821]
+memory: |
+  16159
+scsi: |
+  G537N 512G       Rev: 914a
+usb: |
+  1
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.6.77-1
+    remark: |
+
+    credit: |
+      @xuid0
+    link: |
+      https://forum.qubes-os.org/t/33764
