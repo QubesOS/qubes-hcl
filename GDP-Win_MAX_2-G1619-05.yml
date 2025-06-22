@@ -2,7 +2,7 @@
 layout:
   'hcl'
 type:
-  'desktop'
+  'laptop'
 hvm:
   'yes'
 iommu:
@@ -14,15 +14,15 @@ tpm:
 remap:
   'yes'
 brand: |
-  GMKtec
+  GPD
 model: |
-  NucBox EVO-X1
+  Win MAX 2 (G1619-05)
 bios: |
-  NucBox EVO-X1 1.02
+  0.19
 cpu: |
   AMD Ryzen AI 9 HX 370 w/ Radeon 890M
 cpu-short: |
-  Ryzen AI 9 HX 370
+  AI 9 HX 370
 chipset: |
   Advanced Micro Devices, Inc. [AMD] Device [1022:1507]
 chipset-short: |
@@ -32,28 +32,27 @@ gpu: |
 gpu-short: |
   Integrated Graphics (Radeon)
 network: |
-  Intel Corporation Wi-Fi 6 AX200 [8086:2723] (rev 1a)
-  Intel Corporation Ethernet Controller I226-V [8086:125c] (rev 04)
+  Intel Corporation Wi-Fi 6 AX210/AX211/AX411 160MHz [8086:2725] (rev 1a)
 memory: |
-  28280
+  61048
 scsi: |
 
 usb: |
-  5
+  6
 certified:
   'no'
 versions:
   - works:
       'yes'
     qubes: |
-      R4.2.3
+      R4.2.4
     xen: |
       4.17.5
     kernel: |
-      6.6.68-1
+      6.14.4-1
     remark: |
-
+      <a class='ext-link' href='https://groups.google.com/g/qubes-users/c/HiqXij3VB3s'><span class='icon'></span>read more</a>
     credit: |
-      @Mexsalem
+      Karl Kaefer
     link: |
-      https://forum.qubes-os.org/t/31755
+      https://groups.google.com/g/qubes-users/c/HiqXij3VB3s
