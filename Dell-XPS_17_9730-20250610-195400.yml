@@ -1,0 +1,58 @@
+---
+layout:
+  'hcl'
+type:
+  'laptop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  XPS 17 9730
+bios: |
+  1.19.1
+cpu: |
+  13th Gen Intel(R) Core(TM) i7-13700H
+cpu-short: |
+  i7-13700H
+chipset: |
+  Intel Corporation Device [8086:a706]
+chipset-short: |
+  Raptor Lake
+gpu: |
+  Intel Corporation Raptor Lake-P [Iris Xe Graphics] [8086:a7a0] (rev 04) (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (Iris Xe)
+network: |
+  Intel Corporation Raptor Lake PCH CNVi WiFi [8086:51f1] (rev 01)
+memory: |
+  97988
+scsi: |
+
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.14.4-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/34329'><span class='icon'></span>read more</a>
+    credit: |
+      @kindagreen
+    link: |
+      https://forum.qubes-os.org/t/34329
