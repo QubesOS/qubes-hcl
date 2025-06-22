@@ -1,0 +1,7 @@
+{
+  "Read More Link": {
+    "prefix": "read_more",
+    "body": "<a class='ext-link' href=''><span class='icon'></span>read more</a>",
+    "description": "Expands to a read more link with icon"
+  }
+}
