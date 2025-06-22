@@ -1,0 +1,59 @@
+---
+layout:
+  'hcl'
+type:
+  'desktop'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  '2.0'
+remap:
+  'yes'
+brand: |
+  Radxa
+model: |
+  X4
+bios: |
+  5.27
+cpu: |
+  Intel(R) N100
+cpu-short: |
+  N100
+chipset: |
+  Intel Corporation Device [8086:461c]
+chipset-short: |
+  Alder Lake
+gpu: |
+  Intel Corporation Alder Lake-N [UHD Graphics] [8086:46d1] (prog-if 00 [VGA controller])
+gpu-short: |
+  Integrated Graphics (UHD)
+network: |
+  Realtek Semiconductor Co., Ltd. Device [10ec:b852]
+  Intel Corporation Ethernet Controller I226-V [8086:125c] (rev 04)
+memory: |
+  16156
+scsi: |
+
+usb: |
+  2
+certified:
+  'no'
+versions:
+  - works:
+      'yes'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.13.7-1
+    remark: |
+
+    credit: |
+      @q4u
+    link: |
+      https://forum.qubes-os.org/t/33373
