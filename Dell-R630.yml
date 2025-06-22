@@ -1,0 +1,63 @@
+---
+layout:
+  'hcl'
+type:
+  'server'
+hvm:
+  'yes'
+iommu:
+  'yes'
+slat:
+  'yes'
+tpm:
+  'unknown'
+remap:
+  'yes'
+brand: |
+  Dell
+model: |
+  PowerEdge R630
+bios: |
+  2.16.0
+cpu: |
+  Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz
+cpu-short: |
+  E5-2690 v4
+chipset: |
+  Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2 [8086:6f00] (rev 01)
+chipset-short: |
+  Broadwell
+gpu: |
+  Matrox Electronics Systems Ltd. G200eR2 [102b:0534] (rev 01) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Lexa PRO [Radeon 540/540X/550/550X / RX 540X/550/550X] [1002:699f] (rev c7) (prog-if 00 [VGA controller])
+  Advanced Micro Devices, Inc. [AMD/ATI] Cape Verde GL [FirePro W4100] [1002:682c] (prog-if 00 [VGA controller])
+gpu-short: |
+  G200eR2 & RX 550 & FirePro W4100
+network: |
+  Broadcom Inc. and subsidiaries BCM57416 NetXtreme-E Dual-Media 10G RDMA Ethernet Controller [14e4:16d8] (rev 01)
+  Broadcom Inc. and subsidiaries BCM57416 NetXtreme-E Dual-Media 10G RDMA Ethernet Controller [14e4:16d8] (rev 01)
+  Broadcom Inc. and subsidiaries NetXtreme BCM5720 Gigabit Ethernet PCIe [14e4:165f]
+  Broadcom Inc. and subsidiaries NetXtreme BCM5720 Gigabit Ethernet PCIe [14e4:165f]
+memory: |
+  130850
+scsi: |
+  WD Blue SA510 2. Rev: 00WD
+usb: |
+  4
+certified:
+  'no'
+versions:
+  - works:
+      'partial'
+    qubes: |
+      R4.2.4
+    xen: |
+      4.17.5
+    kernel: |
+      6.13.7-1
+    remark: |
+      <a class='ext-link' href='https://forum.qubes-os.org/t/33265'><span class='icon'></span>read more</a>
+    credit: |
+      @q4u
+    link: |
+      https://forum.qubes-os.org/t/33265

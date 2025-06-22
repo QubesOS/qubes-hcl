@@ -24,7 +24,7 @@ cpu-short: |
 chipset: |
   Intel Corporation Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2 [8086:6f00] (rev 01)
 chipset-short: |
-  Xeon
+  Broadwell E
 gpu: |
   NVIDIA Corporation GM107 [GeForce GTX 750 Ti] [10de:1380] (rev a2) (prog-if 00 [VGA controller])
 gpu-short: |
